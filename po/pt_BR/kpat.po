@@ -4,10 +4,11 @@
 #
 #, fuzzy
 msgid ""
-msgstr "Project-Id-Version: kpat\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
-       "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
+msgstr ""
+"Project-Id-Version: kpat\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"PO-Revision-Date: 1998-06-23 09:00-0300\n"
+"Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
@@ -91,8 +92,9 @@ msgstr "Regras difíceis"
 msgid ""
 "This will end the current game\n"
 "Are you sure you want to do this?"
-msgstr "Isto irá terminar o jogo atual\n"
-       "Deseja mesmo fazer isto?"
+msgstr ""
+"Isto irá terminar o jogo atual\n"
+"Deseja mesmo fazer isto?"
 
 #: mod3.cpp:137
 msgid "No more cards"

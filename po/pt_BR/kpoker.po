@@ -4,10 +4,11 @@
 #
 #, fuzzy
 msgid ""
-msgstr "Project-Id-Version: kpoker\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
-       "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
+msgstr ""
+"Project-Id-Version: kpoker\n"
+"POT-Creation-Date: 1998-06-18 22:46+0200\n"
+"PO-Revision-Date: 1998-06-23 09:00-0300\n"
+"Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 
 #: kpoker.cpp:98
 msgid "Draw !"

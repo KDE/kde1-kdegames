@@ -9,23 +9,23 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: dialogs.cpp:95
 #
+#: dialogs.cpp:95
 msgid "Customize Game"
 msgstr "Personalizza il gioco"
 
-#: dialogs.cpp:124
 #
+#: dialogs.cpp:124
 msgid "Width"
 msgstr "Larghezza"
 
-#: dialogs.cpp:149
 #
+#: dialogs.cpp:149
 msgid "Height"
 msgstr "Altezza"
 
-#: dialogs.cpp:174
 #
+#: dialogs.cpp:174
 msgid "Mines"
 msgstr "Mine"
 
@@ -45,8 +45,8 @@ msgstr "Esperto"
 msgid "in"
 msgstr "in"
 
-#: dialogs.cpp:332
 #
+#: dialogs.cpp:332
 msgid "minutes"
 msgstr "minuti"
 

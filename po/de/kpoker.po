@@ -103,4 +103,3 @@ msgstr "&Neues Spiel"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Sound"
-

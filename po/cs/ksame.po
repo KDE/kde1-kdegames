@@ -46,7 +46,10 @@ msgid ""
 "\n"
 "\n"
 "by Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
-msgstr "\n\nnapsal Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
+msgstr ""
+"\n"
+"\n"
+"napsal Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
 
 #: KSameWidget.cpp:91
 msgid "Colors: XX"

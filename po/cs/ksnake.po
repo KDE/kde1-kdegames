@@ -94,7 +94,11 @@ msgid ""
 "\n"
 "\n"
 "by Michel Filippi (mfilippi@sade.rhein-main.de)"
-msgstr "\n\n\nnapsal Michel Filippi (mfilippi@sade.rhein-main.de)"
+msgstr ""
+"\n"
+"\n"
+"\n"
+"napsal Michel Filippi (mfilippi@sade.rhein-main.de)"
 
 #: keys.cpp:24
 msgid "Defaults"

@@ -124,4 +124,3 @@ msgstr "Úroveò"
 #: main.cpp:143
 msgid "Show menu bar"
 msgstr "Zobrazi» menu"
-

@@ -9,8 +9,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: about.cpp:52
 #
+#: about.cpp:52
 msgid "About kreversi"
 msgstr "Info Kreversi"
 
@@ -18,8 +18,8 @@ msgstr "Info Kreversi"
 msgid "Version "
 msgstr "Versione"
 
-#: about.cpp:67
 #
+#: about.cpp:67
 msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
@@ -51,8 +51,7 @@ msgstr ""
 "\tMats Luthman per il motore del gioco\n"
 "\t(portato dalla sua JAVA applet)\n"
 "\n"
-"\tStephan Kulow/n"
-"\tper i commenti e sbagli\n"
+"\tStephan Kulow/n\tper i commenti e sbagli\n"
 "\n"
 "\tArne Klaassen\n"
 "\tper la grafica delle pedine"
@@ -69,8 +68,8 @@ msgstr ""
 msgid "&New game"
 msgstr "&Nuovo gioco"
 
-#: app.cpp:246
 #
+#: app.cpp:246
 msgid "&Load game"
 msgstr "&Carica gioco"
 
@@ -260,8 +259,8 @@ msgstr "Tu (XXXXX): 88"
 msgid "Computer (XXXXX): 88"
 msgstr "Computer (XXXXX): 88"
 
-#: app.cpp:429
 #
+#: app.cpp:429
 msgid "Game saved"
 msgstr "Gioco salvato"
 
@@ -372,7 +371,6 @@ msgid "Rating"
 msgstr ""
 
 #: app.cpp:987
-
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"

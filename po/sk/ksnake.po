@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-06-14 22:23+0200\n"
+"POT-Creation-Date: 1998-06-18 22:48+0200\n"
 "PO-Revision-Date: 1998-06-23 21:00+0001\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -21,10 +21,6 @@ msgstr "Závod hadov"
 msgid "KConfig error ??\n"
 msgstr "KConfig chyba ??\n"
 
-#: game.cpp:79
-msgid "New"
-msgstr "Nová"
-
 #: game.cpp:80
 msgid "Pause"
 msgstr "Pauza"
@@ -32,10 +28,6 @@ msgstr "Pauza"
 #: game.cpp:81
 msgid "High Scores..."
 msgstr "Najlep¹ie výsledky..."
-
-#: game.cpp:83
-msgid "&Quit"
-msgstr "&Koniec"
 
 #: game.cpp:88 game.cpp:97
 msgid "0"
@@ -107,29 +99,9 @@ msgstr ""
 "\n"
 "napísal Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: game.cpp:150
-msgid "&Game"
-msgstr "&Hra"
-
-#: game.cpp:151
-msgid "&Options"
-msgstr "M&o¾nosti"
-
-#: game.cpp:153
-msgid "&Help"
-msgstr "&Pomocník"
-
-#: keys.cpp:18 score.cpp:57 score.cpp:91 startroom.cpp:28
-msgid "Ok"
-msgstr "Ok"
-
 #: keys.cpp:24
 msgid "Defaults"
 msgstr "©tandard."
-
-#: keys.cpp:30 startroom.cpp:34
-msgid "Cancel"
-msgstr "Zru¹i»"
 
 #: keys.cpp:83
 msgid "Change Direction Keys"
@@ -206,3 +178,24 @@ msgstr "Spú¹»acia miestnos» závodu hadov"
 #: startroom.cpp:41
 msgid "Starting Room"
 msgstr "Spú¹»acia miestnos»"
+
+#~ msgid "New"
+#~ msgstr "Nová"
+
+#~ msgid "&Quit"
+#~ msgstr "&Koniec"
+
+#~ msgid "&Game"
+#~ msgstr "&Hra"
+
+#~ msgid "&Options"
+#~ msgstr "M&o¾nosti"
+
+#~ msgid "&Help"
+#~ msgstr "&Pomocník"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Cancel"
+#~ msgstr "Zru¹i»"

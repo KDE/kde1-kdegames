@@ -1,13 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
-"POT-Creation-Date: 1998-06-14 22:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-06-19 12:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
-
-#: HighScore.cpp:62
-msgid "Highscore"
-msgstr "Pontuações"
 
 #: HighScore.cpp:104 KSameWidget.cpp:141
 msgid "Board"
@@ -122,3 +118,6 @@ msgstr "Marcadas: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Pontuação: %06i"
+
+#~ msgid "Highscore"
+#~ msgstr "Pontuações"

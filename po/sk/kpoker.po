@@ -112,4 +112,3 @@ msgstr "&Nová hra"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Zvuk"
-

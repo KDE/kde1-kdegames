@@ -124,6 +124,5 @@ msgid "Best move so far:"
 msgstr "Migliore ultima mossa:"
 
 #: Spy.cpp:75
-#, fuzzy
 msgid "Spion"
 msgstr ""

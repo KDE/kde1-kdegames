@@ -95,8 +95,8 @@ msgstr ""
 "Questo termina il gioco in corso\n"
 "Sei sicuro di volerlo fare?"
 
-#: mod3.cpp:137
 #
+#: mod3.cpp:137
 msgid "No more cards"
 msgstr "Nessuna nuova carta"
 
