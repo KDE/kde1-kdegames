@@ -2,6 +2,8 @@
 #include <kapp.h>
 #include <qaccel.h>
 #include <qmsgbox.h>
+#include <qlabel.h>
+#include <qlayout.h>
 #include <kstatusbar.h>
 #include <ktoolbar.h>
 #include <ktopwidget.h>
@@ -51,23 +53,84 @@ SLevel levels[MAX_LEVELS] =
 
 KAstTopLevel::KAstTopLevel() : KFixedTopWidget()
 {
-    view = new KAsteroidsView( this );
+    QWidget *mainWin = new QWidget( this );
+
+    view = new KAsteroidsView( mainWin );
     connect( view, SIGNAL( shipKilled() ), SLOT( slotShipKilled() ) );
     connect( view, SIGNAL( rockHit(int) ), SLOT( slotRockHit(int) ) );
     connect( view, SIGNAL( rocksRemoved() ), SLOT( slotRocksRemoved() ) );
 
-    createMenuBar();
-    createToolBar();
-    createStatusBar();
+    QVBoxLayout *vb = new QVBoxLayout( mainWin );
+    QHBoxLayout *hb = new QHBoxLayout;
+    vb->addLayout( hb );
 
-    view->setFixedSize( 640, 480 );
-    view->show();
-//    toolbar->show();
-    statusbar->show();
+    QFont labelFont( "helvetica", 24 );
+    QColorGroup grp( darkGreen, black, QColor( 128, 128, 128 ),
+	    QColor( 64, 64, 64 ), black, darkGreen, black );
+    QPalette pal( grp, grp, grp );
+
+    mainWin->setPalette( pal );
+
+    hb->addSpacing( 10 );
+
+    QLabel *label;
+    label = new QLabel( klocale->translate("Score"), mainWin );
+    label->setFont( labelFont );
+    label->setPalette( pal );
+    label->setFixedWidth( label->sizeHint().width() );
+    hb->addWidget( label );
+
+    scoreLCD = new QLCDNumber( 6, mainWin );
+    scoreLCD->setFrameStyle( QFrame::NoFrame );
+    scoreLCD->setSegmentStyle( QLCDNumber::Flat );
+    scoreLCD->setFixedWidth( 150 );
+    scoreLCD->setPalette( pal );
+    hb->addWidget( scoreLCD );
+    hb->addStretch( 10 );
+
+    label = new QLabel( klocale->translate("Level"), mainWin );
+    label->setFont( labelFont );
+    label->setPalette( pal );
+    label->setFixedWidth( label->sizeHint().width() );
+    hb->addWidget( label );
+
+    levelLCD = new QLCDNumber( 2, mainWin );
+    levelLCD->setFrameStyle( QFrame::NoFrame );
+    levelLCD->setSegmentStyle( QLCDNumber::Flat );
+    levelLCD->setFixedWidth( 70 );
+    levelLCD->setPalette( pal );
+    hb->addWidget( levelLCD );
+    hb->addStretch( 10 );
+
+    label = new QLabel( klocale->translate("Ships"), mainWin );
+    label->setFont( labelFont );
+    label->setFixedWidth( label->sizeHint().width() );
+    label->setPalette( pal );
+    hb->addWidget( label );
+
+    shipsLCD = new QLCDNumber( 1, mainWin );
+    shipsLCD->setFrameStyle( QFrame::NoFrame );
+    shipsLCD->setSegmentStyle( QLCDNumber::Flat );
+    shipsLCD->setFixedWidth( 40 );
+    shipsLCD->setPalette( pal );
+    hb->addWidget( shipsLCD );
+
+    hb->addStrut( 30 );
+
+    QFrame *sep = new QFrame( mainWin );
+    sep->setMaximumHeight( 5 );
+    sep->setFrameStyle( QFrame::HLine | QFrame::Raised );
+    sep->setPalette( pal );
+
+    vb->addWidget( sep );
+
+    vb->addWidget( view, 10 );
+    vb->freeze( 640, 480 );
+
+    createMenuBar();
+
     menu->show();
-    setView( view );
-    addToolBar( toolbar );
-    setStatusBar( statusbar );
+    setView( mainWin );
     setMenu( menu );
 
     message = new KAstMsg( this );
@@ -79,7 +142,6 @@ KAstTopLevel::KAstTopLevel() : KFixedTopWidget()
 
 KAstTopLevel::~KAstTopLevel()
 {
-    delete toolbar;
 }
 
 void KAstTopLevel::createMenuBar()
@@ -103,24 +165,6 @@ void KAstTopLevel::createMenuBar()
     menu->insertItem( klocale->translate( "&File" ), fileMenu );
     menu->insertSeparator();
     menu->insertItem( klocale->translate( "&Help" ), helpMenu );
-}
-
-void KAstTopLevel::createToolBar()
-{
-    toolbar = new KToolBar( this );
-    toolbar->enable( KToolBar::Hide );
-}
-
-void KAstTopLevel::createStatusBar()
-{
-    statusbar = new KStatusBar( this );
-    QString text;
-    text.sprintf("%s:         ", klocale->translate("Score"));
-    statusbar->insertItem( text, SB_SCORE );
-    text.sprintf("%s:         ", klocale->translate("Level"));
-    statusbar->insertItem( text, SB_LEVEL );
-    text.sprintf("%s:       ", klocale->translate("Ships"));
-    statusbar->insertItem( text, SB_SHIPS );
 }
 
 void KAstTopLevel::keyPressEvent( QKeyEvent *event )
@@ -203,16 +247,12 @@ void KAstTopLevel::focusOutEvent( QFocusEvent * )
 
 void KAstTopLevel::slotNewGame()
 {
-    QString text;
     score = 0;
-    text.sprintf("%s:      0", klocale->translate("Score"));
-    statusbar->changeItem( text, SB_SCORE );
+    scoreLCD->display( 0 );
     level = 0;
-    text.sprintf("%s:      1", klocale->translate("Level"));
-    statusbar->changeItem(text , SB_SCORE );
+    levelLCD->display( level );
     shipsRemain = 5;
-    text.sprintf("%s:    5", klocale->translate("Ships"));
-    statusbar->changeItem( text, SB_SHIPS );
+    shipsLCD->display( shipsRemain-1 );
     view->newGame();
     view->setRockSpeed( levels[0].rockSpeed );
     view->addRocks( levels[0].nrocks );
@@ -230,17 +270,14 @@ void KAstTopLevel::slotQuit()
 void KAstTopLevel::slotAbout()
 {
     QMessageBox::message( klocale->translate("KAsteriods"),
-	"KAsteroids Version 0.0.3\n\nCopyright (c) Martin R. Jones 1997\n\n"
+	"KAsteroids Version 0.0.4\n\nCopyright (c) Martin R. Jones 1997\n\n"
 	"With thanks to Warwick Allison\nfor QwSpriteField and POVRAY hints" );
 }
 
 void KAstTopLevel::slotShipKilled()
 {
     shipsRemain--;
-    char buffer[80];
-    sprintf( buffer, "%s: %5d", klocale->translate("Ships"), shipsRemain );
-    sprintf( buffer, "Ships: %5d", shipsRemain );
-    statusbar->changeItem( buffer, SB_SHIPS );
+    shipsLCD->display( shipsRemain-1 );
 
     if ( shipsRemain )
     {
@@ -273,9 +310,7 @@ void KAstTopLevel::slotRockHit( int size )
 	    score += 40;
     }
 
-    char buffer[80];
-    sprintf( buffer, "%s: %6d", klocale->translate("Score"), score );
-    statusbar->changeItem( buffer, SB_SCORE );
+    scoreLCD->display( score );
 }
 
 void KAstTopLevel::slotRocksRemoved()
@@ -288,8 +323,6 @@ void KAstTopLevel::slotRocksRemoved()
     view->setRockSpeed( levels[level-1].rockSpeed );
     view->addRocks( levels[level-1].nrocks );
 
-    char buffer[80];
-    sprintf( buffer, "%s: %5d", klocale->translate("Level"), level );
-    statusbar->changeItem( buffer, SB_LEVEL );
+    levelLCD->display( level );
 }
 

@@ -5,6 +5,7 @@
 #include <kstatusbar.h>
 #include <ktoolbar.h>
 #include <ktopwidget.h>
+#include <qlcdnum.h>
 #include <kmenubar.h>
 
 #include "kfixedtopwidget.h"
@@ -20,8 +21,6 @@ public:
 
 private:
     void createMenuBar();
-    void createToolBar();
-    void createStatusBar();
 
 protected:
     virtual void keyPressEvent( QKeyEvent *event );
@@ -41,8 +40,9 @@ private slots:
 private:
     KAsteroidsView *view;
     KMenuBar *menu;
-    KToolBar *toolbar;
-    KStatusBar *statusbar;
+    QLCDNumber *scoreLCD;
+    QLCDNumber *levelLCD;
+    QLCDNumber *shipsLCD;
     KAstMsg *message;
 
     // waiting for user to press Enter to launch a ship
