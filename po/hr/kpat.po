@@ -25,7 +25,7 @@ msgstr "KPat - Solitaire igra"
 #: cardmaps.cpp:102
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
-msgstr "kpat: PANIKA, ne mogu uèitati slièicu karte |"%s\"\n"
+msgstr "kpat: PANIKA, ne mogu uèitati slièicu karte \"%s\"\n"
 
 #: cardmaps.cpp:202
 #, c-format

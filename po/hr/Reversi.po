@@ -1,4 +1,4 @@
-¾# SOME DESCRIPTIVE TITLE.
+# SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
@@ -272,10 +272,10 @@ msgid ""
 "You     : %d\n"
 "Computer: %d"
 msgstr ""
-"Igra nerije¹ena!\}"
+"Igra nerije¹ena!\n"
 "\n"
 "Vi:     : %d\n"
-"Raèunalo: %d\n"
+"Raèunalo: %d"
 
 #: app.cpp:629 app.cpp:641 app.cpp:661
 msgid "Game ended"
