@@ -112,7 +112,7 @@ msgstr "Tuntematonta tietoa palvelimelta"
 
 #: net.cpp:319
 msgid "Cannot send to server"
-msgstr "En voi l‰hett‰‰ palvemimelle"
+msgstr "En voi l‰hett‰‰ palvelimelle"
 
 #: net.cpp:331
 msgid "Client timeout (No message from server)"
