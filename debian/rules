@@ -61,6 +61,7 @@ binary-arch: build
 	dh_compress
 	dh_fixperms
 	dh_suidregister
+	dh_makeshlibs
 	dh_installdeb
 	dh_shlibdeps
 	dh_gencontrol

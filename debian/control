@@ -6,6 +6,7 @@ Standards-Version: 2.5.0
 
 Package: kdegames
 Architecture: any
-Depends: ${shlibs:Depends}, kdebase
+Depends: ${shlibs:Depends}
+Suggests: kdebase
 Description: KDE games collection
  This is a collection of several games written for kde.
