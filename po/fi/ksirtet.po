@@ -24,7 +24,7 @@ msgstr "Peli pysäytetty"
 
 #: board.cpp:102
 msgid "Press to resume"
-msgstr "Paina jatkaaksesi"
+msgstr "Paina nappia jatkaaksesi"
 
 #: board.cpp:119 net.cpp:208
 msgid "Game over"
@@ -36,7 +36,7 @@ msgstr "Paina Return pelataksesi uudestaan"
 
 #: board.cpp:127
 msgid "Press to start game"
-msgstr "Paina aloittaaksesi"
+msgstr "Paina nappia aloittaaksesi"
 
 #: board.cpp:371
 msgid "Highscores file not writable !"
