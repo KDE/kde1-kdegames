@@ -19,8 +19,10 @@
  */
 
 #include <kapp.h>
+#include <qwidget.h>
 #include "KSameWidget.h"
 #include "ScoreWidget.h"
+#include "HighScore.h"
 #undef TrueColor
 
 
@@ -49,10 +51,25 @@ int main( int argc, char **argv )
   a.setMainWidget( &w );
   w.show();
   
-  ScoreWidget s;
-  s.show();
   
+  QWidget score;
 
+
+
+  QTabDialog *s=new QTabDialog(&score);
+
+  connect(s,SIGNAL(defaultButtonPressed()),score,SLOT(close()));
+
+  s->addTab(new ScoreWidget(s),"&Two Colors");
+  s->addTab(new ScoreWidget(s),"Th&ree Colors");
+  s->addTab(new ScoreWidget(s),"&Four Colors");
+
+  s->move(0,0);
+  s->show();
+  score.resize(s->width(),s->height());
+  score.show();
+
+  
   return a.exec();
 }
 

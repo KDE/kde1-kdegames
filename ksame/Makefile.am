@@ -2,8 +2,8 @@ bin_PROGRAMS = ksame
 INCLUDES = $(all_includes)
 ksame_LDADD = $(all_libraries) -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET) $(KDE_RPATH)
 
-ksame_SOURCES= main.cpp StoneWidget.cpp KSameWidget.cpp ScoreWidget.cpp
-BUILTSOURCES = StoneWidget.moc KSameWidget.moc ScoreWidget.moc
+ksame_SOURCES= main.cpp StoneWidget.cpp KSameWidget.cpp ScoreWidget.cpp HighScore.cpp
+BUILTSOURCES = StoneWidget.moc KSameWidget.moc ScoreWidget.moc HighScore.moc
 DISTCLEANFILES = $(BUILTSOURCES)
 
 docsdir = $(kde_htmldir)/en/ksame/
@@ -21,6 +21,10 @@ KSameWidget.moc: KSameWidget.h
 ScoreWidget.cpp: ScoreWidget.moc
 ScoreWidget.moc: ScoreWidget.h
 	$(MOC) -o ScoreWidget.moc ScoreWidget.h
+
+HighScore.cpp: HighScore.moc
+HighScore.moc: HighScore.h
+	$(MOC) -o HighScore.moc HighScore.h
 
 pics_DATA = stones.bmp stones_mask.bmp stones2000_mask.bmp stones2000.bmp 
 docs_DATA = index.html

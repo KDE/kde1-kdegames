@@ -53,14 +53,9 @@
    
   h+=10; 
    
-   closebt=new QPushButton("Close",this,"closebt");
-   connect( closebt, SIGNAL(clicked()), this, SLOT(hide()));
-   closebt->move(0,h);
-  
-  h+=closebt->height();
-  
   
   setGeometry(0,0,w,h); 
+  resize(w,h);
   setFixedSize(w,h);
 }
 

@@ -36,6 +36,7 @@
 #include <qpopmenu.h> 
 #include <kstatusbar.h> 
 
+static const int two_item = 2;
 static const int three_item = 3;
 static const int four_item = 4;
 static const int five_item = 5;
@@ -58,10 +59,9 @@ KSameWidget::KSameWidget() {
 
   colorsmenu = new QPopupMenu;
   colorsmenu->setCheckable(true);
+  colorsmenu->insertItem("2", two_item );
   colorsmenu->insertItem("3", three_item );
   colorsmenu->insertItem("4", four_item ); 
-  colorsmenu->insertItem("5", five_item );
-  colorsmenu->insertItem("6", six_item);
   connect (colorsmenu, SIGNAL (activated (int)), SLOT (m_colors(int)));
 
   optionsmenu->insertItem("Colors",colorsmenu);
