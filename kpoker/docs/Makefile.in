@@ -5,7 +5,7 @@ INSTALL_DIR = $(SHELL) $(top_srcdir)/mkinstalldirs
 
 DOCS = `find . -type f -name "*.html" -print`
 prefix = @prefix@
-destdir = $(prefix)/share/doc/HTML/kpoker
+destdir = $(prefix)/share/doc/HTML/en/kpoker
 
 
 all:

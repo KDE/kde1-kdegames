@@ -32,7 +32,6 @@ INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 prefix = @prefix@
 BINDIR = $(prefix)/bin
 ICONDIR = $(prefix)/share/icons
-DOCSDIR = $(prefix)/share/doc/HTML/kpoker
 APPSDIR = $(prefix)/share/applnk/Games
 
 

@@ -1,14 +1,14 @@
 HELPFILES = index.html snakeRace.gif
 
 prefix = @prefix@
-DOCSDIR = $(prefix)/share/doc/HTML/ksnake
+DOCSDIR = $(prefix)/share/doc/HTML/en/ksnake
 INSTALL_DIR = @INSTALL@ -d -m 0755
 INSTALL_DATA = @INSTALL@ -m 644
 
 all:
 
 Makefile: Makefile.in
-	cd .. && CONFIG_FILES=ksnake/doc/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+	cd ../.. && CONFIG_FILES=ksnake/doc/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
 install:
 	$(INSTALL_DIR) $(DOCSDIR)

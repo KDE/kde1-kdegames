@@ -30,7 +30,7 @@ INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 
 prefix = @prefix@
 BINDIR = $(prefix)/bin
-DOCDIR = $(prefix)/share/doc/HTML
+DOCDIR = $(prefix)/share/doc/HTML/en/ktetris
 APPSDIR = $(prefix)/share/applnk/Games
 
 ########### File Formats ###########
@@ -49,7 +49,7 @@ OBJECTS =	gtetris.o tpiece.o hack.o net.o \
 		board.o gtboard.o ggboard.o dialogs.o main.o
 SRCMETA =	board.moc dialogs.moc main.moc
 TARGET	=	ktetris
-DOC	=	ktetris.html
+DOC	=	index.html
 
 ######### build rules ################
 
