@@ -18,6 +18,7 @@ Exec=ktetris -caption "%c" %i %m
 Type=Application
 DocPath=ktetris/index.html
 Comment=One more Tetris game
+Comment[sv]=Ett till Tetris-spel
 Comment[is_IS]=ktetris:  Fallandi kubbum raðað saman
 Comment[es]=Un juego más de Tetris
 Comment[fr]=Un Tetris de plus

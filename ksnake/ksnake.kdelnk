@@ -1,6 +1,7 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Snake Race
+Name[sv]=Orm-race
 Name[is_IS]=Slönguleikurinn
 Icon=ksnake.xpm
 Name[es]=Serpiente
@@ -19,6 +20,7 @@ Name[ro]=Cursa ªerpilor
 Exec=ksnake -caption "%c"
 DocPath=ksnake/index.html
 Comment=Eat all items before the computer
+Comment[sv]=Ät alla saker innan datorn gör det
 Comment[is_IS]=ksnake:  Át í kapp við tölvuna
 Comment[es]=Cómalo todo antes que la computadora
 Comment[fr]=Mangez tout avant l'ordinateur !

@@ -19,6 +19,7 @@ Icon=kpoker.xpm
 Miniicon=kpoker.xpm
 DocPath=kpoker/index.html
 Comment=A simple video poker clone
+Comment[sv]=En enkel videopoker-kopia
 Comment[is_IS]=kpoker:  Einfalt pókerspil
 Comment[es]=Un simple clónico de video-poker
 Comment[fr]=Un simple clone d'un poker vidéo
