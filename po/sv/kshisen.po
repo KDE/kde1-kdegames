@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen revision 1.7\n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-22 21:55+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -133,7 +135,7 @@ msgid ""
 "your name so mankind will always remember\n"
 "your cool rating."
 msgstr ""
-"Du har kommit in på Poängtoppen. Skriv\n"
+"Du har kommit in på poängtoppen. Skriv\n"
 "in ditt namn så att mänskligheten alltid\n"
 "kommer ihåg ditt otroliga resultat."
 

@@ -1,8 +1,12 @@
+# KTranslator Generated File
+
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker revision 1.7\n"
 "POT-Creation-Date: 1998-06-18 22:46+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-22 21:45+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +47,7 @@ msgstr "Kontanter"
 
 #: kpoker.cpp:406
 msgid "Last Hand"
-msgstr "Senasta Handen"
+msgstr "Senasta handen"
 
 #: kpoker.cpp:517
 msgid "One Pair"

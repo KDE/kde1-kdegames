@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake revision 1.2\n"
 "POT-Creation-Date: 1998-06-18 22:48+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-22 20:48+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -83,7 +85,7 @@ msgstr "Ändra tangenter..."
 
 #: game.cpp:139
 msgid "Starting Room..."
-msgstr "Start rum..."
+msgstr "Startrum..."
 
 #: game.cpp:146
 msgid ""
@@ -101,7 +103,7 @@ msgstr "Standardvärden"
 
 #: keys.cpp:83
 msgid "Change Direction Keys"
-msgstr "Ändra Riktningstangenter"
+msgstr "Ändra riktningstangenter"
 
 #: keys.cpp:96
 msgid "Undefined key"
@@ -157,7 +159,7 @@ msgstr "Poängtoppen"
 
 #: score.cpp:54
 msgid "Today's High Scores"
-msgstr "Dagens poängtop"
+msgstr "Dagens poängtopp"
 
 #: score.cpp:78
 msgid ""
@@ -169,8 +171,8 @@ msgstr ""
 
 #: startroom.cpp:23
 msgid "Snake Race Starting Room"
-msgstr "Start rum för Orm Lopp"
+msgstr "Startrum för Orm Lopp"
 
 #: startroom.cpp:41
 msgid "Starting Room"
-msgstr "Start rum"
+msgstr "Startrum"

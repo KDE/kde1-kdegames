@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: ktetris revision 1.5\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-22 20:56+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -51,11 +53,11 @@ msgstr "En rad ner"
 
 #: board.cpp:178 field.cpp:33 field.cpp:49
 msgid "Rotate left"
-msgstr "Rotera motsos"
+msgstr "Rotera motsols"
 
 #: board.cpp:179 field.cpp:34 field.cpp:50
 msgid "Rotate right"
-msgstr "Rotera medsos"
+msgstr "Rotera medsols"
 
 #: board.cpp:372
 msgid "Highscores file not writable !"
@@ -63,7 +65,7 @@ msgstr "Kan inte skriva till resultatfil !"
 
 #: net.cpp:129
 msgid "Illegal port"
-msgstr "Illegal port"
+msgstr "Ogiltig port"
 
 #: net.cpp:135
 msgid "Null address"
@@ -83,7 +85,7 @@ msgstr "vid"
 
 #: net.cpp:233
 msgid "Connect error"
-msgstr "Anslutnings fel"
+msgstr "Anslutningsfel"
 
 #: net.cpp:243 net.cpp:299
 msgid "Server unreachable"
@@ -95,7 +97,7 @@ msgstr "Servern har dött"
 
 #: net.cpp:267
 msgid "Cancel from server"
-msgstr "Bryt med server"
+msgstr "Avbrott från server"
 
 #: net.cpp:273 net.cpp:333
 msgid "Unknown data from server"
@@ -107,7 +109,7 @@ msgstr "Kan inte sända till server"
 
 #: net.cpp:324
 msgid "Client timeout (No message from server)"
-msgstr "Klient timeout (Inget meddelande från server)"
+msgstr "Klient-timeout (Inget meddelande från server)"
 
 #: net.cpp:329
 msgid "Server has vanished"
@@ -115,11 +117,11 @@ msgstr "Server har försvunnit"
 
 #: net.cpp:366
 msgid "Bind error"
-msgstr "Blind fel"
+msgstr "Fel vid bind()"
 
 #: net.cpp:371
 msgid "Listen error"
-msgstr "Anslutnings fel"
+msgstr "Fel vid listen()"
 
 #: net.cpp:390
 msgid "Unknown message from unknown player (??)"
@@ -135,7 +137,7 @@ msgstr "Klient har dött"
 
 #: net.cpp:487
 msgid "Cancel from client"
-msgstr "Bryt med klient"
+msgstr "Avbrott från klient"
 
 #: net.cpp:494
 msgid "Timeout"
@@ -175,7 +177,7 @@ msgstr "Inget val än !"
 
 #: dialogs.cpp:175 dialogs.cpp:232
 msgid "Network Dialog"
-msgstr "Nätverks dialog"
+msgstr "Nätverksdialog"
 
 #: dialogs.cpp:178
 msgid "Server"
@@ -187,7 +189,7 @@ msgstr "Klient"
 
 #: dialogs.cpp:183
 msgid "Player name :"
-msgstr "Spelar namn :"
+msgstr "Spelarens namn :"
 
 #: dialogs.cpp:185
 msgid "Server address :"
@@ -211,7 +213,7 @@ msgstr "Spela !"
 
 #: dialogs.cpp:252
 msgid "Network game"
-msgstr "Nätverks spel"
+msgstr "Nätverksspel"
 
 #: dialogs.cpp:256
 msgid "Server mode"
@@ -255,7 +257,7 @@ msgstr "Poäng"
 
 #: field.cpp:56
 msgid "Lines removed"
-msgstr "Rader är avlägsnade"
+msgstr "Rader borttagna"
 
 #: field.cpp:60
 msgid "Level"
@@ -275,7 +277,7 @@ msgstr "&Pausa spel"
 
 #: field.cpp:187
 msgid "&Multiplayer game"
-msgstr "&Nätverks spel"
+msgstr "&Nätverksspel"
 
 #: field.cpp:189
 msgid "&High scores"

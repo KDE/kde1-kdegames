@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-20 20:44+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -46,7 +48,7 @@ msgstr ""
 "hjälpen för mer information)\n"
 "\n"
 "Tack till:\n"
-"\tMats Luthman för hans spel motor\n"
+"\tMats Luthman för hans spelmotor\n"
 "\t(Jag har portat den från hans JAVA applet)\n"
 "\n"
 "\tStephan Kulow\n"
@@ -60,7 +62,7 @@ msgid ""
 "A problem with the sound server occured!\n"
 "Cannot enable sound support."
 msgstr ""
-"Ett problem med ljud servern uppstod!\n"
+"Ett problem med ljudservern uppstod!\n"
 "Kan inte stödja ljud."
 
 #: app.cpp:245
@@ -77,7 +79,7 @@ msgstr "&Spara spel"
 
 #: app.cpp:252
 msgid "Get &hint"
-msgstr "Få &Tips"
+msgstr "Få &tips"
 
 #: app.cpp:254
 msgid "&Stop thinking"
@@ -187,7 +189,7 @@ msgstr "Välj storlek"
 
 #: app.cpp:292
 msgid "Select &background color..."
-msgstr "Välj &bakgrundsfärk..."
+msgstr "Välj &bakgrundsfärg..."
 
 #: app.cpp:298
 msgid "none"
@@ -215,7 +217,7 @@ msgstr "10 (långsammast)"
 
 #: app.cpp:322
 msgid "Animation speed"
-msgstr "Animerings hastighet"
+msgstr "Animeringshastighet"
 
 #: app.cpp:325
 msgid "S&ound"
@@ -263,7 +265,7 @@ msgstr "Spel sparat"
 
 #: app.cpp:591
 msgid "not yet implemented"
-msgstr "inte impementerat än"
+msgstr "inte implementerat än"
 
 #: app.cpp:604 app.cpp:609
 #, c-format

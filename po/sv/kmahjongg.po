@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg revision 1.7\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-22 20:29+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -47,7 +49,7 @@ msgstr "Visa &matchande plattor"
 
 #: kmahjongg.cpp:222
 msgid "&Load Background image..."
-msgstr "&Ladda bakgrunds bild..."
+msgstr "&Ladda bakgrundsbild..."
 
 #: kmahjongg.cpp:224
 msgid "&Statusbar"
@@ -69,7 +71,7 @@ msgstr ""
 
 #: kmahjongg.cpp:387 kmahjongg.cpp:401
 msgid "Unable to open bitmap file !"
-msgstr "Kan inte öppna bitmap fil !"
+msgstr "Kan inte öppna bitmapfil!"
 
 #: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
@@ -131,4 +133,4 @@ msgid ""
 "Maximum allowed is %d"
 msgstr ""
 "Tyvärr, denna bild använder %d färger.\n"
-"Antal maximalt tillåtna färger är %d "
+"Maximalt antal tillåtna färger är %d "

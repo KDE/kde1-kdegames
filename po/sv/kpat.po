@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat revision 1.7\n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-22 20:33+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -194,7 +196,7 @@ msgstr "Napoleons Grav"
 #: pwidget.cpp:294
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
-msgstr "kpat: spel typ %d är inte inplementerad\n"
+msgstr "kpat: speltypen %d är inte implementerad\n"
 
 #: pwidget.cpp:344
 msgid "Could not load background image!"

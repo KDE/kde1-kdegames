@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone revision 1.7\n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1998-08-22 21:29+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team:  SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -55,7 +57,7 @@ msgstr "Gul"
 
 #: AbTop.cpp:331
 msgid "Both"
-msgstr "Bådedera"
+msgstr "Bådadera"
 
 #: AbTop.cpp:337
 msgid "Level"
