@@ -1,18 +1,23 @@
+# kabalone.po
+# First-Translator : 1998-10-13
+#   Serge "sergio" Tellène <tells@mygale.org>
+# Update : 1999-03-16
+#   Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>
+#
 msgid ""
 msgstr ""
+"Project-Id-Version: kabalone\n"
 "POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"PO-Revision-Date: 1999-03-16 15:07+0100\n"
+"Last-Translator: Philippe.Thomin <Philippe.Thomin@univ-valenciennes.fr>\n"
 "Language-Team: Français\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-09-24 10:59:56+0200\n"
-"From: root <root@joe>\n"
-"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
-"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: MIME\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
-msgstr "Haut à droite"
+msgstr "Droite"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -23,9 +28,8 @@ msgid "LeftDown"
 msgstr "Bas à gauche"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "Haut à gauche"
+msgstr "Gauche"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -37,11 +41,11 @@ msgstr "Haut à droite"
 
 #: Move.cpp:35 Move.cpp:42
 msgid "Side"
-msgstr "Côté"
+msgstr "Lateral"
 
 #: Move.cpp:49
 msgid "Out"
-msgstr "Sorti"
+msgstr "Sortir"
 
 #: Move.cpp:50
 msgid "Push"
@@ -57,19 +61,19 @@ msgstr "Déplacer"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
-msgstr "Appuyez sur F2 pour une lancer une nouvelle partie"
+msgstr "Appuyez sur F2 pour une nouvelle partie"
 
 #: AbTop.cpp:262 AbTop.cpp:301
 msgid "Stop Search"
-msgstr "Arrêter la recherche"
+msgstr "Arrêter la reflexion"
 
 #: AbTop.cpp:267 AbTop.cpp:305
 msgid "Take back"
-msgstr "Reprendre"
+msgstr "Annuler"
 
 #: AbTop.cpp:272 AbTop.cpp:307
 msgid "Hint"
-msgstr "Aide"
+msgstr "Conseil"
 
 #: AbTop.cpp:296
 msgid "Save Position"
@@ -93,15 +97,15 @@ msgstr "Difficile"
 
 #: AbTop.cpp:321
 msgid "Challange"
-msgstr "Challenge"
+msgstr "Défi"
 
 #: AbTop.cpp:327 AbTop.cpp:406 AbTop.cpp:410
 msgid "Red"
-msgstr "Rouge"
+msgstr "Les rouges"
 
 #: AbTop.cpp:329 AbTop.cpp:406 AbTop.cpp:410
 msgid "Yellow"
-msgstr "Jaune"
+msgstr "Les jaunes"
 
 #: AbTop.cpp:331
 msgid "Both"
@@ -125,7 +129,7 @@ msgstr "Espion"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Abalone"
 
 #: AbTop.cpp:351
 msgid ""
@@ -133,14 +137,17 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
+"\n"
+"\n"
+"par Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"
-msgstr "Gagné"
+msgstr "ont gagné"
 
 #: AbTop.cpp:411
 msgid "I am thinking..."
-msgstr "Je pense..."
+msgstr "Je réflechis..."
 
 #: AbTop.cpp:412
 msgid "It's your turn !"
@@ -157,21 +164,3 @@ msgstr "Meilleur coup jusqu'à présent :"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Espion"
-
-#~ msgid "Rules"
-#~ msgstr "Règles"
-
-#~ msgid "New Game"
-#~ msgstr "Nouveau jeu"
-
-#~ msgid "Quit"
-#~ msgstr "Quitter"
-
-#~ msgid "About"
-#~ msgstr "Au sujet de"
-
-#~ msgid "File"
-#~ msgstr "Fichier"
-
-#~ msgid "Help"
-#~ msgstr "Aide"

@@ -1,22 +1,23 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# kmines.po
+# First-Translator : 1999-01-27
+#   Francois-Xavier Duranceau <Francois-Xavier.Duranceau@loria.fr>
+# Update : 1999-03-16
+#   Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines 1.0\n"
 "POT-Creation-Date: 1999-01-27 01:35+0100\n"
-"PO-Revision-Date: 1999-02-03 18:30 CET\n"
-"Last-Translator: Francois-Xavier DURANCEAU "
-"<Francois-Xavier.Duranceau@loria.fr>\n"
-"Language-Team: Français <fr@li.org>\n"
+"PO-Revision-Date: 1999-03-16 15:36 CET\n"
+"Last-Translator: Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>\n"
+"Language-Team: Français\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: MIME\n"
 
 #: dialogs.cpp:95
 msgid "Customize Game"
-msgstr "Jeu personnalisé"
+msgstr "Personalisation"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -68,15 +69,15 @@ msgstr "Anonyme"
 
 #: field.cpp:81
 msgid "Game paused"
-msgstr "Partie interrompue"
+msgstr "Partie suspendue"
 
 #: field.cpp:82
 msgid "Press to resume"
-msgstr "Appuyer pour continuer"
+msgstr "Appuyer pour reprendre"
 
 #: status.cpp:217
 msgid "You did it ... but not in time."
-msgstr "Vous avez réussi ... mais pas assez vite."
+msgstr "Vous avez réussi... mais pas assez vite."
 
 #: status.cpp:218
 msgid "Yeeessss !"
@@ -84,7 +85,7 @@ msgstr "Ouuuiiii !"
 
 #: status.cpp:221
 msgid "Bad luck !"
-msgstr "Pas de chance !"
+msgstr "Boum !"
 
 #: main.cpp:22
 msgid "New game"
@@ -92,7 +93,7 @@ msgstr "Nouvelle partie"
 
 #: main.cpp:23
 msgid "Pause game"
-msgstr "Interrompre la partie"
+msgstr "Suspendre la partie"
 
 #: main.cpp:24
 msgid "High scores"
@@ -108,7 +109,7 @@ msgstr "&Nouvelle partie"
 
 #: main.cpp:51
 msgid "&Pause game"
-msgstr "&Interrompre la partie"
+msgstr "&Suspendre la partie"
 
 #: main.cpp:54
 msgid "&High scores"
@@ -120,11 +121,11 @@ msgstr "&Imprimer"
 
 #: main.cpp:64
 msgid "? mark"
-msgstr "marques ?"
+msgstr "marqueurs \"?\""
 
 #: main.cpp:65
 msgid "Keys"
-msgstr "Raccourcis clavier..."
+msgstr "Clavier..."
 
 #: main.cpp:72
 msgid "Custom"

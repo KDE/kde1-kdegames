@@ -1,18 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ksame.po
+# First-Translator : 1998-12-13
+#   Laurent Montel <montell@club-internet.fr>
+# Update : 1999-03-16
+#   Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: ksame\n"
 "POT-Creation-Date: 1999-01-12 14:06+0100\n"
-"PO-Revision-Date: 1998-12-13 20:00+0200\n"
-"Last-Translator: Montel Laurent <montell@club-internet.fr>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1999-03-16 16:20+0100\n"
+"Last-Translator: Philippe.Thomin <Philippe.Thomin@univ-valenciennes.fr>\n"
+"Language-Team: Français\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: MIME\n"
 
 #: KSameWidget.cpp:50
 msgid "&New"
@@ -24,11 +25,11 @@ msgstr "&Ouvrir"
 
 #: KSameWidget.cpp:57
 msgid "S&how Highscore"
-msgstr "Montrer les meilleurs scores"
+msgstr "&Meilleurs scores"
 
 #: KSameWidget.cpp:76
 msgid "&Random Board"
-msgstr ""
+msgstr "&Jeu aléatoire"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
@@ -46,39 +47,39 @@ msgstr ""
 
 #: KSameWidget.cpp:91
 msgid "Colors: XX"
-msgstr "Couleurs: XX"
+msgstr "Couleurs : XX"
 
 #: KSameWidget.cpp:92
 msgid "Board: XXXXXX"
-msgstr ""
+msgstr "Jeu : XXXXXX"
 
 #: KSameWidget.cpp:93
 msgid "Marked: XXXXXX"
-msgstr ""
+msgstr "Points : XXXXXX"
 
 #: KSameWidget.cpp:94
 msgid "Score: XXXXXX"
-msgstr "Score: XXXXXX"
+msgstr "Score : XXXXXX"
 
 #: KSameWidget.cpp:134
 msgid "SameGame: New Game"
-msgstr "KSame: Nouvelle partie"
+msgstr "KSame : Nouvelle partie"
 
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
-msgstr ""
+msgstr "Voulez-vous abandonner ?"
 
 #: HighScore.cpp:104 KSameWidget.cpp:141
 msgid "Board"
-msgstr ""
+msgstr "Jeu"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
-msgstr ""
+msgstr "Salut"
 
 #: KSameWidget.cpp:146
 msgid "Please &enter the board number:"
-msgstr ""
+msgstr "Entrez le numéro de jeu :"
 
 #: KSameWidget.cpp:181
 msgid "menu load not supported"
@@ -86,44 +87,43 @@ msgstr "Le chargement n'est pas supporté"
 
 #: KSameWidget.cpp:184
 msgid "menu save not supported"
-msgstr "l'enregistrement n'est pas supporté"
+msgstr "L'enregistrement n'est pas supporté"
 
 #: KSameWidget.cpp:192
 msgid "SameGame - Quit"
 msgstr "KSame - Quitter"
 
 #: KSameWidget.cpp:193
-#, fuzzy
 msgid "Do you really want to quit?"
-msgstr "Voulez-vous réellement quitter?"
+msgstr "Voulez-vous réellement partir ?"
 
 #: KSameWidget.cpp:199
 msgid "menu colors not supported"
-msgstr ""
+msgstr "Le choix des couleurs n'est pas supporté"
 
 #: KSameWidget.cpp:203
 #, c-format
 msgid "Colors: %01i"
-msgstr "Couleurs: %01i"
+msgstr "Couleurs : %01i"
 
 #: KSameWidget.cpp:216
 #, c-format
 msgid "Board: %06i"
-msgstr ""
+msgstr "Plateau : %06i"
 
 #: KSameWidget.cpp:220
 msgid "GameOver"
-msgstr "Partie perdue"
+msgstr "Fini"
 
 #: KSameWidget.cpp:225
 #, c-format
 msgid "Marked: %06i"
-msgstr ""
+msgstr "Points : %06i"
 
 #: KSameWidget.cpp:230
 #, c-format
 msgid "Score: %06i"
-msgstr "Score: %06i"
+msgstr "Score : %06i"
 
 #: HighScore.cpp:107
 msgid "Name"
@@ -131,7 +131,7 @@ msgstr "Nom"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"
-msgstr "Entrer votre nom:"
+msgstr "Entrez votre nom :"
 
 #: HighScore.cpp:148
 msgid "Anonymous"

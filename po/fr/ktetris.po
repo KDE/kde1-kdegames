@@ -1,14 +1,12 @@
-# ksirtet.po
-# First-Translator : 1998-10-01
-#   Laurent Montel <montell@club-internet.fr>
-# Update : 1999-03-16
+# ktetris.po
+# First-Translator : 1999-03-16
 #   Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: ksirtet\n"
+"Project-Id-Version: ktetris\n"
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: 1999-03-16 16:34+0100\n"
+"PO-Revision-Date: 1999-03-16 17:02+0100\n"
 "Last-Translator: Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>\n"
 "Language-Team: Français\n"
 "MIME-Version: 1.0\n"
@@ -21,7 +19,7 @@ msgstr "Anonyme"
 
 #: board.cpp:97
 msgid "Game paused"
-msgstr "Partie suspendue"
+msgstr "Jeu suspendu"
 
 #: board.cpp:102
 msgid "Press to resume"
@@ -33,15 +31,15 @@ msgstr "Fini"
 
 #: board.cpp:123
 msgid "Press Return to replay"
-msgstr "Appuyez sur entrée"
+msgstr "Appuyez sur Entrée pour rejouer"
 
 #: board.cpp:127
 msgid "Press to start game"
-msgstr "Appuyez pour commencer"
+msgstr "Appuyez pour commencer la partie"
 
 #: board.cpp:371
 msgid "Highscores file not writable !"
-msgstr "Mise à jour des meilleurs scores impossible !"
+msgstr "Impossible de mettre à jour le fichier des meilleurs scores !"
 
 #: net.cpp:129
 msgid "Illegal port"
@@ -89,7 +87,7 @@ msgstr "Impossible d'envoyer au serveur"
 
 #: net.cpp:324
 msgid "Client timeout (No message from server)"
-msgstr "Timeout client (Aucun message en provenance du serveur)"
+msgstr "Timeout client (aucun message en provenance du serveur)"
 
 #: net.cpp:329
 msgid "Server has vanished"
@@ -97,7 +95,7 @@ msgstr "Le serveur a disparu"
 
 #: net.cpp:366
 msgid "Bind error"
-msgstr "Erreur de liaison (Bind)"
+msgstr "Erreur d'affectation (Bind)"
 
 #: net.cpp:371
 msgid "Listen error"
@@ -105,11 +103,11 @@ msgstr "Erreur d'écoute (Listen)"
 
 #: net.cpp:390
 msgid "Unknown message from unknown player (??)"
-msgstr "Message inconnu de la part d'un joueur inconnu (??)"
+msgstr "Message inconnu en provenance d'un joueur inconnu (??)"
 
 #: net.cpp:449 net.cpp:490
 msgid "Unknown message from client"
-msgstr "Message inconnu de la part du client"
+msgstr "Message inconnu en provenance du client"
 
 #: net.cpp:486
 msgid "Client has died"
@@ -125,7 +123,7 @@ msgstr "Timeout"
 
 #: net.cpp:520
 msgid "No message from client"
-msgstr "Pas de message en provenance client"
+msgstr "Aucun message en provenance du client"
 
 #: net.cpp:525
 msgid "Client has vanished"
@@ -153,7 +151,7 @@ msgstr "Panthéon"
 
 #: dialogs.cpp:156
 msgid "No option yet !"
-msgstr "Pas encore d'options !"
+msgstr "Pas encore d'options"
 
 #: dialogs.cpp:175 dialogs.cpp:232
 msgid "Network Dialog"
@@ -181,11 +179,11 @@ msgstr "Port :"
 
 #: dialogs.cpp:199
 msgid "Connect"
-msgstr "Connecter"
+msgstr "Connexion"
 
 #: dialogs.cpp:202
 msgid "Connecting ..."
-msgstr "En cours de connexion ..."
+msgstr "En cours de connexion..."
 
 #: dialogs.cpp:205
 msgid "Play !"
@@ -193,7 +191,7 @@ msgstr "Jouer !"
 
 #: dialogs.cpp:252
 msgid "Network game"
-msgstr "Partie en réseau"
+msgstr "Jeu en réseau"
 
 #: dialogs.cpp:256
 msgid "Server mode"
@@ -213,11 +211,11 @@ msgstr "Nouvelle partie"
 
 #: field.cpp:28
 msgid "Pause game"
-msgstr "Pause"
+msgstr "Suspendre la partie"
 
 #: field.cpp:30
 msgid "High scores"
-msgstr "Panthéon"
+msgstr "Meilleurs scores"
 
 #: field.cpp:31
 msgid "Move left"
@@ -257,11 +255,11 @@ msgstr "Niveau"
 
 #: field.cpp:63
 msgid "Next tile"
-msgstr "Prochaine piece"
+msgstr "Prochain pion"
 
 #: field.cpp:185
 msgid "&Restart game"
-msgstr "&Redémarrer la partie"
+msgstr "&Recommencer la partie"
 
 #: field.cpp:186
 msgid "&Pause game"
@@ -269,11 +267,11 @@ msgstr "&Suspendre"
 
 #: field.cpp:187
 msgid "&Multiplayer game"
-msgstr "&Multijoueur"
+msgstr "Jeu &multijoueur"
 
 #: field.cpp:189
 msgid "&High scores"
-msgstr "&Panthéon"
+msgstr "&Meilleurs scores"
 
 #: main.cpp:25 main.cpp:74
 msgid "Hide menu"

@@ -1,18 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# ksokoban.po
+# First-Translator : 1998-11-07
+#   Francois-Xavier Duranceau <Francois-Xavier.Duranceau@loria.fr>
+# Update : 1999-03-16
+#   Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
-"POT-Creation-Date: 1999-03-22 01:46+0100\n"
-"PO-Revision-Date: 1999-02-25 13:00+0200\n"
-"Last-Translator: Francois-Xavier Duranceau "
-"<Francois-Xavier.Duranceau@loria.fr>\n"
-"Language-Team: Français <fr@li.org>\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"PO-Revision-Date: 1999-03-16 16:59+0100\n"
+"Last-Translator: Philippe.Thomin <Philippe.Thomin@univ-valenciennes.fr>\n"
+"Language-Team: Français\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: MIME\n"
 
 #: MainWindow.C:42
 msgid "&Next level"
@@ -24,7 +25,7 @@ msgstr "Niveau &précédent"
 
 #: MainWindow.C:44
 msgid "Re&start level"
-msgstr "Re&démarrer le niveau"
+msgstr "Re&commencer ce niveau"
 
 #: MainWindow.C:55
 msgid "&Level collection"
@@ -128,7 +129,7 @@ msgstr "Déplacements :"
 msgid "Level:"
 msgstr "Niveau :"
 
-#: MainWindow.C:249
+#: MainWindow.C:248
 msgid "(invalid)"
 msgstr "(invalide)"
 

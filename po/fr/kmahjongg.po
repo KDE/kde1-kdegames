@@ -1,19 +1,19 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# kmahjongg.po
+# First-Translator : 1999-03-05
+#   Francois-Xavier Duranceau <Francois-Xavier.Duranceau@loria.fr>
+# Update : 1999-03-16
+#   Philippe Thomin <Philippe.Thomin@univ-valenciennes.fr>
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
 "POT-Creation-Date: 1999-03-05 01:33+0100\n"
-"PO-Revision-Date: 1999-02-25 12:30+0200\n"
-"Last-Translator: Francois-Xavier Duranceau "
-"<Francois-Xavier.Duranceau@loria.fr>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"PO-Revision-Date: 1999-03-16 14:33+0100\n"
+"Last-Translator: Philippe.Thomin <Philippe.Thomin@univ-valenciennes.fr>\n"
+"Language-Team: Français\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
-"Translator: Montel Laurent <montell@club-internet.fr>\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: MIME\n"
 
 #: kmahjongg.cpp:99
 msgid "Classic"
@@ -33,31 +33,31 @@ msgstr "Pyramide"
 
 #: kmahjongg.cpp:209
 msgid "&Start new game"
-msgstr "&Démarrer une nouvelle partie"
+msgstr "&Nouvelle partie"
 
 #: kmahjongg.cpp:211
 msgid "&Help me"
-msgstr "&Aide moi"
+msgstr "&Conseil"
 
 #: kmahjongg.cpp:212
 msgid "&Undo last move"
-msgstr "A&nnuler le dernier déplacement"
+msgstr "&Annuler"
 
 #: kmahjongg.cpp:213
 msgid "&Demo mode"
-msgstr "&Mode démonstration"
+msgstr "&Démonstration"
 
 #: kmahjongg.cpp:214
 msgid "Show &matching tiles"
-msgstr "Afficher les &pièces identiques"
+msgstr "&Montrer"
 
 #: kmahjongg.cpp:220
 msgid "&Load Background image..."
-msgstr "&Charger une image de fond..."
+msgstr "&Image de fond..."
 
 #: kmahjongg.cpp:222
 msgid "&Statusbar"
-msgstr "&Barre d'état"
+msgstr "&Ligne d'information"
 
 #: kmahjongg.cpp:225
 #, c-format
@@ -72,7 +72,7 @@ msgstr ""
 
 #: kmahjongg.cpp:384 kmahjongg.cpp:398
 msgid "Unable to open bitmap file !"
-msgstr "Impossible d'ouvrir le fichier bitmap !"
+msgstr "Impossible d'ouvrir le fichier bitmap!"
 
 #: kmahjongg.cpp:452
 msgid "Undo operation done successfully."
@@ -80,7 +80,7 @@ msgstr "Annulé avec succès."
 
 #: kmahjongg.cpp:455
 msgid "What do you want to undo? You have done nothing!"
-msgstr "Qu'est-ce que vous voulez annuler ? Vous n'avez rien précisé !"
+msgstr "Que voulez-vous annuler ? Vous n'avez rien fait !"
 
 #: kmahjongg.cpp:470 kmahjongg.cpp:1434
 msgid "Sorry, you have lost the game."
@@ -93,11 +93,11 @@ msgstr ""
 
 #: kmahjongg.cpp:509
 msgid "Now it's you again."
-msgstr "Maintenant, c'est à votre tour."
+msgstr "C'est à vous."
 
 #: kmahjongg.cpp:529
 msgid "Your computer has lost the game."
-msgstr "Votre ordinateur a perdu la partie."
+msgstr "L'ordinateur a perdu la partie."
 
 #: kmahjongg.cpp:615
 msgid "Congratulations. You have won!"
@@ -105,28 +105,24 @@ msgstr "Félicitations. Vous avez gagné !"
 
 #: kmahjongg.cpp:641
 msgid "Calculating new game..."
-msgstr "Calcul d'une nouvelle partie..."
+msgstr "Je prépare une nouvelle partie..."
 
 #: kmahjongg.cpp:647
 msgid "Error converting board information!"
-msgstr "Erreur de conversion de l'information sur le tapis !"
+msgstr "Erreur pendant la pr2paration du jeu !"
 
 #: kmahjongg.cpp:659
 msgid "Ready. Now it's your turn."
-msgstr "Prêt. C'est votre tour."
+msgstr "Prêt. C'est à vous."
 
 #: kmahjongg.cpp:665
 msgid "Error generating new game!"
-msgstr "Erreur pendant la génération de la nouvelle partie !"
+msgstr "Erreur pendant la préparation de la nouvelle partie !"
 
 #: kmahjongg.cpp:1663
 #, c-format
-msgid ""
-"Failed to load image:\n"
-"%s"
-msgstr ""
-"Echec du chargement de l'image :\n"
-"%s"
+msgid "Failed to load image:\n%s"
+msgstr "Impossible de charger l'image :\n%s"
 
 #: kmahjongg.cpp:1674
 #, c-format
@@ -135,4 +131,4 @@ msgid ""
 "Maximum allowed is %d"
 msgstr ""
 "Désolé, cette image utilise %d couleurs.\n"
-"Le maximum permis est %d"
+"Le maximum autorisé est %d"
