@@ -4,6 +4,10 @@ msgstr ""
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-06-19 12:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
@@ -15,7 +19,7 @@ msgstr "Erro do KConfig ??\n"
 
 #: game.cpp:79
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: game.cpp:80
 msgid "Pause"

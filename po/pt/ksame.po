@@ -4,25 +4,26 @@ msgstr ""
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-06-19 12:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: KSameWidget.cpp:50
-#, fuzzy
 msgid "&New"
-msgstr "Novo"
+msgstr "&Novo"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "&Abrir"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Mostrar Pontuações"
+msgstr "&Mostrar Pontuações"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Campo Aleatório"
+msgstr "Campo Aleató&rio"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
@@ -129,6 +130,3 @@ msgstr "&Insira o seu nome:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anónimo"
-
-#~ msgid "Game"
-#~ msgstr "Jogo"

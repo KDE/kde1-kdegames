@@ -4,6 +4,10 @@ msgstr ""
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
@@ -63,7 +67,7 @@ msgstr "Rápido"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr ""
+msgstr "Médio"
 
 #: app.cpp:136
 msgid "Slow"
@@ -87,6 +91,9 @@ msgid ""
 "\n"
 "by Mario Weilguni"
 msgstr ""
+"\n"
+"\n"
+"por Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -165,18 +172,16 @@ msgid "Rank"
 msgstr "Posição"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Novo jogo"
+msgstr "Nome"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Tempo"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "Tama&nho"
+msgstr "Tamanho"
 
 #: app.cpp:650
 msgid "Score"

@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kpoker\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"PO-Revision-Date: 1998-11-20 00:00:00+000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.ult.pt>\n"
-"Content-Type: text/plain; charset=\n"
-"Date: 1997-09-30 20:08:33+0200\n"
-"From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
-"Xgettext-Options: -C -ktranslate\n"
-"Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: kpoker.cpp:82 kpoker.cpp:538
 msgid "New game"
@@ -110,7 +111,7 @@ msgstr "&Som"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
@@ -118,6 +119,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"por Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -125,9 +129,14 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"Para uma lista de créditos veja a ajuda"
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Sugestões, comentários etc. são bemvindos."

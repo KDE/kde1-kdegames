@@ -4,6 +4,10 @@ msgstr ""
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: dialogs.cpp:95
 msgid "Customize Game"
@@ -31,7 +35,7 @@ msgstr "Fácil"
 
 #: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
@@ -94,19 +98,16 @@ msgid "Hide menu bar"
 msgstr "Esconder barra de menu"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Novo jogo"
+msgstr "&Novo jogo"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Pausar jogo"
+msgstr "&Pausar jogo"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Quadro de honra"
+msgstr "/Quadro de honra"
 
 #: main.cpp:60
 msgid "? mark"
@@ -125,13 +126,9 @@ msgid "by"
 msgstr "por"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Nível"
+msgstr "&Nível"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "Mostrar barra de menu"
-
-#~ msgid "Minesweeper"
-#~ msgstr "Minas e Armadilhas"

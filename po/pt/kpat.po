@@ -4,6 +4,10 @@ msgstr ""
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-01-26 14:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+"Language-Team: pt\n"
+"MIME-Version:\n"
+"Content-Type:\n"
+"Content-Transfer-Encoding:\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
@@ -41,7 +45,7 @@ msgstr "Fácil 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: computation.cpp:97
 msgid "Hard 1"
