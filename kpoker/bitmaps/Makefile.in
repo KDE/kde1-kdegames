@@ -1,4 +1,5 @@
 
+SHELL = /bin/sh
 top_srcdir = @top_srcdir@
 INSTALL_DATA = @INSTALL@ -m 0644
 INSTALL_DIR = $(SHELL) $(top_srcdir)/mkinstalldirs

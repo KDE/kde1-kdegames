@@ -41,9 +41,6 @@ APPSDIR = $(prefix)/share/applnk/Games
 .cpp.o:
 	$(CXX) -c $(CXXFLAGS) $<
 
-%.moc: %.h
-	$(MOC) $< -o $@
-
 ########## Files #####################
 
 HEADERS =	game.h trys.h rattler.h board.h\
@@ -113,33 +110,33 @@ uninstall:
 ####### Meta classes
 
 mrattler.cpp: rattler.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 msnake.cpp: snake.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mgame.cpp: game.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mtrys.cpp: trys.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mbasket.cpp: basket.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mstartroom.cpp: startroom.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mlcdrange.cpp: lcdrange.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mscore.cpp: score.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mbox.cpp: box.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 mprogress.cpp: progress.h
-	$(MOC) -o $@ $<
+	$(MOC) -o $@ $?
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.

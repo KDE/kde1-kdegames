@@ -1,3 +1,5 @@
+
+SHELL = /bin/sh
 POVRAY=x-povray  # Must be Povray 3.0
 LDLIBS=-lpng -lz -lm
 

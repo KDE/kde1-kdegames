@@ -35,12 +35,12 @@ TBDIR  = $(prefix)/share/apps/$(TARGET)/toolbar
 
 ########### File Formats ###########
 
-.SUFFIXES: .cpp
+.SUFFIXES: .cpp .moc
 
 .cpp.o:
 	$(CXX) -c $(CXXFLAGS) $<
 
-%.moc: %.h
+.h.moc: 
 	$(MOC) $< -o $@
 
 ########## Files #####################
