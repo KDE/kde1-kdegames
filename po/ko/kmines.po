@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-27 01:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,15 +34,15 @@ msgstr "Mines"
 msgid "Hall of Fame"
 msgstr "명예의 전당"
 
-#: dialogs.cpp:288 main.cpp:64
+#: dialogs.cpp:288 main.cpp:68
 msgid "Easy"
 msgstr "초보자"
 
-#: dialogs.cpp:289 main.cpp:65
+#: dialogs.cpp:289 main.cpp:69
 msgid "Normal"
 msgstr ""
 
-#: dialogs.cpp:290 main.cpp:66
+#: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
 msgstr "전문가"
 
@@ -62,7 +62,7 @@ msgstr " "
 msgid "seconds."
 msgstr "초"
 
-#: dialogs.cpp:384 status.cpp:96
+#: dialogs.cpp:384 status.cpp:98
 msgid "Anonymous"
 msgstr "이름"
 
@@ -74,15 +74,15 @@ msgstr "게임 중지"
 msgid "Press to resume"
 msgstr "계속"
 
-#: status.cpp:215
+#: status.cpp:217
 msgid "You did it ... but not in time."
 msgstr "성공은 하셨지만 시간이 초과되었습니다"
 
-#: status.cpp:216
+#: status.cpp:218
 msgid "Yeeessss !"
 msgstr "성공 !"
 
-#: status.cpp:219
+#: status.cpp:221
 msgid "Bad luck !"
 msgstr "운이 없습니다 !"
 
@@ -98,47 +98,51 @@ msgstr "게임 중지"
 msgid "High scores"
 msgstr "하이 스코어"
 
-#: main.cpp:43 main.cpp:159
+#: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
 msgstr "메뉴바 숨기기"
 
-#: main.cpp:46
+#: main.cpp:48
 #, fuzzy
 msgid "&New game"
 msgstr "새 게임"
 
-#: main.cpp:49
+#: main.cpp:51
 #, fuzzy
 msgid "&Pause game"
 msgstr "게임 중지"
 
-#: main.cpp:52
+#: main.cpp:54
 #, fuzzy
 msgid "&High scores"
 msgstr "하이 스코어"
 
-#: main.cpp:60
+#: main.cpp:56
+msgid "&Print"
+msgstr ""
+
+#: main.cpp:64
 msgid "? mark"
 msgstr "? 표시"
 
-#: main.cpp:61
+#: main.cpp:65
 msgid "Keys"
 msgstr "글쇠"
 
-#: main.cpp:68
+#: main.cpp:72
 msgid "Custom"
 msgstr "주문형"
 
-#: main.cpp:74
+#: main.cpp:78
 msgid "by"
 msgstr " "
 
-#: main.cpp:79
+#: main.cpp:83
 #, fuzzy
 msgid "&Level"
 msgstr "레벨"
 
-#: main.cpp:156
+#: main.cpp:160
 msgid "Show menu bar"
 msgstr "메뉴바 보이기"
 

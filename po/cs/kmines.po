@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-27 01:35+0100\n"
 "PO-Revision-Date: 1998-11-09 08:47+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -33,15 +33,15 @@ msgstr "Poèet min"
 msgid "Hall of Fame"
 msgstr "Hala slávy"
 
-#: dialogs.cpp:288 main.cpp:64
+#: dialogs.cpp:288 main.cpp:68
 msgid "Easy"
 msgstr "Snadná"
 
-#: dialogs.cpp:289 main.cpp:65
+#: dialogs.cpp:289 main.cpp:69
 msgid "Normal"
 msgstr "Normální"
 
-#: dialogs.cpp:290 main.cpp:66
+#: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
 msgstr "Pro experty"
 
@@ -61,7 +61,7 @@ msgstr "a"
 msgid "seconds."
 msgstr "sekund."
 
-#: dialogs.cpp:384 status.cpp:96
+#: dialogs.cpp:384 status.cpp:98
 msgid "Anonymous"
 msgstr "Anonymní"
 
@@ -73,15 +73,15 @@ msgstr "Hra pozastavena"
 msgid "Press to resume"
 msgstr "Stiskni klávesu k pokraèování"
 
-#: status.cpp:215
+#: status.cpp:217
 msgid "You did it ... but not in time."
 msgstr "Zvládl(a) jste to ... ale ne vèas."
 
-#: status.cpp:216
+#: status.cpp:218
 msgid "Yeeessss !"
 msgstr "Anoooo !"
 
-#: status.cpp:219
+#: status.cpp:221
 msgid "Bad luck !"
 msgstr "Smùla!"
 
@@ -97,42 +97,46 @@ msgstr "Pozastavit hru"
 msgid "High scores"
 msgstr "Nejlep¹í výsledky"
 
-#: main.cpp:43 main.cpp:159
+#: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
 msgstr "Skrýt menu"
 
-#: main.cpp:46
+#: main.cpp:48
 msgid "&New game"
 msgstr "&Nová hra"
 
-#: main.cpp:49
+#: main.cpp:51
 msgid "&Pause game"
 msgstr "&Pozastavit hru"
 
-#: main.cpp:52
+#: main.cpp:54
 msgid "&High scores"
 msgstr "Nejlep¹í &výsledky"
 
-#: main.cpp:60
+#: main.cpp:56
+msgid "&Print"
+msgstr ""
+
+#: main.cpp:64
 msgid "? mark"
 msgstr "Znaèka ?"
 
-#: main.cpp:61
+#: main.cpp:65
 msgid "Keys"
 msgstr "Klávesy"
 
-#: main.cpp:68
+#: main.cpp:72
 msgid "Custom"
 msgstr "Vlastní"
 
-#: main.cpp:74
+#: main.cpp:78
 msgid "by"
 msgstr "napsal"
 
-#: main.cpp:79
+#: main.cpp:83
 msgid "&Level"
 msgstr "Ú&roveò"
 
-#: main.cpp:156
+#: main.cpp:160
 msgid "Show menu bar"
 msgstr "Zobrazit menu"

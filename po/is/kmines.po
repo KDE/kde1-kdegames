@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-27 01:35+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
@@ -28,15 +28,15 @@ msgstr "Sprengjur"
 msgid "Hall of Fame"
 msgstr "Methafar"
 
-#: dialogs.cpp:288 main.cpp:64
+#: dialogs.cpp:288 main.cpp:68
 msgid "Easy"
 msgstr "Auðvelt"
 
-#: dialogs.cpp:289 main.cpp:65
+#: dialogs.cpp:289 main.cpp:69
 msgid "Normal"
 msgstr "Venjulegt"
 
-#: dialogs.cpp:290 main.cpp:66
+#: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
 msgstr "Þungt"
 
@@ -56,7 +56,7 @@ msgstr "og"
 msgid "seconds."
 msgstr "sekúndum."
 
-#: dialogs.cpp:384 status.cpp:96
+#: dialogs.cpp:384 status.cpp:98
 msgid "Anonymous"
 msgstr "Nafnlaus"
 
@@ -68,15 +68,15 @@ msgstr "Leikur í biðstöðu"
 msgid "Press to resume"
 msgstr "Halda áfram"
 
-#: status.cpp:215
+#: status.cpp:217
 msgid "You did it ... but not in time."
 msgstr "Þér tókst það ... en of seint."
 
-#: status.cpp:216
+#: status.cpp:218
 msgid "Yeeessss !"
 msgstr "Jibbííí kólaaaa !"
 
-#: status.cpp:219
+#: status.cpp:221
 msgid "Bad luck !"
 msgstr "Þvílík óheppni !"
 
@@ -92,42 +92,46 @@ msgstr "Hvíla sig"
 msgid "High scores"
 msgstr "Methafar"
 
-#: main.cpp:43 main.cpp:159
+#: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
 msgstr "Fela valmyndastiku"
 
-#: main.cpp:46
+#: main.cpp:48
 msgid "&New game"
 msgstr "&Nýr leikur"
 
-#: main.cpp:49
+#: main.cpp:51
 msgid "&Pause game"
 msgstr "&Hvíla sig"
 
-#: main.cpp:52
+#: main.cpp:54
 msgid "&High scores"
 msgstr "&Methafar"
 
-#: main.cpp:60
+#: main.cpp:56
+msgid "&Print"
+msgstr ""
+
+#: main.cpp:64
 msgid "? mark"
 msgstr "? merkja"
 
-#: main.cpp:61
+#: main.cpp:65
 msgid "Keys"
 msgstr "Hnappar"
 
-#: main.cpp:68
+#: main.cpp:72
 msgid "Custom"
 msgstr "Heimfært"
 
-#: main.cpp:74
+#: main.cpp:78
 msgid "by"
 msgstr "eftir"
 
-#: main.cpp:79
+#: main.cpp:83
 msgid "&Level"
 msgstr "&Borð"
 
-#: main.cpp:156
+#: main.cpp:160
 msgid "Show menu bar"
 msgstr "Sýna valmyndastiku"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines revision 1.7\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-27 01:35+0100\n"
 "PO-Revision-Date: 1998-11-21 21:41+SET\n"
 "Last-Translator:  Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -29,15 +29,15 @@ msgstr "Minor"
 msgid "Hall of Fame"
 msgstr "Poängtoppen"
 
-#: dialogs.cpp:288 main.cpp:64
+#: dialogs.cpp:288 main.cpp:68
 msgid "Easy"
 msgstr "Lätt"
 
-#: dialogs.cpp:289 main.cpp:65
+#: dialogs.cpp:289 main.cpp:69
 msgid "Normal"
 msgstr "Normal"
 
-#: dialogs.cpp:290 main.cpp:66
+#: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
 msgstr "Expert"
 
@@ -57,7 +57,7 @@ msgstr "och"
 msgid "seconds."
 msgstr "sekunder."
 
-#: dialogs.cpp:384 status.cpp:96
+#: dialogs.cpp:384 status.cpp:98
 msgid "Anonymous"
 msgstr "Anonym"
 
@@ -69,15 +69,15 @@ msgstr "Paus i spelet"
 msgid "Press to resume"
 msgstr "Tryck för att fortsätta"
 
-#: status.cpp:215
+#: status.cpp:217
 msgid "You did it ... but not in time."
 msgstr "Du gjorde det ...  men inte i tid."
 
-#: status.cpp:216
+#: status.cpp:218
 msgid "Yeeessss !"
 msgstr "Jaaaaa !"
 
-#: status.cpp:219
+#: status.cpp:221
 msgid "Bad luck !"
 msgstr "Otur !"
 
@@ -93,42 +93,46 @@ msgstr "Pausa spelet"
 msgid "High scores"
 msgstr "Poängtoppen"
 
-#: main.cpp:43 main.cpp:159
+#: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
 msgstr "Göm menyrad"
 
-#: main.cpp:46
+#: main.cpp:48
 msgid "&New game"
 msgstr "&Nytt spel"
 
-#: main.cpp:49
+#: main.cpp:51
 msgid "&Pause game"
 msgstr "&Pausa spelet"
 
-#: main.cpp:52
+#: main.cpp:54
 msgid "&High scores"
 msgstr "Po&ängtoppen"
 
-#: main.cpp:60
+#: main.cpp:56
+msgid "&Print"
+msgstr ""
+
+#: main.cpp:64
 msgid "? mark"
 msgstr "? markera"
 
-#: main.cpp:61
+#: main.cpp:65
 msgid "Keys"
 msgstr "Tangenter "
 
-#: main.cpp:68
+#: main.cpp:72
 msgid "Custom"
 msgstr "Anpassa"
 
-#: main.cpp:74
+#: main.cpp:78
 msgid "by"
 msgstr "av"
 
-#: main.cpp:79
+#: main.cpp:83
 msgid "&Level"
 msgstr "Niv&å"
 
-#: main.cpp:156
+#: main.cpp:160
 msgid "Show menu bar"
 msgstr "Visa menyrad"

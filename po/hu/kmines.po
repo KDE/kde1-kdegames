@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines VERSION\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-27 01:35+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Székely Krisztián <szekelyk@edasz.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -37,15 +37,15 @@ msgstr "Aknák :"
 msgid "Hall of Fame"
 msgstr "Dicsõség Csarnok"
 
-#: dialogs.cpp:288 main.cpp:64
+#: dialogs.cpp:288 main.cpp:68
 msgid "Easy"
 msgstr "Könnyû"
 
-#: dialogs.cpp:289 main.cpp:65
+#: dialogs.cpp:289 main.cpp:69
 msgid "Normal"
 msgstr ""
 
-#: dialogs.cpp:290 main.cpp:66
+#: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
 msgstr "Szakértõ"
 
@@ -66,7 +66,7 @@ msgstr ""
 msgid "seconds."
 msgstr "másodperc"
 
-#: dialogs.cpp:384 status.cpp:96
+#: dialogs.cpp:384 status.cpp:98
 msgid "Anonymous"
 msgstr "Ismeretlen"
 
@@ -78,15 +78,15 @@ msgstr "A játék szünetel"
 msgid "Press to resume"
 msgstr "Nyomd meg a folytatáshoz"
 
-#: status.cpp:215
+#: status.cpp:217
 msgid "You did it ... but not in time."
 msgstr "Megcsináltad ... de nem elég gyorsan"
 
-#: status.cpp:216
+#: status.cpp:218
 msgid "Yeeessss !"
 msgstr "Igeeeen !"
 
-#: status.cpp:219
+#: status.cpp:221
 msgid "Bad luck !"
 msgstr "Ez nem sikerült !"
 
@@ -102,47 +102,51 @@ msgstr "Szünet"
 msgid "High scores"
 msgstr "Rekord pontok"
 
-#: main.cpp:43 main.cpp:159
+#: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
 msgstr "Menüsor elrejtése"
 
-#: main.cpp:46
+#: main.cpp:48
 #, fuzzy
 msgid "&New game"
 msgstr "Új játék"
 
-#: main.cpp:49
+#: main.cpp:51
 #, fuzzy
 msgid "&Pause game"
 msgstr "Szünet"
 
-#: main.cpp:52
+#: main.cpp:54
 #, fuzzy
 msgid "&High scores"
 msgstr "Rekord pontok"
 
-#: main.cpp:60
+#: main.cpp:56
+msgid "&Print"
+msgstr ""
+
+#: main.cpp:64
 msgid "? mark"
 msgstr "? jel"
 
-#: main.cpp:61
+#: main.cpp:65
 msgid "Keys"
 msgstr "Gombok"
 
-#: main.cpp:68
+#: main.cpp:72
 msgid "Custom"
 msgstr "Egyéni"
 
-#: main.cpp:74
+#: main.cpp:78
 msgid "by"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:83
 #, fuzzy
 msgid "&Level"
 msgstr "Szint"
 
-#: main.cpp:156
+#: main.cpp:160
 msgid "Show menu bar"
 msgstr "Menüsor megjelenítése"
 
