@@ -318,7 +318,7 @@ void Rattler::demo()
 {
     static  bool first_time = TRUE;
 
-    if(gameState.testBit(Init))
+    if(gameState.testBit(Init) || gameState.testBit(Playing))
 	return;
 
     stop();
