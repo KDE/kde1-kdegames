@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
 "POT-Creation-Date: 1998-03-19 22:22+0100\n"
-"PO-Revision-Date: 1998-01-20 11:26 MET\n"
+"PO-Revision-Date: 1998-03-28 22:42 MET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -116,9 +116,3 @@ msgstr "&Nová hra"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Zvuk"
-
-#~ msgid "&About..."
-#~ msgstr "&Informace..."
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informace o &Qt ..."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
 "POT-Creation-Date: 1998-03-19 22:22+0100\n"
-"PO-Revision-Date: 1998-01-20 11:27 MET\n"
+"PO-Revision-Date: 1998-03-28 22:42 MET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,7 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
 msgstr "Informace o KReversi"
 
@@ -78,9 +77,8 @@ msgid "&Save game"
 msgstr "U&lo¾it hru"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
-msgstr "Obdr¾ &radu"
+msgstr "Obdr¾et &radu"
 
 #: app.cpp:254
 msgid "&Stop thinking"
@@ -385,15 +383,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Va¹e jméno:"
-
-#~ msgid "&Rules"
-#~ msgstr "P&ravidla"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "&Strategické rady"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informace o &Qt"
-
-#~ msgid "&About..."
-#~ msgstr "&Informace..."
