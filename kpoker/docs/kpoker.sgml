@@ -62,7 +62,7 @@ The game ends if you can't pay for another round anymore or if you close the kpo
 <p>
 Possible poker hands are:
 <itemize>
-<item> Jacks or higher: Two cards of the same rank, bot Jacks or higher
+<item> Jacks or higher: Two cards of the same rank, both Jacks or higher
 <item> Two pairs: Two cards of one rank and two cards of another rank
 <item> Three of a kind: Three cards of the same rank
 <item> Four of a kind: Four cards of the same rank
