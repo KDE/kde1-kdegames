@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-4-9 HO:MI+ZONE\n"
 "Last-Translator: Pieter Eendebak <pte@ddsw.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,69 +58,63 @@ msgstr "&Laad achtergrond plaatje"
 msgid "&Statusbar"
 msgstr "&Statusbar"
 
-#: kmahjongg.cpp:226
-msgid "Mahjongg"
-msgstr "Mahjongg"
-
-#: kmahjongg.cpp:228
+#: kmahjongg.cpp:227
+#, c-format
 msgid ""
+"Mahjongg %s\n"
 "\n"
-"\n"
-"by Mathias Mueller"
+"by Mathias Mueller (in5y158@public.uni-hamburg.de)"
 msgstr ""
-"\n"
-"\n"
-"door Mathias Mueller"
 
-#: kmahjongg.cpp:387 kmahjongg.cpp:401
+#: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"
 msgstr "Kan bitmap bestand niet openen"
 
-#: kmahjongg.cpp:455
+#: kmahjongg.cpp:454
 msgid "Undo operation done successfully."
 msgstr "Ongedaan maken succesvol."
 
-#: kmahjongg.cpp:458
+#: kmahjongg.cpp:457
 msgid "What do you want to undo? You have done nothing!"
 msgstr "Wat wil je ongedaan maken? Je hebt niets gedaan!"
 
-#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+#: kmahjongg.cpp:472 kmahjongg.cpp:1436
 msgid "Sorry, you have lost the game."
 msgstr "Sorry, je hebt het spel verloren."
 
-#: kmahjongg.cpp:504
+#: kmahjongg.cpp:503
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "Demo mode. Klik op een muisknop om te stoppen."
 
-#: kmahjongg.cpp:512
+#: kmahjongg.cpp:511
 msgid "Now it's you again."
 msgstr "Nu ben jij weer."
 
-#: kmahjongg.cpp:532
+#: kmahjongg.cpp:531
 msgid "Your computer has lost the game."
 msgstr "Je computer heeft het spel verloren."
 
-#: kmahjongg.cpp:618
+#: kmahjongg.cpp:617
 msgid "Congratulations. You have won!"
 msgstr "Gefeliciteerd. Je hebt gewonnen!"
 
-#: kmahjongg.cpp:644
+#: kmahjongg.cpp:643
 msgid "Calculating new game..."
 msgstr "Bezig met nieuwe spel maken..."
 
-#: kmahjongg.cpp:650
+#: kmahjongg.cpp:649
 msgid "Error converting board information!"
 msgstr "FOut bij converteren bord informatie!"
 
-#: kmahjongg.cpp:662
+#: kmahjongg.cpp:661
 msgid "Ready. Now it's your turn."
 msgstr "Klaar. Nu ben jij."
 
-#: kmahjongg.cpp:668
+#: kmahjongg.cpp:667
 msgid "Error generating new game!"
 msgstr "Fout bij maken nieuw spel!"
 
-#: kmahjongg.cpp:1666
+#: kmahjongg.cpp:1665
 #, c-format
 msgid ""
 "Failed to load image:\n"
@@ -129,7 +123,7 @@ msgstr ""
 "Fout bij laden plaatje:\n"
 "%s"
 
-#: kmahjongg.cpp:1677
+#: kmahjongg.cpp:1676
 #, c-format
 msgid ""
 "Sorry, this image uses %d colors.\n"
@@ -137,3 +131,15 @@ msgid ""
 msgstr ""
 "Sorry, dit plaatje gebruikt %d kleuren.\n"
 "Het maximum aantal is %d"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "by Mathias Mueller"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "door Mathias Mueller"

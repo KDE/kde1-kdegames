@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -58,69 +58,63 @@ msgstr "배경 이미지 불러오기...(&L)"
 msgid "&Statusbar"
 msgstr "상태바(&S)"
 
-#: kmahjongg.cpp:226
-msgid "Mahjongg"
-msgstr "3차원 마작"
-
-#: kmahjongg.cpp:228
+#: kmahjongg.cpp:227
+#, c-format
 msgid ""
+"Mahjongg %s\n"
 "\n"
-"\n"
-"by Mathias Mueller"
+"by Mathias Mueller (in5y158@public.uni-hamburg.de)"
 msgstr ""
-"\n"
-"\n"
-"Mathias Mueller"
 
-#: kmahjongg.cpp:387 kmahjongg.cpp:401
+#: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"
 msgstr "비트맵 파일을 열 수 없슴 !"
 
-#: kmahjongg.cpp:455
+#: kmahjongg.cpp:454
 msgid "Undo operation done successfully."
 msgstr "실행 취소가 성공적으로 수행됨."
 
-#: kmahjongg.cpp:458
+#: kmahjongg.cpp:457
 msgid "What do you want to undo? You have done nothing!"
 msgstr "어떤 것을 취소하시겠습니까? 귀하는 아무 것도 하지 않았습니다."
 
-#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+#: kmahjongg.cpp:472 kmahjongg.cpp:1436
 msgid "Sorry, you have lost the game."
 msgstr "귀하는 게임에 졌습니다."
 
-#: kmahjongg.cpp:504
+#: kmahjongg.cpp:503
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "데모 모드. 멈추려면 마우스 단추를 누르십시오."
 
-#: kmahjongg.cpp:512
+#: kmahjongg.cpp:511
 msgid "Now it's you again."
 msgstr "자 다시 귀하 차례입니다."
 
-#: kmahjongg.cpp:532
+#: kmahjongg.cpp:531
 msgid "Your computer has lost the game."
 msgstr "컴퓨터가 졌습니다."
 
-#: kmahjongg.cpp:618
+#: kmahjongg.cpp:617
 msgid "Congratulations. You have won!"
 msgstr "축하합니다. 귀하가 이겼습니다!"
 
-#: kmahjongg.cpp:644
+#: kmahjongg.cpp:643
 msgid "Calculating new game..."
 msgstr "새 게임을 만들고 있습니다..."
 
-#: kmahjongg.cpp:650
+#: kmahjongg.cpp:649
 msgid "Error converting board information!"
 msgstr "보드 정보 변환 오류!"
 
-#: kmahjongg.cpp:662
+#: kmahjongg.cpp:661
 msgid "Ready. Now it's your turn."
 msgstr "자. 이제 귀하 차례입니다."
 
-#: kmahjongg.cpp:668
+#: kmahjongg.cpp:667
 msgid "Error generating new game!"
 msgstr "새 게임 생성 오류!"
 
-#: kmahjongg.cpp:1666
+#: kmahjongg.cpp:1665
 #, c-format
 msgid ""
 "Failed to load image:\n"
@@ -129,7 +123,7 @@ msgstr ""
 "이미지 불러오기 실패:\n"
 "%s"
 
-#: kmahjongg.cpp:1677
+#: kmahjongg.cpp:1676
 #, c-format
 msgid ""
 "Sorry, this image uses %d colors.\n"
@@ -137,3 +131,15 @@ msgid ""
 msgstr ""
 "이 이미지는 %d색을 사용합니다.\n"
 "최대 허용색은 %d색 입니다."
+
+#~ msgid "Mahjongg"
+#~ msgstr "3차원 마작"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "by Mathias Mueller"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Mathias Mueller"

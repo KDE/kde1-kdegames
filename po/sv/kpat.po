@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat revision 1.7\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-11-21 20:33+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -185,6 +185,10 @@ msgstr ""
 "\n"
 "\n"
 "av Paul Olav Tvetei\n"
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
+msgstr ""
 
 #: pwidget.cpp:273
 msgid "Klondike"

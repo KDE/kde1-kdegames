@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksmiletris\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-12-25 17:22+0001\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -50,9 +50,9 @@ msgid "&Sounds"
 msgstr "&Zvuky"
 
 #: gamewindow.cpp:73
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"KSmiletris %d\n"
+"KSmiletris %s\n"
 "\n"
 "by Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"

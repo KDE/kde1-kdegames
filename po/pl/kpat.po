@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat \n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-08-08 00:46+0200\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -183,6 +183,10 @@ msgstr ""
 "\n"
 "Paul Olav Tvetei\n"
 "\n"
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
+msgstr ""
 
 #: pwidget.cpp:273
 msgid "Klondike"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-03-30 21:00+0200\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -190,6 +190,10 @@ msgid ""
 "\n"
 "by Paul Olav Tvetei\n"
 "\n"
+msgstr ""
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
 msgstr ""
 
 #: pwidget.cpp:273

@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
@@ -185,6 +185,10 @@ msgstr ""
 "\n"
 "eftir Paul Olav Tvetei\n"
 "\n"
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
+msgstr ""
 
 #: pwidget.cpp:273
 msgid "Klondike"

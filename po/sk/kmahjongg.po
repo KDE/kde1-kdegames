@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -57,69 +57,63 @@ msgstr "&Naèíta» obrázok pozadia..."
 msgid "&Statusbar"
 msgstr "&Stavový riadok"
 
-#: kmahjongg.cpp:226
-msgid "Mahjongg"
-msgstr "Mahjongg"
-
-#: kmahjongg.cpp:228
+#: kmahjongg.cpp:227
+#, c-format
 msgid ""
+"Mahjongg %s\n"
 "\n"
-"\n"
-"by Mathias Mueller"
+"by Mathias Mueller (in5y158@public.uni-hamburg.de)"
 msgstr ""
-"\n"
-"\n"
-"napísal Mathias Mueller"
 
-#: kmahjongg.cpp:387 kmahjongg.cpp:401
+#: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"
 msgstr "Nemô¾em otvori» súbor s bitovou mapou !"
 
-#: kmahjongg.cpp:455
+#: kmahjongg.cpp:454
 msgid "Undo operation done successfully."
 msgstr "Operácia vrátenia poslednej èinnosti úspe¹ná."
 
-#: kmahjongg.cpp:458
+#: kmahjongg.cpp:457
 msgid "What do you want to undo? You have done nothing!"
 msgstr "Èo chcete vráti» spä»? E¹te ste niè nespravili!"
 
-#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+#: kmahjongg.cpp:472 kmahjongg.cpp:1436
 msgid "Sorry, you have lost the game."
 msgstr "Je mi µúto, prehrali ste hru."
 
-#: kmahjongg.cpp:504
+#: kmahjongg.cpp:503
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "Demon¹taèný mód. Zastavte kliknutím."
 
-#: kmahjongg.cpp:512
+#: kmahjongg.cpp:511
 msgid "Now it's you again."
 msgstr "Teraz hráte zase vy."
 
-#: kmahjongg.cpp:532
+#: kmahjongg.cpp:531
 msgid "Your computer has lost the game."
 msgstr "Vá¹ poèítaè prehral hru."
 
-#: kmahjongg.cpp:618
+#: kmahjongg.cpp:617
 msgid "Congratulations. You have won!"
 msgstr "Gratulujem. Vyhrali ste !"
 
-#: kmahjongg.cpp:644
+#: kmahjongg.cpp:643
 msgid "Calculating new game..."
 msgstr "Generujem novú hru..."
 
-#: kmahjongg.cpp:650
+#: kmahjongg.cpp:649
 msgid "Error converting board information!"
 msgstr "Chyba pri konvertovaní informácií o hracej doske!"
 
-#: kmahjongg.cpp:662
+#: kmahjongg.cpp:661
 msgid "Ready. Now it's your turn."
 msgstr "Som pripravený. Ste na »ahu !"
 
-#: kmahjongg.cpp:668
+#: kmahjongg.cpp:667
 msgid "Error generating new game!"
 msgstr "Chyba pri generovaní novej hry!"
 
-#: kmahjongg.cpp:1666
+#: kmahjongg.cpp:1665
 #, c-format
 msgid ""
 "Failed to load image:\n"
@@ -128,7 +122,7 @@ msgstr ""
 "Nepodarilo sa mi nahra» obrázok:\n"
 "%s"
 
-#: kmahjongg.cpp:1677
+#: kmahjongg.cpp:1676
 #, c-format
 msgid ""
 "Sorry, this image uses %d colors.\n"
@@ -136,3 +130,15 @@ msgid ""
 msgstr ""
 "Je mi µúto, tento obrázok pou¾íva %d farieb\n"
 "Maximálne je povolených %d"
+
+#~ msgid "Mahjongg"
+#~ msgstr "Mahjongg"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "by Mathias Mueller"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "napísal Mathias Mueller"

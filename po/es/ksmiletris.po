@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-12-07 21:33+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
@@ -43,9 +43,9 @@ msgid "&Sounds"
 msgstr "&Sonidos"
 
 #: gamewindow.cpp:73
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"KSmiletris %d\n"
+"KSmiletris %s\n"
 "\n"
 "by Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"

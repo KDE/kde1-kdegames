@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksmiletris\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-12-17 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -51,9 +51,9 @@ msgid "&Sounds"
 msgstr "&Sonoj"
 
 #: gamewindow.cpp:73
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"KSmiletris %d\n"
+"KSmiletris %s\n"
 "\n"
 "by Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat 1.0\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-12-17 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -191,6 +191,10 @@ msgstr ""
 "\n"
 "de Paul Olav Tvetei\n"
 "\n"
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
+msgstr ""
 
 #: pwidget.cpp:273
 msgid "Klondike"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -189,6 +189,10 @@ msgstr ""
 "\n"
 "Paul Olav Tvetei\n"
 "\n"
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
+msgstr ""
 
 #: pwidget.cpp:273
 msgid "Klondike"

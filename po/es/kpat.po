@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1998-10-18 16:24+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
@@ -182,6 +182,10 @@ msgstr ""
 "\n"
 "por Paul Olav Tvetei\n"
 "\n"
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
+msgstr ""
 
 #: pwidget.cpp:273
 msgid "Klondike"

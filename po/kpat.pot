@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -184,6 +184,10 @@ msgid ""
 "\n"
 "by Paul Olav Tvetei\n"
 "\n"
+msgstr ""
+
+#: pwidget.cpp:129
+msgid "Additional work done by:\n"
 msgstr ""
 
 #: pwidget.cpp:273
