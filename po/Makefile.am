@@ -1,8 +1,11 @@
 
 # This has to be set. The rest should be reusable
 
-POFILES = 
-GMOFILES= 
+DE_POFILES=de_kpat.po de_Reversi.po
+DE_GMOFILES=de_kpat.gmo de_Reversi.gmo
+
+POFILES = $(DE_POFILES)
+GMOFILES= $(DE_GMOFILES)
 
 localedir = $(prefix)/share/locale
 
