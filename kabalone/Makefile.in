@@ -35,7 +35,7 @@ prefix = @prefix@
 KDEINC = $(prefix)/include
 BINDIR = $(prefix)/bin
 LIBDIR = $(prefix)/lib
-DOCDIR = $(prefix)/share/doc/HTML
+DOCDIR = $(prefix)/share/doc/HTML/en/kabalone
 KDELNKDIR= $(prefix)/share/applnk/Games
 
 ########### File Formats ###########
