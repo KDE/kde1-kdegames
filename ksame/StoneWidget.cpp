@@ -82,8 +82,10 @@ StoneWidget::StoneWidget( QWidget *parent, int x, int y )
  StoneWidget::~StoneWidget() {  
    setMouseTracking(FALSE);
    killTimers();
-   delete field;
-   delete tempmap;
+   if (field)   
+      delete field;
+   if (tempmap)
+      delete tempmap;
    //   debug("~StoneWidget\n");
 }
 
