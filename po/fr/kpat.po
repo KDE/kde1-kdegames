@@ -193,7 +193,7 @@ msgstr ""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr ""
+msgstr "Compléments réalisés par :\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
@@ -216,74 +216,4 @@ msgstr "Impossible de charger l'image d'arrière-plan !"
 msgid "No more cards"
 msgstr "Plus de cartes"
 
-#~ msgid "Help on &rules..."
-#~ msgstr "Aide sur les règles"
 
-#~ msgid "About &Qt..."
-#~ msgstr "Au sujet de..."
-
-#~ msgid "COMMAND %d not implemented!\n"
-#~ msgstr "COMMAND %d non implementé!\n"
-
-#~ msgid ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Additional work done by:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is part of the K Desktop Environment.\n"
-#~ "Use help for license information."
-#~ msgstr ""
-#~ "\n"
-#~ "Touts droits réservés (C) 1995  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Travail supplementaire fait par by:\t\t \n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Ce programme fait partie du K Desktop Environment."
-
-#~ msgid "About kpat"
-#~ msgstr "Au sujet de kpat"
-
-#~ msgid "&Help..."
-#~ msgstr "Aide..."
-
-#~ msgid "A&bout..."
-#~ msgstr "Au sujet de..."
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Information"
-#~ msgstr "Information"
-
-#~ msgid "Warning"
-#~ msgstr "Attention"
-
-#~ msgid "&Quit"
-#~ msgstr "&Quitter"
-
-#~ msgid "&File"
-#~ msgstr "&Fischier"
-
-#~ msgid "&Game"
-#~ msgstr "&Jeux"
-
-#~ msgid "&Undo"
-#~ msgstr "&Défaire"
-
-#~ msgid "&Options"
-#~ msgstr "&Options"
-
-#~ msgid "Help"
-#~ msgstr "&Aide"
-
-#~ msgid "Quit"
-#~ msgstr "Quitter"
-
-#~ msgid "Error"
-#~ msgstr "Erreure"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmines 1.0\n"
 "POT-Creation-Date: 1999-01-27 01:35+0100\n"
-"PO-Revision-Date: 1999-01-12 00:15 CET\n"
+"PO-Revision-Date: 1999-02-03 18:30 CET\n"
 "Last-Translator: Francois-Xavier DURANCEAU "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: Français <fr@li.org>\n"
@@ -32,7 +32,7 @@ msgstr "Mines"
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
-msgstr "Meilleurs scores"
+msgstr "Panthéon"
 
 #: dialogs.cpp:288 main.cpp:68
 msgid "Easy"
@@ -116,7 +116,7 @@ msgstr "&Meilleurs scores"
 
 #: main.cpp:56
 msgid "&Print"
-msgstr ""
+msgstr "&Imprimer"
 
 #: main.cpp:64
 msgid "? mark"
