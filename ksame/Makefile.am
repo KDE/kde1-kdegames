@@ -36,13 +36,6 @@ uninstall-local:
 	rm -f $(kde_icondir)/ksame.xpm
 	rm -f $(kde_minidir)/ksame.xpm
 
-
-
-
-
-
-
-
-
-
+messages:
+	$(XGETTEXT) -C -ktranslate -ki18n -x../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/ksame.pot
 

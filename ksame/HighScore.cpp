@@ -59,7 +59,7 @@ HighScore::paintEvent ( QPaintEvent * ) {
      int w=0,h=0;
      int c,tw;
      
-     const char *title=klocale->translate("HiGh sCorE");
+     const char *title=klocale->translate("Highscore");
      QString value;
      QFont tf(p.font());
      tf.setPointSize(tf.pointSize()+5);

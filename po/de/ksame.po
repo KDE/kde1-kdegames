@@ -2,49 +2,44 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: ksame\n"
 "POT-Creation-Date: 1998-06-14 22:22+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"PO-Revision-Date: 1998-06-14 22:22+0200\n"
+"Last-Translator: Stephan Kulow <coolo@kde.org>"
 
 #: HighScore.cpp:62
 msgid "Highscore"
-msgstr ""
+msgstr "Bestenliste"
 
 #: HighScore.cpp:104 KSameWidget.cpp:141
 msgid "Board"
-msgstr ""
+msgstr "Spielfeld"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"
-msgstr ""
+msgstr "Bitt&e geben Sie Ihren Namen ein:"
 
 #: HighScore.cpp:148
 msgid "Anonymous"
-msgstr ""
+msgstr "Unbekannt"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
-msgstr ""
+msgstr "Bestenliste anzeigen"
 
 #: KSameWidget.cpp:63
 msgid "Game"
-msgstr ""
+msgstr "Spiel"
 
 #: KSameWidget.cpp:76
 msgid "Random Board"
-msgstr ""
+msgstr "Zufällige Belegung"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
-msgstr ""
+msgstr "Über SameGame"
 
 #: KSameWidget.cpp:84
 msgid ""
@@ -52,79 +47,85 @@ msgid ""
 "\n"
 "by Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
 msgstr ""
+"\n"
+"\n"
+"von Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
 
 #: KSameWidget.cpp:91
 msgid "Colors: XX"
-msgstr ""
+msgstr "Colors: XX"
 
 #: KSameWidget.cpp:92
 msgid "Board: XXXXXX"
-msgstr ""
+msgstr "Feld: XXXXXXX"
 
 #: KSameWidget.cpp:93
 msgid "Marked: XXXXXX"
-msgstr ""
+msgstr "Markiert: XXXXXX"
 
 #: KSameWidget.cpp:94
 msgid "Score: XXXXXX"
-msgstr ""
+msgstr "Punkte: XXXXXX"
 
 #: KSameWidget.cpp:134
 msgid "SameGame: New Game"
-msgstr ""
+msgstr "SameGame: Neues Spiel"
 
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
-msgstr ""
+msgstr "Wollen Sie aufgeben?"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
-msgstr ""
+msgstr "Hallo"
 
 #: KSameWidget.cpp:146
 msgid "Please &enter the board number:"
-msgstr ""
+msgstr "Bitten geb&en Sie eine Spielfeld-Nummer ein:"
 
 #: KSameWidget.cpp:181
 msgid "menu load not supported"
-msgstr ""
+msgstr "nicht implementiert"
 
 #: KSameWidget.cpp:184
 msgid "menu save not supported"
-msgstr ""
+msgstr "nicht implementiert"
 
 #: KSameWidget.cpp:192
 msgid "SameGame - Quit"
-msgstr ""
+msgstr "SameGame - Beenden"
 
 #: KSameWidget.cpp:193
 msgid "Do you want really quit?"
-msgstr ""
+msgstr "Wollen Sie SameGame wirklich beenden?"
 
 #: KSameWidget.cpp:199
 msgid "menu colors not supported"
-msgstr ""
+msgstr "nicht implementiert"
 
 #: KSameWidget.cpp:203
 #, c-format
 msgid "Colors: %01i"
-msgstr ""
+msgstr "Farben: %01i"
 
 #: KSameWidget.cpp:216
 #, c-format
 msgid "Board: %06i"
-msgstr ""
+msgstr "Feld: %06i"
 
 #: KSameWidget.cpp:220
 msgid "GameOver"
-msgstr ""
+msgstr "Spielende"
 
 #: KSameWidget.cpp:225
 #, c-format
 msgid "Marked: %06i"
-msgstr ""
+msgstr "Markiert: %06i"
 
 #: KSameWidget.cpp:230
 #, c-format
 msgid "Score: %06i"
-msgstr ""
+msgstr "Punkte: %06i"
+
+#~ msgid "Stones"
+#~ msgstr "Steine"
