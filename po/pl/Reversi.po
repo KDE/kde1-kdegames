@@ -294,7 +294,7 @@ msgstr ""
 "Przegra³e¶ tê partiê!\n"
 "\n"
 "Ty      : %d\n"
-"Komputer: %d\n"
+"Komputer: %d"
 
 #: app.cpp:670
 msgid "Red's"
