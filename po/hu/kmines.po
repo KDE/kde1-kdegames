@@ -1,0 +1,169 @@
+# Hungarian messages fo kmines.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Székely Krisztián <szekelyk@edasz.hu>, 1998.
+#
+#, (személynevek magyar sorrendben)
+#, (in Hungarian family name comes first)
+msgid ""
+msgstr ""
+"Project-Id-Version: kmines VERSION\n"
+"POT-Creation-Date: 1998-01-23 21:00+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Székely Krisztián <szekelyk@edasz.hu>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-2\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "Egyéni szint"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "Szélesség :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "Magasság :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "Aknák :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "Rekord pontok"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr ""
+
+#: dialogs.cpp:233 dialogs.cpp:306
+msgid "minutes and "
+msgstr "perc és"
+
+#: dialogs.cpp:234 dialogs.cpp:319
+msgid "seconds."
+msgstr "másodperc"
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "Dicsõség Csarnok"
+
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "Ismeretlen"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "Bizonytalan (?) jel"
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "Próbáld újra"
+
+#: field.cpp:87 field.cpp:94
+msgid "Game paused"
+msgstr "A játék szünetel"
+
+#: field.cpp:90 field.cpp:96
+msgid "Press to resume"
+msgstr "Nyomd meg a folytatáshoz"
+
+#: main.cpp:22 main.cpp:34 main.cpp:53
+msgid "New game"
+msgstr "Új játék"
+
+#: main.cpp:23 main.cpp:35 main.cpp:54
+msgid "Pause game"
+msgstr "Szünet"
+
+#: main.cpp:26 main.cpp:38 main.cpp:56
+msgid "High scores"
+msgstr "Rekord pontok"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Bezárás"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Rendben"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Mégsem"
+
+#: main.cpp:51 main.cpp:162
+msgid "Hide menu bar"
+msgstr "Menüsor elrejtése"
+
+#: main.cpp:61
+msgid "? mark"
+msgstr "? jel"
+
+#: main.cpp:62
+msgid "Keys"
+msgstr "Gombok"
+
+#: main.cpp:65
+msgid "Easy"
+msgstr "Könnyû"
+
+#: main.cpp:67
+msgid "Expert"
+msgstr "Szakértõ"
+
+#: main.cpp:69
+msgid "Custom"
+msgstr "Egyéni"
+
+#: main.cpp:75
+msgid "About..."
+msgstr "Névjegy..."
+
+#: main.cpp:80
+msgid "Level"
+msgstr "Szint"
+
+#: main.cpp:100
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK  (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+msgstr ""
+"%s (%s) \n"
+"\n"
+"Készítette: Nicolas HADACEK (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+
+#: main.cpp:102
+msgid "kmines : About"
+msgstr "kmines : Névjegy"
+
+#: main.cpp:159
+msgid "Show menu bar"
+msgstr "Menüsor megjelenítése"
+
+#: status.cpp:251
+msgid "You did it ... but not in time."
+msgstr "Megcsináltad ... de nem elég gyorsan"
+
+#: status.cpp:252
+msgid "Yeeessss !"
+msgstr "Igeeeen !"
+
+#: status.cpp:255
+msgid "Bad luck !"
+msgstr "Ez nem sikerült !"
+
+#: status.cpp:301
+msgid "Highscore file is not writable !"
+msgstr "A rekord pontokat tartalmazó fájl nem írható !"
+
+#: status.cpp:316
+msgid "kmines : Error"
+msgstr "kmines : Hiba"
