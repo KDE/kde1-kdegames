@@ -51,7 +51,7 @@ binary-arch: build
 	cp kasteroids/sprites/rock2/r* debian/tmp/usr/share/apps/kasteroids/sprites/rock2/
 	cp kasteroids/sprites/rock3/r* debian/tmp/usr/share/apps/kasteroids/sprites/rock3/
 	cp kasteroids/sprites/ship/s* debian/tmp/usr/share/apps/kasteroids/sprites/ship/
-	perl -w debian/kderules
+	perl -w admin/debianrules
 	dh_movefiles
 	dh_undocumented 
 	dh_installdocs
@@ -66,7 +66,7 @@ binary-arch: build
 	dh_shlibdeps
 	dh_gencontrol
 	dh_md5sums
-	perl -w debian/kderules update
+	perl -w admin/debianrules update
 	dh_builddeb            
 
 # Below here is fairly generic really
