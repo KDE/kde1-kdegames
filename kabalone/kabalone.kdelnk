@@ -1,6 +1,7 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Abalone
+Name[hu]=Abalone
 Type=Application
 Exec=kabalone
 DocPath=kabalone/index.html
@@ -8,4 +9,5 @@ Comment=Play Abalone against computer
 Comment[de]=Abalone gegen den Computer
 Comment[pl]=Zagraj w Abalone przeciwko komputerowi.
 Comment[fi]=Pelaa Abalonea tietokonetta vastaan
+Comment[hu]=Játssz Abalone-t a gép ellen
 Comment[pt]=Jogue Abalone contra o computador
