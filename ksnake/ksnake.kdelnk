@@ -8,6 +8,6 @@ Exec=ksnake
 DocPath=Reversi.html
 Comment=Eat all items before the computer
 Comment[de]=Fress alles bevor es der Rechner tut
-Comment[pl]=Zdjedz wszystkie owoce, zanim to zrobi komputer.
+Comment[pl]=Zjedz wszystkie owoce, zanim to zrobi komputer.
 Terminal=0
 Type=Application

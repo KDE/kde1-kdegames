@@ -1,6 +1,16 @@
 # Polish translation of KDE kreversi
-# Version 0.1.1
+# Version 0.1.2
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+
+
+msgid "About &Qt..."
+msgstr "Informacje o &Qt"
+
+msgid "&Load game"
+msgstr "&Odtwórz grê"
+
+msgid "&Save game"
+msgstr "&Zachowaj grê"
 
 #: app.cpp:207 app.cpp:505
 msgid "Error"
@@ -84,7 +94,7 @@ msgstr "&Zmniejsz planszê"
 
 #: app.cpp:261
 msgid "&Enlarge board"
-msgstr "P&oszerz planszê"
+msgstr "P&owiêksz planszê"
 
 #: app.cpp:265
 msgid "&Half size"
@@ -146,7 +156,7 @@ msgstr "Wybierz obrazek na t³o"
 
 #: app.cpp:294
 msgid "&Grayscale"
-msgstr "&Czarno-ba³e"
+msgstr "Odcienie &szaro¶ci"
 
 #: app.cpp:296
 msgid "&Animations"
@@ -182,7 +192,7 @@ msgstr "&Idea strategii"
 
 #: app.cpp:318
 msgid "&About..."
-msgstr "&Informacje..."
+msgstr "&Informacje o KReversi"
 
 #: app.cpp:320
 msgid "&File"
@@ -210,7 +220,7 @@ msgstr "Zmniejsz planszê"
 
 #: app.cpp:360
 msgid "Enlarge board"
-msgstr "Poszerz planszê"
+msgstr "Powiêksz planszê"
 
 #: app.cpp:361
 msgid "Get hint"
