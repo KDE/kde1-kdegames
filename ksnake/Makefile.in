@@ -1,125 +1,541 @@
-# This is a sample Makefile.in
+# Makefile.in generated automatically by automake 1.2f from Makefile.am
 
-kde_libraries 	= @kde_libraries@
-qt_libraries	= @qt_libraries@
-x_libraries     = @x_libraries@
-top_builddir 	= ..
-LIBTOOL 	= @LIBTOOL@
-KDE_RPATH 	= @KDE_RPATH@
-install_root    = @install_root@
-exec_prefix     = @exec_prefix@
-kde_datadir     = @kde_datadir@
-kde_appsdir     = @kde_appsdir@
-kde_bindir      = @kde_bindir@
-kde_minidir     = @kde_minidir@
-kde_icondir     = @kde_icondir@
+# Copyright (C) 1994, 1995, 1996, 1997, 1998 Free Software Foundation, Inc.
+# This Makefile.in is free software; the Free Software Foundation
+# gives unlimited permission to copy and/or distribute it,
+# with or without modifications, as long as this notice is preserved.
 
-# @CXXFLAGS@     : is set to -g -Wall (when debuging) or -O2 -Wall (when not)
-# @all_includes@ : is set to all needed include paths for QT, KDE and X11
-# -I.. 	         : needed for config.h
-CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I..
+# This program is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY, to the extent permitted by law; without
+# even the implied warranty of MERCHANTABILITY or FITNESS FOR A
+# PARTICULAR PURPOSE.
 
-# @LDFLAGS@    : is set to -s (when not debuging) for stripping
-# @all_libra.@ : is set to all needed libraries paths for QT, KDE and X11
-# you need also @LIBSOCKET@, if you link with -lkfm
-LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkdeui -lkdecore -lqt -lXext -lX11 -lm
 
-# both are clear, I think
-CXX     = @CXX@
-MOC   	= @MOC@
+SHELL = /bin/sh
 
-############# INSTALL #################
-
-install = @INSTALL@
-INSTALL = $(install) -m 0755
-INSTALL_DATA = $(install) -m 0644
-INSTALL_DIR = $(install) -d -m 0755
-INSTALL_DIR_PRIVATE = $(install) -d -m 0700
-
+srcdir = @srcdir@
+top_srcdir = @top_srcdir@
+VPATH = @srcdir@
 prefix = @prefix@
-BINDIR = $(kde_bindir)
-APPSDIR = $(kde_appsdir)/Games
-ICONDIR = $(kde_icondir)
-MINIDIR = $(kde_minidir)
+exec_prefix = @exec_prefix@
 
-########### File Formats ###########
+bindir = @bindir@
+sbindir = @sbindir@
+libexecdir = @libexecdir@
+datadir = @datadir@
+sysconfdir = @sysconfdir@
+sharedstatedir = @sharedstatedir@
+localstatedir = @localstatedir@
+libdir = @libdir@
+infodir = @infodir@
+mandir = @mandir@
+includedir = @includedir@
+oldincludedir = /usr/include
 
-.SUFFIXES: .cpp
+pkgdatadir = $(datadir)/@PACKAGE@
+pkglibdir = $(libdir)/@PACKAGE@
+pkgincludedir = $(includedir)/@PACKAGE@
 
-.cpp.o:
-	$(CXX) -c $(CXXFLAGS) $<
+top_builddir = ..
 
-%.moc: %.h
-	$(MOC) $< -o $@
+ACLOCAL = @ACLOCAL@
+AUTOCONF = @AUTOCONF@
+AUTOMAKE = @AUTOMAKE@
+AUTOHEADER = @AUTOHEADER@
 
-########## Files #####################
+INSTALL = @INSTALL@
+INSTALL_PROGRAM = @INSTALL_PROGRAM@
+INSTALL_DATA = @INSTALL_DATA@
+INSTALL_SCRIPT = @INSTALL_SCRIPT@
+transform = @program_transform_name@
 
-HEADERS =	game.h trys.h rattler.h board.h\
+NORMAL_INSTALL = :
+PRE_INSTALL = :
+POST_INSTALL = :
+NORMAL_UNINSTALL = :
+PRE_UNINSTALL = :
+POST_UNINSTALL = :
+build_alias = @build_alias@
+build_triplet = @build@
+host_alias = @host_alias@
+host_triplet = @host@
+target_alias = @target_alias@
+target_triplet = @target@
+CC = @CC@
+CPP = @CPP@
+CXX = @CXX@
+GLINC = @GLINC@
+GLLIB = @GLLIB@
+GMSGFMT = @GMSGFMT@
+KDE_EXTRA_RPATH = @KDE_EXTRA_RPATH@
+KDE_INCLUDES = @KDE_INCLUDES@
+KDE_LDFLAGS = @KDE_LDFLAGS@
+KDE_RPATH = @KDE_RPATH@
+LD = @LD@
+LIBCOMPAT = @LIBCOMPAT@
+LIBCRYPT = @LIBCRYPT@
+LIBDL = @LIBDL@
+LIBJPEG = @LIBJPEG@
+LIBKHTMLW = @LIBKHTMLW@
+LIBOBJS = @LIBOBJS@
+LIBSOCKET = @LIBSOCKET@
+LIBTOOL = @LIBTOOL@
+LIBUCB = @LIBUCB@
+LN_S = @LN_S@
+MAKEINFO = @MAKEINFO@
+MOC = @MOC@
+MSGFMT = @MSGFMT@
+NM = @NM@
+PACKAGE = @PACKAGE@
+PAMINC = @PAMINC@
+PAMLIBPATHS = @PAMLIBPATHS@
+PAMLIBS = @PAMLIBS@
+QT_INCLUDES = @QT_INCLUDES@
+QT_LDFLAGS = @QT_LDFLAGS@
+RANLIB = @RANLIB@
+USE_NLS = @USE_NLS@
+VERSION = @VERSION@
+XGETTEXT = @XGETTEXT@
+XPMINC = @XPMINC@
+XPMLIB = @XPMLIB@
+X_INCLUDES = @X_INCLUDES@
+X_LDFLAGS = @X_LDFLAGS@
+all_includes = @all_includes@
+all_libraries = @all_libraries@
+install_root = @install_root@
+kde_appsdir = @kde_appsdir@
+kde_bindir = @kde_bindir@
+kde_cgidir = @kde_cgidir@
+kde_confdir = @kde_confdir@
+kde_datadir = @kde_datadir@
+kde_htmldir = @kde_htmldir@
+kde_icondir = @kde_icondir@
+kde_includes = @kde_includes@
+kde_libraries = @kde_libraries@
+kde_locale = @kde_locale@
+kde_mimedir = @kde_mimedir@
+kde_minidir = @kde_minidir@
+kde_partsdir = @kde_partsdir@
+kde_sounddir = @kde_sounddir@
+kde_toolbardir = @kde_toolbardir@
+kde_wallpaperdir = @kde_wallpaperdir@
+qt_includes = @qt_includes@
+qt_libraries = @qt_libraries@
+topdir = @topdir@
+x_includes = @x_includes@
+x_libraries = @x_libraries@
+
+INCLUDES = $(all_includes)
+
+LDFLAGS	= $(all_libraries) $(KDE_RPATH)
+LDADD =  -lkdeui -lkdecore -lqt -lXext -lX11 -lm
+
+noinst_HEADERS = game.h trys.h rattler.h board.h\
 		level.h ball.h snake.h\
 		basket.h startroom.h lcdrange.h score.h\
-		pixServer.h progress.h levels.h view.o keys.h
+		pixServer.h progress.h levels.h view.o keys.h \
+		$(BUILTSOURCES)
 
-SOURCES = 	game.cpp trys.cpp rattler.cpp board.cpp\
+ksnake_SOURCES = game.cpp trys.cpp rattler.cpp board.cpp\
 		level.cpp ball.cpp snake.cpp\
 		basket.cpp startroom.cpp lcdrange.cpp\
 		score.cpp pixServer.cpp progress.cpp levels.cpp\
 		view.cpp keys.cpp
 
-
-OBJECTS = 	game.o trys.o rattler.o board.o\
-		level.o ball.o snake.o\
-		basket.o startroom.o lcdrange.o score.o\
-		pixServer.o progress.o levels.o view.o keys.o
-
-
-SRCMETA = 	mgame.cpp mrattler.cpp msnake.cpp  mtrys.cpp\
+BUILTSOURCES = 	mgame.cpp mrattler.cpp msnake.cpp  mtrys.cpp\
 		mbasket.cpp mstartroom.cpp mlcdrange.cpp mscore.cpp\
 	        mprogress.cpp mview.cpp mkeys.cpp
 
-OBJMETA = 	mgame.o mrattler.o msnake.o  mtrys.o\
-		mbasket.o mstartroom.o mlcdrange.o mscore.o\
-		mprogress.o mview.o mkeys.o
+DISTCLEANFILES = $(BUILTSOUCES)
 
-TARGET	= 	ksnake
+bin_PROGRAMS = 	ksnake
 
 ######### build rules ################
 
-all: $(TARGET)
+apps_DATA = ksnake.kdelnk
+appsdir = $(kde_appsdir)/Games
 
-Makefile: Makefile.in
-	cd .. && CONFIG_FILES=ksnake/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+icon_DATA = ksnake.xpm
+icondir = $(kde_icondir)
 
-$(TARGET):  $(OBJECTS) $(OBJMETA)
-	$(LIBTOOL) --mode=link $(CXX) $(OBJECTS) $(OBJMETA) -o $(TARGET) $(LDFLAGS) $(KDE_RPATH)
+SUBDIRS = doc data 
+mkinstalldirs = $(SHELL) $(top_srcdir)/mkinstalldirs
+CONFIG_HEADER = ../config.h
+CONFIG_CLEAN_FILES = 
+PROGRAMS =  $(bin_PROGRAMS)
 
-clean:
-	rm -f *.o *.bak *~ *% #*
-	rm -f $(SRCMETA) $(TARGET)
 
-distclean: clean
-	rm -f Makefile
+DEFS = @DEFS@ -I. -I$(srcdir) -I..
+CPPFLAGS = @CPPFLAGS@
+LIBS = @LIBS@
+ksnake_OBJECTS =  game.o trys.o rattler.o board.o level.o ball.o snake.o \
+basket.o startroom.o lcdrange.o score.o pixServer.o progress.o levels.o \
+view.o keys.o
+ksnake_LDADD = $(LDADD)
+ksnake_DEPENDENCIES = 
+ksnake_LDFLAGS = 
+CXXFLAGS = @CXXFLAGS@
+CXXCOMPILE = $(CXX) $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CXXFLAGS)
+LTCXXCOMPILE = $(LIBTOOL) --mode=compile $(CXX) $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CXXFLAGS)
+CXXLINK = $(LIBTOOL) --mode=link $(CXX) $(CXXFLAGS) $(LDFLAGS) -o $@
+DATA =  $(apps_DATA) $(icon_DATA)
+
+HEADERS =  $(noinst_HEADERS)
+
+DIST_COMMON =  README ChangeLog Makefile.am Makefile.in
+
+
+DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST) 
+
+TAR = tar
+GZIP = --best
+DEP_FILES =  .deps/ball.P .deps/basket.P .deps/board.P .deps/game.P \
+.deps/keys.P .deps/lcdrange.P .deps/level.P .deps/levels.P \
+.deps/pixServer.P .deps/progress.P .deps/rattler.P .deps/score.P \
+.deps/snake.P .deps/startroom.P .deps/trys.P .deps/view.P
+CXXMKDEP = $(CXX) -M $(DEFS) $(INCLUDES) $(CPPFLAGS) $(CXXFLAGS)
+SOURCES = $(ksnake_SOURCES)
+OBJECTS = $(ksnake_OBJECTS)
+
+default: all
+
+.SUFFIXES:
+.SUFFIXES: .S .c .cpp .lo .o .s
+$(srcdir)/Makefile.in: Makefile.am $(top_srcdir)/configure.in $(ACLOCAL_M4) 
+	cd $(top_srcdir) && $(AUTOMAKE) --gnu ksnake/Makefile
+
+Makefile: $(srcdir)/Makefile.in $(top_builddir)/config.status $(BUILT_SOURCES)
+	cd $(top_builddir) \
+	  && CONFIG_FILES=$(subdir)/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+
+mostlyclean-binPROGRAMS:
+
+clean-binPROGRAMS:
+	-test -z "$(bin_PROGRAMS)" || rm -f $(bin_PROGRAMS)
+
+distclean-binPROGRAMS:
+
+maintainer-clean-binPROGRAMS:
+
+install-binPROGRAMS: $(bin_PROGRAMS)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(bindir)
+	@list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  if test -f $$p; then \
+	    echo " $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(bindir)/`echo $$p|sed '$(transform)'`"; \
+	    $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(bindir)/`echo $$p|sed '$(transform)'`; \
+	  else :; fi; \
+	done
+
+uninstall-binPROGRAMS:
+	@$(NORMAL_UNINSTALL)
+	list='$(bin_PROGRAMS)'; for p in $$list; do \
+	  rm -f $(bindir)/`echo $$p|sed '$(transform)'`; \
+	done
+
+.s.o:
+	$(COMPILE) -c $<
+
+.S.o:
+	$(COMPILE) -c $<
+
+mostlyclean-compile:
+	-rm -f *.o core *.core
+
+clean-compile:
+
+distclean-compile:
+	-rm -f *.tab.c
+
+maintainer-clean-compile:
+
+.s.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+.S.lo:
+	$(LIBTOOL) --mode=compile $(COMPILE) -c $<
+
+mostlyclean-libtool:
+	-rm -f *.lo
+
+clean-libtool:
+	-rm -rf .libs _libs
+
+distclean-libtool:
+
+maintainer-clean-libtool:
+
+ksnake: $(ksnake_OBJECTS) $(ksnake_DEPENDENCIES)
+	@rm -f ksnake
+	$(CXXLINK) $(ksnake_LDFLAGS) $(ksnake_OBJECTS) $(ksnake_LDADD) $(LIBS)
+.cpp.o:
+	$(CXXCOMPILE) -c $<
+.cpp.lo:
+	$(LTCXXCOMPILE) -c $<
+
+install-appsDATA: $(apps_DATA)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(appsdir)
+	@list='$(apps_DATA)'; for p in $$list; do \
+	  if test -f $(srcdir)/$$p; then \
+	    echo " $(INSTALL_DATA) $(srcdir)/$$p $(appsdir)/$$p"; \
+	    $(INSTALL_DATA) $(srcdir)/$$p $(appsdir)/$$p; \
+	  else if test -f $$p; then \
+	    echo " $(INSTALL_DATA) $$p $(appsdir)/$$p"; \
+	    $(INSTALL_DATA) $$p $(appsdir)/$$p; \
+	  fi; fi; \
+	done
+
+uninstall-appsDATA:
+	@$(NORMAL_UNINSTALL)
+	list='$(apps_DATA)'; for p in $$list; do \
+	  rm -f $(appsdir)/$$p; \
+	done
+
+install-iconDATA: $(icon_DATA)
+	@$(NORMAL_INSTALL)
+	$(mkinstalldirs) $(icondir)
+	@list='$(icon_DATA)'; for p in $$list; do \
+	  if test -f $(srcdir)/$$p; then \
+	    echo " $(INSTALL_DATA) $(srcdir)/$$p $(icondir)/$$p"; \
+	    $(INSTALL_DATA) $(srcdir)/$$p $(icondir)/$$p; \
+	  else if test -f $$p; then \
+	    echo " $(INSTALL_DATA) $$p $(icondir)/$$p"; \
+	    $(INSTALL_DATA) $$p $(icondir)/$$p; \
+	  fi; fi; \
+	done
+
+uninstall-iconDATA:
+	@$(NORMAL_UNINSTALL)
+	list='$(icon_DATA)'; for p in $$list; do \
+	  rm -f $(icondir)/$$p; \
+	done
+
+# This directory's subdirectories are mostly independent; you can cd
+# into them and run `make' without going through this Makefile.
+# To change the values of `make' variables: instead of editing Makefiles,
+# (1) if the variable is set in `config.status', edit `config.status'
+#     (which will cause the Makefiles to be regenerated when you run `make');
+# (2) otherwise, pass the desired values on the `make' command line.
+
+@SET_MAKE@
+
+all-recursive install-data-recursive install-exec-recursive \
+installdirs-recursive install-recursive uninstall-recursive  \
+check-recursive installcheck-recursive info-recursive dvi-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	  target=`echo $@ | sed s/-recursive//`; \
+	  echo "Making $$target in $$subdir"; \
+	  (cd $$subdir && $(MAKE) $$target) \
+	   || case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done && test -z "$$fail"
+
+mostlyclean-recursive clean-recursive distclean-recursive \
+maintainer-clean-recursive:
+	@set fnord $(MAKEFLAGS); amf=$$2; \
+	rev=''; list='$(SUBDIRS)'; for subdir in $$list; do \
+	  rev="$$subdir $$rev"; \
+	done; \
+	for subdir in $$rev; do \
+	  target=`echo $@ | sed s/-recursive//`; \
+	  echo "Making $$target in $$subdir"; \
+	  (cd $$subdir && $(MAKE) $$target) \
+	   || case "$$amf" in *=*) exit 1;; *k*) fail=yes;; *) exit 1;; esac; \
+	done && test -z "$$fail"
+tags-recursive:
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	  (cd $$subdir && $(MAKE) tags); \
+	done
+
+tags: TAGS
+
+ID: $(HEADERS) $(SOURCES) $(LISP)
+	here=`pwd` && cd $(srcdir) \
+	  && mkid -f$$here/ID $(SOURCES) $(HEADERS) $(LISP)
+
+TAGS: tags-recursive $(HEADERS) $(SOURCES)  $(TAGS_DEPENDENCIES) $(LISP)
+	tags=; \
+	here=`pwd`; \
+	list='$(SUBDIRS)'; for subdir in $$list; do \
+	  test -f $$subdir/TAGS && tags="$$tags -i $$here/$$subdir/TAGS"; \
+	done; \
+	list='$(SOURCES) $(HEADERS)'; \
+	unique=`for i in $$list; do echo $$i; done | \
+	  awk '    { files[$$0] = 1; } \
+	       END { for (i in files) print i; }'`; \
+	test -z "$(ETAGS_ARGS)$$unique$(LISP)$$tags" \
+	  || (cd $(srcdir) && etags $(ETAGS_ARGS) $$tags  $$unique $(LISP) -o $$here/TAGS)
+
+mostlyclean-tags:
+
+clean-tags:
+
+distclean-tags:
+	-rm -f TAGS ID
+
+maintainer-clean-tags:
+
+distdir = $(top_builddir)/$(PACKAGE)-$(VERSION)/$(subdir)
+
+subdir = ksnake
+
+distdir: $(DISTFILES)
+	here=`cd $(top_builddir) && pwd`; \
+	top_distdir=`cd $(top_distdir) && pwd`; \
+	distdir=`cd $(distdir) && pwd`; \
+	cd $(top_srcdir) \
+	  && $(AUTOMAKE) --include-deps --build-dir=$$here --srcdir-name=$(top_srcdir) --output-dir=$$top_distdir --gnu ksnake/Makefile
+	@for file in $(DISTFILES); do \
+	  d=$(srcdir); \
+	  test -f $(distdir)/$$file \
+	  || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
+	  || cp -p $$d/$$file $(distdir)/$$file; \
+	done
+	for subdir in $(SUBDIRS); do \
+	  test -d $(distdir)/$$subdir \
+	  || mkdir $(distdir)/$$subdir \
+	  || exit 1; \
+	  chmod 777 $(distdir)/$$subdir; \
+	  (cd $$subdir && $(MAKE) top_distdir=../$(top_distdir) distdir=../$(distdir)/$$subdir distdir) \
+	    || exit 1; \
+	done
+
+DEPS_MAGIC := $(shell mkdir .deps > /dev/null 2>&1 || :)
+
+-include $(DEP_FILES)
+
+mostlyclean-depend:
+
+clean-depend:
+
+distclean-depend:
+
+maintainer-clean-depend:
+	-rm -rf .deps
+
+%.o: %.c
+	@echo '$(COMPILE) -c $<'; \
+	$(COMPILE) -Wp,-MD,.deps/$(*F).P -c $<
+
+%.lo: %.c
+	@echo '$(LTCOMPILE) -c $<'; \
+	$(LTCOMPILE) -Wp,-MD,.deps/$(*F).p -c $<
+	@-sed -e 's/^\([^:]*\)\.o:/\1.lo \1.o:/' \
+	  < .deps/$(*F).p > .deps/$(*F).P
+	@-rm -f .deps/$(*F).p
+
+%.o: %.cpp
+	@echo '$(CXXCOMPILE) -c $<'; \
+	$(CXXCOMPILE) -Wp,-MD,.deps/$(*F).P -c $<
+
+%.lo: %.cpp
+	@echo '$(LTCXXCOMPILE) -c $<'; \
+	$(LTCXXCOMPILE) -Wp,-MD,.deps/$(*F).p -c $<
+	@-sed -e 's/^\([^:]*\)\.o:/\1.lo \1.o:/' \
+	  < .deps/$(*F).p > .deps/$(*F).P
+	@-rm -f .deps/$(*F).p
+info: info-recursive
+dvi: dvi-recursive
+check: all-am
+	$(MAKE) check-recursive
+installcheck: installcheck-recursive
+all-am: Makefile $(PROGRAMS) $(DATA) $(HEADERS)
+
+install-exec-am: install-binPROGRAMS
+
+install-data-am: install-appsDATA install-iconDATA
+
+uninstall-am: uninstall-binPROGRAMS uninstall-appsDATA uninstall-iconDATA
+
+install-exec: install-exec-recursive install-exec-am
+	@$(NORMAL_INSTALL)
+
+install-data: install-data-recursive install-data-am
+	@$(NORMAL_INSTALL)
+
+install: install-recursive install-exec-am install-data-am
+	@:
+
+uninstall: uninstall-recursive uninstall-am
+
+all: all-recursive all-am
+
+install-strip:
+	$(MAKE) INSTALL_PROGRAM='$(INSTALL_PROGRAM) -s' INSTALL_SCRIPT='$(INSTALL_PROGRAM)' install
+installdirs: installdirs-recursive
+	$(mkinstalldirs)  $(bindir) $(appsdir) $(icondir)
+
+
+mostlyclean-generic:
+	-test -z "$(MOSTLYCLEANFILES)" || rm -f $(MOSTLYCLEANFILES)
+
+clean-generic:
+	-test -z "$(CLEANFILES)" || rm -f $(CLEANFILES)
+
+distclean-generic:
+	-rm -f Makefile $(DISTCLEANFILES)
+	-rm -f config.cache config.log stamp-h stamp-h[0-9]*
+	-test -z "$(CONFIG_CLEAN_FILES)" || rm -f $(CONFIG_CLEAN_FILES)
+
+maintainer-clean-generic:
+	-test -z "$(MAINTAINERCLEANFILES)" || rm -f $(MAINTAINERCLEANFILES)
+	-test -z "$(BUILT_SOURCES)" || rm -f $(BUILT_SOURCES)
+mostlyclean-am:  mostlyclean-binPROGRAMS mostlyclean-compile \
+		mostlyclean-libtool mostlyclean-tags mostlyclean-depend \
+		mostlyclean-generic
+
+clean-am:  clean-binPROGRAMS clean-compile clean-libtool clean-tags \
+		clean-depend clean-generic mostlyclean-am
+
+distclean-am:  distclean-binPROGRAMS distclean-compile distclean-libtool \
+		distclean-tags distclean-depend distclean-generic \
+		clean-am
+
+maintainer-clean-am:  maintainer-clean-binPROGRAMS \
+		maintainer-clean-compile maintainer-clean-libtool \
+		maintainer-clean-tags maintainer-clean-depend \
+		maintainer-clean-generic distclean-am
+
+mostlyclean:  mostlyclean-recursive mostlyclean-am
+
+clean:  clean-recursive clean-am
+
+distclean:  distclean-recursive distclean-am
+	-rm -f config.status
+	-rm -f libtool
+
+maintainer-clean:  maintainer-clean-recursive maintainer-clean-am
+	@echo "This command is intended for maintainers to use;"
+	@echo "it deletes files that may require special tools to rebuild."
+
+.PHONY: default mostlyclean-binPROGRAMS distclean-binPROGRAMS \
+clean-binPROGRAMS maintainer-clean-binPROGRAMS uninstall-binPROGRAMS \
+install-binPROGRAMS mostlyclean-compile distclean-compile clean-compile \
+maintainer-clean-compile mostlyclean-libtool distclean-libtool \
+clean-libtool maintainer-clean-libtool uninstall-appsDATA \
+install-appsDATA uninstall-iconDATA install-iconDATA \
+install-data-recursive uninstall-data-recursive install-exec-recursive \
+uninstall-exec-recursive installdirs-recursive uninstalldirs-recursive \
+all-recursive check-recursive installcheck-recursive info-recursive \
+dvi-recursive mostlyclean-recursive distclean-recursive clean-recursive \
+maintainer-clean-recursive tags tags-recursive mostlyclean-tags \
+distclean-tags clean-tags maintainer-clean-tags distdir \
+mostlyclean-depend distclean-depend clean-depend \
+maintainer-clean-depend info dvi installcheck all-am install-exec-am \
+install-data-am uninstall-am install-exec install-data install \
+uninstall all installdirs mostlyclean-generic distclean-generic \
+clean-generic maintainer-clean-generic clean mostlyclean distclean \
+maintainer-clean
+
 
 install: all
-	$(INSTALL_DIR) $(BINDIR)
-	$(INSTALL) $(TARGET) $(BINDIR)
-	$(INSTALL_DIR) $(APPSDIR)
-	$(INSTALL_DATA) ksnake.kdelnk $(APPSDIR)
-	(cd doc && $(MAKE) install)
-	(cd data && $(MAKE) install)
-	$(INSTALL_DIR) $(ICONDIR)
-	$(INSTALL_DATA) ksnake.xpm $(ICONDIR)
-	$(INSTALL_DIR) $(MINIDIR)
-	$(INSTALL_DATA) mini-ksnake.xpm $(MINIDIR)/ksnake.xpm
+	$(mkinstalldirs) $(kde_minidir)
+	$(INSTALL_DATA) mini-ksnake.xpm $(kde_minidir)/ksnake.xpm
 
 uninstall:
-	-rm -f $(ICONDIR)/ksnake.xpm
-	-rm -f $(MINIDIR)/ksnake.xpm
-	-rm -f $(BINDIR)/$(TARGET)
-	-rm -f $(APPSDIR)/ksnake.kdelnk
-	(cd doc && $(MAKE) uninstall)
-	(cd data && $(MAKE) uninstall)
-
-messages:
+	-rm -f $(kde_minidir)/ksnake.xpm
 
 ####### Meta classes
 
@@ -160,3 +576,7 @@ mkeys.cpp: keys.h
 	$(MOC) -o $@ $<
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
+
+# Tell versions [3.59,3.63) of GNU make to not export all variables.
+# Otherwise a system limit (for SysV at least) may be exceeded.
+.NOEXPORT:

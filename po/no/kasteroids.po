@@ -1,5 +1,3 @@
-
-
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
@@ -8,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -16,34 +14,33 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:77
+#: toplevel.cpp:98
 msgid "Score"
 msgstr "Poeng"
 
-#: toplevel.cpp:91
+#: toplevel.cpp:112
 msgid "Level"
 msgstr "Nivå"
 
-#: toplevel.cpp:105
+#: toplevel.cpp:126
 msgid "Ships"
 msgstr "Skip"
 
-#: toplevel.cpp:165
-msgid "&About..."
-msgstr "&Om..."
-
-#: toplevel.cpp:262
+#: toplevel.cpp:317
 msgid "Press Enter to launch."
 msgstr "Press Enter for å starte."
 
-#: toplevel.cpp:280 toplevel.cpp:299
-msgid "KAsteriods"
-msgstr "KAsteriods"
-
-#: toplevel.cpp:292
+#: toplevel.cpp:336
 msgid "Ship Destroyed.  Press Enter to launch."
 msgstr "Skip tilintetgjort. Press Enter for å starte."
 
-#: toplevel.cpp:300
+#: toplevel.cpp:340
+msgid "KAsteriods"
+msgstr "KAsteriods"
+
+#: toplevel.cpp:341
 msgid "Game Over!"
 msgstr "Spillet er slutt!"
+
+#~ msgid "&About..."
+#~ msgstr "&Om..."

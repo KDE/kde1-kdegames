@@ -2,193 +2,192 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
-"Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
-"Language-Team: no <LL@li.org>\n"
+"PO-Revision-Date: 1998-03-23 22:00+0100\n"
+"Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr> \n"
+"Language-Team: Croatian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Transfer-Encoding: iso-8859-2\n"
 
 #: board.cpp:68 dialogs.cpp:140
 msgid "Anonymous"
-msgstr "Anonym"
+msgstr "Nepoznat"
 
 #: board.cpp:85
 msgid "Game paused"
-msgstr "Pause i spillet"
+msgstr "Igra pauzirana"
 
 #: board.cpp:90
 msgid "Press to resume"
-msgstr "Trykk for å fortsette"
+msgstr "Pritisni za nastavak"
 
 #: board.cpp:105 net.cpp:216
 msgid "Game over"
-msgstr "Spillet er slutt"
+msgstr "Igra je zavr¹ena"
 
 #: board.cpp:109
 msgid "Press Return to replay"
-msgstr "Trykk Return for spille om igjen"
+msgstr "Pritisni Return za reprizu"
 
 #: board.cpp:113
 msgid "Press to start game"
-msgstr "Trykk for å starte spill"
+msgstr "Pritisni za poèetak igre"
 
 #: board.cpp:154 field.cpp:31 field.cpp:48
 msgid "Move left"
-msgstr "Flytt til venstre"
+msgstr "Lijevo"
 
 #: board.cpp:155 field.cpp:32 field.cpp:49
 msgid "Move right"
-msgstr "Flytt til høyre"
+msgstr "Desno"
 
 #: board.cpp:156 field.cpp:33 field.cpp:50
 msgid "Drop down"
-msgstr "Slipp ned"
+msgstr "Ispusti"
 
 #: board.cpp:157 field.cpp:34 field.cpp:51
 msgid "One line down"
-msgstr "En linje ned"
+msgstr "Spusti za jedan red"
 
 #: board.cpp:158 field.cpp:35 field.cpp:52
 msgid "Rotate left"
-msgstr "Roter til venstre"
+msgstr "Zakreni lijevo"
 
 #: board.cpp:159 field.cpp:36 field.cpp:53
 msgid "Rotate right"
-msgstr "Roter til høyre"
+msgstr "Zakreni desno"
 
 #: board.cpp:269
 msgid "You suck !"
-msgstr "You suck !"
+msgstr "Pu¹i¹!"
 
 #: board.cpp:391
 msgid "Highscores file not writable !"
-msgstr "Kan ikke skrive til fil for høy poengsum !"
+msgstr "Datoteka s rekordima nije dozvoljena za pisanje!"
 
 #: net.cpp:133
 msgid "Illegal port"
-msgstr "Illegal port"
+msgstr "Nedozvoljen port"
 
 #: net.cpp:139
 msgid "Null address"
-msgstr "Ingen adresse"
+msgstr "Nepostojeæa adresa"
 
 #: net.cpp:145 net.cpp:151
 msgid "Unknown address"
-msgstr "Ukjent adresse"
+msgstr "Nepoznata adresa"
 
 #: net.cpp:166
 msgid "Cannot create socket"
-msgstr "Kan ikke lage socket"
+msgstr "Ne mogu napraviti socket"
 
 #: net.cpp:204
 msgid "at"
-msgstr "ved"
+msgstr "na"
 
 #: net.cpp:241
 msgid "Connect error"
-msgstr "Kontakt feil"
+msgstr "Gre¹ka pri spajanju"
 
 #: net.cpp:251 net.cpp:306
 msgid "Server unreachable"
-msgstr "Tjener ikke tilgjengelig"
+msgstr "Server nije dostupan"
 
 #: net.cpp:274
 msgid "The server has died"
-msgstr "Tjeneren døde"
+msgstr "Server je riknuo"
 
 #: net.cpp:274
 msgid "Cancel from server"
-msgstr "Kanseller fra tjener"
+msgstr "Server je otkazao vezu"
 
 #: net.cpp:280 net.cpp:340
 msgid "Unknown data from server"
-msgstr "Ukjent data fra tjener"
+msgstr "Server je poslao nepoznate podatke"
 
 #: net.cpp:319
 msgid "Cannot send to server"
-msgstr "Kan ikke sende til tjener"
+msgstr "Ne mogu slati serveru"
 
 #: net.cpp:331
 msgid "Client timeout (No message from server)"
-msgstr "Klient timeout (Ingen melding fra tjener)"
+msgstr "Prekoraèenje vremena "
 
 #: net.cpp:336
 msgid "Server has vanished"
-msgstr "Tjeneren har forsvunnet"
+msgstr "Server je nestao"
 
 #: net.cpp:373
 msgid "Bind error"
-msgstr "Bind feil"
+msgstr "Gre¹ka u spajanju"
 
 #: net.cpp:378
 msgid "Listen error"
-msgstr "Lytte feil"
+msgstr "Gre¹ka u slu¹anju"
 
 #: net.cpp:397
 msgid "Unknown message from unknown player (??)"
-msgstr "Ukjent melding fra ukjent spiller (??)"
+msgstr "Nepoznata poruka nepoznatog igraèa(??)"
 
 #: net.cpp:456 net.cpp:497
 msgid "Unknown message from client"
-msgstr "Ukjent melding fra klient"
+msgstr "Nepoznata poruka s klienta"
 
 #: net.cpp:493
 msgid "Client has died"
-msgstr "Klienten døde"
+msgstr "Klient je riknuo"
 
 #: net.cpp:493
 msgid "Cancel from client"
-msgstr "Kanseller fra klient"
+msgstr "Klijent je poslao otkaz"
 
 #: net.cpp:501
 msgid "Timeout"
-msgstr "Tiden gikk ut"
+msgstr "Prekoraèenje vremena"
 
 #: net.cpp:527
 msgid "No message from client"
-msgstr "Ingen melding fra klient"
+msgstr "Nema poruke s klijenta"
 
 #: net.cpp:532
 msgid "Client has vanished"
-msgstr "Klienten har forsvunnet"
+msgstr "Klijent je nestao"
 
 #: net.cpp:536
 msgid "Unknown data from client"
-msgstr "Ukjent data fra klient"
+msgstr "Nepoznati podaci s klienta"
 
 #: net.cpp:540
 msgid "End message from client"
-msgstr "Slutt på melding fra klient"
+msgstr "Zavr¹na poruka s klijenta"
 
 #: net.cpp:557
 msgid "Cannot send to client"
-msgstr "Kan ikke sende til klient"
+msgstr "Ne mogu poslati klijentu"
 
 #: dialogs.cpp:61
 msgid "High Scores"
-msgstr "Høy poengsum"
+msgstr "Najbolji rezultati"
 
 #: dialogs.cpp:84 dialogs.cpp:94
 msgid "Hall of Fame"
-msgstr "På toppen av seierspallen"
+msgstr "Dvorana besmrtnika"
 
 #: dialogs.cpp:161
 msgid "No option yet !"
-msgstr "Intet valg ennå !"
+msgstr "Jo¹ nije ugraðeno!"
 
 #: dialogs.cpp:184 dialogs.cpp:234
 msgid "Network Dialog"
-msgstr "Nettverks dialog"
+msgstr "Pode¹avanje mre¾e"
 
 #: dialogs.cpp:187
 msgid "Server"
-msgstr "Tjener"
+msgstr "Server"
 
 #: dialogs.cpp:188
 msgid "Client"
@@ -196,11 +195,11 @@ msgstr "Klient"
 
 #: dialogs.cpp:192
 msgid "Player name :"
-msgstr "Spillerens navn :"
+msgstr "Ime igraèa :"
 
 #: dialogs.cpp:194
 msgid "Server address :"
-msgstr "Tjenerens adresse :"
+msgstr "Adresa servera :"
 
 #: dialogs.cpp:196
 msgid "Port :"
@@ -208,107 +207,107 @@ msgstr "Port :"
 
 #: dialogs.cpp:208
 msgid "Connect"
-msgstr "Tilkople"
+msgstr "Spojen"
 
 #: dialogs.cpp:211
 msgid "Connecting ..."
-msgstr "Tilkopler ..."
+msgstr "Spajam se..."
 
 #: dialogs.cpp:214
 msgid "Play !"
-msgstr "Spill !"
+msgstr "Igraj!"
 
 #: dialogs.cpp:254
 msgid "Network game"
-msgstr "Nettverk spill"
+msgstr "Mre¾na igra"
 
 #: dialogs.cpp:258
 msgid "Server mode"
-msgstr "Tjener mode"
+msgstr "Server mod"
 
 #: dialogs.cpp:260
 msgid "Client mode"
-msgstr "Klient mode"
+msgstr "Klient mod"
 
 #: dialogs.cpp:338
 msgid "Waiting for other player(s) ..."
-msgstr "Venter på annen(andre) spiller(e) ..."
+msgstr "Èekam druge igraèe..."
 
 #: field.cpp:27 field.cpp:43
 msgid "New game"
-msgstr "Nytt spill"
+msgstr "Nova igra"
 
 #: field.cpp:28 field.cpp:44
 msgid "Pause game"
-msgstr "Pause i spillet"
+msgstr "Pauziraj"
 
 #: field.cpp:30 field.cpp:46
 msgid "High scores"
-msgstr "Høy poengsum"
+msgstr "Rekordi"
 
 #: field.cpp:37
 msgid "Close dialog"
-msgstr "Lukk dialog"
+msgstr "Zatvori dialog"
 
 #: field.cpp:38
 msgid "Ok dialog"
-msgstr "Dialog ok"
+msgstr "Ok dialog"
 
 #: field.cpp:39
 msgid "Cancel dialog"
-msgstr "Kanseller dialog"
+msgstr "Poni¹ti dialog"
 
 #: field.cpp:55
 msgid "Score"
-msgstr "Poengsum"
+msgstr "Rezultat"
 
 #: field.cpp:59
 msgid "Lines removed"
-msgstr "Linjer er fjernet"
+msgstr "Maknutih linija"
 
 #: field.cpp:63
 msgid "Level"
-msgstr "Nivå"
+msgstr "Nivo"
 
 #: field.cpp:67
 msgid "Next tile"
-msgstr "Neste flis"
+msgstr "Slijedeæi oblik"
 
 #: field.cpp:173
 msgid "&Restart game"
-msgstr "&Omstart spill"
+msgstr "&Ponovo igraj"
 
 #: field.cpp:174
 msgid "&Pause game"
-msgstr "&Pause i spillet"
+msgstr "Pauz&iraj"
 
 #: field.cpp:175
 msgid "&Multiplayer game"
-msgstr "&Flere spillere deltar"
+msgstr "&Mre¾na  igra"
 
 #: field.cpp:177
 msgid "&High scores"
-msgstr "&Høy poengsum"
+msgstr "Re&kordi"
 
 #: main.cpp:22 main.cpp:67
 msgid "Hide menu"
-msgstr "Skjul meny"
+msgstr "Sakrij izbornik"
 
 #: main.cpp:27
 msgid "&Keys"
-msgstr "&Taster"
+msgstr "&Tipke"
 
 #: main.cpp:30
 msgid "&Contents"
-msgstr "&Innhold"
+msgstr "&Sadr¾aj"
 
 #: main.cpp:33
 msgid "About &Qt"
-msgstr "Om &Qt"
+msgstr "&O Qt"
 
 #: main.cpp:64
 msgid "Show menu"
-msgstr "Vis meny"
+msgstr "Prika¾i izbornik"
 
 #: main.cpp:77
 #, c-format
@@ -321,10 +320,10 @@ msgid ""
 msgstr ""
 "%s (%s) \n"
 "\n"
-"av Nicolas HADACEK(hadacek@kde.org)\n"
-"tetris kernel av Eirik ENG.\n"
-"http://www.via.ecp.fr/~hadacek/KDE/KTetris.html"
+"Nicolas HADACEK(hadacek@kde.org)\n"
+"tetris kernel Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
 
 #: main.cpp:80
 msgid "ktetris : about"
-msgstr "KTetris: om"
+msgstr "ktetris: o programu"
