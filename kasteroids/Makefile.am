@@ -14,7 +14,7 @@ picsdir = $(kde_datadir)/kasteroids/sprites
 pics_DATA = bg.ppm
 
 appsdir = $(kde_appsdir)/Games
-apps_DATA = Kasteroids.kdelnk
+apps_DATA = kasteroids.kdelnk
 
 icondir = $(kde_icondir)
 icon_DATA = kasteroids.xpm

@@ -32,8 +32,6 @@ protected:
 private slots:
     void slotNewGame();
     void slotQuit();
-    void slotHelp();
-    void slotAbout();
 
     void slotShipKilled();
     void slotRockHit( int size );

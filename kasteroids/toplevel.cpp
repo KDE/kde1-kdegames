@@ -12,6 +12,7 @@
 
 #include "kfixedtopwidget.h"
 #include "toplevel.h"
+#include "version.h"
 
 #include "toplevel.moc"
 
@@ -53,6 +54,8 @@ SLevel levels[MAX_LEVELS] =
 
 KAstTopLevel::KAstTopLevel() : KFixedTopWidget()
 {
+    setCaption( kapp->getCaption() );
+
     QWidget *mainWin = new QWidget( this );
 
     view = new KAsteroidsView( mainWin );
@@ -157,17 +160,14 @@ void KAstTopLevel::createMenuBar()
     fileMenu->insertItem( klocale->translate( "&Quit" ), this, SLOT(slotQuit()),
 	CTRL+Key_Q );
 
-    QPopupMenu *helpMenu = new QPopupMenu;
-    CHECK_PTR( helpMenu );
-    helpMenu->insertItem( klocale->translate( "&Help" ), this,
-	SLOT(slotHelp()) );
-    helpMenu->insertSeparator( );
-    helpMenu->insertItem( klocale->translate( "&About..." ), this,
-	SLOT(slotAbout()) );
+    QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Asteroids"))
+                                         + " " + KASTEROIDS_VERSION
+                                         + i18n("\n\nby Martin R. Jones")
+                                         + " (mjones@kde.org)"); 
 
     menu->insertItem( klocale->translate( "&File" ), fileMenu );
     menu->insertSeparator();
-    menu->insertItem( klocale->translate( "&Help" ), helpMenu );
+    menu->insertItem( klocale->translate( "&Help" ), help );
 }
 
 void KAstTopLevel::keyPressEvent( QKeyEvent *event )
@@ -268,18 +268,6 @@ void KAstTopLevel::slotNewGame()
 void KAstTopLevel::slotQuit()
 {
     kapp->quit();
-}
-
-void KAstTopLevel::slotHelp()
-{
-    kapp->invokeHTMLHelp( "", "" );
-}
-
-void KAstTopLevel::slotAbout()
-{
-    QMessageBox::message( klocale->translate("KAsteriods"),
-	"KAsteroids Version 0.0.4\n\nCopyright (c) Martin R. Jones 1997\n\n"
-	"With thanks to Warwick Allison\nfor QwSpriteField and POVRAY hints" );
 }
 
 void KAstTopLevel::slotShipKilled()
