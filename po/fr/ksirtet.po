@@ -281,7 +281,7 @@ msgstr "Cacher le menu"
 
 #: main.cpp:30
 msgid "&Keys"
-msgstr "&Touches"
+msgstr "&Raccourcis clavier"
 
 #: main.cpp:35
 msgid "by"
