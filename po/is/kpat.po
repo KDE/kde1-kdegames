@@ -148,7 +148,7 @@ msgstr "Velja annan leik"
 
 #: pwidget.cpp:116
 msgid "KDE"
-msgstr ""
+msgstr "KDE"
 
 #: pwidget.cpp:117
 msgid "Classic blue"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr ""
+msgstr "Aðra vinnu unnu:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

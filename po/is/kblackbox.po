@@ -10,19 +10,19 @@ msgstr ""
 
 #: kbbgame.cpp:73 kbbgame.cpp:114
 msgid "&Help"
-msgstr ""
+msgstr "&Hjálp"
 
 #: kbbgame.cpp:76
 msgid "&About KBlackBox"
-msgstr ""
+msgstr "&Um Svarta Kassann"
 
 #: kbbgame.cpp:78
 msgid "About &Qt"
-msgstr ""
+msgstr "Um &Qt"
 
 #: kbbgame.cpp:81
 msgid "&Quit"
-msgstr ""
+msgstr "&Hætta"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -54,19 +54,19 @@ msgstr "K&ennsla"
 
 #: kbbgame.cpp:110
 msgid "&File"
-msgstr ""
+msgstr "&Skrá"
 
 #: kbbgame.cpp:111
 msgid "&Game"
-msgstr ""
+msgstr "&Leikur"
 
 #: kbbgame.cpp:112
 msgid "&Options"
-msgstr ""
+msgstr "&Stillingar"
 
 #: kbbgame.cpp:170
 msgid "Quit"
-msgstr ""
+msgstr "Hætta"
 
 #: kbbgame.cpp:172
 msgid "New"
@@ -82,11 +82,11 @@ msgstr "Ljúka"
 
 #: kbbgame.cpp:179
 msgid "Help"
-msgstr ""
+msgstr "Hjálp"
 
 #: kbbgame.cpp:406
 msgid "About"
-msgstr ""
+msgstr "Um"
 
 #: kbbgame.cpp:408
 msgid ""
@@ -100,7 +100,7 @@ msgstr ""
 
 #: kbbgame.cpp:413
 msgid "Qt information"
-msgstr ""
+msgstr "Qt upplýsingar"
 
 #: kbbgame.cpp:432 kbbgame.cpp:551 kbbgame.cpp:607 kbbgame.cpp:636
 msgid "Warning!"
@@ -150,11 +150,11 @@ msgstr "Ræsa"
 
 #: kbbgame.cpp:572
 msgid "Yes"
-msgstr ""
+msgstr "Já"
 
 #: kbbgame.cpp:575
 msgid "No"
-msgstr ""
+msgstr "Nei"
 
 #: kbbgame.cpp:578
 msgid "Size"

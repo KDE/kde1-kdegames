@@ -137,6 +137,9 @@ msgid ""
 "\tRange must be 0..99\n"
 "\tand minVal must not be greater than maxVal"
 msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\t\"Range\" verður að vera á bilinu 0..99\n"
+"og lágmarkið skal vera minna en hámarkið."
 
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
@@ -177,16 +180,16 @@ msgstr "Óskilgreindur hnappur"
 
 #: keys.cpp:153
 msgid "Up"
-msgstr ""
+msgstr "Upp"
 
 #: keys.cpp:154
 msgid "Down"
-msgstr ""
+msgstr "Niður"
 
 #: keys.cpp:155
 msgid "Left"
-msgstr ""
+msgstr "Vinstri"
 
 #: keys.cpp:156
 msgid "Right"
-msgstr ""
+msgstr "Hægri"
