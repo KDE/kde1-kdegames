@@ -42,7 +42,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"par Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"  
+"par Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
 
 #: KSameWidget.cpp:91
 msgid "Colors: XX"
