@@ -223,7 +223,8 @@ void Game::quitGame()
 
 void Game::showHighScores()
 {
-    score->display();
+    score->display(-1);  // Magic number because bug in moc doesn't let us
+                         // default 2 parameters.
 }
 
 void Game::newGame()

@@ -39,7 +39,7 @@ public:
 
 public slots:
     void setScore(int);
-    void display(int newHall = -1, int newToday = -1);
+    void display(int newHall, int newToday = -1);
 
 private:
 
