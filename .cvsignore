@@ -13,3 +13,5 @@ Makefile
 stamp-h1.in
 stamp-h1
 libtool
+*.moc
+*.moc.cpp
