@@ -14,7 +14,7 @@ static char*ksame[]={
 "f c #ffc0c0",
 "c c #c0c0ff",
 "i c #ffffc0",
-". c None",
+". c #000000",
 "................",
 ".########a##bb#.",
 ".#######aacdefb.",
