@@ -1,0 +1,14 @@
+Begin3
+Title:          KPoker
+Version:        0.1.2
+Entered-date:   08/06/97
+Description:    A simple video poker clone
+Keywords:       KDE, Qt, gui, X11, poker, game
+Author:         <whynot@digicron.com> Jochen Tuchbreiter
+Maintained-by:  <whynot@digicron.com> Jochen Tuchbreiter
+Primary-site:   ftp://fiwi02.wiwi.uni-tuebingen.de/pub/kde/unstable/apps/games
+Home-Page:      http://www.mabi.de/~whynot/kpoker.html
+Original-site:  ftp://fiwi02.wiwi.uni-tuebingen.de/pub/kde/unstable/apps/games
+Platform:       Unix with Qt 1.2 and kde libs
+Copying-policy: GPL
+End

@@ -1,0 +1,7 @@
+[KDE Desktop Entry]
+Exec=kpoker -caption %c
+Icon=kpoker.xpm
+DocPath=kpoker.html
+Info=A simple video poker clone
+Terminal=0
+Type=Game

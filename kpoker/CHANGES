@@ -1,0 +1,14 @@
+0.1.2
+=====
+- made kpoker use KTopLevelWidget + the new menubars
+- fixed silly problem with cardImage
+- finished the helpfile
+- built in new icon
+- built in new backsides of cards (1000 thanks to our "icon/graphics Man")
+
+0.1.1
+======
+- made kpoker more "KDE conform" (like inserted separator between
+  help/help and help/about)
+- fixed a few silly bugs/problems
+- started to do the helpfile (halfway done right now)
