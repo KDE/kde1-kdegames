@@ -1,6 +1,6 @@
 bin_PROGRAMS = ksame
 INCLUDES = $(all_includes)
-ksame_LDADD = $(all_libraries) -lkdeui -lkdecore -lqt -lX11 -lXext $(LIBSOCKET) $(KDE_RPATH)
+ksame_LDADD = $(all_libraries) -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET) $(KDE_RPATH)
 
 ksame_SOURCES= main.cpp StoneWidget.cpp KSameWidget.cpp ScoreWidget.cpp
 BUILTSOURCES = StoneWidget.moc KSameWidget.moc ScoreWidget.moc
