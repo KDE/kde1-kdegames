@@ -132,8 +132,6 @@ msgstr ""
 "\n"
 "\n"
 "För en fullständig tacklista se hjälpfilen"
-""
-""
 
 #: top.cpp:78
 msgid ""
@@ -142,4 +140,3 @@ msgid ""
 msgstr ""
 "\n"
 "Förslag, buggrapporter etc. är välkomna"
-""

@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: kblackbox\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-11-22 10:30+MET\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 
 #: kbbgame.cpp:72
 msgid ""
