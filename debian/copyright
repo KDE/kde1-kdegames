@@ -9,7 +9,7 @@ Copyright:
 There is neither a global copyright statement, nor copyright statements
 in every file, so the situation is unclear.
 
-kasteroids is based on some other source, situation unknown.
+kasteroids is GPL and is based on LGPL code.
 
 kpat :
   basicCard.cpp -- support classes for patience type card games
@@ -150,10 +150,8 @@ which are
 %               Mountain View, CA  94043
 */ 
 
-kreversi :
-// This code is freely distributable, but may neither be sold nor used or
-// included in any product sold for profit without permission from
-// Mats Luthman.
+kreversi is based on code of Mats Luthman's <Mats.Luthman@sylog.se>, but he
+and kreversi's author agreed on releasing it under GPL.
 
 ktetrix :
 Copyright (C) 1994 by Eirik Eng. Do whatever you want with this code. 
