@@ -39,9 +39,11 @@ AC_CHECK_LIB(crypt, main, [LIBCRYPT="-lcrypt"]) dnl for BSD
 AC_SUBST(LIBCRYPT)
 LIBKHTMLW="-lkhtmlw -ljscript" dnl this is somewhat historical, since jscript is ways needed
 AC_SUBST(LIBKHTMLW)
-AC_FIND_ZLIB  dnl zlib for ksokoban
-if [ test -z $LIBZ ]; then
-  DO_NOT_COMPILE="$DO_NOT_COMPILE ksokoban"
+
+dnl zlib check for ksokoban
+AC_FIND_ZLIB
+if [ test -n "$LIBZ" ]; then
+  AC_DEFINE(HAVE_LIBZ)
 fi
 
 AC_FIND_JPEG
@@ -49,7 +51,7 @@ AC_FIND_JPEG
 dnl Checks for header files.
 AC_HEADER_DIRENT
 AC_HEADER_STDC
-AC_CHECK_HEADERS(fcntl.h sys/time.h unistd.h sys/select.h zlib.h)
+AC_CHECK_HEADERS(fcntl.h sys/time.h unistd.h sys/select.h)
 AC_CHECK_FUNCS(usleep)
 
 dnl Checks for typedefs, structures, and compiler characteristics.
