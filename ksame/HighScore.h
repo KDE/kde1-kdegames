@@ -50,10 +50,11 @@ private:
      char playername[17];
 
      int fontw,fonth;
+     QSize mSizeHint;
      QPushButton *ok;
      void keyPressEvent (QKeyEvent * e);
      virtual void paintEvent ( QPaintEvent * ); 
-     
+     virtual QSize sizeHint() { return mSizeHint; }
 };
 
 #endif

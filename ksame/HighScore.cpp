@@ -38,6 +38,9 @@ HighScore::HighScore( QWidget *parent ) : QWindow(parent,"Highscore") {
      connect(ok, SIGNAL(clicked()),this, SLOT(hide()) );
      playername[0]=0;
      load();
+     paintEvent(0);
+     setMinimumSize(mSizeHint);
+     resize(mSizeHint);
 } 
 
 void 
@@ -91,6 +94,7 @@ HighScore::paintEvent ( QPaintEvent * ) {
      ok->move((w-ok->width())/2,h);
      h+=ok->height();
      h+=10;
+     mSizeHint = QSize(w,h);
      // coolo: don't call resize
      // resize(w,h);
 }
