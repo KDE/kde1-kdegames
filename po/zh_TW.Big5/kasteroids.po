@@ -40,4 +40,3 @@ msgstr "小行星"
 #: toplevel.cpp:341
 msgid "Game Over!"
 msgstr "遊戲結束!"
-

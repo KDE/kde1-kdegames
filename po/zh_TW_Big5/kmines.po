@@ -144,4 +144,3 @@ msgstr "不確定(?)標記"
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "再試一次"
-

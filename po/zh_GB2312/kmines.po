@@ -6,101 +6,134 @@ msgstr ""
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-msgid "? mark"
-msgstr "? 标记"
-
-msgid "Anonymous"
-msgstr "匿名"
-
-msgid "Bad luck !"
-msgstr "运气不好 !"
-
-msgid "Cancel dialog"
-msgstr "取消对话框"
-
-msgid "Close dialog"
-msgstr "关闭对话框"
-
-msgid "Custom"
-msgstr "自定义"
-
-msgid "Custom Level"
-msgstr "自定义等级"
-
-msgid "Easy"
-msgstr "简单"
-
-msgid "Expert"
-msgstr "专家级"
-
-msgid "Game paused"
-msgstr "游戏暂停"
-
-msgid "Hall of Fame"
-msgstr "名人堂"
-
-msgid "Height :"
-msgstr "高度 :"
-
-msgid "Hide menu bar"
-msgstr "隐藏菜单条"
-
-msgid "High Scores"
-msgstr "高分排行榜"
-
-msgid "High scores"
-msgstr "高分排行榜"
-
-msgid "Highscore file is not writable !"
-msgstr "高分排行榜文件无法写入 !"
-
-msgid "Keys"
-msgstr "按键设定"
-
-msgid "Level"
-msgstr "等级"
-
-msgid "Mines :"
-msgstr "地雷数 :"
-
+#: main.cpp:24 main.cpp:35 main.cpp:53
 msgid "New game"
 msgstr "开始新游戏"
 
-msgid "Ok dialog"
-msgstr "确定对话框"
-
+#: main.cpp:25 main.cpp:36 main.cpp:54
 msgid "Pause game"
 msgstr "暂停游戏"
 
-msgid "Press to resume"
-msgstr "按任意键继续"
+#: main.cpp:27 main.cpp:38 main.cpp:56
+msgid "High scores"
+msgstr "高分排行榜"
 
+#: main.cpp:28
+msgid "Close dialog"
+msgstr "关闭对话框"
+
+#: main.cpp:29
+msgid "Ok dialog"
+msgstr "确定对话框"
+
+#: main.cpp:30
+msgid "Cancel dialog"
+msgstr "取消对话框"
+
+#: main.cpp:51 main.cpp:159
+msgid "Hide menu bar"
+msgstr "隐藏菜单条"
+
+#: main.cpp:61
+msgid "? mark"
+msgstr "? 标记"
+
+#: main.cpp:62
+msgid "Keys"
+msgstr "按键设定"
+
+#: main.cpp:65
+msgid "Easy"
+msgstr "简单"
+
+#: main.cpp:67
+msgid "Expert"
+msgstr "专家级"
+
+#: main.cpp:69
+msgid "Custom"
+msgstr "自定义"
+
+#: main.cpp:82
+msgid "Level"
+msgstr "等级"
+
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr "显示菜单条"
 
-msgid "Try again"
-msgstr "再试一次"
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "匿名"
 
-msgid "Uncertain (?) mark"
-msgstr "不确定的 (?) 标记"
-
-msgid "Width :"
-msgstr "宽度 :"
-
-msgid "Yeeessss !"
-msgstr "成功 !!!!"
-
+#: status.cpp:251
 msgid "You did it ... but not in time."
 msgstr "你完成了... 但没有在规定时间内."
 
-msgid "in"
-msgstr "时间"
+#: status.cpp:252
+msgid "Yeeessss !"
+msgstr "成功 !!!!"
 
+#: status.cpp:255
+msgid "Bad luck !"
+msgstr "运气不好 !"
+
+#: status.cpp:301
+msgid "Highscore file is not writable !"
+msgstr "高分排行榜文件无法写入 !"
+
+#: status.cpp:316
 msgid "kmines : Error"
 msgstr "kmines : 错误"
 
+#: field.cpp:86 field.cpp:93
+msgid "Game paused"
+msgstr "游戏暂停"
+
+#: field.cpp:89 field.cpp:95
+msgid "Press to resume"
+msgstr "按任意键继续"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "自定义等级"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "宽度 :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "高度 :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "地雷数 :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "高分排行榜"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr "时间"
+
+#: dialogs.cpp:233 dialogs.cpp:306
 msgid "minutes and "
 msgstr "分"
 
+#: dialogs.cpp:234 dialogs.cpp:319
 msgid "seconds."
 msgstr "秒."
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "名人堂"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "不确定的 (?) 标记"
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "再试一次"

@@ -307,4 +307,3 @@ msgstr ""
 #: main.cpp:64
 msgid "Show menu"
 msgstr "顯示選單"
-

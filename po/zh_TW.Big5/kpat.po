@@ -191,4 +191,3 @@ msgstr "無法載入背景圖形!"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "全自動"
-

@@ -6,84 +6,85 @@ msgstr ""
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-msgid "&Restart game"
-msgstr "重新开始游戏[&R]"
+#: cardmaps.cpp:62
+msgid "please wait, loading cards..."
+msgstr "请稍候, 正在载入卡片..."
 
-msgid "Animation on startup"
-msgstr "启动时的动画"
-
-msgid "Card backside"
-msgstr "纸牌花样"
-
-msgid "Choose new game"
-msgstr "选择新游戏"
-
-msgid "Classic blue"
-msgstr "古典蓝"
-
-msgid "Classic red"
-msgstr "古典红"
-
-msgid "Could not load background image!"
-msgstr "无法载入背景图形!"
-
-msgid "Easy 1"
-msgstr "简单级 1"
-
-msgid "Easy 2"
-msgstr "简单级 2"
-
-msgid "Easy 3"
-msgstr "简单级 3"
-
-msgid "Easy 4"
-msgstr "简单级 4"
-
-msgid "Easy rules"
-msgstr "简单的规则"
-
-msgid "Full Auto"
-msgstr "全自动"
-
-msgid "Hard 1"
-msgstr "困难级 1"
-
-msgid "Hard 2"
-msgstr "困难级 2"
-
-msgid "Hard 3"
-msgstr "困难级 3"
-
-msgid "Hard 4"
-msgstr "困难级 4"
-
-msgid "Hard 5"
-msgstr "困难级 5"
-
-msgid "Hard rules"
-msgstr "困难的规则"
-
-msgid "Hint"
-msgstr "提示"
-
-msgid "KPAT: access to invalid card %d, %d\n"
-msgstr "KPAT: 存取无效的卡片 %d, %d\n"
-
+#: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
 msgstr "KPat - 单人纸牌游戏"
 
-msgid "No more cards"
-msgstr "没有别的卡片"
+#: cardmaps.cpp:104
+#, c-format
+msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
+msgstr "kpat: PANIC, 无法载入卡片图形 \"%s\"\n"
 
-msgid "Only 3 deals allowed"
-msgstr "只有三次发牌机会"
+#: cardmaps.cpp:204
+#, c-format
+msgid "KPAT: access to invalid card %d, %d\n"
+msgstr "KPAT: 存取无效的卡片 %d, %d\n"
 
+#: computation.cpp:92
+msgid "Easy 4"
+msgstr "简单级 4"
+
+#: computation.cpp:93
+msgid "Easy 3"
+msgstr "简单级 3"
+
+#: computation.cpp:94
+msgid "Easy 2"
+msgstr "简单级 2"
+
+#: computation.cpp:95
+msgid "Easy 1"
+msgstr "简单级 1"
+
+#: computation.cpp:97
+msgid "Hard 1"
+msgstr "困难级 1"
+
+#: computation.cpp:98
+msgid "Hard 2"
+msgstr "困难级 2"
+
+#: computation.cpp:99
+msgid "Hard 3"
+msgstr "困难级 3"
+
+#: computation.cpp:100
+msgid "Hard 4"
+msgstr "困难级 4"
+
+#: computation.cpp:101
+msgid "Hard 5"
+msgstr "困难级 5"
+
+#: grandf.cpp:34
+msgid "Try to move card:"
+msgstr "试着移动卡片:"
+
+#: grandf.cpp:113 mod3.cpp:56
 msgid "Redeal"
 msgstr "重新发牌"
 
-msgid "Technical"
-msgstr "科技"
+#: grandf.cpp:147
+msgid "Hint"
+msgstr "提示"
 
+#: grandf.cpp:174
+msgid "Only 3 deals allowed"
+msgstr "只有三次发牌机会"
+
+#: klondike.cpp:67
+msgid "Easy rules"
+msgstr "简单的规则"
+
+#: klondike.cpp:68
+msgid "Hard rules"
+msgstr "困难的规则"
+
+#: klondike.cpp:94
 msgid ""
 "This will end the current game\n"
 "Are you sure you want to do this?"
@@ -91,14 +92,95 @@ msgstr ""
 "这个动作会结束当前的游戏\n"
 "确定要这么做吗?"
 
-msgid "Try to move card:"
-msgstr "试着移动卡片:"
+#: mod3.cpp:136
+msgid "No more cards"
+msgstr "没有别的卡片"
 
-msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
-msgstr "kpat: PANIC, 无法载入卡片图形 \"%s\"\n"
+#: pwidget.cpp:95
+msgid "&Restart game"
+msgstr "重新开始游戏[&R]"
 
+#: pwidget.cpp:99
+msgid "&Klondike"
+msgstr ""
+
+#: pwidget.cpp:100 pwidget.cpp:275
+msgid "MicroSolitaire"
+msgstr ""
+
+#: pwidget.cpp:101 pwidget.cpp:279
+msgid "Calculation"
+msgstr ""
+
+#: pwidget.cpp:102
+msgid "Napoleon's Tomb"
+msgstr ""
+
+#: pwidget.cpp:103 pwidget.cpp:283
+msgid "The Idiot"
+msgstr ""
+
+#: pwidget.cpp:104 pwidget.cpp:267
+msgid "Grandfather"
+msgstr ""
+
+#: pwidget.cpp:105 pwidget.cpp:255
+msgid "Ten"
+msgstr ""
+
+#: pwidget.cpp:106 pwidget.cpp:259
+msgid "Mod3"
+msgstr ""
+
+#: pwidget.cpp:107 pwidget.cpp:263
+msgid "Freecell"
+msgstr ""
+
+#: pwidget.cpp:109
+msgid "Choose new game"
+msgstr "选择新游戏"
+
+#: pwidget.cpp:115
+msgid "KDE"
+msgstr ""
+
+#: pwidget.cpp:116
+msgid "Classic blue"
+msgstr "古典蓝"
+
+#: pwidget.cpp:117
+msgid "Classic red"
+msgstr "古典红"
+
+#: pwidget.cpp:118
+msgid "Technical"
+msgstr "科技"
+
+#: pwidget.cpp:119
+msgid "Card backside"
+msgstr "纸牌花样"
+
+#: pwidget.cpp:120
+msgid "Animation on startup"
+msgstr "启动时的动画"
+
+#: pwidget.cpp:271
+msgid "Klondike"
+msgstr ""
+
+#: pwidget.cpp:287
+msgid "Napoleons Tomb"
+msgstr ""
+
+#: pwidget.cpp:292
+#, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: 尚未实现的游戏类型 %d\n"
 
-msgid "please wait, loading cards..."
-msgstr "请稍候, 正在载入卡片..."
+#: pwidget.cpp:342
+msgid "Could not load background image!"
+msgstr "无法载入背景图形!"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "全自动"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -23,7 +23,7 @@ msgstr "Inaèica "
 
 #: about.cpp:67
 #, fuzzy
-msgid
+msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
@@ -356,10 +356,6 @@ msgstr "Kreversi: Najbolji igraèi"
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:885
-msgid "Name"
-msgstr "Ime"
-
 #: app.cpp:889
 msgid "Color"
 msgstr "Boja"
@@ -379,9 +375,11 @@ msgid ""
 "your cool rating."
 msgstr ""
 "U¹li ste u popis najboljih! Upi¹ite svoje\n"
-"ime kako bi èovjeèanstvo zauvijek zapamtilo n"
-"va¹ uspjeh."
+"ime kako bi èovjeèanstvo zauvijek zapamtilo nva¹ uspjeh."
 
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Va¹e ime:"
+
+#~ msgid "Name"
+#~ msgstr "Ime"

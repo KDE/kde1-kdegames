@@ -172,4 +172,3 @@ msgstr ""
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "不能載入圖形!"
-

@@ -6,93 +6,129 @@ msgstr ""
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-msgid "&Hall of Fame"
-msgstr "名人堂[&H]"
-
-msgid "&Level"
-msgstr "等级[&L]"
-
-msgid "&New game"
-msgstr "开始新游戏[&N]"
-
-msgid "Cannot load pixmaps!"
-msgstr "不能载入图形!"
-
-msgid "Cheat mode"
-msgstr "作弊模式"
-
-msgid "Congratulations! You made it in %02d:%02d:%02d"
-msgstr "恭喜! 您耗时 %02d:%02d:%02d 成功!"
-
-msgid "Disallow unsolvable games"
-msgstr "不允许无解的游戏"
-
-msgid "Easy"
-msgstr "简单"
-
-msgid "End of game"
-msgstr "游戏结束"
-
-msgid "Fast"
-msgstr "快"
-
-msgid "Get &hint"
-msgstr "提示[&H]"
-
-msgid "Hall Of Fame"
-msgstr "名人堂"
-
-msgid "Hard"
-msgstr "困难"
-
-msgid "Is game solvable?"
-msgstr "游戏有解吗?"
-
-msgid "Medium"
-msgstr "中型"
-
-msgid "No more moves possible!"
-msgstr "不能再走了!"
-
-msgid "Rank"
-msgstr "排名"
-
-msgid "Res&tart game"
-msgstr "重新开始[&T]"
-
-msgid "S&peed"
-msgstr "速度[&P]"
-
-msgid "Score"
-msgstr "分数"
-
+#: app.cpp:94 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
 
-msgid "Shisen-Sho: Hall Of Fame"
-msgstr "Shisen-Sho: 名人堂"
+#: app.cpp:108
+msgid "Get &hint"
+msgstr "提示[&H]"
 
-msgid "Si&ze"
-msgstr "大小[&Z]"
+#: app.cpp:110
+msgid "&New game"
+msgstr "开始新游戏[&N]"
 
-msgid "Slow"
-msgstr "慢"
+#: app.cpp:111
+msgid "Res&tart game"
+msgstr "重新开始[&T]"
 
-msgid "This game is NOT solveable"
-msgstr "这游戏无解"
+#: app.cpp:113
+msgid "Is game solvable?"
+msgstr "游戏有解吗?"
 
-msgid "This game is solveable"
-msgstr "这游戏有解"
+#: app.cpp:115
+msgid "&Hall of Fame"
+msgstr "名人堂[&H]"
 
-msgid "Time"
-msgstr "时间"
+#: app.cpp:125
+msgid "14x6"
+msgstr ""
 
+#: app.cpp:126
+msgid "18x8"
+msgstr ""
+
+#: app.cpp:127
+msgid "24x12"
+msgstr ""
+
+#: app.cpp:128
+msgid "28x16"
+msgstr ""
+
+#: app.cpp:129
+msgid "32x20"
+msgstr ""
+
+#: app.cpp:133
 msgid "Very fast"
 msgstr "非常快"
 
+#: app.cpp:134
+msgid "Fast"
+msgstr "快"
+
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr "中型"
+
+#: app.cpp:136
+msgid "Slow"
+msgstr "慢"
+
+#: app.cpp:137
 msgid "Very slow"
 msgstr "非常慢"
 
+#: app.cpp:139
+msgid "Easy"
+msgstr "简单"
+
+#: app.cpp:141
+msgid "Hard"
+msgstr "困难"
+
+#: app.cpp:151
+msgid "Si&ze"
+msgstr "大小[&Z]"
+
+#: app.cpp:152
+msgid "S&peed"
+msgstr "速度[&P]"
+
+#: app.cpp:153
+msgid "&Level"
+msgstr "等级[&L]"
+
+#: app.cpp:154
+msgid "Disallow unsolvable games"
+msgstr "不允许无解的游戏"
+
+#: app.cpp:175
+msgid "Your time: XX:XX:XX"
+msgstr "您的时间: XX:XX:XX"
+
+#: app.cpp:176 app.cpp:273 app.cpp:298
+msgid "Cheat mode"
+msgstr "作弊模式"
+
+#: app.cpp:264
+msgid "This game is solveable"
+msgstr "这游戏有解"
+
+#: app.cpp:267
+msgid "This game is NOT solveable"
+msgstr "这游戏无解"
+
+#: app.cpp:389 app.cpp:419
+msgid "End of game"
+msgstr "游戏结束"
+
+#: app.cpp:390
+msgid "No more moves possible!"
+msgstr "不能再走了!"
+
+#: app.cpp:414
+#, c-format
+msgid "Congratulations! You made it in %02d:%02d:%02d"
+msgstr "恭喜! 您耗时 %02d:%02d:%02d 成功!"
+
+#: app.cpp:431
+#, c-format
+msgid "Your time: %02d:%02d:%02d"
+msgstr "您的时间 %02d:%02d:%02d"
+
+#: app.cpp:442
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -102,11 +138,30 @@ msgstr ""
 "输入您的名字让以后的人\n"
 "都能记得您的成绩."
 
+#: app.cpp:445
 msgid "Your name:"
 msgstr "您的名字:"
 
-msgid "Your time: %02d:%02d:%02d"
-msgstr "您的时间 %02d:%02d:%02d"
+#: app.cpp:606 app.cpp:611
+msgid "Hall Of Fame"
+msgstr "名人堂"
 
-msgid "Your time: XX:XX:XX"
-msgstr "您的时间: XX:XX:XX"
+#: app.cpp:607
+msgid "Shisen-Sho: Hall Of Fame"
+msgstr "Shisen-Sho: 名人堂"
+
+#: app.cpp:632
+msgid "Rank"
+msgstr "排名"
+
+#: app.cpp:640
+msgid "Time"
+msgstr "时间"
+
+#: app.cpp:648
+msgid "Score"
+msgstr "分数"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "不能载入图形!"

@@ -369,4 +369,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "±zªº¦W¦r:"
-

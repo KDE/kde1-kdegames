@@ -6,200 +6,299 @@ msgstr ""
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-msgid "&High scores"
-msgstr "高分排行榜[&H]"
-
-msgid "&Keys"
-msgstr "按键设定[&K]"
-
-msgid "&Multiplayer game"
-msgstr "多人游戏[&M]"
-
-msgid "&Pause game"
-msgstr "暂停游戏[&P]"
-
-msgid "&Restart game"
-msgstr "重新开始游戏[&R]"
-
+#: board.cpp:66 dialogs.cpp:137
 msgid "Anonymous"
 msgstr "匿名"
 
-msgid "Bind error"
-msgstr "关联错误"
-
-msgid "Cancel dialog"
-msgstr "取消对话框"
-
-msgid "Cancel from client"
-msgstr "客户端取消连接"
-
-msgid "Cancel from server"
-msgstr "服务器端取消连接"
-
-msgid "Cannot create socket"
-msgstr "无法建立 socket"
-
-msgid "Cannot send to client"
-msgstr "无法传送到客户端"
-
-msgid "Cannot send to server"
-msgstr "无法传送到服务器端"
-
-msgid "Client has died"
-msgstr "客户端已死"
-
-msgid "Client has vanished"
-msgstr "客户端消失"
-
-msgid "Client mode"
-msgstr "客户模式"
-
-msgid "Client timeout (No message from server)"
-msgstr "客户端超时(服务器没有任何讯息)"
-
-msgid "Close dialog"
-msgstr "关闭对话框"
-
-msgid "Connect"
-msgstr "连接"
-
-msgid "Connect error"
-msgstr "连接失败"
-
-msgid "Connecting ..."
-msgstr "正在连接 ..."
-
-msgid "Drop down"
-msgstr "丢下"
-
-msgid "End message from client"
-msgstr "客户端传来结束的讯息"
-
-msgid "Game over"
-msgstr "游戏结束"
-
+#: board.cpp:98
 msgid "Game paused"
 msgstr "游戏暂停"
 
-msgid "Hall of Fame"
-msgstr "名人堂"
-
-msgid "Hide menu"
-msgstr "隐藏菜单条"
-
-msgid "High Scores"
-msgstr "高分排行榜"
-
-msgid "High scores"
-msgstr "高分排行榜"
-
-msgid "Highscores file not writable !"
-msgstr "高分排行榜文件无法写入 !"
-
-msgid "Illegal port"
-msgstr "不合法的端口"
-
-msgid "Level"
-msgstr "等级"
-
-msgid "Listen error"
-msgstr "Listen 错误"
-
-msgid "Move left"
-msgstr "左移"
-
-msgid "Move right"
-msgstr "右移"
-
-msgid "Network Dialog"
-msgstr "网络对话框"
-
-msgid "Network game"
-msgstr "网络游戏"
-
-msgid "New game"
-msgstr "开始新游戏"
-
-msgid "Next tile"
-msgstr "下一个花样"
-
-msgid "No message from client"
-msgstr "客户端没有任何消息"
-
-msgid "No option yet !"
-msgstr "没有任何选项 !"
-
-msgid "Null address"
-msgstr "空的地址"
-
-msgid "Ok dialog"
-msgstr "确定对话框"
-
-msgid "One line down"
-msgstr "往下一行"
-
-msgid "Pause game"
-msgstr "暂停游戏"
-
-msgid "Play !"
-msgstr "开始玩 !"
-
-msgid "Player name :"
-msgstr "玩者姓名 :"
-
-msgid "Press Return to replay"
-msgstr "按 Return 重玩"
-
+#: board.cpp:103
 msgid "Press to resume"
 msgstr "按任意键继续"
 
+#: board.cpp:120 net.cpp:208
+msgid "Game over"
+msgstr "游戏结束"
+
+#: board.cpp:124
+msgid "Press Return to replay"
+msgstr "按 Return 重玩"
+
+#: board.cpp:128
 msgid "Press to start game"
 msgstr "按任意键开始游戏"
 
+#: board.cpp:174 field.cpp:29 field.cpp:45
+msgid "Move left"
+msgstr "左移"
+
+#: board.cpp:175 field.cpp:30 field.cpp:46
+msgid "Move right"
+msgstr "右移"
+
+#: board.cpp:176 field.cpp:31 field.cpp:47
+msgid "Drop down"
+msgstr "丢下"
+
+#: board.cpp:177 field.cpp:32 field.cpp:48
+msgid "One line down"
+msgstr "往下一行"
+
+#: board.cpp:178 field.cpp:33 field.cpp:49
 msgid "Rotate left"
 msgstr "左旋"
 
+#: board.cpp:179 field.cpp:34 field.cpp:50
 msgid "Rotate right"
 msgstr "右旋"
 
-msgid "Score"
-msgstr "分数"
+#: board.cpp:372
+msgid "Highscores file not writable !"
+msgstr "高分排行榜文件无法写入 !"
 
-msgid "Server address :"
-msgstr "服务器地址 :"
+#: net.cpp:129
+msgid "Illegal port"
+msgstr "不合法的端口"
 
-msgid "Server has vanished"
-msgstr "服务器消失了"
+#: net.cpp:135
+msgid "Null address"
+msgstr "空的地址"
 
-msgid "Server mode"
-msgstr "服务器模式"
-
-msgid "Server unreachable"
-msgstr "服务器无法到达"
-
-msgid "Show menu"
-msgstr "显示菜单"
-
-msgid "The server has died"
-msgstr "服务器已死"
-
-msgid "Timeout"
-msgstr "超过时间没有反应"
-
+#: net.cpp:142
 msgid "Unknown address"
 msgstr "未知的地址"
 
-msgid "Unknown data from client"
-msgstr "客户端传来未知的数据"
+#: net.cpp:157
+msgid "Cannot create socket"
+msgstr "无法建立 socket"
 
+#: net.cpp:196
+msgid "at"
+msgstr ""
+
+#: net.cpp:233
+msgid "Connect error"
+msgstr "连接失败"
+
+#: net.cpp:243 net.cpp:299
+msgid "Server unreachable"
+msgstr "服务器无法到达"
+
+#: net.cpp:266
+msgid "The server has died"
+msgstr "服务器已死"
+
+#: net.cpp:267
+msgid "Cancel from server"
+msgstr "服务器端取消连接"
+
+#: net.cpp:273 net.cpp:333
 msgid "Unknown data from server"
 msgstr "服务器传来未知的数据"
 
-msgid "Unknown message from client"
-msgstr "客户端传来未知的讯息"
+#: net.cpp:312
+msgid "Cannot send to server"
+msgstr "无法传送到服务器端"
 
+#: net.cpp:324
+msgid "Client timeout (No message from server)"
+msgstr "客户端超时(服务器没有任何讯息)"
+
+#: net.cpp:329
+msgid "Server has vanished"
+msgstr "服务器消失了"
+
+#: net.cpp:366
+msgid "Bind error"
+msgstr "关联错误"
+
+#: net.cpp:371
+msgid "Listen error"
+msgstr "Listen 错误"
+
+#: net.cpp:390
 msgid "Unknown message from unknown player (??)"
 msgstr "未知的玩者发来未知的消息 (??)"
 
+#: net.cpp:449 net.cpp:490
+msgid "Unknown message from client"
+msgstr "客户端传来未知的讯息"
+
+#: net.cpp:486
+msgid "Client has died"
+msgstr "客户端已死"
+
+#: net.cpp:487
+msgid "Cancel from client"
+msgstr "客户端取消连接"
+
+#: net.cpp:494
+msgid "Timeout"
+msgstr "超过时间没有反应"
+
+#: net.cpp:520
+msgid "No message from client"
+msgstr "客户端没有任何消息"
+
+#: net.cpp:525
+msgid "Client has vanished"
+msgstr "客户端消失"
+
+#: net.cpp:529
+msgid "Unknown data from client"
+msgstr "客户端传来未知的数据"
+
+#: net.cpp:533
+msgid "End message from client"
+msgstr "客户端传来结束的讯息"
+
+#: net.cpp:550
+msgid "Cannot send to client"
+msgstr "无法传送到客户端"
+
+#: dialogs.cpp:61
+msgid "High Scores"
+msgstr "高分排行榜"
+
+#: dialogs.cpp:84 dialogs.cpp:93
+msgid "Hall of Fame"
+msgstr "名人堂"
+
+#: dialogs.cpp:156
+msgid "No option yet !"
+msgstr "没有任何选项 !"
+
+#: dialogs.cpp:175 dialogs.cpp:232
+msgid "Network Dialog"
+msgstr "网络对话框"
+
+#: dialogs.cpp:178
+#, fuzzy
+msgid "Server"
+msgstr "服务器模式"
+
+#: dialogs.cpp:179
+#, fuzzy
+msgid "Client"
+msgstr "客户模式"
+
+#: dialogs.cpp:183
+msgid "Player name :"
+msgstr "玩者姓名 :"
+
+#: dialogs.cpp:185
+msgid "Server address :"
+msgstr "服务器地址 :"
+
+#: dialogs.cpp:187
+msgid "Port :"
+msgstr ""
+
+#: dialogs.cpp:199
+msgid "Connect"
+msgstr "连接"
+
+#: dialogs.cpp:202
+msgid "Connecting ..."
+msgstr "正在连接 ..."
+
+#: dialogs.cpp:205
+msgid "Play !"
+msgstr "开始玩 !"
+
+#: dialogs.cpp:252
+msgid "Network game"
+msgstr "网络游戏"
+
+#: dialogs.cpp:256
+msgid "Server mode"
+msgstr "服务器模式"
+
+#: dialogs.cpp:258
+msgid "Client mode"
+msgstr "客户模式"
+
+#: dialogs.cpp:336
 msgid "Waiting for other player(s) ..."
 msgstr "等待其他的玩家 ..."
+
+#: field.cpp:25 field.cpp:41
+msgid "New game"
+msgstr "开始新游戏"
+
+#: field.cpp:26 field.cpp:42
+msgid "Pause game"
+msgstr "暂停游戏"
+
+#: field.cpp:28 field.cpp:43
+msgid "High scores"
+msgstr "高分排行榜"
+
+#: field.cpp:35
+msgid "Close dialog"
+msgstr "关闭对话框"
+
+#: field.cpp:36
+msgid "Ok dialog"
+msgstr "确定对话框"
+
+#: field.cpp:37
+msgid "Cancel dialog"
+msgstr "取消对话框"
+
+#: field.cpp:52
+msgid "Score"
+msgstr "分数"
+
+#: field.cpp:56
+msgid "Lines removed"
+msgstr ""
+
+#: field.cpp:60
+msgid "Level"
+msgstr "等级"
+
+#: field.cpp:64
+msgid "Next tile"
+msgstr "下一个花样"
+
+#: field.cpp:185
+msgid "&Restart game"
+msgstr "重新开始游戏[&R]"
+
+#: field.cpp:186
+msgid "&Pause game"
+msgstr "暂停游戏[&P]"
+
+#: field.cpp:187
+msgid "&Multiplayer game"
+msgstr "多人游戏[&M]"
+
+#: field.cpp:189
+msgid "&High scores"
+msgstr "高分排行榜[&H]"
+
+#: main.cpp:23 main.cpp:67
+msgid "Hide menu"
+msgstr "隐藏菜单条"
+
+#: main.cpp:28
+msgid "&Keys"
+msgstr "按键设定[&K]"
+
+#: main.cpp:30
+msgid "Tetris"
+msgstr ""
+
+#: main.cpp:32
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
+
+#: main.cpp:64
+msgid "Show menu"
+msgstr "显示菜单"
