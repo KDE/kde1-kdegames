@@ -18,7 +18,9 @@ enum Square {empty, brick, Apple, Balle, snake, head};
 #define BoardWidth 35
 #define OUT -1
 
-enum Gate {NORTH_GATE = BoardWidth/2, SOUTH_GATE =(BoardWidth*(BoardWidth-1))+(BoardWidth/2)};
+typedef int Gate;
+const int NORTH_GATE = BoardWidth/2;
+const int SOUTH_GATE =(BoardWidth*BoardWidth)-NORTH_GATE;
 
 class Board : public QArray<int>
 {
