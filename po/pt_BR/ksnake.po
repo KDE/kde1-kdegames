@@ -19,7 +19,7 @@ msgstr "Erro no KConfig ??\n"
 
 #: game.cpp:79
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: game.cpp:80
 msgid "Pause"
