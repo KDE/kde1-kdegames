@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KSMILETRIS\n"
-"POT-Creation-Date: 1999-01-18 01:39+0100\n"
+"POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -51,7 +51,7 @@ msgid "&Sounds"
 msgstr "&Äänet"
 
 #: gamewindow.cpp:73
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "KSmiletris %s\n"
 "\n"
@@ -59,7 +59,7 @@ msgid ""
 "\n"
 "Feedbacks are welcome!\n"
 msgstr ""
-"KSmiletris %d\n"
+"KSmiletris %s\n"
 "\n"
 "tehnyt Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"
@@ -96,8 +96,3 @@ msgstr "Ei nimeä"
 #: newscoredialog.cpp:36
 msgid "New High Score"
 msgstr "Uusi ennätys"
-
-#: newscoredialog.cpp:47
-#, fuzzy
-msgid "Enter name"
-msgstr "Lopeta &peli"

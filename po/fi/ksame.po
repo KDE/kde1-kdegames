@@ -93,7 +93,6 @@ msgid "SameGame - Quit"
 msgstr "SamePeli - Lopeta"
 
 #: KSameWidget.cpp:193
-#, fuzzy
 msgid "Do you really want to quit?"
 msgstr "Halutako todella lopettaa?"
 
