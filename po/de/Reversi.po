@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1997-09-10 17:26+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"PO-Revision-Date: 1997-10-25 18:54 MET DST\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -22,12 +22,14 @@ msgstr "Fehler"
 msgid ""
 "A problem with the sound server occured!\n"
 "Cannot enable sound support."
-msgstr "Es ist ein Problem mit der Soundunterstütung\naufgetreten! "
-"Der Sound kann daher nicht\naktiviert werden."
+msgstr ""
+"Es ist ein Problem mit der Soundunterstütung\n"
+"aufgetreten! Der Sound kann daher nicht\n"
+"aktiviert werden."
 
 #: app.cpp:232
 msgid "&Quit"
-msgstr "B&eenden"
+msgstr "&Beenden"
 
 #: app.cpp:235
 msgid "Get &hint)"
@@ -39,7 +41,7 @@ msgstr "&Zugberechnung abbrechen"
 
 #: app.cpp:238
 msgid "&Continue"
-msgstr "Zugberechnung &wiederaufnehmen"
+msgstr "Zugberechnung &fortsetzen"
 
 #: app.cpp:240
 msgid "&New game"
@@ -55,7 +57,7 @@ msgstr "Spiel &speichern"
 
 #: app.cpp:242
 msgid "&Undo move"
-msgstr "&Rückgängig machen"
+msgstr "Zug zu&rücknehmen"
 
 #: app.cpp:243
 msgid "Switch si&des"
@@ -153,7 +155,7 @@ msgstr "Größe einstellen"
 
 #: app.cpp:277
 msgid "Select &background color..."
-msgstr "Hintergrundfar&be wählen..."
+msgstr "Hintergrundfar&be..."
 
 #: app.cpp:283
 msgid "none"
@@ -197,7 +199,7 @@ msgstr "&Regeln"
 
 #: app.cpp:316
 msgid "&Strategy hints"
-msgstr "&Stratgiehinweise"
+msgstr "&Strategiehinweise"
 
 # app.cpp:317
 msgid "About &Qt..."
@@ -225,7 +227,7 @@ msgstr "Zugberechnung stoppen"
 
 #: app.cpp:358
 msgid "Undo move"
-msgstr "Rückgängig machen"
+msgstr "Zug zurücknehmen"
 
 #: app.cpp:359
 msgid "Shrink board"
@@ -349,8 +351,8 @@ msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\nyour name so mankind will always remember\nyour cool rating."
 msgstr ""
 "Sie haben den Einzug in die Ruhmeshalle geschafft.\n"
-"Geben Sie Ihren Namen ein auf daß man sich an\n"
-"Ihre Wertung erinnern möge."
+"Geben Sie Ihren Namen ein, damit die Menschheit sich\n"
+"an Ihre Wertung erinnern möge."
 
 #: app.cpp:871
 msgid "Your name:"

@@ -1,18 +1,33 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Date: 1997-09-30 18:32:47+0200\n"
-"From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
-"Content-Type: text/plain; charset=\n"
-"Xgettext-Options: -C -ktranslate\n"
-"Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#~ msgid ""
+#~ msgstr ""
+#~ "Date: 1997-09-30 18:32:47+0200\n"
+#~ "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
+#~ "Content-Type: text/plain; charset=\n"
+#~ "Xgettext-Options: -C -ktranslate\n"
+#~ "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
 
 #: kpoker.cpp:97
 msgid "Draw !"
-msgstr "Ziehen !"
+msgstr "Ziehen Sie!"
 
 #: kpoker.cpp:123
 msgid "Click a card to hold it"
-msgstr "Klicke auf eine Karte um sie zu behalten"
+msgstr "Klicken Sie auf eine Karte um sie zu behalten"
 
 #: kpoker.cpp:144
 msgid "Held"
@@ -24,11 +39,11 @@ msgstr "Neue Karten ziehen"
 
 #: kpoker.cpp:181 kpoker.cpp:182
 msgid "your last hand"
-msgstr "Deine letzte Hand"
+msgstr "Ihre letzte Hand"
 
 #: kpoker.cpp:183 kpoker.cpp:184
 msgid "money left"
-msgstr "Das übrige Geld"
+msgstr "Restliches Geld"
 
 #: kpoker.cpp:207 kpoker.cpp:500
 msgid "nothing"
@@ -64,7 +79,7 @@ msgstr "4 einer Art"
 
 #: kpoker.cpp:495
 msgid "Straight"
-msgstr "Strasse"
+msgstr "Straße"
 
 #: kpoker.cpp:496
 msgid "Flush"
@@ -80,7 +95,7 @@ msgstr "Royal Flush"
 
 #: kpoker.cpp:506
 msgid "You Lost"
-msgstr "Du hast verloren !"
+msgstr "Sie haben verloren !"
 
 #: kpoker.cpp:507
 msgid ""
@@ -100,7 +115,7 @@ msgstr "Gewinn $"
 
 #: kpoker.cpp:578
 msgid "Game Over"
-msgstr "Spiel verloren"
+msgstr "Spielende"
 
 #: top.cpp:62
 msgid "&New game"

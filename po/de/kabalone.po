@@ -1,10 +1,25 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Date: 1997-09-24 10:52:23+0200\n"
-"From: root <root@joe>\n"
-"Content-Type: text/plain; charset=\n"
-"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
-"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#~ msgid ""
+#~ msgstr ""
+#~ "Date: 1997-09-24 10:52:23+0200\n"
+#~ "From: root <root@joe>\n"
+#~ "Content-Type: text/plain; charset=\n"
+#~ "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
+#~ "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
 #: AbTop.cpp:228 AbTop.cpp:379
 msgid "Move"
@@ -52,7 +67,7 @@ msgstr "Leicht"
 
 #: AbTop.cpp:301
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: AbTop.cpp:303
 msgid "Hard"

@@ -16,7 +16,7 @@ msgstr ""
 
 #: cardmaps.cpp:60
 msgid "please wait, loading cards..."
-msgstr "bitte etwas Geduld, Karten werden geladen..."
+msgstr "Bitte etwas Geduld, Karten werden geladen..."
 
 #: cardmaps.cpp:64
 msgid "KPat - a Solitaire game"
@@ -25,7 +25,7 @@ msgstr "KPat - Patiencen legen"
 #: cardmaps.cpp:102
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
-msgstr "kpat: schwere Fehler, kann das Kartenbild \"%s\" nicht laden\n"
+msgstr "KPat: schwerer Fehler, kann Kartenbild \"%s\" nicht laden\n"
 
 #: cardmaps.cpp:202
 #, c-format
@@ -150,7 +150,7 @@ msgstr "Die kleine Rechenpatience"
 
 #: pwidget.cpp:88
 msgid "Napoleon's Tomb"
-msgstr "Napoleon's Tomb"
+msgstr "Napoleons Grab"
 
 #: pwidget.cpp:89 pwidget.cpp:258
 msgid "The Idiot"
@@ -170,7 +170,7 @@ msgstr "Neuen Spieltyp wählen"
 
 #: pwidget.cpp:99
 msgid "KDE"
-msgstr ""
+msgstr "KDE"
 
 #: pwidget.cpp:100
 msgid "Classic blue"
@@ -223,7 +223,7 @@ msgstr "Beenden"
 #: pwidget.cpp:225
 #, c-format
 msgid "COMMAND %d not implemented!\n"
-msgstr "feature %d nicht verfügbar!\n"
+msgstr "Kommando %d nicht verfügbar!\n"
 
 #: pwidget.cpp:246
 msgid "Klondike"
@@ -231,7 +231,7 @@ msgstr "Klondike"
 
 #: pwidget.cpp:262
 msgid "Napoleons Tomb"
-msgstr "Napoleons Tomb"
+msgstr "Napoleons Grab"
 
 #: pwidget.cpp:267
 #, c-format
