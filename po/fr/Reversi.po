@@ -375,7 +375,7 @@ msgstr ""
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
 "Ce programme est un logiciel gratuit distribué sous la GNU General Public License "
-"(Jetez un oeil dans l'aide pour plus de détails)\n
+"(Jetez un oeil dans l'aide pour plus de détails)\n"
 "\n"
 "Remerciements:\n"
 "\tMats Luthman pour le moteur du jeu (Je l'ai porté à partir de son applet JAVA)\n"
