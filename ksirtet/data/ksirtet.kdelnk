@@ -1,8 +1,26 @@
 # KDE Config File 
 [KDE Desktop Entry]
 Name=Sirtet
+Name[pl]=Sirtet (anagram)
 Icon=ksirtet.xpm
 Exec=ksirtet -caption "%c" %i %m
 Type=Application
 DocPath=ksirtet/index.html
 Comment=One more Tetris clone
+Comment[br]=Ur klon Tetris all
+Comment[ca]=Un altre clònic Tetris
+Comment[cs]=Dal¹í hra podobná tetrisu
+Comment[da]=Endnu en tetrisklon
+Comment[de]=Ein weiteres Tetris-Spiel
+Comment[fi]=Yksi Tetrispeli lisää
+Comment[fr]=Un clone de Tetris de plus
+Comment[hr]=Jo¹ jedna igra tetrisa
+Comment[hu]=Mégegy Tetrisz játék
+Comment[is]=ktetris:  Fallandi kubbum rağağ saman
+Comment[no]=Enda en Tetris-klone
+Comment[pl]=Jeszcze jedna wersja Tetrisa
+Comment[pt_BR]=Outro jogo de Tetris
+Comment[ru]=åİÅ ÏÄÉÎ ÔÅÔÒÉÓ
+Comment[sk]=Ïal¹ia tetrisová hra
+Comment[sl]=©e ena igra, podobna tetrisu
+Comment[sv]=En till Tetris-klon
