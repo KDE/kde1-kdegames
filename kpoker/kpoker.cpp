@@ -36,8 +36,7 @@
 #include <kapp.h>
 #include <kmenubar.h>
 #include <kmsgbox.h>
-#include <kkeyconf.h>
-
+#include <kstdaccel.h>
 
 // sound support
 extern "C" {
@@ -76,20 +75,18 @@ kpok::kpok(QWidget *parent, const char *name)
 	
 	QString bitmapdir = kapp->kde_datadir() + QString("/kpoker/pics/");
 	
-	
+	kacc = new KAccel( this );
+	KStdAccel stdacc; // Access to standard accelerators
 	/* KKeyCode initialization */
-	kKeys->addKey("Quit", "ALT+Q");
-	kKeys->addKey("New game", "F2");
-	kKeys->addKey("Help", "F1");
-	kKeys->addKey("Ok dialog", "Return");
-	kKeys->addKey("Cancel dialog", "Escape");
-	
+	kacc->insertItem(i18n("Quit"), "Quit", stdacc.quit());
+	kacc->insertItem(i18n("New game"), "New", "F2");
+	kacc->insertItem(i18n("Help"), "Help", stdacc.help());
+	// kacc->insertItem(i18n("Ok dialog"), "ok", "Return"); ??
+	// kacc->insertItem(i18n("Cancel dialog"), "dialog", "Escape"); ??
 	
 	/* connections */
-	kKeys->registerWidget("kpoker", this);
-	kKeys->connectFunction("kpoker", "Quit", qApp, SLOT(quit()));
-	kKeys->connectFunction("kpoker", "New game", this, SLOT(initPoker()));
-	
+	kacc->connectItem("Quit", qApp, SLOT(quit()));
+	kacc->connectItem("New", this, SLOT(initPoker()));
 	
 	QFont myFixedFont("Helvetica",12);
 
@@ -190,6 +187,11 @@ kpok::kpok(QWidget *parent, const char *name)
 	
 	initPoker();
 	initSound();
+}
+
+kpok::~kpok()
+{
+    delete kacc;
 }
 
 void kpok::initPoker()

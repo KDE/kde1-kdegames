@@ -10,6 +10,7 @@
 #include "kpaint.h"
 #include "defines.h"
 #include <klocale.h>
+#include <kaccel.h>
 
 class KAudio;
 
@@ -47,6 +48,7 @@ class kpok : public QWidget
 	Q_OBJECT
 public:
 	kpok(QWidget *parent=0, const char *name=0);
+	virtual ~kpok();
 	void drawCards(int skip[5]);
 	void setCash(int newCash);
 	int  getCash();
@@ -120,6 +122,7 @@ private:
    bool          sound;
    KAudio       *KAS;						      
    KLocale      *locale;						      
+   KAccel       *kacc;
    
    int          waveActive;
    int          fCount;
