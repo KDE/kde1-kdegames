@@ -86,7 +86,7 @@ void KTetris::configKeys()
 /* MAIN */
 int main( int argc, char **argv )
 {
-	KApplication a(argc, argv, "ktetris");
+	KApplication a(argc, argv, KTETRIS_NAME);
 	KTetris te;
 	a.setMainWidget(&te);
 	te.setCaption( kapp->getCaption() );

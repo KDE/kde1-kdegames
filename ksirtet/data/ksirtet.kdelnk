@@ -1,13 +1,11 @@
 # KDE Config File 
 [KDE Desktop Entry]
-Name=Tetris
-Name[hu]=Tetrisz
-Name[ru]=Ù≈‘“…”
-Icon=ktetris.xpm
-Exec=ktetris -caption "%c" %i %m
+Name=Sirtet
+Icon=ksirtet.xpm
+Exec=ksirtet -caption "%c" %i %m
 Type=Application
-DocPath=ktetris/index.html
-Comment=One more Tetris game
+DocPath=ksirtet/index.html
+Comment=One more Tetris clone
 Comment[cs]=DalπÌ tetrisov· hra
 Comment[de]=Ein weiteres Tetris-Spiel
 Comment[es]=Un juego m·s de Tetris

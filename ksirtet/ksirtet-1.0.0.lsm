@@ -1,8 +1,8 @@
 Begin3
-Title:          ktetris
+Title:          ksirtet
 Version:        1.0.0
 Entered-date:   06/18/98
-Description:    QT/KDE based tetris game
+Description:    QT/KDE based tetris clone
 Home-page:      http://www.via.ecp.fr/~hadacek/KDE/ktetris.html
 Keywords:       tetris game KDE QT X11 multiplayer
 Author:         hadacek@kde.org (Nicolas HADACEK) 

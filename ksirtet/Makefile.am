@@ -5,12 +5,12 @@
 ## ######################
 ## # Building definitions
 
-bin_PROGRAMS = ktetris
+bin_PROGRAMS = ksirtet
 INCLUDES = $(all_includes)
-ktetris_LDFLAGS = $(all_libraries) $(KDE_RPATH)
-ktetris_LDADD =       $(LIB_KDEUI)
+ksirtet_LDFLAGS = $(all_libraries) $(KDE_RPATH)
+ksirtet_LDADD =       $(LIB_KDEUI)
 
-ktetris_SOURCES= gtetris.cpp tpiece.cpp spiece.cpp gtboard.cpp board.cpp \
+ksirtet_SOURCES= gtetris.cpp tpiece.cpp spiece.cpp gtboard.cpp board.cpp \
 				net.cpp dialogs.cpp field.cpp main.cpp dbutton.cpp
 BUILTSOURCES = spiece.moc board.moc dialogs.moc field.moc main.moc
 DISTCLEANFILES = $(BUILTSOURCES)
@@ -19,7 +19,7 @@ noinst_HEADERS = board.h ggboard.h spiece.h dbutton.h gtboard.h tpiece.h \
 				defines.h gtetris.h version.h dialogs.h main.h field.h net.h
 
 messages:
-	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(ktetris_SOURCES) && mv messages.po ../po/ktetris.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(ksirtet_SOURCES) && mv messages.po ../po/ksirtet.pot
 
 SUBDIRS = data
 
@@ -49,3 +49,4 @@ field.moc: field.h
 ksock2.cpp: ksock2.moc
 ksock2.moc: ksock2.h
 	$(MOC) -o ksock2.moc ksock2.h
+
