@@ -7,4 +7,4 @@ DocPath=kpoker.html
 Info=A simple video poker clone
 Info[de]=Ein einfaches Videopoker-Spiel
 Terminal=0
-Type=Game
+Type=Application
