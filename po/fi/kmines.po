@@ -116,7 +116,7 @@ msgstr "&Ennätykset"
 
 #: main.cpp:56
 msgid "&Print"
-msgstr ""
+msgstr "&Tulosta"
 
 #: main.cpp:64
 msgid "? mark"

@@ -16,7 +16,7 @@ msgstr ""
 
 #: kbbgame.cpp:73 kbbgame.cpp:114
 msgid "&Help"
-msgstr ""
+msgstr "&Ohje"
 
 #: kbbgame.cpp:76
 msgid "&About KBlackBox"
@@ -28,7 +28,7 @@ msgstr "Tietoja &Qt:ta"
 
 #: kbbgame.cpp:81
 msgid "&Quit"
-msgstr ""
+msgstr "&Lopeta"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -60,19 +60,19 @@ msgstr "&Opetustila"
 
 #: kbbgame.cpp:110
 msgid "&File"
-msgstr ""
+msgstr "&Tiedosto"
 
 #: kbbgame.cpp:111
 msgid "&Game"
-msgstr ""
+msgstr "&Peli"
 
 #: kbbgame.cpp:112
 msgid "&Options"
-msgstr ""
+msgstr "&Asetukset"
 
 #: kbbgame.cpp:170
 msgid "Quit"
-msgstr ""
+msgstr "Lopeta"
 
 #: kbbgame.cpp:172
 msgid "New"
@@ -88,12 +88,11 @@ msgstr "Valmis"
 
 #: kbbgame.cpp:179
 msgid "Help"
-msgstr ""
+msgstr "Ohje"
 
 #: kbbgame.cpp:406
-#, fuzzy
 msgid "About"
-msgstr "Tietoja &Qt:ta"
+msgstr "Tietoja"
 
 #: kbbgame.cpp:408
 msgid ""

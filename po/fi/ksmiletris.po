@@ -98,6 +98,5 @@ msgid "New High Score"
 msgstr "Uusi ennätys"
 
 #: newscoredialog.cpp:47
-#, fuzzy
 msgid "Enter name"
-msgstr "Lopeta &peli"
+msgstr "Anna nimesi"
