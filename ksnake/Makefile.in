@@ -6,6 +6,7 @@ top_builddir 	= ..
 LIBTOOL 	= @LIBTOOL@
 KDE_RPATH 	= @KDE_RPATH@
 install_root    = @install_root@
+exec_prefix     = @exec_prefix@
 kde_datadir     = @kde_datadir@
 kde_appsdir     = @kde_appsdir@
 kde_bindir      = @kde_bindir@
