@@ -112,10 +112,3 @@ msgstr "&Nytt spill"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Lyd"
-
-#~ msgid ""
-#~ "Oops - you went bankrupt.\n"
-#~ "A highscoretable will appear over here later..."
-#~ msgstr ""
-#~ "Oi, oi - du er konkurs.\n"
-#~ "En tabell for høy poengsum vil bli vist over her senere..."

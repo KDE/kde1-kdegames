@@ -168,6 +168,3 @@ msgstr "Poeng"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Kan ikke laste inn pixmaps!"
-
-#~ msgid "Medium"
-#~ msgstr "Medium"

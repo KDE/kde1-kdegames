@@ -126,6 +126,3 @@ msgstr "Merket: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Poeng: %06i"
-
-#~ msgid "Highscore"
-#~ msgstr "Liste over de beste"

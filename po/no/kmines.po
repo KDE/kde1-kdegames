@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "kmines: Tilpasset spill"
+msgstr "Tilpasset spill"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -116,7 +115,7 @@ msgstr "Minesveiper"
 
 #: main.cpp:67
 msgid "by"
-msgstr ""
+msgstr "ved"
 
 #: main.cpp:72
 msgid "Level"
@@ -125,51 +124,3 @@ msgstr "Nivå"
 #: main.cpp:143
 msgid "Show menu bar"
 msgstr "Vis menylinje"
-
-#~ msgid "kmines : High Scores"
-#~ msgstr "kmines: Liste over de beste"
-
-#~ msgid "Easy :"
-#~ msgstr "Lett :"
-
-#~ msgid "Normal :"
-#~ msgstr "Normal :"
-
-#~ msgid "Expert :"
-#~ msgstr "Ekspert :"
-
-#~ msgid "minutes."
-#~ msgstr "minutter."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Kan ikke skrive til fil for høy poengsum !"
-
-#~ msgid "kmines : Error"
-#~ msgstr "KMines : feil"
-
-#~ msgid "Close dialog"
-#~ msgstr "Lukk dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Dialog ok"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Slette dialog"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "av Nicolas Hadacek"
-
-#~ msgid "Custom Level"
-#~ msgstr "Eget tilpasset nivå"
-
-#~ msgid "Uncertain (?) mark"
-#~ msgstr "Usikkerhetsmerke (?)"
-
-#~ msgid "Try again"
-#~ msgstr "Forsøk igjen"

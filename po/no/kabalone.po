@@ -132,6 +132,3 @@ msgstr "Beste trekk så langt:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Spion"
-
-#~ msgid "Move"
-#~ msgstr "Flytt"

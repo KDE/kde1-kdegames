@@ -178,24 +178,3 @@ msgstr "Slangeløp starter rom"
 #: startroom.cpp:41
 msgid "Starting Room"
 msgstr "Starter rom"
-
-#~ msgid "New"
-#~ msgstr "Ny"
-
-#~ msgid "&Quit"
-#~ msgstr "&Avslutt"
-
-#~ msgid "&Game"
-#~ msgstr "&Spill"
-
-#~ msgid "&Options"
-#~ msgstr "&Valgmuligheter"
-
-#~ msgid "&Help"
-#~ msgstr "&Hjelp"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel"
-#~ msgstr "Avbryt"
