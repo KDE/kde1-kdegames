@@ -9,21 +9,7 @@
  * Josef Weidendorfer, 28.8.97
 */
 
-#ifdef HAVE_CONFIG_H
-#include <config.h>
-#endif
-
-#if TIME_WITH_SYS_TIME
-# include <sys/time.h>
-# include <time.h>
-#else
-# if HAVE_SYS_TIME_H
-#  include <sys/time.h>
-# else
-#  include <time.h>
-# endif
-#endif
-
+#include <time.h>
 #include "Board.h"
 #if 1
 #define CHECK(b)  if (!b) { m.print(); print(); ASSERT(b); }

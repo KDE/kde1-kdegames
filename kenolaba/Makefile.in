@@ -28,7 +28,7 @@ prefix = @prefix@
 KDEINC = $(prefix)/include
 BINDIR = $(prefix)/bin
 LIBDIR = $(prefix)/lib
-DOCDIR = $(prefix)/share/doc/HTML/kabalone
+DOCDIR = $(prefix)/share/doc/HTML
 KDELNKDIR= $(prefix)/share/applnk/Games
 
 ########### File Formats ###########
@@ -45,7 +45,7 @@ KDELNKDIR= $(prefix)/share/applnk/Games
 
 OBJECTS =       Board.o Move.o BoardWidget.o AbTop.o kabalone.o
 SRCMETA =	Board.moc AbTop.moc BoardWidget.moc
-DOCS    =       html/KAbalone.html
+DOCS    =       html/kabalone.html
 TARGET	=	kabalone
 
 ######### build rules ################
@@ -69,7 +69,7 @@ install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(DOCDIR)
-	$(INSTALL) $(DOCS) $(DOCDIR)
+	$(INSTALL_DATA) $(DOCS) $(DOCDIR)
 	$(INSTALL_DIR) $(KDELNKDIR)
 	$(INSTALL_DATA) kabalone.kdelnk $(KDELNKDIR)
 
@@ -79,6 +79,10 @@ uninstall:
 
 dep:
 	makedepend -Y *.cpp
+
+$(TARGET).po:
+	xgettext --default-domain=$(TARGET) --keyword=translate *.cpp
+
 
 # DO NOT DELETE
 AbTop.o: AbTop.h Board.h Move.h BoardWidget.h AbTop.moc

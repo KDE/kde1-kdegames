@@ -1,10 +1,11 @@
-/* Class Top */
+/* Class AbTop */
 
 #include "AbTop.h"
 #include <qpopmenu.h>
 #include <qkeycode.h>
 #include <kapp.h>
 #include <ktopwidget.h>
+#include <klocale.h>
 #include <kmenubar.h>
 #include <kmsgbox.h>
 #include <kstatusbar.h>
@@ -24,9 +25,11 @@ AbTop::AbTop()
 
   setupMenu();
 
+  char tmp[100];
+  sprintf(tmp,"%s 000", klocale->translate("Move"));
   status = new KStatusBar(this);
-  status->insertItem("Move 000", 1);
-  status->insertItem("Press N for a new game", 2);
+  status->insertItem(tmp, 1);
+  status->insertItem( klocale->translate("Press F2 for a new game"), 2);
   setStatusBar(status);
   updateStatus();
 
@@ -67,37 +70,48 @@ void AbTop::setupMenu()
 
   file = new QPopupMenu;
   CHECK_PTR( file );
-  file->insertItem( "New Game", this, SLOT(newGame()), Key_N );
-  file->insertItem( "Stop Search", this, SLOT(stopSearch()), Key_S );
+  file->insertItem( klocale->translate("New Game"), 
+		   this, SLOT(newGame()), Key_F2 );
+  file->insertItem( klocale->translate("Stop Search"),
+		   this, SLOT(stopSearch()), Key_S );
   file->insertSeparator();
   //  file->insertItem( "Stop", this, SLOT(stopGame()) );
   //  file->insertItem( "Continue", this, SLOT(continueGame()) );
-  file->insertItem( "Take back", this, SLOT(takeBack()), Key_B );
-  file->insertItem( "Hint", this, SLOT(suggestion()), Key_H );
+  file->insertItem( klocale->translate("Take back"),
+		   this, SLOT(takeBack()), Key_B );
+  file->insertItem( klocale->translate("Hint"),
+		   this, SLOT(suggestion()), Key_H );
   file->insertSeparator();
-  file->insertItem( "Exit", this, SLOT(quit()) );
+  file->insertItem( klocale->translate("Quit"), this, SLOT(quit()) );
 
   _level = new QPopupMenu;
   CHECK_PTR( _level );
-  easy_id = _level->insertItem( "Easy", this, SLOT(easy()) );
-  normal_id = _level->insertItem( "Normal", this, SLOT(normal()) );
-  hard_id = _level->insertItem( "Hard", this, SLOT(hard()) );
-  challange_id = _level->insertItem( "Challange", this, SLOT(challange()) );
+  easy_id = _level->insertItem( klocale->translate("Easy"),
+			       this, SLOT(easy()) );
+  normal_id = _level->insertItem( klocale->translate("Normal"),
+				 this, SLOT(normal()) );
+  hard_id = _level->insertItem( klocale->translate("Hard"),
+			       this, SLOT(hard()) );
+  challange_id = _level->insertItem( klocale->translate("Challange"),
+				    this, SLOT(challange()) );
   _level->setCheckable( TRUE );
 
   _iplay = new QPopupMenu;
   CHECK_PTR( _iplay );
-  red_id = _iplay->insertItem( "Red", this, SLOT(play_red()) );
-  yellow_id = _iplay->insertItem( "Yellow", this, SLOT(play_yellow()) );
-  both_id = _iplay->insertItem( "Both", this, SLOT(play_both()) );
+  red_id = _iplay->insertItem( klocale->translate("Red"),
+			      this, SLOT(play_red()) );
+  yellow_id = _iplay->insertItem( klocale->translate("Yellow"),
+				 this, SLOT(play_yellow()) );
+  both_id = _iplay->insertItem( klocale->translate("Both"), 
+			       this, SLOT(play_both()) );
   _iplay->setCheckable( TRUE );
 
   _options = new QPopupMenu;
   CHECK_PTR( _options );
-  _options->insertItem( "Level", _level );
-  _options->insertItem( "Computer plays", _iplay );
+  _options->insertItem( klocale->translate("Level"), _level );
+  _options->insertItem( klocale->translate("Computer plays"), _iplay );
   _options->insertSeparator();
-  slow_id = _options->insertItem( "Moving Slow", 
+  slow_id = _options->insertItem( klocale->translate("Move slow"),
 				  this, SLOT(changeShowMove()) );
   _options->setCheckable( TRUE );
 
@@ -105,15 +119,15 @@ void AbTop::setupMenu()
 
   _help = new QPopupMenu();
   CHECK_PTR( _help );
-  _help->insertItem( "About...", this, SLOT(about()) );
-  _help->insertItem( "Rules", this, SLOT(help()) );
+  _help->insertItem( klocale->translate("About"), this, SLOT(about()) );
+  _help->insertItem( klocale->translate("Rules"), this, SLOT(help()) );
 
   menu  = new KMenuBar(this);
   CHECK_PTR( menu );
-  menu->insertItem("File", file);
-  menu->insertItem("Options", _options);
+  menu->insertItem( klocale->translate("File"), file);
+  menu->insertItem( klocale->translate("Options"), _options);
   menu->insertSeparator();
-  menu->insertItem("Help", _help);
+  menu->insertItem( klocale->translate("Help"), _help);
   menu->show();
 
   setMenu(menu);
@@ -126,17 +140,21 @@ void AbTop::updateStatus()
   if (timerState == noGame)
     strcpy(tmp,"");
   else
-    sprintf(tmp,"Move %d", moveNo/2 + 1);
+    sprintf(tmp,"%s %d", klocale->translate("Move"), moveNo/2 + 1);
   status->changeItem(tmp,1);
 
   if (timerState == noGame)
-    strcpy(tmp,"Press N for a new game");
+    strcpy(tmp,klocale->translate("Press F2 for a new game"));
   else {
     if (timerState == gameOver)
-      sprintf(tmp,"%s won !", (board->actColor() == Board::color2) ? "Red":"Yellow");
+      sprintf(tmp,"%s %s !", (board->actColor() == Board::color2) ? 
+	      klocale->translate("Red"):klocale->translate("Yellow"),
+	      klocale->translate("won"));
     else
-      sprintf(tmp,"%s - %s", (board->actColor() == Board::color1) ? "Red":"Yellow",
-	      iPlayNow() ? "I am thinking..." : "It's your turn !");
+      sprintf(tmp,"%s - %s", (board->actColor() == Board::color1) ? 
+	      klocale->translate("Red"):klocale->translate("Yellow"),
+	      iPlayNow() ? klocale->translate("I am thinking...") : 
+	                   klocale->translate("It's your turn !"));
   }
   status->changeItem(tmp,2);
 }
@@ -373,18 +391,18 @@ void AbTop::changeShowMove()
 
 void AbTop::help()
 {
-  kapp->invokeHTMLHelp("", "");
+  kapp->invokeHTMLHelp("kabalone.html", "");
 }
 
 void AbTop::about()
 {
     QString tmp;
 
-    tmp.sprintf("KAbalone V 1.0 \n\n"
+    tmp.sprintf("KAbalone V 1.01 \n\n"
 		"(C) 1997 Josef Weidendorfer\n"
 		"<weidendo@informatik.tu-muenchen.de>");
 
-    KMsgBox::message(this,"About KAbalone",
+    KMsgBox::message(this, klocale->translate("About"),
 		     tmp,KMsgBox::INFORMATION, "OK");
 }
 
