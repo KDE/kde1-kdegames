@@ -69,9 +69,8 @@ msgid "&Options"
 msgstr "&Opções"
 
 #: kbbgame.cpp:170
-#, fuzzy
 msgid "Quit"
-msgstr "&Sair"
+msgstr "Sair"
 
 #: kbbgame.cpp:172
 msgid "New"
@@ -86,9 +85,8 @@ msgid "Done"
 msgstr "Feito"
 
 #: kbbgame.cpp:179
-#, fuzzy
 msgid "Help"
-msgstr "A&juda"
+msgstr "Ajuda"
 
 #: kbbgame.cpp:404
 msgid "About"
@@ -159,9 +157,8 @@ msgid "Yes"
 msgstr "Sim"
 
 #: kbbgame.cpp:573
-#, fuzzy
 msgid "No"
-msgstr " Não"
+msgstr "Não"
 
 #: kbbgame.cpp:576
 msgid "Size"
