@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-05-11 14:16+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -61,10 +61,6 @@ msgstr "Sehr schnell"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Schnell"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Mittel"
 
 #: app.cpp:136
 msgid "Slow"
@@ -169,3 +165,6 @@ msgstr "Score"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Konnte Pixmap nicht laden!"
+
+#~ msgid "Medium"
+#~ msgstr "Mittel"

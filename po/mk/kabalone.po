@@ -4,17 +4,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-5\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: AbTop.cpp:241 AbTop.cpp:398
-msgid "Move"
-msgstr "Povlechi"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -135,6 +131,9 @@ msgstr "Najdobar potez do sega:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Shpion"
+
+#~ msgid "Move"
+#~ msgstr "Povlechi"
 
 #~ msgid "Rules"
 #~ msgstr "Pravila"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-05-14 18:20 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -64,10 +64,6 @@ msgstr "Velmi rychlá"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Rychlá"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Støední"
 
 #: app.cpp:136
 msgid "Slow"
@@ -171,3 +167,6 @@ msgstr "Skóre"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Není mo¾né naèíst obrázky!"
+
+#~ msgid "Medium"
+#~ msgstr "Støední"

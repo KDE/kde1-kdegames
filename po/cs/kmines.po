@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-03-28 22:43 MET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -13,134 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: main.cpp:24 main.cpp:35 main.cpp:53
-msgid "New game"
-msgstr "Nová hra"
+#: dialogs.cpp:94
+msgid "kmines : Customize Game"
+msgstr ""
 
-#: main.cpp:25 main.cpp:36 main.cpp:54
-msgid "Pause game"
-msgstr "Pozastavit hru"
-
-#: main.cpp:27 main.cpp:38 main.cpp:56
-msgid "High scores"
-msgstr "Nejlep¹í výsledky"
-
-#: main.cpp:28
-msgid "Close dialog"
-msgstr "Zavøít dialog"
-
-#: main.cpp:29
-msgid "Ok dialog"
-msgstr "Ok dialog"
-
-#: main.cpp:30
-msgid "Cancel dialog"
-msgstr "Zru¹it dialog"
-
-#: main.cpp:51 main.cpp:159
-msgid "Hide menu bar"
-msgstr "Skrýt menu"
-
-#: main.cpp:61
-msgid "? mark"
-msgstr "Znaèka ?"
-
-#: main.cpp:62
-msgid "Keys"
-msgstr "Klávesy"
-
-#: main.cpp:65
-msgid "Easy"
-msgstr "Snadná"
-
-#: main.cpp:67
-msgid "Expert"
-msgstr "Pro experty"
-
-#: main.cpp:69
-msgid "Custom"
-msgstr "Vlastní"
-
-#: main.cpp:82
-msgid "Level"
-msgstr "Úroveò"
-
-#: main.cpp:156
-msgid "Show menu bar"
-msgstr "Zobrazit menu"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Anonymní"
-
-#: status.cpp:251
-msgid "You did it ... but not in time."
-msgstr "Zvládl(a) jste to ... ale ne vèas."
-
-#: status.cpp:252
-msgid "Yeeessss !"
-msgstr "Anoooo !"
-
-#: status.cpp:255
-msgid "Bad luck !"
-msgstr "Smùla!"
-
-#: status.cpp:301
-msgid "Highscore file is not writable !"
-msgstr "Není mo¾né zapsat do souboru s nejlep¹ími výsledky!"
-
-#: status.cpp:316
-msgid "kmines : Error"
-msgstr "kmines: Chyba"
-
-#: field.cpp:86 field.cpp:93
-msgid "Game paused"
-msgstr "Hra pozastavena"
-
-#: field.cpp:89 field.cpp:95
-msgid "Press to resume"
-msgstr "Stiskni klávesu k pokraèování"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Vlastní úroveò"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
+#: dialogs.cpp:122
+#, fuzzy
+msgid "Width"
 msgstr "©íøka :"
 
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
+#: dialogs.cpp:147
+#, fuzzy
+msgid "Height"
 msgstr "Vý¹ka :"
 
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
+#: dialogs.cpp:172
+#, fuzzy
+msgid "Mines"
 msgstr "Poèet min :"
 
-#: dialogs.cpp:222
-msgid "High Scores"
+#: dialogs.cpp:257
+#, fuzzy
+msgid "kmines : High Scores"
 msgstr "Nejlep¹í výsledky"
 
-#: dialogs.cpp:232 dialogs.cpp:295
+#: dialogs.cpp:287
+#, fuzzy
+msgid "Easy :"
+msgstr "Snadná"
+
+#: dialogs.cpp:288
+msgid "Normal :"
+msgstr ""
+
+#: dialogs.cpp:289
+#, fuzzy
+msgid "Expert :"
+msgstr "Pro experty"
+
+#: dialogs.cpp:315
 msgid "in"
 msgstr "za"
 
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
+#: dialogs.cpp:330
+#, fuzzy
+msgid "minutes."
 msgstr "minut a "
 
-#: dialogs.cpp:234 dialogs.cpp:319
+#: dialogs.cpp:331
+#, fuzzy
+msgid "minutes"
+msgstr "minut a "
+
+#: dialogs.cpp:340
+msgid "and"
+msgstr ""
+
+#: dialogs.cpp:352
 msgid "seconds."
 msgstr "sekund."
 
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Hala slávy"
+#: dialogs.cpp:383 status.cpp:103
+msgid "Anonymous"
+msgstr "Anonymní"
 
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Pou¾ívat znaèku nejistoty (?)"
+#: field.cpp:83 field.cpp:90
+msgid "Game paused"
+msgstr "Hra pozastavena"
 
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Skus znova"
+#: field.cpp:86 field.cpp:92
+msgid "Press to resume"
+msgstr "Stiskni klávesu k pokraèování"
+
+#: status.cpp:222
+msgid "You did it ... but not in time."
+msgstr "Zvládl(a) jste to ... ale ne vèas."
+
+#: status.cpp:223
+msgid "Yeeessss !"
+msgstr "Anoooo !"
+
+#: status.cpp:226
+msgid "Bad luck !"
+msgstr "Smùla!"
+
+#: status.cpp:259
+msgid "Highscore file is not writable !"
+msgstr "Není mo¾né zapsat do souboru s nejlep¹ími výsledky!"
+
+#: status.cpp:267
+msgid "kmines : Error"
+msgstr "kmines: Chyba"
+
+#: main.cpp:24 main.cpp:34 main.cpp:50
+msgid "New game"
+msgstr "Nová hra"
+
+#: main.cpp:25 main.cpp:35 main.cpp:51
+msgid "Pause game"
+msgstr "Pozastavit hru"
+
+#: main.cpp:26 main.cpp:36 main.cpp:53
+msgid "High scores"
+msgstr "Nejlep¹í výsledky"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Zavøít dialog"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Ok dialog"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Zru¹it dialog"
+
+#: main.cpp:47 main.cpp:153
+msgid "Hide menu bar"
+msgstr "Skrýt menu"
+
+#: main.cpp:59
+msgid "? mark"
+msgstr "Znaèka ?"
+
+#: main.cpp:60
+msgid "Keys"
+msgstr "Klávesy"
+
+#: main.cpp:63
+msgid "Easy"
+msgstr "Snadná"
+
+#: main.cpp:65
+msgid "Expert"
+msgstr "Pro experty"
+
+#: main.cpp:67
+msgid "Custom"
+msgstr "Vlastní"
+
+#: main.cpp:70
+msgid "Minesweeper"
+msgstr ""
+
+#: main.cpp:73
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
+
+#: main.cpp:79
+msgid "Level"
+msgstr "Úroveò"
+
+#: main.cpp:150
+msgid "Show menu bar"
+msgstr "Zobrazit menu"
+
+#~ msgid "Custom Level"
+#~ msgstr "Vlastní úroveò"
+
+#~ msgid "Hall of Fame"
+#~ msgstr "Hala slávy"
+
+#~ msgid "Uncertain (?) mark"
+#~ msgstr "Pou¾ívat znaèku nejistoty (?)"
+
+#~ msgid "Try again"
+#~ msgstr "Skus znova"

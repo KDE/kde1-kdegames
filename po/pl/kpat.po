@@ -1,25 +1,25 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat \n"
-"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-01-09 00:08+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
-#: cardmaps.cpp:62
+#: cardmaps.cpp:63
 msgid "please wait, loading cards..."
 msgstr "proszê czekaæ, ³adowanie kart..."
 
-#: cardmaps.cpp:66
+#: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
 msgstr "KPat - pasjans"
 
-#: cardmaps.cpp:104
+#: cardmaps.cpp:105
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
 msgstr "kpat: PANIKA, nie mo¿na za³adowaæ pixmapy \"%s\"\n"
 
-#: cardmaps.cpp:204
+#: cardmaps.cpp:205
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: dostêp do b³êdnej karty %d, %d\n"
@@ -60,19 +60,19 @@ msgstr "Trudny 4"
 msgid "Hard 5"
 msgstr "Trudny 5"
 
-#: grandf.cpp:34
+#: grandf.cpp:35
 msgid "Try to move card:"
 msgstr "Spróbuj ruszyæ kartê:"
 
-#: grandf.cpp:113 mod3.cpp:56
+#: grandf.cpp:114 mod3.cpp:57
 msgid "Redeal"
 msgstr "Rozdanie"
 
-#: grandf.cpp:147
+#: grandf.cpp:148
 msgid "Hint"
 msgstr "Podpowied¼"
 
-#: grandf.cpp:174
+#: grandf.cpp:175
 msgid "Only 3 deals allowed"
 msgstr "Dozwolone tylko 3 rozdania"
 
@@ -92,92 +92,104 @@ msgstr ""
 "Gra zostanie zakoñczona\n"
 "Czy jeste¶ tego pewien?"
 
-#: mod3.cpp:136
+#: mod3.cpp:137
 msgid "No more cards"
 msgstr "Brak kart"
 
-#: pwidget.cpp:95
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "&Rozpocznij grê"
 
-#: pwidget.cpp:99
+#: pwidget.cpp:100
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:100 pwidget.cpp:275
+#: pwidget.cpp:101 pwidget.cpp:277
 msgid "MicroSolitaire"
 msgstr "MiniPasjans"
 
-#: pwidget.cpp:101 pwidget.cpp:279
+#: pwidget.cpp:102 pwidget.cpp:281
 msgid "Calculation"
 msgstr "Kalkulacje"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:103
 msgid "Napoleon's Tomb"
 msgstr "Grób Napoleona"
 
-#: pwidget.cpp:103 pwidget.cpp:283
+#: pwidget.cpp:104 pwidget.cpp:285
 msgid "The Idiot"
 msgstr "Idiota"
 
-#: pwidget.cpp:104 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
 msgstr "Dziadek"
 
-#: pwidget.cpp:105 pwidget.cpp:255
+#: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
 msgstr "Dziesiêæ"
 
-#: pwidget.cpp:106 pwidget.cpp:259
+#: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
 msgstr "Mod3"
 
-#: pwidget.cpp:107 pwidget.cpp:263
+#: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
 msgstr "Freecell"
 
-#: pwidget.cpp:109
+#: pwidget.cpp:110
 msgid "Choose new game"
 msgstr "Wybierz now± grê"
 
-#: pwidget.cpp:115
+#: pwidget.cpp:116
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:116
+#: pwidget.cpp:117
 msgid "Classic blue"
 msgstr "Klasyczny b³êkit"
 
-#: pwidget.cpp:117
+#: pwidget.cpp:118
 msgid "Classic red"
 msgstr "Klasyczna czerwieñ"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:119
 msgid "Technical"
 msgstr "Techniczny"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:120
 msgid "Card backside"
 msgstr "Koszulki"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:121
 msgid "Animation on startup"
 msgstr "Animacja na pocz±tku"
 
-#: pwidget.cpp:271
+#: pwidget.cpp:126
+msgid "Patience"
+msgstr ""
+
+#: pwidget.cpp:128
+msgid ""
+"\n"
+"\n"
+"by Paul Olav Tvetei\n"
+"\n"
+msgstr ""
+
+#: pwidget.cpp:273
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:287
+#: pwidget.cpp:289
 msgid "Napoleons Tomb"
 msgstr "Grób Napoleona"
 
-#: pwidget.cpp:292
+#: pwidget.cpp:294
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: nie ma gry %d\n"
 
-#: pwidget.cpp:342
+#: pwidget.cpp:344
 msgid "Could not load background image!"
 msgstr "Nie mo¿na za³adowaæ t³a!"
 

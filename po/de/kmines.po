@@ -1,155 +1,161 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oliver Hensel <EMAIL@ADDRESS>\n"
 
-#: main.cpp:24 main.cpp:35 main.cpp:53
-msgid "New game"
-msgstr "Neues Spiel"
+#: dialogs.cpp:94
+msgid "kmines : Customize Game"
+msgstr "kmines: Spiel-Einstellungen
 
-#: main.cpp:25 main.cpp:36 main.cpp:54
-msgid "Pause game"
-msgstr "Spielpause"
+#: dialogs.cpp:122
+msgid "Width"
+msgstr "Breite"
 
-#: main.cpp:27 main.cpp:38 main.cpp:56
-msgid "High scores"
-msgstr "Highscores"
+#: dialogs.cpp:147
+msgid "Height"
+msgstr "Höhe"
 
-#: main.cpp:28
-msgid "Close dialog"
-msgstr "Schließen-Dialog"
+#: dialogs.cpp:172
+msgid "Mines"
+msgstr "Minen"
 
-#: main.cpp:29
-msgid "Ok dialog"
-msgstr "OK-Dialog"
+#: dialogs.cpp:257
+msgid "kmines : High Scores"
+msgstr "kmines : Highscores"
 
-#: main.cpp:30
-msgid "Cancel dialog"
-msgstr "Abbrechen-Dialog"
+#: dialogs.cpp:287
+msgid "Easy :"
+msgstr "Leicht :"
 
-#: main.cpp:51 main.cpp:159
-msgid "Hide menu bar"
-msgstr "Menüleiste aus"
+#: dialogs.cpp:288
+msgid "Normal :"
+msgstr "Normal :"
 
-#: main.cpp:61
-msgid "? mark"
-msgstr "?-Markierung"
+#: dialogs.cpp:289
+msgid "Expert :"
+msgstr "Experte :"
 
-#: main.cpp:62
-msgid "Keys"
-msgstr "Tasten"
-
-#: main.cpp:65
-msgid "Easy"
-msgstr "Leicht"
-
-#: main.cpp:67
-msgid "Expert"
-msgstr "Experten"
-
-#: main.cpp:69
-msgid "Custom"
-msgstr "Eigenes"
-
-#: main.cpp:82
-msgid "Level"
-msgstr "Level"
-
-#: main.cpp:156
-msgid "Show menu bar"
-msgstr "Menüleiste an"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Anonym"
-
-#: status.cpp:251
-msgid "You did it ... but not in time."
-msgstr "Geschafft... aber nicht rechtzeitig."
-
-#: status.cpp:252
-msgid "Yeeessss !"
-msgstr "Jaaaa!"
-
-#: status.cpp:255
-msgid "Bad luck !"
-msgstr "Pech!"
-
-#: status.cpp:301
-msgid "Highscore file is not writable !"
-msgstr "Highscore-Datei nicht schreibbar!"
-
-#: status.cpp:316
-msgid "kmines : Error"
-msgstr "kmines : Fehler"
-
-#: field.cpp:86 field.cpp:93
-msgid "Game paused"
-msgstr "Spielpause"
-
-#: field.cpp:89 field.cpp:95
-msgid "Press to resume"
-msgstr "Zum Fortsetzen drücken"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Eigener Level"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
-msgstr "Breite :"
-
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
-msgstr "Höhe :"
-
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
-msgstr "Minen :"
-
-#: dialogs.cpp:222
-msgid "High Scores"
-msgstr "Highscores"
-
-#: dialogs.cpp:232 dialogs.cpp:295
+#: dialogs.cpp:315
 msgid "in"
 msgstr "in"
 
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
+#: dialogs.cpp:330
+#, fuzzy
+msgid "minutes."
 msgstr "Minuten und "
 
-#: dialogs.cpp:234 dialogs.cpp:319
+#: dialogs.cpp:331
+msgid "minutes"
+msgstr "Minuten"
+
+#: dialogs.cpp:340
+msgid "and"
+msgstr "und"
+
+#: dialogs.cpp:352
 msgid "seconds."
 msgstr "Sekunden."
 
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Hall of Fame"
+#: dialogs.cpp:383 status.cpp:103
+msgid "Anonymous"
+msgstr "Anonym"
 
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Unsichere (?) Markierung"
+#: field.cpp:83 field.cpp:90
+msgid "Game paused"
+msgstr "Spielpause"
 
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Nochmal versuchen"
+#: field.cpp:86 field.cpp:92
+msgid "Press to resume"
+msgstr "Zum Fortsetzen drücken"
 
-#~ msgid "About..."
-#~ msgstr "Über..."
+#: status.cpp:222
+msgid "You did it ... but not in time."
+msgstr "Geschafft... aber nicht rechtzeitig."
 
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "von Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+#: status.cpp:223
+msgid "Yeeessss !"
+msgstr "Jaaaa!"
 
-#~ msgid "kmines : About"
-#~ msgstr "kmines : Über"
+#: status.cpp:226
+msgid "Bad luck !"
+msgstr "Pech!"
+
+#: status.cpp:259
+msgid "Highscore file is not writable !"
+msgstr "Highscore-Datei nicht schreibbar!"
+
+#: status.cpp:267
+msgid "kmines : Error"
+msgstr "kmines : Fehler"
+
+#: main.cpp:24 main.cpp:34 main.cpp:50
+msgid "New game"
+msgstr "Neues Spiel"
+
+#: main.cpp:25 main.cpp:35 main.cpp:51
+msgid "Pause game"
+msgstr "Spielpause"
+
+#: main.cpp:26 main.cpp:36 main.cpp:53
+msgid "High scores"
+msgstr "Highscores"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Schließen-Dialog"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "OK-Dialog"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Abbrechen-Dialog"
+
+#: main.cpp:47 main.cpp:153
+msgid "Hide menu bar"
+msgstr "Menüleiste aus"
+
+#: main.cpp:59
+msgid "? mark"
+msgstr "?-Markierung"
+
+#: main.cpp:60
+msgid "Keys"
+msgstr "Tasten"
+
+#: main.cpp:63
+msgid "Easy"
+msgstr "Leicht"
+
+#: main.cpp:65
+msgid "Expert"
+msgstr "Experten"
+
+#: main.cpp:67
+msgid "Custom"
+msgstr "Eigenes"
+
+#: main.cpp:70
+msgid "Minesweeper"
+msgstr "Minesweeper"
+
+#: main.cpp:73
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
+"\n\nvon Nicolas Hadacek"
+
+#: main.cpp:79
+msgid "Level"
+msgstr "Level"
+
+#: main.cpp:150
+msgid "Show menu bar"
+msgstr "Menüleiste an"
+
+

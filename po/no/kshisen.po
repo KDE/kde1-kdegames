@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-03-21 08:39+0100\n"
 "Last-Translator: Svein Olav Aasen <soaasen@online.no / svein.aasen@caa.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -64,10 +64,6 @@ msgstr "Meget hurtig"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Hurtig"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Medium"
 
 #: app.cpp:136
 msgid "Slow"
@@ -172,3 +168,6 @@ msgstr "Poeng"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Kan ikke laste inn pixmaps!"
+
+#~ msgid "Medium"
+#~ msgstr "Medium"

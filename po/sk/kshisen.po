@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -64,10 +64,6 @@ msgstr "Veµmi rýchla"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Rýchla"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Stredná"
 
 #: app.cpp:136
 msgid "Slow"
@@ -171,3 +167,6 @@ msgstr "Body"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Nie je mo¾né naèíta» obrázky!"
+
+#~ msgid "Medium"
+#~ msgstr "Stredná"

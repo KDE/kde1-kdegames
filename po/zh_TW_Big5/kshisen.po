@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-04-21 04:04+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -64,10 +64,6 @@ msgstr "非常快"
 #: app.cpp:134
 msgid "Fast"
 msgstr "快"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "中等"
 
 #: app.cpp:136
 msgid "Slow"
@@ -172,3 +168,6 @@ msgstr ""
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "不能載入圖形!"
+
+#~ msgid "Medium"
+#~ msgstr "中等"

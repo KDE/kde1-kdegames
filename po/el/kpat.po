@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-03-30 21:00+0200\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -14,20 +14,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: cardmaps.cpp:62
+#: cardmaps.cpp:63
 msgid "please wait, loading cards..."
 msgstr "§˜¨˜¡˜¢é §œ¨ £â¤œ«œ, ­¦¨«é¤¦¤«˜  ¦  ¡á¨«œª"
 
-#: cardmaps.cpp:66
+#: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
 msgstr "Kpat - â¤˜ §˜ ®¤å›  ˜© â¤«˜ª"
 
-#: cardmaps.cpp:104
+#: cardmaps.cpp:105
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
 msgstr "kpat: €Œˆ‰‘, ˜›ç¤˜«  ­æ¨«à© «ª ¡á¨«˜ª\n"
 
-#: cardmaps.cpp:204
+#: cardmaps.cpp:205
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: §¨æ©™˜© ©œ ¢áŸ¦ª ¡á¨«˜ %d, %d\n"
@@ -68,19 +68,19 @@ msgstr "ƒç©¡¦¢¦ 4"
 msgid "Hard 5"
 msgstr "ƒç©¡¦¢¦ 5"
 
-#: grandf.cpp:34
+#: grandf.cpp:35
 msgid "Try to move card:"
 msgstr "ƒ¦¡å£˜©œ ¤˜ £œ«˜¡ ¤ã©œ ª «¤ ¡á¨«˜:"
 
-#: grandf.cpp:113 mod3.cpp:56
+#: grandf.cpp:114 mod3.cpp:57
 msgid "Redeal"
 msgstr "˜¤˜£¦å¨˜©œ"
 
-#: grandf.cpp:147
+#: grandf.cpp:148
 msgid "Hint"
 msgstr "Hint"
 
-#: grandf.cpp:174
+#: grandf.cpp:175
 msgid "Only 3 deals allowed"
 msgstr "3 £¦ ¨á©£˜«˜ œ§ «¨â§¦¤«˜ "
 
@@ -100,97 +100,109 @@ msgstr ""
 "€¬«æ Ÿ˜ «œ¨£˜«å©œ  «¦ «¨â®¦¤ §˜ ®¤å› \n"
 "„å©«œ ©åš¦¬¨¦  §àª Ÿâ¢œ«œ ¤˜ «¦ ¡á¤œ«œ ˜¬«æ?"
 
-#: mod3.cpp:136
+#: mod3.cpp:137
 msgid "No more cards"
 msgstr "ƒœ¤ ¬§á¨®¦¬¤ á¢¢œª ¡á¨«œª"
 
-#: pwidget.cpp:95
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "&„§˜¤œ¡å¤© §œ ®¤ › ¦ç"
 
-#: pwidget.cpp:99
+#: pwidget.cpp:100
 #, fuzzy
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:100 pwidget.cpp:275
+#: pwidget.cpp:101 pwidget.cpp:277
 msgid "MicroSolitaire"
 msgstr "‹ ¡¨ã ˜© â¤«˜"
 
-#: pwidget.cpp:101 pwidget.cpp:279
+#: pwidget.cpp:102 pwidget.cpp:281
 msgid "Calculation"
 msgstr "“§¦¢¦š ©£æª"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:103
 #, fuzzy
 msgid "Napoleon's Tomb"
 msgstr "Napoleon's Tomb"
 
-#: pwidget.cpp:103 pwidget.cpp:283
+#: pwidget.cpp:104 pwidget.cpp:285
 msgid "The Idiot"
 msgstr " ¢åŸ ¦ª"
 
-#: pwidget.cpp:104 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
 msgstr " §˜§§¦çª"
 
-#: pwidget.cpp:105 pwidget.cpp:255
+#: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
 msgstr "ƒâ¡˜"
 
-#: pwidget.cpp:106 pwidget.cpp:259
+#: pwidget.cpp:107 pwidget.cpp:261
 #, fuzzy
 msgid "Mod3"
 msgstr "Mod3"
 
-#: pwidget.cpp:107 pwidget.cpp:263
+#: pwidget.cpp:108 pwidget.cpp:265
 #, fuzzy
 msgid "Freecell"
 msgstr "Freecell"
 
-#: pwidget.cpp:109
+#: pwidget.cpp:110
 msgid "Choose new game"
 msgstr "„§â¢œ¥œ ¤â¦ §˜ ®¤å› "
 
-#: pwidget.cpp:115
+#: pwidget.cpp:116
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:116
+#: pwidget.cpp:117
 msgid "Classic blue"
 msgstr "‰¢˜©© ¡æ £§¢â"
 
-#: pwidget.cpp:117
+#: pwidget.cpp:118
 msgid "Classic red"
 msgstr "‰¢˜©© ¡æ ¡æ¡¡ ¤¦"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:119
 msgid "Technical"
 msgstr "’œ®¤ ¡á"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:120
 msgid "Card backside"
 msgstr "å©à æ¯ ¡á¨«˜ª"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:121
 msgid "Animation on startup"
 msgstr "‰ ¤¦ç£œ¤œª œ ¡æ¤œª ¡˜«á «¤ œ¡¡å¤©"
 
-#: pwidget.cpp:271
+#: pwidget.cpp:126
+msgid "Patience"
+msgstr ""
+
+#: pwidget.cpp:128
+msgid ""
+"\n"
+"\n"
+"by Paul Olav Tvetei\n"
+"\n"
+msgstr ""
+
+#: pwidget.cpp:273
 #, fuzzy
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:287
+#: pwidget.cpp:289
 msgid "Napoleons Tomb"
 msgstr "Napoleons Tomb"
 
-#: pwidget.cpp:292
+#: pwidget.cpp:294
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpa: €¤¦¢¦¡¢ã¨à«¦ª «ç§¦ª §˜ ®¤ › ¦ç\n"
 
-#: pwidget.cpp:342
+#: pwidget.cpp:344
 msgid "Could not load background image!"
 msgstr "ƒœ¤ ¡˜«á­œ¨œ ¤˜ ­¦¨«àŸœå  œ ¡æ¤˜ š ˜ «¦ ­æ¤«¦!"
 

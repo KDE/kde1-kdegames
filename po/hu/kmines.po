@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Székely Krisztián <szekelyk@edasz.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -13,137 +13,176 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: main.cpp:24 main.cpp:35 main.cpp:53
-msgid "New game"
-msgstr "Új játék"
+#: dialogs.cpp:94
+msgid "kmines : Customize Game"
+msgstr ""
 
-#: main.cpp:25 main.cpp:36 main.cpp:54
-msgid "Pause game"
-msgstr "Szünet"
-
-#: main.cpp:27 main.cpp:38 main.cpp:56
-msgid "High scores"
-msgstr "Rekord pontok"
-
-#: main.cpp:28
-msgid "Close dialog"
-msgstr "Bezárás"
-
-#: main.cpp:29
-msgid "Ok dialog"
-msgstr "Rendben"
-
-#: main.cpp:30
-msgid "Cancel dialog"
-msgstr "Mégsem"
-
-#: main.cpp:51 main.cpp:159
-msgid "Hide menu bar"
-msgstr "Menüsor elrejtése"
-
-#: main.cpp:61
-msgid "? mark"
-msgstr "? jel"
-
-#: main.cpp:62
-msgid "Keys"
-msgstr "Gombok"
-
-#: main.cpp:65
-msgid "Easy"
-msgstr "Könnyû"
-
-#: main.cpp:67
-msgid "Expert"
-msgstr "Szakértõ"
-
-#: main.cpp:69
-msgid "Custom"
-msgstr "Egyéni"
-
-#: main.cpp:82
-msgid "Level"
-msgstr "Szint"
-
-#: main.cpp:156
-msgid "Show menu bar"
-msgstr "Menüsor megjelenítése"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Ismeretlen"
-
-#: status.cpp:251
-msgid "You did it ... but not in time."
-msgstr "Megcsináltad ... de nem elég gyorsan"
-
-#: status.cpp:252
-msgid "Yeeessss !"
-msgstr "Igeeeen !"
-
-#: status.cpp:255
-msgid "Bad luck !"
-msgstr "Ez nem sikerült !"
-
-#: status.cpp:301
-msgid "Highscore file is not writable !"
-msgstr "A rekord pontokat tartalmazó fájl nem írható !"
-
-#: status.cpp:316
-msgid "kmines : Error"
-msgstr "kmines : Hiba"
-
-#: field.cpp:86 field.cpp:93
-msgid "Game paused"
-msgstr "A játék szünetel"
-
-#: field.cpp:89 field.cpp:95
-msgid "Press to resume"
-msgstr "Nyomd meg a folytatáshoz"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Egyéni szint"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
+#: dialogs.cpp:122
+#, fuzzy
+msgid "Width"
 msgstr "Szélesség :"
 
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
+#: dialogs.cpp:147
+#, fuzzy
+msgid "Height"
 msgstr "Magasság :"
 
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
+#: dialogs.cpp:172
+#, fuzzy
+msgid "Mines"
 msgstr "Aknák :"
 
-#: dialogs.cpp:222
-msgid "High Scores"
+#: dialogs.cpp:257
+#, fuzzy
+msgid "kmines : High Scores"
 msgstr "Rekord pontok"
 
-#: dialogs.cpp:232 dialogs.cpp:295
+#: dialogs.cpp:287
+#, fuzzy
+msgid "Easy :"
+msgstr "Könnyû"
+
+#: dialogs.cpp:288
+msgid "Normal :"
+msgstr ""
+
+#: dialogs.cpp:289
+#, fuzzy
+msgid "Expert :"
+msgstr "Szakértõ"
+
+#: dialogs.cpp:315
 msgid "in"
 msgstr ""
 
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
+#: dialogs.cpp:330
+#, fuzzy
+msgid "minutes."
 msgstr "perc és"
 
-#: dialogs.cpp:234 dialogs.cpp:319
+#: dialogs.cpp:331
+#, fuzzy
+msgid "minutes"
+msgstr "perc és"
+
+#: dialogs.cpp:340
+msgid "and"
+msgstr ""
+
+#: dialogs.cpp:352
 msgid "seconds."
 msgstr "másodperc"
 
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Dicsõség Csarnok"
+#: dialogs.cpp:383 status.cpp:103
+msgid "Anonymous"
+msgstr "Ismeretlen"
 
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Bizonytalan (?) jel"
+#: field.cpp:83 field.cpp:90
+msgid "Game paused"
+msgstr "A játék szünetel"
 
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Próbáld újra"
+#: field.cpp:86 field.cpp:92
+msgid "Press to resume"
+msgstr "Nyomd meg a folytatáshoz"
+
+#: status.cpp:222
+msgid "You did it ... but not in time."
+msgstr "Megcsináltad ... de nem elég gyorsan"
+
+#: status.cpp:223
+msgid "Yeeessss !"
+msgstr "Igeeeen !"
+
+#: status.cpp:226
+msgid "Bad luck !"
+msgstr "Ez nem sikerült !"
+
+#: status.cpp:259
+msgid "Highscore file is not writable !"
+msgstr "A rekord pontokat tartalmazó fájl nem írható !"
+
+#: status.cpp:267
+msgid "kmines : Error"
+msgstr "kmines : Hiba"
+
+#: main.cpp:24 main.cpp:34 main.cpp:50
+msgid "New game"
+msgstr "Új játék"
+
+#: main.cpp:25 main.cpp:35 main.cpp:51
+msgid "Pause game"
+msgstr "Szünet"
+
+#: main.cpp:26 main.cpp:36 main.cpp:53
+msgid "High scores"
+msgstr "Rekord pontok"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Bezárás"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Rendben"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Mégsem"
+
+#: main.cpp:47 main.cpp:153
+msgid "Hide menu bar"
+msgstr "Menüsor elrejtése"
+
+#: main.cpp:59
+msgid "? mark"
+msgstr "? jel"
+
+#: main.cpp:60
+msgid "Keys"
+msgstr "Gombok"
+
+#: main.cpp:63
+msgid "Easy"
+msgstr "Könnyû"
+
+#: main.cpp:65
+msgid "Expert"
+msgstr "Szakértõ"
+
+#: main.cpp:67
+msgid "Custom"
+msgstr "Egyéni"
+
+#: main.cpp:70
+msgid "Minesweeper"
+msgstr ""
+
+#: main.cpp:73
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
+
+#: main.cpp:79
+msgid "Level"
+msgstr "Szint"
+
+#: main.cpp:150
+msgid "Show menu bar"
+msgstr "Menüsor megjelenítése"
+
+#~ msgid "Custom Level"
+#~ msgstr "Egyéni szint"
+
+#~ msgid "Hall of Fame"
+#~ msgstr "Dicsõség Csarnok"
+
+#~ msgid "Uncertain (?) mark"
+#~ msgstr "Bizonytalan (?) jel"
+
+#~ msgid "Try again"
+#~ msgstr "Próbáld újra"
 
 #~ msgid "About..."
 #~ msgstr "Névjegy..."

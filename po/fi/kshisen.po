@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,10 +65,6 @@ msgstr "Erittäin nopea"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Nopea"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Keskiverto"
 
 #: app.cpp:136
 msgid "Slow"
@@ -172,3 +168,6 @@ msgstr "Tulos"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "En saa ladattua kuvia!"
+
+#~ msgid "Medium"
+#~ msgstr "Keskiverto"

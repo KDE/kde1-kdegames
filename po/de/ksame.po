@@ -5,13 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
-"POT-Creation-Date: 1998-06-14 22:22+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-06-14 22:22+0200\n"
-"Last-Translator: Stephan Kulow <coolo@kde.org>"
-
-#: HighScore.cpp:62
-msgid "Highscore"
-msgstr "Bestenliste"
+"Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: HighScore.cpp:104 KSameWidget.cpp:141
 msgid "Board"
@@ -126,6 +122,9 @@ msgstr "Markiert: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Punkte: %06i"
+
+#~ msgid "Highscore"
+#~ msgstr "Bestenliste"
 
 #~ msgid "Stones"
 #~ msgstr "Steine"

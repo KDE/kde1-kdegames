@@ -6,27 +6,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-04-21 03:53+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: cardmaps.cpp:62
+#: cardmaps.cpp:63
 msgid "please wait, loading cards..."
 msgstr "請稍候, 載入卡片中..."
 
-#: cardmaps.cpp:66
+#: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
 msgstr "KPat - 單人紙牌遊戲"
 
-#: cardmaps.cpp:104
+#: cardmaps.cpp:105
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
 msgstr "kpat: PANIC, 無法載入卡片圖形 \"%s\"\n"
 
-#: cardmaps.cpp:204
+#: cardmaps.cpp:205
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: 存取到無效的卡片 %d, %d\n"
@@ -67,19 +67,19 @@ msgstr "困難級 4"
 msgid "Hard 5"
 msgstr "困難級 5"
 
-#: grandf.cpp:34
+#: grandf.cpp:35
 msgid "Try to move card:"
 msgstr "試著移動卡片:"
 
-#: grandf.cpp:113 mod3.cpp:56
+#: grandf.cpp:114 mod3.cpp:57
 msgid "Redeal"
 msgstr "重新發牌"
 
-#: grandf.cpp:147
+#: grandf.cpp:148
 msgid "Hint"
 msgstr "提示"
 
-#: grandf.cpp:174
+#: grandf.cpp:175
 msgid "Only 3 deals allowed"
 msgstr "只有三次發牌機會"
 
@@ -99,92 +99,104 @@ msgstr ""
 "這個動作會結束目前的遊戲\n"
 "確定要這麼做嗎?"
 
-#: mod3.cpp:136
+#: mod3.cpp:137
 msgid "No more cards"
 msgstr "沒有多的卡片"
 
-#: pwidget.cpp:95
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "重新開始遊戲[&R]"
 
-#: pwidget.cpp:99
+#: pwidget.cpp:100
 msgid "&Klondike"
 msgstr ""
 
-#: pwidget.cpp:100 pwidget.cpp:275
+#: pwidget.cpp:101 pwidget.cpp:277
 msgid "MicroSolitaire"
 msgstr ""
 
-#: pwidget.cpp:101 pwidget.cpp:279
+#: pwidget.cpp:102 pwidget.cpp:281
 msgid "Calculation"
 msgstr ""
 
-#: pwidget.cpp:102
+#: pwidget.cpp:103
 msgid "Napoleon's Tomb"
 msgstr ""
 
-#: pwidget.cpp:103 pwidget.cpp:283
+#: pwidget.cpp:104 pwidget.cpp:285
 msgid "The Idiot"
 msgstr ""
 
-#: pwidget.cpp:104 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
 msgstr ""
 
-#: pwidget.cpp:105 pwidget.cpp:255
+#: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
 msgstr ""
 
-#: pwidget.cpp:106 pwidget.cpp:259
+#: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
 msgstr ""
 
-#: pwidget.cpp:107 pwidget.cpp:263
+#: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
 msgstr ""
 
-#: pwidget.cpp:109
+#: pwidget.cpp:110
 msgid "Choose new game"
 msgstr "選擇新遊戲"
 
-#: pwidget.cpp:115
+#: pwidget.cpp:116
 msgid "KDE"
 msgstr ""
 
-#: pwidget.cpp:116
+#: pwidget.cpp:117
 msgid "Classic blue"
 msgstr "古典藍"
 
-#: pwidget.cpp:117
+#: pwidget.cpp:118
 msgid "Classic red"
 msgstr "古典紅"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:119
 msgid "Technical"
 msgstr "科技"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:120
 msgid "Card backside"
 msgstr "紙牌花樣"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:121
 msgid "Animation on startup"
 msgstr "啟動時的動畫"
 
-#: pwidget.cpp:271
+#: pwidget.cpp:126
+msgid "Patience"
+msgstr ""
+
+#: pwidget.cpp:128
+msgid ""
+"\n"
+"\n"
+"by Paul Olav Tvetei\n"
+"\n"
+msgstr ""
+
+#: pwidget.cpp:273
 msgid "Klondike"
 msgstr ""
 
-#: pwidget.cpp:287
+#: pwidget.cpp:289
 msgid "Napoleons Tomb"
 msgstr ""
 
-#: pwidget.cpp:292
+#: pwidget.cpp:294
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: 尚未實作這種遊戲類型 %d\n"
 
-#: pwidget.cpp:342
+#: pwidget.cpp:344
 msgid "Could not load background image!"
 msgstr "無法載入背景圖形!"
 

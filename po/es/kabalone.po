@@ -1,15 +1,11 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
-
-#: AbTop.cpp:241 AbTop.cpp:398
-msgid "Move"
-msgstr "Mover"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -131,6 +127,9 @@ msgstr ""
 #, fuzzy
 msgid "Spion"
 msgstr "Opciones"
+
+#~ msgid "Move"
+#~ msgstr "Mover"
 
 #~ msgid "Rules"
 #~ msgstr "Reglas"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSIONPOT-Creation-Date: 1998-02-19 22:49+0100\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-02-03 16:00+0100\n"
 "Last-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -14,137 +14,176 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:24 main.cpp:35 main.cpp:53
-msgid "New game"
-msgstr "Nuova partita"
-
-#: main.cpp:25 main.cpp:36 main.cpp:54
-msgid "Pause game"
-msgstr "Pausa"
-
-#: main.cpp:27 main.cpp:38 main.cpp:56
-msgid "High scores"
-msgstr "Punteggi"
-
-#: main.cpp:28
-msgid "Close dialog"
-msgstr "Chiudi finestra"
-
-#: main.cpp:29
-msgid "Ok dialog"
-msgstr "Ok "
-
-#: main.cpp:30
-msgid "Cancel dialog"
-msgstr "Annulla"
-
-#: main.cpp:51 main.cpp:159
-msgid "Hide menu bar"
-msgstr "Nascondi barra Menu"
-
-#: main.cpp:61
-msgid "? mark"
-msgstr "Segno ? "
-
-#: main.cpp:62
-msgid "Keys"
-msgstr "Tasti"
-
-#: main.cpp:65
-msgid "Easy"
-msgstr "Facile"
-
-#: main.cpp:67
-msgid "Expert"
-msgstr "Esperto"
-
-#: main.cpp:69
-msgid "Custom"
+#: dialogs.cpp:94
+msgid "kmines : Customize Game"
 msgstr ""
 
-#: main.cpp:82
-msgid "Level"
-msgstr "Livello"
-
-#: main.cpp:156
-msgid "Show menu bar"
-msgstr "Mostra barra Menu"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Anonimo"
-
-#: status.cpp:251
-msgid "You did it ... but not in time."
-msgstr "Ce l'hai fatta...ma non in tempo"
-
-#: status.cpp:252
-msgid "Yeeessss !"
-msgstr "Siiiiiiiii !"
-
-#: status.cpp:255
-msgid "Bad luck !"
-msgstr "E' andata male !"
-
-#: status.cpp:301
-msgid "Highscore file is not writable !"
-msgstr "Il file della classifica non è riscrivibile !"
-
-#: status.cpp:316
-msgid "kmines : Error"
-msgstr "kmines : Errore"
-
-#: field.cpp:86 field.cpp:93
-msgid "Game paused"
-msgstr "Gioco in pausa"
-
-#: field.cpp:89 field.cpp:95
-msgid "Press to resume"
-msgstr "Premi per ripristinare"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Livello Personalizzato"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
+#: dialogs.cpp:122
+#, fuzzy
+msgid "Width"
 msgstr "Larghezza :"
 
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
+#: dialogs.cpp:147
+#, fuzzy
+msgid "Height"
 msgstr "Altezza :"
 
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
+#: dialogs.cpp:172
+#, fuzzy
+msgid "Mines"
 msgstr "Mine :"
 
-#: dialogs.cpp:222
-msgid "High Scores"
+#: dialogs.cpp:257
+#, fuzzy
+msgid "kmines : High Scores"
 msgstr "Punteggi "
 
-#: dialogs.cpp:232 dialogs.cpp:295
+#: dialogs.cpp:287
+#, fuzzy
+msgid "Easy :"
+msgstr "Facile"
+
+#: dialogs.cpp:288
+msgid "Normal :"
+msgstr ""
+
+#: dialogs.cpp:289
+#, fuzzy
+msgid "Expert :"
+msgstr "Esperto"
+
+#: dialogs.cpp:315
 msgid "in"
 msgstr "in"
 
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
+#: dialogs.cpp:330
+#, fuzzy
+msgid "minutes."
 msgstr "minuti e "
 
-#: dialogs.cpp:234 dialogs.cpp:319
+#: dialogs.cpp:331
+#, fuzzy
+msgid "minutes"
+msgstr "minuti e "
+
+#: dialogs.cpp:340
+msgid "and"
+msgstr ""
+
+#: dialogs.cpp:352
 msgid "seconds."
 msgstr "secondi."
 
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Sala Delle Celebritá"
+#: dialogs.cpp:383 status.cpp:103
+msgid "Anonymous"
+msgstr "Anonimo"
 
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Segno di incertezza (?)"
+#: field.cpp:83 field.cpp:90
+msgid "Game paused"
+msgstr "Gioco in pausa"
 
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Prova ancora"
+#: field.cpp:86 field.cpp:92
+msgid "Press to resume"
+msgstr "Premi per ripristinare"
+
+#: status.cpp:222
+msgid "You did it ... but not in time."
+msgstr "Ce l'hai fatta...ma non in tempo"
+
+#: status.cpp:223
+msgid "Yeeessss !"
+msgstr "Siiiiiiiii !"
+
+#: status.cpp:226
+msgid "Bad luck !"
+msgstr "E' andata male !"
+
+#: status.cpp:259
+msgid "Highscore file is not writable !"
+msgstr "Il file della classifica non è riscrivibile !"
+
+#: status.cpp:267
+msgid "kmines : Error"
+msgstr "kmines : Errore"
+
+#: main.cpp:24 main.cpp:34 main.cpp:50
+msgid "New game"
+msgstr "Nuova partita"
+
+#: main.cpp:25 main.cpp:35 main.cpp:51
+msgid "Pause game"
+msgstr "Pausa"
+
+#: main.cpp:26 main.cpp:36 main.cpp:53
+msgid "High scores"
+msgstr "Punteggi"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Chiudi finestra"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Ok "
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Annulla"
+
+#: main.cpp:47 main.cpp:153
+msgid "Hide menu bar"
+msgstr "Nascondi barra Menu"
+
+#: main.cpp:59
+msgid "? mark"
+msgstr "Segno ? "
+
+#: main.cpp:60
+msgid "Keys"
+msgstr "Tasti"
+
+#: main.cpp:63
+msgid "Easy"
+msgstr "Facile"
+
+#: main.cpp:65
+msgid "Expert"
+msgstr "Esperto"
+
+#: main.cpp:67
+msgid "Custom"
+msgstr ""
+
+#: main.cpp:70
+msgid "Minesweeper"
+msgstr ""
+
+#: main.cpp:73
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
+
+#: main.cpp:79
+msgid "Level"
+msgstr "Livello"
+
+#: main.cpp:150
+msgid "Show menu bar"
+msgstr "Mostra barra Menu"
+
+#~ msgid "Custom Level"
+#~ msgstr "Livello Personalizzato"
+
+#~ msgid "Hall of Fame"
+#~ msgstr "Sala Delle Celebritá"
+
+#~ msgid "Uncertain (?) mark"
+#~ msgstr "Segno di incertezza (?)"
+
+#~ msgid "Try again"
+#~ msgstr "Prova ancora"
 
 #~ msgid "About..."
 #~ msgstr "Info su..."

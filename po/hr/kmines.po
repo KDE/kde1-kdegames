@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -13,134 +13,173 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: main.cpp:24 main.cpp:35 main.cpp:53
-msgid "New game"
-msgstr "Nova igra"
+#: dialogs.cpp:94
+msgid "kmines : Customize Game"
+msgstr ""
 
-#: main.cpp:25 main.cpp:36 main.cpp:54
-msgid "Pause game"
-msgstr "Zaustavi igru"
-
-#: main.cpp:27 main.cpp:38 main.cpp:56
-msgid "High scores"
-msgstr "Najvi¹i rezultati"
-
-#: main.cpp:28
-msgid "Close dialog"
-msgstr "Zatvori dijalog"
-
-#: main.cpp:29
-msgid "Ok dialog"
-msgstr "Ok dijalog"
-
-#: main.cpp:30
-msgid "Cancel dialog"
-msgstr "Poni¹ti "
-
-#: main.cpp:51 main.cpp:159
-msgid "Hide menu bar"
-msgstr "Sakrij traku sa izbornicima"
-
-#: main.cpp:61
-msgid "? mark"
-msgstr "? oznaka"
-
-#: main.cpp:62
-msgid "Keys"
-msgstr "Tipke"
-
-#: main.cpp:65
-msgid "Easy"
-msgstr "Lagano"
-
-#: main.cpp:67
-msgid "Expert"
-msgstr "Ekspert"
-
-#: main.cpp:69
-msgid "Custom"
-msgstr "Prilagodjeno"
-
-#: main.cpp:82
-msgid "Level"
-msgstr "Razina"
-
-#: main.cpp:156
-msgid "Show menu bar"
-msgstr "Prika¾i traku sa izbornicima"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Anonimno"
-
-#: status.cpp:251
-msgid "You did it ... but not in time."
-msgstr "Uspio si ... medjutim vrijeme je isteklo."
-
-#: status.cpp:252
-msgid "Yeeessss !"
-msgstr "Daaaaaaa !"
-
-#: status.cpp:255
-msgid "Bad luck !"
-msgstr "Nema¹ sreæe !"
-
-#: status.cpp:301
-msgid "Highscore file is not writable !"
-msgstr "Datoteka "
-
-#: status.cpp:316
-msgid "kmines : Error"
-msgstr "kmines : Gre¹ka"
-
-#: field.cpp:86 field.cpp:93
-msgid "Game paused"
-msgstr "Igra zaustavljena"
-
-#: field.cpp:89 field.cpp:95
-msgid "Press to resume"
-msgstr "Pritisni tipku za nastavak"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Izaberi razinu"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
+#: dialogs.cpp:122
+#, fuzzy
+msgid "Width"
 msgstr "©irina :"
 
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
+#: dialogs.cpp:147
+#, fuzzy
+msgid "Height"
 msgstr "Visina :"
 
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
+#: dialogs.cpp:172
+#, fuzzy
+msgid "Mines"
 msgstr "Mine :"
 
-#: dialogs.cpp:222
-msgid "High Scores"
+#: dialogs.cpp:257
+#, fuzzy
+msgid "kmines : High Scores"
 msgstr "Najvi¹i rezultati"
 
-#: dialogs.cpp:232 dialogs.cpp:295
+#: dialogs.cpp:287
+#, fuzzy
+msgid "Easy :"
+msgstr "Lagano"
+
+#: dialogs.cpp:288
+msgid "Normal :"
+msgstr ""
+
+#: dialogs.cpp:289
+#, fuzzy
+msgid "Expert :"
+msgstr "Ekspert"
+
+#: dialogs.cpp:315
 msgid "in"
 msgstr "u"
 
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
+#: dialogs.cpp:330
+#, fuzzy
+msgid "minutes."
 msgstr "minuta i "
 
-#: dialogs.cpp:234 dialogs.cpp:319
+#: dialogs.cpp:331
+#, fuzzy
+msgid "minutes"
+msgstr "minuta i "
+
+#: dialogs.cpp:340
+msgid "and"
+msgstr ""
+
+#: dialogs.cpp:352
 msgid "seconds."
 msgstr "sekundi."
 
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Dvorac Slave"
+#: dialogs.cpp:383 status.cpp:103
+msgid "Anonymous"
+msgstr "Anonimno"
 
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Nesiguran (?) oznaka"
+#: field.cpp:83 field.cpp:90
+msgid "Game paused"
+msgstr "Igra zaustavljena"
 
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Poku¹aj ponovo"
+#: field.cpp:86 field.cpp:92
+msgid "Press to resume"
+msgstr "Pritisni tipku za nastavak"
+
+#: status.cpp:222
+msgid "You did it ... but not in time."
+msgstr "Uspio si ... medjutim vrijeme je isteklo."
+
+#: status.cpp:223
+msgid "Yeeessss !"
+msgstr "Daaaaaaa !"
+
+#: status.cpp:226
+msgid "Bad luck !"
+msgstr "Nema¹ sreæe !"
+
+#: status.cpp:259
+msgid "Highscore file is not writable !"
+msgstr "Datoteka "
+
+#: status.cpp:267
+msgid "kmines : Error"
+msgstr "kmines : Gre¹ka"
+
+#: main.cpp:24 main.cpp:34 main.cpp:50
+msgid "New game"
+msgstr "Nova igra"
+
+#: main.cpp:25 main.cpp:35 main.cpp:51
+msgid "Pause game"
+msgstr "Zaustavi igru"
+
+#: main.cpp:26 main.cpp:36 main.cpp:53
+msgid "High scores"
+msgstr "Najvi¹i rezultati"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Zatvori dijalog"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Ok dijalog"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Poni¹ti "
+
+#: main.cpp:47 main.cpp:153
+msgid "Hide menu bar"
+msgstr "Sakrij traku sa izbornicima"
+
+#: main.cpp:59
+msgid "? mark"
+msgstr "? oznaka"
+
+#: main.cpp:60
+msgid "Keys"
+msgstr "Tipke"
+
+#: main.cpp:63
+msgid "Easy"
+msgstr "Lagano"
+
+#: main.cpp:65
+msgid "Expert"
+msgstr "Ekspert"
+
+#: main.cpp:67
+msgid "Custom"
+msgstr "Prilagodjeno"
+
+#: main.cpp:70
+msgid "Minesweeper"
+msgstr ""
+
+#: main.cpp:73
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
+
+#: main.cpp:79
+msgid "Level"
+msgstr "Razina"
+
+#: main.cpp:150
+msgid "Show menu bar"
+msgstr "Prika¾i traku sa izbornicima"
+
+#~ msgid "Custom Level"
+#~ msgstr "Izaberi razinu"
+
+#~ msgid "Hall of Fame"
+#~ msgstr "Dvorac Slave"
+
+#~ msgid "Uncertain (?) mark"
+#~ msgstr "Nesiguran (?) oznaka"
+
+#~ msgid "Try again"
+#~ msgstr "Poku¹aj ponovo"

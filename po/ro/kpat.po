@@ -1,24 +1,24 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 
-#: cardmaps.cpp:62
+#: cardmaps.cpp:63
 msgid "please wait, loading cards..."
 msgstr "Vã rugam ceva rãbdare, cãrþile se încarcã..."
 
-#: cardmaps.cpp:66
+#: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
 msgstr "KPat - un joc solitar"
 
-#: cardmaps.cpp:104
+#: cardmaps.cpp:105
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
 msgstr "KPat: Eroare grea, nu pot sã incarc \"%s\" portretul carþii\n"
 
-#: cardmaps.cpp:204
+#: cardmaps.cpp:205
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: Eroare grea, nu am acces la cartea aceasta %d, %d\n"
@@ -59,19 +59,19 @@ msgstr "Greu 4"
 msgid "Hard 5"
 msgstr "Greu 5"
 
-#: grandf.cpp:34
+#: grandf.cpp:35
 msgid "Try to move card:"
 msgstr "Încerc sã miºc cãrþile:"
 
-#: grandf.cpp:113 mod3.cpp:56
+#: grandf.cpp:114 mod3.cpp:57
 msgid "Redeal"
 msgstr "O noua mînã"
 
-#: grandf.cpp:147
+#: grandf.cpp:148
 msgid "Hint"
 msgstr "Propunere"
 
-#: grandf.cpp:174
+#: grandf.cpp:175
 msgid "Only 3 deals allowed"
 msgstr "Numa 3 mîini sînt permise"
 
@@ -91,92 +91,104 @@ msgstr ""
 "Prin aceasta se terminã jocul\n"
 "Eºti sigur cã doreºti aceasta?"
 
-#: mod3.cpp:136
+#: mod3.cpp:137
 msgid "No more cards"
 msgstr "Nu mai sînt cãrþi"
 
-#: pwidget.cpp:95
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "&Joc nou"
 
-#: pwidget.cpp:99
+#: pwidget.cpp:100
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:100 pwidget.cpp:275
+#: pwidget.cpp:101 pwidget.cpp:277
 msgid "MicroSolitaire"
 msgstr "MicroSolitaire"
 
-#: pwidget.cpp:101 pwidget.cpp:279
+#: pwidget.cpp:102 pwidget.cpp:281
 msgid "Calculation"
 msgstr "Calculare"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:103
 msgid "Napoleon's Tomb"
 msgstr "Mormîntul lui Napoleon"
 
-#: pwidget.cpp:103 pwidget.cpp:283
+#: pwidget.cpp:104 pwidget.cpp:285
 msgid "The Idiot"
 msgstr "Idiot"
 
-#: pwidget.cpp:104 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
 msgstr "Tata mare"
 
-#: pwidget.cpp:105 pwidget.cpp:255
+#: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
 msgstr "Zece"
 
-#: pwidget.cpp:106 pwidget.cpp:259
+#: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
 msgstr "Mod3"
 
-#: pwidget.cpp:107 pwidget.cpp:263
+#: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
 msgstr "FreeCell"
 
-#: pwidget.cpp:109
+#: pwidget.cpp:110
 msgid "Choose new game"
 msgstr "Alege un mod nou"
 
-#: pwidget.cpp:115
+#: pwidget.cpp:116
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:116
+#: pwidget.cpp:117
 msgid "Classic blue"
 msgstr "Albastru clasic"
 
-#: pwidget.cpp:117
+#: pwidget.cpp:118
 msgid "Classic red"
 msgstr "Roºu clasic"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:119
 msgid "Technical"
 msgstr "Amesticãturã technicã"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:120
 msgid "Card backside"
 msgstr "Spatele cãrþilor"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:121
 msgid "Animation on startup"
 msgstr "Animaþie la start"
 
-#: pwidget.cpp:271
+#: pwidget.cpp:126
+msgid "Patience"
+msgstr ""
+
+#: pwidget.cpp:128
+msgid ""
+"\n"
+"\n"
+"by Paul Olav Tvetei\n"
+"\n"
+msgstr ""
+
+#: pwidget.cpp:273
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:287
+#: pwidget.cpp:289
 msgid "Napoleons Tomb"
 msgstr "Mormîntul lui Napoleon"
 
-#: pwidget.cpp:292
+#: pwidget.cpp:294
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: Varianta %d nu existã\n"
 
-#: pwidget.cpp:342
+#: pwidget.cpp:344
 msgid "Could not load background image!"
 msgstr "Nu pot sã incarc imaginea de fond!"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -65,10 +65,6 @@ msgstr "Zeer snel"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Snel"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Gemiddeld"
 
 #: app.cpp:136
 msgid "Slow"
@@ -173,6 +169,9 @@ msgstr ""
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Kan pixmap niet laden !"
+
+#~ msgid "Medium"
+#~ msgstr "Gemiddeld"
 
 #~ msgid "Name"
 #~ msgstr "Naam"

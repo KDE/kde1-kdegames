@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian\n"
@@ -64,10 +64,6 @@ msgstr "Vrlo brzo"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Brzo"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Srednje"
 
 #: app.cpp:136
 msgid "Slow"
@@ -172,3 +168,6 @@ msgstr "Rezultat"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Ne mogu uèitati pixmape!"
+
+#~ msgid "Medium"
+#~ msgstr "Srednje"

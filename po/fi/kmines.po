@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,134 +14,173 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:24 main.cpp:35 main.cpp:53
-msgid "New game"
-msgstr "Uusi peli"
+#: dialogs.cpp:94
+msgid "kmines : Customize Game"
+msgstr ""
 
-#: main.cpp:25 main.cpp:36 main.cpp:54
-msgid "Pause game"
-msgstr "Pysäytä peli"
-
-#: main.cpp:27 main.cpp:38 main.cpp:56
-msgid "High scores"
-msgstr "Ennätykset"
-
-#: main.cpp:28
-msgid "Close dialog"
-msgstr "Sulje ikkuna"
-
-#: main.cpp:29
-msgid "Ok dialog"
-msgstr "Ok ikkuna"
-
-#: main.cpp:30
-msgid "Cancel dialog"
-msgstr "Peruuta ikkuna"
-
-#: main.cpp:51 main.cpp:159
-msgid "Hide menu bar"
-msgstr "Piilota valikkorivi"
-
-#: main.cpp:61
-msgid "? mark"
-msgstr "?-merkki"
-
-#: main.cpp:62
-msgid "Keys"
-msgstr "Näppäimet"
-
-#: main.cpp:65
-msgid "Easy"
-msgstr "Helppo"
-
-#: main.cpp:67
-msgid "Expert"
-msgstr "Ammattilainen"
-
-#: main.cpp:69
-msgid "Custom"
-msgstr "Oma"
-
-#: main.cpp:82
-msgid "Level"
-msgstr "Taso"
-
-#: main.cpp:156
-msgid "Show menu bar"
-msgstr "Näytä valikkorivi"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Tuntematon"
-
-#: status.cpp:251
-msgid "You did it ... but not in time."
-msgstr "Teit sen ... mutta et ajoissa."
-
-#: status.cpp:252
-msgid "Yeeessss !"
-msgstr "Kyllllä !"
-
-#: status.cpp:255
-msgid "Bad luck !"
-msgstr "Huono onni!"
-
-#: status.cpp:301
-msgid "Highscore file is not writable !"
-msgstr "Ennätystiedosto ei ole kirjoituskelpoinen!"
-
-#: status.cpp:316
-msgid "kmines : Error"
-msgstr "kmines : Virhe"
-
-#: field.cpp:86 field.cpp:93
-msgid "Game paused"
-msgstr "Peli pysäytetty"
-
-#: field.cpp:89 field.cpp:95
-msgid "Press to resume"
-msgstr "Paina jatkaaksesi"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Oma taso"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
+#: dialogs.cpp:122
+#, fuzzy
+msgid "Width"
 msgstr "Leveys :"
 
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
+#: dialogs.cpp:147
+#, fuzzy
+msgid "Height"
 msgstr "Korkeus :"
 
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
+#: dialogs.cpp:172
+#, fuzzy
+msgid "Mines"
 msgstr "Miinoja :"
 
-#: dialogs.cpp:222
-msgid "High Scores"
+#: dialogs.cpp:257
+#, fuzzy
+msgid "kmines : High Scores"
 msgstr "Ennätykset"
 
-#: dialogs.cpp:232 dialogs.cpp:295
+#: dialogs.cpp:287
+#, fuzzy
+msgid "Easy :"
+msgstr "Helppo"
+
+#: dialogs.cpp:288
+msgid "Normal :"
+msgstr ""
+
+#: dialogs.cpp:289
+#, fuzzy
+msgid "Expert :"
+msgstr "Ammattilainen"
+
+#: dialogs.cpp:315
 msgid "in"
 msgstr " "
 
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
+#: dialogs.cpp:330
+#, fuzzy
+msgid "minutes."
 msgstr "minuuttia ja "
 
-#: dialogs.cpp:234 dialogs.cpp:319
+#: dialogs.cpp:331
+#, fuzzy
+msgid "minutes"
+msgstr "minuuttia ja "
+
+#: dialogs.cpp:340
+msgid "and"
+msgstr ""
+
+#: dialogs.cpp:352
 msgid "seconds."
 msgstr "sekuntia."
 
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Ennätyslista"
+#: dialogs.cpp:383 status.cpp:103
+msgid "Anonymous"
+msgstr "Tuntematon"
 
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Epävarma (?)-merkki"
+#: field.cpp:83 field.cpp:90
+msgid "Game paused"
+msgstr "Peli pysäytetty"
 
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Yritä uudelleen"
+#: field.cpp:86 field.cpp:92
+msgid "Press to resume"
+msgstr "Paina jatkaaksesi"
+
+#: status.cpp:222
+msgid "You did it ... but not in time."
+msgstr "Teit sen ... mutta et ajoissa."
+
+#: status.cpp:223
+msgid "Yeeessss !"
+msgstr "Kyllllä !"
+
+#: status.cpp:226
+msgid "Bad luck !"
+msgstr "Huono onni!"
+
+#: status.cpp:259
+msgid "Highscore file is not writable !"
+msgstr "Ennätystiedosto ei ole kirjoituskelpoinen!"
+
+#: status.cpp:267
+msgid "kmines : Error"
+msgstr "kmines : Virhe"
+
+#: main.cpp:24 main.cpp:34 main.cpp:50
+msgid "New game"
+msgstr "Uusi peli"
+
+#: main.cpp:25 main.cpp:35 main.cpp:51
+msgid "Pause game"
+msgstr "Pysäytä peli"
+
+#: main.cpp:26 main.cpp:36 main.cpp:53
+msgid "High scores"
+msgstr "Ennätykset"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Sulje ikkuna"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Ok ikkuna"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Peruuta ikkuna"
+
+#: main.cpp:47 main.cpp:153
+msgid "Hide menu bar"
+msgstr "Piilota valikkorivi"
+
+#: main.cpp:59
+msgid "? mark"
+msgstr "?-merkki"
+
+#: main.cpp:60
+msgid "Keys"
+msgstr "Näppäimet"
+
+#: main.cpp:63
+msgid "Easy"
+msgstr "Helppo"
+
+#: main.cpp:65
+msgid "Expert"
+msgstr "Ammattilainen"
+
+#: main.cpp:67
+msgid "Custom"
+msgstr "Oma"
+
+#: main.cpp:70
+msgid "Minesweeper"
+msgstr ""
+
+#: main.cpp:73
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
+
+#: main.cpp:79
+msgid "Level"
+msgstr "Taso"
+
+#: main.cpp:150
+msgid "Show menu bar"
+msgstr "Näytä valikkorivi"
+
+#~ msgid "Custom Level"
+#~ msgstr "Oma taso"
+
+#~ msgid "Hall of Fame"
+#~ msgstr "Ennätyslista"
+
+#~ msgid "Uncertain (?) mark"
+#~ msgstr "Epävarma (?)-merkki"
+
+#~ msgid "Try again"
+#~ msgstr "Yritä uudelleen"

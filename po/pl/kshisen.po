@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen \n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-01-09 00:34+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -57,10 +57,6 @@ msgstr "Bardzo szybko"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Szybko"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "¦rednio"
 
 #: app.cpp:136
 msgid "Slow"
@@ -164,6 +160,9 @@ msgstr ""
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Nie mo¿na za³adowaæ pixmapy!"
+
+#~ msgid "Medium"
+#~ msgstr "¦rednio"
 
 #~ msgid "Name"
 #~ msgstr "Imiê"

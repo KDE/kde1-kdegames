@@ -1,14 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
-
-#: AbTop.cpp:241 AbTop.cpp:398
-msgid "Move"
-msgstr "移动"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -129,3 +125,6 @@ msgstr "目前最好的成绩:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr ""
+
+#~ msgid "Move"
+#~ msgstr "移动"

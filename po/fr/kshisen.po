@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
 "Last-Translator: Damien Cola <alliax@mindless.com>\n"
 "Language-Team: FRENCH <FR@li.org>\n"
@@ -64,10 +64,6 @@ msgstr "Tres rapide"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Rapide"
-
-#: app.cpp:135 app.cpp:140
-msgid "Medium"
-msgstr "Moyen"
 
 #: app.cpp:136
 msgid "Slow"
@@ -173,6 +169,9 @@ msgstr ""
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Ne peut pas charger les images!"
+
+#~ msgid "Medium"
+#~ msgstr "Moyen"
 
 #~ msgid "Name"
 #~ msgstr "Nom"

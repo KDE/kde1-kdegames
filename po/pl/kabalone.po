@@ -1,14 +1,10 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone \n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-01-05 18:07+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
-
-#: AbTop.cpp:241 AbTop.cpp:398
-msgid "Move"
-msgstr "Ruch"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -129,6 +125,9 @@ msgstr "Najlepszy ruch:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Podpowiedzi"
+
+#~ msgid "Move"
+#~ msgstr "Ruch"
 
 #~ msgid "Rules"
 #~ msgstr "Zasady"
