@@ -1,0 +1,84 @@
+From - Tue Feb 17 20:40:46 1998
+Received: from lupinella.troll.no (lupinella.troll.no [195.0.254.19]) by itm.mu-luebeck.de (8.8.7/8.7.1) with ESMTP id UAA05817 for <coolo@itm.mu-luebeck.de>; Tue, 17 Feb 1998 20:29:09 +0100 (MET)
+Received: from public.uni-hamburg.de ([134.100.41.1] HELO public.uni-hamburg.de ident: NO-IDENT-SERVICE [port 15629]) by troll.no with SMTP id <79709-11019>; Tue, 17 Feb 1998 20:25:33 +0100
+Received: from max2-113.public.uni-hamburg.de by public.uni-hamburg.de (AIX 4.1/UCB 5.64/4.03)
+          id AA06982; Tue, 17 Feb 1998 20:25:26 +0100
+Sender: mathias@public.uni-hamburg.de
+Message-Id: <34E9E44A.773B1251@public.uni-hamburg.de>
+Date: Tue, 17 Feb 1998 20:26:02 +0100
+From: Mathias Mueller <in5y158@public.uni-hamburg.de>
+X-Mailer: Mozilla 4.04 [en] (X11; I; Linux 2.0.33 i486)
+Mime-Version: 1.0
+To: coolo@kde.org
+Subject: KMahjongg =?ISO-8859-1?Q?=DCbersetzung?=
+Content-Type: multipart/mixed; boundary="------------EA11F334600DB5CB0CFF9758"
+Status:  O
+X-Mozilla-Status: 8001
+
+This is a multi-part message in MIME format.
+--------------EA11F334600DB5CB0CFF9758
+Content-Type: text/plain; charset=iso-8859-1
+Content-Transfer-Encoding: 8bit
+
+Hi,
+
+soviel ich verstanden habe, bist Du der Koordinator für die Übersetzung
+von KDE Applikationen. Daher sende ich Dir anebi das "Pot-File" für
+KMahjongg. Sie entspricht der in der Version 0.4.0 enthaltennen Datei,
+eine deutsche Übersetzung habe ich auch gemacht, konnte sie aber nicht
+ausprobieren, da mir das Tool zum übersetzen fehlt.
+
+MfG
+    Mathias
+
+
+--------------EA11F334600DB5CB0CFF9758
+Content-Type: application/vnd.ms-powerpoint; name="kmahjongg.pot"
+Content-Transfer-Encoding: base64
+Content-Disposition: inline; filename="kmahjongg.pot"
+
+IyBTT01FIERFU0NSSVBUSVZFIFRJVExFLgojIENvcHlyaWdodCAoQykgWUVBUiBGcmVlIFNv
+ZnR3YXJlIEZvdW5kYXRpb24sIEluYy4KIyBGSVJTVCBBVVRIT1IgPEVNQUlMQEFERFJFU1M+
+LCBZRUFSLgojCiMsIGZ1enp5Cm1zZ2lkICIiCm1zZ3N0ciAiIgoiUHJvamVjdC1JZC1WZXJz
+aW9uOiBQQUNLQUdFIFZFUlNJT05cbiIKIlBPVC1DcmVhdGlvbi1EYXRlOiAxOTk4LTAxLTI1
+IDEzOjI0KzAxMDBcbiIKIlBPLVJldmlzaW9uLURhdGU6IFlFQVItTU8tREEgSE86TUkrWk9O
+RVxuIgoiTGFzdC1UcmFuc2xhdG9yOiBGVUxMIE5BTUUgPEVNQUlMQEFERFJFU1M+XG4iCiJM
+YW5ndWFnZS1UZWFtOiBMQU5HVUFHRSA8TExAbGkub3JnPlxuIgoiTUlNRS1WZXJzaW9uOiAx
+LjBcbiIKIkNvbnRlbnQtVHlwZTogdGV4dC9wbGFpbjsgY2hhcnNldD1DSEFSU0VUXG4iCiJD
+b250ZW50LVRyYW5zZmVyLUVuY29kaW5nOiBFTkNPRElOR1xuIgoKIzoga21haGpvbmdnLi5j
+cHA6OTMKbXNnaWQgIkNsYXNzaWMiCm1zZ3N0ciAiIgoKIzoga21haGpvbmdnLi5jcHA6OTQK
+bXNnaWQgIlRvd2VyIgptc2dzdHIgIiIKCiM6IGttYWhqb25nZy4uY3BwOjk1Cm1zZ2lkICJU
+cmlhbmdsZSIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDo5Ngptc2dpZCAiUHlyYW1p
+ZGUiCm1zZ3N0ciAiIgoKIzoga21haGpvbmdnLi5jcHA6MTk1Cm1zZ2lkICImU3RhcnQgbmV3
+IGdhbWUiCm1zZ3N0ciAiIgoKIzoga21haGpvbmdnLi5jcHA6MTk3Cm1zZ2lkICImSGVscCBt
+ZSIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDoxOTgKbXNnaWQgIiZVbmRvIGxhc3Qg
+bW92ZSIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDoxOTkKbXNnaWQgIiZEZW1vIG1v
+ZGUiCm1zZ3N0ciAiIgoKIzoga21haGpvbmdnLi5jcHA6MjAwCm1zZ2lkICJTaG93ICZtYXRj
+aGluZyB0aWxlcyIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDoyMDIKbXNnaWQgIiZR
+dWl0Igptc2dzdHIgIiIKCiM6IGttYWhqb25nZy4uY3BwOjIwNgptc2dpZCAiJkxvYWQgQmFj
+a2dyb3VuZCBpbWFnZS4uLiIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDoyMDgKbXNn
+aWQgIiZTdGF0dXNiYXIiCm1zZ3N0ciAiIgoKIzoga21haGpvbmdnLi5jcHA6MjExCm1zZ2lk
+ICImSGVscCIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDoyMTMKbXNnaWQgIiZBYm91
+dC4uLiIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDoyMjEKbXNnaWQgIiZHYW1lIgpt
+c2dzdHIgIiIKCiM6IGttYWhqb25nZy4uY3BwOjIyMgptc2dpZCAiJlZpZXciCm1zZ3N0ciAi
+IgoKIzoga21haGpvbmdnLi5jcHA6Mjg2Cm1zZ2lkICIiQWJvdXQgJXMiCm1zZ3N0ciAiIgoK
+Izoga21haGpvbmdnLi5jcHA6MjkxCm1zZ2lkICIiCiAgICAiJXMgViVzXG5cbiIKICAgICJi
+eSBNYXRoaWFzIE11ZWxsZXJcbiIKICAgICIoaW41eTE1OEBwdWJsaWMudW5pLWhhbWJ1cmcu
+ZGUpIgptc2dzdHIgIiIKCiM6IGttYWhqb25nZy4uY3BwOjI5NAptc2dpZCAiQ2xvc2UiCm1z
+Z3N0ciAiIgoKIzoga21haGpvbmdnLi5jcHA6NDM0Cm1zZ2lkICJVbmRvIG9wZXJhdGlvbiBk
+b25lIHN1Y2Nlc3NmdWxseS4iIgptc2dzdHIgIiIKCiM6IGttYWhqb25nZy4uY3BwOjQzNwpt
+c2dpZCAiV2hhdCBkbyB5b3Ugd2FudCB0byB1bmRvPyBZb3UgaGF2ZSBkb25lIG5vdGhpbmch
+Igptc2dzdHIgIiIKCiM6IGttYWhqb25nZy4uY3BwOjQ1MiwxNDEwCm1zZ2lkICJTb3JyeSwg
+eW91IGhhdmUgbG9zdCB0aGUgZ2FtZS4iCm1zZ3N0ciAiIiAKCiM6IGttYWhqb25nZy4uY3Bw
+OjQ4Mwptc2dpZCAiRGVtbyBtb2RlLiBDbGljayBtb3VzZWJ1dHRvbiB0byBzdG9wLiIKbXNn
+c3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDo0OTEKbXNnaWQgIk5vdyBpdCdzIHlvdSBhZ2Fp
+bi4iCm1zZ3N0ciAiIgoKIzoga21haGpvbmdnLi5jcHA6NTExCm1zZ2lkICJZb3VyIGNvbXB1
+dGVyIGhhcyBsb3N0IHRoZSBnYW1lLiIKbXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDo1
+OTcKbXNnaWQgIkNvbmdyYXR1bGF0aW9ucy4gWW91IGhhdmUgd29uISIKbXNnc3RyICIiCgoj
+OiBrbWFoam9uZ2cuLmNwcDo2MjMKbXNnaWQgIkNhbGN1bGF0aW5nIG5ldyBnYW1lLi4uIiIK
+bXNnc3RyICIiCgojOiBrbWFoam9uZ2cuLmNwcDo2MjkKbXNnaWQgIkVycm9yIGNvbnZlcnRp
+bmcgYm9hcmQgaW5mb3JtYXRpb24hIgptc2dzdHIgIiIKCiM6IGttYWhqb25nZy4uY3BwOjY0
+MQptc2dpZCAiUmVhZHkuIE5vdyBpdCdzIHlvdXIgdHVybi4iCm1zZ3N0ciAiIgoKIzoga21h
+aGpvbmdnLi5jcHA6NjQ3Cm1zZ2lkICJFcnJvciBnZW5lcmF0aW5nIG5ldyBnYW1lISIKbXNn
+c3RyICIiCg==
+--------------EA11F334600DB5CB0CFF9758--
