@@ -26,12 +26,10 @@ icondir = $(kde_icondir)
 icon_DATA = kasteroids.xpm
 
 install-data-local:
-	(cd sprites && $(MAKE) install)
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-kasteroids.xpm $(kde_minidir)/kasteroids.xpm
  
 uninstall-local:
-	(cd sprites $$ $(MAKE) uninstall)
 	-rm -f $(kde_minidir)/kasteroids.xpm
 
 messages:

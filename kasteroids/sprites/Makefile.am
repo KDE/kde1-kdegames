@@ -1,3 +1,4 @@
+
 SUBDIRS = bits missile rock1 rock2 rock3 ship
 
 SHELL = /bin/sh
@@ -19,7 +20,7 @@ install_root = @install_root@
 DESTDIR = $(kde_datadir)/kasteroids/sprites
 mkinstalldirs = $(SHELL) @top_srcdir@/mkinstalldirs
 
-install:
+install-data-local:
 	@$(mkinstalldirs) $(DESTDIR)/rock1 ;\
 	$(mkinstalldirs) $(DESTDIR)/rock2 ;\
 	$(mkinstalldirs) $(DESTDIR)/rock3 ;\
@@ -31,7 +32,7 @@ install:
 	 $(INSTALL_DATA) $$file $(DESTDIR)/$$file ;\
 	done 
 
-uninstall:
+uninstall-local:
 	for file in $(FILES); do \
 	 rm -f $(DESTDIR)/$$file ;\
 	done
