@@ -63,7 +63,7 @@ msgstr ""
 "\n"
 "par Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"
-"Les réactions sont les bienvenues"
+"Les réactions sont les bienvenues\n"
 
 #: gamewindow.cpp:88
 msgid "Level: 99"
