@@ -19,7 +19,7 @@ msgstr "Rozdaj !"
 
 #: kpoker.cpp:125
 msgid "Click a card to hold it"
-msgstr "Klikni na karty, ktoré si chce¹ ponecha»"
+msgstr "Kliknite na karty, ktoré si chcete ponecha»"
 
 #: kpoker.cpp:146
 msgid "Held"

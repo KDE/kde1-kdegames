@@ -215,7 +215,7 @@ msgstr "10 (najpomal¹ia)"
 
 #: app.cpp:322
 msgid "Animation speed"
-msgstr "Rýchlos» adminácie"
+msgstr "Rýchlos» animácie"
 
 #: app.cpp:325
 msgid "S&ound"

@@ -259,7 +259,7 @@ msgstr "Výsledky"
 
 #: field.cpp:56
 msgid "Lines removed"
-msgstr "Zmazaných riadkov"
+msgstr "Zmazaných"
 
 #: field.cpp:60
 msgid "Level"
@@ -267,7 +267,7 @@ msgstr "Úroveò"
 
 #: field.cpp:64
 msgid "Next tile"
-msgstr "Nasledujúca dla¾dica"
+msgstr "Nasledujúca"
 
 #: field.cpp:185
 msgid "&Restart game"

@@ -79,7 +79,7 @@ msgstr "Zvoµte farbu pozadia..."
 
 #: game.cpp:135
 msgid "Select background pixmap"
-msgstr "Zvoµte pixmapu pozadia"
+msgstr "Zvoµte pozadie"
 
 #: game.cpp:137
 msgid "Change keys..."
@@ -87,7 +87,7 @@ msgstr "Zmeni» klávesy..."
 
 #: game.cpp:139
 msgid "Starting Room..."
-msgstr "©tartujem miestnos»..."
+msgstr "©tartovacia miestnos»..."
 
 #: game.cpp:146
 msgid ""
@@ -179,23 +179,3 @@ msgstr "Spú¹»acia miestnos» závodu hadov"
 msgid "Starting Room"
 msgstr "Spú¹»acia miestnos»"
 
-#~ msgid "New"
-#~ msgstr "Nová"
-
-#~ msgid "&Quit"
-#~ msgstr "&Koniec"
-
-#~ msgid "&Game"
-#~ msgstr "&Hra"
-
-#~ msgid "&Options"
-#~ msgstr "M&o¾nosti"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomocník"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel"
-#~ msgstr "Zru¹i»"
