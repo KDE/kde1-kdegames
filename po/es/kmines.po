@@ -1,15 +1,14 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"PO-Revision-Date: 1998-06-17 21:07+0200\n"
-"Last-Translator: Santiago Fernández and \n"
+"PO-Revision-Date: 1998-10-18 16:07+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
 "First-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "kmines : Personalizar juego"
+msgstr "Personalizar juego"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -25,16 +24,15 @@ msgstr "Minas"
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
-msgstr ""
+msgstr "Salón de la Fama"
 
 #: dialogs.cpp:288 main.cpp:62
 msgid "Easy"
 msgstr "Fácil"
 
 #: dialogs.cpp:289 main.cpp:63
-#, fuzzy
 msgid "Normal"
-msgstr "Normal :"
+msgstr "Normal"
 
 #: dialogs.cpp:290 main.cpp:64
 msgid "Expert"
@@ -110,7 +108,7 @@ msgstr "Personalizado"
 
 #: main.cpp:72
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: main.cpp:77
 msgid "Level"

@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: 1998-06-17 21:27+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"PO-Revision-Date: 1998-10-18 21:27+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
 #: board.cpp:65 dialogs.cpp:137
 msgid "Anonymous"
@@ -274,7 +274,7 @@ msgstr "&Teclas"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: main.cpp:71
 msgid "Show menu"

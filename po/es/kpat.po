@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1997-10-DA HO:MI+ZONE\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"PO-Revision-Date: 1998-10-18 16:24+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
 
 #: cardmaps.cpp:63
@@ -41,7 +41,7 @@ msgstr "Fácil 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -76,8 +76,8 @@ msgid ""
 "This will end the current game\n"
 "Are you sure you want to do this?"
 msgstr ""
-"El juego actual se finalizará\n"
-"¿Está seguro de que así lo desea?"
+"Esto finalizará el juego actual\n"
+"¿Está seguro de que desea hacer esto?"
 
 #: grandf.cpp:35
 msgid "Try to move card:"
@@ -137,7 +137,7 @@ msgstr "Mod3"
 
 #: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
-msgstr ""
+msgstr "Freecell"
 
 #: pwidget.cpp:110
 msgid "Choose new game"
@@ -169,7 +169,7 @@ msgstr "Animación al empezar"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Solitario"
 
 #: pwidget.cpp:128
 msgid ""

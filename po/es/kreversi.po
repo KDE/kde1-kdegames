@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-06-17 21:18+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"PO-Revision-Date: 1998-10-18 15:53+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
 
 #: app.cpp:218 app.cpp:553
@@ -306,9 +306,8 @@ msgid "Rank"
 msgstr "Rango"
 
 #: app.cpp:885
-#, fuzzy
 msgid "Name"
-msgstr "&Nuevo juego"
+msgstr "Nombre"
 
 #: app.cpp:889
 msgid "Color"
@@ -320,7 +319,7 @@ msgstr "Puntaje"
 
 #: app.cpp:897
 msgid "Rating"
-msgstr ""
+msgstr "Porcentaje"
 
 #: app.cpp:987
 msgid ""

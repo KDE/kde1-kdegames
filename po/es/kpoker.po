@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-06-17 21:17+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"PO-Revision-Date: 1998-10-18 14:54+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Jochen Tuchbreiter\n"
 
 #: kpoker.cpp:82 kpoker.cpp:538
@@ -87,7 +87,7 @@ msgstr "Ud. pierde"
 
 #: kpoker.cpp:537
 msgid "Oops - you went bankrupt.\n"
-msgstr ""
+msgstr "Oops - está en bancarrota.\n"
 
 #: kpoker.cpp:619
 msgid "You won $"
@@ -107,7 +107,7 @@ msgstr "&Sonido"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
@@ -115,6 +115,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"por Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -122,16 +125,21 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"Para una lista de créditos ver ayuda"
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Sugerencias, reportes de fallos etc. son bienvenidos"
 
 #~ msgid ""
 #~ "Oops - you went bankrupt.\n"
 #~ "A highscoretable will appear over here later..."
 #~ msgstr ""
-#~ "UFF... Bancarrota!\n"
+#~ "Oops - está en bancarrota!\n"
 #~ "Aparecerá una tabla de vencedores más tarde..."

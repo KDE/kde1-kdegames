@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-06-17 21:06+0200\n"
+"PO-Revision-Date: 1998-10-18 13:06+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: toplevel.cpp:98
@@ -17,9 +17,8 @@ msgid "Ships"
 msgstr "Naves"
 
 #: toplevel.cpp:186
-#, fuzzy
 msgid "Asteroids"
-msgstr "KAsteroids"
+msgstr "Asteroides"
 
 #: toplevel.cpp:188
 msgid ""
@@ -27,6 +26,9 @@ msgid ""
 "\n"
 "by Martin R. Jones"
 msgstr ""
+"\n"
+"\n"
+"por Martin R. Jones"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."
