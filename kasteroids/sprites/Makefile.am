@@ -13,22 +13,22 @@ LDLIBS=-lpng -lz -lm
 #distclean: clean
 #	rm -f Makefile
 
-FILES = `find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
-DESTDIR = $(kde_datadir)/kasteroids/sprites
+FILES = `cd $(srcdir) && find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
+spritesdir = $(kde_datadir)/kasteroids/sprites
 
 install-data-local:
-	$(mkinstalldirs) $(DESTDIR)/rock1 
-	$(mkinstalldirs) $(DESTDIR)/rock2 
-	$(mkinstalldirs) $(DESTDIR)/rock3 
-	$(mkinstalldirs) $(DESTDIR)/ship 
-	$(mkinstalldirs) $(DESTDIR)/bits 
-	$(mkinstalldirs) $(DESTDIR)/missile 
-	for file in $(FILES); do \
-	 echo "install $$file in "$(DESTDIR)/$$file ;\
-	 $(INSTALL_DATA) $$file $(DESTDIR)/$$file ;\
+	$(mkinstalldirs) $(spritesdir)/rock1
+	$(mkinstalldirs) $(spritesdir)/rock2
+	$(mkinstalldirs) $(spritesdir)/rock3
+	$(mkinstalldirs) $(spritesdir)/ship
+	$(mkinstalldirs) $(spritesdir)/bits
+	$(mkinstalldirs) $(spritesdir)/missile
+	@for file in $(FILES); do \
+	 echo $(INSTALL_DATA) $(srcdir)/$$file $(spritesdir)/$$file ;\
+	 $(INSTALL_DATA) $(srcdir)/$$file $(spritesdir)/$$file ;\
 	done 
 
 uninstall-local:
 	for file in $(FILES); do \
-	 rm -f $(DESTDIR)/$$file ;\
+	 rm -f $(spritesdir)/$$file ;\
 	done
