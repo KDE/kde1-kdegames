@@ -54,8 +54,10 @@ KSameWidget::KSameWidget() {
   menu->insertItem("File",filemenu);
   menu->insertSeparator();
   optionsmenu = new QPopupMenu;
-  
+  optionsmenu->setCheckable(true);
+
   colorsmenu = new QPopupMenu;
+  colorsmenu->setCheckable(true);
   colorsmenu->insertItem("3", three_item );
   colorsmenu->insertItem("4", four_item ); 
   colorsmenu->insertItem("5", five_item );
