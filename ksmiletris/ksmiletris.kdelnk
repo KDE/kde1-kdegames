@@ -4,6 +4,7 @@ BinaryPattern=ksmiletris;
 Protocols=
 MimeType=
 Comment=Another Tetris-like game
+Comment[cs]=Jiná hra podobná Tetrisu
 Comment[es]=Otro juego como el Tetris
 Comment[fi]=Tetriksen tyylinen peli
 Comment[no]=Enda et Tetris-lignende spill
