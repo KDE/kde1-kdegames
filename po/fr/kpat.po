@@ -215,5 +215,3 @@ msgstr "Impossible de charger l'image d'arrière-plan !"
 #: mod3.cpp:137
 msgid "No more cards"
 msgstr "Plus de cartes"
-
-

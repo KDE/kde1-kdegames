@@ -53,11 +53,11 @@ msgstr "&Zvuci"
 #: gamewindow.cpp:73
 #, c-format
 msgid ""
-"KDHa-hatris %s\n"
+"KSmiletris %s\n"
 "\n"
-"od Sandro Sigala <ssigala@globalnet.it>\n"
+"by Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"
-"Vasite mislenja i predlozi se dobredojdeni!\n"
+"Feedbacks are welcome!\n"
 msgstr ""
 
 #: gamewindow.cpp:88
