@@ -1,23 +1,27 @@
-SUBDIRS = data doc wav
-EXTRA_DIST = COPYRIGHT
+SUBDIRS= data doc wav
 AUTOMAKE_OPTIONS = foreign 
 
 APPSDIR = $(kde_appsdir)/Games
 INCLUDES = $(all_includes)
 
-bin_PROGRAMS = 	ksmiletris
+bin_PROGRAMS = ksmiletris
 
 ksmiletris_SOURCES = main.cpp gamewindow.cpp gamewidget.cpp \
-		     screenwidget.cpp mirrorwidget.cpp npiecewidget.cpp
+		     screenwidget.cpp mirrorwidget.cpp npiecewidget.cpp \
+		     scoredialog.cpp newscoredialog.cpp
+
 ksmiletris_METASOURCES = USE_AUTOMOC
 
 ksmiletris_LDFLAGS = $(all_libraries) $(KDE_RPATH)
-ksmiletris_LDADD   = -lkfm -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
+ksmiletris_LDADD   = -lkfm -lkdeui -lkdecore -lmediatool -lqt -lXext -lX11 $(LIBSOCKET)
 
 noinst_HEADERS = ksmiletris.h gamewindow.h gamewidget.h \
-		 screenwidget.h mirrorwidget.h npiecewidget.h
+		 screenwidget.h mirrorwidget.h npiecewidget.h \
+		 scoredialog.h newscoredialog.h
 
 DISTCLEANFILES = $(ksmiletris_METASOURCES)
+
+EXTRA_DIST = ksmiletris.xpm mini-ksmiletris.xpm ksmiletris.kdelnk
 
 install-data-local: 
 	$(mkinstalldirs) $(APPSDIR)
