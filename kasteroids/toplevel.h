@@ -18,6 +18,7 @@ class KAstTopLevel : public KFixedTopWidget
     Q_OBJECT
 public:
     KAstTopLevel();
+    virtual ~KAstTopLevel();
 
 private:
     void createMenuBar();
