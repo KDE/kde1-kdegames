@@ -92,7 +92,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"eftir Mario Weilguni"
+"eftir Mario Weilguni\n"
+"\n"
+"Þýðing: Bjarni <bre@mmedia.is>"
 
 #: app.cpp:151
 msgid "Si&ze"

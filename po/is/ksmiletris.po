@@ -55,6 +55,8 @@ msgstr ""
 "eftir Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"
 "Sendið endilega athugasemdir!\n"
+"\n"
+"Þýðing: Logi Ragnarsson <logir@hi.is>"
 
 #: gamewindow.cpp:88
 msgid "Level: 99"

@@ -121,6 +121,8 @@ msgstr ""
 "\n"
 "\n"
 "eftir Jochen Tuchbreiter"
+"\n"
+"Þýðing: Bjarni <bre@mmedia.is>"
 
 #: top.cpp:74
 msgid ""

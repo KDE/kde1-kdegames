@@ -96,7 +96,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"eftir Michel Filippi (mfilippi@sade.rhein-main.de)"
+"eftir Michel Filippi (mfilippi@sade.rhein-main.de)\n"
+"\n"
+"Þýðing: Bjarni <bre@mmedia.is>"
 
 #: rattler.cpp:278
 msgid ""

@@ -186,6 +186,7 @@ msgstr ""
 "\n"
 "eftir Paul Olav Tvetei\n"
 "\n"
+"Þýðing: Bjarni <bre@mmedia.is>\n"
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"

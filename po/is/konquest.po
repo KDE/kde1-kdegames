@@ -130,7 +130,9 @@ msgstr ""
 "The Gnu-Lactic Conquest Project\n"
 "\n"
 "KDE útgáfa eftir Russ Steffen <rsteffen@ia.net>\n"
-"Meiri uppl. eru á http://www.ia.net/~rsteffen/konquest.html"
+"Meiri uppl. eru á http://www.ia.net/~rsteffen/konquest.html\n"
+"\n"
+"Þýðing: Bjarni <bre@mmedia.is>"
 
 #: mainwin.cc:88
 msgid "Measure Distance"

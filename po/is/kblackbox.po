@@ -96,7 +96,9 @@ msgid ""
 msgstr ""
 "KBlackBox rökfræðileikur\n"
 "höfundur: Robert Cimrman\n"
-"póstfang: cimrman3@students.zcu.cz"
+"póstfang: cimrman3@students.zcu.cz\n"
+"\n"
+"Þýðing: Bjarni <bre@mmedia.is>"
 
 #: kbbgame.cpp:415
 msgid "Qt information"

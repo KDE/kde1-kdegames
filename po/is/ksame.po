@@ -36,7 +36,9 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"eftir Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
+"eftir Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)\n"
+"\n"
+"Þýðing: Bjarni <bre@mmedia.is>"
 
 #: KSameWidget.cpp:91
 msgid "Colors: XX"
