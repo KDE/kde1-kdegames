@@ -193,7 +193,7 @@ msgstr ""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr ""
+msgstr "Yttligere arbeid utført av:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

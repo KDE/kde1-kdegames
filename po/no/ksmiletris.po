@@ -50,7 +50,7 @@ msgid "&Sounds"
 msgstr "&Lyder"
 
 #: gamewindow.cpp:73
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "KSmiletris %s\n"
 "\n"
@@ -62,7 +62,7 @@ msgstr ""
 "\n"
 "av Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"
-"Tilbakemeldinger er ønskes!\n"
+"Tilbakemeldinger ønskes!\n"
 
 #: gamewindow.cpp:88
 msgid "Level: 99"
