@@ -42,7 +42,7 @@ binary-arch: build
 	make -C $(BUILDDIR) bindir=`pwd`/debian/tmp/usr/games install
 	perl -w debian/kderules
 	dh_movefiles
-	dh_undocumented `cat debian/man-pages`
+	dh_undocumented 
 	dh_installdocs
 	dh_installmenu
 	dh_installchangelogs
