@@ -92,9 +92,8 @@ msgstr ""
 "Wollen Sie das wirklich?"
 
 #: mod3.cpp:136
-#, fuzzy
 msgid "No more cards"
-msgstr "Versuche die Karte zu bewegen:"
+msgstr "Keine Karten mehr"
 
 #: pwidget.cpp:98
 msgid "&Restart game"
@@ -130,11 +129,11 @@ msgstr "Zehn"
 
 #: pwidget.cpp:109 pwidget.cpp:271
 msgid "Mod3"
-msgstr ""
+msgstr "Mod3"
 
 #: pwidget.cpp:110 pwidget.cpp:275
 msgid "Freecell"
-msgstr ""
+msgstr "FreeCell"
 
 #: pwidget.cpp:112
 msgid "Choose new game"
@@ -201,7 +200,6 @@ msgstr ""
 "Version "
 
 #: pwidget.cpp:338
-#, fuzzy
 msgid ""
 "\n"
 "Copyright (C) 1997  Paul Olav Tvete\n"
@@ -215,7 +213,7 @@ msgid ""
 "Use help for license information."
 msgstr ""
 "\n"
-"Copyright (C) 1995 Paul Olav Tvete\n"
+"Copyright (C) 1997 Paul Olav Tvete\n"
 "\n"
 "Erweitert von:\t\t \n"
 "\tMatthias Ettrich\t<ettrich@kde.org>\n"
@@ -236,5 +234,3 @@ msgstr "Kann Hintergrundbild nicht laden!"
 msgid "Full Auto"
 msgstr "Automatisch"
 
-#~ msgid "&Help..."
-#~ msgstr "&Hilfe..."
