@@ -262,6 +262,7 @@ void Rattler::newTry()
 	return;
     }
     --trys;
+    emit setTrys(trys);
     gameState = Init;
     level->create(Room);
     pix->initRoomPixmap();

@@ -21,7 +21,7 @@ Score::Score( QWidget *parent, const char *name )
 {
     QString libDir;
     libDir.setStr(KApplication::kdedir());
-    libDir.append("/lib/ksnake/");
+    libDir.append("/share/apps/ksnake/");
     file.setName( (const char *) (libDir + "highScores"));
     read();
 }
