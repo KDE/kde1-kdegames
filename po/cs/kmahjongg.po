@@ -1,0 +1,138 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kmahjong 0.4\n"
+"POT-Creation-Date: 1998-02-26 15:02+0100\n"
+"PO-Revision-Date: 1998-03-12 13:20 MET\n"
+"Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kmahjongg.cpp:101
+msgid "Classic"
+msgstr "Klasický"
+
+#: kmahjongg.cpp:102
+msgid "Tower"
+msgstr "Vì¾"
+
+#: kmahjongg.cpp:103
+msgid "Triangle"
+msgstr "Triangle"
+
+#: kmahjongg.cpp:104
+msgid "Pyramide"
+msgstr "Pyramida"
+
+#: kmahjongg.cpp:211
+msgid "&Start new game"
+msgstr "Od&startovat novou hru"
+
+#: kmahjongg.cpp:213
+msgid "&Help me"
+msgstr "&Napovìz mi"
+
+#: kmahjongg.cpp:214
+msgid "&Undo last move"
+msgstr "&Vra» poslední tah"
+
+#: kmahjongg.cpp:215
+msgid "&Demo mode"
+msgstr "&Ukázkový mód"
+
+#: kmahjongg.cpp:216
+msgid "Show &matching tiles"
+msgstr "Uka¾ &odpovídající si kachle"
+
+#: kmahjongg.cpp:222
+msgid "&Load Background image..."
+msgstr "&Nahrát obrázek na pozadí..."
+
+#: kmahjongg.cpp:224
+msgid "&Statusbar"
+msgstr "&Informaèní li¹ta"
+
+#: kmahjongg.cpp:226
+msgid "Mahjongg"
+msgstr "Mahjongg"
+
+#: kmahjongg.cpp:228
+msgid ""
+"\n"
+"\n"
+"by Mathias Mueller"
+msgstr ""
+"\n"
+"\n"
+"napsal Mathias Mueller"
+
+#: kmahjongg.cpp:387 kmahjongg.cpp:401
+msgid "Unable to open bitmap file !"
+msgstr "Není mo¾né otevøít soubor s bitmapou!"
+
+#: kmahjongg.cpp:455
+msgid "Undo operation done successfully."
+msgstr "Vrácení tahu provedeno úspì¹nì."
+
+#: kmahjongg.cpp:458
+msgid "What do you want to undo? You have done nothing!"
+msgstr "Jaký tah by jste si pøál vrátit? V¾dy» jste je¹tì nic neudìlal!"
+
+#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+msgid "Sorry, you have lost the game."
+msgstr "Lituji, prohrál(a) jste hru."
+
+#: kmahjongg.cpp:504
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "Ukázkový mód. Kliknìte my¹í k ukonèení."
+
+#: kmahjongg.cpp:512
+msgid "Now it's you again."
+msgstr "Teï u¾ jste to zase vy."
+
+#: kmahjongg.cpp:532
+msgid "Your computer has lost the game."
+msgstr "Vá¹ poèítaè prohrál hru."
+
+#: kmahjongg.cpp:618
+msgid "Congratulations. You have won!"
+msgstr "Gratuluji. Vyhrál(a) jste!"
+
+#: kmahjongg.cpp:644
+msgid "Calculating new game..."
+msgstr "Poèítám novou hru ..."
+
+#: kmahjongg.cpp:650
+msgid "Error converting board information!"
+msgstr "Chyba pøi pøevodu informace o desce!"
+
+#: kmahjongg.cpp:662
+msgid "Ready. Now it's your turn."
+msgstr "Pøipraven. Nyní jste na tahu."
+
+#: kmahjongg.cpp:668
+msgid "Error generating new game!"
+msgstr "Chyba pøi generování nové hry!"
+
+#: kmahjongg.cpp:1666
+#, c-format
+msgid ""
+"Failed to load image:\n"
+"%s"
+msgstr ""
+"Nepodaøilo se nahrát obrázek:\n"
+"%s"
+
+#: kmahjongg.cpp:1677
+#, c-format
+msgid ""
+"Sorry, this image uses %d colors.\n"
+"Maximum allowed is %d"
+msgstr ""
+"Lituji, tento obrázek pou¾ívá %d barev.\n"
+"Maximálnì je povoleno %d barev."

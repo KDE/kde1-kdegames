@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktetris\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: 1998-01-27 14:30 MET\n"
+"PO-Revision-Date: 1998-03-12 12:57 MET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -99,11 +99,11 @@ msgstr "Server není dosa¾itelný"
 
 #: net.cpp:274
 msgid "The server has died"
-msgstr ""
+msgstr "Server spadl"
 
 #: net.cpp:274
 msgid "Cancel from server"
-msgstr ""
+msgstr "Ukonèení od serveru"
 
 #: net.cpp:280 net.cpp:340
 msgid "Unknown data from server"
@@ -115,59 +115,59 @@ msgstr "Není poslat na server"
 
 #: net.cpp:331
 msgid "Client timeout (No message from server)"
-msgstr ""
+msgstr "Klient vyèerpal èasový limit (¾ádna zpráva od serveru)"
 
 #: net.cpp:336
 msgid "Server has vanished"
-msgstr ""
+msgstr "Server zmizel"
 
 #: net.cpp:373
 msgid "Bind error"
-msgstr ""
+msgstr "Chyba pøi navazování spojení"
 
 #: net.cpp:378
 msgid "Listen error"
-msgstr ""
+msgstr "Chyba pøi naslouchání"
 
 #: net.cpp:397
 msgid "Unknown message from unknown player (??)"
-msgstr ""
+msgstr "Neznámá zpráva od neznámého hráèe (??)"
 
 #: net.cpp:456 net.cpp:497
 msgid "Unknown message from client"
-msgstr ""
+msgstr "Neznámá zpráva od klienta"
 
 #: net.cpp:493
 msgid "Client has died"
-msgstr ""
+msgstr "Klient zemøel"
 
 #: net.cpp:493
 msgid "Cancel from client"
-msgstr ""
+msgstr "Ukonèení od klienta"
 
 #: net.cpp:501
 msgid "Timeout"
-msgstr ""
+msgstr "Timeout"
 
 #: net.cpp:527
 msgid "No message from client"
-msgstr ""
+msgstr "®ádna zpráva od klienta"
 
 #: net.cpp:532
 msgid "Client has vanished"
-msgstr ""
+msgstr "Klient zmizel"
 
 #: net.cpp:536
 msgid "Unknown data from client"
-msgstr ""
+msgstr "Neznámá data od klienta"
 
 #: net.cpp:540
 msgid "End message from client"
-msgstr ""
+msgstr "Ukonèující zpráva od klienta"
 
 #: net.cpp:557
 msgid "Cannot send to client"
-msgstr ""
+msgstr "Není mo¾né poslat data klientovi"
 
 #: dialogs.cpp:61
 msgid "High Scores"
@@ -223,11 +223,11 @@ msgstr "Sí»ová hra"
 
 #: dialogs.cpp:258
 msgid "Server mode"
-msgstr ""
+msgstr "Serverový mód"
 
 #: dialogs.cpp:260
 msgid "Client mode"
-msgstr ""
+msgstr "Klientský mód"
 
 #: dialogs.cpp:338
 msgid "Waiting for other player(s) ..."
