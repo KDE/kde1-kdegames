@@ -74,7 +74,7 @@ msgstr "Lopte"
 
 #: game.cpp:132
 msgid "Computer Snakes"
-msgstr "Kompjuterske zmije"
+msgstr "Broj komp. zmija"
 
 #: game.cpp:134
 msgid "Select background color..."
@@ -90,7 +90,7 @@ msgstr "Promijeni tipke..."
 
 #: game.cpp:139
 msgid "Starting Room..."
-msgstr "Poèetna Soba..."
+msgstr "Poèetna soba..."
 
 #: game.cpp:146
 msgid ""
@@ -172,7 +172,7 @@ msgstr "gre¹ka prilikom uèitavanja %s, odustajem\n"
 
 #: keys.cpp:24
 msgid "Defaults"
-msgstr "Podrazumijevano"
+msgstr "Uobièajeno"
 
 #: keys.cpp:83
 msgid "Change Direction Keys"
@@ -184,34 +184,16 @@ msgstr "Nedefinirana tipka"
 
 #: keys.cpp:153
 msgid "Up"
-msgstr ""
+msgstr "Gore"
 
 #: keys.cpp:154
 msgid "Down"
-msgstr ""
+msgstr "Dolje"
 
 #: keys.cpp:155
 msgid "Left"
-msgstr ""
+msgstr "Lijevo"
 
 #: keys.cpp:156
 msgid "Right"
-msgstr ""
-
-#~ msgid "&Quit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&Game"
-#~ msgstr "&Igra"
-
-#~ msgid "&Options"
-#~ msgstr "&Opcije"
-
-#~ msgid "&Help"
-#~ msgstr "Po&moæ"
-
-#~ msgid "Ok"
-#~ msgstr "U redu"
-
-#~ msgid "Cancel"
-#~ msgstr "Poni¹ti"
+msgstr "Desno"
