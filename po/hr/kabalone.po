@@ -1,0 +1,107 @@
+msgid ""
+msgstr ""
+"Date: 1997-09-24 10:59:56+0200\n"
+"From: root <root@joe>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
+"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+
+#: AbTop.cpp:29 AbTop.cpp:143
+msgid "Move"
+msgstr "Potez"
+
+#: AbTop.cpp:32 AbTop.cpp:147
+msgid "Press F2 for a new game"
+msgstr "Pritisni F2 za novu igru"
+
+#: AbTop.cpp:73
+msgid "New Game"
+msgstr "Nova igra"
+
+#: AbTop.cpp:75
+msgid "Stop Search"
+msgstr "Prestani tra¾iti"
+
+#: AbTop.cpp:80
+msgid "Take back"
+msgstr "Vrati potez"
+
+#: AbTop.cpp:82
+msgid "Hint"
+msgstr "Trik"
+
+#: AbTop.cpp:85
+msgid "Quit"
+msgstr "Zavr¹i"
+
+#: AbTop.cpp:89
+msgid "Easy"
+msgstr "Lako"
+
+#: AbTop.cpp:91
+msgid "Normal"
+msgstr "Normalno"
+
+#: AbTop.cpp:93
+msgid "Hard"
+msgstr "Te¹ko"
+
+#: AbTop.cpp:95
+msgid "Challange"
+msgstr "Izazovno"
+
+#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
+msgid "Red"
+msgstr "Crveni"
+
+#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
+msgid "Yellow"
+msgstr "®uti"
+
+#: AbTop.cpp:105
+msgid "Both"
+msgstr "Oba"
+
+#: AbTop.cpp:111
+msgid "Level"
+msgstr "Nivo"
+
+#: AbTop.cpp:112
+msgid "Computer plays"
+msgstr "Raèunalo igra"
+
+#: AbTop.cpp:114
+msgid "Move slow"
+msgstr "Spori potezi"
+
+#: AbTop.cpp:122 AbTop.cpp:405
+msgid "About"
+msgstr "O programu"
+
+#: AbTop.cpp:123
+msgid "Rules"
+msgstr "Pravila"
+
+#: AbTop.cpp:127
+msgid "File"
+msgstr "Datoteka"
+
+#: AbTop.cpp:128
+msgid "Options"
+msgstr "Opcije"
+
+#: AbTop.cpp:130
+msgid "Help"
+msgstr "Pomoæ"
+
+#: AbTop.cpp:152
+msgid "won"
+msgstr "je pobjednik"
+
+#: AbTop.cpp:156
+msgid "I am thinking..."
+msgstr "Razmi¹ljam..."
+
+#: AbTop.cpp:157
+msgid "It's your turn !"
+msgstr " Na potezu si!"
