@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
+"POT-Creation-Date: 1998-10-30 12:21+0100\n"
 "PO-Revision-Date: 1998-04-21 03:52+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -37,15 +37,15 @@ msgstr "地雷數 :"
 msgid "Hall of Fame"
 msgstr "名人堂"
 
-#: dialogs.cpp:288 main.cpp:62
+#: dialogs.cpp:288 main.cpp:64
 msgid "Easy"
 msgstr "簡單級"
 
-#: dialogs.cpp:289 main.cpp:63
+#: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
 msgstr ""
 
-#: dialogs.cpp:290 main.cpp:64
+#: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
 msgstr "專家級"
 
@@ -90,43 +90,43 @@ msgstr "成功\!!!!!"
 msgid "Bad luck !"
 msgstr "運氣不好!!"
 
-#: main.cpp:22 main.cpp:44
+#: main.cpp:22 main.cpp:46
 msgid "New game"
 msgstr "開始新遊戲"
 
-#: main.cpp:23 main.cpp:47
+#: main.cpp:23 main.cpp:49
 msgid "Pause game"
 msgstr "暫停遊戲"
 
-#: main.cpp:24 main.cpp:50
+#: main.cpp:24 main.cpp:52
 msgid "High scores"
 msgstr "分數排行榜"
 
-#: main.cpp:41 main.cpp:157
+#: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
 
-#: main.cpp:58
+#: main.cpp:60
 msgid "? mark"
 msgstr "? 標記"
 
-#: main.cpp:59
+#: main.cpp:61
 msgid "Keys"
 msgstr "按鍵設定"
 
-#: main.cpp:66
+#: main.cpp:68
 msgid "Custom"
 msgstr "自定"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "by"
 msgstr ""
 
-#: main.cpp:77
+#: main.cpp:79
 msgid "Level"
 msgstr "等級"
 
-#: main.cpp:154
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr "顯示選單列"
 

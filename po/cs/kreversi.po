@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
-"POT-Creation-Date: 1998-10-26 10:57+0100\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-10-28 19:20 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -311,6 +311,11 @@ msgstr "KReversi: Hala Slávy"
 #: app.cpp:881
 msgid "Rank"
 msgstr "Poøadí"
+
+#: app.cpp:885
+#, fuzzy
+msgid "Name"
+msgstr "&Nová hra"
 
 #: app.cpp:889
 msgid "Color"

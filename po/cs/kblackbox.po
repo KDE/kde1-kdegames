@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
-"POT-Creation-Date: 1998-10-26 10:57+0100\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-10-28 19:31 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
@@ -20,6 +20,10 @@ msgstr "&Informace o KBlackboxu"
 #: kbbgame.cpp:78
 msgid "About &Qt"
 msgstr "Informace o &Qt"
+
+#: kbbgame.cpp:84
+msgid "&New"
+msgstr ""
 
 #: kbbgame.cpp:85
 msgid "&Give up"
@@ -45,9 +49,18 @@ msgstr "&Kulièky"
 msgid "&Tutorial"
 msgstr "Výukový &re¾im"
 
+#: kbbgame.cpp:174
+msgid "New"
+msgstr ""
+
 #: kbbgame.cpp:176
 msgid "Give up"
 msgstr "Vzdát"
+
+#: kbbgame.cpp:178
+#, fuzzy
+msgid "Done"
+msgstr "&Vyhodnotit"
 
 #: kbbgame.cpp:434
 msgid ""
@@ -108,6 +121,11 @@ msgstr "Souhlas"
 #: kbbgame.cpp:597 kbbgame.cpp:600
 msgid "Run"
 msgstr "Bì¾í"
+
+#: kbbgame.cpp:604
+#, fuzzy
+msgid "Size"
+msgstr "&Velikost desky"
 
 #: kbbgame.cpp:607
 msgid "Placed"

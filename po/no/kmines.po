@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/kmines\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
+"POT-Creation-Date: 1998-10-30 12:21+0100\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no<LL@li.org>\n"
@@ -33,15 +33,15 @@ msgstr "Miner"
 msgid "Hall of Fame"
 msgstr "På toppen av seierspallen"
 
-#: dialogs.cpp:288 main.cpp:62
+#: dialogs.cpp:288 main.cpp:64
 msgid "Easy"
 msgstr "Lett"
 
-#: dialogs.cpp:289 main.cpp:63
+#: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
 msgstr "Normal"
 
-#: dialogs.cpp:290 main.cpp:64
+#: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
 msgstr "Ekspert"
 
@@ -85,43 +85,43 @@ msgstr "Jaaaaaaa !"
 msgid "Bad luck !"
 msgstr "Det var leit !"
 
-#: main.cpp:22 main.cpp:44
+#: main.cpp:22 main.cpp:46
 msgid "New game"
 msgstr "Nytt spill"
 
-#: main.cpp:23 main.cpp:47
+#: main.cpp:23 main.cpp:49
 msgid "Pause game"
 msgstr "Pause i spillet"
 
-#: main.cpp:24 main.cpp:50
+#: main.cpp:24 main.cpp:52
 msgid "High scores"
 msgstr "Høy poengsum"
 
-#: main.cpp:41 main.cpp:157
+#: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Skjul menylinje"
 
-#: main.cpp:58
+#: main.cpp:60
 msgid "? mark"
 msgstr "?-merke"
 
-#: main.cpp:59
+#: main.cpp:61
 msgid "Keys"
 msgstr "Taster"
 
-#: main.cpp:66
+#: main.cpp:68
 msgid "Custom"
 msgstr "Tilpasset"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "by"
 msgstr "ved"
 
-#: main.cpp:77
+#: main.cpp:79
 msgid "Level"
 msgstr "Nivå"
 
-#: main.cpp:154
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr "Vis menylinje"
 

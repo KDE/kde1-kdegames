@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines 1.0\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
+"POT-Creation-Date: 1998-10-30 12:21+0100\n"
 "PO-Revision-Date: 1998-07-27 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -34,15 +34,15 @@ msgstr "Minoj"
 msgid "Hall of Fame"
 msgstr "La plej bonaj"
 
-#: dialogs.cpp:288 main.cpp:62
+#: dialogs.cpp:288 main.cpp:64
 msgid "Easy"
 msgstr "Facila"
 
-#: dialogs.cpp:289 main.cpp:63
+#: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
 msgstr ""
 
-#: dialogs.cpp:290 main.cpp:64
+#: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
 msgstr "Eksperto"
 
@@ -86,43 +86,43 @@ msgstr "Jeeessss!"
 msgid "Bad luck !"
 msgstr "Malbonþanco!"
 
-#: main.cpp:22 main.cpp:44
+#: main.cpp:22 main.cpp:46
 msgid "New game"
 msgstr "Nova ludo"
 
-#: main.cpp:23 main.cpp:47
+#: main.cpp:23 main.cpp:49
 msgid "Pause game"
 msgstr "Paýzu"
 
-#: main.cpp:24 main.cpp:50
+#: main.cpp:24 main.cpp:52
 msgid "High scores"
 msgstr "Plej bonaj"
 
-#: main.cpp:41 main.cpp:157
+#: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Kaþu menulistelon"
 
-#: main.cpp:58
+#: main.cpp:60
 msgid "? mark"
 msgstr "?-signo"
 
-#: main.cpp:59
+#: main.cpp:61
 msgid "Keys"
 msgstr "Klavoj"
 
-#: main.cpp:66
+#: main.cpp:68
 msgid "Custom"
 msgstr "Propra"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "by"
 msgstr "de"
 
-#: main.cpp:77
+#: main.cpp:79
 msgid "Level"
 msgstr "Nivelo"
 
-#: main.cpp:154
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr "Montru menulistelon"
 

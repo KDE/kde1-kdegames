@@ -5,13 +5,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone 1.02\n"
-"POT-Creation-Date: 1998-10-26 10:57+0100\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-10-28 19:33 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: Move.cpp:17
+#, fuzzy
+msgid "Right"
+msgstr "Vpravo nahoru"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -20,6 +25,11 @@ msgstr "Vpravo dolù"
 #: Move.cpp:19
 msgid "LeftDown"
 msgstr "Vlevo dolù"
+
+#: Move.cpp:20
+#, fuzzy
+msgid "Left"
+msgstr "Vlevo nahoru"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -44,6 +54,11 @@ msgstr "Tlaèit"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Ohodnocení desky"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+#, fuzzy
+msgid "Move"
+msgstr "Pøesunuj pomalu"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -72,6 +87,10 @@ msgstr "Obnovení pozice"
 #: AbTop.cpp:315
 msgid "Easy"
 msgstr "Snadná"
+
+#: AbTop.cpp:317
+msgid "Normal"
+msgstr ""
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -118,7 +137,10 @@ msgid ""
 "\n"
 "\n"
 "by Josef Weidendorfer"
-msgstr "\n\nnapsal Josef Weidendorfer"
+msgstr ""
+"\n"
+"\n"
+"napsal Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"

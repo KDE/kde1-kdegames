@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,21 +14,13 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kbbgame.cpp:72 kbbgame.cpp:109
-msgid "&Help"
-msgstr "&Hjálp"
-
-#: kbbgame.cpp:75
+#: kbbgame.cpp:76
 msgid "&About KBlackBox"
 msgstr "&Um KBlackBox"
 
-#: kbbgame.cpp:79
+#: kbbgame.cpp:78
 msgid "About &Qt"
 msgstr "Um &Qt"
-
-#: kbbgame.cpp:82
-msgid "&Quit"
-msgstr "&Hætta"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -38,55 +30,42 @@ msgstr "&Nýtt"
 msgid "&Give up"
 msgstr "&Gefast upp"
 
-#: kbbgame.cpp:87
+#: kbbgame.cpp:86
+#, fuzzy
+msgid "&Done"
+msgstr "Búið"
+
+#: kbbgame.cpp:88
 msgid "&Resize"
 msgstr "&Breyta stærð"
 
-#: kbbgame.cpp:99
+#: kbbgame.cpp:100
 msgid "&Size"
 msgstr "&Stærð"
 
-#: kbbgame.cpp:100
+#: kbbgame.cpp:101
 msgid "&Balls"
 msgstr "&Kúlur"
 
-#: kbbgame.cpp:101
+#: kbbgame.cpp:102
 msgid "&Tutorial"
 msgstr "K&ennsla"
 
-#: kbbgame.cpp:105
-msgid "&File"
-msgstr "&Sýsl"
+#: kbbgame.cpp:174
+#, fuzzy
+msgid "New"
+msgstr "&Nýtt"
 
-#: kbbgame.cpp:106
-msgid "&Game"
-msgstr "&Leikur"
+#: kbbgame.cpp:176
+#, fuzzy
+msgid "Give up"
+msgstr "&Gefast upp"
 
-#: kbbgame.cpp:107
-msgid "&Options"
-msgstr "&Stillingar"
-
-#: kbbgame.cpp:148
+#: kbbgame.cpp:178
 msgid "Done"
 msgstr "Búið"
 
-#: kbbgame.cpp:150
-msgid "Click here when you think you placed all the balls."
-msgstr "Smelltu hér þegar þú telur þig hafa staðsett allar kúlurnar."
-
-#: kbbgame.cpp:157
-msgid "This is your score."
-msgstr "Þetta eru stigin þín."
-
-#: kbbgame.cpp:161
-msgid "These are some game statistics."
-msgstr "Þetta er tölfræði um leikinn."
-
-#: kbbgame.cpp:361
-msgid "About"
-msgstr "Um"
-
-#: kbbgame.cpp:363
+#: kbbgame.cpp:434
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -96,24 +75,40 @@ msgstr ""
 "höfundur: Robert Cimrman\n"
 "póstfang: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:368
+#: kbbgame.cpp:439
 msgid "Qt information"
 msgstr "Qt upplýsingar"
 
-#: kbbgame.cpp:429
+#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+msgid "Warning!"
+msgstr "Aðvörun!"
+
+#: kbbgame.cpp:460 kbbgame.cpp:579
+msgid "Do you really want to give up this game?"
+msgstr "Viltu virklega gefast upp á leiknum?"
+
+#: kbbgame.cpp:461 kbbgame.cpp:580
+msgid "Yes, I'm burnt out."
+msgstr "Já, ég er uppgefin(n)."
+
+#: kbbgame.cpp:462 kbbgame.cpp:581
+msgid "No, not yet..."
+msgstr "Nei, ekki strax..."
+
+#: kbbgame.cpp:513
 #, c-format
 msgid "Your final score is: %d."
 msgstr "Endanleg stigagjöf þín er: %d."
 
-#: kbbgame.cpp:431
+#: kbbgame.cpp:515
 msgid "Wow!"
 msgstr "Vá!"
 
-#: kbbgame.cpp:433
+#: kbbgame.cpp:517
 msgid "Damned!"
 msgstr "Djö!"
 
-#: kbbgame.cpp:436
+#: kbbgame.cpp:520
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -122,52 +117,72 @@ msgstr ""
 "Þú ættir að staðsetja %d kúlur!\n"
 "Þú hefur staðsett %d."
 
-#: kbbgame.cpp:438
+#: kbbgame.cpp:522
 msgid "D'accord"
 msgstr "Í lagi"
 
-#: kbbgame.cpp:493 kbbgame.cpp:546 kbbgame.cpp:572
-msgid "Warning!"
-msgstr "Aðvörun!"
+#: kbbgame.cpp:597 kbbgame.cpp:600
+msgid "Run"
+msgstr ""
 
-#: kbbgame.cpp:495
-msgid "Do you really want to give up this game?"
-msgstr "Viltu virklega gefast upp á leiknum?"
+#: kbbgame.cpp:604
+#, fuzzy
+msgid "Size"
+msgstr "&Stærð"
 
-#: kbbgame.cpp:496
-msgid "Yes, I'm burnt out."
-msgstr "Já, ég er uppgefin(n)."
+#: kbbgame.cpp:607
+msgid "Placed"
+msgstr ""
 
-#: kbbgame.cpp:497
-msgid "No, not yet..."
-msgstr "Nei, ekki strax..."
-
-#: kbbgame.cpp:514 kbbgame.cpp:519
-#, c-format
-msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-msgstr " Keyrði: %s, Stærð: %3d x%3d, Kúlur: %3d /%3d"
-
-#: kbbgame.cpp:515
-msgid "Yes"
-msgstr "Já"
-
-#: kbbgame.cpp:520
-msgid " No"
-msgstr " Nei"
-
-#: kbbgame.cpp:533
-#, c-format
-msgid " Score %4d"
+#: kbbgame.cpp:620
+#, fuzzy
+msgid "Score"
 msgstr " Stig: %4d"
 
-#: kbbgame.cpp:548 kbbgame.cpp:574
+#: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
 msgstr "Þetta verða endalok þessa leiks!"
 
-#: kbbgame.cpp:549 kbbgame.cpp:575
+#: kbbgame.cpp:636 kbbgame.cpp:663
+msgid "Never mind..."
+msgstr "Gleymd'essu..."
+
+#: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "Æ, nei!"
 
-#: kbbgame.cpp:550 kbbgame.cpp:576
-msgid "Never mind..."
-msgstr "Gleymd'essu..."
+#~ msgid "&Help"
+#~ msgstr "&Hjálp"
+
+#~ msgid "&Quit"
+#~ msgstr "&Hætta"
+
+#~ msgid "&File"
+#~ msgstr "&Sýsl"
+
+#~ msgid "&Game"
+#~ msgstr "&Leikur"
+
+#~ msgid "&Options"
+#~ msgstr "&Stillingar"
+
+#~ msgid "Click here when you think you placed all the balls."
+#~ msgstr "Smelltu hér þegar þú telur þig hafa staðsett allar kúlurnar."
+
+#~ msgid "This is your score."
+#~ msgstr "Þetta eru stigin þín."
+
+#~ msgid "These are some game statistics."
+#~ msgstr "Þetta er tölfræði um leikinn."
+
+#~ msgid "About"
+#~ msgstr "Um"
+
+#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
+#~ msgstr " Keyrði: %s, Stærð: %3d x%3d, Kúlur: %3d /%3d"
+
+#~ msgid "Yes"
+#~ msgstr "Já"
+
+#~ msgid " No"
+#~ msgstr " Nei"

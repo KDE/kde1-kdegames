@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-10-26 10:57+0100\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-10-28 19:18 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -69,6 +69,10 @@ msgstr "Velmi rychlá"
 msgid "Fast"
 msgstr "Rychlá"
 
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr ""
+
 #: app.cpp:136
 msgid "Slow"
 msgstr "Pomalá"
@@ -90,7 +94,10 @@ msgid ""
 "\n"
 "\n"
 "by Mario Weilguni"
-msgstr "\n\nnapsal Mario Weilguni"
+msgstr ""
+"\n"
+"\n"
+"napsal Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -167,9 +174,19 @@ msgstr "©isen-©o: Hala Slávy"
 msgid "Rank"
 msgstr "Poøadí"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "&Nová hra"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Èas"
+
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "&Velikost"
 
 #: app.cpp:650
 msgid "Score"

@@ -13,8 +13,9 @@ msgid "Right"
 msgstr "Direita"
 
 #: Move.cpp:18
-msgid "Down"
-msgstr "Baixo"
+#, fuzzy
+msgid "RightDown"
+msgstr "Direita"
 
 #: Move.cpp:19
 msgid "LeftDown"
@@ -157,3 +158,6 @@ msgstr "Melhor jogada até agora:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Spion"
+
+#~ msgid "Down"
+#~ msgstr "Baixo"
