@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kmines\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-01-27 01:35+0100\n"
 "PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
@@ -33,15 +33,15 @@ msgstr "Miner"
 msgid "Hall of Fame"
 msgstr "Topresultater"
 
-#: dialogs.cpp:288 main.cpp:64
+#: dialogs.cpp:288 main.cpp:68
 msgid "Easy"
 msgstr "Let"
 
-#: dialogs.cpp:289 main.cpp:65
+#: dialogs.cpp:289 main.cpp:69
 msgid "Normal"
 msgstr "Normal"
 
-#: dialogs.cpp:290 main.cpp:66
+#: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
 msgstr "Ekspert"
 
@@ -61,7 +61,7 @@ msgstr "og"
 msgid "seconds."
 msgstr "sekunder."
 
-#: dialogs.cpp:384 status.cpp:96
+#: dialogs.cpp:384 status.cpp:98
 msgid "Anonymous"
 msgstr "Anonym"
 
@@ -73,15 +73,15 @@ msgstr "Pause i spillet"
 msgid "Press to resume"
 msgstr "Tryk for at genoptage"
 
-#: status.cpp:215
+#: status.cpp:217
 msgid "You did it ... but not in time."
 msgstr "Du klarede det ... men ikke hurtigt nok."
 
-#: status.cpp:216
+#: status.cpp:218
 msgid "Yeeessss !"
 msgstr "Jahhhh!"
 
-#: status.cpp:219
+#: status.cpp:221
 msgid "Bad luck !"
 msgstr "Øv, uheld !"
 
@@ -97,42 +97,46 @@ msgstr "Hold pause i spillet"
 msgid "High scores"
 msgstr "Højeste resultater"
 
-#: main.cpp:43 main.cpp:159
+#: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
 msgstr "Skjul menuerne"
 
-#: main.cpp:46
+#: main.cpp:48
 msgid "&New game"
 msgstr "&Nyt spil"
 
-#: main.cpp:49
+#: main.cpp:51
 msgid "&Pause game"
 msgstr "Hold &pause i spillet"
 
-#: main.cpp:52
+#: main.cpp:54
 msgid "&High scores"
 msgstr "&Højeste resultater"
 
-#: main.cpp:60
+#: main.cpp:56
+msgid "&Print"
+msgstr ""
+
+#: main.cpp:64
 msgid "? mark"
 msgstr "? marker"
 
-#: main.cpp:61
+#: main.cpp:65
 msgid "Keys"
 msgstr "Taster"
 
-#: main.cpp:68
+#: main.cpp:72
 msgid "Custom"
 msgstr "Indret selv"
 
-#: main.cpp:74
+#: main.cpp:78
 msgid "by"
 msgstr "af"
 
-#: main.cpp:79
+#: main.cpp:83
 msgid "&Level"
 msgstr "&Niveau"
 
-#: main.cpp:156
+#: main.cpp:160
 msgid "Show menu bar"
 msgstr "Vis menuerne"

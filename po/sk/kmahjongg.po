@@ -68,7 +68,6 @@ msgstr ""
 "\n"
 "napísal Mathias Mueller (in5y158@public.uni-hamburg.de)"
 
-
 #: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"
 msgstr "Nemô¾em otvori» súbor s bitovou mapou !"

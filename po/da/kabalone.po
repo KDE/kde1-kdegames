@@ -162,4 +162,3 @@ msgstr "Bedste træk indtil nu:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Spion"
-
