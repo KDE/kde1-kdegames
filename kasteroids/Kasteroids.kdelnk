@@ -3,5 +3,5 @@
 Name=Asteroids
 Exec=kasteroids
 Type=Application
-Info=A little arcade game
-Info[de]=Ein bekanntes Ballerspiel
+Comment=A little arcade game
+Comment[de]=Ein bekanntes Ballerspiel

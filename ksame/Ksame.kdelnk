@@ -5,5 +5,5 @@ Name[de]=Probiere
 Exec=ksame
 Type=Application
 DocPath=ksame/ksame.html
-Info=A little board game
-Info[de]=Ein Spiel mit bunten Kugeln
+Comment=A little board game
+Comment[de]=Ein Spiel mit bunten Kugeln

@@ -4,5 +4,5 @@ Name=Tetris
 Exec=ktetris -caption "%c"
 Type=Application
 DocPath=ktetris.html
-Info=One more Tetris game
-Info[de]=Ein weiteres Tetris-Spiel
+Comment=One more Tetris game
+Comment[de]=Ein weiteres Tetris-Spiel
