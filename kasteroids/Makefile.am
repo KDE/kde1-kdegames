@@ -1,8 +1,8 @@
 
 INCLUDES = $(all_includes) -IQwSpriteField
 
-LDFLAGS = $(all_libraries) -L$(topdir)/kasteroids/QwSpriteField 
-LDADD = -lkdeui -lkdecore -lSpriteField -lqt -lXext -lX11 $(LIBSOCKET)
+LDFLAGS = $(all_libraries) 
+LDADD = -lkdeui -lkdecore QwSpriteField/libSpriteField.a -lqt -lXext -lX11 $(LIBSOCKET)
 
 kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp kastmsg.cpp
 BUILTSOURCES = view.moc toplevel.moc kfixedtopwidget.moc
