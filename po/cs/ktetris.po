@@ -1,0 +1,329 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: ktetris\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-01-27 14:30 MET\n"
+"Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
+"Language-Team: Czech <cs@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: board.cpp:68 dialogs.cpp:140
+msgid "Anonymous"
+msgstr "Anonymní"
+
+#: board.cpp:85
+msgid "Game paused"
+msgstr "Hra pozastavena"
+
+#: board.cpp:90
+msgid "Press to resume"
+msgstr "Stiskni klávesu k pokraèování"
+
+#: board.cpp:105 net.cpp:216
+msgid "Game over"
+msgstr "Hra skonèena"
+
+#: board.cpp:109
+msgid "Press Return to replay"
+msgstr "Stiskni Return pro pøehrání"
+
+#: board.cpp:113
+msgid "Press to start game"
+msgstr "Stiskni klávesu ke startu hry"
+
+#: board.cpp:154 field.cpp:31 field.cpp:48
+msgid "Move left"
+msgstr "Pøesunout vlevo"
+
+#: board.cpp:155 field.cpp:32 field.cpp:49
+msgid "Move right"
+msgstr "Pøesunout vpravo"
+
+#: board.cpp:156 field.cpp:33 field.cpp:50
+msgid "Drop down"
+msgstr "Upustit dolù"
+
+#: board.cpp:157 field.cpp:34 field.cpp:51
+msgid "One line down"
+msgstr "O jednu øádku ní¾"
+
+#: board.cpp:158 field.cpp:35 field.cpp:52
+msgid "Rotate left"
+msgstr "Rotovat doleva"
+
+#: board.cpp:159 field.cpp:36 field.cpp:53
+msgid "Rotate right"
+msgstr "Rotovat doprava"
+
+#: board.cpp:269
+msgid "You suck !"
+msgstr ""
+
+#: board.cpp:391
+msgid "Highscores file not writable !"
+msgstr "Není mo¾né zapsat do souboru s nejlep¹ími výsledky!"
+
+#: net.cpp:133
+msgid "Illegal port"
+msgstr "Neplatny port"
+
+#: net.cpp:139
+msgid "Null address"
+msgstr "Nulová adresa"
+
+#: net.cpp:145 net.cpp:151
+msgid "Unknown address"
+msgstr "Neznámá adresa"
+
+#: net.cpp:166
+msgid "Cannot create socket"
+msgstr "Není mo¾né vytvoøit socket"
+
+#: net.cpp:204
+msgid "at"
+msgstr "na"
+
+#: net.cpp:241
+msgid "Connect error"
+msgstr "Chyba pøi pøipojení"
+
+#: net.cpp:251 net.cpp:306
+msgid "Server unreachable"
+msgstr "Server není dosa¾itelný"
+
+#: net.cpp:274
+msgid "The server has died"
+msgstr ""
+
+#: net.cpp:274
+msgid "Cancel from server"
+msgstr ""
+
+#: net.cpp:280 net.cpp:340
+msgid "Unknown data from server"
+msgstr "Neznáma data ze serveru"
+
+#: net.cpp:319
+msgid "Cannot send to server"
+msgstr "Není poslat na server"
+
+#: net.cpp:331
+msgid "Client timeout (No message from server)"
+msgstr ""
+
+#: net.cpp:336
+msgid "Server has vanished"
+msgstr ""
+
+#: net.cpp:373
+msgid "Bind error"
+msgstr ""
+
+#: net.cpp:378
+msgid "Listen error"
+msgstr ""
+
+#: net.cpp:397
+msgid "Unknown message from unknown player (??)"
+msgstr ""
+
+#: net.cpp:456 net.cpp:497
+msgid "Unknown message from client"
+msgstr ""
+
+#: net.cpp:493
+msgid "Client has died"
+msgstr ""
+
+#: net.cpp:493
+msgid "Cancel from client"
+msgstr ""
+
+#: net.cpp:501
+msgid "Timeout"
+msgstr ""
+
+#: net.cpp:527
+msgid "No message from client"
+msgstr ""
+
+#: net.cpp:532
+msgid "Client has vanished"
+msgstr ""
+
+#: net.cpp:536
+msgid "Unknown data from client"
+msgstr ""
+
+#: net.cpp:540
+msgid "End message from client"
+msgstr ""
+
+#: net.cpp:557
+msgid "Cannot send to client"
+msgstr ""
+
+#: dialogs.cpp:61
+msgid "High Scores"
+msgstr "Nejlep¹í výsledky"
+
+#: dialogs.cpp:84 dialogs.cpp:94
+msgid "Hall of Fame"
+msgstr "Hala slávy"
+
+#: dialogs.cpp:161
+msgid "No option yet !"
+msgstr "Zatím ¾ádné mo¾nosti !"
+
+#: dialogs.cpp:184 dialogs.cpp:234
+msgid "Network Dialog"
+msgstr "Sí»ový dialog"
+
+#: dialogs.cpp:187
+msgid "Server"
+msgstr "Server"
+
+#: dialogs.cpp:188
+msgid "Client"
+msgstr "Klient"
+
+#: dialogs.cpp:192
+msgid "Player name :"
+msgstr "Jméno hráèe :"
+
+#: dialogs.cpp:194
+msgid "Server address :"
+msgstr "Adresa serveru :"
+
+#: dialogs.cpp:196
+msgid "Port :"
+msgstr "Port :"
+
+#: dialogs.cpp:208
+msgid "Connect"
+msgstr "Pøipojit"
+
+#: dialogs.cpp:211
+msgid "Connecting ..."
+msgstr "Pripojováni ..."
+
+#: dialogs.cpp:214
+msgid "Play !"
+msgstr "Hraj !"
+
+#: dialogs.cpp:254
+msgid "Network game"
+msgstr "Sí»ová hra"
+
+#: dialogs.cpp:258
+msgid "Server mode"
+msgstr ""
+
+#: dialogs.cpp:260
+msgid "Client mode"
+msgstr ""
+
+#: dialogs.cpp:338
+msgid "Waiting for other player(s) ..."
+msgstr "Èekám na ostatní hráèe ..."
+
+#: field.cpp:27 field.cpp:43
+msgid "New game"
+msgstr "Nová hra"
+
+#: field.cpp:28 field.cpp:44
+msgid "Pause game"
+msgstr "Pozastavit hru"
+
+#: field.cpp:30 field.cpp:46
+msgid "High scores"
+msgstr "Nejlep¹í výsledky"
+
+#: field.cpp:37
+msgid "Close dialog"
+msgstr "Zavøít dialog"
+
+#: field.cpp:38
+msgid "Ok dialog"
+msgstr "Ok dialog"
+
+#: field.cpp:39
+msgid "Cancel dialog"
+msgstr "Zru¹it dialog"
+
+#: field.cpp:55
+msgid "Score"
+msgstr "Výsledky"
+
+#: field.cpp:59
+msgid "Lines removed"
+msgstr "Odstranìno øádek"
+
+#: field.cpp:63
+msgid "Level"
+msgstr "Úroveò"
+
+#: field.cpp:67
+msgid "Next tile"
+msgstr "Následující dla¾dice"
+
+#: field.cpp:173
+msgid "&Restart game"
+msgstr "&Restarovat hru"
+
+#: field.cpp:174
+msgid "&Pause game"
+msgstr "&Pozastavit hru"
+
+#: field.cpp:175
+msgid "&Multiplayer game"
+msgstr "Hra po &síti"
+
+#: field.cpp:177
+msgid "&High scores"
+msgstr "&Nejlep¹í výsledky"
+
+#: main.cpp:22 main.cpp:67
+msgid "Hide menu"
+msgstr "Skrýt menu"
+
+#: main.cpp:27
+msgid "&Keys"
+msgstr "&Klávesy"
+
+#: main.cpp:30
+msgid "&Contents"
+msgstr "&Obsah"
+
+#: main.cpp:33
+msgid "About &Qt"
+msgstr "Informace o &Qt"
+
+#: main.cpp:64
+msgid "Show menu"
+msgstr "Zobrazit menu"
+
+#: main.cpp:77
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK(hadacek@kde.org)\n"
+"tetris kernel by Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+msgstr ""
+"%s (%s) \n"
+"\n"
+"napsal Nicolas HADACEK  (hadacek@kde.org)\n"
+"jádro tetrisu napsal Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+
+#: main.cpp:80
+msgid "ktetris : about"
+msgstr "ktetris: Informace"
