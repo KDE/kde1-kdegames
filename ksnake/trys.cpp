@@ -10,7 +10,7 @@ Trys::Trys( QWidget *parent, const char *name )
 {
   QString pixDir;
   pixDir.setStr(KApplication::kdedir());
-  pixDir.append("/share/apps/ksnake/pixmaps/");
+  pixDir.append("/share/apps/ksnake/pics/");
   pixmap.load((const char *)(pixDir + "samy.xpm"));
   snakes = 2;
   repaint();
