@@ -130,25 +130,25 @@ bool NetObject::checkParam( const char *nname, const char *naddress,
 	t_port = nport;
 	int tmp_port = t_port.toInt(&ok);
 	if ( !ok || tmp_port<=0 ) {
-		serror = klocale->translate("Illegal port");
+		serror = i18n("Illegal port");
 		return FALSE;
 	}
 	
 	/* test the address */
 	if ( naddress[0]==0 ) {
-		serror += klocale->translate("Null address");
+		serror += i18n("Null address");
 		return FALSE;
 	}
 	if ( isdigit(naddress[0]) ) {
 		netaddr = inet_addr(naddress);
 		if( netaddr==-1 ) {
-			serror += klocale->translate("Unknown address");
+			serror += i18n("Unknown address");
 			return FALSE;
 		}
 	} else {
 		host = gethostbyname(naddress);
 		if ( host==0 ) {
-			serror += klocale->translate("Unknown address");
+			serror += i18n("Unknown address");
 			return FALSE;
 		}
 		netaddr = *(long *)(host->h_addr);
@@ -163,7 +163,7 @@ bool NetObject::createSocket( QString& serror )
 	/* create socket */
 	sock = socket(AF_INET, SOCK_STREAM, 0);
 	if ( sock<0 ) {
-		serror = klocale->translate("Cannot create socket");
+		serror = i18n("Cannot create socket");
 		return FALSE;
 	}
 	max_fd = sock;
@@ -201,7 +201,7 @@ bool NetObject::checkData( const char *serror1, const char *serror2,
 void NetObject::getPlayerInfos(QString &infos, int i)
 {
 	infos = (const char *)pl[i]->name;
-	infos += " "; infos += klocale->translate("at"); infos += " ";
+	infos += " "; infos += i18n("at"); infos += " ";
 	infos += (const char *)pl[i]->address;
 }
 
@@ -213,7 +213,7 @@ void NetObject::ownStatus(int height, int lines)
 
 void NetObject::gameOver( QString& serror )
 {
-	QString msg = klocale->translate("Game over");;
+	QString msg = i18n("Game over");;
 	msg += " :" + serror;
 	ERROR(msg);
 	endClientConnection();
@@ -238,7 +238,7 @@ bool ClientNetObject::connectSocket( QString& serror )
 	
 	/* connect the socket to server */
 	if ( Connect(pl[0]->sock, (struct sockaddr *)&sin, sizeof(sin))<0 ) {
-		serror = klocale->translate("Connect error");
+		serror = i18n("Connect error");
 		return FALSE;
 	}
 	
@@ -248,7 +248,7 @@ bool ClientNetObject::connectSocket( QString& serror )
 	/* send name */
 	writeSelect();
     if ( !writeIsset(pl[0]->sock) ) {	
-		serror = klocale->translate("Server unreachable");
+		serror = i18n("Server unreachable");
         return FALSE;    
 	}
 	strncpy(name, (const char *)pl[0]->name, NAME_LENGTH);
@@ -271,13 +271,13 @@ bool ClientNetObject::dialogTimeout( QString& serror )
 	}
 	nb_b = read(pl[0]->sock, buff, MAX_BUFF);   
 	
-	if ( !checkData(klocale->translate("The server has died"), klocale->translate("Cancel from server"), serror) )
+	if ( !checkData(i18n("The server has died"), i18n("Cancel from server"), serror) )
 		return FALSE;
 
 	if ( hasReceivedMsg(PLAY_MSG) )
 		return TRUE;
 	
-	serror = klocale->translate("Unknown data from server");
+	serror = i18n("Unknown data from server");
 	return FALSE;
 }
 
@@ -303,7 +303,7 @@ bool ClientNetObject::initGame( QString& serror )
 	writeSelect();
 	
 	if ( !writeIsset(pl[0]->sock) ) {
-		serror = klocale->translate("Server unreachable");
+		serror = i18n("Server unreachable");
 		return FALSE;
 	}
 	write( pl[0]->sock, READY_MSG, (int)strlen(READY_MSG) );
@@ -316,7 +316,7 @@ bool ClientNetObject::playTimeout( QString& serror )
 	/* send client message to server */
 	writeSelect();
 	if ( !writeIsset(pl[0]->sock) ) {
-		serror = klocale->translate("Cannot send to server");
+		serror = i18n("Cannot send to server");
 		return FALSE;
 	}
 	c_msg.height = pl[0]->height;
@@ -328,16 +328,16 @@ bool ClientNetObject::playTimeout( QString& serror )
 	/* read server message */
 	readSelect(1);
 	if ( !readIsset(pl[0]->sock) ) {
-		serror = klocale->translate("Client timeout (No message from server)");
+		serror = i18n("Client timeout (No message from server)");
 		return FALSE;
 	}
 	nb_b = read(pl[0]->sock, &s_msg, sizeof(s_msg));
 	if ( nb_b<=0 ) {
-		serror = klocale->translate("Server has vanished");
+		serror = i18n("Server has vanished");
 		return FALSE;
 	}
 	if ( nb_b!=sizeof(s_msg) ) {
-		serror = klocale->translate("Unknown data from server");
+		serror = i18n("Unknown data from server");
 		return FALSE;
 	}
 	pl[2]->height = s_msg.height_prev;
@@ -370,12 +370,12 @@ bool ServerNetObject::connectSocket( QString& serror )
 
 	/* bind the socket */
 	if ( bind(pl[0]->sock, (struct sockaddr *) &sin, sizeof (sin))<0 ) {
-		serror = klocale->translate("Bind error");
+		serror = i18n("Bind error");
 		return FALSE;
 	}
 	/* listen */
 	if ( listen(pl[0]->sock, 1)<0 ) {
-		serror = klocale->translate("Listen error");
+		serror = i18n("Listen error");
 		return FALSE;
 	}
 	FD_SET(pl[0]->sock, &read_set);
@@ -394,7 +394,7 @@ bool ServerNetObject::dialogTimeout( QString& serror )
 		addrlen = sizeof(sin);
 		new_sock = Accept( pl[0]->sock, (struct sockaddr *)&sin, &addrlen );
 		if ( new_sock<0 ) {
-			serror = klocale->translate("Unknown message from unknown player (??)");
+			serror = i18n("Unknown message from unknown player (??)");
 			return FALSE;
 		}
 		
@@ -453,7 +453,7 @@ bool ServerNetObject::dialogTimeout( QString& serror )
 				pl = new_pl;
 			} else {
 				if ( nb_b>NAME_LENGTH ) {
-					serror = klocale->translate("Unknown message from client");
+					serror = i18n("Unknown message from client");
 					return FALSE;
 				}
 				pl[i]->name = buff;
@@ -490,15 +490,15 @@ bool ServerNetObject::initGame( QString& serror)
 		readSelect(1);
 		if ( readIsset(pl[i]->sock) ) {
 			nb_b = read( pl[i]->sock, buff, MAX_BUFF );
-			 if ( !checkData(klocale->translate("Client has died"), klocale->translate("Cancel from client"),
+			 if ( !checkData(i18n("Client has died"), i18n("Cancel from client"),
 							 serror) )
 				return FALSE;
 			if ( !hasReceivedMsg(READY_MSG) ) {
-				serror = klocale->translate("Unknown message from client");
+				serror = i18n("Unknown message from client");
 				return FALSE;
 			}
 		} else {
-			serror = klocale->translate("Timeout");
+			serror = i18n("Timeout");
 			return FALSE;        
 		}
 	}
@@ -524,20 +524,20 @@ bool ServerNetObject::playTimeout( QString& serror )
 		
 		for (i=1; i<=nb_pl; i++) {
 			if ( !readIsset(pl[i]->sock) ) {
-				serror = klocale->translate("No message from client");
+				serror = i18n("No message from client");
 				return FALSE;
 			}
 			nb_b = read( pl[i]->sock, &c_msg, sizeof(c_msg) );
 			if ( nb_b<=0 ) {
-				serror = klocale->translate("Client has vanished");
+				serror = i18n("Client has vanished");
 				return FALSE;
 			}
 			if ( nb_b!=sizeof(c_msg) ) {
-				serror = klocale->translate("Unknown data from client");
+				serror = i18n("Unknown data from client");
 				return FALSE;
 			}
 			if ( c_msg.end!=0 ) {
-				serror = klocale->translate("End message from client");
+				serror = i18n("End message from client");
 				return FALSE;
 			}
 			
@@ -554,7 +554,7 @@ bool ServerNetObject::playTimeout( QString& serror )
 		/*   - cannot send
 		 * 	 else send s_msg */
 		if ( !writeIsset(pl[i]->sock) ) {
-			serror = klocale->translate("Cannot send to client");
+			serror = i18n("Cannot send to client");
 			return FALSE;
 		}
 		strncpy(s_msg.name_prev, (const char *)pl[i-1]->name, NAME_LENGTH);

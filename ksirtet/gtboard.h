@@ -5,8 +5,9 @@
 
 #define NB_CASES_RANDOM_LINE 8
 
-/* this class has the gestion of removing full lines :
+/* this class has the gestion for removing full lines :
  * it is used for "normal tetris" */
+
 class GTBoard : public Board
 {
  public:
@@ -18,9 +19,6 @@ class GTBoard : public Board
 	void clearBoard();
 	void startGame();
 	void checkOpponentGift();
-
- protected:
-	void  internalPieceDropped(int dropHeight);
 	
  private:
 	int  nLinesRemoved;
@@ -29,6 +27,9 @@ class GTBoard : public Board
 	void gluePiece();
 	void removeFullLines();
 	void opponentGift(int nb_cases);
-}; 
+	void lightFullLines(bool on);
+	void pieceDropped(int dropHeight);
+	bool fullLines();
+};
 
 #endif

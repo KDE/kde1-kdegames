@@ -17,53 +17,51 @@ Field::Field(QWidget *parent, const char *name)
 	//	board = new GGBoard(this);
 	board->installEventFilter(this);
 	
-	connect( this, SIGNAL(initMultiGame(NetObject *)),
-			board, SLOT(initMultiGame(NetObject *)) );
 	connect( board, SIGNAL(showOpponents()), SLOT(showOpponents()) );
 	connect( board, SIGNAL(updateOpponents()), SLOT(updateOpponents()) );
 
 	/* keys connections */
-	kKeys->addKey(klocale->translate("Quit"), "CTRL+Q");
-	kKeys->addKey(klocale->translate("New game"), "F2");
-	kKeys->addKey(klocale->translate("Pause game"), "P");
-	kKeys->addKey(klocale->translate("Help"), "F1");
-	kKeys->addKey(klocale->translate("High scores"), "H");
-	kKeys->addKey(klocale->translate("Move left"), "Left");
-	kKeys->addKey(klocale->translate("Move right"), "Right");
-	kKeys->addKey(klocale->translate("Drop down"), "Down");
-	kKeys->addKey(klocale->translate("One line down"), "Shift");
-	kKeys->addKey(klocale->translate("Rotate left"), "Up");
-	kKeys->addKey(klocale->translate("Rotate right"), "Return");
-	kKeys->addKey(klocale->translate("Close dialog"), "Return");
-	kKeys->addKey(klocale->translate("Ok dialog"), "Return");
-	kKeys->addKey(klocale->translate("Cancel dialog"), "Escape");
+	kKeys->addKey(i18n("Quit"), "CTRL+Q");
+	kKeys->addKey(i18n("New game"), "F2");
+	kKeys->addKey(i18n("Pause game"), "P");
+	kKeys->addKey(i18n("Help"), "F1");
+	kKeys->addKey(i18n("High scores"), "H");
+	kKeys->addKey(i18n("Move left"), "Left");
+	kKeys->addKey(i18n("Move right"), "Right");
+	kKeys->addKey(i18n("Drop down"), "Down");
+	kKeys->addKey(i18n("One line down"), "Shift");
+	kKeys->addKey(i18n("Rotate left"), "Up");
+	kKeys->addKey(i18n("Rotate right"), "Return");
+	kKeys->addKey(i18n("Close dialog"), "Return");
+	kKeys->addKey(i18n("Ok dialog"), "Return");
+	kKeys->addKey(i18n("Cancel dialog"), "Escape");
 	                                                                   
 	kKeys->registerWidget(K_MAIN, this);
-	kKeys->connectFunction(K_MAIN, klocale->translate("Quit"), parent, SLOT(quit()));
-	kKeys->connectFunction(K_MAIN, klocale->translate("New game"), board, SLOT(start()));
-	kKeys->connectFunction(K_MAIN, klocale->translate("Pause game"), board, SLOT(pause()));
-	kKeys->connectFunction(K_MAIN, klocale->translate("High scores"), board, SLOT(showHighScores()));
+	kKeys->connectFunction(K_MAIN, i18n("Quit"), parent, SLOT(quit()));
+	kKeys->connectFunction(K_MAIN, i18n("New game"), board, SLOT(start()));
+	kKeys->connectFunction(K_MAIN, i18n("Pause game"), board, SLOT(pause()));
+	kKeys->connectFunction(K_MAIN, i18n("High scores"), board, SLOT(showHighScores()));
 	/* the following connections are disactivated */
-	kKeys->connectFunction(K_MAIN, klocale->translate("Move left"), board, SLOT(pMoveLeft()), FALSE);
-	kKeys->connectFunction(K_MAIN, klocale->translate("Move right"), board, SLOT(pMoveRight()), FALSE);
-	kKeys->connectFunction(K_MAIN, klocale->translate("Drop down"), board, SLOT(pDropDown()), FALSE);
-	kKeys->connectFunction(K_MAIN, klocale->translate("One line down"), board, SLOT(pOneLineDown()), FALSE);
-	kKeys->connectFunction(K_MAIN, klocale->translate("Rotate left"), board, SLOT(pRotateLeft()), FALSE);
-	kKeys->connectFunction(K_MAIN, klocale->translate("Rotate right"), board, SLOT(pRotateRight()), FALSE);
+	kKeys->connectFunction(K_MAIN, i18n("Move left"), board, SLOT(pMoveLeft()), FALSE);
+	kKeys->connectFunction(K_MAIN, i18n("Move right"), board, SLOT(pMoveRight()), FALSE);
+	kKeys->connectFunction(K_MAIN, i18n("Drop down"), board, SLOT(pDropDown()), FALSE);
+	kKeys->connectFunction(K_MAIN, i18n("One line down"), board, SLOT(pOneLineDown()), FALSE);
+	kKeys->connectFunction(K_MAIN, i18n("Rotate left"), board, SLOT(pRotateLeft()), FALSE);
+	kKeys->connectFunction(K_MAIN, i18n("Rotate right"), board, SLOT(pRotateRight()), FALSE);
 	
-	lScore = new QLabel(klocale->translate("Score"), this);
-	showScore = new QLCDNumber(5,this);
+	lScore = new QLabel(i18n("Score"), this);
+	showScore = new QLCDNumber(6,this);
 	showScore->display( 0 );
 	
-	lLines = new QLabel(klocale->translate("Lines removed"), this);
-	showLines = new QLCDNumber(5,this);
+	lLines = new QLabel(i18n("Lines removed"), this);
+	showLines = new QLCDNumber(3,this);
 	showLines->display( 0 );
 	
-	lLevel = new QLabel(klocale->translate("Level"), this);
+	lLevel = new QLabel(i18n("Level"), this);
 	showLevel = new QLCDNumber(2,this);
 	showLevel->display( 0 );
 	
-	lNext = new QLabel(klocale->translate("Next tile"), this);
+	lNext = new QLabel(i18n("Next tile"), this);
 	showNext = new ShowNextPiece(this);
 	
 	labPrevName = new QLabel("", this);
@@ -138,15 +136,8 @@ bool Field::eventFilter(QObject *, QEvent *e)
 
 void Field::multiGame()
 {
-	/* reinit the board */
-	board->hideBoard(TRUE);
-	
-	netDialog *md = new netDialog(&net_obj, this);
-	
-	if ( md->exec() )
-		emit initMultiGame(net_obj);
-	
-	delete md;
+	netDialog md(&net_obj, this);
+	if ( md.exec() ) board->initMultiGame(net_obj);
 }
 
 void Field::showOpponents()
@@ -169,10 +160,10 @@ void Field::fillPopup(QPopupMenu *pop)
 {
 	popup = pop;
 	pop->insertSeparator();
-	pop->insertItem(klocale->translate("&Restart game"), board, SLOT(start()) );
-	pop->insertItem(klocale->translate("&Pause game"), board, SLOT(pause()) );
-	pop->insertItem(klocale->translate("&Multiplayer game"), this, SLOT(multiGame()) );
+	pop->insertItem(i18n("&Restart game"), board, SLOT(start()) );
+	pop->insertItem(i18n("&Pause game"), board, SLOT(pause()) );
+	pop->insertItem(i18n("&Multiplayer game"), this, SLOT(multiGame()) );
 	pop->insertSeparator();
-	pop->insertItem(klocale->translate("&High scores"), board, SLOT(showHighScores()) );
+	pop->insertItem(i18n("&High scores"), board, SLOT(showHighScores()) );
 	pop->insertSeparator();
 }

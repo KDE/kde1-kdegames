@@ -28,8 +28,16 @@
 #define CLIENT 2
 
 /* Layout */
-#define BOARD_H 333
-#define BOARD_W 153
+#define BLOCK_W  15
+#define BLOCK_H  15
+#define XOFF      1
+#define YOFF      1
+#define NB_W_BLOCKS 10
+#define NB_H_BLOCKS 22
+
+#define BOARD_W 2*XOFF + NB_W_BLOCKS*BLOCK_W
+#define BOARD_H 2*YOFF + NB_H_BLOCKS*BLOCK_H
+
 #define TOP_H    10
 #define BASE_H   10
 #define LCD_H    50

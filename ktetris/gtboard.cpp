@@ -1,15 +1,15 @@
 #include "gtboard.h"
 
 #include <stdlib.h>
+#include <qpainter.h>
 
-/* GTBoard */
 GTBoard::GTBoard(  QWidget *p, const char *name )
 : Board(TETRIS_TYPE, p, name)
 {
 	for(int i = 0 ; i < Height ; i++)
 		filled[i] = 0;
 	
-	nLinesRemoved     = 0;
+	nLinesRemoved = 0;
 }
 
 
@@ -24,22 +24,31 @@ void GTBoard::clearBoard()
 void GTBoard::startGame()
 {
 	Board::startGame();
-	nLinesRemoved      = 0;
+	nLinesRemoved = 0;
     updateRemoved(nLinesRemoved);
 }
 
 
-void GTBoard::internalPieceDropped(int dropHeight)
+void GTBoard::pieceDropped(int dropHeight)
 {
+	if (state==DropDown) {
+		state = Playing;
+		timer->start(timeoutTime);
+	}
+	
 	gluePiece();
-	score = score + dropHeight;
+	updateScore( getScore()+dropHeight );
 	
-	removeFullLines();
-	
-	updateScore(score);
-	pieceDropped(dropHeight);
+	if ( fullLines() ) waitAfterLine();
+	else newPiece();
 }
 
+bool GTBoard::fullLines()
+{
+	for(int i=0; i<Height-nClearLines; i++)
+		if ( filled[i]==Width ) return TRUE;
+	return FALSE;
+}
 
 void GTBoard::gluePiece()
 {
@@ -59,9 +68,19 @@ void GTBoard::gluePiece()
 		nClearLines = Height - currentLine + min - 1;
 }
 
+void GTBoard::lightFullLines(bool on)
+{
+	uint k = 0;
+	for(int i=0; i<Height-nClearLines; i++) {
+		if ( filled[i]==Width ) { k++; continue; }
+		if (k) { lightLines(i, k, on); k = 0; }
+	}
+}
 
 void GTBoard::removeFullLines()
 {
+	/* when called there *are* full lines */
+	
 	int i, j, k = 0;
 	int nFullLines = 0;
 	
@@ -82,37 +101,32 @@ void GTBoard::removeFullLines()
 		k++;
 	}
 	
-	if (nFullLines) {
-		nClearLines   = nClearLines + nFullLines;
-		nLinesRemoved = nLinesRemoved + nFullLines;
-		updateRemoved(nLinesRemoved);
+	nClearLines   = nClearLines + nFullLines;
+	nLinesRemoved = nLinesRemoved + nFullLines;
+	updateRemoved(nLinesRemoved);
+	
+	/* Assign score according to level and nb of lines (gameboy style) */
+	switch (nFullLines) {
+	 case 0: break;
+	 case 1: updateScore( getScore() + 40*getLevel() ); break;
+	 case 2: updateScore( getScore() + 100*getLevel() ); break;
+	 case 3: updateScore( getScore() + 300*getLevel() ); break;
+	 case 4: updateScore( getScore() + 1200*getLevel() ); break;
+	}
 		
-		/* updateScore must be called by caller! */
-		/* Assign score according to level and nb of lines (gameboy style) */
-		switch (nFullLines) {
-		 case 0: break;
-		 case 1: score += 40 * level; break;
-		 case 2: score += 100 * level; break;
-		 case 3: score += 300 * level; break;
-		 case 4: score += 1200 * level; break;
-		}
-		
-		/* If we make a multiplum of ten lines, increase level */
-		if ((nLinesRemoved / 10) != ((nLinesRemoved-nFullLines)/10)) {
-			level++;
-			updateLevel(level);
-		}
-		
-		/* Clear the top */
-		for (i = Height - nClearLines ;
-			 i < Height - nClearLines + nFullLines ; i++) {
-			filled[i] = 0;
-			for(j = 0 ; j < Width ; j++)
-				if (board[j][i] != 0) {
-					draw(j,i,0);
-					board[j][i] = 0;                
-				}
-		}
+	/* If we make a multiplum of ten lines, increase level */
+	if ((nLinesRemoved / 10) != ((nLinesRemoved-nFullLines)/10))
+		updateLevel(getLevel()+1);
+	
+	/* Clear the top */
+	for (i = Height - nClearLines ;
+		 i < Height - nClearLines + nFullLines ; i++) {
+		filled[i] = 0;
+		for(j = 0 ; j < Width ; j++)
+			if (board[j][i] != 0) {
+				draw(j,i,0);
+				board[j][i] = 0;                
+			}
 	}
 }
 
@@ -131,7 +145,7 @@ void GTBoard::opponentGift(int nb_cases)
 	 * be low enough to be touch by the change */
 	if ( currentLine<=(Height-nClearLines+1) ) {
 		if ( !canMoveTo(currentPos, currentLine-1) )
-			internalPieceDropped(0);
+			pieceDropped(0);
 		else 
 			reshow_piece = TRUE;
 	}
@@ -151,7 +165,7 @@ void GTBoard::opponentGift(int nb_cases)
 		draw(j, 0, 0);
 	}
 	
-	/* empty the the emptied low line with garbage :) */
+	/* empty the emptied low line with garbage :) */
 	int nb = nb_cases;
 	do {
 		j = random() % Width;

@@ -120,6 +120,7 @@ class GenericTetris
 	  
     int  boardHeight()                        { return Height; }
     int  boardWidth()                         { return Width; }
+	
 
     virtual void drawSquare(int, int, int) = 0;
     virtual void gameOver() = 0;
@@ -133,7 +134,6 @@ class GenericTetris
     virtual void updateLevel(int newLevel);
 
  protected:
-	virtual void  internalPieceDropped(int) {}
 	void  draw(int x, int y, int value)
 		{ drawSquare(x,Height - y,value); }
 	int   canMoveTo(int xPosition, int line); /* Returns a boolean value. */
@@ -146,8 +146,6 @@ class GenericTetris
 	int const   Height=22;
 	int         board[Width][Height];
 	int         nClearLines;
-	int         score;
-	int         level;
 	int         currentLine;
 	int         currentPos;
 	
@@ -163,6 +161,8 @@ class GenericTetris
     
     int   showNext;                    /* Boolean variable. */
 	int   gameType;
+	int   score;
+	int   level;
 };
 
 #endif

@@ -1,7 +1,7 @@
 #include "spiece.h"
 
 #include <qpainter.h>
-#include "board.h"
+#include "drawButton.h"
 
 #include "spiece.moc"
 
@@ -33,12 +33,9 @@ void ShowNextPiece::paintEvent( QPaintEvent * )
 
 void ShowNextPiece::drawNextSquare(int x, int y,QColor *color)
 {
-	if (xOffset == -1)		/* Before first resizeEvent? */
-		return;
+	if (xOffset == -1) return;		/* Before first resizeEvent? */
 	
-	QPainter paint;
-	paint.begin(this);
+	QPainter paint(this);
 	drawTetrisButton( &paint, xOffset+x*blockWidth, yOffset+y*blockHeight,
 					 blockWidth, blockHeight, color );
-	paint.end();
 }

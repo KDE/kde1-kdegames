@@ -3,9 +3,10 @@
 
 #include "board.h"
 
-
 /* this class has the gestion of removing group of same-colored groups
- * it is used for "globule game" */
+ * it is used for the "puyo puyo" game 
+ * not completely implemented */
+
 class GGBoard : public Board
 {
  public:

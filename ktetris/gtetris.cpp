@@ -60,10 +60,8 @@ void GenericTetris::hideBoard()
 void GenericTetris::startGame()
 {
     clearBoard();
-    score              = 0;
-    updateScore(score);
-    level              = 1;
-    updateLevel(level);
+    updateScore(0);
+    updateLevel(1);
     newPiece();
 }
 
@@ -157,7 +155,7 @@ void GenericTetris::dropDown()
 	
     if (dropHeight != 0)
         moveTo(currentPos,newLine);
-    internalPieceDropped(dropHeight);
+    pieceDropped(dropHeight);
 }
 
 void GenericTetris::oneLineDown()
@@ -166,9 +164,8 @@ void GenericTetris::oneLineDown()
         return;
     if (canMoveTo(currentPos,currentLine - 1)) {
         moveTo(currentPos,currentLine - 1);
-    } else {
-	internalPieceDropped(0);
-    }
+    } else
+		pieceDropped(0);
 }
 
 void GenericTetris::newPiece()
@@ -209,12 +206,14 @@ void GenericTetris::updateRemoved(int)
 {
 }
 
-void GenericTetris::updateScore(int)
+void GenericTetris::updateScore(int sc)
 {
+	score = sc;
 }
 
-void GenericTetris::updateLevel(int)
+void GenericTetris::updateLevel(int lev)
 {
+	level = lev;
 }
 
 void GenericTetris::showPiece()

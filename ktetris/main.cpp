@@ -20,12 +20,12 @@ KTetris::KTetris()
 	
 	/* menu */
 	popup = new QPopupMenu;
-	tog_id = popup->insertItem(klocale->translate("Hide menu"), this, SLOT(toggleMenu()) );
+	tog_id = popup->insertItem(i18n("Hide menu"), this, SLOT(toggleMenu()) );
 	field->fillPopup(popup);
-	popup->insertItem(klocale->translate("&Quit"), this, SLOT(quit()) );
+	popup->insertItem(i18n("&Quit"), this, SLOT(quit()) );
 	
 	QPopupMenu *options = new QPopupMenu;
-	options->insertItem(klocale->translate("&Keys"), this, SLOT(configKeys()) );
+	options->insertItem(i18n("&Keys"), this, SLOT(configKeys()) );
 	
  	QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Tetris"))
                                          + " " + KTETRIS_VERSION
@@ -35,10 +35,10 @@ KTetris::KTetris()
 	menu = new KMenuBar(this);
 	menu->enableMoving(TRUE);
 	menu->enableFloating(TRUE);
-	menu->insertItem(klocale->translate("&File"), popup);
-	menu->insertItem(klocale->translate("&Options"), options);
+	menu->insertItem(i18n("&File"), popup);
+	menu->insertItem(i18n("&Options"), options);
 	menu->insertSeparator();
-	menu->insertItem(klocale->translate("&Help"), help);
+	menu->insertItem(i18n("&Help"), help);
 	setMenu(menu);
 	
 	/* read the menu visible/invisible config */
@@ -61,10 +61,10 @@ void KTetris::quit()
 void KTetris::toggleMenu()
 {
 	if ( menu->isVisible() ) {
-		popup->changeItem(klocale->translate("Show menu"), tog_id);
+		popup->changeItem(i18n("Show menu"), tog_id);
 		menu->hide();
 	} else {
-		popup->changeItem(klocale->translate("Hide menu"), tog_id);
+		popup->changeItem(i18n("Hide menu"), tog_id);
 		menu->show();
 	}
 	

@@ -26,26 +26,25 @@ class Board : public QFrame, public GenericTetris
 		
  public:
     Board( int type, QWidget *parent=0, const char *name=0 );
+	virtual ~Board();
 
-    void gameOver();
-    void startGame();
+	void initMultiGame(NetObject *net_obj);
 
  public slots:
     void updateNext()	   { GenericTetris::updateNext(); }
     void key(QKeyEvent *e) { keyPressEvent(e); }
-    void start()		   { startGame(); }
+    void start()           { startGame(); }
     void pause();
-	void hideBoard(bool pause);
 	void showHighScores();
 	void options();
-	void initMultiGame(NetObject *net_obj);
-	void pMoveLeft() { if ( !waitingAfterLine ) moveLeft(); }
-	void pMoveRight() { if ( !waitingAfterLine ) moveRight(); }
-	void pDropDown() { if ( !waitingAfterLine ) dropDown(); }
-	void pOneLineDown() { if ( !waitingAfterLine ) oneLineDown(); }
-	void pRotateLeft() { if ( !waitingAfterLine ) rotateLeft(); }
-	void pRotateRight() { if ( !waitingAfterLine ) rotateRight(); }
-
+	void pMoveLeft() { if ( !(state==WaitingAfterLine) ) moveLeft(); }
+	void pMoveRight() { if ( !(state==WaitingAfterLine) ) moveRight(); }
+	void pDropDown();
+	void pOneLineDown() { if ( !(state==WaitingAfterLine) ) oneLineDown(); }
+	void pRotateLeft() { if ( !(state==WaitingAfterLine) ) rotateLeft(); }
+	void pRotateRight() { if ( !(state==WaitingAfterLine) ) rotateRight(); }
+	void buttonClick();
+	
  private slots:
 	void timeout();
 	
@@ -59,39 +58,42 @@ class Board : public QFrame, public GenericTetris
 	void updateOpponents();
 
  protected:	
+	virtual void startGame();
+	void gameOver();
 	void updateRemoved(int noOfLines);
 	void updateScore(int newScore);
-	void pieceDropped(int dropHeight);
 	void updateLevel(int newLlevel);
+	void waitAfterLine();
+	void lightLines(int y, int nb, bool on);
+	virtual void lightFullLines(bool on) = 0;
+	virtual void removeFullLines() = 0;
 	
-	QTimer   *timer;
-	int  timeoutTime;
-    
-	bool noGame;
-    bool isPaused;
 	NetObject *net_obj;
-	
-	QLabel   *msg;
-	QPushButton *pb;
 
+	QTimer   *timer;
+    int  timeoutTime;
+	
+	enum State { NoGame, Playing, Paused, WaitingAfterLine, DropDown };
+	State state;
+	uint loop;
+	
  private:
-    void drawContents( QPainter * );
-    void resizeEvent( QResizeEvent * );
+	void paintEvent(QPaintEvent *e);
     void drawSquare(int x,int y,int value);
     void drawNextSquare(int x,int y,int value);
     void updateTimeoutTime();
 	void midbutton(bool); 
 	void setHighScore(int);
 	void setPieceMovingKeys( bool activate );
+	void showBoard();
+	void stopGame();
 
-    int  xOffset,yOffset;
-    int  blockWidth,blockHeight;
-
-    bool waitingAfterLine;
-
+	QLabel   *msg;
+	QPushButton *pb;
+	QPainter *paint;
+    
 	int gameType;
-    QColor    colors[8];
-    QPainter *paint;
+    QColor    colors[9];
 	QString serror;
 
 	int removedLines, oldFullLines;
@@ -100,8 +102,5 @@ class Board : public QFrame, public GenericTetris
 	bool isConfigWritable;
 	KConfig *kconf;
 };
-
-void drawTetrisButton( QPainter *, int x, int y, int w, int h,
-					   const QColor *color );  
 
 #endif

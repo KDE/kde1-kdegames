@@ -22,9 +22,6 @@ class Field : public QWidget
 	void fillPopup(QPopupMenu *pop);
 	QSize sizeHint() const;
 	
- signals:
-	void initMultiGame(NetObject *net_obj);
-	
  private slots:
 	void multiGame();
 	void showOpponents();

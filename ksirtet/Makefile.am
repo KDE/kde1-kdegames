@@ -11,7 +11,7 @@ ktetris_LDFLAGS = $(all_libraries) $(KDE_RPATH)
 ktetris_LDADD = -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
 
 ktetris_SOURCES= gtetris.cpp tpiece.cpp spiece.cpp gtboard.cpp board.cpp \
-				hack.cpp net.cpp dialogs.cpp field.cpp main.cpp 
+				hack.cpp net.cpp dialogs.cpp field.cpp main.cpp drawButton.cpp
 BUILTSOURCES = spiece.moc board.moc dialogs.moc field.moc main.moc
 DISTCLEANFILES = $(BUILTSOURCES)
 
