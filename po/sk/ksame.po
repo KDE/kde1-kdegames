@@ -120,9 +120,8 @@ msgid "Score: %06i"
 msgstr "Skóre: %06i"
 
 #: HighScore.cpp:107
-#, fuzzy
 msgid "Name"
-msgstr "Hra"
+msgstr "Meno"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"
@@ -131,6 +130,3 @@ msgstr "Prosím zadajt&e svoje meno:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonymný"
-
-#~ msgid "Highscore"
-#~ msgstr "Najlep¹ie skóre"

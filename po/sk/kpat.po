@@ -49,7 +49,7 @@ msgstr "¥ahká 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normálna"
 
 #: computation.cpp:97
 msgid "Hard 1"

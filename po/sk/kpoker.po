@@ -115,7 +115,7 @@ msgstr "&Zvuk"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
@@ -123,6 +123,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"napísal Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -130,9 +133,14 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"Pre zoznam kreditov si preèítajte pomocníka"
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Nápady, oznamy na chyby apod. sú vítané"

@@ -283,29 +283,9 @@ msgstr "&Klávesy"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "napísal"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Zobrazi» menu"
 
-#~ msgid "Close dialog"
-#~ msgstr "Zavrie» dialóg"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dialóg"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Zru¹i» dialóg"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "napísal Nicolas Hadacek"
