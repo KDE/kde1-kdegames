@@ -104,7 +104,7 @@ GameWindow::GameWindow(QWidget *, const char *name)
 	// Read configuration
 	KConfig *config = kapp->getConfig();
 	config->setGroup("Options");
-	PiecesType pieces_type = (PiecesType)config->readNumEntry("Pieces", Pieces_Smiles);
+	PiecesType pieces_type = (PiecesType)config->readNumEntry("Pieces", static_cast<int>(Pieces_Smiles));
 	game->setPieces(pieces_type);
 	switch (pieces_type) {
 	case Pieces_Smiles:
@@ -159,7 +159,7 @@ void GameWindow::menu_smiles()
 	options_popup->setItemChecked(iconsID, false);
 	KConfig *config = kapp->getConfig();
 	config->setGroup("Options");
-	config->writeEntry("Pieces", Pieces_Smiles);
+	config->writeEntry("Pieces", static_cast<int>(Pieces_Smiles));
 	game->setPieces(Pieces_Smiles);
 }
 
@@ -170,7 +170,7 @@ void GameWindow::menu_symbols()
 	options_popup->setItemChecked(iconsID, false);
 	KConfig *config = kapp->getConfig();
 	config->setGroup("Options");
-	config->writeEntry("Pieces", Pieces_Symbols);
+	config->writeEntry("Pieces", static_cast<int>(Pieces_Symbols));
 	game->setPieces(Pieces_Symbols);
 }
 
@@ -181,7 +181,7 @@ void GameWindow::menu_icons()
 	options_popup->setItemChecked(iconsID, true);
 	KConfig *config = kapp->getConfig();
 	config->setGroup("Options");
-	config->writeEntry("Pieces", Pieces_Icons);
+	config->writeEntry("Pieces", static_cast<int>(Pieces_Icons));
 	game->setPieces(Pieces_Icons);
 }
 
@@ -240,8 +240,10 @@ void GameWindow::gameOver()
 				config->writeEntry(s, name);
 			}
 
+			num.detach();
 			num.setNum(i);
 			s = "Pos" + num + "Level";
+			level.detach();
 			level.setNum(game->num_level);
 			config->writeEntry(s, level);
 			s = "Pos" + num + "Score";

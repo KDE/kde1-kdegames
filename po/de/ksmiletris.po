@@ -1,0 +1,89 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ksmiletris\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"PO-Revision-Date: 1998-12-12 19:01+0100\n"
+"Last-Translator: Stephan Kulow <coolo@kde.org>\n"
+
+#: gamewindow.cpp:49
+msgid "Smiletris"
+msgstr "Smiletris"
+
+#: gamewindow.cpp:53
+msgid "&Pause"
+msgstr "&Pause"
+
+#: gamewindow.cpp:54
+msgid "&End Game"
+msgstr "Spiel-&Ende"
+
+#: gamewindow.cpp:56
+msgid "&High Scores..."
+msgstr "&High Scores..."
+
+#: gamewindow.cpp:61
+msgid "&Smiles"
+msgstr "&Lächeln"
+
+#: gamewindow.cpp:62
+msgid "S&ymbols"
+msgstr "&Symbole"
+
+#: gamewindow.cpp:64
+msgid "&Icons"
+msgstr "&Icons"
+
+#: gamewindow.cpp:67
+msgid "&Pieces"
+msgstr "&Teile"
+
+#: gamewindow.cpp:69
+msgid "&Sounds"
+msgstr "&Geräusche"
+
+#: gamewindow.cpp:73
+#, c-format
+msgid ""
+"KSmiletris %d\n"
+"\n"
+"by Sandro Sigala <ssigala@globalnet.it>\n"
+"\n"
+"Feedbacks are welcome!\n"
+msgstr ""
+"KSmiletris %d\n"
+"\n"
+"von Sandro Sigala <ssigala@globalnet.it>\n"
+"\n"
+"Feedback ist willkommen!\n"
+
+#: gamewindow.cpp:88
+msgid "Level: 99"
+msgstr "Stufe: 99"
+
+#: gamewindow.cpp:89
+msgid "Score: 999999"
+msgstr "Punkte: 99999"
+
+#: scoredialog.cpp:35
+msgid "High Scores"
+msgstr "High Scores"
+
+#: scoredialog.cpp:42
+msgid "Level"
+msgstr "Stufe"
+
+#: scoredialog.cpp:45
+msgid "Score"
+msgstr "Punkte"
+
+#: scoredialog.cpp:48
+msgid "Name"
+msgstr "Name"
+
+#: scoredialog.cpp:61
+msgid "Noname"
+msgstr "Unbekannt"
+
+#: newscoredialog.cpp:36
+msgid "New High Score"
+msgstr "Neuer High score"
