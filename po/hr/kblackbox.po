@@ -106,7 +106,7 @@ msgstr "D'accord"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
-msgstr ""
+msgstr "Trèi"
 
 #: kbbgame.cpp:569
 msgid "Size"
@@ -114,7 +114,7 @@ msgstr "Velièina"
 
 #: kbbgame.cpp:572
 msgid "Placed"
-msgstr ""
+msgstr "Polo¾en"
 
 #: kbbgame.cpp:585
 msgid "Score"
@@ -131,12 +131,3 @@ msgstr "Nema veze..."
 #: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
 msgstr "O ne !"
-
-#~ msgid "&About KBlackBox"
-#~ msgstr "&O KBlackBoxu"
-
-#~ msgid "About &Qt"
-#~ msgstr "O &Qtu"
-
-#~ msgid "Qt information"
-#~ msgstr "Qt informacije"

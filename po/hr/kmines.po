@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
-"PO-Revision-Date: 1998-05-14 20:00-0500\n"
+"PO-Revision-Date: 1998-11-24 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "Normalno"
 
 #: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
-msgstr "Ekspert"
+msgstr "Struènjak"
 
 #: dialogs.cpp:317
 msgid "in"
@@ -61,7 +61,7 @@ msgstr "sekundi."
 
 #: dialogs.cpp:384 status.cpp:96
 msgid "Anonymous"
-msgstr "Anonimno"
+msgstr "Anonimac"
 
 #: field.cpp:81
 msgid "Game paused"
@@ -100,19 +100,16 @@ msgid "Hide menu bar"
 msgstr "Sakrij traku sa izbornicima"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Nova igra"
+msgstr "&Nova igra"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Zaustavi igru"
+msgstr "&Zaustavi igru"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Najvi¹i rezultati"
+msgstr "Naj&vi¹i rezultati"
 
 #: main.cpp:60
 msgid "? mark"
@@ -124,16 +121,15 @@ msgstr "Tipke"
 
 #: main.cpp:68
 msgid "Custom"
-msgstr "Prilagoðeno"
+msgstr "Prilagodi"
 
 #: main.cpp:74
 msgid "by"
 msgstr "od"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Razina"
+msgstr "&Razina"
 
 #: main.cpp:156
 msgid "Show menu bar"
