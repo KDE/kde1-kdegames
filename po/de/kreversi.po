@@ -6,7 +6,6 @@ msgstr ""
 "Last-Translator: Mario Weilguni <mweilguni@sime.com>\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
 msgstr "Über KReversi"
 
@@ -75,7 +74,6 @@ msgid "&Save game"
 msgstr "Spiel &speichern"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
 msgstr "Zug &vorschlagen"
 
@@ -381,19 +379,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Ihr Name:"
-
-#~ msgid "Name"
-#~ msgstr "Name"
-
-#~ msgid "&Rules"
-#~ msgstr "&Regeln"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "&Strategiehinweise"
-
-# app.cpp:317
-#~ msgid "About &Qt..."
-#~ msgstr "Über &Qt..."
-
-#~ msgid "&About..."
-#~ msgstr "Ü&ber..."
