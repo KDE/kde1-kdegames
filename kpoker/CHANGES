@@ -1,3 +1,14 @@
+Version 0.5
+
+- fixed a problem with the recognition of straights (the combo ace-2-3-4-5 was
+  not recognized in all versions <0.4.1
+
+- cleaned up the code a little
+
+- KPoker is now considered to be stable - I fixed all reported bugs and I did
+  not find any new ones :)
+
+------------------------------------------------------------------------------
 Version 0.4.1
 
 Silly me deleted some important lines that were initializing a timer while

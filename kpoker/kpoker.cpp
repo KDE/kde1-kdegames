@@ -314,11 +314,15 @@ int kpok::testStraight()
       cardTypes[w]=cardHelp[cards[w]];
       if (cardTypes[w]  < lowest) lowest=cardTypes[w];
    }
+   
+   /* look for special case ace-2-3-4-5 */
+   if (!(findCardTypes(cardTypes, 0) && findCardTypes(cardTypes, 12) && findCardTypes(cardTypes, 11) && findCardTypes(cardTypes, 10) && findCardTypes(cardTypes, 9)))  {
 
-   for (w=0; w<5; w++)
-      if (!findCardTypes(cardTypes,lowest+w))
-         return 0;
-
+	   for (w=0; w<5; w++)
+	       if (!findCardTypes(cardTypes,lowest+w))
+		   return 0;
+   }
+       
    for (w=0; w<5; w++)
       addFoundCard(w,cards[w]);
 
@@ -528,7 +532,7 @@ void kpok::drawCardsEvent()
 
          if (getCash() < cashPerRound) {
             KMsgBox::message(0,locale->translate("You Lost"), 
-                             locale->translate("Oops - you went bankrupt.\nA highscoretable will appear over here later..."),
+                             locale->translate("Oops - you went bankrupt.\n"),
                              KMsgBox::EXCLAMATION,locale->translate("New game"));
             initPoker();
          }

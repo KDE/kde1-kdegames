@@ -3,10 +3,10 @@
 <article>
 <title>KPoker help
 <author>Jochen Tuchbreiter, <htmlurl url="mailto:whynot@mabi.de" name="whynot@mabi.de">
-<date>v0.3, 26/02/98
+<date>v0.4, 06/18/98
 <abstract>
 This is the helpfile of KPoker, a little video poker clone. It was last
-updated for KPoker version 0.4.1
+updated for KPoker version 0.5
 </abstract>
 <toc>
 <sect>Introduction
@@ -48,7 +48,7 @@ Possible poker hands are:
 <item> Three of a kind: Three cards of the same rank
 <item> Four of a kind: Four cards of the same rank
 <item> Full House: Three cards of one rank and two cards of another
-<item> Straight  Five cards of consecutive rank
+<item> Straight  Five cards of consecutive rank including the combo ace-2-3-4-5
 <item> Flush: Five cards of the same suit
 <item> Straight flush: Five cards of the same suit and of consecutive rank
 <item> Royal flush: Ace, king, queen, jack, and ten of the same suit
