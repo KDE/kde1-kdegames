@@ -6,7 +6,7 @@ fi
 if test -s ./inst-apps; then
 ac_topsubdirs="`cat ./inst-apps`"
 for i in $ac_topsubdirs; do
-if test ! "$i" = "po"; then
+if test ! "$i" = "po" && test ! "$i" = "CVS"; then
 TOPSUBDIRS="$TOPSUBDIRS $i"
 fi
 done
@@ -17,7 +17,7 @@ TOPSUBDIRS=""
 	dirs=`find . -type d -depth -maxdepth 1 -print | sed -e "s#./##" | sed -e "s/\.//"`
 	for i in $dirs; do 
 	  echo $i >> ./SUBDIRS
-	  if test ! "$i" = "po"; then
+	  if test ! "$i" = "po" && test ! "$i" = "CVS"; then
 	  TOPSUBDIRS="$TOPSUBDIRS $i"
 	  fi
 	done
