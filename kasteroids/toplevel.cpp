@@ -159,7 +159,10 @@ void KAstTopLevel::createMenuBar()
 
     QPopupMenu *helpMenu = new QPopupMenu;
     CHECK_PTR( helpMenu );
-    helpMenu->insertItem( klocale->translate( "&About" ), this,
+    helpMenu->insertItem( klocale->translate( "&Help" ), this,
+	SLOT(slotHelp()) );
+    helpMenu->insertSeparator( );
+    helpMenu->insertItem( klocale->translate( "&About..." ), this,
 	SLOT(slotAbout()) );
 
     menu->insertItem( klocale->translate( "&File" ), fileMenu );
@@ -265,6 +268,11 @@ void KAstTopLevel::slotNewGame()
 void KAstTopLevel::slotQuit()
 {
     kapp->quit();
+}
+
+void KAstTopLevel::slotHelp()
+{
+    kapp->invokeHTMLHelp( "", "" );
 }
 
 void KAstTopLevel::slotAbout()

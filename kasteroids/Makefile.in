@@ -33,6 +33,7 @@ BINDIR = $(prefix)/bin
 PICSDIR = $(prefix)/share/apps/kasteroids/sprites
 APPSDIR = $(prefix)/share/applnk/Games
 ICONDIR = $(prefix)/share/icons
+DOCSDIR = $(prefix)/share/doc/HTML/en/kasteroids
 
 ########### File Formats ###########
 
@@ -86,6 +87,8 @@ install-data:
 	$(INSTALL_DATA) kasteroids.xpm $(ICONDIR)
 	$(INSTALL_DIR) $(ICONDIR)/mini
 	$(INSTALL_DATA) mini-kasteroids.xpm $(ICONDIR)/mini/kasteroids.xpm
+	$(INSTALL_DIR) $(DOCSDIR)
+	$(INSTALL_DATA) html/index.html $(DOCSDIR)
 	(cd sprites && $(MAKE) install)
  
 uninstall:

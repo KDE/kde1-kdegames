@@ -12,6 +12,7 @@ Comment[pl]=Znana gra zrêczno¶ciowa.
 Icon=kasteroids.xpm
 TerminalOptions=
 Path=
+DocPath=kasteroids/index.html
 Type=Application
 Comment[de]=Ein bekanntes Ballerspiel
 Terminal=0
