@@ -2,7 +2,7 @@
 # This has to be set. The rest should be reusable
 GMOFILES = kasteroids.gmo kmines.gmo kmahjongg.gmo ktetris.gmo \
 	kabalone.gmo kpat.gmo kpoker.gmo kreversi.gmo kshisen.gmo \
-	ksame.gmo ksnake.gmo
+	ksame.gmo ksnake.gmo kblackbox.gmo
 POFILES = $(GMOFILES:.gmo=.po)
 
 LANG = nl

@@ -1,0 +1,172 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Hans Petter Bieker <zerium@webindex.no>, 1998.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"PO-Revision-Date: 1998-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: kbbgame.cpp:72 kbbgame.cpp:109
+msgid "&Help"
+msgstr "&Hjelp"
+
+#: kbbgame.cpp:75
+msgid "&About KBlackBox"
+msgstr "&Om KBlackBox"
+
+#: kbbgame.cpp:79
+msgid "About &Qt"
+msgstr "Om &Qt"
+
+#: kbbgame.cpp:82
+msgid "&Quit"
+msgstr "&Avslutt"
+
+#: kbbgame.cpp:84
+msgid "&New"
+msgstr "&Ny"
+
+#: kbbgame.cpp:85
+msgid "&Give up"
+msgstr "&Gi opp"
+
+#: kbbgame.cpp:87
+msgid "&Resize"
+msgstr "&Endre størrelse"
+
+#: kbbgame.cpp:99
+msgid "&Size"
+msgstr "&Størrelse"
+
+#: kbbgame.cpp:100
+msgid "&Balls"
+msgstr "&Baller"
+
+#: kbbgame.cpp:101
+msgid "&Tutorial"
+msgstr "&Læremester"
+
+#: kbbgame.cpp:105
+msgid "&File"
+msgstr "&Fil"
+
+#: kbbgame.cpp:106
+msgid "&Game"
+msgstr "&Spill"
+
+#: kbbgame.cpp:107
+msgid "&Options"
+msgstr "&Valg"
+
+#: kbbgame.cpp:148
+msgid "Done"
+msgstr "Fullført"
+
+#: kbbgame.cpp:150
+msgid "Click here when you think you placed all the balls."
+msgstr "Klikker her når du tror du har plassert alle ballene."
+
+#: kbbgame.cpp:157
+msgid "This is your score."
+msgstr "Dette er poengene dine."
+
+#: kbbgame.cpp:161
+msgid "These are some game statistics."
+msgstr "Dette er litt spillstatistikk."
+
+#: kbbgame.cpp:361
+msgid "About"
+msgstr "Om"
+
+#: kbbgame.cpp:363
+msgid ""
+"KBlackBox logical game\n"
+"author: Robert Cimrman\n"
+"e-mail: cimrman3@students.zcu.cz"
+msgstr ""
+"KBlackBox logisk spill\n"
+"forfatter: Robert Cimrman\n"
+"epost: cimrman3@students.zcu.cz"
+
+#: kbbgame.cpp:368
+msgid "Qt information"
+msgstr "Qt-informasojn"
+
+#: kbbgame.cpp:429
+#, c-format
+msgid "Your final score is: %d."
+msgstr "Din endelige poengsum er: %d."
+
+#: kbbgame.cpp:431
+msgid "Wow!"
+msgstr "Åj!"
+
+#: kbbgame.cpp:433
+msgid "Damned!"
+msgstr "Faen!"
+
+#: kbbgame.cpp:436
+#, c-format
+msgid ""
+"You should place %d balls!\n"
+"You have placed %d."
+msgstr ""
+"Du skal plassere %d baller!\n"
+"Du har plassert %d."
+
+#: kbbgame.cpp:438
+msgid "D'accord"
+msgstr "Samsvaret"
+
+#: kbbgame.cpp:493 kbbgame.cpp:546 kbbgame.cpp:572
+msgid "Warning!"
+msgstr "Varsel!"
+
+#: kbbgame.cpp:495
+msgid "Do you really want to give up this game?"
+msgstr "Ønsker du virkelig å gi opp dette spillet?"
+
+#: kbbgame.cpp:496
+msgid "Yes, I'm burnt out."
+msgstr "Ja, jeg er utbrent"
+
+#: kbbgame.cpp:497
+msgid "No, not yet..."
+msgstr "Nei, ikke ennå..."
+
+#: kbbgame.cpp:514 kbbgame.cpp:519
+#, c-format
+msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
+msgstr " Kjører: %s, Størrelse: %3d x%3d, Baller: %3d /%3d"
+
+#: kbbgame.cpp:515
+msgid "Yes"
+msgstr "Ja"
+
+#: kbbgame.cpp:520
+msgid " No"
+msgstr " Nei"
+
+#: kbbgame.cpp:533
+#, c-format
+msgid " Score %4d"
+msgstr " Poengsum %4d"
+
+#: kbbgame.cpp:548 kbbgame.cpp:574
+msgid "This will be the end of the current game!"
+msgstr "Dette vil være slutten av gjeldende spill!"
+
+#: kbbgame.cpp:549 kbbgame.cpp:575
+msgid "Oh, no!"
+msgstr "Åh, nei!"
+
+#: kbbgame.cpp:550 kbbgame.cpp:576
+msgid "Never mind..."
+msgstr "Glem det..."
