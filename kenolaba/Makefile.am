@@ -25,7 +25,7 @@ SUBDIRS = html toolbar
 appsdir = $(kde_appsdir)/Games
 apps_DATA = kabalone.kdelnk
 
-install-local-data:
+install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-kabalone.xpm $(kde_minidir)/kabalone.xpm
 

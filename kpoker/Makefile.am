@@ -20,7 +20,7 @@ DISTCLEANFILES = $(SRCMETA)
 SUBDIRS = docs sounds bitmaps
 
 
-install-local-data:
+install-data-local:
 	$(INSTALL_DIR) $(kde_minidir)
 	$(INSTALL_DATA) mini-kpoker.xpm $(kde_minidir)/kpoker.xpm
 
