@@ -1,12 +1,14 @@
-
+/*
+ * KAsteroids - Copyright (c) Martin R. Jones 1997
+ *
+ * Part of the KDE project
+ */
 #include <kapp.h>
 #include <klocale.h>
 #include <time.h>
 #include "toplevel.h"
 
 #include <X11/Xlib.h>
-
-KLocale locale( "kasteroids" );
 
 int main( int argc, char *argv[] )
 {
