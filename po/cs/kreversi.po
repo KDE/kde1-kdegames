@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: 1998-04-17 15:45 MET DST\n"
+"PO-Revision-Date: 1998-06-20 18:49 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr ""
 "Podìkování pro:\n"
 "\tMatse Luthmana za herní engine (Pøenesl jsem ho z JAVA appletu)\n"
 "\n"
-"\tStephana Kulowova <coolo@kde.org> za komentáøe a odstranìní "
+"\tStephana Kulowova <coolo@itm.mu-luebeck.de> za komentáøe a odstranìní "
 "chyb\n"
 "\n"
 "\tArne Klaassena <klaassen@informatik.uni-rostock.de> za raytraceované hrací "
@@ -98,7 +98,7 @@ msgstr "Prohoï s&trany"
 
 #: app.cpp:260
 msgid "Hall Of &Fame..."
-msgstr "Hala &Slávy..."
+msgstr "&Hala Slávy..."
 
 #: app.cpp:266
 msgid "Level 1 (Wimp)"
@@ -134,7 +134,7 @@ msgstr "Dovednost"
 
 #: app.cpp:275
 msgid "&Shrink board"
-msgstr "&Zmen¹it desku"
+msgstr "Z&men¹it desku"
 
 #: app.cpp:276
 msgid "&Enlarge board"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktetris\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: 1998-04-17 15:45 MET DST\n"
+"PO-Revision-Date: 1998-06-20 18:47 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -267,7 +267,7 @@ msgstr "Úroveò"
 
 #: field.cpp:64
 msgid "Next tile"
-msgstr "Následující dla¾dice"
+msgstr "Následující"
 
 #: field.cpp:185
 msgid "&Restart game"
