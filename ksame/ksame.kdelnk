@@ -21,7 +21,6 @@ Exec=ksame -caption "%c"
 Type=Application
 DocPath=ksame/index.html
 Comment=A little board game
-Comment[br]=Ur c'hoari taolenn bihan
 Comment[ca]=Petit joc de tauler
 Comment[cs]=Malá desková hra
 Comment[da]=Et lille brætspil
