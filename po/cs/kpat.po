@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
-"PO-Revision-Date: 1998-03-28 22:43 MET\n"
+"PO-Revision-Date: 1998-06-18 09:41 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -173,7 +173,7 @@ msgstr "Animace pøi startu"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Patience"
 
 #: pwidget.cpp:128
 msgid ""
@@ -181,7 +181,7 @@ msgid ""
 "\n"
 "by Paul Olav Tvetei\n"
 "\n"
-msgstr ""
+msgstr "\n\nnapsal Paul Olav Tvetei\n\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
-"PO-Revision-Date: 1998-03-28 22:43 MET\n"
+"PO-Revision-Date: 1998-06-18 09:44 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,59 +15,51 @@ msgstr ""
 
 #: dialogs.cpp:94
 msgid "kmines : Customize Game"
-msgstr ""
+msgstr "kmines :  Pøizpùsobit hru"
 
 #: dialogs.cpp:122
-#, fuzzy
 msgid "Width"
-msgstr "©íøka :"
+msgstr "©íøka"
 
 #: dialogs.cpp:147
-#, fuzzy
 msgid "Height"
-msgstr "Vý¹ka :"
+msgstr "Vý¹ka"
 
 #: dialogs.cpp:172
-#, fuzzy
 msgid "Mines"
-msgstr "Poèet min :"
+msgstr "Poèet min"
 
 #: dialogs.cpp:257
-#, fuzzy
 msgid "kmines : High Scores"
-msgstr "Nejlep¹í výsledky"
+msgstr "kmines : Nejlep¹í výsledky"
 
 #: dialogs.cpp:287
-#, fuzzy
 msgid "Easy :"
-msgstr "Snadná"
+msgstr "Snadná :"
 
 #: dialogs.cpp:288
 msgid "Normal :"
-msgstr ""
+msgstr "Normální :"
 
 #: dialogs.cpp:289
-#, fuzzy
 msgid "Expert :"
-msgstr "Pro experty"
+msgstr "Pro experty :"
 
 #: dialogs.cpp:315
 msgid "in"
 msgstr "za"
 
 #: dialogs.cpp:330
-#, fuzzy
 msgid "minutes."
-msgstr "minut a "
+msgstr "minut."
 
 #: dialogs.cpp:331
-#, fuzzy
 msgid "minutes"
-msgstr "minut a "
+msgstr "minut"
 
 #: dialogs.cpp:340
 msgid "and"
-msgstr ""
+msgstr "a"
 
 #: dialogs.cpp:352
 msgid "seconds."
@@ -155,14 +147,14 @@ msgstr "Vlastní"
 
 #: main.cpp:70
 msgid "Minesweeper"
-msgstr ""
+msgstr "Hledání min"
 
 #: main.cpp:73
 msgid ""
 "\n"
 "\n"
 "by Nicolas Hadacek"
-msgstr ""
+msgstr "\n\nnapsal Nicolas Hadacek"
 
 #: main.cpp:79
 msgid "Level"
@@ -171,15 +163,3 @@ msgstr "Úroveò"
 #: main.cpp:150
 msgid "Show menu bar"
 msgstr "Zobrazit menu"
-
-#~ msgid "Custom Level"
-#~ msgstr "Vlastní úroveò"
-
-#~ msgid "Hall of Fame"
-#~ msgstr "Hala slávy"
-
-#~ msgid "Uncertain (?) mark"
-#~ msgstr "Pou¾ívat znaèku nejistoty (?)"
-
-#~ msgid "Try again"
-#~ msgstr "Skus znova"
