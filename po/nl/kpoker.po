@@ -1,0 +1,119 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Case Roole <cjr@xs4all.nl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kpoker.cpp:98
+msgid "Draw !"
+msgstr "Trek een kaart !"
+
+#: kpoker.cpp:125
+msgid "Click a card to hold it"
+msgstr "Klik een kaart om deze te houden"
+
+#: kpoker.cpp:146
+msgid "Held"
+msgstr "Gehouden"
+
+#: kpoker.cpp:185
+msgid "draw new cards"
+msgstr "trek nieuwe kaarten"
+
+#: kpoker.cpp:186 kpoker.cpp:187
+msgid "your last hand"
+msgstr "uw laatste hand"
+
+#: kpoker.cpp:188 kpoker.cpp:189
+msgid "money left"
+msgstr "overgebleven geld"
+
+#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
+msgid "nothing"
+msgstr "niets"
+
+#: kpoker.cpp:366
+msgid "Cash"
+msgstr "Cash"
+
+#: kpoker.cpp:402
+msgid "Last Hand"
+msgstr "Vorige Hand"
+
+#: kpoker.cpp:513
+msgid "One Pair"
+msgstr "One Pair"
+
+#: kpoker.cpp:514
+msgid "Two Pairs"
+msgstr "Two Pairs"
+
+#: kpoker.cpp:515
+msgid "3 of a kind"
+msgstr "3 of a kind"
+
+#: kpoker.cpp:516
+msgid "Full House"
+msgstr "Full House"
+
+#: kpoker.cpp:517
+msgid "4 of a kind"
+msgstr "4 of a kind"
+
+#: kpoker.cpp:518
+msgid "Straight"
+msgstr "Straight"
+
+#: kpoker.cpp:519
+msgid "Flush"
+msgstr "Flush"
+
+#: kpoker.cpp:520
+msgid "Straight Flush"
+msgstr "Straight Flush"
+
+#: kpoker.cpp:521
+msgid "Royal Flush"
+msgstr "Royal Flush"
+
+#: kpoker.cpp:530
+msgid "You Lost"
+msgstr "U hebt verloren"
+
+#: kpoker.cpp:531
+msgid ""
+"Oops - you went bankrupt.\n"
+"A highscoretable will appear over here later..."
+msgstr ""
+"Oeps - u bent bankroet gegaan.\n"
+"Een topscore tabel zal hier dadelijk verschijnen..."
+
+#: kpoker.cpp:532
+msgid "New game"
+msgstr "Nieuw spel"
+
+#: kpoker.cpp:613
+msgid "You won $"
+msgstr "U won $"
+
+#: kpoker.cpp:616
+msgid "Game Over"
+msgstr "Spel over"
+
+#: top.cpp:64
+msgid "&New game"
+msgstr "&Nieuw spel"
+
+#: top.cpp:70
+msgid "&Sound"
+msgstr "&Geluid"
