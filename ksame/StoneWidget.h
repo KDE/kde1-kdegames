@@ -57,6 +57,8 @@ public:
     int getSizex();
 
     int getSizey();
+    int getColors() { return colors; }
+    void setColors(int c) { colors = c; }
 
     // Spielende abfragen
     int isGameover();

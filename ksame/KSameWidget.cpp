@@ -30,10 +30,16 @@
 #include <kmsgbox.h> 
 #include <kiconloader.h>
 #include "StoneWidget.h"
+#include "ScoreWidget.h"
 //#include "KSameWidget.h"
 #include "KSameWidget.moc"
 #include <qpopmenu.h> 
 #include <kstatusbar.h> 
+
+static const int three_item = 3;
+static const int four_item = 4;
+static const int five_item = 5;
+static const int six_item = 6;
 
 KSameWidget::KSameWidget() {
 
@@ -47,17 +53,19 @@ KSameWidget::KSameWidget() {
   filemenu->insertItem("Quit",this, SLOT(m_quit()));
   menu->insertItem("File",filemenu);
   menu->insertSeparator();
-  QPopupMenu *optionsmenu=new QPopupMenu;
+  optionsmenu = new QPopupMenu;
   
-  QPopupMenu *colorsmenu=new QPopupMenu;
-  colorsmenu->insertItem("3",this, SLOT(m_colors3()));
-  colorsmenu->insertItem("4",this, SLOT(m_colors4())); 
-  colorsmenu->insertItem("5",this, SLOT(m_colors5())); 
-  colorsmenu->insertItem("6",this, SLOT(m_colors6())); 
+  colorsmenu = new QPopupMenu;
+  colorsmenu->insertItem("3", three_item );
+  colorsmenu->insertItem("4", four_item ); 
+  colorsmenu->insertItem("5", five_item );
+  colorsmenu->insertItem("6", six_item);
+  connect (colorsmenu, SIGNAL (activated (int)), SLOT (m_colors(int)));
+
   optionsmenu->insertItem("Colors",colorsmenu);
 
-  optionsmenu->insertItem("Random Board",this, SLOT(m_tglboard()));
-  optionsmenu->insertItem("Multispin",this, SLOT(m_tglmultispin()));
+  random_item = optionsmenu->insertItem("Random Board",this, SLOT(m_tglboard()));
+  multispin_item = optionsmenu->insertItem("Multispin",this, SLOT(m_tglmultispin()));
   menu->insertItem("Options",optionsmenu);
   menu->insertSeparator();
 
@@ -82,6 +90,8 @@ KSameWidget::KSameWidget() {
   connect( stone, SIGNAL(s_updateColors(int)), this, SLOT(updatecolors(int))); 
   connect( stone, SIGNAL(s_updateBoard(int)), this, SLOT(updateboard(int)));  
   connect( stone, SIGNAL(s_updateScore(int)), this, SLOT(updatescore(int)));   
+  optionsmenu->setItemChecked(multispin_item, stone->getMultiSpin());
+  colorsmenu->setItemChecked(stone->getColors(), true);
   setView(stone);
 
   stone->newGame();
@@ -111,9 +121,6 @@ KSameWidget::~KSameWidget() {
   debug("~KSameWidget\n"); 
 }
 
-
-
-
 void KSameWidget::m_new() {
   if (stone->isGameover()||
       (KMsgBox::yesNo(this, "ksame - New", 
@@ -131,23 +138,20 @@ void KSameWidget::m_quit() {
 		     "Do you want really quit?", KMsgBox::STOP)==1)
     kapp->quit();
 }
-void KSameWidget::m_colors3() {
-  debug("menu colors not supported");
+
+void KSameWidget::m_colors( int id) {
+    colorsmenu->setItemChecked(stone->getColors(), false);
+    stone->setColors(id);
+    colorsmenu->setItemChecked(id, true);
+    stone->newGame();
 }
-void KSameWidget::m_colors4() {
-  debug("menu colors not supported");
-}
-void KSameWidget::m_colors5() {
-  debug("menu colors not supported");
-}
-void KSameWidget::m_colors6() {
-  debug("menu colors not supported");
-}
+
 void KSameWidget::m_tglboard() {
   debug("menu board not supported");
 }
 void KSameWidget::m_tglmultispin() {
     stone->setMultiSpin(!stone->getMultiSpin());
+    optionsmenu->setItemChecked(multispin_item, stone->getMultiSpin());
 }
 void KSameWidget::m_help() {
   debug("menu help not supported");

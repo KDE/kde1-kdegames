@@ -25,10 +25,11 @@
 #include <kbutton.h>
 #include <qpushbt.h>
 #include <qlcdnum.h>
-#include "StoneWidget.h"
-#include "ScoreWidget.h"
 #include <ktopwidget.h> 
 #include <kmenubar.h>
+
+class StoneWidget;
+class ScoreWidget;
 
 class KSameWidget: public KTopLevelWidget {
  Q_OBJECT
@@ -40,6 +41,11 @@ private:
     StoneWidget *stone;
     ScoreWidget *hiscore;
     KStatusBar *status;
+    
+    QPopupMenu *colorsmenu;
+    QPopupMenu *optionsmenu;
+    int multispin_item;
+    int random_item;
 
 public slots: 
   /* File Menu */
@@ -49,10 +55,7 @@ public slots:
     void m_quit();
     
     /* Options Menu */
-    void m_colors3();
-    void m_colors4();
-    void m_colors5();
-    void m_colors6();
+    void m_colors(int);
     void m_tglboard();
     void m_tglmultispin();
   /* Help Menu */
