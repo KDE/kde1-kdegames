@@ -36,7 +36,7 @@ uninstall-local:
 	-rm -f $(kde_minidir)/kabalone.xpm
 
 messages:
-	@XGETTEXT@  --keyword=translate -C -x../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/kabalone.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kabalone_SOURCES) && mv messages.po ../po/kabalone.pot
 
 AbTop.cpp:AbTop.moc
 AbTop.moc: AbTop.h

@@ -33,7 +33,7 @@ uninstall-local:
 	-rm -f $(kde_minidir)/kasteroids.xpm
 
 messages:
-	@XGETTEXT@ -C -ktranslate -x ../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/kasteroids.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kasteroids_SOURCES) && mv messages.po ../po/kasteroids.pot
 
 # Dependencies
 view.cpp:view.moc

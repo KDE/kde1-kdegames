@@ -42,6 +42,6 @@ uninstall-local:
 	-rm -f $(kde_minidir)/ksnake.xpm
 
 messages:
-	$(XGETTEXT) -C -ki18n -ktranslate -x../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/ksnake.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(ksnake_SOURCES) && mv messages.po ../po/ksnake.pot
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.

@@ -31,7 +31,7 @@ uninstall-local:
 	rm -f $(kde_minidir)/kpoker.xpm
 
 messages:
-	@XGETTEXT@ -C -ktranslate -x ../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/kpoker.pot 
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kpoker_SOURCES) && mv messages.po ../po/kpoker.pot 
 
 kpoker.cpp:kpoker.moc
 kpoker.moc: kpoker.h

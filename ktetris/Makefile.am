@@ -19,7 +19,7 @@ noinst_HEADERS = board.h ggboard.h spiece.h dbutton.h gtboard.h tpiece.h \
 				defines.h gtetris.h version.h dialogs.h main.h field.h net.h
 
 messages:
-	$(XGETTEXT) -C -ktranslate -ki18n -x ../../kdelibs/po/kde.pot $(ktetris_SOURCES) && mv messages.po ../po/ktetris.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(ktetris_SOURCES) && mv messages.po ../po/ktetris.pot
 
 SUBDIRS = data
 
