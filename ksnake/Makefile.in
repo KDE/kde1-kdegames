@@ -5,6 +5,12 @@ qt_libraries	= @qt_libraries@
 top_builddir 	= ..
 LIBTOOL 	= @LIBTOOL@
 KDE_RPATH 	= @KDE_RPATH@
+install_root    = @install_root@
+kde_datadir     = @kde_datadir@
+kde_appsdir     = @kde_appsdir@
+kde_bindir      = @kde_bindir@
+kde_minidir     = @kde_minidir@
+kde_icondir     = @kde_icondir@
 
 # @CXXFLAGS@     : is set to -g -Wall (when debuging) or -O2 -Wall (when not)
 # @all_includes@ : is set to all needed include paths for QT, KDE and X11
@@ -29,10 +35,10 @@ INSTALL_DIR = $(install) -d -m 0755
 INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 
 prefix = @prefix@
-BINDIR = $(prefix)/bin
-APPSDIR = $(prefix)/share/applnk/Games
-ICONDIR = $(prefix)/share/icons
-MINIDIR = $(prefix)/share/icons/mini
+BINDIR = $(kde_bindir)
+APPSDIR = $(kde_appsdir)/Games
+ICONDIR = $(kde_icondir)
+MINIDIR = $(kde_minidir)
 
 ########### File Formats ###########
 

@@ -91,7 +91,6 @@ PAMLIBS = @PAMLIBS@
 QT_INCLUDES = @QT_INCLUDES@
 QT_LDFLAGS = @QT_LDFLAGS@
 RANLIB = @RANLIB@
-TOPSUBDIRS = @TOPSUBDIRS@
 USE_NLS = @USE_NLS@
 VERSION = @VERSION@
 XGETTEXT = @XGETTEXT@
@@ -101,6 +100,7 @@ X_INCLUDES = @X_INCLUDES@
 X_LDFLAGS = @X_LDFLAGS@
 all_includes = @all_includes@
 all_libraries = @all_libraries@
+install_root = @install_root@
 kde_appsdir = @kde_appsdir@
 kde_bindir = @kde_bindir@
 kde_cgidir = @kde_cgidir@
@@ -109,7 +109,6 @@ kde_datadir = @kde_datadir@
 kde_htmldir = @kde_htmldir@
 kde_icondir = @kde_icondir@
 kde_includes = @kde_includes@
-kde_kccmodules = @kde_kccmodules@
 kde_libraries = @kde_libraries@
 kde_locale = @kde_locale@
 kde_mimedir = @kde_mimedir@
@@ -228,7 +227,7 @@ mostlyclean-libtool:
 	-rm -f *.lo
 
 clean-libtool:
-	-rm -rf .libs
+	-rm -rf _libs
 
 distclean-libtool:
 

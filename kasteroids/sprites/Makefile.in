@@ -13,7 +13,9 @@ distclean: clean
 
 FILES = `find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
 prefix = @prefix@
-DESTDIR = $(prefix)/share/apps/kasteroids/sprites
+kde_datadir = @kde_datadir@
+install_root = @install_root@
+DESTDIR = $(kde_datadir)/kasteroids/sprites
 INSTALL_DATA = @INSTALL@ -m 644
 mkinstalldirs = $(SHELL) @top_srcdir@/mkinstalldirs
 
