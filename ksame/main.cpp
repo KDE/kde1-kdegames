@@ -70,14 +70,18 @@ int main( int argc, char **argv )
   label->show();
   
   QTabBar *tabbar=new QTabBar(&highscore);
-  QTab c1,c2,c3;
-  c1.label="&two colors";c1.enabled=true;
-  c2.label="th&ree colors";c2.enabled=true;
-  c3.label="&four colors";c3.enabled=true;
+  // child widgets must be created on heap, since they
+  // are deleted by the parent widget
+  QTab *c1 = new QTab;
+  QTab *c2 = new QTab;
+  QTab *c3 = new QTab;
+  c1->label="&two colors";c1->enabled=true;
+  c2->label="th&ree colors";c2->enabled=true;
+  c3->label="&four colors";c3->enabled=true;
   
-  tabbar->addTab(&c1);
-  tabbar->addTab(&c2);
-  tabbar->addTab(&c3);
+  tabbar->addTab(c1);
+  tabbar->addTab(c2);
+  tabbar->addTab(c3);
   tabbar->move(0,size.height());
   tabbar->resize(tabbar->sizeHint());
   //  size.rwidth()=tabbar->width();

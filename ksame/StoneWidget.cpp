@@ -82,10 +82,8 @@ StoneWidget::StoneWidget( QWidget *parent, int x, int y )
  StoneWidget::~StoneWidget() {  
    setMouseTracking(FALSE);
    killTimers();
-   if (field)   
-      delete field;
-   if (tempmap)
-      delete tempmap;
+   delete field;
+   delete tempmap;
    //   debug("~StoneWidget\n");
 }
 
@@ -96,9 +94,9 @@ void StoneWidget::setStoneSize(int size_x, int size_y) {
     setGeometry(0,0,dx*sx,dy*sy);
     setMinimumSize( dx*sx,dy*sy);
     setMaximumSize( dx*sx,dy*sy);  
-    if (field) delete field;
+    delete field;
     field = new unsigned char[sx*sy];
-    if (spin) delete spin;
+    delete spin;
     spin = new unsigned char[sx*sy];
     lastpoint=-1;
     slice=0;
