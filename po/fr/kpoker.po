@@ -111,7 +111,7 @@ msgstr "&Sons"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
@@ -119,6 +119,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"par Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -132,6 +135,8 @@ msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Suggestions, rapports de bug, etc. sont les bienvenus"
 
 #~ msgid ""
 #~ "Oops - you went bankrupt.\n"
