@@ -1,10 +1,8 @@
-# KTranslator Generated File
-# KTranslator Generated File
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines revision 1.7\n"
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
-"PO-Revision-Date: 1998-08-22 21:41+SET\n"
+"PO-Revision-Date: 1998-11-21 21:41+SET\n"
 "Last-Translator:  Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -37,7 +35,7 @@ msgstr "Lätt"
 
 #: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
@@ -102,21 +100,21 @@ msgstr "Göm menyrad"
 #: main.cpp:46
 #, fuzzy
 msgid "&New game"
-msgstr "Nytt spel"
+msgstr "&Nytt spel"
 
 #: main.cpp:49
 #, fuzzy
 msgid "&Pause game"
-msgstr "Pausa spelet"
+msgstr "&Pausa spelet"
 
 #: main.cpp:52
 #, fuzzy
 msgid "&High scores"
-msgstr "Poängtoppen"
+msgstr "Po&ängtoppen"
 
 #: main.cpp:60
 msgid "? mark"
-msgstr "?-markera"
+msgstr "? markera"
 
 #: main.cpp:61
 msgid "Keys"
@@ -133,7 +131,7 @@ msgstr "av"
 #: main.cpp:79
 #, fuzzy
 msgid "&Level"
-msgstr "Nivå"
+msgstr "Niv&å"
 
 #: main.cpp:156
 msgid "Show menu bar"

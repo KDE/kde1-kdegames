@@ -1,9 +1,8 @@
-# KTranslator Generated File
 msgid ""
 msgstr ""
 "Project-Id-Version: kasteroids revision 1.6\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-08-22 21:35+SET\n"
+"PO-Revision-Date: 1998-11-21 21:35+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -25,7 +24,7 @@ msgstr "Farkoster"
 #: toplevel.cpp:186
 #, fuzzy
 msgid "Asteroids"
-msgstr "KAsteriods"
+msgstr "Asterioder"
 
 #: toplevel.cpp:188
 msgid ""
@@ -33,6 +32,9 @@ msgid ""
 "\n"
 "by Martin R. Jones"
 msgstr ""
+"\n"
+"\n"
+"av Martin R. Jones"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."
@@ -40,7 +42,7 @@ msgstr "Tryck Enter för att starta."
 
 #: toplevel.cpp:336
 msgid "Ship Destroyed.  Press Enter to launch."
-msgstr "Farkost förstört. Tryck ENTER för nästa."
+msgstr "Farkost förstört. Tryck Enter för nästa."
 
 #: toplevel.cpp:340
 msgid "KAsteriods"

@@ -1,10 +1,8 @@
-# KTranslator Generated File
-# KTranslator Generated File
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame revision 1.4\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: 1998-08-22 21:50+SET\n"
+"PO-Revision-Date: 1998-11-21 21:50+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -13,21 +11,21 @@ msgstr ""
 
 #: KSameWidget.cpp:50
 msgid "&New"
-msgstr ""
+msgstr "&Ny"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "Ö&ppna"
 
 #: KSameWidget.cpp:57
 #, fuzzy
 msgid "S&how Highscore"
-msgstr "Visa poängtoppen"
+msgstr "V&isa poängtoppen"
 
 #: KSameWidget.cpp:76
 #, fuzzy
 msgid "&Random Board"
-msgstr "Slumpmässigt bräde"
+msgstr "Slumpmässigt b&räde"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"

@@ -1,9 +1,8 @@
-# KTranslator Generated File
 msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg revision 1.7\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-08-22 20:29+SET\n"
+"PO-Revision-Date: 1998-11-21 20:29+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -74,7 +73,7 @@ msgstr "Kan inte öppna bitmapfil!"
 
 #: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
-msgstr "Ångra operation lyckad."
+msgstr "Operationen ängra lyckad."
 
 #: kmahjongg.cpp:458
 msgid "What do you want to undo? You have done nothing!"

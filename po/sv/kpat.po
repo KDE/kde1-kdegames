@@ -1,9 +1,8 @@
-# KTranslator Generated File
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat revision 1.7\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-08-22 20:33+SET\n"
+"PO-Revision-Date: 1998-11-21 20:33+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +15,7 @@ msgstr "vänta, läser kort..."
 
 #: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
-msgstr "KPat - Patiens"
+msgstr "KPat - Patiensspelet"
 
 #: cardmaps.cpp:105
 #, c-format
@@ -46,7 +45,7 @@ msgstr "Lätt 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -81,7 +80,7 @@ msgid ""
 "This will end the current game\n"
 "Are you sure you want to do this?"
 msgstr ""
-"Detta kommer att avsluta nuvarande spel\n"
+"Detta kommer att avsluta nuvarande spel.\n"
 "Är du säker på att du vill göra detta?"
 
 #: grandf.cpp:35
@@ -142,7 +141,7 @@ msgstr "Mod3"
 
 #: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
-msgstr "Freecell"
+msgstr "Fricell"
 
 #: pwidget.cpp:110
 msgid "Choose new game"
@@ -174,7 +173,7 @@ msgstr "Animering vid uppstart"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr "Tålmodighet"
+msgstr "Patiens"
 
 #: pwidget.cpp:128
 msgid ""

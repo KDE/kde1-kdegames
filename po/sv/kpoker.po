@@ -1,10 +1,8 @@
-# KTranslator Generated File
-# KTranslator Generated File
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker revision 1.7\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-08-22 21:45+SET\n"
+"PO-Revision-Date: 1998-11-21 21:45+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +47,7 @@ msgstr "Kontanter"
 
 #: kpoker.cpp:408
 msgid "Last Hand"
-msgstr "Senasta handen"
+msgstr "Senaste handen"
 
 #: kpoker.cpp:519
 msgid "One Pair"
@@ -113,7 +111,7 @@ msgstr "&Ljud"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
@@ -121,6 +119,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"av Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -128,9 +129,17 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"För en fullständig tacklista se hjälpfilen"
+""
+""
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Förslag, buggrapporter etc. är välkomna"
+""
