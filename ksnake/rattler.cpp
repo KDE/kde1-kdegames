@@ -76,8 +76,9 @@ void Rattler::paintEvent( QPaintEvent *e)
 
     if (!rect.isEmpty()) {
 	dirty = TRUE;
+	QPixmap levelPix = pix->levelPix();
 	bitBlt(this, rect.x(), rect.y(),
-	       &pix->levelPix(), rect.x(), rect.y(), rect.width(), rect.height());
+	       &levelPix, rect.x(), rect.y(), rect.width(), rect.height());
     }
 
     if (!gameState.testBit(Init) && !gameState.testBit(Over)) {
