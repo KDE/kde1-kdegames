@@ -2,17 +2,17 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kmahjongg\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: 1998-12-06 20:00+0200\n"
-"Last-Translator: Montel Laurent <montell@club-internet.fr>\n"
+"PO-Revision-Date: 1999-02-25 12:30+0200\n"
+"Last-Translator: Francois-Xavier Duranceau <Francois-Xavier.Duranceau@loria.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Translator: Montel Laurent <montell@club-internet.fr>\n"
 
 #: kmahjongg.cpp:101
 msgid "Classic"
@@ -40,15 +40,15 @@ msgstr "&Aide moi"
 
 #: kmahjongg.cpp:214
 msgid "&Undo last move"
-msgstr "&Annuler le dernier déplacement"
+msgstr "A&nnuler le dernier déplacement"
 
 #: kmahjongg.cpp:215
 msgid "&Demo mode"
-msgstr "Mode démonstration"
+msgstr "&Mode démonstration"
 
 #: kmahjongg.cpp:216
 msgid "Show &matching tiles"
-msgstr ""
+msgstr "Afficher les &pièces identiques"
 
 #: kmahjongg.cpp:222
 msgid "&Load Background image..."
@@ -56,7 +56,7 @@ msgstr "&Charger une image de fond..."
 
 #: kmahjongg.cpp:224
 msgid "&Statusbar"
-msgstr ""
+msgstr "&Barre d'état"
 
 #: kmahjongg.cpp:227
 #, c-format
@@ -65,6 +65,9 @@ msgid ""
 "\n"
 "by Mathias Mueller (in5y158@public.uni-hamburg.de)"
 msgstr ""
+"Mahjongg %s\n"
+"\n"
+"par Mathias Mueller (in5y158@public.uni-hamburg.de)"
 
 #: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"
@@ -76,7 +79,7 @@ msgstr "Annulé avec succès."
 
 #: kmahjongg.cpp:457
 msgid "What do you want to undo? You have done nothing!"
-msgstr "Qu'est ce que vous voulez annuler? Vous n'avez rien précisé!"
+msgstr "Qu'est-ce que vous voulez annuler ? Vous n'avez rien précisé !"
 
 #: kmahjongg.cpp:472 kmahjongg.cpp:1436
 msgid "Sorry, you have lost the game."
@@ -84,11 +87,11 @@ msgstr "Désolé ,vous avez perdu la partie."
 
 #: kmahjongg.cpp:503
 msgid "Demo mode. Click mousebutton to stop."
-msgstr "Mode démonstration.Cliquer sur la souris pour l'arrêter"
+msgstr "Mode démonstration. Cliquer sur le bouton gauche de la souris pour l'arrêter."
 
 #: kmahjongg.cpp:511
 msgid "Now it's you again."
-msgstr ""
+msgstr "Maintenant, c'est à votre tour."
 
 #: kmahjongg.cpp:531
 msgid "Your computer has lost the game."
@@ -96,7 +99,7 @@ msgstr "Votre ordinateur a perdu la partie."
 
 #: kmahjongg.cpp:617
 msgid "Congratulations. You have won!"
-msgstr "Félicitation. Vous avez gagné!"
+msgstr "Félicitations. Vous avez gagné !"
 
 #: kmahjongg.cpp:643
 msgid "Calculating new game..."
@@ -104,11 +107,11 @@ msgstr "Calcul d'une nouvelle partie..."
 
 #: kmahjongg.cpp:649
 msgid "Error converting board information!"
-msgstr ""
+msgstr "Erreur de conversion de l'information sur le tapis !"
 
 #: kmahjongg.cpp:661
 msgid "Ready. Now it's your turn."
-msgstr "Prêt.C'est votre tour"
+msgstr "Prêt. C'est votre tour."
 
 #: kmahjongg.cpp:667
 msgid "Error generating new game!"
@@ -120,8 +123,8 @@ msgid ""
 "Failed to load image:\n"
 "%s"
 msgstr ""
-"Le chargement de l'image:\n"
-"%s a échoué"
+"Echec du chargement de l'image :\n"
+"%s"
 
 #: kmahjongg.cpp:1676
 #, c-format
@@ -132,11 +135,4 @@ msgstr ""
 "Désolé, cette image utilise %d couleurs.\n"
 "Le maximum permis est %d"
 
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Mathias Mueller"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "par Mathias Mueller"
+
