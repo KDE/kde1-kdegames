@@ -1,0 +1,51 @@
+# Polish translation of KDE kasteroids
+# Version 0.1.0
+# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+
+#: toplevel.cpp:89
+msgid "&New Game"
+msgstr "&Nowa gra"
+
+#: toplevel.cpp:92
+msgid "&Quit"
+msgstr "&Wyj¶cie"
+
+#: toplevel.cpp:97
+msgid "&About"
+msgstr "Informacje..."
+
+#: toplevel.cpp:100
+msgid "&File"
+msgstr "&Plik"
+
+#: toplevel.cpp:102
+msgid "&Help"
+msgstr "Pomo&c"
+
+#: toplevel.cpp:115 toplevel.cpp:190 toplevel.cpp:257
+msgid "Score"
+msgstr "Wynik"
+
+#: toplevel.cpp:117 toplevel.cpp:193 toplevel.cpp:272
+msgid "Level"
+msgstr "Poziom"
+
+#: toplevel.cpp:119 toplevel.cpp:196 toplevel.cpp:222
+msgid "Ships"
+msgstr "Statki"
+
+#: toplevel.cpp:201
+msgid "Press Enter to launch."
+msgstr "Wci¶nij Enter aby rozpocz±æ."
+
+#: toplevel.cpp:214 toplevel.cpp:234
+msgid "KAsteriods"
+msgstr "KAsteroids"
+
+#: toplevel.cpp:227
+msgid "Ship Destroyed.  Press Enter to launch."
+msgstr "Statek zniszczony.  Wci¶nij Enter aby rozpocz±æ."
+
+#: toplevel.cpp:235
+msgid "Game Over!"
+msgstr "Koniec gry!"

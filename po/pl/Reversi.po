@@ -1,5 +1,5 @@
 # Polish translation of KDE kreversi
-# Version 0.1.0
+# Version 0.1.1
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
 
 #: app.cpp:207 app.cpp:505
@@ -12,7 +12,7 @@ msgid ""
 "Cannot enable sound support."
 msgstr ""
 "Pojawi³ siê problem z systemem d¼wieku!\n"
-"Nie moz¿a wl±czyæ obs³ugi d¼wiêku."
+"Nie mo¿na wl±czyæ obs³ugi d¼wiêku."
 
 #: app.cpp:232
 msgid "&Quit"
@@ -20,7 +20,7 @@ msgstr "&Wyj¶cie"
 
 #: app.cpp:235
 msgid "Get &hint)"
-msgstr "Po&dpowied¼)"
+msgstr "Po&dpowied¼"
 
 #: app.cpp:237
 msgid "&Stop thinking"
@@ -40,7 +40,7 @@ msgstr "&Cofnij ruch"
 
 #: app.cpp:243
 msgid "Switch si&des"
-msgstr "&Zamien strony"
+msgstr "&Zamieñ strony"
 
 #: app.cpp:245
 msgid "Hall Of &Fame..."
@@ -154,11 +154,11 @@ msgstr "&Animacje"
 
 #: app.cpp:300
 msgid "1 (fastest)"
-msgstr "1 (najszybsze)"
+msgstr "1 (najszybsza)"
 
 #: app.cpp:306
 msgid "10 (slowest)"
-msgstr "10 (najwolniesze)"
+msgstr "10 (najwolniesza)"
 
 #: app.cpp:307
 msgid "Animation speed"
@@ -242,11 +242,11 @@ msgstr "jeszcze nie umieszczono"
 
 #: app.cpp:570 app.cpp:574 app.cpp:841
 msgid "blue"
-msgstr "niebieskie"
+msgstr "nieb."
 
 #: app.cpp:571 app.cpp:573 app.cpp:843
 msgid "red"
-msgstr "czerwone"
+msgstr "czerw."
 
 #: app.cpp:618
 msgid "End of game"
@@ -339,7 +339,7 @@ msgstr "Ok"
 
 #: about.cpp:52
 msgid "About KReversi"
-msgstr "KReversi - informacje"
+msgstr "&Informacje..."
 
 #: about.cpp:67
 msgid "Version "
