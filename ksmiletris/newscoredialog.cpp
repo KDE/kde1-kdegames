@@ -36,15 +36,15 @@ NewScoreDialog::NewScoreDialog(QWidget *parent, const char *name)
 	setCaption(i18n("New High Score"));
 
 	QPushButton *ok, *cancel;
-	ok = new QPushButton("OK", this);
+	ok = new QPushButton(i18n("OK"), this);
 	ok->setGeometry(10, 60, 70, 30);
 	ok->setDefault(true);
 	connect(ok, SIGNAL(clicked()), SLOT(accept()));
-	cancel = new QPushButton("Cancel", this);
+	cancel = new QPushButton(i18n("Cancel"), this);
 	cancel->setGeometry(140, 60, 70, 30);
 	connect(cancel, SIGNAL(clicked()), SLOT(reject()));
 
-	QLabel *label = new QLabel("Enter name", this);
+	QLabel *label = new QLabel(i18n("Enter name"), this);
 	label->move(10, 10);
 	le = new QLineEdit(this);
 	le->move(label->x() + label->width(), 10);
