@@ -1,0 +1,209 @@
+# KTranslator Generated File
+
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Vladimir Vuksan <vuksan@veus.hr>, 1998.
+
+msgid ""
+msgstr ""
+"Project-Id-Version: games\n"
+"POT-Creation-Date: 1998-09-14 22:23+0200\n"
+"PO-Revision-Date: 1998-09-17 13:38+MST\n"
+"Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
+"Language-Team: Croatian <hr@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: game.cpp:41 game.cpp:144 rattler.cpp:349
+msgid "Snake Race"
+msgstr "Utrka Zmija"
+
+#: game.cpp:45
+msgid "KConfig error ??\n"
+msgstr "KConfig gre¹ka ??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr "Nova"
+
+#: game.cpp:80
+msgid "Pause"
+msgstr "Pauziraj"
+
+#: game.cpp:81
+msgid "High Scores..."
+msgstr "Najvi¹i rezultati..."
+
+#: game.cpp:83
+msgid "&Quit"
+msgstr "&Zavr¹i"
+
+#: game.cpp:88 game.cpp:97
+msgid "0"
+msgstr "0"
+
+#: game.cpp:89 game.cpp:98
+msgid "1"
+msgstr "1"
+
+#: game.cpp:90 game.cpp:99
+msgid "2"
+msgstr "2"
+
+#: game.cpp:91 game.cpp:100
+msgid "3"
+msgstr "3"
+
+#: game.cpp:111
+msgid "none"
+msgstr "ni¹ta"
+
+#: game.cpp:126
+msgid "Beginner"
+msgstr "Poèetnik"
+
+#: game.cpp:127
+msgid "Intermediate"
+msgstr ""
+
+#: game.cpp:128
+msgid "Advanced"
+msgstr "Napredno"
+
+#: game.cpp:129
+msgid "Expert"
+msgstr "Ekspert"
+
+#: game.cpp:131
+msgid "Balls"
+msgstr "Lopte"
+
+#: game.cpp:132
+msgid "Computer Snakes"
+msgstr "Kompjuterske zmije"
+
+#: game.cpp:134
+msgid "Select background color..."
+msgstr "Izaberi boju pozadine..."
+
+#: game.cpp:135
+msgid "Select background pixmap"
+msgstr "Izaberi pozadinsku pixmapu"
+
+#: game.cpp:137
+msgid "Change keys..."
+msgstr "Promijeni tipke..."
+
+#: game.cpp:139
+msgid "Starting Room..."
+msgstr "Poèetna Soba..."
+
+#: game.cpp:146
+msgid ""
+"\n"
+"\n"
+"by Michel Filippi (mfilippi@sade.rhein-main.de)"
+msgstr ""
+"\n"
+"\n"
+"Michel Filippi (mfilippi@sade.rhein-main.de)"
+
+#: game.cpp:150
+msgid "&Game"
+msgstr "&Igra"
+
+#: game.cpp:151
+msgid "&Options"
+msgstr "&Opcije"
+
+#: game.cpp:153
+msgid "&Help"
+msgstr "Po&moæ"
+
+#: keys.cpp:18 score.cpp:57 score.cpp:91 startroom.cpp:28
+msgid "Ok"
+msgstr "U redu"
+
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Podrazumijevano"
+
+#: keys.cpp:30 startroom.cpp:34
+msgid "Cancel"
+msgstr "Poni¹ti"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Promijeni tipke za usmjeravanje"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Nedefinirana tipka"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRaspon mora biti 0..99\n"
+"\ti minVal mora biti veæi od maxVal"
+
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "gre¹ka prilikom uèitavanja %s, odustajem\n"
+
+#: rattler.cpp:277
+msgid ""
+"Game Paused\n"
+" Press F3 to resume\n"
+msgstr ""
+"Igra pauzirana\n"
+" Pritisni F3 za nastavak\n"
+
+#: rattler.cpp:350
+msgid ""
+"A game is already started\n"
+"Start a new one ?\n"
+msgstr ""
+"Igra je veæ poèela\n"
+"Pokreni novu ?\n"
+
+#: rattler.cpp:352
+msgid "&Yes"
+msgstr "&Da"
+
+#: rattler.cpp:352
+msgid "&No"
+msgstr "&Ne"
+
+#: score.cpp:46 score.cpp:77
+msgid "Snake Race High Scores"
+msgstr "Utrka zmija najvi¹i rezultati"
+
+#: score.cpp:50
+msgid "Hall of Fame"
+msgstr "Dvorac Slave"
+
+#: score.cpp:54
+msgid "Today's High Scores"
+msgstr "Dana¹nji najvi¹i rezultati"
+
+#: score.cpp:78
+msgid ""
+"you have achieved a high score!\n"
+" please enter your name"
+msgstr ""
+"prestigli ste najvi¹i rezultat!\n"
+" molim unesite svoje ime"
+
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Poèetna soba za utrku zmija"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Poèetna soba"
