@@ -67,10 +67,15 @@ void Level::initBoard(QImage image)
     for ( int y = 0;y < image.height();y++ ) {
 	b = image.scanLine(y);
 	for ( int x = 0;x < image.width();x++ ) {
-	    if (((*b >> (x & 7)) & 1) == 1)
-		board->set(index, brick);
-	    else
-		board->set(index, empty);
+	    if ( image.bitOrder() == QImage::BigEndian ) {
+		if (((*b >> (7 - (x & 7))) & 1) == 1)
+		    board->set(index, brick);
+		else board->set(index, empty);
+	    } else {
+		if (((*b >> (x & 7)) & 1) == 1)
+		    board->set(index, brick);
+		else board->set(index, empty);
+	    }
 	    if ( (x & 7) == 7 )
 		b++;
 	    index++;
@@ -104,11 +109,15 @@ void Level::doNumber(int beginAt, const uchar *buf)
     for ( int y = 0;y < image.height();y++ ) {
 	b = image.scanLine(y);
 	for ( int x = 0;x < image.width();x++ ) {
-	    if (((*b >> (x & 7)) & 1) == 1)
-		board->set(index, brick);
-	    if ( (x & 7) == 7 ) {
-		b++;
+	    if ( image.bitOrder() == QImage::BigEndian ) {
+		if (((*b >> (7 - (x & 7))) & 1) == 1)
+		    board->set(index, brick);
+	    } else {
+		if (((*b >> (x & 7)) & 1) == 1)
+		    board->set(index, brick);
 	    }
+	    if ( (x & 7) == 7 )
+		b++;
 	    index++;
 	}
 	index += 28;
