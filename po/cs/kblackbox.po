@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: 1998-11-03 14:46+01:00\n"
+"PO-Revision-Date: 1998-11-09 08:48+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -132,12 +132,3 @@ msgstr "Nevadí ..."
 #: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
 msgstr "Ale nee!"
-
-#~ msgid "&About KBlackBox"
-#~ msgstr "&Informace o KBlackboxu"
-
-#~ msgid "About &Qt"
-#~ msgstr "Informace o &Qt"
-
-#~ msgid "Qt information"
-#~ msgstr "Informace o Qt"

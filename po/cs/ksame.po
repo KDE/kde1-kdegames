@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: 1998-11-03 14:44+01:00\n"
+"PO-Revision-Date: 1998-11-09 08:46+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,23 +14,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: KSameWidget.cpp:50
-#, fuzzy
 msgid "&New"
-msgstr "Nová"
+msgstr "&Nová"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "&Otevøít"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Ukázat nejvy¹¹í skóre"
+msgstr "Ukázat nej&vy¹¹í skóre"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Náhodná hrací deska"
+msgstr "&Náhodná hrací deska"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
@@ -137,6 +134,3 @@ msgstr "Zadejte prosím své jméno:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonymní"
-
-#~ msgid "Game"
-#~ msgstr "Hra"

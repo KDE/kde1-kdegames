@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
-"PO-Revision-Date: 1998-11-03 14:45+01:00\n"
+"PO-Revision-Date: 1998-11-09 08:47+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -102,19 +102,16 @@ msgid "Hide menu bar"
 msgstr "Skrýt menu"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Nová hra"
+msgstr "&Nová hra"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Pozastavit hru"
+msgstr "&Pozastavit hru"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Nejlep¹í výsledky"
+msgstr "Nejlep¹í &výsledky"
 
 #: main.cpp:60
 msgid "? mark"
@@ -133,9 +130,8 @@ msgid "by"
 msgstr "napsal"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Úroveò"
+msgstr "Ú&roveò"
 
 #: main.cpp:156
 msgid "Show menu bar"
