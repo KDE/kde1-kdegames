@@ -191,7 +191,7 @@ msgstr "Sett størrelse"
 
 #: app.cpp:292
 msgid "Select &background color..."
-msgstr "Velg &bakgrunns farge..."
+msgstr "Velg &bakgrunnsfarge..."
 
 #: app.cpp:298
 msgid "none"
@@ -199,7 +199,7 @@ msgstr "ingen"
 
 #: app.cpp:308
 msgid "Select background image"
-msgstr "Velg bakgrunns bilde"
+msgstr "Velg bakgrunnsbilde"
 
 #: app.cpp:309
 msgid "&Grayscale"
@@ -251,7 +251,7 @@ msgstr "Få hjelp"
 
 #: app.cpp:381
 msgid "XXXXX's turn"
-msgstr "XXXXX's tur"
+msgstr "XXXXXs tur"
 
 #: app.cpp:382
 msgid "You (XXXXX): 88"
@@ -337,7 +337,7 @@ msgstr ""
 
 #: app.cpp:708
 msgid "Red's"
-msgstr "Rød's"
+msgstr "Røds"
 
 #: app.cpp:708 app.cpp:710
 msgid "turn"
@@ -345,7 +345,7 @@ msgstr "tur"
 
 #: app.cpp:710
 msgid "Blue's"
-msgstr "Blå's"
+msgstr "Blås"
 
 #: app.cpp:855
 msgid "Hall of Fame"
