@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
 "POT-Creation-Date: 1998-06-18 22:45+0200\n"
-"PO-Revision-Date: 1998-06-18 09:44 MET DST\n"
+"PO-Revision-Date: 1998-06-19 09:19 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "kmines :  Pøizpùsobit hru"
+msgstr "Pøizpùsobit hru"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -32,7 +31,7 @@ msgstr "Poèet min"
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
-msgstr ""
+msgstr "Hala slávy"
 
 #: dialogs.cpp:288 main.cpp:57
 msgid "Easy"
@@ -116,7 +115,7 @@ msgstr "Hledání min"
 
 #: main.cpp:67
 msgid "by"
-msgstr ""
+msgstr "napsal"
 
 #: main.cpp:72
 msgid "Level"
@@ -125,42 +124,3 @@ msgstr "Úroveò"
 #: main.cpp:143
 msgid "Show menu bar"
 msgstr "Zobrazit menu"
-
-#~ msgid "kmines : High Scores"
-#~ msgstr "kmines : Nejlep¹í výsledky"
-
-#~ msgid "Easy :"
-#~ msgstr "Snadná :"
-
-#~ msgid "Normal :"
-#~ msgstr "Normální :"
-
-#~ msgid "Expert :"
-#~ msgstr "Pro experty :"
-
-#~ msgid "minutes."
-#~ msgstr "minut."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Není mo¾né zapsat do souboru s nejlep¹ími výsledky!"
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines: Chyba"
-
-#~ msgid "Close dialog"
-#~ msgstr "Zavøít dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dialog"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Zru¹it dialog"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "napsal Nicolas Hadacek"
