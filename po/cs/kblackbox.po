@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"PO-Revision-Date: 1998-06-20 23:14 CEST\n"
+"POT-Creation-Date: 1998-10-26 10:57+0100\n"
+"PO-Revision-Date: 1998-10-28 19:31 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
 "MIME-Version: 1.0\n"
@@ -21,18 +21,13 @@ msgstr "&Informace o KBlackboxu"
 msgid "About &Qt"
 msgstr "Informace o &Qt"
 
-#: kbbgame.cpp:84
-msgid "&New"
-msgstr "&Nová hra"
-
 #: kbbgame.cpp:85
 msgid "&Give up"
 msgstr "&Vzdát"
 
 #: kbbgame.cpp:86
-#, fuzzy
 msgid "&Done"
-msgstr "Vyhodnotit"
+msgstr "&Vyhodnotit"
 
 #: kbbgame.cpp:88
 msgid "&Resize"
@@ -50,19 +45,9 @@ msgstr "&Kulièky"
 msgid "&Tutorial"
 msgstr "Výukový &re¾im"
 
-#: kbbgame.cpp:174
-#, fuzzy
-msgid "New"
-msgstr "&Nová hra"
-
 #: kbbgame.cpp:176
-#, fuzzy
 msgid "Give up"
-msgstr "&Vzdát"
-
-#: kbbgame.cpp:178
-msgid "Done"
-msgstr "Vyhodnotit"
+msgstr "Vzdát"
 
 #: kbbgame.cpp:434
 msgid ""
@@ -122,21 +107,15 @@ msgstr "Souhlas"
 
 #: kbbgame.cpp:597 kbbgame.cpp:600
 msgid "Run"
-msgstr ""
-
-#: kbbgame.cpp:604
-#, fuzzy
-msgid "Size"
-msgstr "&Velikost desky"
+msgstr "Bì¾í"
 
 #: kbbgame.cpp:607
 msgid "Placed"
-msgstr ""
+msgstr "Umístìno"
 
 #: kbbgame.cpp:620
-#, fuzzy
 msgid "Score"
-msgstr "Skóre %4d"
+msgstr "Skóre"
 
 #: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
@@ -149,39 +128,3 @@ msgstr "Nevadí ..."
 #: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "Ale nee!"
-
-#~ msgid "&Help"
-#~ msgstr "&Nápovìda"
-
-#~ msgid "&Quit"
-#~ msgstr "&Ukonèit"
-
-#~ msgid "&File"
-#~ msgstr "&Soubor"
-
-#~ msgid "&Game"
-#~ msgstr "&Hra"
-
-#~ msgid "&Options"
-#~ msgstr "&Mo¾nosti"
-
-#~ msgid "Click here when you think you placed all the balls."
-#~ msgstr "Zde kliknìte, myslíte-li si, ¾e jste umístili v¹e správnì."
-
-#~ msgid "This is your score."
-#~ msgstr "Toto je va¹e skóre."
-
-#~ msgid "These are some game statistics."
-#~ msgstr "Toto jsou rùzné statistiky."
-
-#~ msgid "About"
-#~ msgstr "Informace"
-
-#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-#~ msgstr "Rozehráno: %s, Velikost: %3d x%3d, Kulièky: %3d /%3d"
-
-#~ msgid "Yes"
-#~ msgstr "Ano"
-
-#~ msgid " No"
-#~ msgstr "Ne"

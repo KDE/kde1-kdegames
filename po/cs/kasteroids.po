@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasteroids\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-03-28 22:43 MET\n"
+"PO-Revision-Date: 1998-10-28 19:32 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -26,16 +26,15 @@ msgid "Ships"
 msgstr "Lodì"
 
 #: toplevel.cpp:186
-#, fuzzy
 msgid "Asteroids"
-msgstr "KAsteroids"
+msgstr "Asteroidy"
 
 #: toplevel.cpp:188
 msgid ""
 "\n"
 "\n"
 "by Martin R. Jones"
-msgstr ""
+msgstr "\n\nnapsal Martin R. Jones"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."

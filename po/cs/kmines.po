@@ -5,8 +5,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"PO-Revision-Date: 1998-06-19 09:19 MET DST\n"
+"POT-Creation-Date: 1998-10-26 10:57+0100\n"
+"PO-Revision-Date: 1998-10-28 19:24 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,15 +33,11 @@ msgstr "Poèet min"
 msgid "Hall of Fame"
 msgstr "Hala slávy"
 
-#: dialogs.cpp:288 main.cpp:62
+#: dialogs.cpp:288 main.cpp:64
 msgid "Easy"
 msgstr "Snadná"
 
-#: dialogs.cpp:289 main.cpp:63
-msgid "Normal"
-msgstr ""
-
-#: dialogs.cpp:290 main.cpp:64
+#: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
 msgstr "Pro experty"
 
@@ -85,45 +81,42 @@ msgstr "Anoooo !"
 msgid "Bad luck !"
 msgstr "Smùla!"
 
-#: main.cpp:22 main.cpp:44
+#: main.cpp:22 main.cpp:46
 msgid "New game"
 msgstr "Nová hra"
 
-#: main.cpp:23 main.cpp:47
+#: main.cpp:23 main.cpp:49
 msgid "Pause game"
 msgstr "Pozastavit hru"
 
-#: main.cpp:24 main.cpp:50
+#: main.cpp:24 main.cpp:52
 msgid "High scores"
 msgstr "Nejlep¹í výsledky"
 
-#: main.cpp:41 main.cpp:157
+#: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Skrýt menu"
 
-#: main.cpp:58
+#: main.cpp:60
 msgid "? mark"
 msgstr "Znaèka ?"
 
-#: main.cpp:59
+#: main.cpp:61
 msgid "Keys"
 msgstr "Klávesy"
 
-#: main.cpp:66
+#: main.cpp:68
 msgid "Custom"
 msgstr "Vlastní"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "by"
 msgstr "napsal"
 
-#: main.cpp:77
+#: main.cpp:79
 msgid "Level"
 msgstr "Úroveò"
 
-#: main.cpp:154
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr "Zobrazit menu"
-
-#~ msgid "Minesweeper"
-#~ msgstr "Hledání min"

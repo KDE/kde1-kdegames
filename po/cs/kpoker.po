@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-06-19 09:12 MET DST\n"
+"PO-Revision-Date: 1998-10-28 19:22 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -115,24 +115,24 @@ msgstr "&Zvuk"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
 "\n"
 "\n"
 "by Jochen Tuchbreiter"
-msgstr ""
+msgstr "\n\nnapsal Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
 "\n"
 "\n"
 "For a list of credits see helpfile"
-msgstr ""
+msgstr "\n\nNa zásluhy nahlednìte do nápovìdy"
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
-msgstr ""
+msgstr "\nNápady, chybová hlá¹ení atd. jsou vítána"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktetris\n"
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: 1998-06-20 18:47 CEST\n"
+"PO-Revision-Date: 1998-10-28 19:03 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -283,29 +283,8 @@ msgstr "&Klávesy"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "napsal"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Zobrazit menu"
-
-#~ msgid "Close dialog"
-#~ msgstr "Zavøít dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dialog"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Zru¹it dialog"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "napsal Nicolas Hadacek"
