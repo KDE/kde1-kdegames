@@ -5,7 +5,7 @@
 #include <qpixmap.h>
 #include <qstring.h>
 
-#include <kkeyconf.h>
+#include <kaccel.h>
 #include <kapp.h>
 
 #include "keys.h"

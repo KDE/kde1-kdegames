@@ -9,7 +9,7 @@
 #include <qbitarry.h>
 
 #include <kapp.h>
-#include <kkeyconf.h>
+#include <kaccel.h>
 
 #include "rattler.h"
 #include "board.h"

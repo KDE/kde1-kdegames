@@ -5,9 +5,6 @@
 #include <qlabel.h>
 #include <qstring.h>
 
-const QString keyToString( uint keyCode );
-uint stringToKey(const QString& sKey );
-
 class Keys : public QDialog
 {
     Q_OBJECT

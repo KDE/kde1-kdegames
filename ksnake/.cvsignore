@@ -1,14 +1,4 @@
 Makefile.in
 Makefile
-mgame.cpp 
-mrattler.cpp 
-msnake.cpp
-mtrys.cpp  
-mbasket.cpp  
-mstartroom.cpp 
-mlcdrange.cpp 
-mscore.cpp 
-mprogress.cpp
 ksnake
-mview.cpp
-mkeys.cpp
+*.moc.cpp
