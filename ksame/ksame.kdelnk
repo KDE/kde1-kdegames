@@ -1,6 +1,7 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=SameGame
+Name[is_IS]=Samaspil
 Name[es]=Iguales
 Name[fr]=Same
 Name[de]=Probiere
@@ -18,6 +19,7 @@ Exec=ksame -caption "%c"
 Type=Application
 DocPath=ksame/index.html
 Comment=A little board game
+Comment[is_IS]=ksame:  Fjarlægðu kúlur sem hafa sama lit
 Comment[es]=Un pequeño juego de tablero
 Comment[fr]=Un petit jeu de tableau
 Comment[de]=Ein Spiel mit bunten Kugeln
