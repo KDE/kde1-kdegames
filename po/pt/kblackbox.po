@@ -22,9 +22,8 @@ msgid "&Give up"
 msgstr "&Desistir"
 
 #: kbbgame.cpp:86
-#, fuzzy
 msgid "&Done"
-msgstr "Feito"
+msgstr "&Feito"
 
 #: kbbgame.cpp:88
 msgid "&Resize"
@@ -43,14 +42,12 @@ msgid "&Tutorial"
 msgstr "&Guia"
 
 #: kbbgame.cpp:174
-#, fuzzy
 msgid "New"
-msgstr "&Novo"
+msgstr "Novo"
 
 #: kbbgame.cpp:176
-#, fuzzy
 msgid "Give up"
-msgstr "&Desistir"
+msgstr "Desistir"
 
 #: kbbgame.cpp:178
 msgid "Done"
@@ -114,21 +111,19 @@ msgstr "D'accord"
 
 #: kbbgame.cpp:597 kbbgame.cpp:600
 msgid "Run"
-msgstr ""
+msgstr "Correr"
 
 #: kbbgame.cpp:604
-#, fuzzy
 msgid "Size"
-msgstr "&Tamanho"
+msgstr "Tamanho"
 
 #: kbbgame.cpp:607
 msgid "Placed"
-msgstr ""
+msgstr "Colocado"
 
 #: kbbgame.cpp:620
-#, fuzzy
 msgid "Score"
-msgstr "Pontuação %4d"
+msgstr "Pontuação"
 
 #: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
@@ -141,39 +136,3 @@ msgstr "Que se lixe..."
 #: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "Não!"
-
-#~ msgid "&Help"
-#~ msgstr "&Ajuda"
-
-#~ msgid "&Quit"
-#~ msgstr "&Sair"
-
-#~ msgid "&File"
-#~ msgstr "&Ficheiro"
-
-#~ msgid "&Game"
-#~ msgstr "&Jogo"
-
-#~ msgid "&Options"
-#~ msgstr "&Opções"
-
-#~ msgid "Click here when you think you placed all the balls."
-#~ msgstr "Carregue aqui quando pensar que já colocou todas as bolas."
-
-#~ msgid "This is your score."
-#~ msgstr "Esta é a sua pontuação."
-
-#~ msgid "These are some game statistics."
-#~ msgstr "Estas são algumas estatisticas do jogo."
-
-#~ msgid "About"
-#~ msgstr "Acerca"
-
-#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-#~ msgstr " A Correr: %s, Tamanho: %3d x%3d, Bolas: %3d /%3d"
-
-#~ msgid "Yes"
-#~ msgstr "Sim"
-
-#~ msgid " No"
-#~ msgstr " Não"

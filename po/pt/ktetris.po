@@ -275,29 +275,8 @@ msgstr "&Teclas"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "M&ostrar menu"
-
-#~ msgid "Close dialog"
-#~ msgstr "Diálogo de fecho"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Cancelar"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "por Nicolas Hadacek"

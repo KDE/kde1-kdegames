@@ -7,7 +7,7 @@ msgstr ""
 
 #: KSameWidget.cpp:50
 msgid "New"
-msgstr ""
+msgstr "Novo"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -116,9 +116,8 @@ msgid "Score: %06i"
 msgstr "Pontuação: %06i"
 
 #: HighScore.cpp:107
-#, fuzzy
 msgid "Name"
-msgstr "Jogo"
+msgstr "Nome"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"

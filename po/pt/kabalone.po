@@ -9,22 +9,20 @@ msgstr ""
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
-msgstr "DireitaCima"
+msgstr "Direita"
 
 #: Move.cpp:18
-msgid "RightDown"
-msgstr "DireitaAbaixo"
+msgid "Down"
+msgstr "Baixo"
 
 #: Move.cpp:19
 msgid "LeftDown"
 msgstr "EsquerdaAbaixo"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "EsquerdaCima"
+msgstr "Esquerda"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -51,9 +49,8 @@ msgid "Board value"
 msgstr "Valor do tabuleiro"
 
 #: AbTop.cpp:241 AbTop.cpp:398
-#, fuzzy
 msgid "Move"
-msgstr "Mover devagar"
+msgstr "Mover"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -85,7 +82,7 @@ msgstr "Fácil"
 
 #: AbTop.cpp:317
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -125,7 +122,7 @@ msgstr "Espiar"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Abalone"
 
 #: AbTop.cpp:351
 msgid ""
@@ -133,6 +130,9 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
+"\n"
+"\n"
+"por Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"
