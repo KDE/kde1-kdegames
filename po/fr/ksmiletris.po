@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-12-06 20:00+0100\n"
 "Last-Translator: Montel Laurent <montell@club-internet.fr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -96,3 +96,8 @@ msgstr "Prénom"
 #: newscoredialog.cpp:36
 msgid "New High Score"
 msgstr "Nouveau meilleur score"
+
+#: newscoredialog.cpp:47
+#, fuzzy
+msgid "Enter name"
+msgstr "&Fin de la partie"

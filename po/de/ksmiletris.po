@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksmiletris\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1999-01-13 16:25+MET\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>Translator: Stephan Kulow "
 "<coolo@kde.org>\n"
@@ -88,3 +88,8 @@ msgstr "Unbekannt"
 #: newscoredialog.cpp:36
 msgid "New High Score"
 msgstr "Neuer High score"
+
+#: newscoredialog.cpp:47
+#, fuzzy
+msgid "Enter name"
+msgstr "Spiel-&Ende"

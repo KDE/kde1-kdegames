@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-06-14 22:20+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -179,6 +179,22 @@ msgstr "改变方向键"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "取消键定义"
+
+#: keys.cpp:153
+msgid "Up"
+msgstr ""
+
+#: keys.cpp:154
+msgid "Down"
+msgstr ""
+
+#: keys.cpp:155
+msgid "Left"
+msgstr ""
+
+#: keys.cpp:156
+msgid "Right"
+msgstr ""
 
 #~ msgid "&Quit"
 #~ msgstr "退出[&Q]"

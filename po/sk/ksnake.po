@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-06-23 21:00+0001\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -182,3 +182,19 @@ msgstr "Zmeni» klávesy smeru"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "Nedef. kláves"
+
+#: keys.cpp:153
+msgid "Up"
+msgstr ""
+
+#: keys.cpp:154
+msgid "Down"
+msgstr ""
+
+#: keys.cpp:155
+msgid "Left"
+msgstr ""
+
+#: keys.cpp:156
+msgid "Right"
+msgstr ""

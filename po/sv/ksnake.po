@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake revision 1.2\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-08-22 20:48+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -179,3 +179,19 @@ msgstr "Ändra riktningstangenter"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "Odefinerad tangent"
+
+#: keys.cpp:153
+msgid "Up"
+msgstr ""
+
+#: keys.cpp:154
+msgid "Down"
+msgstr ""
+
+#: keys.cpp:155
+msgid "Left"
+msgstr ""
+
+#: keys.cpp:156
+msgid "Right"
+msgstr ""

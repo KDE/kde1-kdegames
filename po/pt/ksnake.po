@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-06-19 12:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -178,3 +178,19 @@ msgstr "Mudar Teclas de Direcção"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "Tecla indefinida"
+
+#: keys.cpp:153
+msgid "Up"
+msgstr ""
+
+#: keys.cpp:154
+msgid "Down"
+msgstr ""
+
+#: keys.cpp:155
+msgid "Left"
+msgstr ""
+
+#: keys.cpp:156
+msgid "Right"
+msgstr ""

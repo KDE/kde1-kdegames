@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksmiletris\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-12-17 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -96,3 +96,8 @@ msgstr "Sennomulo"
 #: newscoredialog.cpp:36
 msgid "New High Score"
 msgstr "Nova rekordo"
+
+#: newscoredialog.cpp:47
+#, fuzzy
+msgid "Enter name"
+msgstr "&Finu ludon"

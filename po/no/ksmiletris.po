@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/ksmiletris\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -95,3 +95,8 @@ msgstr "Intet navn"
 #: newscoredialog.cpp:36
 msgid "New High Score"
 msgstr "Ny poengtavle"
+
+#: newscoredialog.cpp:47
+#, fuzzy
+msgid "Enter name"
+msgstr "&Slutt spill"

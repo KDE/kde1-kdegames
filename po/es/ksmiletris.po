@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-12-07 21:33+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
@@ -88,3 +88,8 @@ msgstr "Sin nombre"
 #: newscoredialog.cpp:36
 msgid "New High Score"
 msgstr "Nueva Máxima Puntuación"
+
+#: newscoredialog.cpp:47
+#, fuzzy
+msgid "Enter name"
+msgstr "&Finalizar juego"

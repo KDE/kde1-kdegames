@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-10-18 22:03+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alonso Lara <jlaram@nexo.es>\n"
@@ -174,3 +174,19 @@ msgstr "Cambiar teclas de dirección"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "Tecla indefinida"
+
+#: keys.cpp:153
+msgid "Up"
+msgstr ""
+
+#: keys.cpp:154
+msgid "Down"
+msgstr ""
+
+#: keys.cpp:155
+msgid "Left"
+msgstr ""
+
+#: keys.cpp:156
+msgid "Right"
+msgstr ""

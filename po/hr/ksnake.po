@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: games\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "PO-Revision-Date: 1998-09-17 13:38+MST\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -181,6 +181,22 @@ msgstr "Promijeni tipke za usmjeravanje"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "Nedefinirana tipka"
+
+#: keys.cpp:153
+msgid "Up"
+msgstr ""
+
+#: keys.cpp:154
+msgid "Down"
+msgstr ""
+
+#: keys.cpp:155
+msgid "Left"
+msgstr ""
+
+#: keys.cpp:156
+msgid "Right"
+msgstr ""
 
 #~ msgid "&Quit"
 #~ msgstr "&Zavr¹i"
