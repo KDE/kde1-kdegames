@@ -115,7 +115,7 @@ msgstr "Niveau"
 
 #: AbTop.cpp:338
 msgid "Computer plays"
-msgstr "Computerspil"
+msgstr "Maskinen spiller"
 
 #: AbTop.cpp:340
 msgid "Move slow"
