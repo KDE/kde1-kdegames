@@ -1,5 +1,5 @@
 /* XPM */
-/* Drawn  by Nico Schwiring for the K Desktop Environment */
+/* Drawn  by Nico Shirwing for the K Desktop Environment */
 /* See http://www.kde.org */
 static char*ktetris[]={
 "32 32 17 1",
@@ -14,9 +14,9 @@ static char*ktetris[]={
 "c c #00c000",
 "h c #ff0000",
 "m c #0000ff",
-"k c #bebeff",
-"n c #be5800",
-"g c #ffa85a",
+"k c #c0c0ff",
+"n c #c05800",
+"g c #ffa858",
 "j c #ffdca8",
 "l c #004040",
 ". c None",

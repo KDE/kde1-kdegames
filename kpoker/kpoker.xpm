@@ -1,5 +1,5 @@
 /* XPM */
-/* Drawn  by Nico Schwiring for the K Desktop Environment */
+/* Drawn  by Nico Shirwing for the K Desktop Environment */
 /* See http://www.kde.org */
 static char*kpoker[]={
 "32 32 12 1",
@@ -12,7 +12,7 @@ static char*kpoker[]={
 "f c #c0c000",
 "j c #ff0000",
 "i c #ffff00",
-"d c #ffffbe",
+"d c #ffffc0",
 "e c #ffdca8",
 ". c None",
 "........######..................",

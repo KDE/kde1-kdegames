@@ -1,30 +1,32 @@
 /* XPM */
-static char *mini-kasteroids[] = {
-/* width height num_colors chars_per_pixel */
-"    16    16        7            1",
-/* colors */
-". c #000000",
-"# c #303030",
-"a c #595959",
-"b c #808080",
-"c c #a0a0a0",
-"d c #c3c3c3",
-"e c None",
-/* pixels */
-"eeeeeeeeeeeeeeee",
-"eeeeee#aaa#eeeee",
-"eeeee#bbbcc#eeee",
-"eeee##abbdcc.eee",
-"eee#cbabbdcccbee",
-"eee#babccbccdd#e",
-"ee##babccbcccc#e",
-"ee##aaaddccccc#e",
-"ee###baaddcdccae",
-"ee###baaadcdccae",
-"ee###abaadcccc.e",
-"eee##abaaabcbaee",
-"eeee#aabbbbbc.ee",
-"eeeee.aaacbc.eee",
-"eeeeee.aa...eeee",
-"eeeeeeeeeeeeeeee"
-};
+/* Drawn  by Nico Shirwing for the K Desktop Environment */
+/* See http://www.kde.org */
+static char*kasteroids[]={
+"16 16 10 1",
+"# c #000000",
+"b c #c0c0c0",
+"c c #808080",
+"d c #a0a0a4",
+"h c #000080",
+"g c #0000ff",
+"e c #ffff00",
+"f c #ffa858",
+"a c #ffdca8",
+". c None",
+".###.#a.........",
+"#bcd#.ef........",
+"#bbd#..#........",
+".###.....#......",
+".........ae.....",
+"#.........f#....",
+"ae..........#...",
+".f#.....##...#..",
+".......#bb#...#.",
+"...#a..#bgg#.#.#",
+"....ef..#hhg#...",
+".....#...#hhg#..",
+"......#...#bb#..",
+".......#.#.##...",
+"........#.......",
+".........#......"};
+
