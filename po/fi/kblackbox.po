@@ -104,7 +104,7 @@ msgstr ""
 
 #: kbbgame.cpp:487
 msgid "D'accord"
-msgstr ""
+msgstr "D'accord"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"

@@ -103,19 +103,16 @@ msgid "Hide menu bar"
 msgstr "Piilota valikkorivi"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Uusi peli"
+msgstr "&Uusi peli"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Pysäytä peli"
+msgstr "&Pysäytä peli"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Ennätykset"
+msgstr "&Ennätykset"
 
 #: main.cpp:60
 msgid "? mark"
@@ -134,9 +131,8 @@ msgid "by"
 msgstr " "
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Taso"
+msgstr "&Taso"
 
 #: main.cpp:156
 msgid "Show menu bar"

@@ -15,23 +15,20 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KSameWidget.cpp:50
-#, fuzzy
 msgid "&New"
-msgstr "Uusi"
+msgstr "&Uusi"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "&Avaa"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Näytä ennätykset"
+msgstr "Näytä &ennätykset"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Satunnainen lauta"
+msgstr "&Satunnainen lauta"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
