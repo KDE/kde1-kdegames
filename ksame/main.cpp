@@ -58,7 +58,9 @@ int main( int argc, char **argv )
   QSize size(5,5);
   
   QLabel *label=new QLabel("---   Highscore   ---",&highscore);
-  label->font().setPointSize(20);
+  QFont f = label->font();
+  f.setPointSize(20); 
+  label->setFont(f);
   //  label->setFrameStyle( QFrame::WinPanel | QFrame::Raised );
   label->setAlignment( AlignCenter );
   label->resize(10,label->sizeHint().height()+20);
@@ -90,7 +92,7 @@ int main( int argc, char **argv )
 
   label->resize(size.width(),label->height());
   tabbar->resize(size.width(),tabbar->height());
-  connect(tabbar,SIGNAL(selected(int)),score,SLOT(select(int)));
+  QObject::connect(tabbar,SIGNAL(selected(int)),score,SLOT(select(int)));
   
   highscore.resize(size);
 
