@@ -1,10 +1,6 @@
 # KDE Config File 
 [KDE Desktop Entry]
 Name=Sirtet
-Name[eo]=Simboloj
-Name[es]=Sistema
-Name[hu]=Rendszer
-Name[it]=Sistema
 Name[pl]=Sirtet (anagram)
 Icon=ksirtet.xpm
 Exec=ksirtet -caption "%c" %i %m
@@ -15,14 +11,10 @@ Comment[ca]=Un altre clònic Tetris
 Comment[cs]=Dal¹í hra podobná tetrisu
 Comment[da]=Endnu en tetrisklon
 Comment[de]=Ein weiteres Tetris-Spiel
-Comment[eo]=Informoj pri la memoro
-Comment[es]=Un juego más de Tetris
 Comment[fi]=Yksi Tetrispeli lisää
 Comment[fr]=Un clone de Tetris de plus
 Comment[hr]=Jo¹ jedna igra tetrisa
-Comment[hu]=Mégegy Tetrisz játék
 Comment[is]=ktetris:  Fallandi kubbum raðað saman
-Comment[it]=Ancora un Tetris
 Comment[no]=Enda en Tetris-klone
 Comment[pl]=Jeszcze jedna wersja Tetrisa
 Comment[pt_BR]=Outro jogo de Tetris
