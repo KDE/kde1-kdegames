@@ -1,0 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: AbTop.cpp:240 AbTop.cpp:399
+msgid "Move"
+msgstr "Flytt"
+
+#: AbTop.cpp:243 AbTop.cpp:403
+msgid "Press F2 for a new game"
+msgstr "Trykk F2 for nytt spill"
+
+#: AbTop.cpp:261 AbTop.cpp:301
+msgid "Stop Search"
+msgstr "Stopp Søking"
+
+#: AbTop.cpp:266 AbTop.cpp:305
+msgid "Take back"
+msgstr "Ta tilbake"
+
+#: AbTop.cpp:271 AbTop.cpp:307
+msgid "Hint"
+msgstr "Tips"
+
+#: AbTop.cpp:276 AbTop.cpp:352
+msgid "Rules"
+msgstr "Regler"
+
+#: AbTop.cpp:296
+msgid "Save Position"
+msgstr "Lagre Posisjon"
+
+#: AbTop.cpp:298
+msgid "Restore Position"
+msgstr "Tilbakefør posisjon"
+
+#: AbTop.cpp:315
+msgid "Easy"
+msgstr "Lett"
+
+#: AbTop.cpp:319
+msgid "Hard"
+msgstr "Vanskelig"
+
+#: AbTop.cpp:321
+msgid "Challange"
+msgstr "Utfordring"
+
+#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+msgid "Red"
+msgstr "Rød"
+
+#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+msgid "Yellow"
+msgstr "Gul"
+
+#: AbTop.cpp:331
+msgid "Both"
+msgstr "Begge"
+
+#: AbTop.cpp:337
+msgid "Level"
+msgstr "Nivå"
+
+#: AbTop.cpp:338
+msgid "Computer plays"
+msgstr "Maskinen spiller"
+
+#: AbTop.cpp:340
+msgid "Move slow"
+msgstr "Flytt langsomt"
+
+#: AbTop.cpp:342
+msgid "Spy"
+msgstr "Spionér"
+
+#: AbTop.cpp:408
+msgid "won"
+msgstr "vant"
+
+#: AbTop.cpp:412
+msgid "I am thinking..."
+msgstr "Jeg tenker..."
+
+#: AbTop.cpp:413
+msgid "It's your turn !"
+msgstr "Det er din tur!"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Brettverdi"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "HøyreNed"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "VenstreNed"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "VenstreOpp"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "HøyreOpp"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Side"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Ut"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "Dytt"
+
+#: Spy.cpp:21
+msgid "Actual examined position:"
+msgstr "Faktisk undersøkt posisjon:"
+
+#: Spy.cpp:46
+msgid "Best move so far:"
+msgstr "Beste trekk så langt:"
+
+#: Spy.cpp:75
+msgid "Spion"
+msgstr "Spion"
