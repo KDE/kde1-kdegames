@@ -281,8 +281,8 @@ void Game::backgroundColor()
 void Game::lookupBackgroundPixmaps()
 {
     QString pixDir;
-    pixDir.setStr(KApplication::kdedir());
-    pixDir.append("/share/apps/ksnake/backgrounds");
+    pixDir.setStr(KApplication::kde_datadir().copy());
+    pixDir.append("/ksnake/backgrounds");
     QDir dir(pixDir, "*.xpm");
 
     if(!dir.exists())

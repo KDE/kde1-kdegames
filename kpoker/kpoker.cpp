@@ -74,7 +74,7 @@ kpok::kpok(QWidget *parent, const char *name)
 	setCaption( version );
 	
 	
-	QString bitmapdir = kapp->kdedir() + QString("/share/apps/kpoker/pics/");
+	QString bitmapdir = kapp->kde_datadir() + QString("/kpoker/pics/");
 	
 	
 	/* KKeyCode initialization */
@@ -235,7 +235,7 @@ void kpok::playSound(const char *soundname)
    if (!sound)
       return;
 
-   strcpy(filename, kapp->kdedir()+"/share/apps/kpoker/sounds/"+soundname);
+   strcpy(filename, kapp->kde_datadir()+"/kpoker/sounds/"+soundname);
 
 
    KAS->play(filename);

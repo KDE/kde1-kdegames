@@ -29,8 +29,8 @@ QPixmap loadPixmap( const char *fileName )
 
 PixServer::PixServer( Board *b, QWidget *parent)
 {
-    pixDir.setStr(KApplication::kdedir());
-    pixDir.append("/share/apps/ksnake/pics/");
+    pixDir.setStr(KApplication::kde_datadir().copy());
+    pixDir.append("/ksnake/pics/");
 
     board = b;
     initPixmaps();
@@ -137,8 +137,8 @@ void PixServer::initbackPixmaps()
 	    backgroundColor = (QColor(red, green, blue));
 	    plainColor = TRUE;
 	} else if(i == 2) {
-	    path.setStr(KApplication::kdedir());
-	    path.append("/share/apps/ksnake/backgrounds/");
+	    path.setStr(KApplication::kde_datadir());
+	    path.append("/ksnake/backgrounds/");
 	    path.append("Green_Carpet.xpm");
 	    path = conf->readEntry("BackgroundPixmap", (const char *)path);
 	}

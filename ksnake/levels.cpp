@@ -18,8 +18,8 @@ Levels::Levels()
     leV = this;
 
     QString levelDir;
-    levelDir.setStr(KApplication::kdedir());
-    levelDir.append("/share/apps/ksnake/levels/");
+    levelDir.setStr(KApplication::kde_datadir().copy());
+    levelDir.append("/ksnake/levels/");
 
     QDir d(levelDir);
     d.setFilter( QDir::Files );

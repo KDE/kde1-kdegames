@@ -11,7 +11,7 @@
 #define IMG_BACKGROUND "sprites/bg.ppm"
 #define WIDTH 640
 #define HEIGHT 480
-#define SPRITES_PREFIX kapp->kdedir() + "/share/apps/kasteroids/"
+#define SPRITES_PREFIX kapp->kde_datadir() + "/kasteroids/"
 
 #define ROCK1_IMAGE    "sprites/rock1/rock1-%d.ppm"
 #define ROCK1_MASK     "sprites/rock1/rock1-%d.pbm"
