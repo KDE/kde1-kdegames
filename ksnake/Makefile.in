@@ -118,6 +118,8 @@ uninstall:
 	(cd doc && $(MAKE) uninstall)
 	(cd data && $(MAKE) uninstall)
 
+messages:
+
 ####### Meta classes
 
 mrattler.cpp: rattler.h
