@@ -97,6 +97,5 @@ msgid "New High Score"
 msgstr "Ny poengtavle"
 
 #: newscoredialog.cpp:47
-#, fuzzy
 msgid "Enter name"
-msgstr "&Slutt spill"
+msgstr "Skriv inn navn"

@@ -185,16 +185,16 @@ msgstr "Udefinert tast"
 
 #: keys.cpp:153
 msgid "Up"
-msgstr ""
+msgstr "Opp"
 
 #: keys.cpp:154
 msgid "Down"
-msgstr ""
+msgstr "Ned"
 
 #: keys.cpp:155
 msgid "Left"
-msgstr ""
+msgstr "Venstre"
 
 #: keys.cpp:156
 msgid "Right"
-msgstr ""
+msgstr "Høyre"
