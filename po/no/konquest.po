@@ -31,7 +31,7 @@ msgstr ": Hvor mange skip?"
 
 #: gameboard.cc:267
 msgid "Ruler: Select starting planet."
-msgstr ""
+msgstr "Hersker: Velg en startplanet."
 
 #: gameboard.cc:287
 #, c-format
@@ -44,11 +44,11 @@ msgstr ""
 
 #: gameboard.cc:291
 msgid "Distance"
-msgstr ""
+msgstr "Distanse"
 
 #: gameboard.cc:296
 msgid "Ruler: Select ending planet."
-msgstr ""
+msgstr "Hersker: Velg en sluttplanet."
 
 #: gameboard.cc:311
 #, c-format
@@ -67,7 +67,7 @@ msgstr "Et emperie har falt..."
 #: gameboard.cc:438
 #, c-format
 msgid "The fallen empire of %s has staggered back to life."
-msgstr ""
+msgstr "Det døde emperiet %s har nå kjempet seg tilbake til livet."
 
 #: gameboard.cc:440
 msgid "Up from the ashes..."
@@ -76,11 +76,11 @@ msgstr "Opp fra asken..."
 #: gameboard.cc:460
 #, c-format
 msgid "Reinforcements have arrived for planet %s"
-msgstr ""
+msgstr "Forsterkninger har ankommet planeten %s"
 
 #: gameboard.cc:462
 msgid "Fleet Arrival"
-msgstr ""
+msgstr "Flåte ankommet"
 
 #: gameboard.cc:505
 #, c-format
@@ -89,7 +89,7 @@ msgstr "Planet %s har holdt ut angrep fra %s"
 
 #: gameboard.cc:507
 msgid "Planet Holds"
-msgstr ""
+msgstr "Planet inneholder"
 
 #: gameboard.cc:515
 #, c-format
@@ -98,7 +98,7 @@ msgstr "Planet &s har blitt mistet til %s"
 
 #: gameboard.cc:517
 msgid "Planet Conquered"
-msgstr ""
+msgstr "Planet beseiret"
 
 #: gameboard.cc:579 mainwin.cc:81
 msgid "End Game"
@@ -114,7 +114,7 @@ msgstr "Ikke nok skip sendt."
 
 #: mainwin.cc:23
 msgid "GNU-Lactic Conquest"
-msgstr ""
+msgstr "GNU-tisk Overvinner"
 
 #: mainwin.cc:46
 #, c-format
@@ -135,11 +135,11 @@ msgstr ""
 
 #: mainwin.cc:87
 msgid "Measure Distance"
-msgstr ""
+msgstr "Måle distanser"
 
 #: mainwin.cc:91
 msgid "Show Standings"
-msgstr ""
+msgstr "Vise rangering"
 
 #: newgamedlg.cc:28
 msgid "Preview Map"
