@@ -1,5 +1,11 @@
 # Makefile.in of ksame-0.2
 
+kde_libraries = @kde_libraries@
+qt_libraries = @qt_libraries@
+top_builddir = ..
+LIBTOOL = @LIBTOOL@
+KDE_RPATH = @KDE_RPATH@
+
 CXX	=	@CXX@
 LDFLAGS	=	@LDFLAGS@ @all_libraries@ -lkdeui -lkdecore -lqt -lX11 -lXext
 CXXFLAGS=	@CXXFLAGS@ -DHAVE_CONFIG_H @all_includes@ -I..
@@ -32,7 +38,7 @@ Makefile: Makefile.in
 	cd .. && CONFIG_FILES=ksame/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
 $(TARGET): $(SRCMETA)  $(OBJECTS) 
-	$(CXX)  -o $(TARGET) $(OBJECTS) $(LDFLAGS)
+	$(LIBTOOL) --mode=link $(CXX)  -o $(TARGET) $(OBJECTS) $(LDFLAGS) $(KDE_RPATH)
 
 install: all
 	$(INSTALL_DIR) $(BINDIR)
@@ -41,18 +47,18 @@ install: all
 	$(INSTALL) ksame.html $(DOCDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL) Ksame.kdelnk $(APPSDIR)
-	
+
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	rm -f $(DOCDIR)/ksame.html
 	rm -f $(APPSDIR)/Ksame.kdelnk
-	
+
 clean:
 	rm -f *.o $(TARGET) bintoinc stone3.inc *~ 
 
 distclean: clean
 	rm -f Makefile *.moc
-	
+
 stone3.inc: stone3.bmp bintoinc
 	./bintoinc stone3.bmp stone3.inc stone3
 
