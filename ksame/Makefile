@@ -1,5 +1,5 @@
 # Generated automatically from Makefile.in by configure.
-# Makefile.in generated automatically by automake 1.4 from Makefile.am
+# Makefile.in generated automatically by automake 1.4a from Makefile.am
 
 # Copyright (C) 1994, 1995-8, 1999 Free Software Foundation, Inc.
 # This Makefile.in is free software; the Free Software Foundation
@@ -45,10 +45,11 @@ AUTOCONF = autoconf
 AUTOMAKE = automake
 AUTOHEADER = autoheader
 
-INSTALL = /usr/bin/ginstall -c
-INSTALL_PROGRAM = ${INSTALL} $(AM_INSTALL_PROGRAM_FLAGS)
+INSTALL = /usr/bin/install -c
+INSTALL_PROGRAM = ${INSTALL}
 INSTALL_DATA = ${INSTALL} -m 644
 INSTALL_SCRIPT = ${INSTALL_PROGRAM}
+INSTALL_STRIP_FLAG =
 transform = s,x,x,
 
 NORMAL_INSTALL = :
@@ -57,12 +58,12 @@ POST_INSTALL = :
 NORMAL_UNINSTALL = :
 PRE_UNINSTALL = :
 POST_UNINSTALL = :
-build_alias = i686-pc-linux-gnu
-build_triplet = i686-pc-linux-gnu
-host_alias = i686-pc-linux-gnu
-host_triplet = i686-pc-linux-gnu
-target_alias = i686-pc-linux-gnu
-target_triplet = i686-pc-linux-gnu
+build_alias = i586-pc-linux-gnu
+build_triplet = i586-pc-linux-gnu
+host_alias = i586-pc-linux-gnu
+host_triplet = i586-pc-linux-gnu
+target_alias = i586-pc-linux-gnu
+target_triplet = i586-pc-linux-gnu
 AS = 
 CC = gcc
 CPP = gcc -E
@@ -77,7 +78,7 @@ KDE_EXTRA_RPATH =
 KDE_INCLUDES = -I/opt/kde/include
 KDE_LDFLAGS = -L/opt/kde/lib
 KDE_RPATH = -rpath $(kde_libraries) -rpath $(x_libraries)
-LD = /usr/i486-linux/bin/ld
+LD = /usr/bin/ld
 LIBCOMPAT = 
 LIBCRYPT = -lcrypt
 LIBDL = @LIBDL@
@@ -108,10 +109,10 @@ LIB_MEDIATOOL = -lmediatool $(LIB_KDECORE)
 LIB_QT = -lqt $(LIB_X11)
 LIB_X11 = -lX11 $(LIBSOCKET)
 LN_S = ln -s
-MAKEINFO = makeinfo
+MAKEINFO = /usr/local/data/v1/kde/kdegames/admin/missing makeinfo
 MICO_INCLUDES = @MICO_INCLUDES@
 MICO_LDFLAGS = @MICO_LDFLAGS@
-MOC = /usr/lib/qt/bin/moc
+MOC = /usr/bin/moc
 MSGFMT = /usr/bin/msgfmt
 NM = /usr/bin/nm -B
 PACKAGE = kdegames
@@ -120,7 +121,7 @@ PAMLIBPATHS = @PAMLIBPATHS@
 PAMLIBS = @PAMLIBS@
 PYTHONINC = @PYTHONINC@
 PYTHONLIB = @PYTHONLIB@
-QT_INCLUDES = -I/usr/lib/qt/include
+QT_INCLUDES = -I/usr/include/qt
 QT_LDFLAGS = 
 RANLIB = ranlib
 TOPSUBDIRS =  kabalone kasteroids kblackbox kmahjongg kmines konquest kpat kpoker kreversi ksame kshisen ksirtet ksmiletris ksnake ksokoban po
@@ -131,9 +132,9 @@ XPMINC = @XPMINC@
 XPMLIB = @XPMLIB@
 X_EXTRA_LIBS = 
 X_INCLUDES = 
-X_LDFLAGS = -L/usr/X11/lib
-all_includes = -I/usr/include/g++ -I/opt/kde/include -I/usr/lib/qt/include  
-all_libraries = -L/opt/kde/lib  -L/usr/X11/lib
+X_LDFLAGS = -L/usr/X11R6/lib
+all_includes = -I/opt/kde/include -I/usr/include/qt  
+all_libraries = -L/opt/kde/lib  -L/usr/X11R6/lib
 install_root = 
 kde_appsdir = /opt/kde/share/applnk
 kde_bindir = /opt/kde/bin
@@ -151,11 +152,11 @@ kde_partsdir = /opt/kde/parts
 kde_sounddir = /opt/kde/share/sounds
 kde_toolbardir = /opt/kde/share/toolbar
 kde_wallpaperdir = /opt/kde/share/wallpapers
-qt_includes = /usr/lib/qt/include
+qt_includes = /usr/include/qt
 qt_libraries = 
-topdir = /home/niedner/KDE-1.1.2/kdegames
+topdir = /usr/local/data/v1/kde/kdegames
 x_includes = .
-x_libraries = /usr/X11/lib
+x_libraries = /usr/X11R6/lib
 
 bin_PROGRAMS = ksame
 INCLUDES = $(all_includes)
@@ -204,7 +205,7 @@ DIST_COMMON =  ChangeLog Makefile.am Makefile.in
 
 DISTFILES = $(DIST_COMMON) $(SOURCES) $(HEADERS) $(TEXINFOS) $(EXTRA_DIST)
 
-TAR = tar
+TAR = gtar
 GZIP_ENV = --best
 DEP_FILES =  .deps/HighScore.P .deps/KSameWidget.P .deps/StoneWidget.P \
 .deps/main.P
@@ -237,8 +238,8 @@ install-binPROGRAMS: $(bin_PROGRAMS)
 	$(mkinstalldirs) $(DESTDIR)$(bindir)
 	@list='$(bin_PROGRAMS)'; for p in $$list; do \
 	  if test -f $$p; then \
-	    echo " $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`"; \
-	    $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
+	    echo " $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $(INSTALL_STRIP_FLAG) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`"; \
+	    $(LIBTOOL)  --mode=install $(INSTALL_PROGRAM) $(INSTALL_STRIP_FLAG) $$p $(DESTDIR)$(bindir)/`echo $$p|sed 's/$(EXEEXT)$$//'|sed '$(transform)'|sed 's/$$/$(EXEEXT)/'`; \
 	  else :; fi; \
 	done
 
@@ -447,7 +448,7 @@ distdir: $(DISTFILES)
 	@for file in $(DISTFILES); do \
 	  d=$(srcdir); \
 	  if test -d $$d/$$file; then \
-	    cp -pr $$/$$file $(distdir)/$$file; \
+	    cp -pr $$d/$$file $(distdir)/$$file; \
 	  else \
 	    test -f $(distdir)/$$file \
 	    || ln $$d/$$file $(distdir)/$$file 2> /dev/null \
@@ -540,7 +541,7 @@ uninstall: uninstall-recursive
 all-am: Makefile $(PROGRAMS) $(DATA) $(HEADERS)
 all-redirect: all-recursive
 install-strip:
-	$(MAKE) $(AM_MAKEFLAGS) AM_INSTALL_PROGRAM_FLAGS=-s install
+	$(MAKE) $(AM_MAKEFLAGS) INSTALL_STRIP_FLAG=-s install
 installdirs: installdirs-recursive
 installdirs-am:
 	$(mkinstalldirs)  $(DESTDIR)$(bindir) $(DESTDIR)$(appsdir) \
