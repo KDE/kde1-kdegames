@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"

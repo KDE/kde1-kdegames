@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.ult.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
@@ -111,9 +111,3 @@ msgstr "&Novo jogo"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Som"
-
-#~ msgid "&About..."
-#~ msgstr "&Acerca..."
-
-#~ msgid "About &Qt..."
-#~ msgstr "Acerca do &Qt..."

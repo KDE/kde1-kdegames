@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian\n"
@@ -13,129 +13,129 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: app.cpp:88 board.cpp:218
+#: app.cpp:94 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
 
-#: app.cpp:102
+#: app.cpp:108
 msgid "Get &hint"
 msgstr "&Savjet"
 
-#: app.cpp:104
+#: app.cpp:110
 msgid "&New game"
 msgstr "&Nova igra"
 
-#: app.cpp:105
+#: app.cpp:111
 msgid "Res&tart game"
 msgstr "&Ponovno pokretanje igre"
 
-#: app.cpp:107
+#: app.cpp:113
 msgid "Is game solvable?"
 msgstr "Da li je igra rje¹iva?"
 
-#: app.cpp:109
+#: app.cpp:115
 msgid "&Hall of Fame"
 msgstr "&Dvorac Slave"
 
-#: app.cpp:115
+#: app.cpp:125
 msgid "14x6"
 msgstr "14x6"
 
-#: app.cpp:116
+#: app.cpp:126
 msgid "18x8"
 msgstr "18x8"
 
-#: app.cpp:117
+#: app.cpp:127
 msgid "24x12"
 msgstr "24x12"
 
-#: app.cpp:118
+#: app.cpp:128
 msgid "28x16"
 msgstr "28x16"
 
-#: app.cpp:119
+#: app.cpp:129
 msgid "32x20"
 msgstr "32x20"
 
-#: app.cpp:123
+#: app.cpp:133
 msgid "Very fast"
 msgstr "Vrlo brzo"
 
-#: app.cpp:124
+#: app.cpp:134
 msgid "Fast"
 msgstr "Brzo"
 
-#: app.cpp:125 app.cpp:130
+#: app.cpp:135 app.cpp:140
 msgid "Medium"
 msgstr "Srednje"
 
-#: app.cpp:126
+#: app.cpp:136
 msgid "Slow"
 msgstr "Sporo"
 
-#: app.cpp:127
+#: app.cpp:137
 msgid "Very slow"
 msgstr "Vrlo sporo"
 
-#: app.cpp:129
+#: app.cpp:139
 msgid "Easy"
 msgstr "Lagano"
 
-#: app.cpp:131
+#: app.cpp:141
 msgid "Hard"
 msgstr "Te¹ko"
 
-#: app.cpp:141
+#: app.cpp:151
 msgid "Si&ze"
 msgstr "Ve&lièina"
 
-#: app.cpp:142
+#: app.cpp:152
 msgid "S&peed"
 msgstr "&Brzina"
 
-#: app.cpp:143
+#: app.cpp:153
 msgid "&Level"
 msgstr "&Razina"
 
-#: app.cpp:144
+#: app.cpp:154
 msgid "Disallow unsolvable games"
 msgstr "Onemoguæi nerje¹ive igre"
 
-#: app.cpp:165
+#: app.cpp:175
 msgid "Your time: XX:XX:XX"
 msgstr "Va¹e vrijeme: XX:XX:XX"
 
-#: app.cpp:166 app.cpp:258 app.cpp:283
+#: app.cpp:176 app.cpp:273 app.cpp:298
 msgid "Cheat mode"
 msgstr "Mod varanja"
 
-#: app.cpp:249
+#: app.cpp:264
 msgid "This game is solveable"
 msgstr "Ova igra je rje¹iva"
 
-#: app.cpp:252
+#: app.cpp:267
 msgid "This game is NOT solveable"
 msgstr "Ova igra NIJE rje¹iva"
 
-#: app.cpp:368 app.cpp:391
+#: app.cpp:389 app.cpp:419
 msgid "End of game"
 msgstr "Kraj igre"
 
-#: app.cpp:369
+#: app.cpp:390
 msgid "No more moves possible!"
 msgstr "Nijedan daljnji potez nije moguæ!"
 
-#: app.cpp:386
+#: app.cpp:414
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Èestitke! Uspjeli ste dovr¹iti u %02d:%02d:%02d"
 
-#: app.cpp:403
+#: app.cpp:431
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Vaše vrijeme: %02d:%02d:%02d"
 
-#: app.cpp:414
+#: app.cpp:442
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -145,33 +145,36 @@ msgstr ""
 "va¹e ime da èovjeèanstvo zapamti\n"
 "va¹ cool rang."
 
-#: app.cpp:417
+#: app.cpp:445
 msgid "Your name:"
 msgstr "Va¹e ime:"
 
-#: app.cpp:558 app.cpp:563
+#: app.cpp:606 app.cpp:611
 msgid "Hall Of Fame"
 msgstr "Dvorac Slave"
 
-#: app.cpp:559
+#: app.cpp:607
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "Shisen-Sho: Dvorac Slave"
 
-#: app.cpp:584
+#: app.cpp:632
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:588
-msgid "Name"
-msgstr "Ime"
-
-#: app.cpp:592
+#: app.cpp:640
 msgid "Time"
 msgstr "Vrijeme"
 
-#: board.cpp:219
+#: app.cpp:648
+msgid "Score"
+msgstr ""
+
+#: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Ne mogu uèitati pixmape!"
+
+#~ msgid "Name"
+#~ msgstr "Ime"
 
 #~ msgid "About &Qt..."
 #~ msgstr "O &Qt..."

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kasteroids\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "PO-Revision-Date: 1998-01-26 13:55+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -32,6 +32,3 @@ msgstr "KAsteriods"
 #: toplevel.cpp:341
 msgid "Game Over!"
 msgstr "Jogo Terminado!"
-
-#~ msgid "&About..."
-#~ msgstr "&Acerca..."

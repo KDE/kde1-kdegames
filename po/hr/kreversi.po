@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -361,11 +361,6 @@ msgstr "Kreversi: Najbolji igraèi"
 msgid "Rank"
 msgstr ""
 
-#: app.cpp:885
-#, fuzzy
-msgid "Name"
-msgstr "&Igra"
-
 #: app.cpp:889
 #, fuzzy
 msgid "Color"
@@ -392,6 +387,10 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Va¹e ime:"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "&Igra"
 
 #~ msgid "Error"
 #~ msgstr "Gre¹ka"

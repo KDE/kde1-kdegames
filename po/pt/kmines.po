@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: 1998-01-22 00:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -136,20 +136,3 @@ msgstr "Marca de incerteza (?)"
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "Tenta outra vez"
-
-#~ msgid "About..."
-#~ msgstr "Acerca..."
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "por Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-
-#~ msgid "kmines : About"
-#~ msgstr "kmines : Acerca"

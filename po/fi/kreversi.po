@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -360,10 +360,6 @@ msgstr "KReversi: Ennätyslista"
 msgid "Rank"
 msgstr "Sijoitus"
 
-#: app.cpp:885
-msgid "Name"
-msgstr "Nimi"
-
 #: app.cpp:889
 msgid "Color"
 msgstr "Väri"
@@ -388,3 +384,6 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Nimesi:"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"

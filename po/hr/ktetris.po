@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "PO-Revision-Date: 1998-03-23 22:00+0100\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr> \n"
 "Language-Team: Croatian\n"
@@ -13,159 +13,155 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: board.cpp:68 dialogs.cpp:140
+#: board.cpp:66 dialogs.cpp:137
 msgid "Anonymous"
 msgstr "Nepoznat"
 
-#: board.cpp:85
+#: board.cpp:98
 msgid "Game paused"
 msgstr "Igra pauzirana"
 
-#: board.cpp:90
+#: board.cpp:103
 msgid "Press to resume"
 msgstr "Pritisni za nastavak"
 
-#: board.cpp:105 net.cpp:216
+#: board.cpp:120 net.cpp:208
 msgid "Game over"
 msgstr "Igra je zavr¹ena"
 
-#: board.cpp:109
+#: board.cpp:124
 msgid "Press Return to replay"
 msgstr "Pritisni Return za reprizu"
 
-#: board.cpp:113
+#: board.cpp:128
 msgid "Press to start game"
 msgstr "Pritisni za poèetak igre"
 
-#: board.cpp:154 field.cpp:31 field.cpp:48
+#: board.cpp:174 field.cpp:29 field.cpp:45
 msgid "Move left"
 msgstr "Lijevo"
 
-#: board.cpp:155 field.cpp:32 field.cpp:49
+#: board.cpp:175 field.cpp:30 field.cpp:46
 msgid "Move right"
 msgstr "Desno"
 
-#: board.cpp:156 field.cpp:33 field.cpp:50
+#: board.cpp:176 field.cpp:31 field.cpp:47
 msgid "Drop down"
 msgstr "Ispusti"
 
-#: board.cpp:157 field.cpp:34 field.cpp:51
+#: board.cpp:177 field.cpp:32 field.cpp:48
 msgid "One line down"
 msgstr "Spusti za jedan red"
 
-#: board.cpp:158 field.cpp:35 field.cpp:52
+#: board.cpp:178 field.cpp:33 field.cpp:49
 msgid "Rotate left"
 msgstr "Zakreni lijevo"
 
-#: board.cpp:159 field.cpp:36 field.cpp:53
+#: board.cpp:179 field.cpp:34 field.cpp:50
 msgid "Rotate right"
 msgstr "Zakreni desno"
 
-#: board.cpp:269
-msgid "You suck !"
-msgstr "Pu¹i¹!"
-
-#: board.cpp:391
+#: board.cpp:372
 msgid "Highscores file not writable !"
 msgstr "Datoteka s rekordima nije dozvoljena za pisanje!"
 
-#: net.cpp:133
+#: net.cpp:129
 msgid "Illegal port"
 msgstr "Nedozvoljen port"
 
-#: net.cpp:139
+#: net.cpp:135
 msgid "Null address"
 msgstr "Nepostojeæa adresa"
 
-#: net.cpp:145 net.cpp:151
+#: net.cpp:142
 msgid "Unknown address"
 msgstr "Nepoznata adresa"
 
-#: net.cpp:166
+#: net.cpp:157
 msgid "Cannot create socket"
 msgstr "Ne mogu napraviti socket"
 
-#: net.cpp:204
+#: net.cpp:196
 msgid "at"
 msgstr "na"
 
-#: net.cpp:241
+#: net.cpp:233
 msgid "Connect error"
 msgstr "Gre¹ka pri spajanju"
 
-#: net.cpp:251 net.cpp:306
+#: net.cpp:243 net.cpp:299
 msgid "Server unreachable"
 msgstr "Server nije dostupan"
 
-#: net.cpp:274
+#: net.cpp:266
 msgid "The server has died"
 msgstr "Server je riknuo"
 
-#: net.cpp:274
+#: net.cpp:267
 msgid "Cancel from server"
 msgstr "Server je otkazao vezu"
 
-#: net.cpp:280 net.cpp:340
+#: net.cpp:273 net.cpp:333
 msgid "Unknown data from server"
 msgstr "Server je poslao nepoznate podatke"
 
-#: net.cpp:319
+#: net.cpp:312
 msgid "Cannot send to server"
 msgstr "Ne mogu slati serveru"
 
-#: net.cpp:331
+#: net.cpp:324
 msgid "Client timeout (No message from server)"
 msgstr "Prekoraèenje vremena "
 
-#: net.cpp:336
+#: net.cpp:329
 msgid "Server has vanished"
 msgstr "Server je nestao"
 
-#: net.cpp:373
+#: net.cpp:366
 msgid "Bind error"
 msgstr "Gre¹ka u spajanju"
 
-#: net.cpp:378
+#: net.cpp:371
 msgid "Listen error"
 msgstr "Gre¹ka u slu¹anju"
 
-#: net.cpp:397
+#: net.cpp:390
 msgid "Unknown message from unknown player (??)"
 msgstr "Nepoznata poruka nepoznatog igraèa(??)"
 
-#: net.cpp:456 net.cpp:497
+#: net.cpp:449 net.cpp:490
 msgid "Unknown message from client"
 msgstr "Nepoznata poruka s klienta"
 
-#: net.cpp:493
+#: net.cpp:486
 msgid "Client has died"
 msgstr "Klient je riknuo"
 
-#: net.cpp:493
+#: net.cpp:487
 msgid "Cancel from client"
 msgstr "Klijent je poslao otkaz"
 
-#: net.cpp:501
+#: net.cpp:494
 msgid "Timeout"
 msgstr "Prekoraèenje vremena"
 
-#: net.cpp:527
+#: net.cpp:520
 msgid "No message from client"
 msgstr "Nema poruke s klijenta"
 
-#: net.cpp:532
+#: net.cpp:525
 msgid "Client has vanished"
 msgstr "Klijent je nestao"
 
-#: net.cpp:536
+#: net.cpp:529
 msgid "Unknown data from client"
 msgstr "Nepoznati podaci s klienta"
 
-#: net.cpp:540
+#: net.cpp:533
 msgid "End message from client"
 msgstr "Zavr¹na poruka s klijenta"
 
-#: net.cpp:557
+#: net.cpp:550
 msgid "Cannot send to client"
 msgstr "Ne mogu poslati klijentu"
 
@@ -173,157 +169,166 @@ msgstr "Ne mogu poslati klijentu"
 msgid "High Scores"
 msgstr "Najbolji rezultati"
 
-#: dialogs.cpp:84 dialogs.cpp:94
+#: dialogs.cpp:84 dialogs.cpp:93
 msgid "Hall of Fame"
 msgstr "Dvorana besmrtnika"
 
-#: dialogs.cpp:161
+#: dialogs.cpp:156
 msgid "No option yet !"
 msgstr "Jo¹ nije ugraðeno!"
 
-#: dialogs.cpp:184 dialogs.cpp:234
+#: dialogs.cpp:175 dialogs.cpp:232
 msgid "Network Dialog"
 msgstr "Pode¹avanje mre¾e"
 
-#: dialogs.cpp:187
+#: dialogs.cpp:178
 msgid "Server"
 msgstr "Server"
 
-#: dialogs.cpp:188
+#: dialogs.cpp:179
 msgid "Client"
 msgstr "Klient"
 
-#: dialogs.cpp:192
+#: dialogs.cpp:183
 msgid "Player name :"
 msgstr "Ime igraèa :"
 
-#: dialogs.cpp:194
+#: dialogs.cpp:185
 msgid "Server address :"
 msgstr "Adresa servera :"
 
-#: dialogs.cpp:196
+#: dialogs.cpp:187
 msgid "Port :"
 msgstr "Port :"
 
-#: dialogs.cpp:208
+#: dialogs.cpp:199
 msgid "Connect"
 msgstr "Spojen"
 
-#: dialogs.cpp:211
+#: dialogs.cpp:202
 msgid "Connecting ..."
 msgstr "Spajam se..."
 
-#: dialogs.cpp:214
+#: dialogs.cpp:205
 msgid "Play !"
 msgstr "Igraj!"
 
-#: dialogs.cpp:254
+#: dialogs.cpp:252
 msgid "Network game"
 msgstr "Mre¾na igra"
 
-#: dialogs.cpp:258
+#: dialogs.cpp:256
 msgid "Server mode"
 msgstr "Server mod"
 
-#: dialogs.cpp:260
+#: dialogs.cpp:258
 msgid "Client mode"
 msgstr "Klient mod"
 
-#: dialogs.cpp:338
+#: dialogs.cpp:336
 msgid "Waiting for other player(s) ..."
 msgstr "Èekam druge igraèe..."
 
-#: field.cpp:27 field.cpp:43
+#: field.cpp:25 field.cpp:41
 msgid "New game"
 msgstr "Nova igra"
 
-#: field.cpp:28 field.cpp:44
+#: field.cpp:26 field.cpp:42
 msgid "Pause game"
 msgstr "Pauziraj"
 
-#: field.cpp:30 field.cpp:46
+#: field.cpp:28 field.cpp:43
 msgid "High scores"
 msgstr "Rekordi"
 
-#: field.cpp:37
+#: field.cpp:35
 msgid "Close dialog"
 msgstr "Zatvori dialog"
 
-#: field.cpp:38
+#: field.cpp:36
 msgid "Ok dialog"
 msgstr "Ok dialog"
 
-#: field.cpp:39
+#: field.cpp:37
 msgid "Cancel dialog"
 msgstr "Poni¹ti dialog"
 
-#: field.cpp:55
+#: field.cpp:52
 msgid "Score"
 msgstr "Rezultat"
 
-#: field.cpp:59
+#: field.cpp:56
 msgid "Lines removed"
 msgstr "Maknutih linija"
 
-#: field.cpp:63
+#: field.cpp:60
 msgid "Level"
 msgstr "Nivo"
 
-#: field.cpp:67
+#: field.cpp:64
 msgid "Next tile"
 msgstr "Slijedeæi oblik"
 
-#: field.cpp:173
+#: field.cpp:185
 msgid "&Restart game"
 msgstr "&Ponovo igraj"
 
-#: field.cpp:174
+#: field.cpp:186
 msgid "&Pause game"
 msgstr "Pauz&iraj"
 
-#: field.cpp:175
+#: field.cpp:187
 msgid "&Multiplayer game"
 msgstr "&Mre¾na  igra"
 
-#: field.cpp:177
+#: field.cpp:189
 msgid "&High scores"
 msgstr "Re&kordi"
 
-#: main.cpp:22 main.cpp:67
+#: main.cpp:23 main.cpp:67
 msgid "Hide menu"
 msgstr "Sakrij izbornik"
 
-#: main.cpp:27
+#: main.cpp:28
 msgid "&Keys"
 msgstr "&Tipke"
 
 #: main.cpp:30
-msgid "&Contents"
-msgstr "&Sadr¾aj"
+msgid "Tetris"
+msgstr ""
 
-#: main.cpp:33
-msgid "About &Qt"
-msgstr "&O Qt"
+#: main.cpp:32
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
 
 #: main.cpp:64
 msgid "Show menu"
 msgstr "Prika¾i izbornik"
 
-#: main.cpp:77
-#, c-format
-msgid ""
-"%s (%s) \n"
-"\n"
-"by Nicolas HADACEK(hadacek@kde.org)\n"
-"tetris kernel by Eirik ENG.\n"
-"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-msgstr ""
-"%s (%s) \n"
-"\n"
-"Nicolas HADACEK(hadacek@kde.org)\n"
-"tetris kernel Eirik ENG.\n"
-"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+#~ msgid "You suck !"
+#~ msgstr "Pu¹i¹!"
 
-#: main.cpp:80
-msgid "ktetris : about"
-msgstr "ktetris: o programu"
+#~ msgid "&Contents"
+#~ msgstr "&Sadr¾aj"
+
+#~ msgid "About &Qt"
+#~ msgstr "&O Qt"
+
+#~ msgid ""
+#~ "%s (%s) \n"
+#~ "\n"
+#~ "by Nicolas HADACEK(hadacek@kde.org)\n"
+#~ "tetris kernel by Eirik ENG.\n"
+#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+#~ msgstr ""
+#~ "%s (%s) \n"
+#~ "\n"
+#~ "Nicolas HADACEK(hadacek@kde.org)\n"
+#~ "tetris kernel Eirik ENG.\n"
+#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+
+#~ msgid "ktetris : about"
+#~ msgstr "ktetris: o programu"

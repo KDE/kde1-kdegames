@@ -16,7 +16,7 @@ BUILTSOURCES = spiece.moc board.moc dialogs.moc field.moc main.moc
 DISTCLEANFILES = $(BUILTSOURCES)
 
 messages:
-	$(XGETTEXT) -C -ktranslate -x ../../kdelibs/po/kde.pot $(ktetris_SOURCES) && mv messages.po ../po/ktetris.pot
+	$(XGETTEXT) -C -ktranslate -ki18n -x ../../kdelibs/po/kde.pot $(ktetris_SOURCES) && mv messages.po ../po/ktetris.pot
 
 ## ##########################
 ## # Installation definitions

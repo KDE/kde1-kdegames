@@ -1,14 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kreversi\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: 1998-01-26 14:00+0100\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
-msgstr "Acerca do KReversi"
+msgstr "Acerca do kreversi"
 
 #: about.cpp:65
 msgid "Version "
@@ -73,7 +72,6 @@ msgid "&Save game"
 msgstr "&Gravar jogo"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
 msgstr "Pedir &dica"
 
@@ -353,10 +351,6 @@ msgstr "KReversi: Quadro de Honra"
 msgid "Rank"
 msgstr "Posição"
 
-#: app.cpp:885
-msgid "Name"
-msgstr "Nome"
-
 #: app.cpp:889
 msgid "Color"
 msgstr "Cor"
@@ -383,14 +377,5 @@ msgstr ""
 msgid "Your name:"
 msgstr "O seu nome:"
 
-#~ msgid "&Rules"
-#~ msgstr "&Regras"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "Dicas de &Estratégia"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Acerca do &Qt..."
-
-#~ msgid "&About..."
-#~ msgstr "&Acerca..."
+#~ msgid "Name"
+#~ msgstr "Nome"

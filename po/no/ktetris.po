@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -14,159 +14,155 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: board.cpp:68 dialogs.cpp:140
+#: board.cpp:66 dialogs.cpp:137
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: board.cpp:85
+#: board.cpp:98
 msgid "Game paused"
 msgstr "Pause i spillet"
 
-#: board.cpp:90
+#: board.cpp:103
 msgid "Press to resume"
 msgstr "Trykk for å fortsette"
 
-#: board.cpp:105 net.cpp:216
+#: board.cpp:120 net.cpp:208
 msgid "Game over"
 msgstr "Spillet er slutt"
 
-#: board.cpp:109
+#: board.cpp:124
 msgid "Press Return to replay"
 msgstr "Trykk Return for spille om igjen"
 
-#: board.cpp:113
+#: board.cpp:128
 msgid "Press to start game"
 msgstr "Trykk for å starte spill"
 
-#: board.cpp:154 field.cpp:31 field.cpp:48
+#: board.cpp:174 field.cpp:29 field.cpp:45
 msgid "Move left"
 msgstr "Flytt til venstre"
 
-#: board.cpp:155 field.cpp:32 field.cpp:49
+#: board.cpp:175 field.cpp:30 field.cpp:46
 msgid "Move right"
 msgstr "Flytt til høyre"
 
-#: board.cpp:156 field.cpp:33 field.cpp:50
+#: board.cpp:176 field.cpp:31 field.cpp:47
 msgid "Drop down"
 msgstr "Slipp ned"
 
-#: board.cpp:157 field.cpp:34 field.cpp:51
+#: board.cpp:177 field.cpp:32 field.cpp:48
 msgid "One line down"
 msgstr "En linje ned"
 
-#: board.cpp:158 field.cpp:35 field.cpp:52
+#: board.cpp:178 field.cpp:33 field.cpp:49
 msgid "Rotate left"
 msgstr "Roter til venstre"
 
-#: board.cpp:159 field.cpp:36 field.cpp:53
+#: board.cpp:179 field.cpp:34 field.cpp:50
 msgid "Rotate right"
 msgstr "Roter til høyre"
 
-#: board.cpp:269
-msgid "You suck !"
-msgstr "You suck !"
-
-#: board.cpp:391
+#: board.cpp:372
 msgid "Highscores file not writable !"
 msgstr "Kan ikke skrive til fil for høy poengsum !"
 
-#: net.cpp:133
+#: net.cpp:129
 msgid "Illegal port"
 msgstr "Illegal port"
 
-#: net.cpp:139
+#: net.cpp:135
 msgid "Null address"
 msgstr "Ingen adresse"
 
-#: net.cpp:145 net.cpp:151
+#: net.cpp:142
 msgid "Unknown address"
 msgstr "Ukjent adresse"
 
-#: net.cpp:166
+#: net.cpp:157
 msgid "Cannot create socket"
 msgstr "Kan ikke lage socket"
 
-#: net.cpp:204
+#: net.cpp:196
 msgid "at"
 msgstr "ved"
 
-#: net.cpp:241
+#: net.cpp:233
 msgid "Connect error"
 msgstr "Kontakt feil"
 
-#: net.cpp:251 net.cpp:306
+#: net.cpp:243 net.cpp:299
 msgid "Server unreachable"
 msgstr "Tjener ikke tilgjengelig"
 
-#: net.cpp:274
+#: net.cpp:266
 msgid "The server has died"
 msgstr "Tjeneren døde"
 
-#: net.cpp:274
+#: net.cpp:267
 msgid "Cancel from server"
 msgstr "Kanseller fra tjener"
 
-#: net.cpp:280 net.cpp:340
+#: net.cpp:273 net.cpp:333
 msgid "Unknown data from server"
 msgstr "Ukjent data fra tjener"
 
-#: net.cpp:319
+#: net.cpp:312
 msgid "Cannot send to server"
 msgstr "Kan ikke sende til tjener"
 
-#: net.cpp:331
+#: net.cpp:324
 msgid "Client timeout (No message from server)"
 msgstr "Klient timeout (Ingen melding fra tjener)"
 
-#: net.cpp:336
+#: net.cpp:329
 msgid "Server has vanished"
 msgstr "Tjeneren har forsvunnet"
 
-#: net.cpp:373
+#: net.cpp:366
 msgid "Bind error"
 msgstr "Bind feil"
 
-#: net.cpp:378
+#: net.cpp:371
 msgid "Listen error"
 msgstr "Lytte feil"
 
-#: net.cpp:397
+#: net.cpp:390
 msgid "Unknown message from unknown player (??)"
 msgstr "Ukjent melding fra ukjent spiller (??)"
 
-#: net.cpp:456 net.cpp:497
+#: net.cpp:449 net.cpp:490
 msgid "Unknown message from client"
 msgstr "Ukjent melding fra klient"
 
-#: net.cpp:493
+#: net.cpp:486
 msgid "Client has died"
 msgstr "Klienten døde"
 
-#: net.cpp:493
+#: net.cpp:487
 msgid "Cancel from client"
 msgstr "Kanseller fra klient"
 
-#: net.cpp:501
+#: net.cpp:494
 msgid "Timeout"
 msgstr "Tiden gikk ut"
 
-#: net.cpp:527
+#: net.cpp:520
 msgid "No message from client"
 msgstr "Ingen melding fra klient"
 
-#: net.cpp:532
+#: net.cpp:525
 msgid "Client has vanished"
 msgstr "Klienten har forsvunnet"
 
-#: net.cpp:536
+#: net.cpp:529
 msgid "Unknown data from client"
 msgstr "Ukjent data fra klient"
 
-#: net.cpp:540
+#: net.cpp:533
 msgid "End message from client"
 msgstr "Slutt på melding fra klient"
 
-#: net.cpp:557
+#: net.cpp:550
 msgid "Cannot send to client"
 msgstr "Kan ikke sende til klient"
 
@@ -174,157 +170,166 @@ msgstr "Kan ikke sende til klient"
 msgid "High Scores"
 msgstr "Høy poengsum"
 
-#: dialogs.cpp:84 dialogs.cpp:94
+#: dialogs.cpp:84 dialogs.cpp:93
 msgid "Hall of Fame"
 msgstr "På toppen av seierspallen"
 
-#: dialogs.cpp:161
+#: dialogs.cpp:156
 msgid "No option yet !"
 msgstr "Intet valg ennå !"
 
-#: dialogs.cpp:184 dialogs.cpp:234
+#: dialogs.cpp:175 dialogs.cpp:232
 msgid "Network Dialog"
 msgstr "Nettverks dialog"
 
-#: dialogs.cpp:187
+#: dialogs.cpp:178
 msgid "Server"
 msgstr "Tjener"
 
-#: dialogs.cpp:188
+#: dialogs.cpp:179
 msgid "Client"
 msgstr "Klient"
 
-#: dialogs.cpp:192
+#: dialogs.cpp:183
 msgid "Player name :"
 msgstr "Spillerens navn :"
 
-#: dialogs.cpp:194
+#: dialogs.cpp:185
 msgid "Server address :"
 msgstr "Tjenerens adresse :"
 
-#: dialogs.cpp:196
+#: dialogs.cpp:187
 msgid "Port :"
 msgstr "Port :"
 
-#: dialogs.cpp:208
+#: dialogs.cpp:199
 msgid "Connect"
 msgstr "Tilkople"
 
-#: dialogs.cpp:211
+#: dialogs.cpp:202
 msgid "Connecting ..."
 msgstr "Tilkopler ..."
 
-#: dialogs.cpp:214
+#: dialogs.cpp:205
 msgid "Play !"
 msgstr "Spill !"
 
-#: dialogs.cpp:254
+#: dialogs.cpp:252
 msgid "Network game"
 msgstr "Nettverk spill"
 
-#: dialogs.cpp:258
+#: dialogs.cpp:256
 msgid "Server mode"
 msgstr "Tjener mode"
 
-#: dialogs.cpp:260
+#: dialogs.cpp:258
 msgid "Client mode"
 msgstr "Klient mode"
 
-#: dialogs.cpp:338
+#: dialogs.cpp:336
 msgid "Waiting for other player(s) ..."
 msgstr "Venter på annen(andre) spiller(e) ..."
 
-#: field.cpp:27 field.cpp:43
+#: field.cpp:25 field.cpp:41
 msgid "New game"
 msgstr "Nytt spill"
 
-#: field.cpp:28 field.cpp:44
+#: field.cpp:26 field.cpp:42
 msgid "Pause game"
 msgstr "Pause i spillet"
 
-#: field.cpp:30 field.cpp:46
+#: field.cpp:28 field.cpp:43
 msgid "High scores"
 msgstr "Høy poengsum"
 
-#: field.cpp:37
+#: field.cpp:35
 msgid "Close dialog"
 msgstr "Lukk dialog"
 
-#: field.cpp:38
+#: field.cpp:36
 msgid "Ok dialog"
 msgstr "Dialog ok"
 
-#: field.cpp:39
+#: field.cpp:37
 msgid "Cancel dialog"
 msgstr "Kanseller dialog"
 
-#: field.cpp:55
+#: field.cpp:52
 msgid "Score"
 msgstr "Poengsum"
 
-#: field.cpp:59
+#: field.cpp:56
 msgid "Lines removed"
 msgstr "Linjer er fjernet"
 
-#: field.cpp:63
+#: field.cpp:60
 msgid "Level"
 msgstr "Nivå"
 
-#: field.cpp:67
+#: field.cpp:64
 msgid "Next tile"
 msgstr "Neste flis"
 
-#: field.cpp:173
+#: field.cpp:185
 msgid "&Restart game"
 msgstr "&Omstart spill"
 
-#: field.cpp:174
+#: field.cpp:186
 msgid "&Pause game"
 msgstr "&Pause i spillet"
 
-#: field.cpp:175
+#: field.cpp:187
 msgid "&Multiplayer game"
 msgstr "&Flere spillere deltar"
 
-#: field.cpp:177
+#: field.cpp:189
 msgid "&High scores"
 msgstr "&Høy poengsum"
 
-#: main.cpp:22 main.cpp:67
+#: main.cpp:23 main.cpp:67
 msgid "Hide menu"
 msgstr "Skjul meny"
 
-#: main.cpp:27
+#: main.cpp:28
 msgid "&Keys"
 msgstr "&Taster"
 
 #: main.cpp:30
-msgid "&Contents"
-msgstr "&Innhold"
+msgid "Tetris"
+msgstr ""
 
-#: main.cpp:33
-msgid "About &Qt"
-msgstr "Om &Qt"
+#: main.cpp:32
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
 
 #: main.cpp:64
 msgid "Show menu"
 msgstr "Vis meny"
 
-#: main.cpp:77
-#, c-format
-msgid ""
-"%s (%s) \n"
-"\n"
-"by Nicolas HADACEK(hadacek@kde.org)\n"
-"tetris kernel by Eirik ENG.\n"
-"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-msgstr ""
-"%s (%s) \n"
-"\n"
-"av Nicolas HADACEK(hadacek@kde.org)\n"
-"tetris kernel av Eirik ENG.\n"
-"http://www.via.ecp.fr/~hadacek/KDE/KTetris.html"
+#~ msgid "You suck !"
+#~ msgstr "You suck !"
 
-#: main.cpp:80
-msgid "ktetris : about"
-msgstr "KTetris: om"
+#~ msgid "&Contents"
+#~ msgstr "&Innhold"
+
+#~ msgid "About &Qt"
+#~ msgstr "Om &Qt"
+
+#~ msgid ""
+#~ "%s (%s) \n"
+#~ "\n"
+#~ "by Nicolas HADACEK(hadacek@kde.org)\n"
+#~ "tetris kernel by Eirik ENG.\n"
+#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+#~ msgstr ""
+#~ "%s (%s) \n"
+#~ "\n"
+#~ "av Nicolas HADACEK(hadacek@kde.org)\n"
+#~ "tetris kernel av Eirik ENG.\n"
+#~ "http://www.via.ecp.fr/~hadacek/KDE/KTetris.html"
+
+#~ msgid "ktetris : about"
+#~ msgstr "KTetris: om"

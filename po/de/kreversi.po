@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: 1997-10-25 18:54 MET DST\n"
 "Last-Translator: Mario Weilguni <mweilguni@sime.com>\n"
 
@@ -356,10 +356,6 @@ msgstr "KReversi: Ruhmeshalle"
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:885
-msgid "Name"
-msgstr "Name"
-
 #: app.cpp:889
 msgid "Color"
 msgstr "Farbe"
@@ -385,6 +381,9 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Ihr Name:"
+
+#~ msgid "Name"
+#~ msgstr "Name"
 
 #~ msgid "&Rules"
 #~ msgstr "&Regeln"

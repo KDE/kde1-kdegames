@@ -1,133 +1,133 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "PO-Revision-Date: 1998-01-02 14:34+MET\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
-#: app.cpp:88 board.cpp:218
+#: app.cpp:94 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
 
-#: app.cpp:102
+#: app.cpp:108
 msgid "Get &hint"
 msgstr "&Hinweis"
 
-#: app.cpp:104
+#: app.cpp:110
 msgid "&New game"
 msgstr "&Neues Spiel"
 
-#: app.cpp:105
+#: app.cpp:111
 msgid "Res&tart game"
 msgstr "Spiel neu &starten"
 
-#: app.cpp:107
+#: app.cpp:113
 msgid "Is game solvable?"
 msgstr "Ist Spiel lösbar?"
 
-#: app.cpp:109
+#: app.cpp:115
 msgid "&Hall of Fame"
 msgstr "&Bestenliste"
 
-#: app.cpp:115
+#: app.cpp:125
 msgid "14x6"
 msgstr "14x6"
 
-#: app.cpp:116
+#: app.cpp:126
 msgid "18x8"
 msgstr "18x8"
 
-#: app.cpp:117
+#: app.cpp:127
 msgid "24x12"
 msgstr "24x12"
 
-#: app.cpp:118
+#: app.cpp:128
 msgid "28x16"
 msgstr "28x16"
 
-#: app.cpp:119
+#: app.cpp:129
 msgid "32x20"
 msgstr "32x20"
 
-#: app.cpp:123
+#: app.cpp:133
 msgid "Very fast"
 msgstr "Sehr schnell"
 
-#: app.cpp:124
+#: app.cpp:134
 msgid "Fast"
 msgstr "Schnell"
 
-#: app.cpp:125 app.cpp:130
+#: app.cpp:135 app.cpp:140
 msgid "Medium"
 msgstr "Mittel"
 
-#: app.cpp:126
+#: app.cpp:136
 msgid "Slow"
 msgstr "Langsam"
 
-#: app.cpp:127
+#: app.cpp:137
 msgid "Very slow"
 msgstr "Sehr langsam"
 
-#: app.cpp:129
+#: app.cpp:139
 msgid "Easy"
 msgstr "Einfach"
 
-#: app.cpp:131
+#: app.cpp:141
 msgid "Hard"
 msgstr "Schwer"
 
-#: app.cpp:141
+#: app.cpp:151
 msgid "Si&ze"
 msgstr "&Größe"
 
-#: app.cpp:142
+#: app.cpp:152
 msgid "S&peed"
 msgstr "Ge&schwindigkeit"
 
-#: app.cpp:143
+#: app.cpp:153
 msgid "&Level"
 msgstr "S&tufe"
 
-#: app.cpp:144
+#: app.cpp:154
 msgid "Disallow unsolvable games"
 msgstr "Verhindere unlösbare Spiele"
 
-#: app.cpp:165
+#: app.cpp:175
 msgid "Your time: XX:XX:XX"
 msgstr "Ihre Zeit: XX:XX:XX"
 
-#: app.cpp:166 app.cpp:258 app.cpp:283
+#: app.cpp:176 app.cpp:273 app.cpp:298
 msgid "Cheat mode"
 msgstr "Betrüger-Modus"
 
-#: app.cpp:249
+#: app.cpp:264
 msgid "This game is solveable"
 msgstr "Dieses Spiel ist lösbar!"
 
-#: app.cpp:252
+#: app.cpp:267
 msgid "This game is NOT solveable"
 msgstr "Dieses Spiel ist NICHT lösbar!"
 
-#: app.cpp:368 app.cpp:391
+#: app.cpp:389 app.cpp:419
 msgid "End of game"
 msgstr "Ende des Spiels"
 
-#: app.cpp:369
+#: app.cpp:390
 msgid "No more moves possible!"
 msgstr "Keine weiteren Züge möglich"
 
-#: app.cpp:386
+#: app.cpp:414
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Glückwunsch! Sie haben es in %02d:%02d:%02d geschafft"
 
-#: app.cpp:403
+#: app.cpp:431
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Ihre Zeit: %02d:%02d:%02d"
 
-#: app.cpp:414
+#: app.cpp:442
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -137,33 +137,36 @@ msgstr ""
 "Geben Sie Ihren Namen ein, so daß die Menschheit\n"
 "für immer ihre Punkte bewundern kann!"
 
-#: app.cpp:417
+#: app.cpp:445
 msgid "Your name:"
 msgstr "Ihr Name:"
 
-#: app.cpp:558 app.cpp:563
+#: app.cpp:606 app.cpp:611
 msgid "Hall Of Fame"
 msgstr "Bestenliste"
 
-#: app.cpp:559
+#: app.cpp:607
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "Shisen-Sho: Bestenliste"
 
-#: app.cpp:584
+#: app.cpp:632
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:588
-msgid "Name"
-msgstr "Name"
-
-#: app.cpp:592
+#: app.cpp:640
 msgid "Time"
 msgstr "Zeit"
 
-#: board.cpp:219
+#: app.cpp:648
+msgid "Score"
+msgstr ""
+
+#: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Konnte Pixmap nicht laden!"
+
+#~ msgid "Name"
+#~ msgstr "Name"
 
 #~ msgid "About &Qt..."
 #~ msgstr "Über &Qt..."

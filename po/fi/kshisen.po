@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,129 +14,129 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:88 board.cpp:218
+#: app.cpp:94 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
 
-#: app.cpp:102
+#: app.cpp:108
 msgid "Get &hint"
 msgstr "&Vinkki"
 
-#: app.cpp:104
+#: app.cpp:110
 msgid "&New game"
 msgstr "&Uusi peli"
 
-#: app.cpp:105
+#: app.cpp:111
 msgid "Res&tart game"
 msgstr "&Aloita alusta"
 
-#: app.cpp:107
+#: app.cpp:113
 msgid "Is game solvable?"
 msgstr "Onko peli ratkaistava?"
 
-#: app.cpp:109
+#: app.cpp:115
 msgid "&Hall of Fame"
 msgstr "&Tulokset"
 
-#: app.cpp:115
+#: app.cpp:125
 msgid "14x6"
 msgstr "14x6"
 
-#: app.cpp:116
+#: app.cpp:126
 msgid "18x8"
 msgstr "18x8"
 
-#: app.cpp:117
+#: app.cpp:127
 msgid "24x12"
 msgstr "24x12"
 
-#: app.cpp:118
+#: app.cpp:128
 msgid "28x16"
 msgstr "28x16"
 
-#: app.cpp:119
+#: app.cpp:129
 msgid "32x20"
 msgstr "32x20"
 
-#: app.cpp:123
+#: app.cpp:133
 msgid "Very fast"
 msgstr "Eritt‰in nopea"
 
-#: app.cpp:124
+#: app.cpp:134
 msgid "Fast"
 msgstr "Nopea"
 
-#: app.cpp:125 app.cpp:130
+#: app.cpp:135 app.cpp:140
 msgid "Medium"
 msgstr "Keskiverto"
 
-#: app.cpp:126
+#: app.cpp:136
 msgid "Slow"
 msgstr "Hidas"
 
-#: app.cpp:127
+#: app.cpp:137
 msgid "Very slow"
 msgstr "Eritt‰in hidas"
 
-#: app.cpp:129
+#: app.cpp:139
 msgid "Easy"
 msgstr "Helppo"
 
-#: app.cpp:131
+#: app.cpp:141
 msgid "Hard"
 msgstr "Vaikea"
 
-#: app.cpp:141
+#: app.cpp:151
 msgid "Si&ze"
 msgstr "K&oko"
 
-#: app.cpp:142
+#: app.cpp:152
 msgid "S&peed"
 msgstr "&Nopeus"
 
-#: app.cpp:143
+#: app.cpp:153
 msgid "&Level"
 msgstr "&Taso"
 
-#: app.cpp:144
+#: app.cpp:154
 msgid "Disallow unsolvable games"
 msgstr "Kiell‰ ratkaisemattomat pelit"
 
-#: app.cpp:165
+#: app.cpp:175
 msgid "Your time: XX:XX:XX"
 msgstr "Aikasi: XX:XX:XX"
 
-#: app.cpp:166 app.cpp:258 app.cpp:283
+#: app.cpp:176 app.cpp:273 app.cpp:298
 msgid "Cheat mode"
 msgstr "Huijaustila"
 
-#: app.cpp:249
+#: app.cpp:264
 msgid "This game is solveable"
 msgstr "Peli on ratkaisukelpoinen"
 
-#: app.cpp:252
+#: app.cpp:267
 msgid "This game is NOT solveable"
 msgstr "Peli‰ ei voi ratkaista"
 
-#: app.cpp:368 app.cpp:391
+#: app.cpp:389 app.cpp:419
 msgid "End of game"
 msgstr "Pelin loppu"
 
-#: app.cpp:369
+#: app.cpp:390
 msgid "No more moves possible!"
 msgstr "Ei en‰‰ mahdollisia siirtoja!"
 
-#: app.cpp:386
+#: app.cpp:414
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Onnea! Teit sen ajassa %02d:%02d:%02d"
 
-#: app.cpp:403
+#: app.cpp:431
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Aikasi: %02d:%02d:%02d"
 
-#: app.cpp:414
+#: app.cpp:442
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -145,30 +145,33 @@ msgstr ""
 "P‰‰sit \"Enn‰tyslistalle\".Anna nimesi\n"
 "jotta tuloksesi n‰kyy listalla."
 
-#: app.cpp:417
+#: app.cpp:445
 msgid "Your name:"
 msgstr "Nimesi:"
 
-#: app.cpp:558 app.cpp:563
+#: app.cpp:606 app.cpp:611
 msgid "Hall Of Fame"
 msgstr "Enn‰tyslista"
 
-#: app.cpp:559
+#: app.cpp:607
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "Shisen-Sho: Enn‰tyslista"
 
-#: app.cpp:584
+#: app.cpp:632
 msgid "Rank"
 msgstr "J‰rjestys"
 
-#: app.cpp:588
-msgid "Name"
-msgstr "Nimi"
-
-#: app.cpp:592
+#: app.cpp:640
 msgid "Time"
 msgstr "Aika"
 
-#: board.cpp:219
+#: app.cpp:648
+msgid "Score"
+msgstr ""
+
+#: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "En saa ladattua kuvia!"
+
+#~ msgid "Name"
+#~ msgstr "Nimi"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
 "PO-Revision-Date: 1998-02-03 08:03+0100\n"
 "Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 "Language-Team: Romanian <kdei18n@kde.org>\n"
@@ -14,159 +14,155 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: board.cpp:68 dialogs.cpp:140
+#: board.cpp:66 dialogs.cpp:137
 msgid "Anonymous"
 msgstr "Anonim"
 
-#: board.cpp:85
+#: board.cpp:98
 msgid "Game paused"
 msgstr "Pausã"
 
-#: board.cpp:90
+#: board.cpp:103
 msgid "Press to resume"
 msgstr "Apasã o tastã sã rezumãm"
 
-#: board.cpp:105 net.cpp:216
+#: board.cpp:120 net.cpp:208
 msgid "Game over"
 msgstr "Game Over"
 
-#: board.cpp:109
+#: board.cpp:124
 msgid "Press Return to replay"
 msgstr "Apasã Return sã rejucam"
 
-#: board.cpp:113
+#: board.cpp:128
 msgid "Press to start game"
 msgstr "Apasã o tastã sã pornim jocul"
 
-#: board.cpp:154 field.cpp:31 field.cpp:48
+#: board.cpp:174 field.cpp:29 field.cpp:45
 msgid "Move left"
 msgstr "Miºcã la stînga"
 
-#: board.cpp:155 field.cpp:32 field.cpp:49
+#: board.cpp:175 field.cpp:30 field.cpp:46
 msgid "Move right"
 msgstr "Miºcã la dreapta"
 
-#: board.cpp:156 field.cpp:33 field.cpp:50
+#: board.cpp:176 field.cpp:31 field.cpp:47
 msgid "Drop down"
 msgstr "Trage jos"
 
-#: board.cpp:157 field.cpp:34 field.cpp:51
+#: board.cpp:177 field.cpp:32 field.cpp:48
 msgid "One line down"
 msgstr "O linie in jos"
 
-#: board.cpp:158 field.cpp:35 field.cpp:52
+#: board.cpp:178 field.cpp:33 field.cpp:49
 msgid "Rotate left"
 msgstr "Învîrteºte la stînga"
 
-#: board.cpp:159 field.cpp:36 field.cpp:53
+#: board.cpp:179 field.cpp:34 field.cpp:50
 msgid "Rotate right"
 msgstr "Învîrteºte la dreapta"
 
-#: board.cpp:269
-msgid "You suck !"
-msgstr "Pãcalici"
-
-#: board.cpp:391
+#: board.cpp:372
 msgid "Highscores file not writable !"
 msgstr "fÎn iºierul Highscore nu se poate scrie"
 
-#: net.cpp:133
+#: net.cpp:129
 msgid "Illegal port"
 msgstr "Port ilegal"
 
-#: net.cpp:139
+#: net.cpp:135
 msgid "Null address"
 msgstr "Adresa nul"
 
-#: net.cpp:145 net.cpp:151
+#: net.cpp:142
 msgid "Unknown address"
 msgstr "Adresã neºtiutã"
 
-#: net.cpp:166
+#: net.cpp:157
 msgid "Cannot create socket"
 msgstr "Nu pot sã creez solu"
 
-#: net.cpp:204
+#: net.cpp:196
 msgid "at"
 msgstr "la"
 
-#: net.cpp:241
+#: net.cpp:233
 msgid "Connect error"
 msgstr "Eroare de conectare"
 
-#: net.cpp:251 net.cpp:306
+#: net.cpp:243 net.cpp:299
 msgid "Server unreachable"
 msgstr "Serverul este de neatins"
 
-#: net.cpp:274
+#: net.cpp:266
 msgid "The server has died"
 msgstr "Serverul a murit"
 
-#: net.cpp:274
+#: net.cpp:267
 msgid "Cancel from server"
 msgstr "Întreruper de la server"
 
-#: net.cpp:280 net.cpp:340
+#: net.cpp:273 net.cpp:333
 msgid "Unknown data from server"
 msgstr "Date neºtiute de la server"
 
-#: net.cpp:319
+#: net.cpp:312
 msgid "Cannot send to server"
 msgstr "Nu pot trimit la server"
 
-#: net.cpp:331
+#: net.cpp:324
 msgid "Client timeout (No message from server)"
 msgstr "Client timeout (Nici un mesaj de la server)"
 
-#: net.cpp:336
+#: net.cpp:329
 msgid "Server has vanished"
 msgstr "Serverul a dispãrut"
 
-#: net.cpp:373
+#: net.cpp:366
 msgid "Bind error"
 msgstr "Eroare de conecþie"
 
-#: net.cpp:378
+#: net.cpp:371
 msgid "Listen error"
 msgstr "Eroare de ascultare"
 
-#: net.cpp:397
+#: net.cpp:390
 msgid "Unknown message from unknown player (??)"
 msgstr "Mesag neinþeles de la la un jucãtor neºtiut"
 
-#: net.cpp:456 net.cpp:497
+#: net.cpp:449 net.cpp:490
 msgid "Unknown message from client"
 msgstr "Mesaj neºtiut de la client"
 
-#: net.cpp:493
+#: net.cpp:486
 msgid "Client has died"
 msgstr "Clientul a murit"
 
-#: net.cpp:493
+#: net.cpp:487
 msgid "Cancel from client"
 msgstr "Întreruper de la client"
 
-#: net.cpp:501
+#: net.cpp:494
 msgid "Timeout"
 msgstr "Timeout"
 
-#: net.cpp:527
+#: net.cpp:520
 msgid "No message from client"
 msgstr "Nici un mesaj de la client"
 
-#: net.cpp:532
+#: net.cpp:525
 msgid "Client has vanished"
 msgstr "Clientul a dispãrut"
 
-#: net.cpp:536
+#: net.cpp:529
 msgid "Unknown data from client"
 msgstr "Date neºtiute de la client"
 
-#: net.cpp:540
+#: net.cpp:533
 msgid "End message from client"
 msgstr "Mesaj de sfîrºire de la client"
 
-#: net.cpp:557
+#: net.cpp:550
 msgid "Cannot send to client"
 msgstr "Nu pot trimite la client"
 
@@ -174,152 +170,153 @@ msgstr "Nu pot trimite la client"
 msgid "High Scores"
 msgstr "High score"
 
-#: dialogs.cpp:84 dialogs.cpp:94
+#: dialogs.cpp:84 dialogs.cpp:93
 msgid "Hall of Fame"
 msgstr "Hall of Fame"
 
-#: dialogs.cpp:161
+#: dialogs.cpp:156
 msgid "No option yet !"
 msgstr "Nici o opþiune acum"
 
-#: dialogs.cpp:184 dialogs.cpp:234
+#: dialogs.cpp:175 dialogs.cpp:232
 msgid "Network Dialog"
 msgstr "Network dialog"
 
-#: dialogs.cpp:187
+#: dialogs.cpp:178
 msgid "Server"
 msgstr "Server"
 
-#: dialogs.cpp:188
+#: dialogs.cpp:179
 msgid "Client"
 msgstr "Client"
 
-#: dialogs.cpp:192
+#: dialogs.cpp:183
 msgid "Player name :"
 msgstr "Numele jucãtorului"
 
-#: dialogs.cpp:194
+#: dialogs.cpp:185
 msgid "Server address :"
 msgstr "Adresa serverului"
 
-#: dialogs.cpp:196
+#: dialogs.cpp:187
 msgid "Port :"
 msgstr "Port :"
 
-#: dialogs.cpp:208
+#: dialogs.cpp:199
 msgid "Connect"
 msgstr "Conect"
 
-#: dialogs.cpp:211
+#: dialogs.cpp:202
 msgid "Connecting ..."
 msgstr "Conectare ..."
 
-#: dialogs.cpp:214
+#: dialogs.cpp:205
 msgid "Play !"
 msgstr "Play !"
 
-#: dialogs.cpp:254
+#: dialogs.cpp:252
 msgid "Network game"
 msgstr "Joc de network"
 
-#: dialogs.cpp:258
+#: dialogs.cpp:256
 msgid "Server mode"
 msgstr "Modul serverului"
 
-#: dialogs.cpp:260
+#: dialogs.cpp:258
 msgid "Client mode"
 msgstr "Modul clientului"
 
-#: dialogs.cpp:338
+#: dialogs.cpp:336
 msgid "Waiting for other player(s) ..."
 msgstr "Aºteaptã ceilalþi jucãtor(i)"
 
-#: field.cpp:27 field.cpp:43
+#: field.cpp:25 field.cpp:41
 msgid "New game"
 msgstr "Joc nou"
 
-#: field.cpp:28 field.cpp:44
+#: field.cpp:26 field.cpp:42
 msgid "Pause game"
 msgstr "Pausã"
 
-#: field.cpp:30 field.cpp:46
+#: field.cpp:28 field.cpp:43
 msgid "High scores"
 msgstr "High Scores"
 
-#: field.cpp:37
+#: field.cpp:35
 msgid "Close dialog"
 msgstr "Închide dialogul"
 
-#: field.cpp:38
+#: field.cpp:36
 msgid "Ok dialog"
 msgstr "Dialog Ok"
 
-#: field.cpp:39
+#: field.cpp:37
 msgid "Cancel dialog"
 msgstr "Întrerup dialogul"
 
-#: field.cpp:55
+#: field.cpp:52
 msgid "Score"
 msgstr "Scorul"
 
-#: field.cpp:59
+#: field.cpp:56
 msgid "Lines removed"
 msgstr "Linii ºterse"
 
-#: field.cpp:63
+#: field.cpp:60
 msgid "Level"
 msgstr "Level"
 
-#: field.cpp:67
+#: field.cpp:64
 msgid "Next tile"
 msgstr "Urmãtorul titlu"
 
-#: field.cpp:173
+#: field.cpp:185
 msgid "&Restart game"
 msgstr "&Reporneºte jocul"
 
-#: field.cpp:174
+#: field.cpp:186
 msgid "&Pause game"
 msgstr "Pausã"
 
-#: field.cpp:175
+#: field.cpp:187
 msgid "&Multiplayer game"
 msgstr "&Multi-jucãtori joc"
 
-#: field.cpp:177
+#: field.cpp:189
 msgid "&High scores"
 msgstr "&High scores"
 
-#: main.cpp:22 main.cpp:67
+#: main.cpp:23 main.cpp:67
 msgid "Hide menu"
 msgstr "Ascunde meniul"
 
-#: main.cpp:27
+#: main.cpp:28
 msgid "&Keys"
 msgstr "&Taste"
 
 #: main.cpp:30
-msgid "&Contents"
-msgstr "&Conþinut"
+msgid "Tetris"
+msgstr ""
 
-#: main.cpp:33
-msgid "About &Qt"
-msgstr "Despre &Qt"
+#: main.cpp:32
+msgid ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
+msgstr ""
 
 #: main.cpp:64
 msgid "Show menu"
 msgstr "Aratã meniul"
 
-#: main.cpp:77
-#, c-format
-msgid ""
-"%s (%s) \n"
-"\n"
-"by Nicolas HADACEK(hadacek@kde.org)\n"
-"tetris kernel by Eirik ENG.\n"
-"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-msgstr ""
+#~ msgid "You suck !"
+#~ msgstr "Pãcalici"
 
-#: main.cpp:80
-msgid "ktetris : about"
-msgstr "ktetris : despre"
+#~ msgid "&Contents"
+#~ msgstr "&Conþinut"
+
+#~ msgid "About &Qt"
+#~ msgstr "Despre &Qt"
+
+#~ msgid "ktetris : about"
+#~ msgstr "ktetris : despre"

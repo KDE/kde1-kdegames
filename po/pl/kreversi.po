@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reversi \n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: 1998-01-13 14:06+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -357,10 +357,6 @@ msgstr "KReversi: Lista zwyciêzców"
 msgid "Rank"
 msgstr "Poziom"
 
-#: app.cpp:885
-msgid "Name"
-msgstr "Imiê"
-
 #: app.cpp:889
 msgid "Color"
 msgstr "Kolor"
@@ -385,6 +381,9 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Twoje imiê:"
+
+#~ msgid "Name"
+#~ msgstr "Imiê"
 
 #~ msgid "&Rules"
 #~ msgstr "&Zasady"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: 1998-02-02 18:54 MET DST\n"
 "Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 
@@ -355,10 +355,6 @@ msgstr "KReversi: Hall Of Fame"
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:885
-msgid "Name"
-msgstr "Nume"
-
 #: app.cpp:889
 msgid "Color"
 msgstr "Culoare"
@@ -384,6 +380,9 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Numel tãu:"
+
+#~ msgid "Name"
+#~ msgstr "Nume"
 
 #~ msgid "Get &hint)"
 #~ msgstr "Propune &miºcarea"

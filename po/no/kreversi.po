@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -362,10 +362,6 @@ msgstr "KReversi: På toppen av seierspallen"
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:885
-msgid "Name"
-msgstr "Navn"
-
 #: app.cpp:889
 msgid "Color"
 msgstr "Farge"
@@ -391,6 +387,9 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Ditt navn:"
+
+#~ msgid "Name"
+#~ msgstr "Navn"
 
 #~ msgid "&Rules"
 #~ msgstr "&Regler"

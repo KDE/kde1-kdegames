@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-03-19 22:22+0100\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
 "PO-Revision-Date: 1997-09-15 21:56+2000\n"
 "Last-Translator: Jim Valentin <valenti@laas.fr>\n"
 "Language-Team: French <LL@li.org>\n"
@@ -363,11 +363,6 @@ msgstr "KReversi: Panthéon"
 msgid "Rank"
 msgstr ""
 
-#: app.cpp:885
-#, fuzzy
-msgid "Name"
-msgstr "&Jeu"
-
 #: app.cpp:889
 #, fuzzy
 msgid "Color"
@@ -394,6 +389,10 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Votre nom:"
+
+#, fuzzy
+#~ msgid "Name"
+#~ msgstr "&Jeu"
 
 #~ msgid "&Rules"
 #~ msgstr "&Règles"
