@@ -191,5 +191,3 @@ msgstr "Zeit"
 #: board.cpp:176
 msgid "Cannot load pixmaps!"
 msgstr "Konnte Pixmap nicht laden!"
-
-

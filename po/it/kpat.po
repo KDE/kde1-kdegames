@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"POT-Creation-Date: 1998-01-06 14:08+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Luciano Nocera <lnocera@grip.cis.upenn.edu>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -77,7 +77,7 @@ msgstr "Difficile 5"
 msgid "Try to move card:"
 msgstr "Prova a muovere la carta:"
 
-#: grandf.cpp:113
+#: grandf.cpp:113 mod3.cpp:56
 msgid "Redeal"
 msgstr "Rifare un contratto"
 
@@ -105,100 +105,108 @@ msgstr ""
 "Questo termina il gioco in corso\n"
 "Sei sicuro di volerlo fare?"
 
-#: pwidget.cpp:96
+#: mod3.cpp:136
+#, fuzzy
+msgid "No more cards"
+msgstr "Prova a muovere la carta:"
+
+#: pwidget.cpp:98
 msgid "&Restart game"
 msgstr "&Rilancia gioco"
 
-#: pwidget.cpp:100
+#: pwidget.cpp:102
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:101 pwidget.cpp:271
+#: pwidget.cpp:103 pwidget.cpp:287
 msgid "MicroSolitaire"
 msgstr "MicroSolitario"
 
-#: pwidget.cpp:102 pwidget.cpp:275
+#: pwidget.cpp:104 pwidget.cpp:291
 msgid "Calculation"
 msgstr "Calcoli"
 
-#: pwidget.cpp:103
+#: pwidget.cpp:105
 msgid "Napoleon's Tomb"
 msgstr "La Tomba di Napoleone"
 
-#: pwidget.cpp:104 pwidget.cpp:279
+#: pwidget.cpp:106 pwidget.cpp:295
 msgid "The Idiot"
 msgstr "L'Idiota"
 
-#: pwidget.cpp:105 pwidget.cpp:263
+#: pwidget.cpp:107 pwidget.cpp:279
 msgid "Grandfather"
 msgstr "Nonno"
 
-#: pwidget.cpp:106 pwidget.cpp:259
+#: pwidget.cpp:108 pwidget.cpp:267
 msgid "Ten"
 msgstr "Dieci"
 
-#: pwidget.cpp:108
+#: pwidget.cpp:109 pwidget.cpp:271
+msgid "Mod3"
+msgstr ""
+
+#: pwidget.cpp:110 pwidget.cpp:275
+msgid "Freecell"
+msgstr ""
+
+#: pwidget.cpp:112
 msgid "Choose new game"
 msgstr "Scegli un nuovo gioco"
 
-#: pwidget.cpp:114
+#: pwidget.cpp:118
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:115
+#: pwidget.cpp:119
 msgid "Classic blue"
 msgstr "Blu Classico"
 
-#: pwidget.cpp:116
+#: pwidget.cpp:120
 msgid "Classic red"
 msgstr "Rosso Classico"
 
-#: pwidget.cpp:117
+#: pwidget.cpp:121
 msgid "Technical"
 msgstr "Tecnica"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:122
 msgid "Card backside"
 msgstr "Disegno sulle Carte"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:123
 msgid "Animation on startup"
 msgstr "Animazione all' avvio"
 
-#: pwidget.cpp:124
-#, fuzzy
-msgid "&Help..."
-msgstr "Aiuto..."
-
-#: pwidget.cpp:125
+#: pwidget.cpp:129
 #, fuzzy
 msgid "Help on &rules..."
 msgstr "Aiuto sulle regole..."
 
-#: pwidget.cpp:127
+#: pwidget.cpp:131
 #, fuzzy
 msgid "About &Qt..."
 msgstr "Info..."
 
-#: pwidget.cpp:246
+#: pwidget.cpp:254
 #, c-format
 msgid "COMMAND %d not implemented!\n"
 msgstr "COMANDO %d non ancora programmato!\n"
 
-#: pwidget.cpp:267
+#: pwidget.cpp:283
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:283
+#: pwidget.cpp:299
 msgid "Napoleons Tomb"
 msgstr "Tomba di Napoleone"
 
-#: pwidget.cpp:288
+#: pwidget.cpp:304
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: gioco non ancora programmato %d\n"
 
-#: pwidget.cpp:320
+#: pwidget.cpp:336
 msgid ""
 "KPat\n"
 "\n"
@@ -208,12 +216,14 @@ msgstr ""
 "\n"
 "Versione "
 
-#: pwidget.cpp:322
+#: pwidget.cpp:338
+#, fuzzy
 msgid ""
 "\n"
-"Copyright (C) 1995  Paul Olav Tvete\n"
+"Copyright (C) 1997  Paul Olav Tvete\n"
 "\n"
-"Additional work done by:\t\t \n"
+"Additional work done by:\n"
+"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
 "\tMatthias Ettrich\t<ettrich@kde.org>\n"
 "\tMario Weilguni\t<mweilguni@sime.com>\n"
 "\n"
@@ -230,17 +240,21 @@ msgstr ""
 "Questo programma fa parte dell'ambiente K Desktop.\n"
 "Utilizza la guida per ottenere informazioni sulla licenza."
 
-#: pwidget.cpp:330
+#: pwidget.cpp:347
 msgid "About kpat"
 msgstr "Info su kpat"
 
-#: pwidget.cpp:368
+#: pwidget.cpp:385
 msgid "Could not load background image!"
 msgstr "Impossibile caricare immagine di sfondo!"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Tutto Automatico"
+
+#, fuzzy
+#~ msgid "&Help..."
+#~ msgstr "Aiuto..."
 
 #, fuzzy
 #~ msgid "A&bout..."
