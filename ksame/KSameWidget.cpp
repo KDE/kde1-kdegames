@@ -190,7 +190,7 @@ void KSameWidget::m_showhs() {
 }
 void KSameWidget::m_quit() {
      if (KMsgBox::yesNo(this, i18n("SameGame - Quit"), 
-			i18n("Do you want really quit?"), KMsgBox::STOP)==1) {
+			i18n("Do you really want to quit?"), KMsgBox::STOP)==1) {
 	  kapp->quit();
      }
 }
