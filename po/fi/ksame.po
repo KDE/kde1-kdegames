@@ -74,7 +74,7 @@ msgstr "SamePeli: Uusi Peli"
 
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
-msgstr "Halutako antautua?"
+msgstr "Haluatko antautua?"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
@@ -116,7 +116,7 @@ msgstr "Lauta: %06i"
 
 #: KSameWidget.cpp:220
 msgid "GameOver"
-msgstr "Peli Loppu"
+msgstr "Peli loppu"
 
 #: KSameWidget.cpp:225
 #, c-format
@@ -127,6 +127,3 @@ msgstr "Merkattu: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Pisteet: %06i"
-
-#~ msgid "Highscore"
-#~ msgstr "Ennätystulokset"

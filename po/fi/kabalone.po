@@ -123,6 +123,3 @@ msgstr "Paras siirto tähänasti:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Vakoilija"
-
-#~ msgid "Move"
-#~ msgstr "Siirrä"

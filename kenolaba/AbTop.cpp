@@ -540,7 +540,8 @@ void AbTop::playGame()
   if (moveNo <4) {
     /* Chose a random move making the position better for actual color */
 
-    int v = board->calcValue(), vv;
+    /* If comparing ratings among color1/2 on move, we have to negate one */
+    int v = -board->calcValue(), vv;
     do {
       actMove = board->randomMove();
       board->playMove(actMove);

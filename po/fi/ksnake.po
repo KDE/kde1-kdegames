@@ -16,7 +16,7 @@ msgstr ""
 
 #: game.cpp:41 game.cpp:144 rattler.cpp:349
 msgid "Snake Race"
-msgstr "K‰‰rmekilpailu"
+msgstr "K‰‰rmeralli"
 
 #: game.cpp:45
 msgid "KConfig error ??\n"
@@ -162,7 +162,7 @@ msgstr "Enn‰tystulokset"
 
 #: score.cpp:54
 msgid "Today's High Scores"
-msgstr "T‰m‰np‰iv‰n enn‰tykset"
+msgstr "T‰m‰np‰iv‰iset enn‰tykset"
 
 #: score.cpp:78
 msgid ""
@@ -179,24 +179,3 @@ msgstr "K‰‰rmerallin aloitushuone"
 #: startroom.cpp:41
 msgid "Starting Room"
 msgstr "Aloitushuone"
-
-#~ msgid "New"
-#~ msgstr "Uusi"
-
-#~ msgid "&Quit"
-#~ msgstr "&Lopeta"
-
-#~ msgid "&Game"
-#~ msgstr "&Peli"
-
-#~ msgid "&Options"
-#~ msgstr "&Asetukset"
-
-#~ msgid "&Help"
-#~ msgstr "&Ohje"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel"
-#~ msgstr "Peruuta"

@@ -125,4 +125,3 @@ msgstr "Taso"
 #: main.cpp:143
 msgid "Show menu bar"
 msgstr "Näytä valikkorivi"
-

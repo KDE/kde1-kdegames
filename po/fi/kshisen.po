@@ -138,7 +138,7 @@ msgid ""
 "your name so mankind will always remember\n"
 "your cool rating."
 msgstr ""
-"P‰‰sit \"Enn‰tyslistalle\".Anna nimesi\n"
+"P‰‰sit \"Enn‰tyslistalle\".Anna nimesi,\n"
 "jotta tuloksesi n‰kyy listalla."
 
 #: app.cpp:447
@@ -168,6 +168,3 @@ msgstr "Tulos"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "En saa ladattua kuvia!"
-
-#~ msgid "Medium"
-#~ msgstr "Keskiverto"

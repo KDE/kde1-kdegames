@@ -88,7 +88,7 @@ msgstr " "
 
 #: net.cpp:233
 msgid "Connect error"
-msgstr "Yhdistysvirhe"
+msgstr "Yhteysvirhe"
 
 #: net.cpp:243 net.cpp:299
 msgid "Server unreachable"
@@ -112,7 +112,7 @@ msgstr "En voi l‰hett‰‰ palvelimelle"
 
 #: net.cpp:324
 msgid "Client timeout (No message from server)"
-msgstr "Asiakas odottaa (ei viesti‰ palvelimelta)"
+msgstr "Asiakas lopetti odottamisen (ei viesti‰ palvelimelta)"
 
 #: net.cpp:329
 msgid "Server has vanished"

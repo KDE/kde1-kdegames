@@ -78,11 +78,11 @@ msgstr "En saa avattua bittikarttatiedostoa !"
 
 #: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
-msgstr "Peruutus ei onnistunut."
+msgstr "Peruutus onnistui."
 
 #: kmahjongg.cpp:458
 msgid "What do you want to undo? You have done nothing!"
-msgstr "Mit‰ haluat peruuttaa? Et ole tehny mit‰‰n!"
+msgstr "Mit‰ haluat peruuttaa? Et ole tehnyt mit‰‰n!"
 
 #: kmahjongg.cpp:473 kmahjongg.cpp:1437
 msgid "Sorry, you have lost the game."
