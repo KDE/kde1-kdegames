@@ -8,7 +8,7 @@ msgstr ""
 
 #: cardmaps.cpp:62
 msgid "please wait, loading cards..."
-msgstr "请稍候, 正在载入卡片..."
+msgstr "请稍候, 正在载入纸牌..."
 
 #: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
@@ -17,7 +17,7 @@ msgstr "KPat - 单人纸牌游戏"
 #: cardmaps.cpp:104
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
-msgstr "kpat: PANIC, 无法载入卡片图形 \"%s\"\n"
+msgstr "kpat: 无法载入纸牌图形 \"%s\"\n"
 
 #: cardmaps.cpp:204
 #, c-format
@@ -89,12 +89,12 @@ msgid ""
 "This will end the current game\n"
 "Are you sure you want to do this?"
 msgstr ""
-"这个动作会结束当前的游戏\n"
+"这样将结束当前的游戏\n"
 "确定要这么做吗?"
 
 #: mod3.cpp:136
 msgid "No more cards"
-msgstr "没有别的卡片"
+msgstr "没有别的纸牌了"
 
 #: pwidget.cpp:95
 msgid "&Restart game"
@@ -102,31 +102,31 @@ msgstr "重新开始游戏[&R]"
 
 #: pwidget.cpp:99
 msgid "&Klondike"
-msgstr ""
+msgstr "&Klondike"
 
 #: pwidget.cpp:100 pwidget.cpp:275
 msgid "MicroSolitaire"
-msgstr ""
+msgstr "MicroSolitaire"
 
 #: pwidget.cpp:101 pwidget.cpp:279
 msgid "Calculation"
-msgstr ""
+msgstr "计算"
 
 #: pwidget.cpp:102
 msgid "Napoleon's Tomb"
-msgstr ""
+msgstr "Napoleon's Tomb"
 
 #: pwidget.cpp:103 pwidget.cpp:283
 msgid "The Idiot"
-msgstr ""
+msgstr "The Idiot"
 
 #: pwidget.cpp:104 pwidget.cpp:267
 msgid "Grandfather"
-msgstr ""
+msgstr "Grandfater"
 
 #: pwidget.cpp:105 pwidget.cpp:255
 msgid "Ten"
-msgstr ""
+msgstr "十"
 
 #: pwidget.cpp:106 pwidget.cpp:259
 msgid "Mod3"
@@ -142,7 +142,7 @@ msgstr "选择新游戏"
 
 #: pwidget.cpp:115
 msgid "KDE"
-msgstr ""
+msgstr "KDE"
 
 #: pwidget.cpp:116
 msgid "Classic blue"
@@ -166,11 +166,11 @@ msgstr "启动时的动画"
 
 #: pwidget.cpp:271
 msgid "Klondike"
-msgstr ""
+msgstr "Klondike"
 
 #: pwidget.cpp:287
 msgid "Napoleons Tomb"
-msgstr ""
+msgstr "Napoleons Tomb"
 
 #: pwidget.cpp:292
 #, c-format

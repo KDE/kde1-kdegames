@@ -8,7 +8,7 @@ msgstr ""
 
 #: about.cpp:52
 msgid "About kreversi"
-msgstr ""
+msgstr "关于 kreversi"
 
 #: about.cpp:65
 msgid "Version "
@@ -34,6 +34,21 @@ msgid ""
 "\tArne Klaassen\n"
 "\t for the raytraced chips"
 msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"本程序是免费软件 , 以 GNU 授权来\n"
+"发行(请看 help 以获得更多的细节)\n"
+"\n"
+"感谢:\n"
+"\tMats Luthman : 游戏引擎\n"
+"\t(从他的 java 版本移植)\n"
+"\n"
+"\tStephan Kulow\n"
+"\t一些建议和 bugfix \n"
+"\n"
+"\tArne Klaassen\n"
+"\t光线跟踪产生纸牌"
 
 #: app.cpp:218 app.cpp:553
 msgid ""
@@ -126,12 +141,12 @@ msgstr "一半大小[&H]"
 #: app.cpp:281
 #, c-format
 msgid "60%"
-msgstr ""
+msgstr "60%"
 
 #: app.cpp:282
 #, c-format
 msgid "80%"
-msgstr ""
+msgstr "80%"
 
 #: app.cpp:283
 msgid "D&efault size"
@@ -140,22 +155,22 @@ msgstr "缺省大小[&E]"
 #: app.cpp:284
 #, c-format
 msgid "120%"
-msgstr ""
+msgstr "120%"
 
 #: app.cpp:285
 #, c-format
 msgid "140%"
-msgstr ""
+msgstr "140%"
 
 #: app.cpp:286
 #, c-format
 msgid "160%"
-msgstr ""
+msgstr "160%"
 
 #: app.cpp:287
 #, c-format
 msgid "180%"
-msgstr ""
+msgstr "180%"
 
 #: app.cpp:288
 msgid "&Double size"
@@ -243,7 +258,7 @@ msgstr "游戏已保存"
 
 #: app.cpp:591
 msgid "not yet implemented"
-msgstr "尚未被实现"
+msgstr "尚未实现"
 
 #: app.cpp:604 app.cpp:609
 #, c-format

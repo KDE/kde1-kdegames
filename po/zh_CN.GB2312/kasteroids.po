@@ -16,7 +16,7 @@ msgstr "等级"
 
 #: toplevel.cpp:126
 msgid "Ships"
-msgstr "船数"
+msgstr "船只数"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."
@@ -24,7 +24,7 @@ msgstr "按下 Enter 开始."
 
 #: toplevel.cpp:336
 msgid "Ship Destroyed.  Press Enter to launch."
-msgstr "船被摧毁了. 按下 Enter 发射."
+msgstr "船被摧毁了. 按下 Enter 开始."
 
 #: toplevel.cpp:340
 msgid "KAsteriods"

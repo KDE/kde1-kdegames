@@ -72,15 +72,15 @@ msgstr "未知的地址"
 
 #: net.cpp:157
 msgid "Cannot create socket"
-msgstr "无法建立 socket"
+msgstr "无法建立套接字"
 
 #: net.cpp:196
 msgid "at"
-msgstr ""
+msgstr "在"
 
 #: net.cpp:233
 msgid "Connect error"
-msgstr "连接失败"
+msgstr "连接错误"
 
 #: net.cpp:243 net.cpp:299
 msgid "Server unreachable"
@@ -174,13 +174,13 @@ msgstr "没有任何选项 !"
 msgid "Network Dialog"
 msgstr "网络对话框"
 
+#
 #: dialogs.cpp:178
-#, fuzzy
 msgid "Server"
 msgstr "服务器模式"
 
+#
 #: dialogs.cpp:179
-#, fuzzy
 msgid "Client"
 msgstr "客户模式"
 
@@ -194,7 +194,7 @@ msgstr "服务器地址 :"
 
 #: dialogs.cpp:187
 msgid "Port :"
-msgstr ""
+msgstr "端口 :"
 
 #: dialogs.cpp:199
 msgid "Connect"
@@ -254,7 +254,7 @@ msgstr "分数"
 
 #: field.cpp:56
 msgid "Lines removed"
-msgstr ""
+msgstr "行被移去"
 
 #: field.cpp:60
 msgid "Level"
@@ -290,7 +290,7 @@ msgstr "按键设定[&K]"
 
 #: main.cpp:30
 msgid "Tetris"
-msgstr ""
+msgstr "Tetris"
 
 #: main.cpp:32
 msgid ""
@@ -298,6 +298,9 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
+"\n"
+"\n"
+"由 Nicolas Hadacek 编写"
 
 #: main.cpp:64
 msgid "Show menu"

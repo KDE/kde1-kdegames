@@ -112,11 +112,11 @@ msgstr "两旁"
 
 #: Move.cpp:49
 msgid "Out"
-msgstr ""
+msgstr "出去"
 
 #: Move.cpp:50
 msgid "Push"
-msgstr ""
+msgstr "推"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
@@ -124,7 +124,7 @@ msgstr "实际检验位置:"
 
 #: Spy.cpp:46
 msgid "Best move so far:"
-msgstr ""
+msgstr "目前最好的成绩:"
 
 #: Spy.cpp:75
 msgid "Spion"

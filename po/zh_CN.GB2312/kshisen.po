@@ -32,23 +32,23 @@ msgstr "名人堂[&H]"
 
 #: app.cpp:125
 msgid "14x6"
-msgstr ""
+msgstr "14x6"
 
 #: app.cpp:126
 msgid "18x8"
-msgstr ""
+msgstr "18x8"
 
 #: app.cpp:127
 msgid "24x12"
-msgstr ""
+msgstr "24x12"
 
 #: app.cpp:128
 msgid "28x16"
-msgstr ""
+msgstr "28x16"
 
 #: app.cpp:129
 msgid "32x20"
-msgstr ""
+msgstr "32x20"
 
 #: app.cpp:133
 msgid "Very fast"
@@ -60,7 +60,7 @@ msgstr "快"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr "中型"
+msgstr "中等"
 
 #: app.cpp:136
 msgid "Slow"

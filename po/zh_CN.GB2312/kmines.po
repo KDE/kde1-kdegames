@@ -40,7 +40,7 @@ msgstr "? 标记"
 
 #: main.cpp:62
 msgid "Keys"
-msgstr "按键设定"
+msgstr "按键"
 
 #: main.cpp:65
 msgid "Easy"
@@ -68,7 +68,7 @@ msgstr "匿名"
 
 #: status.cpp:251
 msgid "You did it ... but not in time."
-msgstr "你完成了... 但没有在规定时间内."
+msgstr "你完成了... 但超过了规定的实际."
 
 #: status.cpp:252
 msgid "Yeeessss !"
@@ -120,7 +120,7 @@ msgstr "时间"
 
 #: dialogs.cpp:233 dialogs.cpp:306
 msgid "minutes and "
-msgstr "分"
+msgstr "分钟 "
 
 #: dialogs.cpp:234 dialogs.cpp:319
 msgid "seconds."
