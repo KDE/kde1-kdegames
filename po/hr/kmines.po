@@ -12,9 +12,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "kmines : Prilagodi Igru"
+msgstr "Prilagodi Igru"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -30,7 +29,7 @@ msgstr "Mine"
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
-msgstr ""
+msgstr "Dvorac Slave"
 
 #: dialogs.cpp:288 main.cpp:57
 msgid "Easy"
@@ -114,7 +113,7 @@ msgstr "Pronalazaè mina"
 
 #: main.cpp:67
 msgid "by"
-msgstr ""
+msgstr "od"
 
 #: main.cpp:72
 msgid "Level"
@@ -123,42 +122,3 @@ msgstr "Razina"
 #: main.cpp:143
 msgid "Show menu bar"
 msgstr "Prika¾i traku sa izbornicima"
-
-#~ msgid "kmines : High Scores"
-#~ msgstr "Najvi¹i rezultati"
-
-#~ msgid "Easy :"
-#~ msgstr "Lagano :"
-
-#~ msgid "Normal :"
-#~ msgstr "Normal :"
-
-#~ msgid "Expert :"
-#~ msgstr "Struènjak :"
-
-#~ msgid "minutes."
-#~ msgstr "minuta."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Datoteka "
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines : Gre¹ka"
-
-#~ msgid "Close dialog"
-#~ msgstr "Zatvori dijalog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dijalog"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Poni¹ti "
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "Nicolas Hadacek"
