@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ktetris\n"
-"POT-Creation-Date: 1998-04-17 00:02+0200\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -13,155 +13,159 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: board.cpp:66 dialogs.cpp:137
+#: board.cpp:68 dialogs.cpp:140
 msgid "Anonymous"
 msgstr "Anonymný"
 
-#: board.cpp:98
+#: board.cpp:85
 msgid "Game paused"
 msgstr "Hra pozastavená"
 
-#: board.cpp:103
+#: board.cpp:90
 msgid "Press to resume"
 msgstr "Pokraèovanie stlaèením klávesy"
 
-#: board.cpp:120 net.cpp:208
+#: board.cpp:105 net.cpp:216
 msgid "Game over"
 msgstr "Hra skonèená"
 
-#: board.cpp:124
+#: board.cpp:109
 msgid "Press Return to replay"
 msgstr "Stlaè Enter pre prehranie záznamu hry"
 
-#: board.cpp:128
+#: board.cpp:113
 msgid "Press to start game"
 msgstr "©tart hry stlaèením klavesy"
 
-#: board.cpp:174 field.cpp:29 field.cpp:45
+#: board.cpp:154 field.cpp:31 field.cpp:48
 msgid "Move left"
 msgstr "Presunu» vµavo"
 
-#: board.cpp:175 field.cpp:30 field.cpp:46
+#: board.cpp:155 field.cpp:32 field.cpp:49
 msgid "Move right"
 msgstr "Presunú» vpravo"
 
-#: board.cpp:176 field.cpp:31 field.cpp:47
+#: board.cpp:156 field.cpp:33 field.cpp:50
 msgid "Drop down"
 msgstr "Upusti» dole"
 
-#: board.cpp:177 field.cpp:32 field.cpp:48
+#: board.cpp:157 field.cpp:34 field.cpp:51
 msgid "One line down"
 msgstr "O jeden riadok ni¾¹ie"
 
-#: board.cpp:178 field.cpp:33 field.cpp:49
+#: board.cpp:158 field.cpp:35 field.cpp:52
 msgid "Rotate left"
 msgstr "Rotova» doµava"
 
-#: board.cpp:179 field.cpp:34 field.cpp:50
+#: board.cpp:159 field.cpp:36 field.cpp:53
 msgid "Rotate right"
 msgstr "Rotova» doprava"
 
-#: board.cpp:372
+#: board.cpp:269
+msgid "You suck !"
+msgstr "You suck !"
+
+#: board.cpp:391
 msgid "Highscores file not writable !"
 msgstr "Nie je mo¾né zapísa» do súboru s najlep¹ími výsledkami!"
 
-#: net.cpp:129
+#: net.cpp:133
 msgid "Illegal port"
 msgstr "Neplatný port"
 
-#: net.cpp:135
+#: net.cpp:139
 msgid "Null address"
 msgstr "Nulová adresa"
 
-#: net.cpp:142
+#: net.cpp:145 net.cpp:151
 msgid "Unknown address"
 msgstr "Neznáma adresa"
 
-#: net.cpp:157
+#: net.cpp:166
 msgid "Cannot create socket"
 msgstr "Nemô¾em vytvori» socket"
 
-#: net.cpp:196
+#: net.cpp:204
 msgid "at"
 msgstr "na"
 
-#: net.cpp:233
+#: net.cpp:241
 msgid "Connect error"
 msgstr "Chyba pri pripojení"
 
-#: net.cpp:243 net.cpp:299
+#: net.cpp:251 net.cpp:306
 msgid "Server unreachable"
 msgstr "Server nie je dosiahnuteµný"
 
-#: net.cpp:266
+#: net.cpp:274
 msgid "The server has died"
 msgstr "Server spadol"
 
-#: net.cpp:267
+#: net.cpp:274
 msgid "Cancel from server"
 msgstr "Zru¹enie od servera"
 
-#: net.cpp:273 net.cpp:333
+#: net.cpp:280 net.cpp:340
 msgid "Unknown data from server"
 msgstr "Neznáme dáta zo serveru"
 
-#: net.cpp:312
+#: net.cpp:319
 msgid "Cannot send to server"
 msgstr "Nemô¾em posiela» na server"
 
-#: net.cpp:324
+#: net.cpp:331
 msgid "Client timeout (No message from server)"
 msgstr "Klient vyèerpal èasový limit (¾iadna správa od servera)"
 
-#: net.cpp:329
+#: net.cpp:336
 msgid "Server has vanished"
 msgstr "Server zmizol"
 
-#: net.cpp:366
+#: net.cpp:373
 msgid "Bind error"
 msgstr "Chyba pri dostávaní èísla portu"
 
-#: net.cpp:371
+#: net.cpp:378
 msgid "Listen error"
 msgstr "Chyba pri poèúvaní"
 
-#: net.cpp:390
+#: net.cpp:397
 msgid "Unknown message from unknown player (??)"
 msgstr "Neznáma správa od neznámeho hráèa (??)"
 
-#: net.cpp:449 net.cpp:490
+#: net.cpp:456 net.cpp:497
 msgid "Unknown message from client"
 msgstr "Neznáma správa od klienta"
 
-#: net.cpp:486
+#: net.cpp:493
 msgid "Client has died"
 msgstr "Klient zomrel"
 
-#: net.cpp:487
+#: net.cpp:493
 msgid "Cancel from client"
 msgstr "Zru¹enie od klienta"
 
-#: net.cpp:494
+#: net.cpp:501
 msgid "Timeout"
 msgstr "Timeout"
 
-#: net.cpp:520
+#: net.cpp:527
 msgid "No message from client"
 msgstr "®iadna správa od klienta"
 
-#: net.cpp:525
+#: net.cpp:532
 msgid "Client has vanished"
 msgstr "Klient zmizol"
 
-#: net.cpp:529
+#: net.cpp:536
 msgid "Unknown data from client"
 msgstr "Neznáme dáta od klienta"
 
-#: net.cpp:533
+#: net.cpp:540
 msgid "End message from client"
 msgstr "Ukonèujúca správa od klienta"
 
-#: net.cpp:550
+#: net.cpp:557
 msgid "Cannot send to client"
 msgstr "Nemô¾em posiela» dáta klientovi"
 
@@ -169,163 +173,157 @@ msgstr "Nemô¾em posiela» dáta klientovi"
 msgid "High Scores"
 msgstr "Najlep¹ie výsledky"
 
-#: dialogs.cpp:84 dialogs.cpp:93
+#: dialogs.cpp:84 dialogs.cpp:94
 msgid "Hall of Fame"
 msgstr "Hala slávy"
 
-#: dialogs.cpp:156
+#: dialogs.cpp:161
 msgid "No option yet !"
 msgstr "Zatiaµ ¾iadne mo¾nosti !"
 
-#: dialogs.cpp:175 dialogs.cpp:232
+#: dialogs.cpp:184 dialogs.cpp:234
 msgid "Network Dialog"
 msgstr "Sie»ový dialóg"
 
-#: dialogs.cpp:178
+#: dialogs.cpp:187
 msgid "Server"
 msgstr "Server"
 
-#: dialogs.cpp:179
+#: dialogs.cpp:188
 msgid "Client"
 msgstr "Klient"
 
-#: dialogs.cpp:183
+#: dialogs.cpp:192
 msgid "Player name :"
 msgstr "Meno hráèa :"
 
-#: dialogs.cpp:185
+#: dialogs.cpp:194
 msgid "Server address :"
 msgstr "Adresa servera :"
 
-#: dialogs.cpp:187
+#: dialogs.cpp:196
 msgid "Port :"
 msgstr "Port :"
 
-#: dialogs.cpp:199
+#: dialogs.cpp:208
 msgid "Connect"
 msgstr "Pripoji»"
 
-#: dialogs.cpp:202
+#: dialogs.cpp:211
 msgid "Connecting ..."
 msgstr "Spájam sa ..."
 
-#: dialogs.cpp:205
+#: dialogs.cpp:214
 msgid "Play !"
 msgstr "Hraj !"
 
-#: dialogs.cpp:252
+#: dialogs.cpp:254
 msgid "Network game"
 msgstr "Sie»ová hra"
 
-#: dialogs.cpp:256
+#: dialogs.cpp:258
 msgid "Server mode"
 msgstr "Mód servera"
 
-#: dialogs.cpp:258
+#: dialogs.cpp:260
 msgid "Client mode"
 msgstr "Klientský mód"
 
-#: dialogs.cpp:336
+#: dialogs.cpp:338
 msgid "Waiting for other player(s) ..."
 msgstr "Èakám na ostatných hráèov ..."
 
-#: field.cpp:25 field.cpp:41
+#: field.cpp:27 field.cpp:43
 msgid "New game"
 msgstr "Nová hra"
 
-#: field.cpp:26 field.cpp:42
+#: field.cpp:28 field.cpp:44
 msgid "Pause game"
 msgstr "Pozastavi» hru"
 
-#: field.cpp:28 field.cpp:43
+#: field.cpp:30 field.cpp:46
 msgid "High scores"
 msgstr "Najlep¹ie výsledky"
 
-#: field.cpp:35
+#: field.cpp:37
 msgid "Close dialog"
 msgstr "Zavrie» dialóg"
 
-#: field.cpp:36
+#: field.cpp:38
 msgid "Ok dialog"
 msgstr "Ok dialóg"
 
-#: field.cpp:37
+#: field.cpp:39
 msgid "Cancel dialog"
 msgstr "Zru¹i» dialóg"
 
-#: field.cpp:52
+#: field.cpp:55
 msgid "Score"
 msgstr "Výsledky"
 
-#: field.cpp:56
+#: field.cpp:59
 msgid "Lines removed"
 msgstr "Zmazaných riadkov"
 
-#: field.cpp:60
+#: field.cpp:63
 msgid "Level"
 msgstr "Úroveò"
 
-#: field.cpp:64
+#: field.cpp:67
 msgid "Next tile"
 msgstr "Nasledujúca dla¾dica"
 
-#: field.cpp:185
+#: field.cpp:173
 msgid "&Restart game"
 msgstr "Spusti» h&ru znova"
 
-#: field.cpp:186
+#: field.cpp:174
 msgid "&Pause game"
 msgstr "&Pozastavi» hru"
 
-#: field.cpp:187
+#: field.cpp:175
 msgid "&Multiplayer game"
 msgstr "Hra po &sieti"
 
-#: field.cpp:189
+#: field.cpp:177
 msgid "&High scores"
 msgstr "&Najlep¹ie výsledky"
 
-#: main.cpp:23 main.cpp:67
+#: main.cpp:22 main.cpp:67
 msgid "Hide menu"
 msgstr "Skry» menu"
 
-#: main.cpp:28
+#: main.cpp:27
 msgid "&Keys"
 msgstr "&Klávesy"
 
 #: main.cpp:30
-msgid "Tetris"
-msgstr ""
+msgid "&Contents"
+msgstr "&Obsah"
 
-#: main.cpp:32
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
-msgstr ""
+#: main.cpp:33
+msgid "About &Qt"
+msgstr "Informácie o &Qt"
 
 #: main.cpp:64
 msgid "Show menu"
 msgstr "Zobrazi» menu"
 
-#~ msgid "&Contents"
-#~ msgstr "&Obsah"
+#: main.cpp:77
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK(hadacek@kde.org)\n"
+"tetris kernel by Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+msgstr ""
+"%s (%s) \n"
+"\n"
+"napísal Nicolas HADACEK  (hadacek@kde.org)\n"
+"jadro tetrisu napísal Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
 
-#~ msgid "About &Qt"
-#~ msgstr "Informácie o &Qt"
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK(hadacek@kde.org)\n"
-#~ "tetris kernel by Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "napísal Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ "jadro tetrisu napísal Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-
-#~ msgid "ktetris : about"
-#~ msgstr "ktetris: Informácie"
+#: main.cpp:80
+msgid "ktetris : about"
+msgstr "ktetris: Informácie"
