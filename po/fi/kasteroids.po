@@ -36,6 +36,9 @@ msgid ""
 "\n"
 "by Martin R. Jones"
 msgstr ""
+"\n"
+"\n"
+"tehnyt Martin R. Jones"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."

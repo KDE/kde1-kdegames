@@ -16,7 +16,7 @@ msgstr ""
 
 #: KSameWidget.cpp:50
 msgid "New"
-msgstr ""
+msgstr "Uusi"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"

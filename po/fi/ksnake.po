@@ -24,7 +24,7 @@ msgstr "KConfig virhe ??\n"
 
 #: game.cpp:79
 msgid "New"
-msgstr ""
+msgstr "Uusi"
 
 #: game.cpp:80
 msgid "Pause"

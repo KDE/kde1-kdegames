@@ -116,7 +116,7 @@ msgstr "Oma"
 
 #: main.cpp:72
 msgid "by"
-msgstr ""
+msgstr " "
 
 #: main.cpp:77
 msgid "Level"
@@ -125,6 +125,3 @@ msgstr "Taso"
 #: main.cpp:154
 msgid "Show menu bar"
 msgstr "Näytä valikkorivi"
-
-#~ msgid "Minesweeper"
-#~ msgstr "Miinaharava"
