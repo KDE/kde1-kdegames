@@ -44,6 +44,14 @@ msgstr ""
 msgid "&New game"
 msgstr ""
 
+#: app.cpp:241
+msgid "&Load game"
+msgstr ""
+
+#: app.cpp:242
+msgid "&Save game"
+msgstr ""
+
 #: app.cpp:242
 msgid "&Undo move"
 msgstr ""
@@ -190,6 +198,10 @@ msgstr ""
 msgid "&Strategy hints"
 msgstr ""
 
+# app.cpp:317
+msgid "About &Qt..."
+msgstr ""
+
 #: app.cpp:318
 msgid "&About..."
 msgstr ""
@@ -240,6 +252,10 @@ msgstr ""
 
 #: app.cpp:371
 msgid "Computer (XXXXX): 88"
+msgstr ""
+
+# app.cpp:416
+msgid "Game saved"
 msgstr ""
 
 #: app.cpp:556
@@ -319,8 +335,7 @@ msgstr ""
 
 #: app.cpp:866
 msgid ""
-"You've made in into the \"Hall Of Fame\". Type in your name so mankind will "
-"always remember your cool rating."
+"You've made in into the \"Hall Of Fame\".Type in\nyour name so mankind will always remember\nyour cool rating."
 msgstr ""
 
 #: app.cpp:871
@@ -341,18 +356,16 @@ msgstr ""
 
 #: about.cpp:69
 msgid ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software published under the GNU General Public License "
-"(take a look into help for details)\n"
-"\n"
+"\n(c) 1997 Mario Weilguni <mweilguni@sime.com>\n\n"
+"This program is free software\npublished under the GNU General\n"
+"Public License (take a look\ninto help for details)\n\n"
 "Thanks to:\n"
-"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
-"\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> for comments and bugfixes\n"
-"\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n\n"
+"\tStephan Kulow\n\tfor comments "
+"and bugfixes\n\n"
+"\tArne Klaassen\n\t "
+"for the raytraced chips"
 msgstr ""
 
 #: app.cpp:569 app.cpp:574

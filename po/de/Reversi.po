@@ -45,6 +45,14 @@ msgstr "Zugberechnung &wiederaufnehmen"
 msgid "&New game"
 msgstr "&Neues Spiel"
 
+#: app.cpp:241
+msgid "&Load game"
+msgstr "Spiel &laden"
+
+#: app.cpp:242
+msgid "&Save game"
+msgstr "Spiel &speichern"
+
 #: app.cpp:242
 msgid "&Undo move"
 msgstr "&Rückgängig machen"
@@ -191,6 +199,10 @@ msgstr "&Regeln"
 msgid "&Strategy hints"
 msgstr "&Stratgiehinweise"
 
+# app.cpp:317
+msgid "About &Qt..."
+msgstr "Über &Qt..."
+
 #: app.cpp:318
 msgid "&About..."
 msgstr "Ü&ber..."
@@ -242,6 +254,10 @@ msgstr "Sie (XXXXX) : 88"
 #: app.cpp:371
 msgid "Computer (XXXXX): 88"
 msgstr "Computer (XXXXX): 88"
+
+# app.cpp:416
+msgid "Game saved"
+msgstr "Spiel gespeichert"
 
 #: app.cpp:556
 msgid "Information"
@@ -330,10 +346,11 @@ msgstr "KReversi: Ruhmeshalle"
 
 #: app.cpp:866
 msgid ""
-"You've made in into the \"Hall Of Fame\". Type in your name so mankind will "
-"always remember your cool rating."
-msgstr "Sie haben den Einzug in die Ruhmeshalle geschafft. Geben Sie Ihren"
-" Namen ein auf daß man sich an Ihre Wertung erinnern möge."
+"You've made in into the \"Hall Of Fame\".Type in\nyour name so mankind will always remember\nyour cool rating."
+msgstr ""
+"Sie haben den Einzug in die Ruhmeshalle geschafft.\n"
+"Geben Sie Ihren Namen ein auf daß man sich an\n"
+"Ihre Wertung erinnern möge."
 
 #: app.cpp:871
 msgid "Your name:"
@@ -353,32 +370,30 @@ msgstr "Version "
 
 #: about.cpp:69
 msgid ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software published under the GNU General Public License "
-"(take a look into help for details)\n"
-"\n"
+"\n(c) 1997 Mario Weilguni <mweilguni@sime.com>\n\n"
+"This program is free software\npublished under the GNU General\n"
+"Public License (take a look\ninto help for details)\n\n"
 "Thanks to:\n"
-"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n\n"
+"\tStephan Kulow\n\tfor comments "
+"and bugfixes\n\n"
+"\tArne Klaassen\n\t "
+"for the raytraced chips"
+msgstr ""
+"\n(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> for comments and bugfixes\n"
-"\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
-msgstr "\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"Dieses Programm ist freie Software im Sinne der GNU General Public License "
-"(GPL). Näheres dazu finden Sie in der Hilfe\n"
+"Dieses Programm ist freie Software\nim Sinne der GNU General Public\n"
+"License (GPL). Näheres dazu finden\nSie in der Hilfe\n"
 "\n"
 "Danke für die Unterstützung:\n"
-"\tMats Luthman für die Spielalgorithmen (die ich von seinem JAVA Applet "
+"\tMats Luthman für die Spielalgorithmen\n"
+"\t(die ich von seinem JAVA\n\tApplet "
 "portiert habe)\n"
 "\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> Hilfe mit CVS, Bugfixes, "
-"Kommentare\n"
+"\tStephan Kulow\n\tKommentare and Bugfixes\n"
 "\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> "
+"\tArne Klaassen\n\t"
 "für die Bilder der Spielsteine"
 
 #: app.cpp:569 app.cpp:574

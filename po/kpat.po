@@ -195,19 +195,23 @@ msgid "&Options"
 msgstr ""
 
 #: pwidget.cpp:109
-msgid "Help..."
+msgid "&Help..."
 msgstr ""
 
 #: pwidget.cpp:110
-msgid "Help on rules..."
+msgid "Help on &rules..."
+msgstr ""
+
+#: pwidget.cpp:111
+msgid "About &Qt..."
 msgstr ""
 
 #: pwidget.cpp:112
-msgid "About..."
+msgid "A&bout..."
 msgstr ""
 
 #: pwidget.cpp:113 pwidget.cpp:125
-msgid "&Help"
+msgid "Help"
 msgstr ""
 
 #: pwidget.cpp:124

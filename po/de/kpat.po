@@ -197,16 +197,20 @@ msgid "&Options"
 msgstr "&Einstellungen"
 
 #: pwidget.cpp:109
-msgid "Help..."
-msgstr "Hilfe..."
+msgid "&Help..."
+msgstr "&Hilfe..."
 
 #: pwidget.cpp:110
-msgid "Help on rules..."
-msgstr "Hilfe zu den Regeln.."
+msgid "Help on &rules..."
+msgstr "Hilfe zu den &Regeln.."
+
+#: pwidget.cpp:111
+msgid "About &Qt..."
+msgstr "Über &Qt..."
 
 #: pwidget.cpp:112
-msgid "About..."
-msgstr "Über..."
+msgid "A&bout..."
+msgstr "Ü&ber..."
 
 #: pwidget.cpp:113 pwidget.cpp:125
 msgid "&Help"
