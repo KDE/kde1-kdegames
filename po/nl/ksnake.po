@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Pieter Eendebak <pte@ddsw.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -9,13 +9,17 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: game.cpp:41 game.cpp:144 rattler.cpp:349
+#: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
 msgstr "Slangen Race"
 
 #: game.cpp:45
 msgid "KConfig error ??\n"
 msgstr "KConfig fout ??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr ""
 
 #: game.cpp:80
 msgid "Pause"
@@ -95,7 +99,7 @@ msgstr ""
 "\n"
 "Door Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: rattler.cpp:277
+#: rattler.cpp:278
 msgid ""
 "Game Paused\n"
 " Press F3 to resume\n"
@@ -103,7 +107,7 @@ msgstr ""
 "Spel gepauzeerd\n"
 " Druk op F3 om het spel te hervatten\n"
 
-#: rattler.cpp:350
+#: rattler.cpp:351
 msgid ""
 "A game is already started\n"
 "Start a new one ?\n"
@@ -111,11 +115,11 @@ msgstr ""
 "Het spel is al gestart\n"
 "Nieuw spel starten?\n"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&Yes"
 msgstr "&Ja"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&No"
 msgstr "&Nee"
 

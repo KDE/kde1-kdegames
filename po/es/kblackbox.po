@@ -1,25 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdenonbeta\n"
-"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-06-17 21:37+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
-#: kbbgame.cpp:72 kbbgame.cpp:109
-msgid "&Help"
-msgstr "&Ayuda"
-
-#: kbbgame.cpp:75
+#: kbbgame.cpp:76
 msgid "&About KBlackBox"
 msgstr "A&cerca de KBlackBox"
 
-#: kbbgame.cpp:79
+#: kbbgame.cpp:78
 msgid "About &Qt"
 msgstr "Acerca de &Qt"
-
-#: kbbgame.cpp:82
-msgid "&Quit"
-msgstr "&Salir"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -29,55 +21,42 @@ msgstr "&Nuevo"
 msgid "&Give up"
 msgstr "&Abandonar"
 
-#: kbbgame.cpp:87
+#: kbbgame.cpp:86
+#, fuzzy
+msgid "&Done"
+msgstr "Hecho"
+
+#: kbbgame.cpp:88
 msgid "&Resize"
 msgstr "&Cambiar tamaño"
 
-#: kbbgame.cpp:99
+#: kbbgame.cpp:100
 msgid "&Size"
 msgstr "&Tamaño"
 
-#: kbbgame.cpp:100
+#: kbbgame.cpp:101
 msgid "&Balls"
 msgstr "&Bolas"
 
-#: kbbgame.cpp:101
+#: kbbgame.cpp:102
 msgid "&Tutorial"
 msgstr "&Tutorial"
 
-#: kbbgame.cpp:105
-msgid "&File"
-msgstr "&Fichero"
+#: kbbgame.cpp:174
+#, fuzzy
+msgid "New"
+msgstr "&Nuevo"
 
-#: kbbgame.cpp:106
-msgid "&Game"
-msgstr "&Juego"
+#: kbbgame.cpp:176
+#, fuzzy
+msgid "Give up"
+msgstr "&Abandonar"
 
-#: kbbgame.cpp:107
-msgid "&Options"
-msgstr "&Opciones"
-
-#: kbbgame.cpp:148
+#: kbbgame.cpp:178
 msgid "Done"
 msgstr "Hecho"
 
-#: kbbgame.cpp:150
-msgid "Click here when you think you placed all the balls."
-msgstr "Haz click aquí cuando crea que ha colocado todas las bolas."
-
-#: kbbgame.cpp:157
-msgid "This is your score."
-msgstr "Esta es su puntuación."
-
-#: kbbgame.cpp:161
-msgid "These are some game statistics."
-msgstr "Estas son algunas estadísticas."
-
-#: kbbgame.cpp:361
-msgid "About"
-msgstr "Acerca"
-
-#: kbbgame.cpp:363
+#: kbbgame.cpp:434
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -87,24 +66,40 @@ msgstr ""
 "autor: Robert Cimrman\n"
 "e-mail: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:368
+#: kbbgame.cpp:439
 msgid "Qt information"
 msgstr "Información sobre Qt"
 
-#: kbbgame.cpp:429
+#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+msgid "Warning!"
+msgstr "¡Atención!"
+
+#: kbbgame.cpp:460 kbbgame.cpp:579
+msgid "Do you really want to give up this game?"
+msgstr "¿Realmente desea abandonar este juego?"
+
+#: kbbgame.cpp:461 kbbgame.cpp:580
+msgid "Yes, I'm burnt out."
+msgstr "Si, me he quemado."
+
+#: kbbgame.cpp:462 kbbgame.cpp:581
+msgid "No, not yet..."
+msgstr "No, aún no..."
+
+#: kbbgame.cpp:513
 #, c-format
 msgid "Your final score is: %d."
 msgstr "Su puntuación final es: %d."
 
-#: kbbgame.cpp:431
+#: kbbgame.cpp:515
 msgid "Wow!"
 msgstr "Guau!"
 
-#: kbbgame.cpp:433
+#: kbbgame.cpp:517
 msgid "Damned!"
 msgstr "Caramba!"
 
-#: kbbgame.cpp:436
+#: kbbgame.cpp:520
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -113,52 +108,72 @@ msgstr ""
 "¡Debería colocar %d bolas!\n"
 "Ha colocado %d."
 
-#: kbbgame.cpp:438
+#: kbbgame.cpp:522
 msgid "D'accord"
 msgstr "De acuerdo"
 
-#: kbbgame.cpp:493 kbbgame.cpp:546 kbbgame.cpp:572
-msgid "Warning!"
-msgstr "¡Atención!"
+#: kbbgame.cpp:597 kbbgame.cpp:600
+msgid "Run"
+msgstr ""
 
-#: kbbgame.cpp:495
-msgid "Do you really want to give up this game?"
-msgstr "¿Realmente desea abandonar este juego?"
+#: kbbgame.cpp:604
+#, fuzzy
+msgid "Size"
+msgstr "&Tamaño"
 
-#: kbbgame.cpp:496
-msgid "Yes, I'm burnt out."
-msgstr "Si, me he quemado."
+#: kbbgame.cpp:607
+msgid "Placed"
+msgstr ""
 
-#: kbbgame.cpp:497
-msgid "No, not yet..."
-msgstr "No, aún no..."
-
-#: kbbgame.cpp:514 kbbgame.cpp:519
-#, c-format
-msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-msgstr " Ejecuntando: %s, Tamaño: %3d x%3d, Bolas: %3d /%3d"
-
-#: kbbgame.cpp:515
-msgid "Yes"
-msgstr "Sí"
-
-#: kbbgame.cpp:520
-msgid " No"
-msgstr "No"
-
-#: kbbgame.cpp:533
-#, c-format
-msgid " Score %4d"
+#: kbbgame.cpp:620
+#, fuzzy
+msgid "Score"
 msgstr "Puntuación %4d"
 
-#: kbbgame.cpp:548 kbbgame.cpp:574
+#: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
 msgstr "¡Esto será el fin del juego actual!"
 
-#: kbbgame.cpp:549 kbbgame.cpp:575
+#: kbbgame.cpp:636 kbbgame.cpp:663
+msgid "Never mind..."
+msgstr "No importa..."
+
+#: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "¡Oh, no!"
 
-#: kbbgame.cpp:550 kbbgame.cpp:576
-msgid "Never mind..."
-msgstr "No importa..."
+#~ msgid "&Help"
+#~ msgstr "&Ayuda"
+
+#~ msgid "&Quit"
+#~ msgstr "&Salir"
+
+#~ msgid "&File"
+#~ msgstr "&Fichero"
+
+#~ msgid "&Game"
+#~ msgstr "&Juego"
+
+#~ msgid "&Options"
+#~ msgstr "&Opciones"
+
+#~ msgid "Click here when you think you placed all the balls."
+#~ msgstr "Haz click aquí cuando crea que ha colocado todas las bolas."
+
+#~ msgid "This is your score."
+#~ msgstr "Esta es su puntuación."
+
+#~ msgid "These are some game statistics."
+#~ msgstr "Estas son algunas estadísticas."
+
+#~ msgid "About"
+#~ msgstr "Acerca"
+
+#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
+#~ msgstr " Ejecuntando: %s, Tamaño: %3d x%3d, Bolas: %3d /%3d"
+
+#~ msgid "Yes"
+#~ msgstr "Sí"
+
+#~ msgid " No"
+#~ msgstr "No"

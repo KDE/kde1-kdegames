@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
-"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-06-20 23:14 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <flidr@kky.zcu.cz>\n"
@@ -13,21 +13,13 @@ msgstr ""
 "Content-Type: text/plain; charset=iso8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kbbgame.cpp:72 kbbgame.cpp:109
-msgid "&Help"
-msgstr "&Nápovìda"
-
-#: kbbgame.cpp:75
+#: kbbgame.cpp:76
 msgid "&About KBlackBox"
 msgstr "&Informace o KBlackboxu"
 
-#: kbbgame.cpp:79
+#: kbbgame.cpp:78
 msgid "About &Qt"
 msgstr "Informace o &Qt"
-
-#: kbbgame.cpp:82
-msgid "&Quit"
-msgstr "&Ukonèit"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -37,55 +29,42 @@ msgstr "&Nová hra"
 msgid "&Give up"
 msgstr "&Vzdát"
 
-#: kbbgame.cpp:87
+#: kbbgame.cpp:86
+#, fuzzy
+msgid "&Done"
+msgstr "Vyhodnotit"
+
+#: kbbgame.cpp:88
 msgid "&Resize"
 msgstr "Na&stavit velikost"
 
-#: kbbgame.cpp:99
+#: kbbgame.cpp:100
 msgid "&Size"
 msgstr "&Velikost desky"
 
-#: kbbgame.cpp:100
+#: kbbgame.cpp:101
 msgid "&Balls"
 msgstr "&Kulièky"
 
-#: kbbgame.cpp:101
+#: kbbgame.cpp:102
 msgid "&Tutorial"
 msgstr "Výukový &re¾im"
 
-#: kbbgame.cpp:105
-msgid "&File"
-msgstr "&Soubor"
+#: kbbgame.cpp:174
+#, fuzzy
+msgid "New"
+msgstr "&Nová hra"
 
-#: kbbgame.cpp:106
-msgid "&Game"
-msgstr "&Hra"
+#: kbbgame.cpp:176
+#, fuzzy
+msgid "Give up"
+msgstr "&Vzdát"
 
-#: kbbgame.cpp:107
-msgid "&Options"
-msgstr "&Mo¾nosti"
-
-#: kbbgame.cpp:148
+#: kbbgame.cpp:178
 msgid "Done"
 msgstr "Vyhodnotit"
 
-#: kbbgame.cpp:150
-msgid "Click here when you think you placed all the balls."
-msgstr "Zde kliknìte, myslíte-li si, ¾e jste umístili v¹e správnì."
-
-#: kbbgame.cpp:157
-msgid "This is your score."
-msgstr "Toto je va¹e skóre."
-
-#: kbbgame.cpp:161
-msgid "These are some game statistics."
-msgstr "Toto jsou rùzné statistiky."
-
-#: kbbgame.cpp:361
-msgid "About"
-msgstr "Informace"
-
-#: kbbgame.cpp:363
+#: kbbgame.cpp:434
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -95,24 +74,40 @@ msgstr ""
 "Autor: Robert Cimrman\n"
 "e-mail: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:368
+#: kbbgame.cpp:439
 msgid "Qt information"
 msgstr "Informace o Qt"
 
-#: kbbgame.cpp:429
+#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+msgid "Warning!"
+msgstr "Varování!"
+
+#: kbbgame.cpp:460 kbbgame.cpp:579
+msgid "Do you really want to give up this game?"
+msgstr "Opravdu chtece vzdát tuto hru?"
+
+#: kbbgame.cpp:461 kbbgame.cpp:580
+msgid "Yes, I'm burnt out."
+msgstr "Jo dneska u¾ mám vykydáno!"
+
+#: kbbgame.cpp:462 kbbgame.cpp:581
+msgid "No, not yet..."
+msgstr "Nee, je¹tì ne..."
+
+#: kbbgame.cpp:513
 #, c-format
 msgid "Your final score is: %d."
 msgstr "Va¹e koneèné skóre je: %d."
 
-#: kbbgame.cpp:431
+#: kbbgame.cpp:515
 msgid "Wow!"
 msgstr "Super!"
 
-#: kbbgame.cpp:433
+#: kbbgame.cpp:517
 msgid "Damned!"
 msgstr "Proklatì!"
 
-#: kbbgame.cpp:436
+#: kbbgame.cpp:520
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -121,52 +116,72 @@ msgstr ""
 "Poèet kulièek, které je tøeba umístit: %d\n"
 "Poèet umístìných kulièek: %d."
 
-#: kbbgame.cpp:438
+#: kbbgame.cpp:522
 msgid "D'accord"
 msgstr "Souhlas"
 
-#: kbbgame.cpp:493 kbbgame.cpp:546 kbbgame.cpp:572
-msgid "Warning!"
-msgstr "Varování!"
+#: kbbgame.cpp:597 kbbgame.cpp:600
+msgid "Run"
+msgstr ""
 
-#: kbbgame.cpp:495
-msgid "Do you really want to give up this game?"
-msgstr "Opravdu chtece vzdát tuto hru?"
+#: kbbgame.cpp:604
+#, fuzzy
+msgid "Size"
+msgstr "&Velikost desky"
 
-#: kbbgame.cpp:496
-msgid "Yes, I'm burnt out."
-msgstr "Jo dneska u¾ mám vykydáno!"
+#: kbbgame.cpp:607
+msgid "Placed"
+msgstr ""
 
-#: kbbgame.cpp:497
-msgid "No, not yet..."
-msgstr "Nee, je¹tì ne..."
-
-#: kbbgame.cpp:514 kbbgame.cpp:519
-#, c-format
-msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-msgstr "Rozehráno: %s, Velikost: %3d x%3d, Kulièky: %3d /%3d"
-
-#: kbbgame.cpp:515
-msgid "Yes"
-msgstr "Ano"
-
-#: kbbgame.cpp:520
-msgid " No"
-msgstr "Ne"
-
-#: kbbgame.cpp:533
-#, c-format
-msgid " Score %4d"
+#: kbbgame.cpp:620
+#, fuzzy
+msgid "Score"
 msgstr "Skóre %4d"
 
-#: kbbgame.cpp:548 kbbgame.cpp:574
+#: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
 msgstr "To znamená konec hry!"
 
-#: kbbgame.cpp:549 kbbgame.cpp:575
+#: kbbgame.cpp:636 kbbgame.cpp:663
+msgid "Never mind..."
+msgstr "Nevadí ..."
+
+#: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "Ale nee!"
 
-#: kbbgame.cpp:550 kbbgame.cpp:576
-msgid "Never mind..."
-msgstr "Nevadí ..."
+#~ msgid "&Help"
+#~ msgstr "&Nápovìda"
+
+#~ msgid "&Quit"
+#~ msgstr "&Ukonèit"
+
+#~ msgid "&File"
+#~ msgstr "&Soubor"
+
+#~ msgid "&Game"
+#~ msgstr "&Hra"
+
+#~ msgid "&Options"
+#~ msgstr "&Mo¾nosti"
+
+#~ msgid "Click here when you think you placed all the balls."
+#~ msgstr "Zde kliknìte, myslíte-li si, ¾e jste umístili v¹e správnì."
+
+#~ msgid "This is your score."
+#~ msgstr "Toto je va¹e skóre."
+
+#~ msgid "These are some game statistics."
+#~ msgstr "Toto jsou rùzné statistiky."
+
+#~ msgid "About"
+#~ msgstr "Informace"
+
+#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
+#~ msgstr "Rozehráno: %s, Velikost: %3d x%3d, Kulièky: %3d /%3d"
+
+#~ msgid "Yes"
+#~ msgstr "Ano"
+
+#~ msgid " No"
+#~ msgstr "Ne"

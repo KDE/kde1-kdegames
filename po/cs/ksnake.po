@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-06-20 18:33 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
@@ -13,13 +13,17 @@ msgstr ""
 "Content-Type: text/plain; charset=iso8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: game.cpp:41 game.cpp:144 rattler.cpp:349
+#: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
 msgstr "Závod hadù"
 
 #: game.cpp:45
 msgid "KConfig error ??\n"
 msgstr "Chyba KConfigu ??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr ""
 
 #: game.cpp:80
 msgid "Pause"
@@ -100,7 +104,7 @@ msgstr ""
 "\n"
 "napsal Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: rattler.cpp:277
+#: rattler.cpp:278
 msgid ""
 "Game Paused\n"
 " Press F3 to resume\n"
@@ -108,7 +112,7 @@ msgstr ""
 "Hra pozastavena\n"
 "Stisknìte F3\n"
 
-#: rattler.cpp:350
+#: rattler.cpp:351
 msgid ""
 "A game is already started\n"
 "Start a new one ?\n"
@@ -116,11 +120,11 @@ msgstr ""
 "Hra je ji¾ zahájena\n"
 "Odstartovat novou?\n"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&Yes"
 msgstr "&Ano"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&No"
 msgstr "&Ne"
 

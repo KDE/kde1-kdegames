@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "Last-Translator: Josef Weidendorfer <weidendo@informatik.tu-muenchen.de>\n"
 
 #: Move.cpp:17
@@ -43,6 +43,10 @@ msgstr "Schieben"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Bewertung"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+msgid "Move"
+msgstr "Zug"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -122,7 +126,9 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
-"\n\nvon Josef Weidendorfer"
+"\n"
+"\n"
+"von Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"
@@ -147,9 +153,6 @@ msgstr "Bester Zug bis jetzt:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Spion"
-
-#~ msgid "Move"
-#~ msgstr "Zug"
 
 #~ msgid "Rules"
 #~ msgstr "Spielregeln"

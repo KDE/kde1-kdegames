@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-06-17 21:07+0200\n"
 "Last-Translator: Santiago Fernández and \n"
 "First-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
@@ -27,16 +27,16 @@ msgstr "Minas"
 msgid "Hall of Fame"
 msgstr ""
 
-#: dialogs.cpp:288 main.cpp:59
+#: dialogs.cpp:288 main.cpp:62
 msgid "Easy"
 msgstr "Fácil"
 
-#: dialogs.cpp:289 main.cpp:60
+#: dialogs.cpp:289 main.cpp:63
 #, fuzzy
 msgid "Normal"
 msgstr "Normal :"
 
-#: dialogs.cpp:290 main.cpp:61
+#: dialogs.cpp:290 main.cpp:64
 msgid "Expert"
 msgstr "Experto"
 
@@ -80,43 +80,43 @@ msgstr "¡ Yeahhhhh ;-) !"
 msgid "Bad luck !"
 msgstr "¡Mala suerte¡"
 
-#: main.cpp:24 main.cpp:46
+#: main.cpp:22 main.cpp:44
 msgid "New game"
 msgstr "Nuevo juego"
 
-#: main.cpp:25 main.cpp:47
+#: main.cpp:23 main.cpp:47
 msgid "Pause game"
 msgstr "Pausa"
 
-#: main.cpp:26 main.cpp:49
+#: main.cpp:24 main.cpp:50
 msgid "High scores"
 msgstr "Mejores tiempos"
 
-#: main.cpp:43 main.cpp:154
+#: main.cpp:41 main.cpp:157
 msgid "Hide menu bar"
 msgstr "Ocultar barra de menus"
 
-#: main.cpp:55
+#: main.cpp:58
 msgid "? mark"
 msgstr "marcas (?)"
 
-#: main.cpp:56
+#: main.cpp:59
 msgid "Keys"
 msgstr "Teclas"
 
-#: main.cpp:63
+#: main.cpp:66
 msgid "Custom"
 msgstr "Personalizado"
 
-#: main.cpp:69
+#: main.cpp:72
 msgid "by"
 msgstr ""
 
-#: main.cpp:74
+#: main.cpp:77
 msgid "Level"
 msgstr "Nivel"
 
-#: main.cpp:151
+#: main.cpp:154
 msgid "Show menu bar"
 msgstr "Mostrar barra de menus"
 

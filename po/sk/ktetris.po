@@ -288,4 +288,3 @@ msgstr "napísal"
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Zobrazi» menu"
-

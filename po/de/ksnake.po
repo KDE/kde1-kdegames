@@ -1,17 +1,21 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-07-30 01:10+MET\n"
 "Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 
-#: game.cpp:41 game.cpp:144 rattler.cpp:349
+#: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
 msgstr "Schlangen-Rennen"
 
 #: game.cpp:45
 msgid "KConfig error ??\n"
 msgstr "KConfig Fehler??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr ""
 
 #: game.cpp:80
 msgid "Pause"
@@ -91,7 +95,7 @@ msgstr ""
 "\n"
 "by Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: rattler.cpp:277
+#: rattler.cpp:278
 msgid ""
 "Game Paused\n"
 " Press F3 to resume\n"
@@ -99,7 +103,7 @@ msgstr ""
 "Spiel angehalten\n"
 " F3 drücken um fortzufahren\n"
 
-#: rattler.cpp:350
+#: rattler.cpp:351
 msgid ""
 "A game is already started\n"
 "Start a new one ?\n"
@@ -107,11 +111,11 @@ msgstr ""
 "Es ist bereits ein Spiel gestartet\n"
 "Ein neues starten?\n"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&Yes"
 msgstr "&Ja"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&No"
 msgstr "&Nein"
 

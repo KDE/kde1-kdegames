@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-06-17 21:01+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
@@ -45,6 +45,11 @@ msgstr "Empujar"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Valor de Tablero"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+#, fuzzy
+msgid "Move"
+msgstr "Moueve lento"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"

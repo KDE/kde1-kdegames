@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-06-18 09:41 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -68,6 +68,10 @@ msgstr "Velmi rychlá"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Rychlá"
+
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr ""
 
 #: app.cpp:136
 msgid "Slow"

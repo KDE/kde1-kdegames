@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-05-14 20:00-0500\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -57,6 +57,10 @@ msgstr "Guraj"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Vrijednost ploèe"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+msgid "Move"
+msgstr "Potez"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -160,6 +164,3 @@ msgstr "Najbolji potez do sada:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr ""
-
-#~ msgid "Move"
-#~ msgstr "Potez"

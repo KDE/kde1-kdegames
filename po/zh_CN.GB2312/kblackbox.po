@@ -1,26 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-#: kbbgame.cpp:72 kbbgame.cpp:109
-msgid "&Help"
-msgstr "帮助[&H]"
-
-#: kbbgame.cpp:75
+#: kbbgame.cpp:76
 msgid "&About KBlackBox"
 msgstr "关于 KBlackBox[&A]"
 
-#: kbbgame.cpp:79
+#: kbbgame.cpp:78
 msgid "About &Qt"
 msgstr "关于 &Qt"
-
-#: kbbgame.cpp:82
-msgid "&Quit"
-msgstr "离开[&Q]"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -30,56 +22,43 @@ msgstr "新建[&N]"
 msgid "&Give up"
 msgstr "放弃[&G]"
 
+#: kbbgame.cpp:86
+#, fuzzy
+msgid "&Done"
+msgstr "完成"
+
 #
-#: kbbgame.cpp:87
+#: kbbgame.cpp:88
 msgid "&Resize"
 msgstr "改变大小[&R]"
 
-#: kbbgame.cpp:99
+#: kbbgame.cpp:100
 msgid "&Size"
 msgstr "大小[&S]"
 
-#: kbbgame.cpp:100
+#: kbbgame.cpp:101
 msgid "&Balls"
 msgstr "球[&B]"
 
-#: kbbgame.cpp:101
+#: kbbgame.cpp:102
 msgid "&Tutorial"
 msgstr "教程[&T]"
 
-#: kbbgame.cpp:105
-msgid "&File"
-msgstr "文件[&F]"
+#: kbbgame.cpp:174
+#, fuzzy
+msgid "New"
+msgstr "新建[&N]"
 
-#: kbbgame.cpp:106
-msgid "&Game"
-msgstr "游戏[&G]"
+#: kbbgame.cpp:176
+#, fuzzy
+msgid "Give up"
+msgstr "放弃[&G]"
 
-#: kbbgame.cpp:107
-msgid "&Options"
-msgstr "选项[&O]"
-
-#: kbbgame.cpp:148
+#: kbbgame.cpp:178
 msgid "Done"
 msgstr "完成"
 
-#: kbbgame.cpp:150
-msgid "Click here when you think you placed all the balls."
-msgstr "在你认为放好所有的球后在此单击."
-
-#: kbbgame.cpp:157
-msgid "This is your score."
-msgstr "你的分数."
-
-#: kbbgame.cpp:161
-msgid "These are some game statistics."
-msgstr "这些是游戏统计数据."
-
-#: kbbgame.cpp:361
-msgid "About"
-msgstr "关于"
-
-#: kbbgame.cpp:363
+#: kbbgame.cpp:434
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -89,24 +68,40 @@ msgstr ""
 "作者:  Robert Cimrman\n"
 "email: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:368
+#: kbbgame.cpp:439
 msgid "Qt information"
 msgstr "Qt 信息"
 
-#: kbbgame.cpp:429
+#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+msgid "Warning!"
+msgstr "警告!"
+
+#: kbbgame.cpp:460 kbbgame.cpp:579
+msgid "Do you really want to give up this game?"
+msgstr "你确实要放弃这盘游戏 ?"
+
+#: kbbgame.cpp:461 kbbgame.cpp:580
+msgid "Yes, I'm burnt out."
+msgstr "是的 , 我已经筋疲力竭了."
+
+#: kbbgame.cpp:462 kbbgame.cpp:581
+msgid "No, not yet..."
+msgstr "不 , 还没有..."
+
+#: kbbgame.cpp:513
 #, c-format
 msgid "Your final score is: %d."
 msgstr "你的最后得分是: %d."
 
-#: kbbgame.cpp:431
+#: kbbgame.cpp:515
 msgid "Wow!"
 msgstr "噢!"
 
-#: kbbgame.cpp:433
+#: kbbgame.cpp:517
 msgid "Damned!"
 msgstr "该死的!"
 
-#: kbbgame.cpp:436
+#: kbbgame.cpp:520
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -115,52 +110,72 @@ msgstr ""
 "你应该放 %d 个球 !\n"
 "你实际放了 %d 个."
 
-#: kbbgame.cpp:438
+#: kbbgame.cpp:522
 msgid "D'accord"
 msgstr "D'accord"
 
-#: kbbgame.cpp:493 kbbgame.cpp:546 kbbgame.cpp:572
-msgid "Warning!"
-msgstr "警告!"
+#: kbbgame.cpp:597 kbbgame.cpp:600
+msgid "Run"
+msgstr ""
 
-#: kbbgame.cpp:495
-msgid "Do you really want to give up this game?"
-msgstr "你确实要放弃这盘游戏 ?"
+#: kbbgame.cpp:604
+#, fuzzy
+msgid "Size"
+msgstr "大小[&S]"
 
-#: kbbgame.cpp:496
-msgid "Yes, I'm burnt out."
-msgstr "是的 , 我已经筋疲力竭了."
+#: kbbgame.cpp:607
+msgid "Placed"
+msgstr ""
 
-#: kbbgame.cpp:497
-msgid "No, not yet..."
-msgstr "不 , 还没有..."
-
-#: kbbgame.cpp:514 kbbgame.cpp:519
-#, c-format
-msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-msgstr " 正在运行: %s, 大小: %3d x%3d , 球: %3d /%3d"
-
-#: kbbgame.cpp:515
-msgid "Yes"
-msgstr "是"
-
-#: kbbgame.cpp:520
-msgid " No"
-msgstr "否"
-
-#: kbbgame.cpp:533
-#, c-format
-msgid " Score %4d"
+#: kbbgame.cpp:620
+#, fuzzy
+msgid "Score"
 msgstr " 得分 %4d"
 
-#: kbbgame.cpp:548 kbbgame.cpp:574
+#: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
 msgstr "这是当前游戏的结束!"
 
-#: kbbgame.cpp:549 kbbgame.cpp:575
+#: kbbgame.cpp:636 kbbgame.cpp:663
+msgid "Never mind..."
+msgstr "不介意..."
+
+#: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "哦, 不!"
 
-#: kbbgame.cpp:550 kbbgame.cpp:576
-msgid "Never mind..."
-msgstr "不介意..."
+#~ msgid "&Help"
+#~ msgstr "帮助[&H]"
+
+#~ msgid "&Quit"
+#~ msgstr "离开[&Q]"
+
+#~ msgid "&File"
+#~ msgstr "文件[&F]"
+
+#~ msgid "&Game"
+#~ msgstr "游戏[&G]"
+
+#~ msgid "&Options"
+#~ msgstr "选项[&O]"
+
+#~ msgid "Click here when you think you placed all the balls."
+#~ msgstr "在你认为放好所有的球后在此单击."
+
+#~ msgid "This is your score."
+#~ msgstr "你的分数."
+
+#~ msgid "These are some game statistics."
+#~ msgstr "这些是游戏统计数据."
+
+#~ msgid "About"
+#~ msgstr "关于"
+
+#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
+#~ msgstr " 正在运行: %s, 大小: %3d x%3d , 球: %3d /%3d"
+
+#~ msgid "Yes"
+#~ msgstr "是"
+
+#~ msgid " No"
+#~ msgstr "否"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone 1.02\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-06-18 09:44 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -54,6 +54,11 @@ msgstr "Tlaèit"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Ohodnocení desky"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+#, fuzzy
+msgid "Move"
+msgstr "Pøesunuj pomalu"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -13,21 +13,13 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: kbbgame.cpp:72 kbbgame.cpp:109
-msgid "&Help"
-msgstr "Po&moæ"
-
-#: kbbgame.cpp:75
+#: kbbgame.cpp:76
 msgid "&About KBlackBox"
 msgstr "&O KBlackBoxu"
 
-#: kbbgame.cpp:79
+#: kbbgame.cpp:78
 msgid "About &Qt"
 msgstr "O &Qtu"
-
-#: kbbgame.cpp:82
-msgid "&Quit"
-msgstr "&Zavr¹i"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -37,55 +29,42 @@ msgstr "&Nova"
 msgid "&Give up"
 msgstr "&Odustani"
 
-#: kbbgame.cpp:87
+#: kbbgame.cpp:86
+#, fuzzy
+msgid "&Done"
+msgstr "Gotov"
+
+#: kbbgame.cpp:88
 msgid "&Resize"
 msgstr "&Promijeni velièinu"
 
-#: kbbgame.cpp:99
+#: kbbgame.cpp:100
 msgid "&Size"
 msgstr "&Velièina"
 
-#: kbbgame.cpp:100
+#: kbbgame.cpp:101
 msgid "&Balls"
 msgstr "&Lopte"
 
-#: kbbgame.cpp:101
+#: kbbgame.cpp:102
 msgid "&Tutorial"
 msgstr "&Vodiè"
 
-#: kbbgame.cpp:105
-msgid "&File"
-msgstr "&Datoteka"
+#: kbbgame.cpp:174
+#, fuzzy
+msgid "New"
+msgstr "&Nova"
 
-#: kbbgame.cpp:106
-msgid "&Game"
-msgstr "&Igra"
+#: kbbgame.cpp:176
+#, fuzzy
+msgid "Give up"
+msgstr "&Odustani"
 
-#: kbbgame.cpp:107
-msgid "&Options"
-msgstr "&Opcije"
-
-#: kbbgame.cpp:148
+#: kbbgame.cpp:178
 msgid "Done"
 msgstr "Gotov"
 
-#: kbbgame.cpp:150
-msgid "Click here when you think you placed all the balls."
-msgstr "Kliknite ovdje nakon ¹to polo¾ite sve lopte."
-
-#: kbbgame.cpp:157
-msgid "This is your score."
-msgstr "Va¹ rezultat."
-
-#: kbbgame.cpp:161
-msgid "These are some game statistics."
-msgstr "Statistike igre."
-
-#: kbbgame.cpp:361
-msgid "About"
-msgstr "O"
-
-#: kbbgame.cpp:363
+#: kbbgame.cpp:434
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -95,24 +74,40 @@ msgstr ""
 "autor: Robert Cimrman\n"
 "e-mail: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:368
+#: kbbgame.cpp:439
 msgid "Qt information"
 msgstr "Qt informacije"
 
-#: kbbgame.cpp:429
+#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+msgid "Warning!"
+msgstr "Upozorenje!"
+
+#: kbbgame.cpp:460 kbbgame.cpp:579
+msgid "Do you really want to give up this game?"
+msgstr "Da li ste sigurni da ¾elite odustati od igre?"
+
+#: kbbgame.cpp:461 kbbgame.cpp:580
+msgid "Yes, I'm burnt out."
+msgstr "Da, ne mogu vi¹e."
+
+#: kbbgame.cpp:462 kbbgame.cpp:581
+msgid "No, not yet..."
+msgstr "Ne, ne jo¹..."
+
+#: kbbgame.cpp:513
 #, c-format
 msgid "Your final score is: %d."
 msgstr "Va¹ rezultat je: %d"
 
-#: kbbgame.cpp:431
+#: kbbgame.cpp:515
 msgid "Wow!"
 msgstr "Wow!"
 
-#: kbbgame.cpp:433
+#: kbbgame.cpp:517
 msgid "Damned!"
 msgstr "Prokletstvo!"
 
-#: kbbgame.cpp:436
+#: kbbgame.cpp:520
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -121,52 +116,72 @@ msgstr ""
 "Treba¹ polo¾iti %d lopti!\n"
 "Polo¾io si %d."
 
-#: kbbgame.cpp:438
+#: kbbgame.cpp:522
 msgid "D'accord"
 msgstr "D'accord"
 
-#: kbbgame.cpp:493 kbbgame.cpp:546 kbbgame.cpp:572
-msgid "Warning!"
-msgstr "Upozorenje!"
+#: kbbgame.cpp:597 kbbgame.cpp:600
+msgid "Run"
+msgstr ""
 
-#: kbbgame.cpp:495
-msgid "Do you really want to give up this game?"
-msgstr "Da li ste sigurni da ¾elite odustati od igre?"
+#: kbbgame.cpp:604
+#, fuzzy
+msgid "Size"
+msgstr "&Velièina"
 
-#: kbbgame.cpp:496
-msgid "Yes, I'm burnt out."
-msgstr "Da, ne mogu vi¹e."
+#: kbbgame.cpp:607
+msgid "Placed"
+msgstr ""
 
-#: kbbgame.cpp:497
-msgid "No, not yet..."
-msgstr "Ne, ne jo¹..."
-
-#: kbbgame.cpp:514 kbbgame.cpp:519
-#, c-format
-msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-msgstr " Vrijeme: %s, Velièina: %3d x%3d, Lopte: %3d /%3d"
-
-#: kbbgame.cpp:515
-msgid "Yes"
-msgstr "Da"
-
-#: kbbgame.cpp:520
-msgid " No"
-msgstr " Ne"
-
-#: kbbgame.cpp:533
-#, c-format
-msgid " Score %4d"
+#: kbbgame.cpp:620
+#, fuzzy
+msgid "Score"
 msgstr "Rezultat %4d"
 
-#: kbbgame.cpp:548 kbbgame.cpp:574
+#: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
 msgstr "Ovo æe prekinuti tekuæu igru!"
 
-#: kbbgame.cpp:549 kbbgame.cpp:575
+#: kbbgame.cpp:636 kbbgame.cpp:663
+msgid "Never mind..."
+msgstr "Nema veze..."
+
+#: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "O ne !"
 
-#: kbbgame.cpp:550 kbbgame.cpp:576
-msgid "Never mind..."
-msgstr "Nema veze..."
+#~ msgid "&Help"
+#~ msgstr "Po&moæ"
+
+#~ msgid "&Quit"
+#~ msgstr "&Zavr¹i"
+
+#~ msgid "&File"
+#~ msgstr "&Datoteka"
+
+#~ msgid "&Game"
+#~ msgstr "&Igra"
+
+#~ msgid "&Options"
+#~ msgstr "&Opcije"
+
+#~ msgid "Click here when you think you placed all the balls."
+#~ msgstr "Kliknite ovdje nakon ¹to polo¾ite sve lopte."
+
+#~ msgid "This is your score."
+#~ msgstr "Va¹ rezultat."
+
+#~ msgid "These are some game statistics."
+#~ msgstr "Statistike igre."
+
+#~ msgid "About"
+#~ msgstr "O"
+
+#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
+#~ msgstr " Vrijeme: %s, Velièina: %3d x%3d, Lopte: %3d /%3d"
+
+#~ msgid "Yes"
+#~ msgstr "Da"
+
+#~ msgid " No"
+#~ msgstr " Ne"

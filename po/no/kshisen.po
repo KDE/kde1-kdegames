@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/kshisen\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-03-21 08:39+0100\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -68,6 +68,10 @@ msgstr "Meget hurtig"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Hurtig"
+
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr ""
 
 #: app.cpp:136
 msgid "Slow"

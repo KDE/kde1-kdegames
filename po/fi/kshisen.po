@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KSHISEN\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -69,6 +69,10 @@ msgstr "Erittäin nopea"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Nopea"
+
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr ""
 
 #: app.cpp:136
 msgid "Slow"

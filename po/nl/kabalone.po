@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,6 +55,10 @@ msgstr "Duw"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Bord waarde"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+msgid "Move"
+msgstr "Zet"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -159,6 +163,3 @@ msgstr "Beste zet tot dusverre:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Spion"
-
-#~ msgid "Move"
-#~ msgstr "Zet"

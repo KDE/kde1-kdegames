@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone revision 1.7\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-08-22 21:29+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team:  SWEDISH <LL@li.org>\n"
@@ -51,6 +51,11 @@ msgstr "Putta"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Brädvärde"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+#, fuzzy
+msgid "Move"
+msgstr "Flytta långsamt"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"

@@ -5,10 +5,14 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-06-14 20:34+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
+
+#: KSameWidget.cpp:50
+msgid "New"
+msgstr ""
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"

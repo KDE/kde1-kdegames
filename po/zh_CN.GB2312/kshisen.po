@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -61,6 +61,10 @@ msgstr "非常快"
 #: app.cpp:134
 msgid "Fast"
 msgstr "快"
+
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr "中等"
 
 #: app.cpp:136
 msgid "Slow"
@@ -178,6 +182,3 @@ msgstr "大小[&Z]"
 #: app.cpp:650
 msgid "Score"
 msgstr "分数"
-
-#~ msgid "Medium"
-#~ msgstr "中等"

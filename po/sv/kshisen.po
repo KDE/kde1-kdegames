@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen revision 1.7\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-08-22 21:55+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -65,6 +65,10 @@ msgstr "Mycket snabb"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Snabb"
+
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr ""
 
 #: app.cpp:136
 msgid "Slow"

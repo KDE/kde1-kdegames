@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake 1.0\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-07-28 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -14,13 +14,17 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-3\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: game.cpp:41 game.cpp:144 rattler.cpp:349
+#: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
 msgstr "Serpentkurado"
 
 #: game.cpp:45
 msgid "KConfig error ??\n"
 msgstr "KConfig-eraro ??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr ""
 
 #: game.cpp:80
 msgid "Pause"
@@ -100,7 +104,7 @@ msgstr ""
 "\n"
 "de Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: rattler.cpp:277
+#: rattler.cpp:278
 msgid ""
 "Game Paused\n"
 " Press F3 to resume\n"
@@ -108,7 +112,7 @@ msgstr ""
 "Ludpaýzo\n"
 " Premu F3 por daýrigi\n"
 
-#: rattler.cpp:350
+#: rattler.cpp:351
 msgid ""
 "A game is already started\n"
 "Start a new one ?\n"
@@ -116,11 +120,11 @@ msgstr ""
 "Vi jam komencis ludon\n"
 "Æu lanæi novan?\n"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&Yes"
 msgstr "&Jes"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&No"
 msgstr "&Ne"
 

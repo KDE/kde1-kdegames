@@ -1,2 +1,145 @@
-msgid "boo"
-msgstr "bתתתת"
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kbbgame.cpp:76
+msgid "&About KBlackBox"
+msgstr ""
+
+#: kbbgame.cpp:78
+msgid "About &Qt"
+msgstr ""
+
+#: kbbgame.cpp:84
+msgid "&New"
+msgstr ""
+
+#: kbbgame.cpp:85
+msgid "&Give up"
+msgstr ""
+
+#: kbbgame.cpp:86
+msgid "&Done"
+msgstr ""
+
+#: kbbgame.cpp:88
+msgid "&Resize"
+msgstr ""
+
+#: kbbgame.cpp:100
+msgid "&Size"
+msgstr ""
+
+#: kbbgame.cpp:101
+msgid "&Balls"
+msgstr ""
+
+#: kbbgame.cpp:102
+msgid "&Tutorial"
+msgstr ""
+
+#: kbbgame.cpp:174
+msgid "New"
+msgstr ""
+
+#: kbbgame.cpp:176
+msgid "Give up"
+msgstr ""
+
+#: kbbgame.cpp:178
+msgid "Done"
+msgstr ""
+
+#: kbbgame.cpp:434
+msgid ""
+"KBlackBox logical game\n"
+"author: Robert Cimrman\n"
+"e-mail: cimrman3@students.zcu.cz"
+msgstr ""
+
+#: kbbgame.cpp:439
+msgid "Qt information"
+msgstr ""
+
+#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+msgid "Warning!"
+msgstr ""
+
+#: kbbgame.cpp:460 kbbgame.cpp:579
+msgid "Do you really want to give up this game?"
+msgstr ""
+
+#: kbbgame.cpp:461 kbbgame.cpp:580
+msgid "Yes, I'm burnt out."
+msgstr ""
+
+#: kbbgame.cpp:462 kbbgame.cpp:581
+msgid "No, not yet..."
+msgstr ""
+
+#: kbbgame.cpp:513
+#, c-format
+msgid "Your final score is: %d."
+msgstr ""
+
+#: kbbgame.cpp:515
+msgid "Wow!"
+msgstr ""
+
+#: kbbgame.cpp:517
+msgid "Damned!"
+msgstr ""
+
+#: kbbgame.cpp:520
+#, c-format
+msgid ""
+"You should place %d balls!\n"
+"You have placed %d."
+msgstr ""
+
+#: kbbgame.cpp:522
+msgid "D'accord"
+msgstr ""
+
+#: kbbgame.cpp:597 kbbgame.cpp:600
+msgid "Run"
+msgstr ""
+
+#: kbbgame.cpp:604
+msgid "Size"
+msgstr ""
+
+#: kbbgame.cpp:607
+msgid "Placed"
+msgstr ""
+
+#: kbbgame.cpp:620
+msgid "Score"
+msgstr ""
+
+#: kbbgame.cpp:635 kbbgame.cpp:662
+msgid "This will be the end of the current game!"
+msgstr ""
+
+#: kbbgame.cpp:636 kbbgame.cpp:663
+msgid "Never mind..."
+msgstr ""
+
+#: kbbgame.cpp:637 kbbgame.cpp:664
+msgid "Oh, no!"
+msgstr ""
+
+#~ msgid "boo"
+#~ msgstr "bתתתת"

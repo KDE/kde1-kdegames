@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-07-19 22:09+0000\n"
 "Last-Translator: Yu-Ting Kuo <beta2000@yahoo.com>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 # game.cpp:41 game.cpp:144 rattler.cpp:349
-#: game.cpp:41 game.cpp:144 rattler.cpp:349
+#: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
 msgstr "賽蛇"
 
@@ -23,6 +23,11 @@ msgstr "賽蛇"
 #: game.cpp:45
 msgid "KConfig error ??\n"
 msgstr "KConfig 錯誤 ??\n"
+
+# game.cpp:79
+#: game.cpp:79
+msgid "New"
+msgstr "新遊戲"
 
 # game.cpp:80
 #: game.cpp:80
@@ -121,7 +126,7 @@ msgstr ""
 "by Michel Filippi (mfilippi@sade.rhein-main.de)"
 
 # rattler.cpp:277
-#: rattler.cpp:277
+#: rattler.cpp:278
 msgid ""
 "Game Paused\n"
 " Press F3 to resume\n"
@@ -130,7 +135,7 @@ msgstr ""
 " 請按 F3 繼續\n"
 
 # rattler.cpp:350
-#: rattler.cpp:350
+#: rattler.cpp:351
 msgid ""
 "A game is already started\n"
 "Start a new one ?\n"
@@ -139,12 +144,12 @@ msgstr ""
 "是否重新開始遊戲?\n"
 
 # rattler.cpp:352
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&Yes"
 msgstr "是[&Y]"
 
 # rattler.cpp:352
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&No"
 msgstr "否[&N]"
 
@@ -214,10 +219,6 @@ msgstr "更換方向按鍵"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "未定義的按鍵"
-
-# game.cpp:79
-#~ msgid "New"
-#~ msgstr "新遊戲"
 
 # game.cpp:83
 #~ msgid "&Quit"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-04-21 03:44+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -54,6 +54,10 @@ msgstr ""
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "ª©­±­È"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+msgid "Move"
+msgstr "²¾°Ê"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -157,6 +161,3 @@ msgstr ""
 #: Spy.cpp:75
 msgid "Spion"
 msgstr ""
-
-#~ msgid "Move"
-#~ msgstr "²¾°Ê"

@@ -289,4 +289,3 @@ msgstr ""
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Näytä valikko"
-

@@ -5,18 +5,22 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-06-14 22:20+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-#: game.cpp:41 game.cpp:144 rattler.cpp:349
+#: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
 msgstr "金蛇狂舞"
 
 #: game.cpp:45
 msgid "KConfig error ??\n"
 msgstr "KConfig 错误 ??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr "重新开始"
 
 #: game.cpp:80
 msgid "Pause"
@@ -96,7 +100,7 @@ msgstr ""
 "\n"
 "by Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: rattler.cpp:277
+#: rattler.cpp:278
 msgid ""
 "Game Paused\n"
 " Press F3 to resume\n"
@@ -104,7 +108,7 @@ msgstr ""
 "游戏暂停\n"
 " 按 F3 继续\n"
 
-#: rattler.cpp:350
+#: rattler.cpp:351
 msgid ""
 "A game is already started\n"
 "Start a new one ?\n"
@@ -112,11 +116,11 @@ msgstr ""
 "已经有一个游戏在进行\n"
 "另外开一个 ?\n"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&Yes"
 msgstr "是[&Y]"
 
-#: rattler.cpp:352
+#: rattler.cpp:353
 msgid "&No"
 msgstr "否[&N]"
 
@@ -175,9 +179,6 @@ msgstr "改变方向键"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "取消键定义"
-
-#~ msgid "New"
-#~ msgstr "重新开始"
 
 #~ msgid "&Quit"
 #~ msgstr "退出[&Q]"

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français\n"
@@ -67,6 +67,10 @@ msgstr "Très rapide"
 #: app.cpp:134
 msgid "Fast"
 msgstr "Rapide"
+
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr "Moyen"
 
 #: app.cpp:136
 msgid "Slow"
@@ -184,9 +188,6 @@ msgstr "Taille (&z)"
 #: app.cpp:650
 msgid "Score"
 msgstr "Résultat"
-
-#~ msgid "Medium"
-#~ msgstr "Moyen"
 
 #~ msgid "About &Qt..."
 #~ msgstr "A propos de &Qt..."

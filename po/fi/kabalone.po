@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 
 #: Move.cpp:17
@@ -43,6 +43,11 @@ msgstr "Paina"
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr "Laudan arvo"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+#, fuzzy
+msgid "Move"
+msgstr "Siirrä hitaasti"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"

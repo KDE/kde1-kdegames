@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -48,6 +48,10 @@ msgstr ""
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
 msgstr ""
+
+#: AbTop.cpp:241 AbTop.cpp:398
+msgid "Move"
+msgstr "Mozgatás"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -152,9 +156,6 @@ msgstr ""
 #, fuzzy
 msgid "Spion"
 msgstr "Beállítások"
-
-#~ msgid "Move"
-#~ msgstr "Mozgatás"
 
 #~ msgid "Rules"
 #~ msgstr "Szabályok"
