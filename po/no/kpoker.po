@@ -1,10 +1,10 @@
-# SOME DESCRIPTIVE TITLE.
+# Norwegian translations for KDE Games, kpoker
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KDE GAMES/kpoker\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
@@ -115,7 +115,7 @@ msgstr "&Lyd"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
@@ -123,6 +123,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"av Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -130,9 +133,14 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"For en liste over takk, se hjelpfilen"
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Forslag, feilrapporter etc. er velkommen"

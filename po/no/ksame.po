@@ -1,17 +1,17 @@
-# SOME DESCRIPTIVE TITLE.
+# Norwegian translations for KDE Games, ksame
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KDE GAMES/ksame\n"
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-14 20:34+0200\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
-"Content-Transfer-Encoding: ISO_8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -120,9 +120,8 @@ msgid "Score: %06i"
 msgstr "Poeng: %06i"
 
 #: HighScore.cpp:107
-#, fuzzy
 msgid "Name"
-msgstr "Spill"
+msgstr "Navn"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"

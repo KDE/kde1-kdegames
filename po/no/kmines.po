@@ -1,13 +1,13 @@
-# SOME DESCRIPTIVE TITLE.
+# Norwegian translations for KDE Games, kmines
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KDE GAMES/kmines\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
-"Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
+"Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no<LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
@@ -39,7 +39,7 @@ msgstr "Lett"
 
 #: dialogs.cpp:289 main.cpp:60
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: dialogs.cpp:290 main.cpp:61
 msgid "Expert"

@@ -1,4 +1,4 @@
-# SOME DESCRIPTIVE TITLE.
+# Norwegian translations for KDE Games, ktetris
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Hans Petter Bieker <zerium@webindex.no>, 1998.
 #
