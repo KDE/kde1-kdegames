@@ -2,13 +2,13 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: 1998-09-03 13:00+CEST\n"
-"Last-Translator: Tobias Burnus <burnus@gmx.de>\n"
-"Language-Team: German <de@li.org>\n"
+"PO-Revision-Date: 1998-11-22 10:30+MET\n"
+"Language-Team: de <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
-"Content-Transfer-Encoding: ISO-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 "Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 
 #: kbbgame.cpp:72
 msgid ""
@@ -29,17 +29,16 @@ msgid "&Give up"
 msgstr "&Aufgeben"
 
 #: kbbgame.cpp:83
-#, fuzzy
 msgid "&Done"
-msgstr "Fertig"
+msgstr "&Fertig"
 
 #: kbbgame.cpp:85
 msgid "&Resize"
-msgstr "Grösse &ändern"
+msgstr "Größe &ändern"
 
 #: kbbgame.cpp:97
 msgid "&Size"
-msgstr "&Grösse"
+msgstr "&Größe"
 
 #: kbbgame.cpp:98
 msgid "&Balls"
@@ -47,17 +46,15 @@ msgstr "&Kugeln"
 
 #: kbbgame.cpp:99
 msgid "&Tutorial"
-msgstr "Einführung"
+msgstr "&Einführung"
 
 #: kbbgame.cpp:170
-#, fuzzy
 msgid "New"
-msgstr "&Neu"
+msgstr "Neu"
 
 #: kbbgame.cpp:172
-#, fuzzy
 msgid "Give up"
-msgstr "&Aufgeben"
+msgstr "Aufgeben"
 
 #: kbbgame.cpp:174
 msgid "Done"
@@ -69,7 +66,7 @@ msgstr "Warnung!"
 
 #: kbbgame.cpp:425 kbbgame.cpp:544
 msgid "Do you really want to give up this game?"
-msgstr "Wollen Sie diese Runde wirklich aufgeben?"
+msgstr "Wollen Sie dieses Spiel wirklich aufgeben?"
 
 #: kbbgame.cpp:426 kbbgame.cpp:545
 msgid "Yes, I'm burnt out."
@@ -90,7 +87,7 @@ msgstr "Wow!"
 
 #: kbbgame.cpp:482
 msgid "Damned!"
-msgstr "Schade!"
+msgstr "Verdammt!"
 
 #: kbbgame.cpp:485
 #, c-format
@@ -99,7 +96,7 @@ msgid ""
 "You have placed %d."
 msgstr ""
 "Sie müssen noch %d Kugeln plazieren!\n"
-"Sie haben bereits %d platziert."
+"Sie haben bereits %d plaziert."
 
 #: kbbgame.cpp:487
 msgid "D'accord"
@@ -107,21 +104,19 @@ msgstr "D'accord"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
-msgstr ""
+msgstr "Starten"
 
 #: kbbgame.cpp:569
-#, fuzzy
 msgid "Size"
-msgstr "&Grösse"
+msgstr "Größe"
 
 #: kbbgame.cpp:572
 msgid "Placed"
-msgstr ""
+msgstr "Plaziert"
 
 #: kbbgame.cpp:585
-#, fuzzy
 msgid "Score"
-msgstr "Punktezahl %4d"
+msgstr "Punktzahl"
 
 #: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
@@ -133,49 +128,4 @@ msgstr "Macht nichts..."
 
 #: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
-msgstr "Oh, nein!"
-
-#~ msgid "&About KBlackBox"
-#~ msgstr "&Über KBlackBox"
-
-#~ msgid "About &Qt"
-#~ msgstr "Über &Qt"
-
-#~ msgid "Qt information"
-#~ msgstr "Information über Qt"
-
-#~ msgid "&Help"
-#~ msgstr "&Hilfe"
-
-#~ msgid "&Quit"
-#~ msgstr "&Ende"
-
-#~ msgid "&File"
-#~ msgstr "&Datei"
-
-#~ msgid "&Game"
-#~ msgstr "&Spiel"
-
-#~ msgid "&Options"
-#~ msgstr "&Optionen"
-
-#~ msgid "Click here when you think you placed all the balls."
-#~ msgstr "Hier drauf klicken, wenn Sie alle Kugeln gesetzt haben"
-
-#~ msgid "This is your score."
-#~ msgstr "Ihre Punktzahl"
-
-#~ msgid "These are some game statistics."
-#~ msgstr "Spielstatistik"
-
-#~ msgid "About"
-#~ msgstr "Über"
-
-#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-#~ msgstr " Läuft: %s, Grösse: %3d x%3d, Kugeln: %3d /%3d"
-
-#~ msgid "Yes"
-#~ msgstr "Ja"
-
-#~ msgid " No"
-#~ msgstr "Nein"
+msgstr "Oh nein!"
