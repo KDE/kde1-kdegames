@@ -56,9 +56,6 @@ public slots:
 	void menu_symbols();
 	void menu_icons();
 	void menu_sounds();
-	void menu_help();
-	void menu_about();
-	void menu_aboutKDE();
 
 	void updateStats(int level, int points);
 	void gameOver();

@@ -46,45 +46,47 @@ const int default_height = 460;
 GameWindow::GameWindow(QWidget *, const char *name)
         : KTopLevelWidget(name)
 {
-	setCaption("Smiletris");
+	setCaption(i18n("Smiletris"));
 
 	file_popup = new QPopupMenu();
-	file_popup->insertItem("&New Game", this, SLOT(menu_newGame()), CTRL+Key_N);
-        pauseID = file_popup->insertItem("&Pause", this, SLOT(menu_pause()), Key_F2);
-        file_popup->insertItem("&End Game", this, SLOT(menu_endGame()), CTRL+Key_E);
+	file_popup->insertItem(i18n("&New Game"), this, SLOT(menu_newGame()), CTRL+Key_N);
+        pauseID = file_popup->insertItem(i18n("&Pause"), this, SLOT(menu_pause()), Key_F2);
+        file_popup->insertItem(i18n("&End Game"), this, SLOT(menu_endGame()), CTRL+Key_E);
 	file_popup->insertSeparator();
-        file_popup->insertItem("&High Scores...", this, SLOT(menu_highScores()));
+        file_popup->insertItem(i18n("&High Scores..."), this, SLOT(menu_highScores()));
 	file_popup->insertSeparator();
-	file_popup->insertItem("&Quit", qApp, SLOT(quit()), CTRL+Key_Q);
+	file_popup->insertItem(i18n("&Quit"), qApp, SLOT(quit()), CTRL+Key_Q);
 
 	pieces_popup = new QPopupMenu();
-	smilesID = pieces_popup->insertItem("&Smiles", this, SLOT(menu_smiles()));
-	symbolsID = pieces_popup->insertItem("S&ymbols", this, SLOT(menu_symbols()));
+	smilesID = pieces_popup->insertItem(i18n("&Smiles"), this, SLOT(menu_smiles()));
+	symbolsID = pieces_popup->insertItem(i18n("S&ymbols"), this, SLOT(menu_symbols()));
 
-	iconsID = pieces_popup->insertItem("&Icons", this, SLOT(menu_icons()));
+	iconsID = pieces_popup->insertItem(i18n("&Icons"), this, SLOT(menu_icons()));
 
 	options_popup = new QPopupMenu();
-	options_popup->insertItem("&Pieces", pieces_popup);
+	options_popup->insertItem(i18n("&Pieces"), pieces_popup);
 	options_popup->insertSeparator();
-	soundsID = options_popup->insertItem("&Sounds", this, SLOT(menu_sounds()));
+	soundsID = options_popup->insertItem(i18n("&Sounds"), this, SLOT(menu_sounds()));
 
-	help_popup = new QPopupMenu();
-	help_popup->insertItem("&Contents", this, SLOT(menu_help()), Key_F1);
-	help_popup->insertSeparator();
-	help_popup->insertItem("&About KSmiletris...", this, SLOT(menu_about()));
-//	help_popup->insertItem("About &KDE...", this, SLOT(menu_aboutKDE()));
+	QString about;
+	about.sprintf(i18n(
+			 "KSmiletris %d\n\n"
+			 "by Sandro Sigala <ssigala@globalnet.it>\n\n"
+			 "Feedbacks are welcome!\n"), VERSION);
+	help_popup = kapp->getHelpMenu(TRUE, about);
 
 	menu = new KMenuBar(this);
-	menu->insertItem("&File", file_popup);
-	menu->insertItem("&Options", options_popup);
-	menu->insertItem("&Help", help_popup);
+	menu->insertItem(i18n("&File"), file_popup);
+	menu->insertItem(i18n("&Options"), options_popup);
+	menu->insertSeparator();
+	menu->insertItem(i18n("&Help"), help_popup);
 	setMenu(menu);
 	connect(menu, SIGNAL(moved(menuPosition)),
 		this, SLOT(movedMenu(menuPosition)));
 
 	status = new KStatusBar(this);
-	status->insertItem("Level: 99", 1);
-	status->insertItem("Score: 999999", 2);
+	status->insertItem(i18n("Level: 99"), 1);
+	status->insertItem(i18n("Score: 999999"), 2);
 	setStatusBar(status);
 	status->changeItem("", 1);
 	status->changeItem("", 2);
@@ -190,24 +192,6 @@ void GameWindow::menu_sounds()
 	KConfig *config = kapp->getConfig();
 	config->setGroup("Options");
 	config->writeEntry("Sounds", game->do_sounds);
-}
-
-void GameWindow::menu_help()
-{
-	kapp->invokeHTMLHelp("", "");
-}
-
-void GameWindow::menu_about()
-{
-	KMsgBox::message(this, "About KSmiletris",
-			 "KSmiletris " VERSION "\n\n"
-			 "by Sandro Sigala <ssigala@globalnet.it>\n\n"
-			 "Feedbacks are welcome!\n",
-			 KMsgBox::INFORMATION);
-}
-
-void GameWindow::menu_aboutKDE()
-{
 }
 
 void GameWindow::updateStats(int level, int points)

@@ -32,20 +32,20 @@ this software.
 ScoreDialog::ScoreDialog(QWidget *parent, const char *name)
         : QDialog(parent, name, true)
 {
-	setCaption("High Scores");
+	setCaption(i18n("High Scores"));
 
 	KConfig *config = kapp->getConfig();
 	config->setGroup("High Score");
 
 	int yd = 10;
 	QLabel *label;
-	label = new QLabel("Level", this);
+	label = new QLabel(i18n("Level"), this);
 	label->setAutoResize(true);
 	label->move(50, yd);
-	label = new QLabel("Score", this);
+	label = new QLabel(i18n("Score"), this);
 	label->setAutoResize(true);
 	label->move(100, yd);
-	label = new QLabel("Name", this);
+	label = new QLabel(i18n("Name"), this);
 	label->setAutoResize(true);
 	label->move(160, yd);
 	yd += 20;
@@ -58,7 +58,7 @@ ScoreDialog::ScoreDialog(QWidget *parent, const char *name)
 		s = "Pos" + num + "Score";
 		score = config->readEntry(s, "0");
 		s = "Pos" + num + "Name";
-		name = config->readEntry(s, "Noname");
+		name = config->readEntry(s, i18n("Noname"));
 		s = "#" + num;
 		label = new QLabel(s, this);
 		label->setAutoResize(true);

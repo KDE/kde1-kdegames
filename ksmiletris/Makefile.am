@@ -24,6 +24,7 @@ DISTCLEANFILES = $(ksmiletris_METASOURCES)
 EXTRA_DIST = ksmiletris.xpm mini-ksmiletris.xpm ksmiletris.kdelnk
 
 messages:
+	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(ksmiletris_SOURCES) && mv messages.po ../po/ksmiletris.pot
 
 install-data-local: 
 	$(mkinstalldirs) $(APPSDIR)

@@ -33,7 +33,7 @@ this software.
 NewScoreDialog::NewScoreDialog(QWidget *parent, const char *name)
         : QDialog(parent, name, true)
 {
-	setCaption("New High Score");
+	setCaption(i18n("New High Score"));
 
 	QPushButton *ok, *cancel;
 	ok = new QPushButton("OK", this);
