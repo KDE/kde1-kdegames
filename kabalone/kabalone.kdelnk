@@ -1,0 +1,8 @@
+# KDE Config File
+[KDE Desktop Entry]
+Name=Abalone
+Type=Application
+Exec=kabalone
+DocPath=KAbalone.html
+Info=Play Abalone against computer
+Info[de]=Abalone gegen den Computer
