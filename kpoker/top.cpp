@@ -57,7 +57,6 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	
 	menu = new KMenuBar(this, "_mainMenu" );
 	menu->show();
-	setMenu( menu );
 	
 	
 	filePopup = new QPopupMenu(0,"fpopup");
@@ -83,6 +82,8 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	
 	menu->insertSeparator();
 	menu->insertItem(locale->translate("&Help"), help);
+
+	setMenu( menu );
 
 	if (_kpok->initSound() == 1) {
 	  optionsPopup->setItemChecked(soId, TRUE);
