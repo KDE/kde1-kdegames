@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
-"POT-Creation-Date: 1999-01-19 01:51+0100\n"
+"POT-Creation-Date: 1999-01-21 01:39+0100\n"
 "PO-Revision-Date: 1998-12-17 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -90,11 +90,11 @@ msgstr "Finu"
 msgid "Help"
 msgstr ""
 
-#: kbbgame.cpp:404
+#: kbbgame.cpp:406
 msgid "About"
 msgstr ""
 
-#: kbbgame.cpp:406
+#: kbbgame.cpp:408
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -104,40 +104,40 @@ msgstr ""
 "aýtoro: Robert Cimrman\n"
 "retpoþto: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:411
+#: kbbgame.cpp:413
 msgid "Qt information"
 msgstr ""
 
-#: kbbgame.cpp:430 kbbgame.cpp:549 kbbgame.cpp:605 kbbgame.cpp:637
+#: kbbgame.cpp:432 kbbgame.cpp:551 kbbgame.cpp:607 kbbgame.cpp:636
 msgid "Warning!"
 msgstr "Averto!"
 
-#: kbbgame.cpp:432 kbbgame.cpp:551
+#: kbbgame.cpp:434 kbbgame.cpp:553
 msgid "Do you really want to give up this game?"
 msgstr "Æu vi vere volas rezigni?"
 
-#: kbbgame.cpp:433 kbbgame.cpp:552
+#: kbbgame.cpp:435 kbbgame.cpp:554
 msgid "Yes, I'm burnt out."
 msgstr "Jes, mi tro laciøis."
 
-#: kbbgame.cpp:434 kbbgame.cpp:553
+#: kbbgame.cpp:436 kbbgame.cpp:555
 msgid "No, not yet..."
 msgstr "Ne, ankoraý ne..."
 
-#: kbbgame.cpp:485
+#: kbbgame.cpp:487
 #, c-format
 msgid "Your final score is: %d."
 msgstr "Via rezulto estas: %d."
 
-#: kbbgame.cpp:487
+#: kbbgame.cpp:489
 msgid "Wow!"
 msgstr "Hej!"
 
-#: kbbgame.cpp:489
+#: kbbgame.cpp:491
 msgid "Damned!"
 msgstr "Fek!"
 
-#: kbbgame.cpp:492
+#: kbbgame.cpp:494
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -146,42 +146,42 @@ msgstr ""
 "Vi devus marki %d globojn!\n"
 "Vi markis %d."
 
-#: kbbgame.cpp:494
+#: kbbgame.cpp:496
 msgid "D'accord"
 msgstr "Konfirmu"
 
-#: kbbgame.cpp:569 kbbgame.cpp:572
+#: kbbgame.cpp:571 kbbgame.cpp:574
 msgid "Run"
 msgstr "Ludo"
 
-#: kbbgame.cpp:570
+#: kbbgame.cpp:572
 msgid "Yes"
 msgstr ""
 
-#: kbbgame.cpp:573
+#: kbbgame.cpp:575
 msgid "No"
 msgstr ""
 
-#: kbbgame.cpp:576
+#: kbbgame.cpp:578
 msgid "Size"
 msgstr "Grandeco"
 
-#: kbbgame.cpp:579
+#: kbbgame.cpp:581
 msgid "Placed"
 msgstr "Markoj"
 
-#: kbbgame.cpp:592
+#: kbbgame.cpp:594
 msgid "Score"
 msgstr "Poentoj"
 
-#: kbbgame.cpp:607 kbbgame.cpp:639
+#: kbbgame.cpp:609 kbbgame.cpp:638
 msgid "This will be the end of the current game!"
 msgstr "Tio estos la fino de la nun ludo!"
 
-#: kbbgame.cpp:608 kbbgame.cpp:640
+#: kbbgame.cpp:610 kbbgame.cpp:639
 msgid "Never mind..."
 msgstr "Ne zorgu..."
 
-#: kbbgame.cpp:609 kbbgame.cpp:641
+#: kbbgame.cpp:611 kbbgame.cpp:640
 msgid "Oh, no!"
 msgstr "Ho, ne!"
