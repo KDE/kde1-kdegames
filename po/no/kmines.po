@@ -127,7 +127,7 @@ msgstr "Tilpasset"
 
 #: main.cpp:74
 msgid "by"
-msgstr "ved"
+msgstr "av"
 
 #: main.cpp:79
 msgid "&Level"
