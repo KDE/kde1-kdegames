@@ -1,6 +1,6 @@
 VERSION=1.02
 
-CXXFLAGS= $(all_includes)
+INCLUDES = $(all_includes)
 
 LDFLAGS	= $(all_libraries) $(KDE_RPATH)
 LDADD = -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
