@@ -15,9 +15,8 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "kmiina : Kustomoi peliä"
+msgstr "Kustomoi peliä"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -127,50 +126,3 @@ msgstr "Taso"
 msgid "Show menu bar"
 msgstr "Näytä valikkorivi"
 
-#~ msgid "kmines : High Scores"
-#~ msgstr "kmines : Ennätykset"
-
-#~ msgid "Easy :"
-#~ msgstr "Helppo :"
-
-#~ msgid "Normal :"
-#~ msgstr "Normaali :"
-
-#~ msgid "Expert :"
-#~ msgstr "Ammattilainen :"
-
-#~ msgid "minutes."
-#~ msgstr "minuuttia."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Ennätystiedosto ei ole kirjoituskelpoinen!"
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines : Virhe"
-
-#~ msgid "Close dialog"
-#~ msgstr "Sulje ikkuna"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok ikkuna"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Peruuta ikkuna"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "kirjoittanut Nicolas Hadacek"
-
-#~ msgid "Custom Level"
-#~ msgstr "Oma taso"
-
-#~ msgid "Uncertain (?) mark"
-#~ msgstr "Epävarma (?)-merkki"
-
-#~ msgid "Try again"
-#~ msgstr "Yritä uudelleen"
