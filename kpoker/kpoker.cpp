@@ -149,17 +149,17 @@ kpok::kpok(QWidget *parent, const char *name)
 		cardW[w]->heldLabel = heldLabels[w];
 	}
 	cashFrame = new QFrame(this,0);
-	
 	cashFrame->setGeometry(CLHBorderDistance, CLHDistFromTop, CLHWidth, 30);
-	cashFrame->setFrameStyle(QFrame::Panel | QFrame::Plain);
-	
+//	cashFrame->setFrameStyle(QFrame::Panel | QFrame::Plain);
+	cashFrame->setFrameStyle(QFrame::WinPanel | QFrame::Sunken);
 	cashLabel= new QLabel(cashFrame,0);
 	cashLabel->setAutoResize(true);
         cashLabel->setFont(myFixedFont);
 	
 	LHFrame = new QFrame(this,0);
 	LHFrame->setGeometry(this->width() - CLHBorderDistance - CLHWidth, CLHDistFromTop, CLHWidth, 30);
-	LHFrame->setFrameStyle(QFrame::Panel | QFrame::Plain);
+	//	LHFrame->setFrameStyle(QFrame::Panel | QFrame::Plain);
+	LHFrame->setFrameStyle(QFrame::WinPanel | QFrame::Sunken);
 	
 	LHLabel= new QLabel(LHFrame,0);
 	LHLabel->setAutoResize(true);
@@ -233,7 +233,6 @@ void kpok::playSound(const char *soundname)
 	
 	KAS->play(filename);
 
-	//	printf("Playing: %s\n",filename);
 }
 
 void kpok::toggleSound()
@@ -587,7 +586,7 @@ void kpok::showAboutBox()
 {
 	char aboutText[250];
 	sprintf(aboutText,"%s v%s (%s)\n\ncopyright 1997 by Jochen Tuchbreiter\n<whynot@mabi.de>\n\nFor a list of credits see helpfile.\n\nSuggestions, bug reports etc. are welcome", kapp->getCaption(),PVERSION, PDATE);
-	KMsgBox::message(0, kapp->getCaption(), aboutText);
+	QMessageBox::information( this, kapp->getCaption(),aboutText);
 }
 
 void kpok::showQtAboutBox()

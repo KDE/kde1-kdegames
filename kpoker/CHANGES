@@ -1,9 +1,13 @@
+Version 0.??
+
+- changed minor look&feel stuff
+
 ------------------------------------------------------------------------------
 Version 0.3
 
 - kpoker got adapted to the new fsstnd (thanks Coolo !)
 - kpoker now supports KLocale (only works in the kdegames-distribution)
-- added german language file (kdegames-distri only)
+- added german language file (kdegames distribution only)
 - kpoker should now run on DEC Alphas (thanks Uwe Thiem :)
 
 ------------------------------------------------------------------------------
