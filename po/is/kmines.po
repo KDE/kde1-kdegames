@@ -1,0 +1,136 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: dialogs.cpp:95
+msgid "Customize Game"
+msgstr "Heimfæra leikinn"
+
+#: dialogs.cpp:124
+msgid "Width"
+msgstr "Breidd"
+
+#: dialogs.cpp:149
+msgid "Height"
+msgstr "Hæð"
+
+#: dialogs.cpp:174
+msgid "Mines"
+msgstr "Sprengjur"
+
+#: dialogs.cpp:258
+msgid "Hall of Fame"
+msgstr "Methafar"
+
+#: dialogs.cpp:288 main.cpp:59
+msgid "Easy"
+msgstr "Auðvelt"
+
+#: dialogs.cpp:289 main.cpp:60
+msgid "Normal"
+msgstr "Venjulegt"
+
+#: dialogs.cpp:290 main.cpp:61
+msgid "Expert"
+msgstr "Þungt"
+
+#: dialogs.cpp:317
+msgid "in"
+msgstr "inn"
+
+#: dialogs.cpp:332
+msgid "minutes"
+msgstr "mínútur"
+
+#: dialogs.cpp:342
+msgid "and"
+msgstr "og"
+
+#: dialogs.cpp:354
+msgid "seconds."
+msgstr "sekúndur."
+
+#: dialogs.cpp:384 status.cpp:96
+msgid "Anonymous"
+msgstr "Nafnlaus"
+
+#: field.cpp:81
+msgid "Game paused"
+msgstr "Leikur í biðstöðu"
+
+#: field.cpp:82
+msgid "Press to resume"
+msgstr "Halda áfram"
+
+#: status.cpp:215
+msgid "You did it ... but not in time."
+msgstr "Þér tókst það ... en of seint."
+
+#: status.cpp:216
+msgid "Yeeessss !"
+msgstr "Jibbííí kólaaaa !"
+
+#: status.cpp:219
+msgid "Bad luck !"
+msgstr "Þvílík óheppni !"
+
+#: main.cpp:24 main.cpp:46
+msgid "New game"
+msgstr "Nýr leikur"
+
+#: main.cpp:25 main.cpp:47
+msgid "Pause game"
+msgstr "Hvíla sig"
+
+#: main.cpp:26 main.cpp:49
+msgid "High scores"
+msgstr "Methafar"
+
+#: main.cpp:43 main.cpp:154
+msgid "Hide menu bar"
+msgstr "Fela valmyndastiku"
+
+#: main.cpp:55
+msgid "? mark"
+msgstr "? merkja"
+
+#: main.cpp:56
+msgid "Keys"
+msgstr "Hnappar"
+
+#: main.cpp:63
+msgid "Custom"
+msgstr "Heimfært"
+
+#: main.cpp:69
+msgid "by"
+msgstr "eftir"
+
+#: main.cpp:74
+msgid "Level"
+msgstr "Borð"
+
+#: main.cpp:151
+msgid "Show menu bar"
+msgstr "Sýna valmyndastiku"
+# 
+
+msgid "Minesweeper"
+msgstr "Sprengjuhreinsun"
+# 

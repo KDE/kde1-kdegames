@@ -1,0 +1,151 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-06-18 22:46+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kpoker.cpp:82 kpoker.cpp:538
+msgid "New game"
+msgstr "Nýr leikur"
+
+#: kpoker.cpp:95
+msgid "Draw !"
+msgstr "Draga !"
+
+#: kpoker.cpp:122
+msgid "Click a card to hold it"
+msgstr "Smelltu á spil til að halda því"
+
+#: kpoker.cpp:143
+msgid "Held"
+msgstr "Held"
+
+#: kpoker.cpp:182
+msgid "draw new cards"
+msgstr "draga ný spil"
+
+#: kpoker.cpp:183 kpoker.cpp:184
+msgid "your last hand"
+msgstr "síðasta hendin þín"
+
+#: kpoker.cpp:185 kpoker.cpp:186
+msgid "money left"
+msgstr "peningar eftir"
+
+#: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
+msgid "nothing"
+msgstr "ekkert"
+
+#: kpoker.cpp:372
+msgid "Cash"
+msgstr "Reiðufé"
+
+#: kpoker.cpp:408
+msgid "Last Hand"
+msgstr "Síðasta gjöf"
+
+#: kpoker.cpp:519
+msgid "One Pair"
+msgstr "Eitt par"
+
+#: kpoker.cpp:520
+msgid "Two Pairs"
+msgstr "Tvö pör"
+
+#: kpoker.cpp:521
+msgid "3 of a kind"
+msgstr "Þrenna"
+
+#: kpoker.cpp:522
+msgid "Full House"
+msgstr "Fullt hús"
+
+#: kpoker.cpp:523
+msgid "4 of a kind"
+msgstr "Ferna"
+
+#: kpoker.cpp:524
+msgid "Straight"
+msgstr "Röð"
+
+#: kpoker.cpp:525
+msgid "Flush"
+msgstr "Litur"
+
+#: kpoker.cpp:526
+msgid "Straight Flush"
+msgstr "Lituð röð"
+
+#: kpoker.cpp:527
+msgid "Royal Flush"
+msgstr "Hálituð röð"
+
+#: kpoker.cpp:536
+msgid "You Lost"
+msgstr "Þú tapaðir"
+
+#: kpoker.cpp:537
+msgid "Oops - you went bankrupt.\n"
+msgstr "Úbs - þú ert gjaldþrota.\n"
+
+#: kpoker.cpp:619
+msgid "You won $"
+msgstr "Þú vanst $"
+
+#: kpoker.cpp:622
+msgid "Game Over"
+msgstr "Leikslok"
+
+#: top.cpp:64
+msgid "&New game"
+msgstr "&Nýr leikur"
+
+#: top.cpp:70
+msgid "&Sound"
+msgstr "&Hljóð"
+
+#: top.cpp:73
+msgid "Poker"
+msgstr "Póker"
+
+#: top.cpp:75
+msgid ""
+"\n"
+"\n"
+"by Jochen Tuchbreiter"
+msgstr ""
+"\n"
+"\n"
+"eftir Jochen Tuchbreiter"
+
+#: top.cpp:77
+msgid ""
+"\n"
+"\n"
+"For a list of credits see helpfile"
+msgstr ""
+"\n"
+"\n"
+"Athugaðu leiðbeingarnar til að finna höfundaskrá"
+
+#: top.cpp:78
+msgid ""
+"\n"
+"Suggestions, bug reports etc. are welcome"
+msgstr ""
+"\n"
+"Ábendingar, bilanalýsingar o.þ.h. eru vel þegnar (á ensku!)"
