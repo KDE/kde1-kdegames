@@ -15,59 +15,52 @@ msgstr ""
 
 #: dialogs.cpp:94
 msgid "kmines : Customize Game"
-msgstr ""
+msgstr "kmines : Prispôsobi» hru"
+
 
 #: dialogs.cpp:122
-#, fuzzy
 msgid "Width"
-msgstr "©írka :"
+msgstr "©írka"
 
 #: dialogs.cpp:147
-#, fuzzy
 msgid "Height"
-msgstr "Vý¹ka :"
+msgstr "Vý¹ka"
 
 #: dialogs.cpp:172
-#, fuzzy
 msgid "Mines"
-msgstr "Poèet mín :"
+msgstr "Poèet mín"
 
 #: dialogs.cpp:257
-#, fuzzy
 msgid "kmines : High Scores"
-msgstr "Najlep¹ie výsledky"
+msgstr "kmines : Najlep¹ie výsledky"
 
 #: dialogs.cpp:287
-#, fuzzy
 msgid "Easy :"
-msgstr "¥ahká"
+msgstr "¥ahká:"
 
 #: dialogs.cpp:288
 msgid "Normal :"
-msgstr ""
+msgstr "Normálna:"
 
 #: dialogs.cpp:289
-#, fuzzy
 msgid "Expert :"
-msgstr "Pre expertov"
+msgstr "Pre expertov:"
 
 #: dialogs.cpp:315
 msgid "in"
 msgstr "za"
 
 #: dialogs.cpp:330
-#, fuzzy
 msgid "minutes."
-msgstr "minút a "
+msgstr "minút."
 
 #: dialogs.cpp:331
-#, fuzzy
 msgid "minutes"
-msgstr "minút a "
+msgstr "minút"
 
 #: dialogs.cpp:340
 msgid "and"
-msgstr ""
+msgstr "a"
 
 #: dialogs.cpp:352
 msgid "seconds."
@@ -155,7 +148,7 @@ msgstr "Vlastná"
 
 #: main.cpp:70
 msgid "Minesweeper"
-msgstr ""
+msgstr "Míny"
 
 #: main.cpp:73
 msgid ""
@@ -163,6 +156,9 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
+"\n"
+"\n"
+"by Nicolas Hadacek"
 
 #: main.cpp:79
 msgid "Level"
