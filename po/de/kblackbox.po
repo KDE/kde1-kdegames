@@ -2,29 +2,29 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
 "POT-Creation-Date: 1999-01-21 01:39+0100\n"
-"PO-Revision-Date: 1998-11-22 10:30+MET\n"
+"PO-Revision-Date: 1999-01-23 19:30+MET\n"
+"Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
-"Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 
 #: kbbgame.cpp:73 kbbgame.cpp:114
 msgid "&Help"
-msgstr ""
+msgstr "&Hilfe"
 
 #: kbbgame.cpp:76
 msgid "&About KBlackBox"
-msgstr ""
+msgstr "Ü&ber KBlackBox"
 
 #: kbbgame.cpp:78
 msgid "About &Qt"
-msgstr ""
+msgstr "Über &Qt"
 
 #: kbbgame.cpp:81
 msgid "&Quit"
-msgstr ""
+msgstr "Be&enden"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -56,19 +56,19 @@ msgstr "&Einführung"
 
 #: kbbgame.cpp:110
 msgid "&File"
-msgstr ""
+msgstr "&Datei"
 
 #: kbbgame.cpp:111
 msgid "&Game"
-msgstr ""
+msgstr "&Spiel"
 
 #: kbbgame.cpp:112
 msgid "&Options"
-msgstr ""
+msgstr "&Optionen"
 
 #: kbbgame.cpp:170
 msgid "Quit"
-msgstr ""
+msgstr "Be&enden"
 
 #: kbbgame.cpp:172
 msgid "New"
@@ -84,11 +84,11 @@ msgstr "Fertig"
 
 #: kbbgame.cpp:179
 msgid "Help"
-msgstr ""
+msgstr "Hilfe"
 
 #: kbbgame.cpp:406
 msgid "About"
-msgstr ""
+msgstr "Über"
 
 #: kbbgame.cpp:408
 msgid ""
@@ -102,7 +102,7 @@ msgstr ""
 
 #: kbbgame.cpp:413
 msgid "Qt information"
-msgstr ""
+msgstr "Qt-Information"
 
 #: kbbgame.cpp:432 kbbgame.cpp:551 kbbgame.cpp:607 kbbgame.cpp:636
 msgid "Warning!"
@@ -144,7 +144,7 @@ msgstr ""
 
 #: kbbgame.cpp:496
 msgid "D'accord"
-msgstr "D'accord"
+msgstr "Einverstanden"
 
 #: kbbgame.cpp:571 kbbgame.cpp:574
 msgid "Run"
@@ -152,11 +152,11 @@ msgstr "Starten"
 
 #: kbbgame.cpp:572
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: kbbgame.cpp:575
 msgid "No"
-msgstr ""
+msgstr "Nein"
 
 #: kbbgame.cpp:578
 msgid "Size"
