@@ -1,0 +1,203 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Damien Cola <alliax@mindless.com>, 1998.
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
+"Last-Translator: Damien Cola <alliax@mindless.com>\n"
+"Language-Team: FRENCH <FR@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: app.cpp:88 board.cpp:175
+msgid "Shisen-Sho"
+msgstr "Shisen-Sho"
+
+#: app.cpp:102
+msgid "Get &hint"
+msgstr "Obtenir des astuces (&h)"
+
+#: app.cpp:104
+msgid "&New game"
+msgstr "&Nouveau jeu"
+
+#: app.cpp:105
+msgid "Res&tart game"
+msgstr "Recommencer le jeu (&t)"
+
+#: app.cpp:107
+msgid "Is game solvable?"
+msgstr "Y a t'il une solution au jeu ?"
+
+#: app.cpp:109
+msgid "&Hall of Fame"
+msgstr "&Hall de la gloire"
+
+#: app.cpp:115
+msgid "14x6"
+msgstr "14x6"
+
+#: app.cpp:116
+msgid "18x8"
+msgstr "18x8"
+
+#: app.cpp:117
+msgid "24x12"
+msgstr "24x12"
+
+#: app.cpp:118
+msgid "28x16"
+msgstr "28x16"
+
+#: app.cpp:119
+msgid "32x20"
+msgstr "32x20"
+
+#: app.cpp:123
+msgid "Very fast"
+msgstr "Tres rapide"
+
+#: app.cpp:124
+msgid "Fast"
+msgstr "Rapide"
+
+#: app.cpp:125 app.cpp:130
+msgid "Medium"
+msgstr "Moyen"
+
+#: app.cpp:126
+msgid "Slow"
+msgstr "Lent"
+
+#: app.cpp:127
+msgid "Very slow"
+msgstr "Tres lent"
+
+#: app.cpp:129
+msgid "Easy"
+msgstr "Facile"
+
+#: app.cpp:131
+msgid "Hard"
+msgstr "Difficile"
+
+#: app.cpp:137
+msgid "About &Qt..."
+msgstr "A propos de &Qt..."
+
+#: app.cpp:142
+msgid "Si&ze"
+msgstr "Taille (&z)"
+
+#: app.cpp:143
+msgid "S&peed"
+msgstr "Vitesse (&p)"
+
+#: app.cpp:144
+msgid "&Level"
+msgstr "Niveau (&L)"
+
+#: app.cpp:145
+msgid "Disallow unsolvable games"
+msgstr "Ne pas permettre les jeux sans solution"
+
+#: app.cpp:166
+msgid "Your time: XX:XX:XX"
+msgstr "Ton temps: XX:XX:XX"
+
+#: app.cpp:167 app.cpp:256 app.cpp:281
+msgid "Cheat mode"
+msgstr "Mode triche"
+
+#: app.cpp:247
+msgid "This game is solveable"
+msgstr "Ce jeu a une solution"
+
+#: app.cpp:250
+msgid "This game is NOT solveable"
+msgstr "Ce jeu n'a PAS de solution"
+
+#: app.cpp:348
+msgid "About Shisen-Sho"
+msgstr "A propos de Shisen-Sho"
+
+#: app.cpp:349
+msgid ""
+"Shisen-Sho\n"
+"\n"
+"version 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software published \n"
+"under the GNU General Public License GPL.\n"
+"More about this in the help."
+msgstr ""
+"Shisen-Sho\n"
+"\n"
+"version 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Ce programme est publie en tant que graticiel \n"
+"sous la licence GNU.\n"
+"Vous trouverez de plus amples informations dans l'aide."
+
+
+#: app.cpp:381 app.cpp:404
+msgid "End of game"
+msgstr "Fin du jeu"
+
+#: app.cpp:382
+msgid "No more moves possible!"
+msgstr "Il n'y a plus de mouvements possibles!"
+
+#: app.cpp:399
+#, c-format
+msgid "Congratulations! You made it in %02d:%02d:%02d"
+msgstr "Felicitations! Tu l'as fait en %02d:%02d:%02d"
+
+#: app.cpp:416
+#, c-format
+msgid "Your time: %02d:%02d:%02d"
+msgstr "Ton temps: %02d:%02d:%02d"
+
+#: app.cpp:427
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr ""
+"Vous l'avez tellement bien fait que vous etes dans le \"Hall de la gloire\".\n"
+"Tapez votre nom de facon a ce que votre bon score soit pour toujours\n"
+"memorise."
+
+#: app.cpp:430
+msgid "Your name:"
+msgstr "Votre nom:"
+
+#: app.cpp:571 app.cpp:576
+msgid "Hall Of Fame"
+msgstr "Hall de la gloire"
+
+#: app.cpp:572
+msgid "Shisen-Sho: Hall Of Fame"
+msgstr "Shisen-Sho: Hall de la gloire"
+
+#: app.cpp:597
+msgid "Rank"
+msgstr "Rang"
+
+#: app.cpp:601
+msgid "Name"
+msgstr "Nom"
+
+#: app.cpp:605
+msgid "Time"
+msgstr "Temps"
+
+#: board.cpp:176
+msgid "Cannot load pixmaps!"
+msgstr "Ne peut pas charger les images!"
