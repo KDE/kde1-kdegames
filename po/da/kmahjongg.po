@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kmahjongg\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: 1999-01-12 21:52-0500\n"
+"PO-Revision-Date: 1999-01-26 21:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -70,11 +70,11 @@ msgstr ""
 
 #: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"
-msgstr "Kan ikke åbne bitmap fil"
+msgstr "Kan ikke åbne bitmap fil !"
 
 #: kmahjongg.cpp:454
 msgid "Undo operation done successfully."
-msgstr "Omgør operationen lykkedes"
+msgstr "Omgør operationen lykkedes."
 
 #: kmahjongg.cpp:457
 msgid "What do you want to undo? You have done nothing!"
@@ -82,11 +82,11 @@ msgstr "Hvad vil du gøre om? du har ikke gjort noget!"
 
 #: kmahjongg.cpp:472 kmahjongg.cpp:1436
 msgid "Sorry, you have lost the game."
-msgstr "Undskyld, men du tabte"
+msgstr "Undskyld, men du tabte."
 
 #: kmahjongg.cpp:503
 msgid "Demo mode. Click mousebutton to stop."
-msgstr "Demo modus. Klik på museknappen for at stoppe"
+msgstr "Demo modus. Klik på museknappen for at stoppe."
 
 #: kmahjongg.cpp:511
 msgid "Now it's you again."
@@ -94,11 +94,11 @@ msgstr "Nu er det dig igen"
 
 #: kmahjongg.cpp:531
 msgid "Your computer has lost the game."
-msgstr "Din maskine har tabt spillet"
+msgstr "Din maskine har tabt spillet."
 
 #: kmahjongg.cpp:617
 msgid "Congratulations. You have won!"
-msgstr "Tillykke. Du har vundet"
+msgstr "Tillykke. Du har vundet!"
 
 #: kmahjongg.cpp:643
 msgid "Calculating new game..."
@@ -110,11 +110,11 @@ msgstr "Fejl ved konvertering af brætinformation!"
 
 #: kmahjongg.cpp:661
 msgid "Ready. Now it's your turn."
-msgstr "Klar. Det er din tur"
+msgstr "Klar. Det er din tur."
 
 #: kmahjongg.cpp:667
 msgid "Error generating new game!"
-msgstr "Fejl ved generering af nyt spil"
+msgstr "Fejl ved generering af nyt spil!"
 
 #: kmahjongg.cpp:1665
 #, c-format
@@ -131,5 +131,5 @@ msgid ""
 "Sorry, this image uses %d colors.\n"
 "Maximum allowed is %d"
 msgstr ""
-"Undskyld, dit billede bruger %d farver.\n"
+"Undskyld, dette billede bruger %d farver.\n"
 "Det højeste tilladte antal er %d."

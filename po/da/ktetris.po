@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/ktetris\n"
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: 1999-01-13 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Tryk for at starte spil"
 
 #: board.cpp:371
 msgid "Highscores file not writable !"
-msgstr "Topscoringslisten er ikke skrivbar"
+msgstr "Topscoringslisten er ikke skrivbar !"
 
 #: net.cpp:129
 msgid "Illegal port"
@@ -87,7 +87,7 @@ msgstr "Kan ikke sende til server"
 
 #: net.cpp:324
 msgid "Client timeout (No message from server)"
-msgstr "Klient \tid løb ud (Inteet budskab fra server)"
+msgstr "Klient tid løb ud (Intet budskab fra server)"
 
 #: net.cpp:329
 msgid "Server has vanished"
@@ -115,7 +115,7 @@ msgstr "Klienten døde"
 
 #: net.cpp:487
 msgid "Cancel from client"
-msgstr "Slet fra klient"
+msgstr "Annuller fra klient"
 
 #: net.cpp:494
 msgid "Timeout"
@@ -151,7 +151,7 @@ msgstr "Topscorerliste"
 
 #: dialogs.cpp:156
 msgid "No option yet !"
-msgstr "Ingen mulighed endnu"
+msgstr "Ingen mulighed endnu !"
 
 #: dialogs.cpp:175 dialogs.cpp:232
 msgid "Network Dialog"
@@ -167,11 +167,11 @@ msgstr "Klient"
 
 #: dialogs.cpp:183
 msgid "Player name :"
-msgstr "Spillernavn"
+msgstr "Spillernavn :"
 
 #: dialogs.cpp:185
 msgid "Server address :"
-msgstr "Serveraddresse"
+msgstr "Serveraddresse :"
 
 #: dialogs.cpp:187
 msgid "Port :"
@@ -255,7 +255,7 @@ msgstr "Niveau"
 
 #: field.cpp:63
 msgid "Next tile"
-msgstr "Næste flise"
+msgstr "Næste brik"
 
 #: field.cpp:185
 msgid "&Restart game"

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kblackbox\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: 1999-01-12 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "&Giv op"
 
 #: kbbgame.cpp:83
 msgid "&Done"
-msgstr "Færdig"
+msgstr "&Færdig"
 
 #: kbbgame.cpp:85
 msgid "&Resize"
@@ -65,11 +65,11 @@ msgstr "Færdig"
 
 #: kbbgame.cpp:423 kbbgame.cpp:542 kbbgame.cpp:598 kbbgame.cpp:625
 msgid "Warning!"
-msgstr "Advarsel"
+msgstr "Advarsel!"
 
 #: kbbgame.cpp:425 kbbgame.cpp:544
 msgid "Do you really want to give up this game?"
-msgstr "Vil du virkelig opgive dette spil"
+msgstr "Vil du virkelig opgive dette spil?"
 
 #: kbbgame.cpp:426 kbbgame.cpp:545
 msgid "Yes, I'm burnt out."
@@ -77,7 +77,7 @@ msgstr "Ja, jeg er brændt ud."
 
 #: kbbgame.cpp:427 kbbgame.cpp:546
 msgid "No, not yet..."
-msgstr "Nej, ikke endnu"
+msgstr "Nej, ikke endnu..."
 
 #: kbbgame.cpp:478
 #, c-format
@@ -123,7 +123,7 @@ msgstr "Resultat"
 
 #: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
-msgstr "Dette vil slutte det nuværende spil"
+msgstr "Dette vil slutte det nuværende spil!"
 
 #: kbbgame.cpp:601 kbbgame.cpp:628
 msgid "Never mind..."

@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kabalone\n"
 "POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"PO-Revision-Date: 1999-01-12 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -145,19 +145,19 @@ msgstr "vandt"
 
 #: AbTop.cpp:411
 msgid "I am thinking..."
-msgstr "Jeg tænker"
+msgstr "Jeg tænker..."
 
 #: AbTop.cpp:412
 msgid "It's your turn !"
-msgstr "Det er din tur"
+msgstr "Det er din tur !"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
-msgstr "Faktisk undersøgt position"
+msgstr "Faktisk undersøgt position:"
 
 #: Spy.cpp:46
 msgid "Best move so far:"
-msgstr "Bedste valg indtil nu"
+msgstr "Bedste træk indtil nu:"
 
 #: Spy.cpp:75
 msgid "Spion"

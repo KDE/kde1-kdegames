@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/ksmiletris\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: 1999-01-13 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,11 +23,11 @@ msgstr "&Pause"
 
 #: gamewindow.cpp:54
 msgid "&End Game"
-msgstr "&Slut spil"
+msgstr "&Slut spillet"
 
 #: gamewindow.cpp:56
 msgid "&High Scores..."
-msgstr "&Højeste resultater"
+msgstr "&Højeste resultater..."
 
 #: gamewindow.cpp:61
 msgid "&Smiles"
@@ -90,7 +90,7 @@ msgstr "Navn"
 
 #: scoredialog.cpp:61
 msgid "Noname"
-msgstr "Intet navn"
+msgstr "IntetNavn"
 
 #: newscoredialog.cpp:36
 msgid "New High Score"

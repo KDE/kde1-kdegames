@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/konquest\n"
 "POT-Creation-Date: 1998-12-16 01:33+0100\n"
-"PO-Revision-Date: 1999-01-12 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,11 +19,11 @@ msgstr "Slut på omgangen"
 
 #: gameboard.cc:203
 msgid ": Select source planet..."
-msgstr ": Udvælg start planet"
+msgstr ": Udvælg start planet..."
 
 #: gameboard.cc:221
 msgid ": Select destination planet..."
-msgstr ": Udvælg slutplanet"
+msgstr ": Udvælg slutplanet..."
 
 #: gameboard.cc:243
 msgid ": How many ships?"
@@ -31,7 +31,7 @@ msgstr ": Hvor mange skibe?"
 
 #: gameboard.cc:267
 msgid "Ruler: Select starting planet."
-msgstr "Regent: Udvælg startplanet"
+msgstr "Regent: Udvælg startplanet."
 
 #: gameboard.cc:287
 #, c-format
@@ -48,7 +48,7 @@ msgstr "Afstand"
 
 #: gameboard.cc:296
 msgid "Ruler: Select ending planet."
-msgstr "Regent: Udvælg slutplanet"
+msgstr "Regent: Udvælg slutplanet."
 
 #: gameboard.cc:311
 #, c-format
@@ -58,16 +58,16 @@ msgstr "Omgang #: %2d of %2d"
 #: gameboard.cc:426
 #, c-format
 msgid "The once mighty empire of %s has fallen in ruins."
-msgstr "Det tidligere mægtige imperium %s ligger i ruiner"
+msgstr "Det tidligere mægtige imperium %s ligger i ruiner."
 
 #: gameboard.cc:428
 msgid "An Empire has fallen..."
-msgstr "Et imperium er faldet"
+msgstr "Et imperium er faldet..."
 
 #: gameboard.cc:438
 #, c-format
 msgid "The fallen empire of %s has staggered back to life."
-msgstr "Det faldne imperium %s er kravlet tilbage til livet"
+msgstr "Det faldne imperium %s er kravlet tilbage til livet."
 
 #: gameboard.cc:440
 msgid "Up from the ashes..."
@@ -106,7 +106,7 @@ msgstr "Slut spil"
 
 #: gameboard.cc:580
 msgid "Do you wish to retire this game?"
-msgstr "Vil du trække dig tilbage fra dette spil"
+msgstr "Vil du trække dig tilbage fra dette spil?"
 
 #: gameboard.cc:586
 msgid "Final Standings"
@@ -114,7 +114,7 @@ msgstr "Slutstilling"
 
 #: gameboard.cc:758
 msgid "Not enough ships to send."
-msgstr "Ikke nok skibe til at sende"
+msgstr "Ikke nok skibe til at sende."
 
 #: mainwin.cc:23
 msgid "GNU-Lactic Conquest"
@@ -181,7 +181,7 @@ msgstr "Antal omgange: %2d"
 
 #: planet_info.cc:81 planet_info.cc:116 planet_info.cc:131
 msgid "Planet Name : "
-msgstr "Planet navn :"
+msgstr "Planet navn : "
 
 #: planet_info.cc:84 planet_info.cc:134
 msgid "Owner : "
@@ -189,7 +189,7 @@ msgstr "Ejer : "
 
 #: planet_info.cc:87
 msgid "Ships : "
-msgstr "Skibe"
+msgstr "Skibe : "
 
 #: planet_info.cc:90
 msgid "Production : "
@@ -197,7 +197,7 @@ msgstr "Produktion : "
 
 #: planet_info.cc:93
 msgid "Kill Percent : "
-msgstr "Dødsprocent"
+msgstr "Dødsprocent : "
 
 #: planet_info.cc:137
 #,  c-format
@@ -212,7 +212,7 @@ msgstr "Produktion : %d"
 #: planet_info.cc:143
 #, c-format
 msgid "Kill Percent : %.3f"
-msgstr "Dødsprocent :%.3f"
+msgstr "Dødsprocent : %.3f"
 
 #: gameenddlg.cc:14
 msgid ""

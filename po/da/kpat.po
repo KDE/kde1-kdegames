@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kpat\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: 1999-01-12 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -89,7 +89,7 @@ msgstr ""
 
 #: grandf.cpp:35
 msgid "Try to move card:"
-msgstr "Prøv at flytte et kort"
+msgstr "Prøv at flytte et kort:"
 
 #: grandf.cpp:114 mod3.cpp:57
 msgid "Redeal"
@@ -188,7 +188,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"ved Paul Olav Tvetei\n"
+"af Paul Olav Tvetei\n"
 "\n"
 
 #: pwidget.cpp:129
@@ -210,7 +210,7 @@ msgstr "kpat: et ikke implementeret spil af type %d\n"
 
 #: pwidget.cpp:344
 msgid "Could not load background image!"
-msgstr "Kunne ikke indlæse baggrundsbillede"
+msgstr "Kunne ikke indlæse baggrundsbillede!"
 
 #: mod3.cpp:137
 msgid "No more cards"

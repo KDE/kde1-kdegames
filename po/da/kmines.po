@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kmines\n"
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
-"PO-Revision-Date: 1999-01-12 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "og"
 
 #: dialogs.cpp:354
 msgid "seconds."
-msgstr "sekunder"
+msgstr "sekunder."
 
 #: dialogs.cpp:384 status.cpp:96
 msgid "Anonymous"
@@ -75,7 +75,7 @@ msgstr "Tryk for at genoptage"
 
 #: status.cpp:215
 msgid "You did it ... but not in time."
-msgstr "Du klarede det ... men ikke hurtigt nok"
+msgstr "Du klarede det ... men ikke hurtigt nok."
 
 #: status.cpp:216
 msgid "Yeeessss !"

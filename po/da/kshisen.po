@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kshisen\n"
 "POT-Creation-Date: 1999-01-04 01:41+0100\n"
-"PO-Revision-Date: 1999-01-13 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr "Shisen-So"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
-msgstr "Kan ikke indlæse pixmaps"
+msgstr "Kan ikke indlæse pixmaps!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -35,7 +35,7 @@ msgstr "Gen&start spillet"
 
 #: app.cpp:113
 msgid "Is game solvable?"
-msgstr "Er spillet løsbart"
+msgstr "Er spillet løsbart?"
 
 #: app.cpp:115
 msgid "&Hall of Fame"
@@ -161,7 +161,7 @@ msgstr ""
 
 #: app.cpp:447
 msgid "Your name:"
-msgstr "Dit navn"
+msgstr "Dit navn:"
 
 #: app.cpp:608 app.cpp:613
 msgid "Hall Of Fame"

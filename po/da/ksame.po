@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/ksame\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: 1999-01-13 21:52-0500\n"
+"PO-Revision-Date: 1999-01-26 21:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "Goddag"
 
 #: KSameWidget.cpp:146
 msgid "Please &enter the board number:"
-msgstr "Skriv v&enligst bræt nummer"
+msgstr "Skriv v&enligst bræt nummer:"
 
 #: KSameWidget.cpp:181
 msgid "menu load not supported"
@@ -97,7 +97,7 @@ msgstr "Vil du virkelig slutte"
 
 #: KSameWidget.cpp:199
 msgid "menu colors not supported"
-msgstr "menu farver ikke understøttet"
+msgstr "menu farver ikke understøttede"
 
 #: KSameWidget.cpp:203
 #, c-format

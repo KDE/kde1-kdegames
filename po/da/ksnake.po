@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/ksnake\n"
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
-"PO-Revision-Date: 1999-01-13 11:52-0500\n"
+"PO-Revision-Date: 1999-01-26 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -31,7 +31,7 @@ msgstr "Pause"
 
 #: game.cpp:81
 msgid "High Scores..."
-msgstr "Højeste resultater"
+msgstr "Højeste resultater..."
 
 #: game.cpp:88 game.cpp:97
 msgid "0"
@@ -79,7 +79,7 @@ msgstr "Computer slanger"
 
 #: game.cpp:134
 msgid "Select background color..."
-msgstr "Vælg baggrundsfarve"
+msgstr "Vælg baggrundsfarve..."
 
 #: game.cpp:135
 msgid "Select background pixmap"
@@ -164,7 +164,7 @@ msgid ""
 " please enter your name"
 msgstr ""
 "Du har opnået et topresultat\n"
-" skriv venligst dit navn"
+" indtast venligst dit navn"
 
 #: pixServer.cpp:182
 #, c-format

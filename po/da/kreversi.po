@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kreversi\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1999-01-12 21:52-0500\n"
+"PO-Revision-Date: 1999-01-26 21:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgid ""
 "Cannot enable sound support."
 msgstr ""
 "Der var et problem med lydserveren!\n"
-"Kan ikke brude lyd."
+"Kan ikke bruge lyd."
 
 #: app.cpp:245
 msgid "&New game"
@@ -55,7 +55,7 @@ msgstr "Skift si&der"
 
 #: app.cpp:260
 msgid "Hall Of &Fame..."
-msgstr "&Topresultaterne"
+msgstr "&Topresultaterne..."
 
 #: app.cpp:266
 msgid "Level 1 (Wimp)"
@@ -75,7 +75,7 @@ msgstr "Niveau 4 (gennemsnit)"
 
 #: app.cpp:270
 msgid "Level 5 (Good)"
-msgstr "Niveau 5 (godt)"
+msgstr "Niveau 5 (god)"
 
 #: app.cpp:271
 msgid "Level 6 (Expert)"
@@ -113,7 +113,7 @@ msgstr "80%"
 
 #: app.cpp:283
 msgid "D&efault size"
-msgstr "Standard størrelse"
+msgstr "Standard størr&else"
 
 #: app.cpp:284
 #, c-format
@@ -185,7 +185,7 @@ msgstr "Hold op med at tænke"
 
 #: app.cpp:370
 msgid "Undo move"
-msgstr "&Fortryd det sidste træk"
+msgstr "Fortryd sidste træk"
 
 #: app.cpp:371
 msgid "Shrink board"
@@ -373,9 +373,9 @@ msgstr ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"Dette program er fri software\n"
+"Dette program er fri programvare\n"
 "Publiceret under GNU's almindelige \n"
-"offentlige lices (kig i help for detaljer)\n"
+"offentlige licens (kig i hjælp for detaljer)\n"
 "\n"
 "Tak til:\n"
 "\tMats Luthman for the spil engine\n"
