@@ -2,3 +2,4 @@
 
 	* autmoc: Moved to admin/
 	* Makefile.cvs: Copied over from kdenetwork verbatim.
+	* README: Updated to "require" Qt 1.41.
