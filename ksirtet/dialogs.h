@@ -10,7 +10,7 @@
 #include <qtimer.h>
 #include <qpushbt.h>
 
-#include <Kconfig.h>
+#include <kconfig.h>
 
 /* high scores struture */
 typedef struct

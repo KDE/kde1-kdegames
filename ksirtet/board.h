@@ -15,7 +15,7 @@
 #include <qpushbt.h>
 #include <qsocknot.h>
 
-#include <Kconfig.h>
+#include <kconfig.h>
 
 #define SINGLE 1
 #define MULTI  2

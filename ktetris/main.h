@@ -12,7 +12,7 @@
 #include <qpopmenu.h>
 
 #include <kprogress.h>
-#include <Kconfig.h>
+#include <kconfig.h>
 
 
 class ShowNextPiece : public QFrame

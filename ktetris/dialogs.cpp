@@ -9,7 +9,7 @@
 #include <qmsgbox.h>
 
 #include <kapp.h>
-#include <Kconfig.h>
+#include <kconfig.h>
 
 #include "dialogs.moc"
 

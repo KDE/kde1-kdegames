@@ -12,7 +12,7 @@
 #include <qdatetm.h>
 
 #include <kapp.h>
-#include <Kconfig.h>
+#include <kconfig.h>
 #include <kkeyconf.h>
 #include <kmsgbox.h>
 
