@@ -135,4 +135,3 @@ msgstr "Anna &nimesi:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Tuntematon"
-
