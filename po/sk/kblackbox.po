@@ -25,7 +25,7 @@ msgstr ""
 
 #: kbbgame.cpp:81
 msgid "&New"
-msgstr "&Nový"
+msgstr "&Nová"
 
 #: kbbgame.cpp:82
 msgid "&Give up"
@@ -53,7 +53,7 @@ msgstr "&Návod"
 
 #: kbbgame.cpp:170
 msgid "New"
-msgstr "Nový"
+msgstr "Nová"
 
 #: kbbgame.cpp:172
 msgid "Give up"
