@@ -32,9 +32,12 @@
 #include "view.h"
 #include "keys.h"
 
+#include "version.h"
+
 Game::Game() :  KTopLevelWidget()
 {
-    setCaption("Snake Race");
+    setCaption( kapp->getCaption() );
+
     setIcon("Snake Race");
 
     conf = kapp->getConfig();
@@ -138,35 +141,16 @@ void Game::menu()
     options->setCheckable( TRUE );
     connect(options, SIGNAL(activated(int)), this, SLOT ( skillChecked(int) ));
 
-    QPopupMenu *help = new QPopupMenu();
-    CHECK_PTR( help );
-    help->insertItem("Contents", this, SLOT(help()), Key_F1);
-    help->insertSeparator();
-    help->insertItem("About Snake Race...", this, SLOT(about()) );
-    help->insertItem("About Qt...", this, SLOT(aboutQt()) );
-
+    QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Snake Race"))
+                                         + " " + KSNAKE_VERSION
+                                         + i18n("\n\nby Michel Filippi")
+                                         + " (mfilippi@sade.rhein-main.de)"); 
     menubar = new KMenuBar( this );
     CHECK_PTR( menu );
     menubar->insertItem( "&Game", game );
     menubar->insertItem( "&Options", options );
     menubar->insertSeparator();
     menubar->insertItem( "&Help", help);
-}
-
-void Game::about()
-{
-    QMessageBox::about( this, "About Snake Race",
-			"ksnake-0.2 \n\nMichel Filippi (mfilippi@sade.rhein-main.de) \n\nA snake game for the KDE Desktop");
-}
-
-void Game::aboutQt()
-{
-    QMessageBox::aboutQt( this, "About Qt" );
-}
-
-void Game::help()
-{
-    KApplication::getKApplication()->invokeHTMLHelp(0, 0);
 }
 
 void Game::ballsChecked(int id)

@@ -42,11 +42,6 @@ private slots:
     void showHighScores();
     void startingRoom();
 
-
-    void help();
-    void about();
-    void aboutQt();
-
 private:
 
     Rattler *rattler;
