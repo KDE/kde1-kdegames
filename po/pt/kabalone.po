@@ -6,6 +6,7 @@ msgstr ""
 "From: root <root@joe>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: AbTop.cpp:240 AbTop.cpp:399
 msgid "Move"
@@ -33,19 +34,19 @@ msgstr "Regras"
 
 #: AbTop.cpp:296
 msgid "Save Position"
-msgstr ""
+msgstr "Gravar Posição"
 
 #: AbTop.cpp:298
 msgid "Restore Position"
-msgstr ""
+msgstr "Carregar Posição"
 
 #: AbTop.cpp:315
 msgid "Easy"
-msgstr "Facil"
+msgstr "Fácil"
 
 #: AbTop.cpp:319
 msgid "Hard"
-msgstr "Dificil"
+msgstr "Difícil"
 
 #: AbTop.cpp:321
 msgid "Challange"
@@ -65,7 +66,7 @@ msgstr "Ambos"
 
 #: AbTop.cpp:337
 msgid "Level"
-msgstr "Nivel"
+msgstr "Nível"
 
 #: AbTop.cpp:338
 msgid "Computer plays"
@@ -77,7 +78,7 @@ msgstr "Mover devagar"
 
 #: AbTop.cpp:342
 msgid "Spy"
-msgstr ""
+msgstr "Espiar"
 
 #: AbTop.cpp:408
 msgid "won"
@@ -93,63 +94,44 @@ msgstr "É a sua vez !"
 
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
-msgstr ""
+msgstr "Valor do tabuleiro"
 
 #: Move.cpp:18
 msgid "RightDown"
-msgstr ""
+msgstr "DireitaAbaixo"
 
 #: Move.cpp:19
 msgid "LeftDown"
-msgstr ""
+msgstr "EsquerdaAbaixo"
 
 #: Move.cpp:21
 msgid "LeftUp"
-msgstr ""
+msgstr "EsquerdaCima"
 
 #: Move.cpp:22
 msgid "RightUp"
-msgstr ""
+msgstr "DireitaCima"
 
 #: Move.cpp:35 Move.cpp:42
 msgid "Side"
-msgstr ""
+msgstr "Lado"
 
 #: Move.cpp:49
 msgid "Out"
-msgstr ""
+msgstr "Fora"
 
 #: Move.cpp:50
 msgid "Push"
-msgstr ""
+msgstr "Empurrar"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
-msgstr ""
+msgstr "Posição examinada actual:"
 
 #: Spy.cpp:46
 msgid "Best move so far:"
-msgstr ""
+msgstr "Melhor jogada até agora:"
 
 #: Spy.cpp:75
-#, fuzzy
 msgid "Spion"
-msgstr "Opções"
-
-#~ msgid "New Game"
-#~ msgstr "Novo Jogo"
-
-#~ msgid "Quit"
-#~ msgstr "Sair"
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
-
-#~ msgid "About"
-#~ msgstr "Acerca"
-
-#~ msgid "File"
-#~ msgstr "Ficheiro"
-
-#~ msgid "Help"
-#~ msgstr "Ajuda"
+msgstr "Spion"

@@ -6,6 +6,7 @@ msgstr ""
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.ult.pt>\n"
 
 #: kpoker.cpp:96
 msgid "Draw !"
@@ -116,18 +117,5 @@ msgid "&About..."
 msgstr "&Acerca..."
 
 #: top.cpp:82
-#, fuzzy
 msgid "About &Qt..."
-msgstr "&Acerca..."
-
-#~ msgid "&Quit"
-#~ msgstr "&Sair"
-
-#~ msgid "&Help"
-#~ msgstr "&Ajuda"
-
-#~ msgid "&File"
-#~ msgstr "&Ficheiro"
-
-#~ msgid "&Options"
-#~ msgstr "&Opções"
+msgstr "Acerca do &Qt..."
