@@ -65,7 +65,7 @@ msgstr "Tente mover a carta:"
 
 #: grandf.cpp:114 mod3.cpp:57
 msgid "Redeal"
-msgstr "Dar novamente as Cartas"
+msgstr "Dar"
 
 #: grandf.cpp:148
 msgid "Hint"
@@ -161,7 +161,7 @@ msgstr "Costas da Carta"
 
 #: pwidget.cpp:121
 msgid "Animation on startup"
-msgstr "Animação no arranque"
+msgstr "Animação inicial"
 
 #: pwidget.cpp:126
 msgid "Patience"
