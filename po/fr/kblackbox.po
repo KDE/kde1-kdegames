@@ -138,8 +138,12 @@ msgstr "Bof !"
 
 #: kbbgame.cpp:496
 #, c-format
-msgid "You should place %d balls!\nYou have placed %d."
-msgstr "Vous devez placer %d atomes !\nVous n'en avez placé que %d."
+msgid ""
+"You should place %d balls!\n"
+"You have placed %d."
+msgstr ""
+"Vous devez placer %d atomes !\n"
+"Vous n'en avez placé que %d."
 
 #: kbbgame.cpp:498
 msgid "D'accord"

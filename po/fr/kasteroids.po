@@ -32,8 +32,14 @@ msgid "Asteroids"
 msgstr "Asteroids"
 
 #: toplevel.cpp:188
-msgid "\n\nby Martin R. Jones"
-msgstr "\n\npar Martin R. Jones"
+msgid ""
+"\n"
+"\n"
+"by Martin R. Jones"
+msgstr ""
+"\n"
+"\n"
+"par Martin R. Jones"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."
