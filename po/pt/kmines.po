@@ -6,9 +6,8 @@ msgstr ""
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "Minas: Configurar Jogo"
+msgstr "Configurar Jogo"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -108,7 +107,7 @@ msgstr "Minas e Armadilhas"
 
 #: main.cpp:67
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: main.cpp:72
 msgid "Level"
@@ -117,51 +116,3 @@ msgstr "Nível"
 #: main.cpp:143
 msgid "Show menu bar"
 msgstr "Mostrar barra de menu"
-
-#~ msgid "kmines : High Scores"
-#~ msgstr "Minas : Quadro de Honra"
-
-#~ msgid "Easy :"
-#~ msgstr "Fácil :"
-
-#~ msgid "Normal :"
-#~ msgstr "Normal :"
-
-#~ msgid "Expert :"
-#~ msgstr "Perito :"
-
-#~ msgid "minutes."
-#~ msgstr "minutos."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Não consigo escrever no ficheiro do quadro de honra"
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines : Erro"
-
-#~ msgid "Close dialog"
-#~ msgstr "Dialogo Fechar"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Dialogo OK"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Dialogo Cancelar"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "por Nicolas Hadacek"
-
-#~ msgid "Custom Level"
-#~ msgstr "Nível personalizado"
-
-#~ msgid "Uncertain (?) mark"
-#~ msgstr "Marca de incerteza (?)"
-
-#~ msgid "Try again"
-#~ msgstr "Tenta outra vez"

@@ -107,10 +107,3 @@ msgstr "&Novo jogo"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Som"
-
-#~ msgid ""
-#~ "Oops - you went bankrupt.\n"
-#~ "A highscoretable will appear over here later..."
-#~ msgstr ""
-#~ "Oops - abriu bancarrota.\n"
-#~ "Um quadro de honra irá aparecer aqui mais tarde..."
