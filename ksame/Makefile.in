@@ -1,7 +1,7 @@
 # Makefile.in of ksame-0.2
 
 CXX	=	@CXX@
-LDFLAGS	=	@all_libraries@ -lkdeui -lkdecore -lqt -lX11 -lXext
+LDFLAGS	=	@LDFLAGS@ @all_libraries@ -lkdeui -lkdecore -lqt -lX11 -lXext
 CXXFLAGS=	@CXXFLAGS@ -DHAVE_CONFIG_H @all_includes@ -I..
 MOC	=	@MOC@
 install	=	@INSTALL@
@@ -15,9 +15,10 @@ TARGET	= ksame
 INSTALL_BIN = $(install) -m 755
 INSTALL_DIR = $(install) -d -m 0755
 INSTALL = $(install) -m 0644
-BINDIR = @prefix@/bin
-DOCDIR = @prefix@/share/doc/HTML/ksame/
-APPSDIR= @prefix@/share/applnk/Games
+prefix = @prefix@
+BINDIR = $(prefix)/bin
+DOCDIR = $(prefix)/share/doc/HTML/ksame/
+APPSDIR= $(prefix)/share/applnk/Games
 
 %.moc: %.h
 	$(MOC) -o $@ $<

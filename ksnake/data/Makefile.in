@@ -1,5 +1,6 @@
 
-SNAKEDIR = @prefix@/share/apps/ksnake
+prefix = @prefix@
+SNAKEDIR = $(prefix)/share/apps/ksnake
 LEVELDIR = $(SNAKEDIR)/levels
 PIXDIR = $(SNAKEDIR)/pics
 

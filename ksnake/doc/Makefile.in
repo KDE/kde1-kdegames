@@ -1,6 +1,7 @@
 HELPFILES = ksnake.html snakeRace.gif
 
-DOCSDIR = @prefix@/share/doc/HTML/ksnake
+prefix = @prefix@
+DOCSDIR = $(prefix)/share/doc/HTML/ksnake
 INSTALL_DIR = @INSTALL@ -d -m 0755
 INSTALL_DATA = @INSTALL@ -m 644
 

@@ -7,7 +7,8 @@ clean:
 	rm -f *~ pngtoppmpgm
 
 FILES = `find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
-DESTDIR = @prefix@/share/apps/kasteroids/sprites
+prefix = @prefix@
+DESTDIR = $(prefix)/share/apps/kasteroids/sprites
 INSTALL_DATA = @INSTALL@ -m 644
 mkinstalldirs = $(SHELL) @top_srcdir@/mkinstalldirs
 
