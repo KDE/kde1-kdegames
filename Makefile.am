@@ -70,4 +70,4 @@ subdirs:
 acinclude.m4: admin/acinclude.m4.in admin/libtool.m4.in
 	cat admin/acinclude.m4.in admin/libtool.m4.in > acinclude.m4
 
-MAINTAINERCLEAN_FILES = subdirs configure.in acinclude.m4 SUBDIRS
+MAINTAINERCLEANFILES = subdirs configure.in acinclude.m4 SUBDIRS
