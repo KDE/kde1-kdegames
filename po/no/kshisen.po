@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-09-18 01:48+0200\n"
 "PO-Revision-Date: 1998-03-21 08:39+0100\n"
 "Last-Translator: Svein Olav Aasen <soaasen@online.no / svein.aasen@caa.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -13,7 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
 
@@ -80,6 +80,16 @@ msgstr "Lett"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Vanskelig"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
+"\n"
+"\n"
+"av Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
