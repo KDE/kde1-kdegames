@@ -1,10 +1,10 @@
 
 SUBDIRS = cs da de es et fi fr hr hu it no pl pt ro ru sk nl el ja \
-	zh_CN.GB2312 zh_TW.Big5 mk pt_BR eo sv is ko he br hs
+	zh_CN.GB2312 zh_TW.Big5 mk pt_BR eo sv is ko he br hs 
 
 # this is a general list for merging!
 APPS = kabalone kasteroids kmahjongg kmines kpat kpoker kreversi ksame \
-	kshisen ksnake ktetris kblackbox ksokoban ksmiletris konquest
+	kshisen ksnake ksirtet kblackbox ksokoban ksmiletris konquest
 
 merge:
 	@apps='$(APPS)'; \
