@@ -30,9 +30,8 @@ msgid "&Give up"
 msgstr "&Gi opp"
 
 #: kbbgame.cpp:86
-#, fuzzy
 msgid "&Done"
-msgstr "Fullført"
+msgstr "&Fullført"
 
 #: kbbgame.cpp:88
 msgid "&Resize"
@@ -51,14 +50,12 @@ msgid "&Tutorial"
 msgstr "&Læremester"
 
 #: kbbgame.cpp:174
-#, fuzzy
 msgid "New"
-msgstr "&Ny"
+msgstr "Ny"
 
 #: kbbgame.cpp:176
-#, fuzzy
 msgid "Give up"
-msgstr "&Gi opp"
+msgstr "Gi opp"
 
 #: kbbgame.cpp:178
 msgid "Done"
@@ -122,21 +119,19 @@ msgstr "Samsvaret"
 
 #: kbbgame.cpp:597 kbbgame.cpp:600
 msgid "Run"
-msgstr ""
+msgstr "Kjør"
 
 #: kbbgame.cpp:604
-#, fuzzy
 msgid "Size"
-msgstr "&Størrelse"
+msgstr "Størrelse"
 
 #: kbbgame.cpp:607
 msgid "Placed"
-msgstr ""
+msgstr "Plassert"
 
 #: kbbgame.cpp:620
-#, fuzzy
 msgid "Score"
-msgstr " Poengsum %4d"
+msgstr " Poengsum"
 
 #: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"

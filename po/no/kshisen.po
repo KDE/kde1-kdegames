@@ -71,7 +71,7 @@ msgstr "Hurtig"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr ""
+msgstr "Middels"
 
 #: app.cpp:136
 msgid "Slow"
