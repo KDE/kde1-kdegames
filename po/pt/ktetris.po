@@ -23,7 +23,7 @@ msgstr "Jogo terminado"
 
 #: board.cpp:109
 msgid "Press Return to replay"
-msgstr "Carregue em Return para voltar a jogar"
+msgstr "Carregue em Recomeçar"
 
 #: board.cpp:113
 msgid "Press to start game"
@@ -31,11 +31,11 @@ msgstr "Carregue para começar"
 
 #: board.cpp:154 field.cpp:31 field.cpp:48
 msgid "Move left"
-msgstr "Mexer para a esquerda"
+msgstr "Esquerda"
 
 #: board.cpp:155 field.cpp:32 field.cpp:49
 msgid "Move right"
-msgstr "Mexer para a direita"
+msgstr "Direita"
 
 #: board.cpp:156 field.cpp:33 field.cpp:50
 msgid "Drop down"
@@ -243,11 +243,11 @@ msgstr "Diálogo de fecho"
 
 #: field.cpp:38
 msgid "Ok dialog"
-msgstr "Diálogo de ok"
+msgstr "Ok"
 
 #: field.cpp:39
 msgid "Cancel dialog"
-msgstr "Diálogo de cancelamento"
+msgstr "Cancelar"
 
 #: field.cpp:55
 msgid "Score"
@@ -255,7 +255,7 @@ msgstr "Pontuação"
 
 #: field.cpp:59
 msgid "Lines removed"
-msgstr "Linhas"
+msgstr "Linhas feitas"
 
 #: field.cpp:63
 msgid "Level"
@@ -263,7 +263,7 @@ msgstr "Nível"
 
 #: field.cpp:67
 msgid "Next tile"
-msgstr "Próximo mosaico"
+msgstr "Próxima peça"
 
 #: field.cpp:173
 msgid "&Restart game"
@@ -283,7 +283,7 @@ msgstr "Mel&hores pontuações"
 
 #: main.cpp:22 main.cpp:67
 msgid "Hide menu"
-msgstr "Esconder menu"
+msgstr "&Esconder menu"
 
 #: main.cpp:27
 msgid "&Keys"
@@ -299,7 +299,7 @@ msgstr "Acerca do &Qt"
 
 #: main.cpp:64
 msgid "Show menu"
-msgstr "Mostrar menu"
+msgstr "M&ostrar menu"
 
 #: main.cpp:77
 #, c-format

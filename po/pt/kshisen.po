@@ -11,7 +11,7 @@ msgstr "Shisen-Sho"
 
 #: app.cpp:102
 msgid "Get &hint"
-msgstr "Obter uma &dica"
+msgstr "&Dica"
 
 #: app.cpp:104
 msgid "&New game"
@@ -23,7 +23,7 @@ msgstr "&Recomeçar jogo"
 
 #: app.cpp:107
 msgid "Is game solvable?"
-msgstr "O jogo é resolúvel?"
+msgstr "O &jogo é resolúvel?"
 
 #: app.cpp:109
 msgid "&Hall of Fame"
@@ -103,7 +103,7 @@ msgstr "Tempo: XX:XX:XX"
 
 #: app.cpp:167 app.cpp:256 app.cpp:281
 msgid "Cheat mode"
-msgstr "Modo batota"
+msgstr "Modo de batota"
 
 #: app.cpp:247
 msgid "This game is solveable"

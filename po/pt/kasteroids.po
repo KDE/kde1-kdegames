@@ -23,7 +23,7 @@ msgstr "&Acerca..."
 
 #: toplevel.cpp:262
 msgid "Press Enter to launch."
-msgstr "Pressione Enter para lançar"
+msgstr "Pressione Enter para começar."
 
 #: toplevel.cpp:280 toplevel.cpp:299
 msgid "KAsteriods"
@@ -31,7 +31,7 @@ msgstr "KAsteriods"
 
 #: toplevel.cpp:292
 msgid "Ship Destroyed.  Press Enter to launch."
-msgstr "Nave Destruída. Pressione Enter para lançar."
+msgstr "Nave Destruída.  Pressione Enter para continuar."
 
 #: toplevel.cpp:300
 msgid "Game Over!"

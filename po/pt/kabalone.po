@@ -86,7 +86,7 @@ msgstr "ganhou"
 
 #: AbTop.cpp:412
 msgid "I am thinking..."
-msgstr "Estou a pensar..."
+msgstr "A pensar..."
 
 #: AbTop.cpp:413
 msgid "It's your turn !"

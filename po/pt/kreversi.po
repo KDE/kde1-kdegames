@@ -11,7 +11,7 @@ msgstr "Acerca do KReversi"
 
 #: about.cpp:64
 msgid "Version "
-msgstr "Versão"
+msgstr "Versão "
 
 #: about.cpp:66
 msgid ""
@@ -38,18 +38,18 @@ msgstr ""
 "\n"
 "Este programa é software livre\n"
 "publicado sob os termos da Licença\n"
-"Pública Geral GNU (veja na ajuda\n"
-"para obter detalhes)\n"
+"Pública Geral GNU\n"
+"(veja a ajuda para obter detalhes)\n"
 "\n"
 "Agradecimentos:\n"
 "\tMats Luthman pelo motor do jogo\n"
-"\t(Transferi-o de uma applet JAVA)\n"
+"\t(transferi-o do seu applet JAVA)\n"
 "\n"
 "\tStephan Kulow\n"
 "\tpelos comentários e correcções\n"
 "\n"
 "\tArne Klaassen\n"
-"\t pelas peças raytraced"
+"\tpelas peças raytraced"
 
 #: app.cpp:218 app.cpp:548
 msgid ""
@@ -267,7 +267,7 @@ msgstr "Você (XXXXX): 88"
 
 #: app.cpp:389
 msgid "Computer (XXXXX): 88"
-msgstr "Computador (XXXXX): 88"
+msgstr "Ele (XXXXX): 88"
 
 #: app.cpp:424
 msgid "Game saved"
@@ -280,7 +280,7 @@ msgstr "ainda não implementada"
 #: app.cpp:615 app.cpp:620
 #, c-format
 msgid "You (%s): %d"
-msgstr "Voce (%s): %d"
+msgstr "Você (%s): %d"
 
 #: app.cpp:616 app.cpp:623 app.cpp:923
 msgid "blue"
@@ -289,7 +289,7 @@ msgstr "azul"
 #: app.cpp:617 app.cpp:622
 #, c-format
 msgid "Computer (%s): %d"
-msgstr "Computador (%s): %d"
+msgstr "Ele (%s): %d"
 
 #: app.cpp:618 app.cpp:621 app.cpp:925
 msgid "red"
@@ -309,8 +309,8 @@ msgid ""
 msgstr ""
 "O jogo está empatado!\n"
 "\n"
-"Você      : %d\n"
-"Computador: %d"
+"Você: %d\n"
+"Ele : %d"
 
 #: app.cpp:678 app.cpp:690 app.cpp:710
 msgid "Game ended"
@@ -326,8 +326,8 @@ msgid ""
 msgstr ""
 "Parabéns, ganhou!\n"
 "\n"
-"Você      : %d\n"
-"Computador: %d\n"
+"Você: %d\n"
+"Ele : %d\n"
 "A sua posição %4.1f%%"
 
 #: app.cpp:708
@@ -340,16 +340,16 @@ msgid ""
 msgstr ""
 "Perdeu o jogo!\n"
 "\n"
-"Você      : %d\n"
-"Computador: %d"
+"Você: %d\n"
+"Ele : %d"
 
 #: app.cpp:719
 msgid "Red's"
 msgstr "Vermelho"
 
 #: app.cpp:719 app.cpp:721
-msgid "jogada"
-msgstr "turno"
+msgid "turn"
+msgstr "jogada"
 
 #: app.cpp:721
 msgid "Blue's"
