@@ -6,7 +6,7 @@ package=kdegames
 
 build:
 	dh_testdir
-	( CXXFLAGS="-g -Wall" \
+	( CXXFLAGS="-g -O2 -Wall" \
 	  ./configure --with-install-root=`pwd`/debian/tmp \
 	  --enable-debug --disable-rpath --bindir=$${kde_bindir})
  
