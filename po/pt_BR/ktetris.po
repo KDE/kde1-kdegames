@@ -275,7 +275,7 @@ msgstr "&Teclas"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: main.cpp:71
 msgid "Show menu"
