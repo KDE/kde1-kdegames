@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
-"PO-Revision-Date: 1998-11-03 14:42+01:00\n"
+"PO-Revision-Date: 1998-12-23 14:29 CET\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "&Velká"
 
 #: MainWindow.C:71
 msgid "G&raphics"
-msgstr "G&rafika"
+msgstr "&Grafika"
 
 #: MainWindow.C:77
 msgid "&Slow"
