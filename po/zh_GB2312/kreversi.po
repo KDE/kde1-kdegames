@@ -1,0 +1,238 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkpanel\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"PO-Revision-Date: 1998-02-21 05:04+0800\n"
+"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Language-Team: zh_CN ( gb2312 )\n"
+
+msgid "&Animations"
+msgstr "动画[&A]"
+
+msgid "&Continue"
+msgstr "继续[&C]"
+
+msgid "&Double size"
+msgstr "两倍大小[&D]"
+
+msgid "&Enlarge board"
+msgstr "放大版面[&E]"
+
+msgid "&Grayscale"
+msgstr "灰度[&G]"
+
+msgid "&Half size"
+msgstr "一半大小[&H]"
+
+msgid "&Load game"
+msgstr "载入游戏[&L]"
+
+msgid "&New game"
+msgstr "开始新游戏[&N]"
+
+msgid "&Save game"
+msgstr "保存游戏[&S]"
+
+msgid "&Shrink board"
+msgstr "缩小版面[&S]"
+
+msgid "&Stop thinking"
+msgstr "停止思考[&S]"
+
+msgid "&Undo move"
+msgstr "悔一步[&U]"
+
+msgid "1 (fastest)"
+msgstr "1 (最快)"
+
+msgid "10 (slowest)"
+msgstr "10 (最慢)"
+
+msgid ""
+"A problem with the sound server occured!\n"
+"Cannot enable sound support."
+msgstr ""
+"声音服务器发生问题!\n"
+"无法启动声音支持."
+
+msgid "Animation speed"
+msgstr "动画速度"
+
+msgid "Blue's"
+msgstr "Blue's"
+
+msgid "Color"
+msgstr "颜色"
+
+msgid "Computer (%s): %d"
+msgstr "电脑 (%s): %d 子"
+
+msgid "Computer (XXXXX): 88"
+msgstr "电脑 (XXXXX): 88 子"
+
+msgid ""
+"Congratulations, you have won!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d\n"
+"Your rating %4.1f%%"
+msgstr ""
+"恭喜, 您赢了!\n"
+"\n"
+"您      : %d 子\n"
+"电脑    : %d 子\n"
+"您的比例: %4.1f%%"
+
+msgid "D&efault size"
+msgstr "缺省大小[&E]"
+
+msgid "End of game"
+msgstr "游戏结束"
+
+msgid "Enlarge board"
+msgstr "放大版面"
+
+msgid "Game ended"
+msgstr "游戏结束"
+
+msgid ""
+"Game is drawn!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"平手!\n"
+"\n"
+"你      : %d 子\n"
+"电脑    : %d 子"
+
+msgid "Game saved"
+msgstr "游戏已保存"
+
+msgid "Get &hint"
+msgstr "提示[&H]"
+
+msgid "Get help"
+msgstr "求助"
+
+msgid "Get hint"
+msgstr "提示"
+
+msgid "Hall Of &Fame..."
+msgstr "名人堂[&F]..."
+
+msgid "Hall of Fame"
+msgstr "名人堂"
+
+msgid "KReversi: Hall Of Fame"
+msgstr "KReversi: 名人堂"
+
+msgid "Level 1 (Wimp)"
+msgstr "等级 1 (无能)"
+
+msgid "Level 2 (Beginner)"
+msgstr "等级 2 (初学者)"
+
+msgid "Level 3 (Novice)"
+msgstr "等级 3 (生手)"
+
+msgid "Level 4 (Average)"
+msgstr "等级 4 (平均一般)"
+
+msgid "Level 5 (Good)"
+msgstr "等级 5 (好手)"
+
+msgid "Level 6 (Expert)"
+msgstr "等级 6 (专家)"
+
+msgid "Level 7 (Master)"
+msgstr "等级 7 (大师)"
+
+msgid "Rank"
+msgstr "排名"
+
+msgid "Rating"
+msgstr "成绩"
+
+msgid "Red's"
+msgstr "红方的"
+
+msgid "S&ound"
+msgstr "声音[&O]"
+
+msgid "Score"
+msgstr "分数"
+
+msgid "Select &background color..."
+msgstr "选择背景颜色[&B]"
+
+msgid "Select background image"
+msgstr "选择背景图形"
+
+msgid "Set size"
+msgstr "设定大小"
+
+msgid "Shrink board"
+msgstr "缩小版面"
+
+msgid "Skill"
+msgstr "技巧"
+
+msgid "Stop thinking"
+msgstr "停止思考"
+
+msgid "Switch si&des"
+msgstr "换边[D]"
+
+msgid "Undo move"
+msgstr "悔一步"
+
+msgid "Version "
+msgstr "版本 "
+
+msgid "XXXXX's turn"
+msgstr "该 XXXXX 走"
+
+msgid "You (%s): %d"
+msgstr "您 (%s): %d 子"
+
+msgid "You (XXXXX): 88"
+msgstr "您 (XXXXX): 88 子"
+
+msgid ""
+"You have lost the game!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"您输了这场游戏!\n"
+"\n"
+"您      : %d 子\n"
+"电脑    : %d 子"
+
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr ""
+"您已经进入 \"名人堂\" .\n"
+"输入您的名字让以后的人\n"
+"都能记得您的成绩."
+
+msgid "Your name:"
+msgstr "您的名字:"
+
+msgid "blue"
+msgstr "蓝"
+
+msgid "none"
+msgstr "无"
+
+msgid "not yet implemented"
+msgstr "尚未被实现"
+
+msgid "red"
+msgstr "红"
+
+msgid "turn"
+msgstr "回合"
