@@ -56,7 +56,7 @@ msgstr ""
 "\n"
 "Sendið endilega athugasemdir!\n"
 "\n"
-"Þýðing: Logi Ragnarsson <logir@hi.is>"
+"Þýðing: Logi Ragnarsson <logir@hi.is>\n"
 
 #: gamewindow.cpp:88
 msgid "Level: 99"
