@@ -23,7 +23,7 @@ msgstr "Hra pozastavená"
 
 #: board.cpp:90
 msgid "Press to resume"
-msgstr "Stlaè klávesu pre pokraèovanie"
+msgstr "Pokraèovanie stlaèením klávesy"
 
 #: board.cpp:105 net.cpp:216
 msgid "Game over"
@@ -31,11 +31,11 @@ msgstr "Hra skonèená"
 
 #: board.cpp:109
 msgid "Press Return to replay"
-msgstr "Stlaè Enter pre prehranie"
+msgstr "Stlaè Enter pre prehranie záznamu hry"
 
 #: board.cpp:113
 msgid "Press to start game"
-msgstr "Stlaè klávesu pre ¹tart hry"
+msgstr "©tart hry stlaèením klavesy"
 
 #: board.cpp:154 field.cpp:31 field.cpp:48
 msgid "Move left"
@@ -275,7 +275,7 @@ msgstr "Nasledujúca dla¾dica"
 
 #: field.cpp:173
 msgid "&Restart game"
-msgstr "&Re¹tarova» hru"
+msgstr "Spusti» h&ru znova"
 
 #: field.cpp:174
 msgid "&Pause game"

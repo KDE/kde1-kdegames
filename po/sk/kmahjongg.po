@@ -52,7 +52,7 @@ msgstr "Ukazuj zhodné kartièky"
 
 #: kmahjongg.cpp:222
 msgid "&Load Background image..."
-msgstr "&Naèítaj obrázok s pozadím..."
+msgstr "&Naèíta» obrázok pozadia..."
 
 #: kmahjongg.cpp:224
 msgid "&Statusbar"
@@ -90,7 +90,7 @@ msgstr "Je mi µúto, prehrali ste hru."
 
 #: kmahjongg.cpp:504
 msgid "Demo mode. Click mousebutton to stop."
-msgstr "Demon¹taèný mód. Kliknite pre zastavenie."
+msgstr "Demon¹taèný mód. Zastavte kliknutím."
 
 #: kmahjongg.cpp:512
 msgid "Now it's you again."
@@ -110,11 +110,11 @@ msgstr "Generujem novú hru..."
 
 #: kmahjongg.cpp:650
 msgid "Error converting board information!"
-msgstr "Chyba pri konvertovaní informácii o doske!"
+msgstr "Chyba pri konvertovaní informácií o hracej doske!"
 
 #: kmahjongg.cpp:662
 msgid "Ready. Now it's your turn."
-msgstr "Som pripravený. Ide¹ !"
+msgstr "Som pripravený. Ste na »ahu !"
 
 #: kmahjongg.cpp:668
 msgid "Error generating new game!"

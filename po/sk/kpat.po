@@ -105,7 +105,7 @@ msgstr "®iadne ïal¹ie karty nie sú k dispozícii"
 
 #: pwidget.cpp:95
 msgid "&Restart game"
-msgstr "&Re¹tartuj hru"
+msgstr "Spusti» h&ru znova"
 
 #: pwidget.cpp:99
 msgid "&Klondike"

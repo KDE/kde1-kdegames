@@ -35,11 +35,11 @@ msgstr "Rada"
 
 #: AbTop.cpp:296
 msgid "Save Position"
-msgstr "Ulo¾enie pozície"
+msgstr "Ulo¾i» pozíciu"
 
 #: AbTop.cpp:298
 msgid "Restore Position"
-msgstr "Obnovenie pozície"
+msgstr "Obnovi» pozíciu"
 
 #: AbTop.cpp:315
 msgid "Easy"
@@ -75,7 +75,7 @@ msgstr "Poèítaè hrá ako"
 
 #: AbTop.cpp:340
 msgid "Move slow"
-msgstr "Presúvaj pomaly"
+msgstr "Presúva» pomaly"
 
 #: AbTop.cpp:342
 msgid "Spy"
@@ -87,15 +87,15 @@ msgstr "vyhral"
 
 #: AbTop.cpp:411
 msgid "I am thinking..."
-msgstr "Rozmý¹µam"
+msgstr "Rozmý¹µam..."
 
 #: AbTop.cpp:412
 msgid "It's your turn !"
-msgstr "Si na »ahu!"
+msgstr "Si na »ahu !"
 
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
-msgstr "Ohodnocenie dosky"
+msgstr "Ohodnotenie dosky"
 
 #: Move.cpp:18
 msgid "RightDown"

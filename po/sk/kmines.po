@@ -99,7 +99,7 @@ msgstr "Hra pozastavená"
 
 #: field.cpp:89 field.cpp:95
 msgid "Press to resume"
-msgstr "Stlaè klávesu pre pokraèovanie"
+msgstr "Pokraèovanie stlaèením klávesy"
 
 #: dialogs.cpp:97
 msgid "Custom Level"

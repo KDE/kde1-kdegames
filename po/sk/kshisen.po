@@ -27,7 +27,7 @@ msgstr "&Nová hra"
 
 #: app.cpp:105
 msgid "Res&tart game"
-msgstr "&Re¹tartova» hru"
+msgstr "Spus&ti» hru znova"
 
 #: app.cpp:107
 msgid "Is game solvable?"
