@@ -192,4 +192,3 @@ msgstr "En voinut ladata taustakuvaa!"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Täysin automaattinen"
-

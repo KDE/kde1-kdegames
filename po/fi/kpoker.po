@@ -117,4 +117,3 @@ msgstr "&Uusi peli"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Ääni"
-

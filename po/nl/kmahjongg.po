@@ -2,60 +2,61 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-03-19 22:22+0100\n"
-"PO-Revision-Date: 1998-03-15 20:00-0500\n"
-"Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
-"Language-Team: Croatian\n"
+"PO-Revision-Date: 1998-4-9 HO:MI+ZONE\n"
+"Last-Translator: Pieter Eendebak <pte@ddsw.nl>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: iso-8859-2\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
 #: kmahjongg.cpp:101
 msgid "Classic"
-msgstr "Klasièna"
+msgstr "Klassiek"
 
 #: kmahjongg.cpp:102
 msgid "Tower"
-msgstr "Kula"
+msgstr "Toren"
 
 #: kmahjongg.cpp:103
 msgid "Triangle"
-msgstr "Trokut"
+msgstr "Driehoek"
 
 #: kmahjongg.cpp:104
 msgid "Pyramide"
-msgstr "Piramida"
+msgstr "Piramide"
 
 #: kmahjongg.cpp:211
 msgid "&Start new game"
-msgstr "Po&kreni novu igru"
+msgstr "&Start een nieuw spel"
 
 #: kmahjongg.cpp:213
 msgid "&Help me"
-msgstr "&Pomogni mi"
+msgstr "&Help"
 
 #: kmahjongg.cpp:214
 msgid "&Undo last move"
-msgstr "&Vrati zadnji potez"
+msgstr "&Laatste beweging ongedaan maken"
 
 #: kmahjongg.cpp:215
 msgid "&Demo mode"
-msgstr "&Demo"
+msgstr "&Demo mode"
 
 #: kmahjongg.cpp:216
 msgid "Show &matching tiles"
-msgstr "Prika¾i ploèe"
+msgstr "Toon overeenkomende stenen"
 
 #: kmahjongg.cpp:222
 msgid "&Load Background image..."
-msgstr "&Uèitaj pozadinsku sliku..."
+msgstr "&Laad achtergrond plaatje"
 
 #: kmahjongg.cpp:224
 msgid "&Statusbar"
-msgstr "Traka &stanja"
+msgstr "&Statusbar"
 
 #: kmahjongg.cpp:226
 msgid "Mahjongg"
@@ -69,55 +70,55 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"Mathias Mueller"
+"door Mathias Mueller"
 
 #: kmahjongg.cpp:387 kmahjongg.cpp:401
 msgid "Unable to open bitmap file !"
-msgstr "Ne mogu otvoriti bitmapu"
+msgstr "Kan bitmap bestand niet openen"
 
 #: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
-msgstr "Vraæanje poteza uspje¹no dovr¹eno."
+msgstr "Ongedaan maken succesvol."
 
 #: kmahjongg.cpp:458
 msgid "What do you want to undo? You have done nothing!"
-msgstr "©to ¾elite vratiti? Niste jos¹ ni¹ta ni uèinili!"
+msgstr "Wat wil je ongedaan maken? Je hebt niets gedaan!"
 
 #: kmahjongg.cpp:473 kmahjongg.cpp:1437
 msgid "Sorry, you have lost the game."
-msgstr "®alim, izgubili ste igru"
+msgstr "Sorry, je hebt het spel verloren."
 
 #: kmahjongg.cpp:504
 msgid "Demo mode. Click mousebutton to stop."
-msgstr "Demo naèin. Kliknite gumb mi¹a za zavr¹etak."
+msgstr "Demo mode. Klik op een muisknop om te stoppen."
 
 #: kmahjongg.cpp:512
 msgid "Now it's you again."
-msgstr "Sada je tvoj red."
+msgstr "Nu ben jij weer."
 
 #: kmahjongg.cpp:532
 msgid "Your computer has lost the game."
-msgstr "Va¹e raèunalo izgubilo je igru."
+msgstr "Je computer heeft het spel verloren."
 
 #: kmahjongg.cpp:618
 msgid "Congratulations. You have won!"
-msgstr "Èestitam. Pobjedili ste!"
+msgstr "Gefeliciteerd. Je hebt gewonnen!"
 
 #: kmahjongg.cpp:644
 msgid "Calculating new game..."
-msgstr "Namje¹tam novu igru..."
+msgstr "Bezig met nieuwe spel maken..."
 
 #: kmahjongg.cpp:650
 msgid "Error converting board information!"
-msgstr "Gre¹ka prilikom konvertiranja podataka sa ploèe"
+msgstr "FOut bij converteren bord informatie!"
 
 #: kmahjongg.cpp:662
 msgid "Ready. Now it's your turn."
-msgstr "Ja sam gotov. Na tebi je red."
+msgstr "Klaar. Nu ben jij."
 
 #: kmahjongg.cpp:668
 msgid "Error generating new game!"
-msgstr "Gre¹ka prilikom stvaranja nove igre!"
+msgstr "Fout bij maken nieuw spel!"
 
 #: kmahjongg.cpp:1666
 #, c-format
@@ -125,7 +126,7 @@ msgid ""
 "Failed to load image:\n"
 "%s"
 msgstr ""
-"Ne mogu uèitati sliku:\n"
+"Fout bij laden plaatje:\n"
 "%s"
 
 #: kmahjongg.cpp:1677
@@ -134,5 +135,5 @@ msgid ""
 "Sorry, this image uses %d colors.\n"
 "Maximum allowed is %d"
 msgstr ""
-"®alim, ova slika koristi %d boja.\n"
-"Najveæi dopu¹teni broj je %d"
+"Sorry, dit plaatje gebruikt %d kleuren.\n"
+"Het maximum aantal is %d"

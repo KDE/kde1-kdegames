@@ -145,4 +145,3 @@ msgstr "Epävarma (?) merkki"
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "Yritä uudelleen"
-

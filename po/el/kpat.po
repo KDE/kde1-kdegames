@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-03-30 21:00+0200\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -21,6 +21,7 @@ msgstr "§˜¨˜¡˜¢é §œ¨ £â¤œ«œ, ­¦¨«é¤¦¤«˜  ¦  ¡á¨«œª"
 #: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
 msgstr "Kpat - â¤˜ §˜ ®¤å›  ˜© â¤«˜ª"
+
 #: cardmaps.cpp:104
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
@@ -95,154 +96,148 @@ msgstr "ƒç©¡¦¢¦  ¡˜¤æ¤œª"
 msgid ""
 "This will end the current game\n"
 "Are you sure you want to do this?"
-msgstr "€¬«æ Ÿ˜ «œ¨£˜«å©œ  «¦ «¨â®¦¤ §˜ ®¤å› \n"
+msgstr ""
+"€¬«æ Ÿ˜ «œ¨£˜«å©œ  «¦ «¨â®¦¤ §˜ ®¤å› \n"
 "„å©«œ ©åš¦¬¨¦  §àª Ÿâ¢œ«œ ¤˜ «¦ ¡á¤œ«œ ˜¬«æ?"
+
 #: mod3.cpp:136
 msgid "No more cards"
 msgstr "ƒœ¤ ¬§á¨®¦¬¤ á¢¢œª ¡á¨«œª"
 
-#: pwidget.cpp:98
+#: pwidget.cpp:95
 msgid "&Restart game"
 msgstr "&„§˜¤œ¡å¤© §œ ®¤ › ¦ç"
 
+#: pwidget.cpp:99
 #, fuzzy
-#: pwidget.cpp:102
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:103 pwidget.cpp:287
+#: pwidget.cpp:100 pwidget.cpp:275
 msgid "MicroSolitaire"
 msgstr "‹ ¡¨ã ˜© â¤«˜"
 
-#: pwidget.cpp:104 pwidget.cpp:291
+#: pwidget.cpp:101 pwidget.cpp:279
 msgid "Calculation"
 msgstr "“§¦¢¦š ©£æª"
 
+#: pwidget.cpp:102
 #, fuzzy
-#: pwidget.cpp:105
 msgid "Napoleon's Tomb"
 msgstr "Napoleon's Tomb"
 
-#: pwidget.cpp:106 pwidget.cpp:295
+#: pwidget.cpp:103 pwidget.cpp:283
 msgid "The Idiot"
 msgstr " ¢åŸ ¦ª"
 
-#: pwidget.cpp:107 pwidget.cpp:279
+#: pwidget.cpp:104 pwidget.cpp:267
 msgid "Grandfather"
 msgstr " §˜§§¦çª"
 
-#: pwidget.cpp:108 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:255
 msgid "Ten"
 msgstr "ƒâ¡˜"
 
+#: pwidget.cpp:106 pwidget.cpp:259
 #, fuzzy
-#: pwidget.cpp:109 pwidget.cpp:271
 msgid "Mod3"
 msgstr "Mod3"
 
+#: pwidget.cpp:107 pwidget.cpp:263
 #, fuzzy
-#: pwidget.cpp:110 pwidget.cpp:275
 msgid "Freecell"
 msgstr "Freecell"
 
-#: pwidget.cpp:112
+#: pwidget.cpp:109
 msgid "Choose new game"
 msgstr "„§â¢œ¥œ ¤â¦ §˜ ®¤å› "
 
-#: pwidget.cpp:118
+#: pwidget.cpp:115
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:116
 msgid "Classic blue"
 msgstr "‰¢˜©© ¡æ £§¢â"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:117
 msgid "Classic red"
 msgstr "‰¢˜©© ¡æ ¡æ¡¡ ¤¦"
 
-#: pwidget.cpp:121
+#: pwidget.cpp:118
 msgid "Technical"
 msgstr "’œ®¤ ¡á"
 
-#: pwidget.cpp:122
+#: pwidget.cpp:119
 msgid "Card backside"
 msgstr "å©à æ¯ ¡á¨«˜ª"
 
-#: pwidget.cpp:123
+#: pwidget.cpp:120
 msgid "Animation on startup"
 msgstr "‰ ¤¦ç£œ¤œª œ ¡æ¤œª ¡˜«á «¤ œ¡¡å¤©"
 
-#: pwidget.cpp:129
-msgid "Help on &rules..."
-msgstr "&¦ãŸœ ˜ ©«¦¬ª ¡˜¤æ¤œª..."
-
-#: pwidget.cpp:131
-msgid "About &Qt..."
-msgstr "‘®œ« ¡á £œ «¦ &qt..."
-
-#: pwidget.cpp:254
-#, c-format
-msgid "COMMAND %d not implemented!\n"
-msgstr "† œ¤«¦¢ã %d ›œ¤ œ¡«œ¢â©«¡œ!\n" 
-
+#: pwidget.cpp:271
 #, fuzzy
-#: pwidget.cpp:283
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:287
 msgid "Napoleons Tomb"
 msgstr "Napoleons Tomb"
 
-#: pwidget.cpp:304
+#: pwidget.cpp:292
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpa: €¤¦¢¦¡¢ã¨à«¦ª «ç§¦ª §˜ ®¤ › ¦ç\n"
 
-#: pwidget.cpp:336
-msgid ""
-"KPat\n"
-"\n"
-"Version "
-msgstr ""
-"Kpat\n"
-"\n"
-"'„¡›¦©"
-
-#: pwidget.cpp:338
-msgid ""
-"\n"
-"Copyright (C) 1997  Paul Olav Tvete\n"
-"\n"
-"Additional work done by:\n"
-"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"This program is part of the K Desktop Environment.\n"
-"Use help for license information."
-msgstr ""
-"\n"
-"¤œ¬£˜« ¡á ƒ ¡˜ é£˜«˜ (C) 1997  Paul Olav Tvete\n"
-"\n"
-"„§ §¨æ©Ÿœ« ƒ¦¬¢œ á âš ¤œ ˜§æ «¦¬ª:\n"
-"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"€¬«æ «¦ §¨æš¨˜££˜ œå¤˜ £â¨¦ª «¦¬ K Desktop Environment.\n"
-"•¨© £¦§¦ œå©«œ « ™¦ãŸœ ˜ š ˜ §¢¨¦­¦¨åœª ©®œ« ¡á £œ «¤ á›œ ˜ ®¨ã©ª «¦¬."
-
-
-#: pwidget.cpp:347
-msgid "About kpat"
-msgstr "‘®œ« ¡á £œ «¦ kpat"
-
-#: pwidget.cpp:385
+#: pwidget.cpp:342
 msgid "Could not load background image!"
 msgstr "ƒœ¤ ¡˜«á­œ¨œ ¤˜ ­¦¨«àŸœå  œ ¡æ¤˜ š ˜ «¦ ­æ¤«¦!"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "E¤«œ¢éª ˜¬«æ£˜«¦"
+
+#~ msgid "Help on &rules..."
+#~ msgstr "&¦ãŸœ ˜ ©«¦¬ª ¡˜¤æ¤œª..."
+
+#~ msgid "About &Qt..."
+#~ msgstr "‘®œ« ¡á £œ «¦ &qt..."
+
+#~ msgid "COMMAND %d not implemented!\n"
+#~ msgstr "† œ¤«¦¢ã %d ›œ¤ œ¡«œ¢â©«¡œ!\n"
+
+#~ msgid ""
+#~ "KPat\n"
+#~ "\n"
+#~ "Version "
+#~ msgstr ""
+#~ "Kpat\n"
+#~ "\n"
+#~ "'„¡›¦©"
+
+#~ msgid ""
+#~ "\n"
+#~ "Copyright (C) 1997  Paul Olav Tvete\n"
+#~ "\n"
+#~ "Additional work done by:\n"
+#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
+#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
+#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
+#~ "\n"
+#~ "This program is part of the K Desktop Environment.\n"
+#~ "Use help for license information."
+#~ msgstr ""
+#~ "\n"
+#~ "¤œ¬£˜« ¡á ƒ ¡˜ é£˜«˜ (C) 1997  Paul Olav Tvete\n"
+#~ "\n"
+#~ "„§ §¨æ©Ÿœ« ƒ¦¬¢œ á âš ¤œ ˜§æ «¦¬ª:\n"
+#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
+#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
+#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
+#~ "\n"
+#~ "€¬«æ «¦ §¨æš¨˜££˜ œå¤˜ £â¨¦ª «¦¬ K Desktop Environment.\n"
+#~ "•¨© £¦§¦ œå©«œ « ™¦ãŸœ ˜ š ˜ §¢¨¦­¦¨åœª ©®œ« ¡á £œ «¤ á›œ ˜ ®¨ã©ª «¦¬."
+
+#~ msgid "About kpat"
+#~ msgstr "‘®œ« ¡á £œ «¦ kpat"

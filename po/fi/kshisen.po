@@ -172,4 +172,3 @@ msgstr "Aika"
 #: board.cpp:219
 msgid "Cannot load pixmaps!"
 msgstr "En saa ladattua kuvia!"
-
