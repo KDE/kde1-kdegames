@@ -124,7 +124,7 @@ msgstr "marques ?"
 
 #: main.cpp:65
 msgid "Keys"
-msgstr "Clavier..."
+msgstr "Raccourcis clavier..."
 
 #: main.cpp:72
 msgid "Custom"
