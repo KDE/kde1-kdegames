@@ -24,6 +24,7 @@ INSTALL_DIR = $(SHELL) @top_srcdir@/mkinstalldirs
 prefix = @prefix@
 BINDIR = $(prefix)/bin
 PICSDIR = $(prefix)/share/apps/kasteroids/sprites
+APPSDIR = $(prefix)/share/applnk/Games
 
 ########### File Formats ###########
 
@@ -71,10 +72,13 @@ install-exec: all
 install-data:
 	$(INSTALL_DIR) $(PICSDIR)
 	$(INSTALL_DATA) bg.ppm $(PICSDIR)
+	$(INSTALL_DIR) $(APPSDIR)
+	$(INSTALL_DATA) Kasteroids.kdelnk $(APPSDIR)
 	(cd sprites && $(MAKE) install)
  
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	rm -f $(PICSDIR)/bg.ppm
+	rm -f $(APPSDIR)/Kasteroids.kdelnk	
 	(cd sprites && $(MAKE) uninstall)
 

@@ -1,0 +1,6 @@
+# KDE Config File 
+[KDE Desktop Entry]
+Name=Asteroids
+Exec=kasteroids
+Info=A little arcade game
+Info[de]=Ein bekanntes Ballerspiel
