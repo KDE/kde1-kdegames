@@ -1,4 +1,4 @@
-HELPFILES = ksnake.html snakeRace.gif
+HELPFILES = index.html snakeRace.gif
 
 prefix = @prefix@
 DOCSDIR = $(prefix)/share/doc/HTML/ksnake
