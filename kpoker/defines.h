@@ -14,9 +14,10 @@
 #define cardHeight 96 
 #define cardWidth 72
 
-#define CLHBorderDistance 15
+//#define CLHBorderDistance 15
+#define CLHBorderDistance 5
 #define CLHDistFromTop 180
-#define CLHWidth 144
+#define CLHWidth 154
 
 #define wonLabelVDist 140
 #define clickToHoldVDist 120

@@ -1,15 +1,18 @@
-This is release 0.2 of KPoker, a simple video poker clone for the 
+This is release 0.3 of KPoker, a simple video poker clone for the 
 KDE desktop environment <http://www.kde.org>. 
 
-Latest versions of KPoker are avaible at the KPoker homepage
-<http://www.mabi.de/~whynot/kpoker.html> and at <http://www.kde.org>
+This is an cvs-only release and therefore you can only get it with the game
+distribution from  <http://www.kde.org>
 
-As the version number indicates everything is pretty much alpha
-right now, although some stuff has been fixed already. Please take a
-look at the file CHANGES to see what was changed recently 
+As the version number indicates everything is pretty much beta
+right now. Please take a look at the file CHANGES to see what 
+was changed recently 
 
 
-Have fun with the game and please report any bugs you find....
+
+Have fun with the game and please report any problems / bugs suggestions.
+
+
 
 
 Copyright Jochen Tuchbreiter 1997 <whynot@mabi.de>

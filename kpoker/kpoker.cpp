@@ -47,12 +47,15 @@ extern "C" {
 #include <time.h>
 #include <stdio.h>
 
+#include "global.h"
+
 #include "kpoker.h" 
 #include "kpoker.moc"
 
-CardImages    *cardImage;
-KApplication  *KPoker;
 
+CardImages    *cardImage;
+QFont LHLabelSmallFont("Helvetica",10);
+QFont LHLabelVerySmallFont("Helvetica",8);
 
 kpok::kpok(QWidget *parent, const char *name) 
 : QWidget(parent, name)
@@ -62,11 +65,13 @@ kpok::kpok(QWidget *parent, const char *name)
 	
        	setFixedSize(420,220);	
 
+        locale = kapp->getLocale();
+	
 	sprintf(version, "%s %s", kapp->getCaption(), PVERSION);
 	setCaption( version );
 	
 	
-	QString bitmapdir = KPoker->kdedir() + QString("/share/apps/kpoker/pics/");
+	QString bitmapdir = kapp->kdedir() + QString("/share/apps/kpoker/pics/");
 	
 	
 	/* KKeyCode initialization */
@@ -85,11 +90,11 @@ kpok::kpok(QWidget *parent, const char *name)
 	
 	
 	QFont myFixedFont("Helvetica",12);
-	
+
 	drawButton = new QPushButton(this,0);
 	
 	drawButton->setGeometry(210-30,CLHDistFromTop,60,30);
-	drawButton->setText("Draw !");
+	drawButton->setText(locale->translate("Draw !"));
 	connect( drawButton, SIGNAL(clicked()), this, SLOT( drawClick() ) );
 	
 	for (w=0;w < 5; w++)
@@ -115,7 +120,7 @@ kpok::kpok(QWidget *parent, const char *name)
 	clickToHold->hide();
 	clickToHold->setFont(clickToHoldFont);
 	clickToHold->setAutoResize(true);
-	clickToHold->setText("Click a card to hold it");
+	clickToHold->setText(locale->translate("Click a card to hold it"));
 	clickToHold->move(this->width() /2  - clickToHold->width() / 2, clickToHoldVDist);
 	
 	
@@ -136,7 +141,7 @@ kpok::kpok(QWidget *parent, const char *name)
 		heldLabels[w]->hide();
 		heldLabels[w]->setFont(myFixedFont);	       
 		heldLabels[w]->setAutoResize(true);
-		heldLabels[w]->setText("Held");
+		heldLabels[w]->setText(locale->translate("Held"));
 		heldLabels[w]->move(
 				    ((cardWidth+2) /2 - heldLabels[w]->width() /2) +
 				    cardHDist+w*(cardHDist + cardWidth), cardDistFromTop -15
@@ -172,12 +177,11 @@ kpok::kpok(QWidget *parent, const char *name)
 	
 	srandom(time(NULL));
 	
-	QToolTip::add( drawButton, "draw new cards" );
-	QToolTip::add( LHLabel, "your last hand" );
-        QToolTip::add( LHFrame, "your last hand" );
-	QToolTip::add( cashLabel, "money left");
-	QToolTip::add( cashFrame, "money left");
-	
+	QToolTip::add( drawButton,locale->translate("draw new cards"));
+	QToolTip::add( LHLabel,locale->translate("your last hand"));
+        QToolTip::add( LHFrame,locale->translate("your last hand"));
+	QToolTip::add( cashLabel,locale->translate("money left"));
+	QToolTip::add( cashFrame,locale->translate("money left"));
 	
 	initPoker();
 	initSound();
@@ -200,7 +204,7 @@ void kpok::initPoker()
 	drawStat=0;
 	cleanFoundCard();
 	setCash(100);
-	setHand("nothing");
+	setHand(locale->translate("nothing"));
 }
 
 int kpok::initSound()
@@ -224,7 +228,7 @@ void kpok::playSound(const char *soundname)
 	if (!sound)
 	    return;
 
-	strcpy(filename, KPoker->kdedir()+"/share/apps/kpoker/sounds/"+soundname);
+	strcpy(filename, kapp->kdedir()+"/share/apps/kpoker/sounds/"+soundname);
 	
 	
 	KAS->play(filename);
@@ -357,7 +361,7 @@ void kpok::setCash(int newCash)
 {
 	char buf[255];
 	cash = newCash;
-	sprintf(buf,"Cash: $ %d",cash);
+	sprintf(buf,"%s: $ %d",locale->translate("Cash"),cash); // locale
 	cashLabel->setText(buf);
 	cashLabel->move(cashFrame->width() / 2 - cashLabel->width() / 2, cashFrame->height() / 2 - cashLabel->height() / 2);
 }
@@ -367,11 +371,27 @@ int  kpok::getCash()
 	return cash;
 }
 
-void kpok::setHand(char *newHand)
+void kpok::setHand(const char *newHand)
 {
 	char buf[255];
-	sprintf(buf,"Last Hand: %s", newHand);
+	QFont LHFont("Helvetica",12);
+	sprintf(buf,"%s: %s",locale->translate("Last Hand"), newHand); // locale
+
+	LHLabel->setFont(LHFont);
 	LHLabel->setText(buf);
+
+/* Okay, this makes sure that the label fits in its frame --> if the width
+ * of the label is too big it simply decreases the font size.
+ */
+	if (LHLabel->width() > LHFrame->width() - 2) 
+	  {
+		  LHLabel->setFont(LHLabelSmallFont);
+		  
+		  if (LHLabel->sizeHint().width() > LHFrame->width() -2 )
+			    LHLabel->setFont(LHLabelVerySmallFont);
+		  
+		  LHLabel->resize(LHLabel->sizeHint());
+	  }
 	LHLabel->move(LHFrame->width() / 2 - LHLabel->width() / 2, LHFrame->height() / 2 - LHLabel->height() / 2);
 }
 
@@ -465,27 +485,27 @@ void kpok::drawCardsEvent()
 			    testResult=testHand();
 			    switch (testResult) {
 			    case 1 : if (foundCards[0].cardType >= 17) {
-				    foundCards[0].cardType=0; foundCards[1].cardType=0; displayWin("nothing",0); break;
+				    foundCards[0].cardType=0; foundCards[1].cardType=0; displayWin(locale->translate("nothing"),0); break;
 			    }
-				    displayWin("One Pair",5);  break;
-			    case 2 : displayWin("Two Pairs", 10); break;
-			    case 3 : displayWin("3 of a kind", 15); break;
-			    case 4 : displayWin("Full House", 40); break;
-			    case 6 : displayWin("4 of a kind", 125); break;
-			    case 7 : displayWin("Straight",20); break;
-			    case 8 : displayWin("Flush",25); break;
-			    case 9 : displayWin("Straight Flush",250); break;
-			    case 10 : displayWin("Royal Flush",2000); break;
+				    displayWin(locale->translate("One Pair"),5);  break;
+			    case 2 : displayWin(locale->translate("Two Pairs"), 10); break;
+			    case 3 : displayWin(locale->translate("3 of a kind"), 15); break;
+			    case 4 : displayWin(locale->translate("Full House"), 40); break;
+			    case 6 : displayWin(locale->translate("4 of a kind"), 125); break;
+			    case 7 : displayWin(locale->translate("Straight"),20); break;
+			    case 8 : displayWin(locale->translate("Flush"),25); break;
+			    case 9 : displayWin(locale->translate("Straight Flush"),250); break;
+			    case 10 : displayWin(locale->translate("Royal Flush"),2000); break;
 				    
-			    default: displayWin("nothing",0); break;
+			    default: displayWin(locale->translate("nothing"),0); break;
 			    }
 			    startBlinking();
 			    status = 0;
 			    
 			    if (getCash() < cashPerRound)  {
-				    KMsgBox::message(0,"You Lost", 
-						     "Oops - you went bankrupt.\nA highscoretable will appear over here later...",
-						     KMsgBox::EXCLAMATION,"New game");
+				    KMsgBox::message(0,locale->translate("You Lost"), 
+						     locale->translate("Oops - you went bankrupt.\nA highscoretable will appear over here later..."),
+						     KMsgBox::EXCLAMATION,locale->translate("New game"));
 				    initPoker();
 			    }
 			    
@@ -542,7 +562,7 @@ void kpok::bTimerEvent()
 	}
 }
 
-void kpok::displayWin(char *hand, int cashWon)
+void kpok::displayWin(const char *hand, int cashWon)
 {
 	char buf[200];
 	
@@ -551,11 +571,11 @@ void kpok::displayWin(char *hand, int cashWon)
 	
 	if (cashWon) {
 		playSound("win.wav");
-		sprintf(buf,"You won $ %d !", cashWon);
+		sprintf(buf,"%s %d !",locale->translate("You won $"), cashWon); // locale
 	}
 	else {
 		playSound("lose.wav");
-		sprintf(buf,"Game Over");
+		sprintf(buf,locale->translate("Game Over")); // locale
 	}
 	wonLabel->setText(buf);
 	wonLabel->move(this->width() / 2 - wonLabel->width() / 2, wonLabelVDist);

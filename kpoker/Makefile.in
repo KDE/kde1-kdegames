@@ -43,7 +43,7 @@ APPSDIR = $(prefix)/share/applnk/Games
 ########## Files #####################
 
 OBJECTS =	kpoker.o kpaint.o top.o main.o
-SRCMETA =	kpoker.moc kpaint.moc top.moc defines.moc
+SRCMETA =	kpoker.moc kpaint.moc top.moc
 TARGET	=	kpoker
 
 ######### build rules ################
@@ -67,7 +67,6 @@ install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
 	(cd bitmaps && $(MAKE) install)
-	$(INSTALL_DIR) $(ICONDIR)
 	$(INSTALL_DATA) kpoker.xpm $(ICONDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) kpoker.kdelnk $(APPSDIR)

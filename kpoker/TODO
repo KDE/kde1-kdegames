@@ -1,5 +1,5 @@
-- highscore table
+- hiscore table
 - build in a funky "you won $x" display (maybe wave effect out of Qt
 example)
-- translation using KLocale
+
 

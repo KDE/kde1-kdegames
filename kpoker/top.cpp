@@ -39,12 +39,14 @@
 #include "kpoker.h"
 
 #include "top.moc"
+#include "global.h"
 
 const int ID_SOUND = 100;
 int soId;
 
 PokerWindow::PokerWindow() :   KTopLevelWidget()
 {
+	locale = kapp->getLocale();
 	
 	_kpok = new kpok(this,0);
 	setView( _kpok, FALSE );
@@ -57,13 +59,13 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	
 	
 	filePopup = new QPopupMenu(0,"fpopup");
-	filePopup->insertItem("&New game",_kpok,SLOT(initPoker()));
+	filePopup->insertItem(locale->translate("&New game"),_kpok,SLOT(initPoker()));
 	filePopup->insertSeparator();
-	filePopup->insertItem("&Quit", qApp, SLOT(quit()));
+	filePopup->insertItem(locale->translate("&Quit"), qApp, SLOT(quit()));
 
        	optionsPopup = new QPopupMenu(0,"oppup");
 	
-	soId = optionsPopup->insertItem("&Sound", this, SLOT(toggleSound()));
+	soId = optionsPopup->insertItem(locale->translate("&Sound"), this, SLOT(toggleSound()));
 	optionsPopup->setCheckable(TRUE);
 
        	if (_kpok->initSound() == 1) {
@@ -74,19 +76,16 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	}
 	
 	helpPopup = new QPopupMenu(0,"helpp");
-	helpPopup->insertItem("&Help", _kpok, SLOT(help()));
+	helpPopup->insertItem(locale->translate("&Help"), _kpok, SLOT(help()));
 	helpPopup->insertSeparator();
-	helpPopup->insertItem("&About...", _kpok, SLOT(showAboutBox()));
+	helpPopup->insertItem(locale->translate("&About..."), _kpok, SLOT(showAboutBox()));
 	
 	
-	menu->insertItem("&File", filePopup);
-	menu->insertItem("&Options", optionsPopup);
+	menu->insertItem(locale->translate("&File"), filePopup);
+	menu->insertItem(locale->translate("&Options"), optionsPopup);
 	
 	menu->insertSeparator();
-	menu->insertItem("&Help", helpPopup);
-	
-//      	_kpok->setFixedSize(420,230);
-	
+	menu->insertItem(locale->translate("&Help"), helpPopup);
 	
 }
 

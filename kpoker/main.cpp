@@ -24,13 +24,17 @@
 */
     
 #include <kapp.h>
-
+#include "global.h"
 #include "top.h"
+
+KLocale *locale;
 
 int main( int argc, char *argv[] )
 {
 	KApplication *myApp = new KApplication( argc, argv );
 	PokerWindow *MainScreen = new PokerWindow;
+
+//	locale = kapp->getLocale();
 	
 	myApp->setMainWidget( MainScreen );
 	MainScreen->show();

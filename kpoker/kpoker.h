@@ -9,11 +9,12 @@
 
 #include "kpaint.h"
 #include "defines.h"
+#include <klocale.h>
 
 class KAudio;
 
-const char PVERSION[] = "0.2";
-const char PDATE[] = "09/05/97";
+const char PVERSION[] = "0.3";
+const char PDATE[] = "09/30/97";
 
 typedef enum _cardtype { // I don't use this anymore. But it helps to understand the numbers :)
 	        DECK=0,
@@ -53,7 +54,7 @@ public:
 protected:
 	void setCash(int newCash);
 	int  getCash();
-	void setHand(char *newHand);
+	void setHand(const char *newHand);
 	
 	int  testHand();
 	void addFoundCard(int, int);
@@ -77,7 +78,7 @@ protected slots:
 	void frameClick(CardWidget *);
 	void bTimerEvent();
 	void drawCardsEvent();
-	void displayWin(char *hand, int cashWon);
+	void displayWin(const char *hand, int cashWon);
 	void showAboutBox();
 	void help();
 	
@@ -108,6 +109,7 @@ private:
 	int           drawStat; // status of drawing (which card already was drawn etc.
         bool          sound;
         KAudio       *KAS;						      
+	KLocale *locale;						      
 };
 
 
