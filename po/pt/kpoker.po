@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
-"Content-Type: text/plain; charset=\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
 

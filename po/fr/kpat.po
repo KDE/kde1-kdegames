@@ -197,19 +197,28 @@ msgid "&Options"
 msgstr "&Options"
 
 #: pwidget.cpp:109
-msgid "Help..."
+#, fuzzy
+msgid "&Help..."
 msgstr "Aide..."
 
 #: pwidget.cpp:110
-msgid "Help on rules..."
+#, fuzzy
+msgid "Help on &rules..."
 msgstr "Aide sur les règles"
 
+#: pwidget.cpp:111
+#, fuzzy
+msgid "About &Qt..."
+msgstr "Au sujet de..."
+
 #: pwidget.cpp:112
-msgid "About..."
+#, fuzzy
+msgid "A&bout..."
 msgstr "Au sujet de..."
 
 #: pwidget.cpp:113 pwidget.cpp:125
-msgid "&Help"
+#, fuzzy
+msgid "Help"
 msgstr "&Aide"
 
 #: pwidget.cpp:124

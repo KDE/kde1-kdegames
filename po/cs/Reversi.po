@@ -5,6 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
+"POT-Creation-Date: 1997-09-10 17:26+0200\n"
 "PO-Revision-Date: 1997-10-18 17:17 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <LL@li.org>\n"

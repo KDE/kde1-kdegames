@@ -108,4 +108,3 @@ msgstr "Gondolkozok..."
 #: AbTop.cpp:157
 msgid "It's your turn !"
 msgstr "Most te jössz !"
-

@@ -46,6 +46,16 @@ msgstr "Na&stavi"
 msgid "&New game"
 msgstr "&Nova igra"
 
+#: app.cpp:241
+#, fuzzy
+msgid "&Load game"
+msgstr "&Nova igra"
+
+#: app.cpp:242
+#, fuzzy
+msgid "&Save game"
+msgstr "&Nova igra"
+
 #: app.cpp:242
 msgid "&Undo move"
 msgstr "&Vrati potez"
@@ -192,6 +202,10 @@ msgstr "P&ravila"
 msgid "&Strategy hints"
 msgstr "&Strategija i trikovi"
 
+#, fuzzy
+msgid "About &Qt..."
+msgstr "&O programu..."
+
 #: app.cpp:318
 msgid "&About..."
 msgstr "&O programu..."
@@ -243,6 +257,10 @@ msgstr "Vi (XXXXX): 88"
 #: app.cpp:371
 msgid "Computer (XXXXX): 88"
 msgstr "Raèunalo (XXXXX): 88"
+
+#, fuzzy
+msgid "Game saved"
+msgstr "Igra privedena kraju"
 
 #: app.cpp:556
 msgid "Information"
@@ -308,7 +326,6 @@ msgstr ""
 "Vi:     : %d\n"
 "Raèunalo: %d"
 
-
 #: app.cpp:670
 msgid "Red's"
 msgstr "Crveni"
@@ -334,12 +351,14 @@ msgid "KReversi: Hall Of Fame"
 msgstr "Kreversi: Najbolji igraèi"
 
 #: app.cpp:866
+#, fuzzy
 msgid ""
-"You've made in into the \"Hall Of Fame\". Type in your name so mankind will "
-"always remember your cool rating."
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
 msgstr ""
-"U¹li ste u popis najboljih! Upi¹ite svoje ime kako bi èovjeèanstvo "
-"zauvijek zapamtilo va¹ uspjeh."
+"U¹li ste u popis najboljih! Upi¹ite svoje ime kako bi èovjeèanstvo zauvijek "
+"zapamtilo va¹ uspjeh."
 
 #: app.cpp:871
 msgid "Your name:"
@@ -357,35 +376,40 @@ msgstr "O programu KReversi"
 msgid "Version "
 msgstr "Verzija"
 
-#: about.cpp:69 
-msgid ""  
-"\n"  
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"  
-"\n" 
-"This program is free software published under the GNU General Public License "  
-"(take a look into help for details)\n"  
-"\n"  
-"Thanks to:\n"  
-"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"  
-"\n"  
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> for comments and bugfixes\n"  
-"\n"  
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"  
-
-msgstr ""  
-"\n"  
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n" 
-"\n" 
-"Ovaj program je besplatan i izdan pod GNU General Public License " 
-"(za detalje pogledajte pomoæ)\n" 
-"\n" 
-"Hvala:\n" 
-"\tMats Luthman za game engine (igra je naèinjena na osnovu njegovog JAVA appleta)\n" 
-"\n"  
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> za komentare i uklanjanje gre¹aka\n" 
-"\n" 
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> za animirane ¾etone"             
-
+#: about.cpp:69
+#, fuzzy
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Ovaj program je besplatan i izdan pod GNU General Public License (za detalje "
+"pogledajte pomoæ)\n"
+"\n"
+"Hvala:\n"
+"\tMats Luthman za game engine (igra je naèinjena na osnovu njegovog JAVA "
+"appleta)\n"
+"\n"
+"\tStephan Kulow <coolo@itm.mu-luebeck.de> za komentare i uklanjanje gre¹aka\n"
+"\n"
+"\tArne Klaassen <klaassen@informatik.uni-rostock.de> za animirane ¾etone"
 
 #: app.cpp:569 app.cpp:574
 #, c-format

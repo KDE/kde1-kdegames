@@ -1,36 +1,10 @@
-# Polish translation of KDE kabalone
-# Version 0.1.0
-# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
-
-msgid "Save"
-msgstr "&Zachowaj"
-
-msgid "Spy"
-msgstr "Po&dgl±danie"
-
-msgid "Save Position"
-msgstr "&Zachowaj pozycjê"
-
-msgid "Restore Position"
-msgstr "&Odtwórz pozycjê"
-
-msgid "LeftUp"
-msgstr "LewoGóra"
-
-msgid "RightUp"
-msgstr "PrawoGóra"
-
-msgid "LeftDown"
-msgstr "LewoDó³"
-
-msgid "RightDown"
-msgstr "PrawoDó³"
-
-msgid "Side"
-msgstr "Bok"
-
-msgid "Board value"
-msgstr "Warto¶æ uk³adu"
+msgid ""
+msgstr ""
+"Date: 1997-09-24 10:59:56+0200\n"
+"From: root <root@joe>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
+"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
 #: AbTop.cpp:29 AbTop.cpp:143
 msgid "Move"
@@ -132,3 +106,35 @@ msgstr "Namy¶lam siê..."
 msgid "It's your turn !"
 msgstr "Twój ruch!"
 
+# Polish translation of KDE kabalone
+# Version 0.1.0
+# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+#~ msgid "Save"
+#~ msgstr "&Zachowaj"
+
+#~ msgid "Spy"
+#~ msgstr "Po&dgl±danie"
+
+#~ msgid "Save Position"
+#~ msgstr "&Zachowaj pozycjê"
+
+#~ msgid "Restore Position"
+#~ msgstr "&Odtwórz pozycjê"
+
+#~ msgid "LeftUp"
+#~ msgstr "LewoGóra"
+
+#~ msgid "RightUp"
+#~ msgstr "PrawoGóra"
+
+#~ msgid "LeftDown"
+#~ msgstr "LewoDó³"
+
+#~ msgid "RightDown"
+#~ msgstr "PrawoDó³"
+
+#~ msgid "Side"
+#~ msgstr "Bok"
+
+#~ msgid "Board value"
+#~ msgstr "Warto¶æ uk³adu"

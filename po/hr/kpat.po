@@ -197,19 +197,28 @@ msgid "&Options"
 msgstr "P&ode¹avanja"
 
 #: pwidget.cpp:109
-msgid "Help..."
+#, fuzzy
+msgid "&Help..."
 msgstr "Pomoæ..."
 
 #: pwidget.cpp:110
-msgid "Help on rules..."
+#, fuzzy
+msgid "Help on &rules..."
 msgstr "Pomoæ o pravilima..."
 
+#: pwidget.cpp:111
+#, fuzzy
+msgid "About &Qt..."
+msgstr "O programu..."
+
 #: pwidget.cpp:112
-msgid "About..."
+#, fuzzy
+msgid "A&bout..."
 msgstr "O programu..."
 
 #: pwidget.cpp:113 pwidget.cpp:125
-msgid "&Help"
+#, fuzzy
+msgid "Help"
 msgstr "&Pomoæ"
 
 #: pwidget.cpp:124
@@ -234,43 +243,42 @@ msgstr "Napoleons Tomb"
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: igra %d nije ugraðena\n"
 
-#: pwidget.cpp:299 
-msgid ""  
-"KPat\n"  
-"\n"  
-"Version "  
-msgstr ""  
-"KPat\n"  
+#: pwidget.cpp:299
+msgid ""
+"KPat\n"
+"\n"
+"Version "
+msgstr ""
+"KPat\n"
 "\n"
 "Verzija "
 
-
-#: pwidget.cpp:301 
-msgid ""  
-"\n"  
-"Copyright (C) 1995 Paul Olav Tvete\n"  
-"\n"  
-"Additional work done by:\t\t \n"  
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"  
-"\tMario Weilguni\t<mweilguni@sime.com>\n"  
-"\n"  
-"This program is part of the K Desktop Environment.\n"  
-"Use help for license information."  
-msgstr ""  
-"\n"  
-"Copyright (C) 1995 Paul Olav Tvete\n"  
-"\n"  
-"Dodatci:\t\t \n" 
-"\tMatthias Ettrich\t<ettrich@kde.org>\n" 
-"\tMario Weilguni\t<mweilguni@sime.com>\n" 
+#: pwidget.cpp:301
+#, fuzzy
+msgid ""
 "\n"
-"Ovaj program dio je K Desktop Enviroment.\n" 
-"Pogledajte pomoæ za informacije o licenci."                           
-
+"Copyright (C) 1995  Paul Olav Tvete\n"
+"\n"
+"Additional work done by:\t\t \n"
+"\tMatthias Ettrich\t<ettrich@kde.org>\n"
+"\tMario Weilguni\t<mweilguni@sime.com>\n"
+"\n"
+"This program is part of the K Desktop Environment.\n"
+"Use help for license information."
+msgstr ""
+"\n"
+"Copyright (C) 1995 Paul Olav Tvete\n"
+"\n"
+"Dodatci:\t\t \n"
+"\tMatthias Ettrich\t<ettrich@kde.org>\n"
+"\tMario Weilguni\t<mweilguni@sime.com>\n"
+"\n"
+"Ovaj program dio je K Desktop Enviroment.\n"
+"Pogledajte pomoæ za informacije o licenci."
 
 #: pwidget.cpp:309
-msgid "About kpat"  
-msgstr "O programu kpat" 
+msgid "About kpat"
+msgstr "O programu kpat"
 
 #: pwidget.cpp:346
 msgid "Error"

@@ -1,6 +1,5 @@
-#KDE Translation project
-#Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
-
+# KDE Translation project
+# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
 #: toplevel.cpp:89
 msgid "&New Game"
 msgstr "&Nuova Partita"

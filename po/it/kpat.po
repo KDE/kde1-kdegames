@@ -121,7 +121,6 @@ msgstr ""
 "Questo termina il gioco in corso\n"
 "Sei sicuro di volerlo fare?"
 
-
 #: pwidget.cpp:73
 msgid "&Quit"
 msgstr "&Esci"
@@ -203,19 +202,28 @@ msgid "&Options"
 msgstr "&Opzioni"
 
 #: pwidget.cpp:109
-msgid "Help..."
+#, fuzzy
+msgid "&Help..."
 msgstr "Aiuto..."
 
 #: pwidget.cpp:110
-msgid "Help on rules..."
+#, fuzzy
+msgid "Help on &rules..."
 msgstr "Aiuto sulle regole..."
 
+#: pwidget.cpp:111
+#, fuzzy
+msgid "About &Qt..."
+msgstr "Info..."
+
 #: pwidget.cpp:112
-msgid "About..."
+#, fuzzy
+msgid "A&bout..."
 msgstr "Info..."
 
 #: pwidget.cpp:113 pwidget.cpp:125
-msgid "&Help"
+#, fuzzy
+msgid "Help"
 msgstr "&Aiuto"
 
 #: pwidget.cpp:124

@@ -45,4 +45,3 @@ msgstr "Nave destruida. Presione Intro para despegar"
 #: toplevel.cpp:235
 msgid "Game Over!"
 msgstr "¡Game Over!"
-

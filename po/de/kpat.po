@@ -213,7 +213,8 @@ msgid "A&bout..."
 msgstr "Ü&ber..."
 
 #: pwidget.cpp:113 pwidget.cpp:125
-msgid "&Help"
+#, fuzzy
+msgid "Help"
 msgstr "&Hilfe"
 
 #: pwidget.cpp:124

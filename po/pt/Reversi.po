@@ -46,6 +46,16 @@ msgstr "&Continuar"
 msgid "&New game"
 msgstr "&Novo jogo"
 
+#: app.cpp:241
+#, fuzzy
+msgid "&Load game"
+msgstr "&Novo jogo"
+
+#: app.cpp:242
+#, fuzzy
+msgid "&Save game"
+msgstr "&Novo jogo"
+
 #: app.cpp:242
 msgid "&Undo move"
 msgstr "&Desfazer jogada"
@@ -170,7 +180,7 @@ msgstr "1 (rapidissimo)"
 
 #: app.cpp:306
 msgid "10 (slowest)"
-msgstr "10 (lentissimo)" 
+msgstr "10 (lentissimo)"
 
 #: app.cpp:307
 msgid "Animation speed"
@@ -191,6 +201,10 @@ msgstr "&Regras"
 #: app.cpp:316
 msgid "&Strategy hints"
 msgstr "Dicas de &Estrategia"
+
+#, fuzzy
+msgid "About &Qt..."
+msgstr "&Acerca..."
 
 #: app.cpp:318
 msgid "&About..."
@@ -243,6 +257,10 @@ msgstr "Voce (XXXXX): 88"
 #: app.cpp:371
 msgid "Computer (XXXXX): 88"
 msgstr "Computador (XXXXX): 88"
+
+#, fuzzy
+msgid "Game saved"
+msgstr "Jogo terminado"
 
 #: app.cpp:556
 msgid "Information"
@@ -333,12 +351,14 @@ msgid "KReversi: Hall Of Fame"
 msgstr "KReversi: Quadro de Honra"
 
 #: app.cpp:866
+#, fuzzy
 msgid ""
-"You've made in into the \"Hall Of Fame\". Type in your name so mankind will "
-"always remember your cool rating."
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
 msgstr ""
-"Conseguiu entrar no \"Quadro de Honra\". Introduza o seu nome para que a  humanidade"
-"lembre-se sempre da sua posição."
+"Conseguiu entrar no \"Quadro de Honra\". Introduza o seu nome para que a  "
+"humanidadelembre-se sempre da sua posição."
 
 #: app.cpp:871
 msgid "Your name:"
@@ -357,25 +377,31 @@ msgid "Version "
 msgstr "Versão"
 
 #: about.cpp:69
+#, fuzzy
 msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"This program is free software published under the GNU General Public License "
-"(take a look into help for details)\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
 "\n"
 "Thanks to:\n"
-"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
 "\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> for comments and bugfixes\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
 "\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
 msgstr ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"Este programa é software livre publicado sob os termos da Licensa Publica Geral GNU "
-"(veja na ajuda para obter detalhes)\n"
+"Este programa é software livre publicado sob os termos da Licensa Publica "
+"Geral GNU (veja na ajuda para obter detalhes)\n"
 "\n"
 "Agradecimentos:\n"
 "\tMats Luthman pelo motor do jogo (Transferi-o de uma applet JAVA)\n"

@@ -1,7 +1,6 @@
 # Polish translation of KDE kasteroids
 # Version 0.1.0
 # (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
-
 #: toplevel.cpp:89
 msgid "&New Game"
 msgstr "&Nowa gra"

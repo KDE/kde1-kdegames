@@ -1,10 +1,10 @@
-#KDE Translation project
-#Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
+# KDE Translation project
+# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
 msgid ""
 msgstr ""
+"Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
-"Content-Type: text/plain; charset=\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 

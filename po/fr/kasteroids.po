@@ -1,4 +1,3 @@
-
 #: toplevel.cpp:89
 msgid "&New Game"
 msgstr "&Nouveau jeu"
