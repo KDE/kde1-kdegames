@@ -30,7 +30,7 @@
 #include <qpopmenu.h>
 #include <qtimer.h>
 #include <qtooltip.h>
-
+#include <qmsgbox.h>
 
 #include <kapp.h>
 #include <kmenubar.h>
@@ -361,7 +361,7 @@ void kpok::setCash(int newCash)
 {
 	char buf[255];
 	cash = newCash;
-	sprintf(buf,"%s: $ %d",locale->translate("Cash"),cash); // locale
+	sprintf(buf,"%s: $ %d",locale->translate("Cash"),cash);  // locale
 	cashLabel->setText(buf);
 	cashLabel->move(cashFrame->width() / 2 - cashLabel->width() / 2, cashFrame->height() / 2 - cashLabel->height() / 2);
 }
@@ -588,6 +588,11 @@ void kpok::showAboutBox()
 	char aboutText[250];
 	sprintf(aboutText,"%s v%s (%s)\n\ncopyright 1997 by Jochen Tuchbreiter\n<whynot@mabi.de>\n\nFor a list of credits see helpfile.\n\nSuggestions, bug reports etc. are welcome", kapp->getCaption(),PVERSION, PDATE);
 	KMsgBox::message(0, kapp->getCaption(), aboutText);
+}
+
+void kpok::showQtAboutBox()
+{
+	QMessageBox::aboutQt(this);
 }
 
 

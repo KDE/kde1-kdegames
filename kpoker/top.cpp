@@ -79,7 +79,7 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	helpPopup->insertItem(locale->translate("&Help"), _kpok, SLOT(help()));
 	helpPopup->insertSeparator();
 	helpPopup->insertItem(locale->translate("&About..."), _kpok, SLOT(showAboutBox()));
-	
+	helpPopup->insertItem(locale->translate("About &Qt..."), _kpok, SLOT(showQtAboutBox()));
 	
 	menu->insertItem(locale->translate("&File"), filePopup);
 	menu->insertItem(locale->translate("&Options"), optionsPopup);
