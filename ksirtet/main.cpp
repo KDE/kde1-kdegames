@@ -3,7 +3,9 @@
 #include <qdatetm.h>
 #include <qmsgbox.h>
 #include <kmsgbox.h>
-#include <kkeyconf.h>
+#include <kstdaccel.h>
+#include <kkeydialog.h>
+
 #include "defines.h"
 #include "field.h"
 #include "version.h"
@@ -28,9 +30,9 @@ KTetris::KTetris()
 	options->insertItem(i18n("&Keys"), this, SLOT(configKeys()) );
 	
  	QPopupMenu *help = kapp->getHelpMenu(true, QString(KTETRIS_NAME)
-                                         + " " + KTETRIS_VERSION
-										 + " (" + KTETRIS_DATE + ")\n\n"
-										 + i18n("by") + " " + KTETRIS_AUTHOR);
+					     + " " + KTETRIS_VERSION
+					     + " (" + KTETRIS_DATE + ")\n\n"
+					     + i18n("by") + " " + KTETRIS_AUTHOR);
 	
 	menu = new KMenuBar(this);
 	menu->enableMoving(TRUE);
@@ -49,6 +51,11 @@ KTetris::KTetris()
 	if ( kconf->readNumEntry(OP_MENUBAR_VIS)!=1 ) menu->show();
 	else menu->hide();
 	toggleMenu();
+}
+
+KTetris::~KTetris()
+{
+    delete field;
 }
 
 void KTetris::quit()
@@ -73,16 +80,16 @@ void KTetris::toggleMenu()
 
 void KTetris::configKeys()
 {
-	kKeys->configureKeys(this);
+    field->configKeys();
 }
 
 /* MAIN */
 int main( int argc, char **argv )
 {
 	KApplication a(argc, argv, "ktetris");
-	KTetris *te = new KTetris();
-	a.setMainWidget(te);
-	te->setCaption( kapp->getCaption() );
-	te->show();
+	KTetris te;
+	a.setMainWidget(&te);
+	te.setCaption( kapp->getCaption() );
+	te.show();
 	return a.exec();
 }

@@ -12,7 +12,6 @@
 #include <qmsgbox.h>
 
 #include <kapp.h>
-#include <kkeyconf.h>
 #include <kmsgbox.h>
 
 #include "board.moc"
@@ -21,16 +20,16 @@
 const uint blinkLineTime = 150;
 const uint dropDownTime = 10;
 
-Board::Board( QWidget *p, const char *name )
-: QFrame( p, name )
+Board::Board( KAccel * parentkaccel, QWidget *p, const char *name )
+: QFrame( p, name ), kacc( parentkaccel )
 {
     setFrameStyle( QFrame::Panel | QFrame::Sunken );
-	setPalette(black);
+    setPalette(black);
 
-	multiGame = FALSE;
+    multiGame = FALSE;
     timer = new QTimer(this);
-	paint = new QPainter(this);
-	connect( timer, SIGNAL(timeout()), SLOT(timeout()) );
+    paint = new QPainter(this);
+    connect( timer, SIGNAL(timeout()), SLOT(timeout()) );
 
     colors[0].setRgb(200,100,100);
     colors[1].setRgb(100,200,100);
@@ -39,38 +38,38 @@ Board::Board( QWidget *p, const char *name )
     colors[4].setRgb(200,100,200);
     colors[5].setRgb(100,200,200);
     colors[6].setRgb(218,170,  0);
-	colors[7].setRgb(100,100,100);
-	colors[8].setRgb(  0,  0,  0);
+    colors[7].setRgb(100,100,100);
+    colors[8].setRgb(  0,  0,  0);
 
-	state = NoGame;
+    state = NoGame;
     updateTimeoutTime();   /* Sets timeoutTime */
 
-	msg = new QLabel(this);
-	msg->setFrameStyle( QFrame::Panel | QFrame::Sunken );
-	msg->setAlignment(AlignCenter);
+    msg = new QLabel(this);
+    msg->setFrameStyle( QFrame::Panel | QFrame::Sunken );
+    msg->setAlignment(AlignCenter);
 
-	pb = new QPushButton(this);
-	connect( pb, SIGNAL(clicked()), SLOT(buttonClick()) );
+    pb = new QPushButton(this);
+    connect( pb, SIGNAL(clicked()), SLOT(buttonClick()) );
 
-	/* configuration & highscore initialisation */
-	kconf = kapp->getConfig();
-	isConfigWritable =
-		(kapp->getConfigState()==KApplication::APPCONFIG_READWRITE);
+    /* configuration & highscore initialisation */
+    kconf = kapp->getConfig();
+    isConfigWritable =
+	(kapp->getConfigState()==KApplication::APPCONFIG_READWRITE);
 	
-	/* if the entries do not exist : create them */
-	kconf->setGroup(HS_GRP);
-	QString str1, str2;
-	for (int i=0; i<NB_HS; i++) {
-		str1.sprintf("%s%i", HS_NAME_KEY, i);
-		if ( !kconf->hasKey(str1) )
-		    kconf->writeEntry(str1, i18n("Anonymous"));
-		str2.sprintf("%s%i", HS_SCORE_KEY, i);    
-		if ( !kconf->hasKey(str2) )
-			kconf->writeEntry(str2, 0);
-	}
+    /* if the entries do not exist : create them */
+    kconf->setGroup(HS_GRP);
+    QString str1, str2;
+    for (int i=0; i<NB_HS; i++) {
+	str1.sprintf("%s%i", HS_NAME_KEY, i);
+	if ( !kconf->hasKey(str1) )
+	    kconf->writeEntry(str1, i18n("Anonymous"));
+	str2.sprintf("%s%i", HS_SCORE_KEY, i);    
+	if ( !kconf->hasKey(str2) )
+	    kconf->writeEntry(str2, 0);
+    }
 
-	/* show the midbutton with "start game" */
-	midbutton(FALSE);
+    /* show the midbutton with "start game" */
+    midbutton(FALSE);
 }
 
 
@@ -171,12 +170,12 @@ void Board::stopGame()
 
 void Board::setPieceMovingKeys( bool activate )
 {
-	kKeys->toggleFunction(K_MAIN, i18n("Move left"), activate);
-	kKeys->toggleFunction(K_MAIN, i18n("Move right"), activate);
-	kKeys->toggleFunction(K_MAIN, i18n("Drop down"), activate);
-	kKeys->toggleFunction(K_MAIN, i18n("One line down"), activate);
-	kKeys->toggleFunction(K_MAIN, i18n("Rotate left"), activate);
-	kKeys->toggleFunction(K_MAIN, i18n("Rotate right"), activate);
+    kacc->setItemEnabled("Move left", activate);
+    kacc->setItemEnabled("Move right", activate);
+    kacc->setItemEnabled("Drop down", activate);
+    kacc->setItemEnabled("One line down", activate);
+    kacc->setItemEnabled("Rotate left", activate);
+    kacc->setItemEnabled("Rotate right", activate);
 }
 
 

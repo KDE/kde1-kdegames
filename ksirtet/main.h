@@ -13,7 +13,7 @@ class KTetris : public KTopLevelWidget
 
  public:
 	KTetris();
-	
+        virtual ~KTetris();
 	bool menu_visible;
 	
  private slots:

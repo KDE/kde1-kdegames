@@ -1,6 +1,6 @@
 #include "field.h"
 
-#include <kkeyconf.h>
+#include <kstdaccel.h>
 #include "gtboard.h"
 #include "dialogs.h"
 
@@ -12,42 +12,41 @@ Field::Field(QWidget *parent, const char *name)
 	net_obj = 0;
 	
 	installEventFilter(this);
-	
-	board = new GTBoard(this);
+
+	kacc = new KAccel ( this );
+	board = new GTBoard(kacc, this);
 	//	board = new GGBoard(this);
 	board->installEventFilter(this);
 	
 	connect( board, SIGNAL(showOpponents()), SLOT(showOpponents()) );
 	connect( board, SIGNAL(updateOpponents()), SLOT(updateOpponents()) );
 
+	KStdAccel stdacc; // Access to standard accelerators
 	/* keys connections */
-	kKeys->addKey(i18n("Quit"), "CTRL+Q");
-	kKeys->addKey(i18n("New game"), "F2");
-	kKeys->addKey(i18n("Pause game"), "P");
-	kKeys->addKey(i18n("Help"), "F1");
-	kKeys->addKey(i18n("High scores"), "H");
-	kKeys->addKey(i18n("Move left"), "Left");
-	kKeys->addKey(i18n("Move right"), "Right");
-	kKeys->addKey(i18n("Drop down"), "Down");
-	kKeys->addKey(i18n("One line down"), "Shift");
-	kKeys->addKey(i18n("Rotate left"), "Up");
-	kKeys->addKey(i18n("Rotate right"), "Return");
-	kKeys->addKey(i18n("Close dialog"), "Return");
-	kKeys->addKey(i18n("Ok dialog"), "Return");
-	kKeys->addKey(i18n("Cancel dialog"), "Escape");
+	kacc->insertItem(i18n("Quit"), "Quit", stdacc.quit());
+	kacc->insertItem(i18n("New game"), "New game", "F2");
+	kacc->insertItem(i18n("Pause game"), "Pause game", "P");
+	kacc->insertItem(i18n("Help"), "Help", stdacc.help());
+	kacc->insertItem(i18n("High scores"), "High scores", "H");
+	kacc->insertItem(i18n("Move left"), "Move left", "Left");
+	kacc->insertItem(i18n("Move right"), "Move right", "Right");
+	kacc->insertItem(i18n("Drop down"), "Drop down", "Down");
+	kacc->insertItem(i18n("One line down"), "One line down", "Shift");
+	kacc->insertItem(i18n("Rotate left"), "Rotate left", "Up");
+	kacc->insertItem(i18n("Rotate right"), "Rotate right", "Return");
 	                                                                   
-	kKeys->registerWidget(K_MAIN, this);
-	kKeys->connectFunction(K_MAIN, i18n("Quit"), parent, SLOT(quit()));
-	kKeys->connectFunction(K_MAIN, i18n("New game"), board, SLOT(start()));
-	kKeys->connectFunction(K_MAIN, i18n("Pause game"), board, SLOT(pause()));
-	kKeys->connectFunction(K_MAIN, i18n("High scores"), board, SLOT(showHighScores()));
+	kacc->connectItem("Quit", parent, SLOT(quit()));
+	kacc->connectItem("New game", board, SLOT(start()));
+	kacc->connectItem("Pause game", board, SLOT(pause()));
+	kacc->connectItem("High scores", board, SLOT(showHighScores()));
 	/* the following connections are disactivated */
-	kKeys->connectFunction(K_MAIN, i18n("Move left"), board, SLOT(pMoveLeft()), FALSE);
-	kKeys->connectFunction(K_MAIN, i18n("Move right"), board, SLOT(pMoveRight()), FALSE);
-	kKeys->connectFunction(K_MAIN, i18n("Drop down"), board, SLOT(pDropDown()), FALSE);
-	kKeys->connectFunction(K_MAIN, i18n("One line down"), board, SLOT(pOneLineDown()), FALSE);
-	kKeys->connectFunction(K_MAIN, i18n("Rotate left"), board, SLOT(pRotateLeft()), FALSE);
-	kKeys->connectFunction(K_MAIN, i18n("Rotate right"), board, SLOT(pRotateRight()), FALSE);
+	kacc->connectItem("Move left", board, SLOT(pMoveLeft()), FALSE);
+	kacc->connectItem("Move right", board, SLOT(pMoveRight()), FALSE);
+	kacc->connectItem("Drop down", board, SLOT(pDropDown()), FALSE);
+	kacc->connectItem("One line down", board, SLOT(pOneLineDown()), FALSE);
+	kacc->connectItem("Rotate left", board, SLOT(pRotateLeft()), FALSE);
+	kacc->connectItem("Rotate right", board, SLOT(pRotateRight()), FALSE);
+
 	
 	lScore = new QLabel(i18n("Score"), this);
 	showScore = new QLCDNumber(6,this);
@@ -124,6 +123,7 @@ Field::Field(QWidget *parent, const char *name)
 Field::~Field()
 {
 	if (net_obj) delete net_obj;
+	delete kacc;
 }
 
 

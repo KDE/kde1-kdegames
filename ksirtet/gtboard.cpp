@@ -3,8 +3,8 @@
 #include <stdlib.h>
 #include <qpainter.h>
 
-GTBoard::GTBoard(  QWidget *p, const char *name )
-: Board(p, name)
+GTBoard::GTBoard( KAccel * parentkacc, QWidget *p, const char *name )
+: Board(parentkacc, p, name)
 {}
 
 

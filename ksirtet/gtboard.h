@@ -11,7 +11,7 @@
 class GTBoard : public Board
 {
  public:
-	GTBoard( QWidget *parent=0, const char *name=0);
+	GTBoard( KAccel * parentkacc, QWidget *parent=0, const char *name=0);
 	
 	int  getLinesRemoved() 
 		{ return nLinesRemoved; }
