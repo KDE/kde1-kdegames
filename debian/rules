@@ -16,7 +16,7 @@ $(BUILDDIR)/build-stamp:
 	cd $(BUILDDIR) ;\
 	CXXFLAGS="-g -O2 -Wall" \
 	  ../configure --with-install-root=`pwd`/../debian/tmp --prefix=/usr \
-	  --disable-rpath --bindir=$${kde_bindir} 
+	  --enable-debug --disable-rpath --bindir=$${kde_bindir} 
 	
 	make -C $(BUILDDIR)
  
@@ -28,6 +28,7 @@ clean: debian-clean
 	-rm -f debian/menu
 	-rm -f debian/substvars
 	-rm -f configure
+	dh_clean
 
 debian-clean:
 	dh_testdir
