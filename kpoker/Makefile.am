@@ -27,7 +27,7 @@ install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-kpoker.xpm $(kde_minidir)/kpoker.xpm
 
-uninstall:
+uninstall-local:
 	rm -f $(kde_minidir)/kpoker.xpm
 
 messages:
