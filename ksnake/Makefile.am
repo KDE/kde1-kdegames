@@ -2,7 +2,7 @@
 INCLUDES = $(all_includes)
 
 LDFLAGS	= $(all_libraries) $(KDE_RPATH)
-LDADD =        -lm $(LIB_KDEUI)
+LDADD   = $(LIB_KDEUI) -lm
 
 noinst_HEADERS = game.h trys.h rattler.h board.h\
 		level.h ball.h snake.h\
@@ -44,4 +44,3 @@ uninstall-local:
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(ksnake_SOURCES) && mv messages.po ../po/ksnake.pot
 
-# DO NOT DELETE THIS LINE -- make depend depends on it.
