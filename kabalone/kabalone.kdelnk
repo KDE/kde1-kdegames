@@ -4,6 +4,7 @@ Name=Abalone
 Name[is]=Kínaskák
 Name[ja]=¥¢¥Ð¥í¡¼¥Ë
 Name[no]=Sjøøre
+Icon=kabalone.xpm
 Type=Application
 Exec=kabalone -caption "%c"
 DocPath=kabalone/index.html

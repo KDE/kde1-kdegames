@@ -14,7 +14,10 @@ EXTRA_DIST = $(kde_icon_DATA) $(apps_DATA) $(html_DATA) mini-ksirtet.xpm
 install-data-local:
 	$(mkinstalldirs) $(minidir)
 	$(INSTALL_DATA) $(srcdir)/mini-ksirtet.xpm $(minidir)/ksirtet.xpm
+	$(mkinstalldirs) $(minidir)/../large
+	$(INSTALL_DATA) $(srcdir)/large-ksirtet.xpm $(minidir)/../large/ksirtet.xpm
 
 uninstall-local:
 	rm -f $(minidir)/ksirtet.xpm
+	rm -f $(minidir)/../large/ksirtet.xpm
 	rm -rf $(htmldir)
