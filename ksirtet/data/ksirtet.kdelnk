@@ -1,6 +1,7 @@
 # KDE Config File 
 [KDE Desktop Entry]
 Name=Sirtet
+Name[ja]=¥·¥¢¥Æ¥Ã¥È
 Name[pl]=Sirtet (anagram)
 Icon=ksirtet.xpm
 Exec=ksirtet -caption "%c" %i %m
@@ -18,6 +19,7 @@ Comment[hr]=Jo¹ jedna igra tetrisa
 Comment[hu]=Mégegy Tetrisz játék
 Comment[is]=ksirtet:  Fallandi kubbum raðað saman
 Comment[it]=Un altro clone di Tetris
+Comment[ja]=¥Æ¥È¡û¥¹
 Comment[no]=Enda en Tetris-klone
 Comment[pl]=Jeszcze jedna wersja Tetrisa
 Comment[pt]=Outro clone de Tetris
