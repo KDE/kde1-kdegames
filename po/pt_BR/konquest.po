@@ -121,6 +121,7 @@ msgid "GNU-Lactic Conquest"
 msgstr "Conquista  GNU-láctica"
 
 #: mainwin.cc:47
+#, c-format
 msgid ""
 "Version %s\n"
 "Copyright (c) 1998 by\n"
