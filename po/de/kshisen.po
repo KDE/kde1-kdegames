@@ -142,7 +142,7 @@ msgstr "Ende des Spiels"
 
 #: app.cpp:382
 msgid "No more moves possible!"
-msgstr "Keine weiteren Züege möglich"
+msgstr "Keine weiteren Züge möglich"
 
 #: app.cpp:399
 #, c-format
