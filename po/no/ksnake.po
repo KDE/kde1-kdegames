@@ -163,8 +163,8 @@ msgid ""
 "you have achieved a high score!\n"
 " please enter your name"
 msgstr ""
-"du har oppnådd en plass på poengtavle!\n"
-" vennligst skriv innn ditt navn"
+"du har oppnådd en plass på poengtavlen!\n"
+" vennligst skriv inn ditt navn"
 
 #: pixServer.cpp:182
 #, c-format
