@@ -71,7 +71,7 @@ msgstr "Rýchla"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr ""
+msgstr "Stredná"
 
 #: app.cpp:136
 msgid "Slow"

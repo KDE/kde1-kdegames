@@ -27,12 +27,11 @@ msgstr "&Nový"
 
 #: kbbgame.cpp:85
 msgid "&Give up"
-msgstr "&Vzdaj sa"
+msgstr "&Vzda» sa"
 
 #: kbbgame.cpp:86
-#, fuzzy
 msgid "&Done"
-msgstr "Hotovo"
+msgstr "&Hotovo"
 
 #: kbbgame.cpp:88
 msgid "&Resize"
@@ -51,14 +50,12 @@ msgid "&Tutorial"
 msgstr "&Návod"
 
 #: kbbgame.cpp:174
-#, fuzzy
 msgid "New"
-msgstr "&Nový"
+msgstr "Nový"
 
 #: kbbgame.cpp:176
-#, fuzzy
 msgid "Give up"
-msgstr "&Vzdaj sa"
+msgstr "Vzda» sa"
 
 #: kbbgame.cpp:178
 msgid "Done"
@@ -122,21 +119,19 @@ msgstr "D'accord"
 
 #: kbbgame.cpp:597 kbbgame.cpp:600
 msgid "Run"
-msgstr ""
+msgstr "Spusti»"
 
 #: kbbgame.cpp:604
-#, fuzzy
 msgid "Size"
-msgstr "&Zmeò veµkos»"
+msgstr "Veµkos»"
 
 #: kbbgame.cpp:607
 msgid "Placed"
-msgstr ""
+msgstr "Umiestnené"
 
 #: kbbgame.cpp:620
-#, fuzzy
 msgid "Score"
-msgstr " Skóre %4d"
+msgstr "Skóre"
 
 #: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"

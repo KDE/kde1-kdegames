@@ -23,7 +23,7 @@ msgstr "KConfig chyba ??\n"
 
 #: game.cpp:79
 msgid "New"
-msgstr ""
+msgstr "Nová"
 
 #: game.cpp:80
 msgid "Pause"

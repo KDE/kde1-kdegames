@@ -54,9 +54,8 @@ msgid "Board value"
 msgstr "Ohodnotenie dosky"
 
 #: AbTop.cpp:241 AbTop.cpp:398
-#, fuzzy
 msgid "Move"
-msgstr "Presúva» pomaly"
+msgstr "«ah"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
