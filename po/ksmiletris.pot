@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-06 16:04+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -60,11 +60,11 @@ msgid ""
 "Feedbacks are welcome!\n"
 msgstr ""
 
-#: gamewindow.cpp:87
+#: gamewindow.cpp:88
 msgid "Level: 99"
 msgstr ""
 
-#: gamewindow.cpp:88
+#: gamewindow.cpp:89
 msgid "Score: 999999"
 msgstr ""
 

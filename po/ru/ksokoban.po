@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
-"POT-Creation-Date: 1998-11-01 13:51+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-10-28 18:02+02:00\n"
 "Last-Translator: dr.Fuckoff <drfo@usa.net>\n"
 "Language-Team: Russian\n"
@@ -115,15 +115,15 @@ msgstr ""
 "Dimitri & Yorick - Jacques Duthen <duthen@club-internet.fr>\n"
 "Simple Sokoban - Phil Shapiro <pshapiro@his.com>\n"
 
-#: MainWindow.C:173 PlayField.C:126
+#: MainWindow.C:173 PlayField.C:128
 msgid "Pushes:"
 msgstr "Толканий:"
 
-#: MainWindow.C:175 PlayField.C:118
+#: MainWindow.C:175 PlayField.C:120
 msgid "Moves:"
 msgstr "Шагов:"
 
-#: MainWindow.C:177 PlayField.C:104
+#: MainWindow.C:177 PlayField.C:106
 msgid "Level:"
 msgstr "Уровень:"
 
@@ -131,11 +131,11 @@ msgstr "Уровень:"
 msgid "(invalid)"
 msgstr ""
 
-#: PlayField.C:262
+#: PlayField.C:264
 msgid "Level completed"
 msgstr "Уровень пройден"
 
-#: PlayField.C:491
+#: PlayField.C:493
 msgid ""
 "This is the last level in\n"
 "the current collection."
@@ -143,7 +143,7 @@ msgstr ""
 "Это последний уровень\n"
 "в этой коллекции."
 
-#: PlayField.C:497
+#: PlayField.C:499
 msgid ""
 "You have not completed\n"
 "this level yet."
@@ -151,7 +151,7 @@ msgstr ""
 "Вы не закончили\n"
 "этот уровень."
 
-#: PlayField.C:511
+#: PlayField.C:513
 msgid ""
 "This is the first level in\n"
 "the current collection."

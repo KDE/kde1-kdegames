@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,20 +86,32 @@ msgstr ""
 msgid "Bad luck !"
 msgstr ""
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr ""
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr ""
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr ""
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
+msgstr ""
+
+#: main.cpp:46
+msgid "&New game"
+msgstr ""
+
+#: main.cpp:49
+msgid "&Pause game"
+msgstr ""
+
+#: main.cpp:52
+msgid "&High scores"
 msgstr ""
 
 #: main.cpp:60
@@ -119,7 +131,7 @@ msgid "by"
 msgstr ""
 
 #: main.cpp:79
-msgid "Level"
+msgid "&Level"
 msgstr ""
 
 #: main.cpp:156

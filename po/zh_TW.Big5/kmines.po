@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-04-21 03:52+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -90,21 +90,36 @@ msgstr "成功\!!!!!"
 msgid "Bad luck !"
 msgstr "運氣不好!!"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "開始新遊戲"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "暫停遊戲"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "分數排行榜"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "隱藏選單列"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "開始新遊戲"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "暫停遊戲"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "分數排行榜"
 
 #: main.cpp:60
 msgid "? mark"
@@ -123,7 +138,8 @@ msgid "by"
 msgstr ""
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "等級"
 
 #: main.cpp:156

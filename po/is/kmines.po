@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -90,21 +90,36 @@ msgstr "Jibbííí kólaaaa !"
 msgid "Bad luck !"
 msgstr "Þvílík óheppni !"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "Nýr leikur"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "Hvíla sig"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "Methafar"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Fela valmyndastiku"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "Nýr leikur"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "Hvíla sig"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "Methafar"
 
 #: main.cpp:60
 msgid "? mark"
@@ -123,7 +138,8 @@ msgid "by"
 msgstr "eftir"
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "Borð"
 
 #: main.cpp:156

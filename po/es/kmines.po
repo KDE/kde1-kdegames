@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-10-18 16:07+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
@@ -78,21 +78,36 @@ msgstr "¡ Yeahhhhh ;-) !"
 msgid "Bad luck !"
 msgstr "¡Mala suerte¡"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "Nuevo juego"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "Pausa"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "Mejores tiempos"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Ocultar barra de menus"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "Nuevo juego"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "Pausa"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "Mejores tiempos"
 
 #: main.cpp:60
 msgid "? mark"
@@ -111,7 +126,8 @@ msgid "by"
 msgstr "por"
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "Nivel"
 
 #: main.cpp:156

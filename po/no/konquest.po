@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/kmahjongg\n"
-"POT-Creation-Date: 1998-11-06 18:24+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -43,7 +43,7 @@ msgstr ""
 "Et skip som drar dette i dette trekket vil nå frem i trekk %s"
 
 #: gameboard.cc:291
-msgid "Ship ArrivesFIXIT"
+msgid "Distance"
 msgstr ""
 
 #: gameboard.cc:296

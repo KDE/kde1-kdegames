@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
-"POT-Creation-Date: 1998-11-01 13:51+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-11-03 14:42+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
@@ -115,15 +115,15 @@ msgstr ""
 "Dimitri & Yorick - napsal Jacques Duthen <duthen@club-internet.fr>\n"
 "Simple Sokoban - napsal Phil Shapiro <pshapiro@his.com>\n"
 
-#: MainWindow.C:173 PlayField.C:126
+#: MainWindow.C:173 PlayField.C:128
 msgid "Pushes:"
 msgstr "Postrky:"
 
-#: MainWindow.C:175 PlayField.C:118
+#: MainWindow.C:175 PlayField.C:120
 msgid "Moves:"
 msgstr "Tahy:"
 
-#: MainWindow.C:177 PlayField.C:104
+#: MainWindow.C:177 PlayField.C:106
 msgid "Level:"
 msgstr "Úroveò:"
 
@@ -131,11 +131,11 @@ msgstr "Úroveò:"
 msgid "(invalid)"
 msgstr "(neplatná)"
 
-#: PlayField.C:262
+#: PlayField.C:264
 msgid "Level completed"
 msgstr "Úroveò ukonèena"
 
-#: PlayField.C:491
+#: PlayField.C:493
 msgid ""
 "This is the last level in\n"
 "the current collection."
@@ -143,7 +143,7 @@ msgstr ""
 "Toto je poslední úroveò\n"
 "v této kolekci."
 
-#: PlayField.C:497
+#: PlayField.C:499
 msgid ""
 "You have not completed\n"
 "this level yet."
@@ -151,7 +151,7 @@ msgstr ""
 "Je¹tì jste nedokonèil(a)\n"
 "tuto úroveò."
 
-#: PlayField.C:511
+#: PlayField.C:513
 msgid ""
 "This is the first level in\n"
 "the current collection."

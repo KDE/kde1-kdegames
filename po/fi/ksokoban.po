@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KSOKOBAN\n"
-"POT-Creation-Date: 1998-11-01 13:51+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -116,15 +116,15 @@ msgstr ""
 "Dimitri & Yorick - Jacques Duthen <duthen@club-internet.fr>\n"
 "Helppo Sokoban - Phil Shapiro <pshapiro@his.com>\n"
 
-#: MainWindow.C:173 PlayField.C:126
+#: MainWindow.C:173 PlayField.C:128
 msgid "Pushes:"
 msgstr "Työntöjä:"
 
-#: MainWindow.C:175 PlayField.C:118
+#: MainWindow.C:175 PlayField.C:120
 msgid "Moves:"
 msgstr "Siirtoja:"
 
-#: MainWindow.C:177 PlayField.C:104
+#: MainWindow.C:177 PlayField.C:106
 msgid "Level:"
 msgstr "Taso:"
 
@@ -132,11 +132,11 @@ msgstr "Taso:"
 msgid "(invalid)"
 msgstr ""
 
-#: PlayField.C:262
+#: PlayField.C:264
 msgid "Level completed"
 msgstr "Taso lopussa"
 
-#: PlayField.C:491
+#: PlayField.C:493
 msgid ""
 "This is the last level in\n"
 "the current collection."
@@ -144,7 +144,7 @@ msgstr ""
 "Tämä on viimeinen taso\n"
 "nykyisessä kokoelmassa."
 
-#: PlayField.C:497
+#: PlayField.C:499
 msgid ""
 "You have not completed\n"
 "this level yet."
@@ -152,7 +152,7 @@ msgstr ""
 "Tämä taso ei ole vielä\n"
 "valmis."
 
-#: PlayField.C:511
+#: PlayField.C:513
 msgid ""
 "This is the first level in\n"
 "the current collection."

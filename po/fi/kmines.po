@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KMINES\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -86,21 +86,36 @@ msgstr "Kyllllä !"
 msgid "Bad luck !"
 msgstr "Huono onni!"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "Uusi peli"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "Pysäytä peli"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "Ennätykset"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Piilota valikkorivi"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "Uusi peli"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "Pysäytä peli"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "Ennätykset"
 
 #: main.cpp:60
 msgid "? mark"
@@ -119,7 +134,8 @@ msgid "by"
 msgstr " "
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "Taso"
 
 #: main.cpp:156

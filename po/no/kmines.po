@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/kmines\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no<LL@li.org>\n"
@@ -85,21 +85,36 @@ msgstr "Jaaaaaaa !"
 msgid "Bad luck !"
 msgstr "Det var leit !"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "Nytt spill"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "Pause i spillet"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "Høy poengsum"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Skjul menylinje"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "Nytt spill"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "Pause i spillet"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "Høy poengsum"
 
 #: main.cpp:60
 msgid "? mark"
@@ -118,7 +133,8 @@ msgid "by"
 msgstr "ved"
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "Nivå"
 
 #: main.cpp:156

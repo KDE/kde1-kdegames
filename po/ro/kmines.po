@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 
@@ -82,21 +82,36 @@ msgstr "Daaaaaaa!"
 msgid "Bad luck !"
 msgstr "Ghinion!"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "Joc Nou"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "Pausã in joc"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "Scorul"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Ascunde menu bar"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "Joc Nou"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "Pausã in joc"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "Scorul"
 
 #: main.cpp:60
 msgid "? mark"
@@ -115,7 +130,8 @@ msgid "by"
 msgstr ""
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "Level"
 
 #: main.cpp:156

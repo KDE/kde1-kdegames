@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSIONPOT-Creation-Date: 1998-02-19 22:49+0100\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-02-03 16:00+0100\n"
 "Last-Translator:Lotti Frnacesco <goo@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -86,21 +86,36 @@ msgstr "Siiiiiiiii !"
 msgid "Bad luck !"
 msgstr "E' andata male !"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "Nuova partita"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "Pausa"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "Punteggi"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Nascondi barra Menu"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "Nuova partita"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "Pausa"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "Punteggi"
 
 #: main.cpp:60
 msgid "? mark"
@@ -119,7 +134,8 @@ msgid "by"
 msgstr "da"
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "Livello"
 
 #: main.cpp:156

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -84,21 +84,36 @@ msgstr "成功 !!!!"
 msgid "Bad luck !"
 msgstr "运气不好 !"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "开始新游戏"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "暂停游戏"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "高分排行榜"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "隐藏菜单条"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "开始新游戏"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "暂停游戏"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "高分排行榜"
 
 #: main.cpp:60
 msgid "? mark"
@@ -117,7 +132,8 @@ msgid "by"
 msgstr ""
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "等级"
 
 #: main.cpp:156

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/ksmiletris\n"
-"POT-Creation-Date: 1998-11-06 16:04+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -64,11 +64,11 @@ msgstr ""
 "\n"
 "Tilbakemeldinger er ønskes!\n"
 
-#: gamewindow.cpp:87
+#: gamewindow.cpp:88
 msgid "Level: 99"
 msgstr "Nivå: 99"
 
-#: gamewindow.cpp:88
+#: gamewindow.cpp:89
 msgid "Score: 999999"
 msgstr "Poengsum: 999999"
 

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-01 13:51+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -101,15 +101,15 @@ msgid ""
 "Simple Sokoban - by Phil Shapiro <pshapiro@his.com>\n"
 msgstr ""
 
-#: MainWindow.C:173 PlayField.C:126
+#: MainWindow.C:173 PlayField.C:128
 msgid "Pushes:"
 msgstr ""
 
-#: MainWindow.C:175 PlayField.C:118
+#: MainWindow.C:175 PlayField.C:120
 msgid "Moves:"
 msgstr ""
 
-#: MainWindow.C:177 PlayField.C:104
+#: MainWindow.C:177 PlayField.C:106
 msgid "Level:"
 msgstr ""
 
@@ -117,23 +117,23 @@ msgstr ""
 msgid "(invalid)"
 msgstr ""
 
-#: PlayField.C:262
+#: PlayField.C:264
 msgid "Level completed"
 msgstr ""
 
-#: PlayField.C:491
+#: PlayField.C:493
 msgid ""
 "This is the last level in\n"
 "the current collection."
 msgstr ""
 
-#: PlayField.C:497
+#: PlayField.C:499
 msgid ""
 "You have not completed\n"
 "this level yet."
 msgstr ""
 
-#: PlayField.C:511
+#: PlayField.C:513
 msgid ""
 "This is the first level in\n"
 "the current collection."

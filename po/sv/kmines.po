@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines revision 1.7\n"
-"POT-Creation-Date: 1998-10-30 12:21+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-08-22 21:41+SET\n"
 "Last-Translator:  Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -83,21 +83,36 @@ msgstr "Jaaaaa !"
 msgid "Bad luck !"
 msgstr "Otur !"
 
-#: main.cpp:22 main.cpp:46
+#: main.cpp:22
 msgid "New game"
 msgstr "Nytt spel"
 
-#: main.cpp:23 main.cpp:49
+#: main.cpp:23
 msgid "Pause game"
 msgstr "Pausa spelet"
 
-#: main.cpp:24 main.cpp:52
+#: main.cpp:24
 msgid "High scores"
 msgstr "Poängtoppen"
 
 #: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Göm menyrad"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "Nytt spel"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "Pausa spelet"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "Poängtoppen"
 
 #: main.cpp:60
 msgid "? mark"
@@ -116,7 +131,8 @@ msgid "by"
 msgstr "av"
 
 #: main.cpp:79
-msgid "Level"
+#, fuzzy
+msgid "&Level"
 msgstr "Nivå"
 
 #: main.cpp:156

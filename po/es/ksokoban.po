@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-11-01 13:51+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-10-18 22:16+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alonso Lara <jlaram@nexo.es>\n"
@@ -107,15 +107,15 @@ msgstr ""
 "Dimitri & Yorick - por Jacques Duthen <duthen@club-internet.fr>\n"
 "Simple Sokoban - por Phil Shapiro <pshapiro@his.com>\n"
 
-#: MainWindow.C:173 PlayField.C:126
+#: MainWindow.C:173 PlayField.C:128
 msgid "Pushes:"
 msgstr "Impulsos:"
 
-#: MainWindow.C:175 PlayField.C:118
+#: MainWindow.C:175 PlayField.C:120
 msgid "Moves:"
 msgstr "Movimientos:"
 
-#: MainWindow.C:177 PlayField.C:104
+#: MainWindow.C:177 PlayField.C:106
 msgid "Level:"
 msgstr "Nivel:"
 
@@ -123,11 +123,11 @@ msgstr "Nivel:"
 msgid "(invalid)"
 msgstr ""
 
-#: PlayField.C:262
+#: PlayField.C:264
 msgid "Level completed"
 msgstr "Nivel completado"
 
-#: PlayField.C:491
+#: PlayField.C:493
 msgid ""
 "This is the last level in\n"
 "the current collection."
@@ -135,7 +135,7 @@ msgstr ""
 "Este es el último nivel en\n"
 "la colección actual."
 
-#: PlayField.C:497
+#: PlayField.C:499
 msgid ""
 "You have not completed\n"
 "this level yet."
@@ -143,7 +143,7 @@ msgstr ""
 "No ha completado\n"
 "este nivel aún."
 
-#: PlayField.C:511
+#: PlayField.C:513
 msgid ""
 "This is the first level in\n"
 "the current collection."
