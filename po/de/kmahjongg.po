@@ -51,7 +51,7 @@ msgstr "&Statusleiste"
 
 #: kmahjongg.cpp:226
 msgid "Mahjongg"
-msgstr ""
+msgstr "Majongg"
 
 #: kmahjongg.cpp:228
 msgid ""
@@ -59,10 +59,11 @@ msgid ""
 "\n"
 "by Mathias Mueller"
 msgstr ""
+"\n\nvon Matthias Mueller"
 
 #: kmahjongg.cpp:387 kmahjongg.cpp:401
 msgid "Unable to open bitmap file !"
-msgstr ""
+msgstr "Fehler beim Öffnen einer Bitmap-Datei!"
 
 #: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
@@ -116,6 +117,8 @@ msgid ""
 "Failed to load image:\n"
 "%s"
 msgstr ""
+"Fehler beim Laben des Bildes:\n"
+"%s"
 
 #: kmahjongg.cpp:1677
 #, c-format
@@ -123,35 +126,6 @@ msgid ""
 "Sorry, this image uses %d colors.\n"
 "Maximum allowed is %d"
 msgstr ""
+"Sorry, dieses Bild benutzt %d Farben.\n"
+"Erlaubtes Maximum ist %d"
 
-#~ msgid "&Quit"
-#~ msgstr "&Beenden"
-
-#~ msgid "&Help"
-#~ msgstr "&Hilfe"
-
-#~ msgid "&About..."
-#~ msgstr "&Über..."
-
-#~ msgid "&Game"
-#~ msgstr "&Spiel"
-
-#~ msgid "&View"
-#~ msgstr "&Anzeige"
-
-#~ msgid "About %s"
-#~ msgstr "Über %s"
-
-#~ msgid ""
-#~ "%s V%s\n"
-#~ "\n"
-#~ "by Mathias Mueller\n"
-#~ "(in5y158@public.uni-hamburg.de)"
-#~ msgstr ""
-#~ "%s V%s\n"
-#~ "\n"
-#~ "von Mathias Mueller\n"
-#~ "(in5y158@public.uni-hamburg.de)"
-
-#~ msgid "Close"
-#~ msgstr "Schliessen"
