@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-02-02 01:43+0100\n"
 "PO-Revision-Date: 1998-04-21 03:53+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -31,43 +31,43 @@ msgstr "kpat: PANIC, 無法載入卡片圖形 \"%s\"\n"
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: 存取到無效的卡片 %d, %d\n"
 
-#: computation.cpp:92
+#: computation.cpp:98
 msgid "Easy 4"
 msgstr "簡單級 4"
 
-#: computation.cpp:93
+#: computation.cpp:99
 msgid "Easy 3"
 msgstr "簡單級 3"
 
-#: computation.cpp:94
+#: computation.cpp:100
 msgid "Easy 2"
 msgstr "簡單級 2"
 
-#: computation.cpp:95
+#: computation.cpp:101
 msgid "Easy 1"
 msgstr "簡單級 1"
 
-#: computation.cpp:96
+#: computation.cpp:102
 msgid "Normal"
 msgstr ""
 
-#: computation.cpp:97
+#: computation.cpp:103
 msgid "Hard 1"
 msgstr "困難級 1"
 
-#: computation.cpp:98
+#: computation.cpp:104
 msgid "Hard 2"
 msgstr "困難級 2"
 
-#: computation.cpp:99
+#: computation.cpp:105
 msgid "Hard 3"
 msgstr "困難級 3"
 
-#: computation.cpp:100
+#: computation.cpp:106
 msgid "Hard 4"
 msgstr "困難級 4"
 
-#: computation.cpp:101
+#: computation.cpp:107
 msgid "Hard 5"
 msgstr "困難級 5"
 

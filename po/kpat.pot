@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-02-02 01:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,43 +32,43 @@ msgstr ""
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr ""
 
-#: computation.cpp:92
+#: computation.cpp:98
 msgid "Easy 4"
 msgstr ""
 
-#: computation.cpp:93
+#: computation.cpp:99
 msgid "Easy 3"
 msgstr ""
 
-#: computation.cpp:94
+#: computation.cpp:100
 msgid "Easy 2"
 msgstr ""
 
-#: computation.cpp:95
+#: computation.cpp:101
 msgid "Easy 1"
 msgstr ""
 
-#: computation.cpp:96
+#: computation.cpp:102
 msgid "Normal"
 msgstr ""
 
-#: computation.cpp:97
+#: computation.cpp:103
 msgid "Hard 1"
 msgstr ""
 
-#: computation.cpp:98
+#: computation.cpp:104
 msgid "Hard 2"
 msgstr ""
 
-#: computation.cpp:99
+#: computation.cpp:105
 msgid "Hard 3"
 msgstr ""
 
-#: computation.cpp:100
+#: computation.cpp:106
 msgid "Hard 4"
 msgstr ""
 
-#: computation.cpp:101
+#: computation.cpp:107
 msgid "Hard 5"
 msgstr ""
 

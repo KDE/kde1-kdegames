@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat revision 1.7\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-02-02 01:43+0100\n"
 "PO-Revision-Date: 1998-11-21 20:33+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -27,43 +27,43 @@ msgstr "kpat: PANIK, kan inte ladda kortbild \"%s\"\n"
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: tillgång till ogiltigt kort %d, %d\n"
 
-#: computation.cpp:92
+#: computation.cpp:98
 msgid "Easy 4"
 msgstr "Lätt 4"
 
-#: computation.cpp:93
+#: computation.cpp:99
 msgid "Easy 3"
 msgstr "Lätt 3"
 
-#: computation.cpp:94
+#: computation.cpp:100
 msgid "Easy 2"
 msgstr "Lätt 2"
 
-#: computation.cpp:95
+#: computation.cpp:101
 msgid "Easy 1"
 msgstr "Lätt 1"
 
-#: computation.cpp:96
+#: computation.cpp:102
 msgid "Normal"
 msgstr "Normal"
 
-#: computation.cpp:97
+#: computation.cpp:103
 msgid "Hard 1"
 msgstr "Svår 1"
 
-#: computation.cpp:98
+#: computation.cpp:104
 msgid "Hard 2"
 msgstr "Svår 2"
 
-#: computation.cpp:99
+#: computation.cpp:105
 msgid "Hard 3"
 msgstr "Svår 3"
 
-#: computation.cpp:100
+#: computation.cpp:106
 msgid "Hard 4"
 msgstr "Svår 4"
 
-#: computation.cpp:101
+#: computation.cpp:107
 msgid "Hard 5"
 msgstr "Svår 5"
 

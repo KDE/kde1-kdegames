@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-02-02 01:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -32,43 +32,43 @@ msgstr "kpat: 오류, 카드 픽스맵 \"%s\"을 불러올 수 없습니다\n"
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: 유효하지 않은 카드 %d, %d에 대한 접근\n"
 
-#: computation.cpp:92
+#: computation.cpp:98
 msgid "Easy 4"
 msgstr "쉬운 4단계"
 
-#: computation.cpp:93
+#: computation.cpp:99
 msgid "Easy 3"
 msgstr "쉬운 3단계"
 
-#: computation.cpp:94
+#: computation.cpp:100
 msgid "Easy 2"
 msgstr "쉬운 2단계"
 
-#: computation.cpp:95
+#: computation.cpp:101
 msgid "Easy 1"
 msgstr "쉬운 1단계"
 
-#: computation.cpp:96
+#: computation.cpp:102
 msgid "Normal"
 msgstr ""
 
-#: computation.cpp:97
+#: computation.cpp:103
 msgid "Hard 1"
 msgstr "어려운 1단계"
 
-#: computation.cpp:98
+#: computation.cpp:104
 msgid "Hard 2"
 msgstr "어려운 2단계"
 
-#: computation.cpp:99
+#: computation.cpp:105
 msgid "Hard 3"
 msgstr "어려운 3단계"
 
-#: computation.cpp:100
+#: computation.cpp:106
 msgid "Hard 4"
 msgstr "어려운 4단계"
 
-#: computation.cpp:101
+#: computation.cpp:107
 msgid "Hard 5"
 msgstr "어려운 5단계"
 

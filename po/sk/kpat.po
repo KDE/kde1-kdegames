@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-02-02 01:43+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -31,43 +31,43 @@ msgstr "kpat: POPLACH, nemô¾em nahra» hraciu kartu \"%s\"\n"
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: prístup k neplatnej karte %d, %d\n"
 
-#: computation.cpp:92
+#: computation.cpp:98
 msgid "Easy 4"
 msgstr "¥ahká 4"
 
-#: computation.cpp:93
+#: computation.cpp:99
 msgid "Easy 3"
 msgstr "¥ahká 3"
 
-#: computation.cpp:94
+#: computation.cpp:100
 msgid "Easy 2"
 msgstr "¥ahká 2"
 
-#: computation.cpp:95
+#: computation.cpp:101
 msgid "Easy 1"
 msgstr "¥ahká 1"
 
-#: computation.cpp:96
+#: computation.cpp:102
 msgid "Normal"
 msgstr "Normálna"
 
-#: computation.cpp:97
+#: computation.cpp:103
 msgid "Hard 1"
 msgstr "Ta¾ká 1"
 
-#: computation.cpp:98
+#: computation.cpp:104
 msgid "Hard 2"
 msgstr "«a¾ká 2"
 
-#: computation.cpp:99
+#: computation.cpp:105
 msgid "Hard 3"
 msgstr "«a¾ká 3"
 
-#: computation.cpp:100
+#: computation.cpp:106
 msgid "Hard 4"
 msgstr "«a¾ká 4"
 
-#: computation.cpp:101
+#: computation.cpp:107
 msgid "Hard 5"
 msgstr "«a¾ká 5"
 

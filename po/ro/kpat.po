@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-02-02 01:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 
@@ -23,43 +23,43 @@ msgstr "KPat: Eroare grea, nu pot sã incarc \"%s\" portretul carþii\n"
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: Eroare grea, nu am acces la cartea aceasta %d, %d\n"
 
-#: computation.cpp:92
+#: computation.cpp:98
 msgid "Easy 4"
 msgstr "Uºor 4"
 
-#: computation.cpp:93
+#: computation.cpp:99
 msgid "Easy 3"
 msgstr "Uºor 3"
 
-#: computation.cpp:94
+#: computation.cpp:100
 msgid "Easy 2"
 msgstr "Uºor 2"
 
-#: computation.cpp:95
+#: computation.cpp:101
 msgid "Easy 1"
 msgstr "Uºor 1"
 
-#: computation.cpp:96
+#: computation.cpp:102
 msgid "Normal"
 msgstr ""
 
-#: computation.cpp:97
+#: computation.cpp:103
 msgid "Hard 1"
 msgstr "Greu 1"
 
-#: computation.cpp:98
+#: computation.cpp:104
 msgid "Hard 2"
 msgstr "Greu 2"
 
-#: computation.cpp:99
+#: computation.cpp:105
 msgid "Hard 3"
 msgstr "Greu 3"
 
-#: computation.cpp:100
+#: computation.cpp:106
 msgid "Hard 4"
 msgstr "Greu 4"
 
-#: computation.cpp:101
+#: computation.cpp:107
 msgid "Hard 5"
 msgstr "Greu 5"
 

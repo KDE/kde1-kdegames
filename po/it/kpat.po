@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-02-02 01:43+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Luciano Nocera <lnocera@grip.cis.upenn.edu>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -27,43 +27,43 @@ msgstr "kpat: PANICO, impossible caricare la pixmap delle carte \"%s\"\n"
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: accesso a carta non valida %d, %d\n"
 
-#: computation.cpp:92
+#: computation.cpp:98
 msgid "Easy 4"
 msgstr "Facile 4"
 
-#: computation.cpp:93
+#: computation.cpp:99
 msgid "Easy 3"
 msgstr "Facile 3"
 
-#: computation.cpp:94
+#: computation.cpp:100
 msgid "Easy 2"
 msgstr "Facile 2"
 
-#: computation.cpp:95
+#: computation.cpp:101
 msgid "Easy 1"
 msgstr "Facile 1"
 
-#: computation.cpp:96
+#: computation.cpp:102
 msgid "Normal"
 msgstr "Normale"
 
-#: computation.cpp:97
+#: computation.cpp:103
 msgid "Hard 1"
 msgstr "Difficile 1"
 
-#: computation.cpp:98
+#: computation.cpp:104
 msgid "Hard 2"
 msgstr "Difficile 2"
 
-#: computation.cpp:99
+#: computation.cpp:105
 msgid "Hard 3"
 msgstr "Difficile 3"
 
-#: computation.cpp:100
+#: computation.cpp:106
 msgid "Hard 4"
 msgstr "Difficile 4"
 
-#: computation.cpp:101
+#: computation.cpp:107
 msgid "Hard 5"
 msgstr "Difficile 5"
 
