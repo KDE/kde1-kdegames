@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-02-23 20:17+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,125 +14,45 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kmahjongg..cpp:93
-msgid "Classic"
-msgstr ""
-
-#: kmahjongg..cpp:94
-msgid "Tower"
-msgstr ""
-
-#: kmahjongg..cpp:95
-msgid "Triangle"
-msgstr ""
-
-#: kmahjongg..cpp:96
-msgid "Pyramide"
-msgstr ""
-
-#: kmahjongg..cpp:195
+#: kmahjongg.cpp:201
 msgid "&Start new game"
 msgstr ""
 
-#: kmahjongg..cpp:197
+#: kmahjongg.cpp:203
 msgid "&Help me"
 msgstr ""
 
-#: kmahjongg..cpp:198
+#: kmahjongg.cpp:204
 msgid "&Undo last move"
 msgstr ""
 
-#: kmahjongg..cpp:199
+#: kmahjongg.cpp:205
 msgid "&Demo mode"
 msgstr ""
 
-#: kmahjongg..cpp:200
+#: kmahjongg.cpp:206
 msgid "Show &matching tiles"
 msgstr ""
 
-#: kmahjongg..cpp:202
-msgid "&Quit"
-msgstr ""
-
-#: kmahjongg..cpp:206
+#: kmahjongg.cpp:212
 msgid "&Load Background image..."
 msgstr ""
 
-#: kmahjongg..cpp:208
+#: kmahjongg.cpp:214
 msgid "&Statusbar"
 msgstr ""
 
-#: kmahjongg..cpp:211
-msgid "&Help"
+#: kmahjongg.cpp:221
+msgid "Mahjongg"
 msgstr ""
 
-#: kmahjongg..cpp:213
-msgid "&About..."
-msgstr ""
-
-#: kmahjongg..cpp:221
-msgid "&Game"
-msgstr ""
-
-#: kmahjongg..cpp:222
-msgid "&View"
-msgstr ""
-
-#: kmahjongg..cpp:286
-msgid ""About %s"
-msgstr ""
-
-#: kmahjongg..cpp:291
+#: kmahjongg.cpp:223
 msgid ""
-    "%s V%s\n\n"
-    "by Mathias Mueller\n"
-    "(in5y158@public.uni-hamburg.de)"
+"\n"
+"\n"
+"by Mathias Mueller"
 msgstr ""
 
-#: kmahjongg..cpp:294
-msgid "Close"
-msgstr ""
-
-#: kmahjongg..cpp:434
-msgid "Undo operation done successfully.""
-msgstr ""
-
-#: kmahjongg..cpp:437
-msgid "What do you want to undo? You have done nothing!"
-msgstr ""
-
-#: kmahjongg..cpp:452,1410
+#: kmahjongg.cpp:1438
 msgid "Sorry, you have lost the game."
-msgstr "" 
-
-#: kmahjongg..cpp:483
-msgid "Demo mode. Click mousebutton to stop."
-msgstr ""
-
-#: kmahjongg..cpp:491
-msgid "Now it's you again."
-msgstr ""
-
-#: kmahjongg..cpp:511
-msgid "Your computer has lost the game."
-msgstr ""
-
-#: kmahjongg..cpp:597
-msgid "Congratulations. You have won!"
-msgstr ""
-
-#: kmahjongg..cpp:623
-msgid "Calculating new game...""
-msgstr ""
-
-#: kmahjongg..cpp:629
-msgid "Error converting board information!"
-msgstr ""
-
-#: kmahjongg..cpp:641
-msgid "Ready. Now it's your turn."
-msgstr ""
-
-#: kmahjongg..cpp:647
-msgid "Error generating new game!"
 msgstr ""

@@ -1,0 +1,122 @@
+#: kmahjongg.cpp:93
+msgid "Classic"
+msgstr "Classico"
+
+#: kmahjongg.cpp:94
+msgid "Tower"
+msgstr "Torre"
+
+#: kmahjongg.cpp:95
+msgid "Triangle"
+msgstr "Triangolo"
+
+#: kmahjongg.cpp:96
+msgid "Pyramide"
+msgstr "Piramide"
+
+#: kmahjongg.cpp:195
+msgid "&Start new game"
+msgstr "Inizia nuovo gioco"
+
+#: kmahjongg.cpp:197
+msgid "&Help me"
+msgstr "Aiutami.."
+
+#: kmahjongg.cpp:198
+msgid "&Undo last move"
+msgstr "Annulla ultima mossa"
+
+#: kmahjongg.cpp:199
+msgid "&Demo mode"
+msgstr "Demo"
+
+#: kmahjongg.cpp:200
+msgid "Show &matching tiles"
+msgstr "Mostra piastre corrispondenti"
+
+#: kmahjongg.cpp:202
+msgid "&Quit"
+msgstr "Esci"
+
+#: kmahjongg.cpp:206
+msgid "&Load Background image..."
+msgstr "Carica immagine di background"
+
+#: kmahjongg.cpp:208
+msgid "&Statusbar"
+msgstr "Barra di stato"
+
+#: kmahjongg.cpp:211
+msgid "&Help"
+msgstr "Aiuto"
+
+#: kmahjongg.cpp:213
+msgid "&About..."
+msgstr "Info...."
+
+#: kmahjongg.cpp:221
+msgid "&Game"
+msgstr "Gioco"
+
+#: kmahjongg.cpp:222
+msgid "&View"
+msgstr "Vista"
+
+#: kmahjongg.cpp:286
+msgid "About %s"
+msgstr "Info su %s"
+
+#: kmahjongg.cpp:291
+msgid ""
+    "%s V%s\n\n"
+    "by Mathias Mueller\n"
+    "(in5y158@public.uni-hamburg.de)"
+msgstr ""
+
+#: kmahjongg.cpp:294
+msgid "Close"
+msgstr "Chiudi"
+
+#: kmahjongg.cpp:434
+msgid "Undo operation done successfully."
+msgstr "\"Annulla\" eseguito con successo "
+
+#: kmahjongg.cpp:437
+msgid "What do you want to undo? You have done nothing!"
+msgstr "Cosa vuoi annullare? Non hai fatto niente!"
+
+#: kmahjongg.cpp:452,1410
+msgid "Sorry, you have lost the game."
+msgstr "Spiacente, hai perso!" 
+
+#: kmahjongg.cpp:483
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "Demo... Clicka con il mouse per interrompere."
+
+#: kmahjongg.cpp:491
+msgid "Now it's you again."
+msgstr "Ora tocca a te."
+
+#: kmahjongg.cpp:511
+msgid "Your computer has lost the game."
+msgstr "Il tuo computer ha perso"
+
+#: kmahjongg.cpp:597
+msgid "Congratulations. You have won!"
+msgstr "Congratulazioni. Hai vinto!"
+
+#: kmahjongg.cpp:623
+msgid "Calculating new game..."
+msgstr "Calcolo un nuovo gioco..."
+
+#: kmahjongg.cpp:629
+msgid "Error converting board information!"
+msgstr "Errore di conversione informazioni tavolozza"
+
+#: kmahjongg.cpp:641
+msgid "Ready. Now it's your turn."
+msgstr "Pronto. Tocca a te."
+
+#: kmahjongg.cpp:647
+msgid "Error generating new game!"
+msgstr "Errore nella creazione del nuovo gioco!"
