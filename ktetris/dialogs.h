@@ -31,8 +31,8 @@ class WHighScores : public QDialog
 	void writeName();
 	
  private:
-	int range;
 	KConfig *kconf;
+	int range;
 	QLineEdit *qle;
 	QPushButton *pb;
 	QLabel *lb;
@@ -59,13 +59,15 @@ class Options : public QDialog
 #define NET_TIMEOUT 500
 
 /* network game dialog */
-class netDialog : public QDialog
+class NetDialog : public QDialog
 {
  Q_OBJECT
 		
  public:
-	netDialog( NetObject **p_net_obj,
-			   QWidget *parent=0, const char *name=0 );
+	NetDialog( QWidget *parent=0, const char *name=0 );
+	~NetDialog();
+	
+	NetObject *netObject() const { return net_obj; };
 	
  private slots:
 	void server() { createNetObject(TRUE); }
@@ -79,8 +81,6 @@ class netDialog : public QDialog
 	int state;
 	
 	NetObject *net_obj;
-	NetObject **p_net_obj;
-	
 	QTimer *timer;
 	
 	QString serror;

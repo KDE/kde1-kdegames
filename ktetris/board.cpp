@@ -1,6 +1,6 @@
 #include "board.h"
 #include "dialogs.h"
-#include "drawButton.h"
+#include "dbutton.h"
 
 #include <stdio.h>
 #include <unistd.h>
@@ -21,8 +21,8 @@
 const uint blinkLineTime = 150;
 const uint dropDownTime = 10;
 
-Board::Board( int type, QWidget *p, const char *name )
-: QFrame( p, name ), GenericTetris(type)
+Board::Board( QWidget *p, const char *name )
+: QFrame( p, name )
 {
     setFrameStyle( QFrame::Panel | QFrame::Sunken );
 	setPalette(black);
@@ -73,19 +73,20 @@ Board::Board( int type, QWidget *p, const char *name )
 	midbutton(FALSE);
 }
 
+
 Board::~Board()
 {
 	delete timer;
-	delete msg;
-	delete pb;
 	delete paint;
 }
+
 
 void Board::buttonClick()
 {
 	if (state==Paused) pause();
 	else startGame();
 }
+
 
 void Board::midbutton(bool game_over)
 {
@@ -142,6 +143,7 @@ void Board::midbutton(bool game_over)
 	pb->show();
 }
 
+
 void Board::showBoard()
 {
 	state = Playing;
@@ -151,6 +153,7 @@ void Board::showBoard()
 	GenericTetris::showBoard();
 }
 
+
 void Board::startGame()
 {
 	showBoard();
@@ -158,11 +161,13 @@ void Board::startGame()
 	/* Note that the timer is started by updateLevel! */
 }
 
+
 void Board::stopGame()
 {
 	timer->stop();
 	setPieceMovingKeys(FALSE);
 }
+
 
 void Board::setPieceMovingKeys( bool activate )
 {
@@ -174,8 +179,11 @@ void Board::setPieceMovingKeys( bool activate )
 	kKeys->toggleFunction(K_MAIN, i18n("Rotate right"), activate);
 }
 
+
 void Board::pause()
 {
+	if (multiGame) return;
+	
 	switch (state) {
 	 case NoGame : break;
 	 case Paused : 
@@ -192,6 +200,7 @@ void Board::pause()
 	}
 }
 
+
 void Board::drawSquare(int x, int y, int value)
 {
     const int X = XOFF  + x*BLOCK_W;
@@ -201,10 +210,12 @@ void Board::drawSquare(int x, int y, int value)
 					  value == 0 ? &colors[8] : &colors[value-1] );
 }
 
+
 void Board::drawNextSquare(int x, int y, int value)
 {
 	emit drawNextSquareSignal(x, y, value == 0 ? 0 : &colors[value-1]);
 }
+
 
 void Board::updateRemoved( int noOfLines )
 {
@@ -213,11 +224,13 @@ void Board::updateRemoved( int noOfLines )
     emit updateRemovedSignal( noOfLines );
 }
 
+
 void Board::updateScore(int newScore)
 {
 	GenericTetris::updateScore(newScore);
     emit updateScoreSignal(newScore);
 }
+
 
 void Board::updateLevel(int newLevel)
 {
@@ -231,6 +244,7 @@ void Board::updateLevel(int newLevel)
 	emit updateLevelSignal(newLevel);
 }
 
+
 void Board::waitAfterLine()
 {
 	if ( !multiGame ) {
@@ -238,8 +252,12 @@ void Board::waitAfterLine()
 		state = WaitingAfterLine;
 		loop = 0;
         timer->start(blinkLineTime, TRUE);
+	} else {
+		removeFullLines();
+		newPiece();
 	}
 }
+
 
 void Board::gameOver()
 {
@@ -249,12 +267,13 @@ void Board::gameOver()
 	if ( !multiGame ) 
 		setHighScore(getScore());
 	else {
-		QString msg = i18n("You suck !");
-		net_obj->gameOver(msg);
+//		QString msg = i18n("You suck !");
+//		net_obj->gameOver(msg);
 	}
 	
 	midbutton(TRUE);
 }
+
 
 void Board::timeout()
 {
@@ -265,11 +284,12 @@ void Board::timeout()
 		/* call net object playTimeout */
 		if ( !net_obj->playTimeout(serror) ) {
 			timer->stop();
+			gameOver();
 			net_obj->gameOver(serror);
 			return;
 		}
 		
-		/* if CLIENT_MODE restart timer (ajust with the server one) */
+		/* if CLIENT_MODE : restart timer (ajust with the server one) */
 		if ( net_obj->isClient() )
 			timer->start(net_obj->getTimeout());
 		
@@ -283,10 +303,6 @@ void Board::timeout()
 	}
 	
 	switch (state) {
-	 case DropDown :
-	 case Playing :
-		oneLineDown();
-		break;
 	 case WaitingAfterLine :
 		switch (loop) {
 		 case 0 :
@@ -307,9 +323,11 @@ void Board::timeout()
 			timer->start(timeoutTime);
 		}
 		break;
-	 default : ;
+	 default : 
+		oneLineDown();
 	}
 }
+
 
 void Board::paintEvent(QPaintEvent *e)
 {
@@ -324,34 +342,37 @@ void Board::paintEvent(QPaintEvent *e)
 				r.right()/BLOCK_W, r.bottom()/BLOCK_H);
 }
 
+
 void Board::updateTimeoutTime()
 {
     timeoutTime = 1000/(1 + getLevel());
 }
+
 
 void Board::options()
 {
 	Options::Options(this);
 }
 
+
 void Board::showHighScores()
 {
 	WHighScores::WHighScores(TRUE, 0, this);
 }
 
+
 void Board::setHighScore(int score)
 {
 	if ( isConfigWritable ) {
 		WHighScores::WHighScores(FALSE, score, this);
-		
 		/* save the new score (in the file to be sure it won't be lost) */
-		if (isConfigWritable)
-			kconf->sync();
+		kconf->sync();
 	} else
 		KMsgBox::message(0, i18n("Warning"), 
 						 i18n("Highscores file not writable !"),
 						 KMsgBox::EXCLAMATION, i18n("Close"));
 }
+
 
 void Board::initMultiGame(NetObject *net_object)
 {
@@ -370,6 +391,7 @@ void Board::initMultiGame(NetObject *net_object)
 	}
 }
 
+
 void Board::lightLines(int y, int nb, bool)
 {
 	paint->setPen(white);
@@ -378,6 +400,7 @@ void Board::lightLines(int y, int nb, bool)
 					Width*BLOCK_W, nb*BLOCK_H);
 	paint->setRasterOp(CopyROP);
 }
+
 
 void Board::pDropDown()
 {

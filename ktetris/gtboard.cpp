@@ -4,20 +4,15 @@
 #include <qpainter.h>
 
 GTBoard::GTBoard(  QWidget *p, const char *name )
-: Board(TETRIS_TYPE, p, name)
-{
-	for(int i = 0 ; i < Height ; i++)
-		filled[i] = 0;
-	
-	nLinesRemoved = 0;
-}
+: Board(p, name)
+{}
 
 
 void GTBoard::clearBoard()
 {
-	for(int i = Height - nClearLines - 1 ; i >= 0 ; i--)
+	Board::clearBoard();
+	for(int i = 0; i<Height; i++)
 		filled[i] = 0;
-	GenericTetris::clearBoard();
 }
 
 
@@ -25,7 +20,7 @@ void GTBoard::startGame()
 {
 	Board::startGame();
 	nLinesRemoved = 0;
-    updateRemoved(nLinesRemoved);
+    updateRemoved(0);
 }
 
 
@@ -80,7 +75,6 @@ void GTBoard::lightFullLines(bool on)
 void GTBoard::removeFullLines()
 {
 	/* when called there *are* full lines */
-	
 	int i, j, k = 0;
 	int nFullLines = 0;
 	

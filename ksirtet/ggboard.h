@@ -15,6 +15,7 @@ class GGBoard : public Board
  protected:
 	void internalOneLineDown();
 	void internalPieceDropped(int dropHeight);
+	int gameType() { return PUYOPYUO_GAME; };
 	
  private:
 	void defragmentBoard();

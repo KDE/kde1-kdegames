@@ -9,7 +9,7 @@
 Field::Field(QWidget *parent, const char *name)
 : QWidget(parent, name)
 {
-	net_obj = 0; /* no net object */
+	net_obj = 0;
 	
 	installEventFilter(this);
 	
@@ -69,6 +69,7 @@ Field::Field(QWidget *parent, const char *name)
 	prevHeight = new KProgress(0, 22, 0, KProgress::Vertical, this);
 	prevHeight->setBackgroundColor(lightGray);
 	prevHeight->setTextEnabled(FALSE);
+	prevHeight->setBarColor(blue);
 	prevHeight->hide();
 	
 	labNextName = new QLabel("", this);
@@ -76,6 +77,7 @@ Field::Field(QWidget *parent, const char *name)
 	nextHeight = new KProgress(0, 22, 0, KProgress::Vertical, this);
 	nextHeight->setBackgroundColor(lightGray);
 	nextHeight->setTextEnabled(FALSE);
+	nextHeight->setBarColor(blue);
 	nextHeight->hide();
 	
 	lScore->installEventFilter(this); showScore->installEventFilter(this);
@@ -118,10 +120,18 @@ Field::Field(QWidget *parent, const char *name)
 				 TOP_H + BOARD_H + BASE_H );
 }
 
+
+Field::~Field()
+{
+	if (net_obj) delete net_obj;
+}
+
+
 QSize Field::sizeHint() const
 {
 	return QSize(board->width(), board->height());
 }
+
 
 bool Field::eventFilter(QObject *, QEvent *e)
 {
@@ -134,11 +144,21 @@ bool Field::eventFilter(QObject *, QEvent *e)
 	return TRUE;
 }
 
+
 void Field::multiGame()
 {
-	netDialog md(&net_obj, this);
-	if ( md.exec() ) board->initMultiGame(net_obj);
+	if (net_obj) {
+		delete net_obj;
+		net_obj = 0;
+	}
+	
+	NetDialog md(this);
+	if ( md.exec() ) {
+		net_obj = md.netObject();
+		board->initMultiGame(net_obj);
+	}
 }
+
 
 void Field::showOpponents()
 {
@@ -148,6 +168,7 @@ void Field::showOpponents()
 	nextHeight->show();
 }
 
+
 void Field::updateOpponents()
 {
 	labPrevName->setText( (const char *)net_obj->getPrevName() );
@@ -155,6 +176,7 @@ void Field::updateOpponents()
 	labNextName->setText( (const char *)net_obj->getNextName() );
 	nextHeight->setValue( net_obj->getNextHeight() );
 }
+
 
 void Field::fillPopup(QPopupMenu *pop)
 {

@@ -18,6 +18,7 @@ class Field : public QWidget
 		
  public:
     Field( QWidget *parent=0, const char *name=0 );
+	~Field();
 
 	void fillPopup(QPopupMenu *pop);
 	QSize sizeHint() const;

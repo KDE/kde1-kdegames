@@ -27,9 +27,9 @@ WHighScores::WHighScores( bool show, int score,
 void WHighScores::showHS( bool show, int score)
 {
 	int i;
-	
 	range = -1;
 	QString str1, str2;
+	QLabel *label;
 	
 	kconf->setGroup(HS_GRP);
 	/* set highscore ? */
@@ -90,7 +90,6 @@ void WHighScores::showHS( bool show, int score)
 		    + 2*frame_w;
 	setFixedSize(W, H);
 	
-	QLabel *label;
 	ADD_LABEL(label, i18n("Hall of Fame"),
 			  (W-title_w)/2, frame_h, title_w, title_h);
 	label->setFont(f2);
@@ -103,16 +102,13 @@ void WHighScores::showHS( bool show, int score)
 	for (i=0; i<NB_HS; i++) {
 		temp2 = frame_w;
 		str1.sprintf("%s%i", HS_NAME_KEY, i);
-		if ( show || range !=i ) {
-			ADD_LABEL(label, kconf->readEntry(str1), temp2, HDEC,
-					  name_label_w, label_h);
-			label->setAlignment( AlignLeft | AlignVCenter);
-			label->setFont(f1);
-		} else {
-			ADD_LABEL(lb, "", temp2, HDEC, name_label_w, label_h);
-			lb->setAlignment( AlignLeft | AlignVCenter);
-			lb->setFont(f1);
-			lb->hide();
+		ADD_LABEL(label, kconf->readEntry(str1), temp2, HDEC,
+				  name_label_w, label_h);
+		label->setAlignment( AlignLeft | AlignVCenter);
+		label->setFont(f1);
+		if ( !show && range==i ) {
+			lb = label;
+			label->hide(); 
 			ADD_EDIT(qle, 10, temp2, HDEC, name_label_w, label_h);
 			connect(qle, SIGNAL(returnPressed()), SLOT(writeName()));
 		}
@@ -120,10 +116,11 @@ void WHighScores::showHS( bool show, int score)
 		ADD_LABEL(label, "-", temp2, HDEC, nb_w, label_h);
 		temp2 += nb_w + space_w;
 		str1.sprintf("%s%i", HS_SCORE_KEY, i);
-		ADD_LABEL(label, kconf->readEntry(str1), temp2, HDEC, nb2_w, label_h);
+		ADD_LABEL(label, kconf->readEntry(str1), temp2, HDEC,
+				  nb2_w, label_h);
         label->setAlignment( AlignRight | AlignVCenter);
 	}
-
+	
 	ADD_BUTTON(pb, i18n("Close"),
 			   (W-button_w)/2, H-frame_h-button_h,
 			   button_w, button_h, accept());
@@ -144,22 +141,19 @@ void WHighScores::writeName()
 	kconf->writeEntry(str2, str);
 	
 	/* show the entered highscore */
-	delete qle;
+	qle->hide();
 	pb->show();
 	lb->setText(str);
 	lb->show();
 }
-     
+
 /******************/
 /* Options dialog */
 Options::Options( QWidget *parent, const char *name )
 : QDialog(parent, name, TRUE)
 {
-	initMetaObject();
-
-	QLabel *ql;
-	ADD_LABEL(ql, i18n("No option yet !"), 10, 10, 90, LABEL_H); 
-	
+	QLabel *label;
+	ADD_LABEL(label, i18n("No option yet !"), 10, 10, 90, LABEL_H);
 	QPushButton *pb;
 	ADD_BUTTON(pb, i18n("Ok"), 35, 130, 50, 30, accept());
 	
@@ -169,16 +163,13 @@ Options::Options( QWidget *parent, const char *name )
 
 /***********************/
 /* network game Dialog */
-netDialog::netDialog( NetObject **p_net_object,
-					  QWidget *parent, const char *name )
+NetDialog::NetDialog( QWidget *parent, const char *name )
 : QDialog(parent, name, TRUE)
 {
-	initMetaObject();
-
 	timer = new QTimer();
 	connect( timer, SIGNAL(timeout()), SLOT(timeout()) );
 	
-	p_net_obj = p_net_object;
+	net_obj = 0;
 	
 	/* create title label */
 	ADD_LABEL(labTitle, i18n("Network Dialog"), 10, 10, 150, LABEL_H);
@@ -220,7 +211,14 @@ netDialog::netDialog( NetObject **p_net_object,
 	adjustSize();
 }
 
-void netDialog::showConnect(int new_state)
+
+NetDialog::~NetDialog()
+{
+	delete timer;
+}
+
+
+void NetDialog::showConnect(int new_state)
 {
 	int i;
 	QString str;
@@ -308,7 +306,7 @@ void netDialog::showConnect(int new_state)
 	
 	/* CONNECT */
 	if ( state==CONNECT ) {
-		/* hide edit lines & create the correspnding labels */
+		/* hide edit lines & create the corresponding labels */
 		if ( net_obj->isClient() ) {
 			edAdd->hide();
 			net_obj->t_address = edAdd->text();
@@ -360,37 +358,17 @@ void netDialog::showConnect(int new_state)
 	adjustSize();
 }
 
-void netDialog::createNetObject(bool server)
-{
-	QString tmp_add, tmp_name, tmp_port;
-	
-	net_obj = *p_net_obj;
-	
-	/* if net_object exists and if net_object is client_type/server_type
-	   : delete it */
-	if ( net_obj!=0 )
-		if ( (server && net_obj->isClient())
-			 || (!server && net_obj->isServer()) ) {
-			tmp_add = net_obj->t_address;
-			tmp_name = net_obj->t_name;
-			tmp_port = net_obj->t_port;
-		    delete net_obj;
-			net_obj = 0;
-		}
 
-	/* create a new net object if it does not already exist */
-	if ( net_obj==0 ) {
-		if ( server )
-			net_obj = new ServerNetObject(tmp_add, tmp_name, tmp_port);
-		else
-			net_obj = new ClientNetObject(tmp_add, tmp_name, tmp_port);
-		*p_net_obj = net_obj;
-	}
+void NetDialog::createNetObject(bool server)
+{
+	if ( server ) net_obj = new ServerNetObject();
+	else net_obj = new ClientNetObject();
 	
 	showConnect(ASK_ADD);
 }
 
-void netDialog::connecting()
+
+void NetDialog::connecting()
 {
 	/* test and set address & port */
 	if ( !net_obj->checkParam( edName->text(), edAdd->text(), edPort->text(),
@@ -406,17 +384,17 @@ void netDialog::connecting()
 	 * already exist (if != -1) ; in this case it is not necessary to create
 	 * it and possibly if the port used is the same, it is not necessary
 	 * to bind/listen it. */
-	if ( net_obj->isClient() || !net_obj->connectSocketExists() ) {
+//	if ( net_obj->isClient() || !net_obj->connectSocketExists() ) {
 		/* create the first socket */
 		if ( !net_obj->createSocket(serror) ) {
 			ERROR(serror);
 			showConnect(RE_ASK_ADD);
 			return;
 		}
-	}
+//	}
 	
-	if ( net_obj->isClient() || !net_obj->connectSocketExists()
-		 || !net_obj->samePort() ) {
+//	if ( net_obj->isClient() || !net_obj->connectSocketExists()
+//		 || !net_obj->samePort() ) {
 		net_obj->setPort();
 		/* connect socket (ie connect or listen according to the mode) */
 		if ( !net_obj->connectSocket(serror) ) {
@@ -424,7 +402,7 @@ void netDialog::connecting()
 			showConnect(RE_ASK_ADD);
 			return;
 		}
-	}
+//	}
 
 	/* update dialog in waiting mode */
 	showConnect(WAIT_PLAYERS);
@@ -433,7 +411,8 @@ void netDialog::connecting()
 	timer->start(NET_TIMEOUT);
 }
 
-void netDialog::timeout()
+
+void NetDialog::timeout()
 {
 	if ( !net_obj->dialogTimeout(serror) ) {
 		if ( !serror.isEmpty() ) {
@@ -450,18 +429,22 @@ void netDialog::timeout()
 	}
 }
 
-void netDialog::cancel()
+
+void NetDialog::cancel()
 {
 	if ( state==ASK_ADD )
 		showConnect(ASK_MODE);
 	else {
-		if ( net_obj) 
-			net_obj->endClientConnection();
+		if (net_obj) {
+			delete net_obj;
+			net_obj = 0;
+		}
 		reject();
 	}
 }
 
-void netDialog::play()
+
+void NetDialog::play()
 {
 	for (int i=0; i<=net_obj->getNbPlayers(); i++)
 		net_obj->deleteLabel(i);

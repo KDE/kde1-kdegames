@@ -1,5 +1,4 @@
 #include "net.h"
-#include "hack.h"
 
 #include <string.h>
 
@@ -25,8 +24,7 @@ Player::Player( NetObject *pa )
 
 Player::~Player()
 {
-	if ( label!=0 )
-		delete label;
+	if ( label!=0 ) delete label;
 	
 	/* if connected : try to send an END_MSG */
 	if ( sock!=-1 ) {
@@ -38,10 +36,11 @@ Player::~Player()
 	}
 }
 
-NetObject::NetObject( QString& tmp_address, QString& tmp_name,
-					 QString& tmp_port )
+NetObject::NetObject( const char *tmp_address, const char *tmp_name,
+					 const char *tmp_port )
 {
-	if ( tmp_address.isEmpty() ) {
+	if ( tmp_address ) t_address = tmp_address;
+	else {
 		// Lookup things via uname
 		struct utsname thishost;
 		if ( uname(&thishost) == 0)
@@ -50,16 +49,13 @@ NetObject::NetObject( QString& tmp_address, QString& tmp_name,
 		else
 			// Last resort: Read Environment name
 			t_address = getenv("HOSTNAME");
-	} else
-		t_address = (const char *)tmp_address;
-	if ( tmp_name.isEmpty() )
-		t_name = NET_DEFAULT_NAME;
-	else
-		t_name = (const char *)tmp_name;
-	if ( tmp_port.isEmpty() )
-		t_port = NET_DEFAULT_PORT;
-	else
-		t_port = (const char *)tmp_port;
+	}
+	
+	if ( tmp_name ) t_name = tmp_name;
+	else t_name = NET_DEFAULT_NAME;
+	
+	if ( tmp_port ) t_port = tmp_port;
+	else t_port = NET_DEFAULT_PORT;
 	
 	init();
 }
@@ -115,9 +111,9 @@ void NetObject::writeSelect(int time)
 }
 
 bool NetObject::checkParam( const char *nname, const char *naddress,
-						    const char *nport, QString& serror )
+						    const char *nport, QString &serror )
 {
-	struct hostent *host;
+	struct hostent *host = 0;
 	bool ok;
 	
 	serror = "";
@@ -136,19 +132,14 @@ bool NetObject::checkParam( const char *nname, const char *naddress,
 	
 	/* test the address */
 	if ( naddress[0]==0 ) {
-		serror += i18n("Null address");
+		serror = i18n("Null address");
 		return FALSE;
 	}
 	if ( isdigit(naddress[0]) ) {
 		netaddr = inet_addr(naddress);
-		if( netaddr==-1 ) {
-			serror += i18n("Unknown address");
-			return FALSE;
-		}
-	} else {
-		host = gethostbyname(naddress);
+		if ( netaddr>=0 ) host = gethostbyname(naddress);
 		if ( host==0 ) {
-			serror += i18n("Unknown address");
+			serror = i18n("Unknown address");
 			return FALSE;
 		}
 		netaddr = *(long *)(host->h_addr);
@@ -161,7 +152,7 @@ bool NetObject::createSocket( QString& serror )
 	int sock;
 	
 	/* create socket */
-	sock = socket(AF_INET, SOCK_STREAM, 0);
+	sock = socket(PF_INET, SOCK_STREAM, 0);
 	if ( sock<0 ) {
 		serror = i18n("Cannot create socket");
 		return FALSE;
@@ -170,7 +161,8 @@ bool NetObject::createSocket( QString& serror )
 	
 	/* set socket's options */
 	int one = 1;
-	setsockopt(sock, SOL_SOCKET, SO_REUSEADDR, (const void *)&one, sizeof(one));
+	setsockopt(sock, SOL_SOCKET, SO_REUSEADDR,
+			   (const void *)&one, sizeof(one));
 	
 	/* assign the descriptor to the first player */
 	pl[0]->sock = sock;
@@ -221,15 +213,15 @@ void NetObject::gameOver( QString& serror )
 
 /*********************/
 /* client net object */
-ClientNetObject::ClientNetObject( QString& tmp_address, QString& tmp_name,
-								  QString& tmp_port )
+ClientNetObject::ClientNetObject( const char *tmp_address,
+								 const char *tmp_name, const char *tmp_port )
 : NetObject(tmp_address, tmp_name, tmp_port)
 {
 	timeout = CLIENT_TIMEOUT;
 	mode = CLIENT_MODE;
 }
 
-bool ClientNetObject::connectSocket( QString& serror )
+bool ClientNetObject::connectSocket( QString &serror )
 {
 	/* set the net address */
 	sin.sin_family = AF_INET;
@@ -237,7 +229,7 @@ bool ClientNetObject::connectSocket( QString& serror )
 	sin.sin_addr.s_addr = netaddr;
 	
 	/* connect the socket to server */
-	if ( Connect(pl[0]->sock, (struct sockaddr *)&sin, sizeof(sin))<0 ) {
+	if ( ::connect(pl[0]->sock, (struct sockaddr *)&sin, sizeof(sin))<0 ) {
 		serror = i18n("Connect error");
 		return FALSE;
 	}
@@ -271,7 +263,8 @@ bool ClientNetObject::dialogTimeout( QString& serror )
 	}
 	nb_b = read(pl[0]->sock, buff, MAX_BUFF);   
 	
-	if ( !checkData(i18n("The server has died"), i18n("Cancel from server"), serror) )
+	if ( !checkData(i18n("The server has died"),
+					i18n("Cancel from server"), serror) )
 		return FALSE;
 
 	if ( hasReceivedMsg(PLAY_MSG) )
@@ -352,8 +345,8 @@ bool ClientNetObject::playTimeout( QString& serror )
 
 /*********************/
 /* server net object */
-ServerNetObject::ServerNetObject( QString& tmp_address, QString& tmp_name,
-								  QString& tmp_port )
+ServerNetObject::ServerNetObject( const char *tmp_address,
+								 const char *tmp_name, const char *tmp_port )
 : NetObject(tmp_address, tmp_name, tmp_port)
 {
 	timeout = SERVER_TIMEOUT;
@@ -391,8 +384,8 @@ bool ServerNetObject::dialogTimeout( QString& serror )
 	
 	/* contact from a new player */
 	if ( readIsset(pl[0]->sock) ) {
-		addrlen = sizeof(sin);
-		new_sock = Accept( pl[0]->sock, (struct sockaddr *)&sin, &addrlen );
+		addrlen = (ksize_t)sizeof(sin);
+		new_sock = accept( pl[0]->sock, (struct sockaddr *)&sin, &addrlen );
 		if ( new_sock<0 ) {
 			serror = i18n("Unknown message from unknown player (??)");
 			return FALSE;
@@ -490,8 +483,8 @@ bool ServerNetObject::initGame( QString& serror)
 		readSelect(1);
 		if ( readIsset(pl[i]->sock) ) {
 			nb_b = read( pl[i]->sock, buff, MAX_BUFF );
-			 if ( !checkData(i18n("Client has died"), i18n("Cancel from client"),
-							 serror) )
+			 if ( !checkData(i18n("Client has died"),
+							 i18n("Cancel from client"), serror) )
 				return FALSE;
 			if ( !hasReceivedMsg(READY_MSG) ) {
 				serror = i18n("Unknown message from client");

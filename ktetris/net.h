@@ -78,11 +78,12 @@ class NetObject
  friend Player;
 	
  public:
-	NetObject( QString& address, QString& name, QString& port );
+	NetObject( const char *address = 0,
+			  const char *name = 0, const char *port = 0);
 	virtual ~NetObject() { clean(); }
 	
-	bool checkParam( const char *name, const char *address, const char *nport,
-					 QString& serror );
+	bool checkParam( const char *name, const char *address,
+					const char *nport, QString& serror );
 	bool createSocket( QString& serror );
 	bool connectSocketExists() { return pl[0]->sock!=-1; }
 	bool samePort()            { return port==t_port.toInt(0); }
@@ -133,7 +134,8 @@ class NetObject
 	/* tmp variables */
 	long netaddr;
 	struct sockaddr_in sin;
-	int nb_b, addrlen, new_sock;
+	int nb_b, new_sock;
+	ksize_t addrlen;
 	char buff[MAX_BUFF], name[NAME_LENGTH];
 	QString addr;
 	Player **new_pl;
@@ -155,7 +157,8 @@ class NetObject
 class ClientNetObject : public NetObject
 {
  public:
-	ClientNetObject( QString& address, QString& name, QString& port );
+	ClientNetObject( const char *address = 0,
+					const char *name = 0, const char *port = 0 );
 	bool connectSocket( QString& serror );
 	bool dialogTimeout( QString& serror );
 	bool initGame( QString& serror );
@@ -165,7 +168,8 @@ class ClientNetObject : public NetObject
 class ServerNetObject : public NetObject
 {
  public:
-	ServerNetObject( QString& address, QString& name, QString& port );
+	ServerNetObject( const char *address = 0,
+					const char *name = 0, const char *port = 0 );
 	bool connectSocket( QString& serror );
 	bool dialogTimeout( QString& serror );
 	bool initGame( QString& serror );

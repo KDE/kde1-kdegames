@@ -19,10 +19,6 @@
 #define OP_MENUBAR_VIS "menubar visible"
 
 /* misc defines */
-#define NO_TYPE      0
-#define TETRIS_TYPE  1
-#define GLOBULE_TYPE 2
-
 #define CANCEL 0
 #define SERVER 1
 #define CLIENT 2
@@ -68,19 +64,13 @@
 
 #define ERROR( msg ) \
     { QMessageBox ab; \
-	  ab.setCaption(klocale->translate("Error")); \
+	  ab.setCaption(i18n("Error")); \
       ab.setText(msg); \
-	  ab.setButtonText(klocale->translate("Oops")); \
+	  ab.setButtonText(i18n("Oops")); \
 	  ab.show(); }
 
 /* used in network code */
 #define MAX_CLIENTS 10
 #define MAX_BUFF    200
-
-#include <sys/types.h>
-#include <sys/socket.h> 
-
-extern  int connect(int  sockfd, struct sockaddr *serv_addr, int addrlen );
-extern  int accept(int s, struct sockaddr *addr, int *addrlen);
 
 #endif

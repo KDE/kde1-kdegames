@@ -1,15 +1,20 @@
 #include "spiece.h"
 
-#include <qpainter.h>
-#include "drawButton.h"
+#include "dbutton.h"
 
 #include "spiece.moc"
 
 ShowNextPiece::ShowNextPiece( QWidget *parent, const char *name )
 : QFrame( parent, name )
 {
+	paint = new QPainter(this);
 	setFrameStyle( QFrame::Panel | QFrame::Sunken );
 	xOffset = -1;     /* -1 until first resizeEvent. */
+}
+
+ShowNextPiece::~ShowNextPiece()
+{
+	delete paint;
 }
 
 void ShowNextPiece::resizeEvent( QResizeEvent *e )
@@ -21,21 +26,14 @@ void ShowNextPiece::resizeEvent( QResizeEvent *e )
 	yOffset     = (sz.height() - 3)/6;
 }
 
-void ShowNextPiece::paintEvent( QPaintEvent * )
+void ShowNextPiece::paintEvent(QPaintEvent *)
 {
-	QPainter p;
-	
-	p.begin( this );
-	drawFrame( &p );
-	p.end();
+	drawFrame( paint );
 	emit update();
 }
 
-void ShowNextPiece::drawNextSquare(int x, int y,QColor *color)
+void ShowNextPiece::drawNextSquare(int x, int y, QColor *color)
 {
-	if (xOffset == -1) return;		/* Before first resizeEvent? */
-	
-	QPainter paint(this);
-	drawTetrisButton( &paint, xOffset+x*blockWidth, yOffset+y*blockHeight,
+	drawTetrisButton( paint, xOffset+x*blockWidth, yOffset+y*blockHeight,
 					 blockWidth, blockHeight, color );
 }

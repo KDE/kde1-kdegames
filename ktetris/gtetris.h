@@ -96,7 +96,7 @@
 class GenericTetris
 {
  public:
-    GenericTetris(int type);
+    GenericTetris();
 
     virtual void clearBoard();
     void revealNextPiece(int revealIt);
@@ -139,6 +139,7 @@ class GenericTetris
 	int   canMoveTo(int xPosition, int line); /* Returns a boolean value. */
 	void  showPiece();
 	virtual void opponentGift(int nb_cases) = 0;
+	virtual int  gameType() { return TETRIS_GAME; };
 	
 	TetrisPiece currentPiece;
 	TetrisPiece nextPiece;
@@ -160,7 +161,6 @@ class GenericTetris
     void  optimizedMove(int newPos, int newLine,TetrisPiece &newPiece);
     
     int   showNext;                    /* Boolean variable. */
-	int   gameType;
 	int   score;
 	int   level;
 };

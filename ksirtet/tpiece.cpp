@@ -104,12 +104,12 @@ void TetrisPiece::initialize(int ptype, int gameType)
 	
     type = ptype;
 	
-	if ( gameType==TETRIS_TYPE )
+	if ( gameType==TETRIS_GAME )
 		for(int i=0; i<NB_CASES; i++) {
 			setCoords(i, TTYPES[type-1][i][0], TTYPES[type-1][i][1]);
 			setColor(i, type);
 		}
-	else if ( gameType==GLOBULE_TYPE )
+	else if ( gameType==PUYOPUYO_GAME )
 		for(int i=0; i<NB_CASES; i++) {
 			setCoords(i, TTYPES[type-1][i][0], TTYPES[type-1][i][1]);
 			setColor(i, (rand() % 5)+1);

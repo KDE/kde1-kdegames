@@ -4,6 +4,10 @@
 #define NB_TYPES 7
 #define NB_CASES 4
 
+#define TETRIS_GAME   1
+#define PUYOPUYO_GAME 2
+
+
 class TetrisPiece
 {
 public:

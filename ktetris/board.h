@@ -25,7 +25,7 @@ class Board : public QFrame, public GenericTetris
  Q_OBJECT
 		
  public:
-    Board( int type, QWidget *parent=0, const char *name=0 );
+    Board( QWidget *parent=0, const char *name=0 );
 	virtual ~Board();
 
 	void initMultiGame(NetObject *net_obj);

@@ -1,8 +1,8 @@
 #include "ggboard.h"
 
 
-GGBoard::GGBoard(  QWidget *p, const char *name )
-: Board(GLOBULE_TYPE, p, name)
+GGBoard::GGBoard( QWidget *p, const char *name )
+: Board(p, name)
 {
 	    fragmentation = 0;
 }

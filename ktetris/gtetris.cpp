@@ -1,7 +1,7 @@
 #include "gtetris.h"
 #include "defines.h"
 
-GenericTetris::GenericTetris(int type)
+GenericTetris::GenericTetris()
 {
     for(int i = 0 ; i < Height ; i++)
         for(int j = 0 ; j < Width ; j++)
@@ -13,10 +13,8 @@ GenericTetris::GenericTetris(int type)
     score             = 0;
     level	          = 1;
 	nClearLines       = Height;
-	
-	gameType = type;
-	
-	nextPiece.setRandomType(gameType);
+
+	nextPiece.setRandomType(gameType());
 }
 
 void GenericTetris::clearBoard()
@@ -173,7 +171,7 @@ void GenericTetris::newPiece()
     currentPiece = nextPiece;
     if (showNext)
         eraseNextPiece();
-    nextPiece.setRandomType(gameType);
+    nextPiece.setRandomType(gameType());
     if (showNext)
         showNextPiece();
     currentLine = Height - 1 + currentPiece.getMinY();

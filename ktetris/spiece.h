@@ -2,6 +2,7 @@
 #define SPIECE_H
 
 #include <qframe.h>
+#include <qpainter.h>
 
 class ShowNextPiece : public QFrame
 {
@@ -10,6 +11,7 @@ class ShowNextPiece : public QFrame
 	
  public:
     ShowNextPiece( QWidget *parent=0, const char *name=0  );
+	~ShowNextPiece();
  
  public slots:
     void drawNextSquare( int x, int y,QColor *color );
@@ -21,6 +23,7 @@ class ShowNextPiece : public QFrame
     void paintEvent( QPaintEvent * );
     void resizeEvent( QResizeEvent * );
     
+	QPainter *paint;
     int  blockWidth, blockHeight;
     int  xOffset, yOffset;
 };

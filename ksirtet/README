@@ -1,65 +1,16 @@
-KTETRIS 0.2.10 : Alpha version (21/01/98)
+KTETRIS 0.2.12 : Alpha version (10/03/98)
 Copyright (c) 1995 Eirik ENG & 1996-97-98 Nicolas HADACEK (hadacek@kde.org)
 Distributed under the GNU General Public License
+
 
 This program is a clone of the well-known game Tetris. 
 
 Most of the core code (gtetris) has been written by Eirik Eng (see the file
 "README.original") as an example for the Qt distribution.
 
+Enjoy !
 
---- REQUIREMENTS : -------------------------------------------------------
- - libkdecore-0.0.11 or higher
- - libkdeui-0.0.10 or higher
 
---- TODO LIST : -----------------------------------------------------------
- - give same pieces in multi-player game
- - two players on the same computer
- - options (vertical alignment help - size of the tiles - next tile (y/n))
- - use KConfig for the multiplayer stuff
-
---- CHANGELOG : -----------------------------------------------------------
-
-0.2.10
- - included in hte CVS tree
- - KTopLevelWidget & KMenubar
-
-0.2.7
- - some cleanups + international support
- - net fix : use 'uname' rather than 'getenv("HOSTNAME")' 
-
-0.2.6
- - no more NULLs (for the sake of 64bits)
- - a nicer highscores dialog (there should be no more truncated score
-   for ace players :)
-
-0.2.5
- - just a minor change to allow compile in Linux/Alpha
- 
-0.2.4
- - minor changes
- - "kexample 0.31" compliance
- 
-0.2.3
- - adapted for libkdecore 0.7
- - hide/show menubar + popup menu (ala kvt)
- - more compliant to the Style Guide
- 
-0.2.2
- - use kdehelp
- - use of KConfig and clean the highscore dialog
- - use of kmsgbox for about :) [it is nice]
-
-0.2.1
- - use of KKeyCode for the management of keys
-
-0.2
- - many things : network game + extension for other similar game
-
-0.1
- - get rid of the grab stuff from the original version
- - small reorganisation
- - change of the key-bindings (cf help)
- - the real scoring (Asger)
- - get rid of some needless stuff in GenericTetris (Asger)
- - highscores
+Requirements :
+ * libkdecore-0.0.11 or higher
+ * libkdeui-0.0.10 or higher
