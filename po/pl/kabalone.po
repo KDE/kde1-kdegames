@@ -1,0 +1,134 @@
+# Polish translation of KDE kabalone
+# Version 0.1.0
+# (C) 1997 Piotr Roszatycki <dexter@fnet.com.pl>
+
+msgid "Save"
+msgstr "&Zachowaj"
+
+msgid "Spy"
+msgstr "Po&dgl±danie"
+
+msgid "Save Position"
+msgstr "&Zachowaj pozycjê"
+
+msgid "Restore Position"
+msgstr "&Odtwórz pozycjê"
+
+msgid "LeftUp"
+msgstr "LewoGóra"
+
+msgid "RightUp"
+msgstr "PrawoGóra"
+
+msgid "LeftDown"
+msgstr "LewoDó³"
+
+msgid "RightDown"
+msgstr "PrawoDó³"
+
+msgid "Side"
+msgstr "Bok"
+
+msgid "Board value"
+msgstr "Warto¶æ uk³adu"
+
+#: AbTop.cpp:29 AbTop.cpp:143
+msgid "Move"
+msgstr "Ruch"
+
+#: AbTop.cpp:32 AbTop.cpp:147
+msgid "Press F2 for a new game"
+msgstr "Wci¶nij F2 aby rozpocz±æ now± grê"
+
+#: AbTop.cpp:73
+msgid "New Game"
+msgstr "Nowa gra"
+
+#: AbTop.cpp:75
+msgid "Stop Search"
+msgstr "Zatrzymaj my¶lenie"
+
+#: AbTop.cpp:80
+msgid "Take back"
+msgstr "Cofnij ruch"
+
+#: AbTop.cpp:82
+msgid "Hint"
+msgstr "Podpowied¼"
+
+#: AbTop.cpp:85
+msgid "Quit"
+msgstr "&Wyj¶cie"
+
+#: AbTop.cpp:89
+msgid "Easy"
+msgstr "&Prosty"
+
+#: AbTop.cpp:91
+msgid "Normal"
+msgstr "&Normalny"
+
+#: AbTop.cpp:93
+msgid "Hard"
+msgstr "&Trudny"
+
+#: AbTop.cpp:95
+msgid "Challange"
+msgstr "&Wyzwanie"
+
+#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
+msgid "Red"
+msgstr "Czerwone"
+
+#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
+msgid "Yellow"
+msgstr "¯ó³te"
+
+#: AbTop.cpp:105
+msgid "Both"
+msgstr "Oba"
+
+#: AbTop.cpp:111
+msgid "Level"
+msgstr "&Poziom"
+
+#: AbTop.cpp:112
+msgid "Computer plays"
+msgstr "&Gra komputera"
+
+#: AbTop.cpp:114
+msgid "Move slow"
+msgstr "&Animacja"
+
+#: AbTop.cpp:122 AbTop.cpp:405
+msgid "About"
+msgstr "&Informacje o kabalone"
+
+#: AbTop.cpp:123
+msgid "Rules"
+msgstr "Zasady"
+
+#: AbTop.cpp:127
+msgid "File"
+msgstr "&Plik"
+
+#: AbTop.cpp:128
+msgid "Options"
+msgstr "&Opcje"
+
+#: AbTop.cpp:130
+msgid "Help"
+msgstr "Pomo&c"
+
+#: AbTop.cpp:152
+msgid "won"
+msgstr "wygra³y"
+
+#: AbTop.cpp:156
+msgid "I am thinking..."
+msgstr "Namy¶lam siê..."
+
+#: AbTop.cpp:157
+msgid "It's your turn !"
+msgstr "Twój ruch!"
+
