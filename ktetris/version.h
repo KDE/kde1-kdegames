@@ -1,1 +1,1 @@
-#define KTETRIS_VERSION	"0.2.11"
+#define KTETRIS_VERSION	"0.2.12"
