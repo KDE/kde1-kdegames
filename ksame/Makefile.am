@@ -27,6 +27,6 @@ HighScore.moc: HighScore.h
 	$(MOC) -o HighScore.moc HighScore.h
 
 pics_DATA = stones.bmp stones_mask.bmp stones2000_mask.bmp stones2000.bmp 
-docs_DATA = index.html
+docs_DATA = index.html index-1.html index-2.html index-3.html index-4.html logotp3.gif
 apps_DATA = ksame.kdelnk
 
