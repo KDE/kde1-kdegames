@@ -9,7 +9,7 @@
 #include <qobject.h>
 #include "Move.h"
 
-
+class KConfig;
 
 /* Class for best moves so far */
 class MainCombination
@@ -70,12 +70,13 @@ class Board : public QObject
 	
 	/* Generate list of allowed moves for player with <color>
 	 * Returns a calculated value for actual position */
-	int  generateMoves(MoveList& list);
+	void generateMoves(MoveList& list);
 	
 	/* Functions handling moves
 	 * played moves can be taken back (<MvsStored> moves are remembered) */
 	void playMove(const Move& m);
-	void takeBack(); /* if not remembered, do nothing */
+	void takeBack();    /* if not remembered, do nothing */
+	int movesStored();  /* return how many moves are remembered */
 
 	/* Show a move with highlighting
 	 *  step 0: state before move
@@ -127,19 +128,36 @@ class Board : public QObject
 	Move randomMove();
 	void stopSearch() { breakOut = true; }
 
+	/* Save/Restore board position (field, colorCounts) from a string */
+	QString getState();
+	void setState(QString& p);
+
+	void updateSpy(bool b) { bUpdateSpy = b; }			
+	
 	/* simple terminal view of position */
 	void print();
 	
 	static int fieldDiffOfDir(int d) { return direction[d]; }
 
+	void readRating(KConfig *);
+	void saveRating(KConfig *);
+
 signals:
 	void searchBreak();
+	void updateBestMove(Move&,int);
+
+	void update(int,int,Move&,bool);
+	void updateBest(int,int,Move&,bool);
 		  		
  private:
+	void setFieldValues();	
+
 	/* helper function for generateMoves */
-	int Board::generateFieldMoves(int, MoveList&);
+	void generateFieldMoves(int, MoveList&);
+	/* helper function for calcValue */
+	int calcFieldValue(int,int,int);
 	/* helper functions for bestMove (recursive search!) */
-	int search1(int, int, int);
+	int search(int, int, int);
 	int search2(int, int, int);
 	  
 	int field[AllFields];         /* actual board */
@@ -150,7 +168,7 @@ signals:
 
 	/* for search */
 	MainCombination mc;
-	bool breakOut, inMainCombination, show, boardOk;
+	bool breakOut, inMainCombination, show, boardOk, bUpdateSpy;
 	int maxDepth, realMaxDepth;	
 
 	/* ratings; semi constant - are rotated by changeRating() */
@@ -161,8 +179,9 @@ signals:
 	static int order[RealFields];
 	static int direction[8];
 	
-	static int colorValues[6];
-	static int clusterValue[9];
+	static int stoneValue[6];
+	static int moveValue[5];
+	static int ringValue[5], ringDiff[5];
 };
 
 
@@ -172,16 +191,3 @@ inline const int Board::operator[](int no)
 }
 
 #endif
-
-
-
-
-
-
-
-
-
-
-
-
-

@@ -3,7 +3,7 @@
 Name=Abalone
 Type=Application
 Exec=kabalone
-DocPath=KAbalone.html
+DocPath=kabalone/index.html
 Comment=Play Abalone against computer
 Comment[de]=Abalone gegen den Computer
 Comment[pl]=Zagraj w Abalone przeciwko komputerowi.

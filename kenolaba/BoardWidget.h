@@ -2,9 +2,8 @@
 #define _BOARDWIDGET_H_
 
 #include "Move.h"
+#include "Board.h"
 #include <qwidget.h>
-
-class Board;
 
 class BoardWidget : public QWidget
 {
@@ -14,8 +13,8 @@ class BoardWidget : public QWidget
 	BoardWidget(Board&, QWidget *parent = 0, const char *name = 0);
 	~BoardWidget();
 
-	virtual void resizeEvent(QResizeEvent *e);
-	virtual void paintEvent(QPaintEvent *e);
+	virtual void resizeEvent(QResizeEvent *);
+	virtual void paintEvent(QPaintEvent *);
 	virtual void mousePressEvent( QMouseEvent* pEvent );
 	virtual void mouseReleaseEvent( QMouseEvent* pEvent );
 	virtual void mouseMoveEvent( QMouseEvent* pEvent );
@@ -24,9 +23,15 @@ class BoardWidget : public QWidget
 	void drawBoard();
 	
 	void choseMove(MoveList*);
+	
+	/* copy actual board position */
+	void copyPosition();
+	void clearPosition();
 
  signals:
 	void moveChoosen(Move&);
+	void mousePressed();
+	void updateSpy(QString);
 	
  private:
 	int positionOf(int x, int y);
@@ -35,6 +40,11 @@ class BoardWidget : public QWidget
 
 	QPixmap pm, boardPM;
 	Board& board;
+	int actValue;
+
+	/* copied position */
+	int field[Board::AllFields];
+	int color1Count, color2Count;	
 	
 	/* for getting user Move */
 	MoveList *pList;

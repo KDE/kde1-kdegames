@@ -5,25 +5,60 @@
 */
 
 #include <assert.h>
+#include <qstring.h>
+#include <kapp.h>
 #include "Move.h"
+#include "Board.h"
 
+const char* nameOfDir(int dir)
+{
+  dir = dir % 6;
+  return 
+    (dir == 1) ? klocale->translate("Right") :
+    (dir == 2) ? klocale->translate("RightDown") :
+    (dir == 3) ? klocale->translate("LeftDown") :
+    (dir == 4) ? klocale->translate("Left") :
+    (dir == 5) ? klocale->translate("LeftUp") :
+    (dir == 0) ? klocale->translate("RightUp") : "??";
+}
+
+QString Move::name() const
+{
+  QString s,tmp;
+
+  /* sideway moves... */
+  if (type == left3 || type == right3) {
+    s.setNum(field + Board::fieldDiffOfDir(direction)); /* middle of the 3 */
+    s+= '/';
+    s+= (type == left3) ? nameOfDir(direction-1): nameOfDir(direction+1);
+    s+= '/';
+    s+= klocale->translate("Side");
+  }
+  else if ( type == left2 || type == right2) {
+    s.setNum(field);
+    s+= '/';
+    s+= (type == left2) ? nameOfDir(direction-1): nameOfDir(direction+1);
+    s+= '/';
+    s+= klocale->translate("Side");
+  }
+  else {
+    s.setNum(field);
+    s += '/';
+    s += nameOfDir(direction);
+    
+    tmp = (type <3 ) ? klocale->translate("Out") :
+          (type <6 ) ? klocale->translate("Push") : "";
+    if (!tmp.isEmpty()) {
+      s += '/';
+      s += tmp;
+    }
+  }
+  return s;
+}
 
 void Move::print() const
 {
-/*
-	char* dir[]= {
-		"Right", "RightDown", "LeftDown", "Left", "LeftUp", "RightUp"
-	};
-	char *typ[] = {
-		"out2", "out1with3", "out1with2", "push2",
-		 "push1with3", "push1with2", "move3", "left3", "right3",
-		"left2", "right2", "move2", "move1", "none" };
-	
-	debug("Move( %d, %s : %s)\n", 
-	       field, 
-	       (direction>0 && direction<7) ? dir[direction-1] : "??",
-	       (type>=0 && type <= none) ? typ[type] : "??");
-*/
+  printf("%s", (const char*)name() );
 }
 
 

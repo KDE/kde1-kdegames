@@ -32,6 +32,8 @@ class Move
 	static int maxMoveType()
 	  { return move1; }	       
 
+	QString name() const;
+
 	void print() const;
 
 	/* Directions */

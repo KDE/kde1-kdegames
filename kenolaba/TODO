@@ -1,5 +1,4 @@
-- supply a toolbar
-- supply a pixmap (for kfm)
-
-less priority:
+Less priority:
+- position edit mode (with load/save)
+- Rating edit (with load/save)
 - allow for 3 players (e.g. 2 computer players give you the rest :-)

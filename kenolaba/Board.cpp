@@ -9,24 +9,15 @@
  * Josef Weidendorfer, 28.8.97
 */
 
-#ifdef HAVE_CONFIG_H
-#include <config.h>
-#endif
-
-#if TIME_WITH_SYS_TIME
-# include <sys/time.h>
-# include <time.h>
-#else
-# if HAVE_SYS_TIME_H
-#  include <sys/time.h>
-# else
-#  include <time.h>
-# endif
-#endif
-
+#include <qdatetm.h>
+#include <qstrlist.h>
+#include <kapp.h>
 #include "Board.h"
-#if 1
-#define CHECK(b)  if (!b) { m.print(); print(); ASSERT(b); }
+
+// #define MYTRACE 1
+
+#if 0
+#define CHECK(b)  ASSERT(b)
 #else
 #define CHECK(b)
 #endif
@@ -86,37 +77,100 @@ int Board::order[]={
 	  64,75,86,97,108,107,106,105,104,92,80,68,56,45,34,23,12,
 	  13,14,15,16,28,40,52 };
 
-/* ratings for fields: central room has highest ratings... */
-int Board::fieldValue[] = {
-	  50,
-	  38,36,39,37,38,39,
-	  34,32,30,35,34,32,34,36,33,31,35,30,
-	  28,29,21,27,29,29,27,20,29,28,29,29,28,20,29,27,29,20,
-	  0,2,3,1,1,5,3,1,0,2,4,2,0,1,5,2,0,3,4,1,0,2,2,1 
-};
+/* ratings for fields are calculated out of these values
+ * (see setFieldValues)
+ */
+int Board::ringValue[] = { 45, 35, 25, 10, 0 };
+int Board::ringDiff[]  = {  0, 10, 10,  8, 5 };
+
+int Board::fieldValue[61];
 
 /* Value added to board rating according to the difference of 
  * stones in game of player1 and player2 */
-int Board::colorValues[]= {
-		0,-800,-1800,-3000,-4400,-6000 };
+int Board::stoneValue[]= { 0,-800,-1800,-3000,-4400,-6000 };
 
-int Board::direction[]= {
-		-11,1,12,11,-1,-12,-11,1 };
+int Board::direction[]= { -11,1,12,11,-1,-12,-11,1 };
 
-/* Values added to board rating for content of neighbored fields
- * e.g. (color1,color1) gives 3, (free,color2) gives -1 */
-int Board::clusterValue[]= {
-		0,1,-1,1,8,0,-1,0,-8 };
-
+/* Values for possible moves: 
+ * (move2, move3, push1, push2, out) */
+int Board::moveValue[]= {
+  1,3,5,7,30 };
 
 Board::Board()
 {
 	clear();
-	breakOut = false;
+	breakOut = bUpdateSpy = false;
 	boardOk = true;
 	debug = 0;
 	realMaxDepth = 1;
+	setFieldValues();
 }
+
+void Board::setFieldValues()
+{
+  int i, j = 0, k = 57;
+
+  fieldValue[0] = ringValue[0];
+  for(i=1;i<7;i++) 
+    fieldValue[i] = ringValue[1] + ((j+=k) % ringDiff[1]);
+  for(i=7;i<19;i++)
+    fieldValue[i] = ringValue[2] + ((j+=k) % ringDiff[2]);
+  for(i=19;i<37;i++)
+    fieldValue[i] = ringValue[3] + ((j+=k) % ringDiff[3]);
+  for(i=37;i<61;i++)
+    fieldValue[i] = ringValue[4] + ((j+=k) % ringDiff[4]);
+}
+
+void Board::readRating(KConfig *config)
+{
+  QStrList list;
+  QString tmp;
+
+  if (config->readListEntry("StoneValues", list)) {
+    stoneValue[0] = 0;
+    for(int i=1;i<6;i++)
+      stoneValue[i] = (tmp = list.at(i-1)).toInt();
+  }
+
+  if (config->readListEntry("MoveValues", list)) {
+    for(int i=0;i<5;i++)
+      moveValue[i] = (tmp = list.at(i)).toInt();
+  }
+
+  if (config->readListEntry("RingValues", list)) {
+    for(int i=0;i<5;i++)
+      ringValue[i] = (tmp = list.at(i)).toInt();
+  }
+
+  if (config->readListEntry("RingDiffs", list)) {
+    for(int i=0;i<5;i++)
+      ringDiff[i] = (tmp = list.at(i)).toInt();
+  }
+
+  setFieldValues();
+}
+
+void Board::saveRating(KConfig *config)
+{
+  QString entry;
+
+  entry.sprintf("%d,%d,%d,%d,%d", stoneValue[1], stoneValue[2],
+		stoneValue[3], stoneValue[4], stoneValue[5]);
+  config->writeEntry("StoneValues", entry);
+
+  entry.sprintf("%d,%d,%d,%d,%d", moveValue[0], moveValue[1],
+		moveValue[2], moveValue[3], moveValue[4]);
+  config->writeEntry("MoveValues", entry);
+
+  entry.sprintf("%d,%d,%d,%d,%d", ringValue[0], ringValue[1],
+		ringValue[2], ringValue[3], ringValue[4]);
+  config->writeEntry("RingValues", entry);
+
+  entry.sprintf("%d,%d,%d,%d,%d", ringDiff[0], ringDiff[1],
+		ringDiff[2], ringDiff[3], ringDiff[4]);
+  config->writeEntry("RingDiffs", entry);
+}
+
 
 
 void Board::begin(int startColor)
@@ -143,9 +197,8 @@ void Board::clear()
 }
 
 /* generate moves starting at field <startField> */
-inline int Board::generateFieldMoves(int startField, MoveList& list)
+inline void Board::generateFieldMoves(int startField, MoveList& list)
 {
-	int value = 0;
 	int d, dir, c, actField, left, right;
 	int opponent = (color == color1) ? color2 : color1;
 
@@ -197,12 +250,10 @@ inline int Board::generateFieldMoves(int startField, MoveList& list)
 			if (c == free) {
 				/* (c c o .) */
 				list.insert(startField, d, Move::push1with2);
-				value++;
 			}
 			else if (c == out) {
 				/* (c c o |) */
 				list.insert(startField, d, Move::out1with2);
-				value+=6;
 			}
 			continue;
 		}
@@ -228,7 +279,6 @@ inline int Board::generateFieldMoves(int startField, MoveList& list)
 		if (c == free) {
 			/* (c c c .) */
 			list.insert(startField, d, Move::move3);
-			value++;
 			continue;
 		}
 		if (c != opponent)
@@ -241,13 +291,11 @@ inline int Board::generateFieldMoves(int startField, MoveList& list)
 		if (c == free) {
 			/* (c c c o .) */
 			list.insert(startField, d, Move::push1with3);
-			value+=2;
 			continue;
 		}
 		else if (c == out) {
 			/* (c c c o |) */
 			list.insert(startField, d, Move::out1with3);
-			value+=6;
 			continue;
 		}
 		if (c != opponent)
@@ -260,21 +308,17 @@ inline int Board::generateFieldMoves(int startField, MoveList& list)
 		if (c == free) {
 			/* (c c c o o .) */
 			list.insert(startField, d, Move::push2);
-			value+=3;
 		}
 		else if (c == out) {
 			/* (c c c o o |) */
 			list.insert(startField, d, Move::out2);
-			value+=7;
 		}
 	}
-	return value;
 }
 
 
-int Board::generateMoves(MoveList& list)
+void Board::generateMoves(MoveList& list)
 {
-	int value=0;
 	int actField, f;
 
 	ASSERT( boardOk );
@@ -282,10 +326,10 @@ int Board::generateMoves(MoveList& list)
 	for(f=0;f<RealFields;f++) {
 		actField = order[f];
 		if ( field[actField] == color)
-		   value += generateFieldMoves(actField, list);
+		   generateFieldMoves(actField, list);
 	}
-	return value;
 }
+
 
 
 void Board::playMove(const Move& m)
@@ -465,6 +509,7 @@ void Board::takeBack()
 		CHECK( field[f + 4*dir] == opponent );
 		CHECK( field[f + 5*dir] == out );
 		field[f + 3*dir] = opponent;
+		break;
 	 case Move::out1with3:   /* (. c c c |) => (c c c o |) */
 		CHECK( field[f + dir] == color );
 		CHECK( field[f + 2*dir] == color );
@@ -568,11 +613,20 @@ void Board::takeBack()
 	CHECK( isConsistent() );
 }
 
-void Board::showMove(const Move& m, int step)
+int Board::movesStored()
+{
+  int c = storedLast - storedFirst;
+  if (c<0) c+= MvsStored;
+  return c;
+}
+
+void Board::showMove(const Move& mm, int step)
 {
 	int f, dir, dir2;
 	int opponentNew, colorNew;
 	bool afterMove;
+	static Move lastMove;
+	Move m;
 
 	if (boardOk) {
 	  /* board ok means: board has the normal state before move */
@@ -581,6 +635,12 @@ void Board::showMove(const Move& m, int step)
 	    return;      /* nothing to be done */
 	}
 	boardOk = (step == 0) ? true:false;
+
+	if (step == 0) 
+	  m = lastMove;
+	else {
+	  m = lastMove = mm;
+	}
 
 	if (color == color1) {
 	  colorNew = (step<2) ? color1 : ((step>2) ? color1bright:free );
@@ -715,19 +775,122 @@ void Board::showStart(const Move& m, int step)
 }
 
 
+/* calc value out of possible moves starting at field <startField>
+ * parameter color shadows class member variable !
+ */
+inline int Board::calcFieldValue(int startField, int color, int value)
+{
+	int d, dir, c, actField;
+	int opponent = (color == color1) ? color2 : color1;
+
+	/* 6 directions	*/
+	for(d=1;d<7;d++) {
+		dir = direction[d];
+		  
+		/* 2nd field */
+		if (field[actField = startField+dir] != color)
+		  continue;
+		
+		/* 2nd == color */
+		
+		/* 3rd field */
+		c = field[actField += dir];
+		if (c == free) {
+			/* (c c .) */
+			value+=moveValue[0];
+			continue;
+		}		
+		else if (c == opponent) {
+			
+			/* 4th field */
+			c = field[actField += dir];
+			if (c == free) {
+			  /* (c c o .) */
+			  value+=moveValue[2];
+			}
+			else if (c == out) {
+			  /* (c c o |) */
+			  value+=moveValue[4];
+			}
+			continue;
+		}
+		if (c != color)
+		  continue;
+		
+		/* 3nd == color */
+
+		/* 4th field */
+		c = field[actField += dir];
+		if (c == free) {
+		  /* (c c c .) */
+		  value+=moveValue[1];
+		  continue;
+		}
+		if (c != opponent)
+		  continue;
+
+		/* 4nd == opponent */
+		
+		/* 5. field */
+		c = field[actField += dir];
+		if (c == free) {
+		  /* (c c c o .) */
+		  value+=moveValue[2];
+		  continue;
+		}
+		else if (c == out) {
+		  /* (c c c o |) */
+		  value+=moveValue[4];
+		  continue;
+		}
+		if (c != opponent)
+		  continue;
+
+		/* 5nd == opponent */
+
+		/* 6. field */
+		c = field[actField += dir];
+		if (c == free) {
+		  /* (c c c o o .) */
+		  value+=moveValue[3];
+		}
+		else if (c == out) {
+		  /* (c c c o o |) */
+		  value+=moveValue[4];
+		}
+	}
+	return value;
+}
+
+
+
+/* Calculate a rating for actual position
+ * 
+ * A higher value means a better position for opponent
+ * NB: This means a higher value for better position of
+ *     'color before last move'
+ */
 int Board::calcValue()
 {
-        int value=0;
-	int i,j,k=0;
+        int value=0,f;
+	int i,j;
 	
 	for(i=0;i<RealFields;i++) {		  
-		j=field[order[i]];
-		if (j == color1) value += fieldValue[i];
-		if (j == color2) value -= fieldValue[i];
-		value += clusterValue[k*3+j]; k=j;
+		j=field[f=order[i]];
+		if (j == 0) continue;
+		if (j == color) 
+		  value -= calcFieldValue(f,j,fieldValue[i]);
+		else
+		  value += calcFieldValue(f,j,fieldValue[i]);
 	}
-	return(value + colorValues[14 - color1Count] - 
-	               colorValues[14 - color2Count]);
+	if (color == color2)
+	  value += stoneValue[14 - color1Count] - 
+                   stoneValue[14 - color2Count];
+	else
+	  value += stoneValue[14 - color2Count] - 
+                   stoneValue[14 - color1Count];
+
+	return value;
 }
 
 bool Board::isConsistent()
@@ -789,7 +952,7 @@ void Board::showHist()
 	playMove(m1); print();
 	getchar();
 }
-
+*/
 
 void indent(int d)
 {
@@ -797,11 +960,13 @@ void indent(int d)
 	tmp[d*3] = 0;
 	printf("%s",tmp);
 }
-*/
 
-int Board::search1(int depth, int alpha, int beta)
+/*
+ * We always try the maximize the board value
+ */
+int Board::search(int depth, int alpha, int beta)
 {
-	int actValue=-16000, value, moveValue;
+	int actValue=-16000, value;
 	Move m;
 	MoveList list;
 	bool stop = false;
@@ -811,9 +976,11 @@ int Board::search1(int depth, int alpha, int beta)
 	              (depth < maxDepth)   ? Move::maxPushType() : 
                                              Move::maxOutType();
 
-	moveValue = generateMoves(list);
+	generateMoves(list);
 
-	// if (debug >2) printf(">>>>>>>> Depth %d\n", depth);
+#ifdef MYTRACE
+	printf(">>>>>>>> Depth %d\n", depth);
+#endif
 	
 	/* check for a old best move in main combination */
 	if (inMainCombination) {
@@ -830,43 +997,59 @@ int Board::search1(int depth, int alpha, int beta)
 
 	/* depth first search */
 	while(!stop) {
-/*
-		if (debug>0) {
-			indent(depth);
-			m.print();
-		}
-*/				
+
+#ifdef MYTRACE
+	  indent(depth);
+	  m.print();
+	  printf("\n");
+#endif	
+		
+#ifdef SPION
+	  	if (bUpdateSpy) emit update(depth, 0, m, false);
+#endif
 		playMove(m);
 		if (!isValid())
 		  value = ((depth < maxDepth) ? 15999:14999) - depth;
-		else
-		  value = search2(depth+1,alpha,beta);
+		else {
+		  /* opponent searches for his maximum; but we won't the
+		   * minimum: so change sign (for alpha/beta window too!)
+		   */
+		  value = - search(depth+1,-beta,-alpha);
+		}
 		takeBack();
 
-/*		
-		if (debug> 0) {
-			indent(depth);
-			printf("=> (%d - %d): Value %d [ %d ] for ",
-			       alpha, beta, value,actValue);
-			m.print();
-		}		
-*/
+		/* For GUI response */
+		if (maxDepth - depth >2)
+		  emit searchBreak();		
 
+#ifdef MYTRACE	
+		indent(depth);
+		printf("=> (%d - %d): Value %d [ %d ] for ",
+		       alpha, beta, value,actValue);
+		m.print();
+	  printf("\n");
+#endif
+
+#ifdef SPION
+		if (bUpdateSpy) {
+		  if (value > actValue)
+		    emit updateBest(depth, value, m, value >= beta);
+		  emit update(depth, value, m, true);
+		}		  
+#endif
 		if (value > actValue) {
 			actValue = value;
 			mc.update(depth, m);
-			
-			if (maxDepth - depth >3)
-			  emit searchBreak();		
+
+			if (bUpdateSpy && depth == 0)
+			  emit updateBestMove(m, actValue);
 			
 			if (actValue >= beta) {
-/*
-				if (debug>0) {
-					indent(depth);
-					printf("CUTOFF\n");
-				}				
-*/
-				return actValue;
+#ifdef MYTRACE
+			  indent(depth);
+			  printf("CUTOFF\n");
+#endif
+			  return actValue;
 			}			
 			if (actValue > alpha) alpha = actValue;
 		}
@@ -883,143 +1066,36 @@ int Board::search1(int depth, int alpha, int beta)
 		else
 		  value = calcValue();
 		takeBack();
-/*
-		if (debug> 0) {
-			indent(depth);
-			printf("> (%d - %d): Value %d [ %d ] for ",
-			       alpha, beta, value, actValue);
-			m.print();
-		}
-*/		
+
+#ifdef SPION
+		if (bUpdateSpy) {
+		  if (value > actValue)
+		    emit updateBest(depth, value, m, value >= beta);
+		  emit update(depth, value, m, true);
+		}		  
+#endif
+
+#ifdef MYTRACE
+		indent(depth);
+		printf("> (%d - %d): Value %d [ %d ] for ",
+		       alpha, beta, value, actValue);
+		m.print();
+		printf("\n");
+#endif
 		if (value > actValue) {
 			actValue = value;
 			mc.update(depth, m);
-			
+
 			if (actValue >= beta) {
-/*
-				if (debug>0) {
-					indent(depth);
-					printf("CUTOFF\n");
-				}				
-*/
-				break;
+#ifdef MYTRACE
+			  indent(depth);
+			  printf("CUTOFF\n");
+#endif
+			  break;
 			}
 			
 			if (actValue > alpha) alpha = actValue;
 		}
-	}	
-	return actValue;
-}
-
-
-int Board::search2(int depth, int alpha, int beta)
-{
-	int actValue=16000, value, moveValue;
-	Move m;
-	MoveList list;
-	bool stop = false;
-
-	/* We make a depth search for the following move types... */
-	int maxType = (depth < maxDepth/2) ? Move::maxMoveType() :
-	              (depth < maxDepth)   ? Move::maxPushType() : 
-                                             Move::maxOutType();
-
-	moveValue = generateMoves(list);
-
-//	if (debug>2) printf(">>>>>>>> Depth %d\n", depth);
-
-	/* check for a old best move in main combination */
-	if (inMainCombination) {
-		m = mc[depth];
-		if (!list.isElement(m,0)) 
-		  m.type = Move::none;
-		if (m.type == Move::none)
-		  inMainCombination = false;
-		if (m.type > maxType)
-		  m.type = Move::none;
-	}
-	if (m.type == Move::none)
-	  stop = !list.getNext(m, maxType);
-
-	/* depth first search */
-	while(!stop) {
-/*
-		if (debug>0) {
-			indent(depth);
-			m.print();
-		}
-*/		
-		playMove(m);
-		if (!isValid())
-		  value = depth - ((depth < maxDepth) ? 15999:14999);
-		else
-		  value = search1(depth+1,alpha,beta);
-		takeBack();
-
-/*
-		if (debug> 0) {
-			indent(depth);
-			printf("=> (%d - %d): Value %d [ %d ] for ",
-			       alpha, beta, value, actValue);
-			m.print();
-		}
-*/
-		
-		if (value < actValue) {
-			actValue = value;
-			mc.update(depth, m);
-			if (maxDepth - depth >3) 
-			  emit searchBreak();		
-			
-			if (actValue <= alpha) {
-/*
-				if (debug>0) {
-					indent(depth);
-					printf("CUTOFF\n");
-				}				
-*/
-				return actValue;
-			}			
-			if (actValue < beta) beta = actValue;
-		}		
-		
-		stop = (!list.getNext(m, maxType)) || breakOut;
-	}
-	
-	/* other moves: calculate rating */
-	while(list.getNext(m, Move::none)) {
-		
-		playMove(m);
-		if (!isValid())
-		  value = depth - ((depth < maxDepth) ? 15999:14999);
-		else
-		  value = calcValue();
-		takeBack();
-
-/*
-		if (debug> 0) {
-			indent(depth);
-			printf("> (%d - %d): Value %d [ %d ] for ",
-			       alpha, beta, value, actValue);
-			m.print();
-		}
-*/
-		
-		if (value < actValue) {
-			actValue = value;
-			mc.update(depth, m);
-			
-			if (actValue <= alpha) {
-/*
-				if (debug>0) {
-					indent(depth);
-					printf("CUTOFF\n");
-				}
-*/
-				break;
-			}
-			if (actValue < beta) beta = actValue;
-		}		
 	}	
 	return actValue;
 }
@@ -1036,16 +1112,21 @@ Move& Board::bestMove()
 	show = false;
 	breakOut = false;
 
-//	if (debug) printf(">>>>>>>>>>>>>>>>>> New Search\n");
-	do {	       
-//		if (debug) printf(">> MaxDepth: %d\n", maxDepth);
+#ifdef MYTRACE
+	printf(">>>>>>>>>>>>>>>>>> New Search\n");
+#endif
+	do {
+#ifdef MYTRACE
+		printf(">> MaxDepth: %d\n", maxDepth);
+#endif
 		// ShowTiefe(maxtiefe);
-		do {			
-//			if (debug) printf(">> Alpha/Beta: (%d ... %d)\n", alpha, beta);
+		do {
+#ifdef MYTRACE
+			  printf(">> Alpha/Beta: (%d ... %d)\n", alpha, beta);
+#endif
 			nalpha=alpha, nbeta=beta;
 			inMainCombination = (mc[0].type != Move::none);
-			actValue = (color == color1) ?
-			  search1(0,alpha,beta) : search2(0,alpha,beta);
+			actValue = search(0,alpha,beta);
 			
 			/* Don't break out if we haven't found a move */
 			if (mc[0].type == Move::none) 
@@ -1058,11 +1139,10 @@ Move& Board::bestMove()
 			  alpha = actValue-1, beta=15000;
 		}
 		while(!breakOut && (actValue<=nalpha || actValue>=nbeta));
-		if ( (maxDepth+((color == color2)?1:0)) %2
-		      ==1)
-		  alpha=actValue-200, beta=actValue+1;
-		else 
-		  alpha=actValue-1, beta=actValue+200;
+		//		if ( (maxDepth+((color == color2)?1:0)) %2 ==1)
+		alpha=actValue-200, beta=actValue+1;
+		// else
+		// alpha=actValue-1, beta=actValue+200;
 		// ShowHv2();
 	}	
 	while(++maxDepth< realMaxDepth && !breakOut);
@@ -1076,18 +1156,17 @@ Move Board::randomMove()
 {
 	static int i = 999;
 	unsigned int j,l;
-	struct timeval tv;
 
 	Move m;
 	MoveList list;
-
-	gettimeofday(&tv,0);
-	j = tv.tv_sec * 1000000 + tv.tv_usec;
+	
+	/* we prefer to use QT... */
+	j = (QTime::currentTime()).msec();
 	
 	generateMoves(list);
 	l = list.getLength();
 
-	j = (j % i) % l +1;
+	j = (j + i) % l +1;
 	if ( (i+=7)>10000) i-=10000;
 	
 	while(j != 0) {
@@ -1101,7 +1180,6 @@ Move Board::randomMove()
 
 void Board::print()
 {
-/*
 	int row,i;
 	char spaces[]="      ";
 	char *z[]={". ","O ","X ", "o ", "x "};
@@ -1122,7 +1200,47 @@ void Board::print()
 	}
 	printf("       -----------     O: %d  X: %d\n",
 	       color1Count, color2Count);	
-*/
+}
+
+QString Board::getState()
+{
+	QString state;
+	QString entry, tmp;
+	Move m;
+
+	/* remove any highlighting */
+	showMove(m,0);
+
+	/* Color + Counts */
+	state += (char) ('A' + color1Count);
+	state += (char) ('A' + color2Count);
+	state += (char) ('A' + 3*color + field[order[0]]);
+	
+	/* Board (field values can be 0/1/2; 3 fields coded in one char */
+	for(int i=1;i<=60;i+=3)
+	  state+= (char) ('@' + 9*field[order[i]] + 
+			  3*field[order[i+1]] + field[order[i+2]] );
+
+	/* -> 23 chars */
+	return state;
+}	
+
+void Board::setState(QString& state)
+{
+	if (state.length() != 23) return;
+
+	color1Count = state[0] - 'A';
+	color2Count = state[1] - 'A';
+	color = (state[2] - 'A') / 3;
+	field[order[0]] = (state[2] - 'A') %3;
+
+	int i = 1;
+	for(int j = 3; j<23; j++) {
+		int w = state[j] - '@';
+		field[order[i++]] = w/9;
+		field[order[i++]] = (w % 9)/3;
+		field[order[i++]] = w % 3;
+	}
 }
 
 #include "Board.moc"

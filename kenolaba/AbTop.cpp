@@ -1,37 +1,31 @@
 /* Class AbTop */
 
-#include "AbTop.h"
 #include <qpopmenu.h>
 #include <qkeycode.h>
+#include <qtimer.h>
 #include <kapp.h>
+#include <kiconloader.h>
 #include <ktopwidget.h>
 #include <klocale.h>
 #include <kmenubar.h>
 #include <kmsgbox.h>
 #include <kstatusbar.h>
+#include <kstdaccel.h>
+#include "AbTop.h"
 #include "Board.h"
 #include "BoardWidget.h"
 
 AbTop::AbTop()
 {
   timerState = noGame;
-  depth = 2;
-  level_id = easy_id;
-  iplay_id = red_id;
-  iplay = cRed;
+
   moveNo = 0;
-  showMoveLong = true;
+  actValue = 0;
   stop = false;
 
   setupMenu();
-
-  char tmp[100];
-  sprintf(tmp,"%s 000", klocale->translate("Move"));
-  status = new KStatusBar(this);
-  status->insertItem(tmp, 1);
-  status->insertItem( klocale->translate("Press F2 for a new game"), 2);
-  setStatusBar(status);
-  updateStatus();
+  setupStatusBar();
+  setupToolBar();
 
   timer = new QTimer;
   connect( timer, SIGNAL(timeout()), this, SLOT(timerDone()) );
@@ -41,48 +35,280 @@ AbTop::AbTop()
   connect( board, SIGNAL(searchBreak()), this, SLOT(searchBreak()) );
 
   CHECK_PTR(board);
-  boardWidget = new BoardWidget(*board,this);
+  boardWidget = new BoardWidget(*board,this);  
+
+#ifdef SPION
+  spy = new Spy(*board);
+#endif
+
+  connect( boardWidget, SIGNAL(updateSpy(QString)),
+	   this, SLOT(updateSpy(QString)) );
+
+  connect( board, SIGNAL(updateBestMove(Move&,int)),
+	   this, SLOT(updateBestMove(Move&,int)) );
 
   connect( boardWidget, SIGNAL(moveChoosen(Move&)), 
 	   this, SLOT(moveChoosen(Move&)) );
 
+  /* default */
+  easy();
+  play_red();
+  showMoveLong = true;
+  showSpy = false;
+  
   setView(boardWidget);
   boardWidget->show();
 
-  easy();
-  play_red();
-
-  show();
   setMinimumSize(150,200);
-  resize(260,280);
+
+  updateStatus();
+  updateToolBar();
 }
 
-/* let the program be responsive even in a long search... */
-void AbTop::searchBreak()
+AbTop::~AbTop()
 {
-  kapp->processEvents();
+#ifdef SPION
+  delete spy;
+#endif
+	
+  delete toolbar;
 }
+
+/* Read config options
+ *
+ * menu must already be created!
+ */
+void AbTop::readConfig()
+{
+  KConfig* config = kapp->getConfig();
+  config->setGroup("Options");
+	
+  readOptions(config);
+
+  config->setGroup("Appearance");
+  int x=215, y=280;
+  QString entry;
+  if (entry = config->readEntry("Geometry"))
+	  sscanf(entry,"%dx%d",&x,&y);
+  resize(x,y);
+  config->setGroup("Rating");
+  board->readRating(config);
+}
+
+void AbTop::readOptions(KConfig* config)
+{	
+  QString entry;
+  if (entry = config->readEntry("Level")) {
+    if (entry == "Easy")  easy();
+    else if (entry == "Normal") normal();
+    else if (entry == "Hard") hard();
+    else if (entry == "Challange") challange();
+  }
+
+  if (entry = config->readEntry("Computer")) {
+    if (entry == "Red") play_red();
+    else if (entry == "Yellow") play_yellow();
+    else if (entry == "Both") play_both();
+  }
+
+  if (entry = config->readEntry("MoveSlow")) 
+    showMoveLong = (entry == "Yes");
+
+  _options->setItemChecked(slow_id, showMoveLong);
+
+  /* We set <showSpy> to inverted value & toggle afterwards */
+  showSpy = false;
+  if (entry = config->readEntry("ShowSpy")) 
+    showSpy = (entry == "No");
+
+  toggleSpy();
+}
+
+void AbTop::readProperties(KConfig *config)
+{
+  QString entry;
+	
+  readOptions(config);
+  board->readRating(config);
+	
+  if (entry = config->readEntry("TimerState"))
+    timerState = entry.toInt();
+  if (timerState == noGame) return;
+
+  if (entry = config->readEntry("MoveNumber"))
+    moveNo = entry.toInt();
+
+  if (entry = config->readEntry("GameStopped"))  
+    stop = (entry == "Yes");
+
+  if (entry = config->readEntry("Position")) {
+    board->setState(entry);
+    boardWidget->copyPosition();
+    boardWidget->draw();
+  }
+  updateStatus();
+  updateToolBar();
+  show();
+  playGame();
+}
+
+void AbTop::writeConfig()
+{
+  KConfig* config = kapp->getConfig();
+  config->setGroup("Options");
+
+  writeOptions(config);
+
+  QString entry;
+  config->setGroup("Appearance");
+  config->writeEntry("Geometry", entry.sprintf("%dx%d",width(),height()) );
+  config->setGroup("Rating");
+  board->saveRating(config);
+  config->sync();
+}
+
+
+void AbTop::writeOptions(KConfig *config)
+{
+  QString entry;
+  entry = (level_id == normal_id) ? "Normal" :
+          (level_id == hard_id) ? "Hard" :
+          (level_id == challange_id) ? "Challange" : "Easy";
+  config->writeEntry("Level",entry);
+
+  entry = (iplay_id == yellow_id) ? "Yellow" :
+          (iplay_id == both_id) ? "Both" : "Red";
+  config->writeEntry("Computer",entry);
+
+  entry = showMoveLong ? "Yes" : "No";
+  config->writeEntry("MoveSlow",entry);
+	
+  entry = showSpy ? "Yes" : "No";
+  config->writeEntry("ShowSpy",entry);
+}
+
+void AbTop::saveProperties(KConfig *config)
+{
+  QString entry;
+  
+  writeOptions(config);
+  board->saveRating(config);
+	
+  config->writeEntry("TimerState",entry.setNum(timerState));
+
+  if (timerState == noGame) return;
+
+  config->writeEntry("MoveNumber",entry.setNum(moveNo));
+  config->writeEntry("GameStopped", stop ? "Yes":"No");
+  config->writeEntry("Position", board->getState());
+}
+
+void AbTop::closeEvent(QCloseEvent *)
+{
+  quit();
+}
+
+void AbTop::savePosition()
+{
+  KConfig* config = kapp->getConfig();
+  config->setGroup("SavedPosition");
+  config->writeEntry("Position", board->getState());
+}
+
+void AbTop::restorePosition()
+{
+  KConfig* config = kapp->getConfig();
+  config->setGroup("SavedPosition");
+  QString  entry = config->readEntry("Position");
+  
+  timerState = notStarted;
+  timer->stop();	
+  board->begin(Board::color1);
+  moveNo = 0;
+  stop = false;
+  board->setState(entry);
+  boardWidget->copyPosition();
+  boardWidget->draw();
+  updateStatus();
+  updateToolBar();  
+  playGame();
+}
+
+void AbTop::setupStatusBar()
+{
+  char tmp[100];
+  sprintf(tmp,"%s 000", klocale->translate("Move"));
+  status = new KStatusBar(this);
+  status->insertItem(tmp, 1);
+  status->insertItem( klocale->translate("Press F2 for a new game"), 2);
+  setStatusBar(status);
+}
+
+void AbTop::setupToolBar()
+{
+	QPixmap pm;
+	
+	toolbar = new KToolBar(this);
+
+	pm = kapp->getIconLoader()->loadIcon( "ab-start.xpm" );
+	toolbar->insertButton(pm, 0, SIGNAL( clicked() ),
+			      this, SLOT( newGame() ),
+			      TRUE, klocale->translate("New Game"));
+	
+	pm = kapp->getIconLoader()->loadIcon( "ab-stop.xpm" );
+	toolbar->insertButton(pm, 1, SIGNAL( clicked() ),
+			      this, SLOT( stopSearch() ),
+			      TRUE, klocale->translate("Stop Search"));
+	
+	pm = kapp->getIconLoader()->loadIcon( "undo.xpm" );
+	toolbar->insertButton(pm, 2, SIGNAL( clicked() ),
+			      this, SLOT( takeBack() ),
+			      TRUE, klocale->translate("Take back"));
+	
+	pm = kapp->getIconLoader()->loadIcon( "hint.xpm" );
+	toolbar->insertButton(pm, 3, SIGNAL( clicked() ),
+			      this, SLOT( suggestion() ),
+			      TRUE, klocale->translate("Hint"));
+	
+	pm = kapp->getIconLoader()->loadIcon( "help.xpm" );
+	toolbar->insertButton(pm, 4, SIGNAL( clicked() ),
+			      this, SLOT( help() ),
+			      TRUE, klocale->translate("Rules"));
+
+	toolbar->show();	
+	addToolBar(toolbar);	
+}
+
 
 void AbTop::setupMenu()
 {
   KMenuBar* menu;
-  QPopupMenu *file, *_help;
+  QPopupMenu *_help;
 
-  file = new QPopupMenu;
-  CHECK_PTR( file );
-  file->insertItem( klocale->translate("New Game"), 
+  /* is this wrong ? */
+  stdAccel = new KStdAccel( kapp->getConfig() );
+
+  _file = new QPopupMenu;
+  CHECK_PTR( _file );
+  _file->insertItem( klocale->translate("New Game"), 
 		   this, SLOT(newGame()), Key_F2 );
-  file->insertItem( klocale->translate("Stop Search"),
-		   this, SLOT(stopSearch()), Key_S );
-  file->insertSeparator();
+  _file->insertSeparator();
+  _file->insertItem( klocale->translate("Save Position"), 
+		   this, SLOT(savePosition()), stdAccel->save() );
+  _file->insertItem( klocale->translate("Restore Position"), 
+		   this, SLOT(restorePosition()), stdAccel->open() );
+  _file->insertSeparator();
+  stop_id = _file->insertItem( klocale->translate("Stop Search"),
+			     this, SLOT(stopSearch()), Key_S );
   //  file->insertItem( "Stop", this, SLOT(stopGame()) );
   //  file->insertItem( "Continue", this, SLOT(continueGame()) );
-  file->insertItem( klocale->translate("Take back"),
-		   this, SLOT(takeBack()), Key_B );
-  file->insertItem( klocale->translate("Hint"),
-		   this, SLOT(suggestion()), Key_H );
-  file->insertSeparator();
-  file->insertItem( klocale->translate("Quit"), this, SLOT(quit()) );
+  back_id = _file->insertItem( klocale->translate("Take back"),
+			     this, SLOT(takeBack()), stdAccel->undo() );
+  hint_id = _file->insertItem( klocale->translate("Hint"),
+			     this, SLOT(suggestion()), Key_H );
+  _file->insertSeparator();
+  _file->insertItem( klocale->translate("Quit"), 
+		     this, SLOT(quit()), stdAccel->quit() );
 
   _level = new QPopupMenu;
   CHECK_PTR( _level );
@@ -113,18 +339,22 @@ void AbTop::setupMenu()
   _options->insertSeparator();
   slow_id = _options->insertItem( klocale->translate("Move slow"),
 				  this, SLOT(changeShowMove()) );
+  spy_id = _options->insertItem( klocale->translate("Spy"),
+				  this, SLOT(toggleSpy()) );
+  _options->insertSeparator();
+  _options->insertItem( klocale->translate("Save"),
+				  this, SLOT(writeConfig()) );	
   _options->setCheckable( TRUE );
-
-  _options->setItemChecked(slow_id, showMoveLong);
 
   _help = new QPopupMenu();
   CHECK_PTR( _help );
   _help->insertItem( klocale->translate("About"), this, SLOT(about()) );
-  _help->insertItem( klocale->translate("Rules"), this, SLOT(help()) );
+  _help->insertItem( klocale->translate("Rules"), 
+		     this, SLOT(help()), stdAccel->help() );
 
   menu  = new KMenuBar(this);
   CHECK_PTR( menu );
-  menu->insertItem( klocale->translate("File"), file);
+  menu->insertItem( klocale->translate("File"), _file);
   menu->insertItem( klocale->translate("Options"), _options);
   menu->insertSeparator();
   menu->insertItem( klocale->translate("Help"), _help);
@@ -132,6 +362,32 @@ void AbTop::setupMenu()
 
   setMenu(menu);
 }
+
+void AbTop::updateSpy(QString s)
+{
+  if (showSpy) {
+    if (s.isEmpty())
+      updateStatus();
+    else
+      status->changeItem(s,2);
+  }
+}
+
+void AbTop::updateBestMove(Move& m, int value)
+{
+  if (showSpy) {
+    board->showMove(m,3);
+    boardWidget->copyPosition();
+    boardWidget->draw();
+    board->showMove(m,0);
+
+    QString tmp;
+    tmp.sprintf("%s : %+d", (const char*) m.name(), value-actValue);
+    updateSpy(tmp);
+    kapp->processEvents();
+  }
+}
+
 
 void AbTop::updateStatus()
 {
@@ -158,6 +414,39 @@ void AbTop::updateStatus()
   }
   status->changeItem(tmp,2);
 }
+
+/* only <stop search>, <hint>, <take back> have to be updated */
+void AbTop::updateToolBar()
+{
+  if (timerState == noGame || timerState == gameOver) {
+    toolbar->setItemEnabled(1, false);
+    toolbar->setItemEnabled(2, false);
+    toolbar->setItemEnabled(3, false);
+    _file->setItemEnabled(stop_id, false);
+    _file->setItemEnabled(back_id, false);	  
+    _file->setItemEnabled(hint_id, false);	  
+    return;
+  }
+
+  /* Stop search */
+  toolbar->setItemEnabled(1, iPlayNow());
+  _file->setItemEnabled(stop_id, iPlayNow());	
+
+  /* Take back */
+  toolbar->setItemEnabled(2, board->movesStored() >=2 );
+  _file->setItemEnabled(back_id, board->movesStored() >=2 );
+	
+  /* Hint */
+  toolbar->setItemEnabled(3, (haveHint().type != Move::none) );
+  _file->setItemEnabled(hint_id, (haveHint().type != Move::none) );
+}
+
+/* let the program be responsive even in a long search... */
+void AbTop::searchBreak()
+{
+  kapp->processEvents();
+}
+
 
 void AbTop::timerDone()
 {
@@ -194,9 +483,11 @@ void AbTop::timerDone()
   case showSugg+6:
     board->showMove(actMove, 0);
     timerState = notStarted;
+    boardWidget->copyPosition();
     boardWidget->draw();
     return;
   }
+  boardWidget->copyPosition();
   boardWidget->draw();
   timerState++;
   timer->start(interval,TRUE);
@@ -226,6 +517,8 @@ void AbTop::playGame()
 {
   if (timerState == moveShown) {
     board->playMove(actMove);
+    actValue = - board->calcValue();
+    boardWidget->copyPosition();
     boardWidget->draw();
     timerState = notStarted;
   }
@@ -234,15 +527,18 @@ void AbTop::playGame()
     timerState = gameOver;
   }
   updateStatus();
-      
+  updateToolBar();
+  if (stop) return;
+
+  moveNo++;
+
   if (!iPlayNow()) {
     userMove();
     return;
   }
-  if (stop) return;
 	
   kapp->processEvents();
-  if (moveNo++ <4) {
+  if (moveNo <4) {
     /* Chose a random move making the position better for actual color */
 
     int v = board->calcValue(), vv;
@@ -272,6 +568,7 @@ void AbTop::newGame()
   timerState = notStarted;
   timer->stop();	
   board->begin(Board::color1);
+  boardWidget->copyPosition();
   boardWidget->draw();
   moveNo = 0;
   stop = false;	
@@ -299,7 +596,8 @@ void AbTop::continueGame()
 {
   if (timerState != noGame && timerState != gameOver) {
     stop = false;
-    playGame();
+    if (timerState == notStarted)
+	    playGame();
   }
 }
 
@@ -309,22 +607,41 @@ void AbTop::takeBack()
   if (moveNo > 1) {
     board->takeBack();
     board->takeBack();
+    boardWidget->copyPosition();
     boardWidget->draw();
     moveNo -=2;
     updateStatus();
+    updateToolBar();
     userMove();
   }
 }
 
+Move AbTop::haveHint()
+{
+  static Move m;
+  static int oldMoveNo = 0;
+
+  if (timerState != notStarted) {
+    m.type = Move::none;
+  }
+  else if (moveNo != oldMoveNo) {
+    MoveList list;
+    
+    oldMoveNo = moveNo;
+    m = board->nextMove();
+    board->generateMoves(list);
+    if (!list.isElement(m,0))
+      m.type = Move::none;
+  }
+  return m;
+}
+
+
 void AbTop::suggestion()
 {
-  MoveList list;
-  Move& m = board->nextMove();
-
   if (timerState != notStarted) return;
-  
-  board->generateMoves(list);
-  if (!list.isElement(m,0)) return;
+  Move m = haveHint();
+  if (m.type == Move::none) return;
 
   actMove = m;
 
@@ -389,16 +706,33 @@ void AbTop::changeShowMove()
   _options->setItemChecked(slow_id, showMoveLong);
 }
 
+void AbTop::toggleSpy()
+{
+  showSpy = showSpy ? false:true;
+  board->updateSpy(showSpy);
+  _options->setItemChecked(spy_id, showSpy);
+
+#ifdef SPION
+  if (showSpy)
+    spy->show();
+  else {
+    spy->nextStep();
+    spy->hide();
+  }
+#endif
+
+}
+
 void AbTop::help()
 {
-  kapp->invokeHTMLHelp("kabalone.html", "");
+  kapp->invokeHTMLHelp("kabalone/index.html", "");
 }
 
 void AbTop::about()
 {
     QString tmp;
 
-    tmp.sprintf("KAbalone V 1.01 \n\n"
+    tmp.sprintf("KAbalone V 1.02 \n\n"
 		"(C) 1997 Josef Weidendorfer\n"
 		"<weidendo@informatik.tu-muenchen.de>");
 

@@ -1,0 +1,157 @@
+<HTML>
+<HEAD>
+<TITLE>KAbalone</TITLE>
+
+</HEAD>
+<BODY>
+<H1>KAbalone</H1>
+<h3>The KDE version of Abalone</h3>
+
+<h2>Contents</h2>
+<ul>
+<li><a href="#about">What is "Abalone"?</a></li>
+<li><a href="#rules">Rules of the game</a></li>
+<li><a href="#interface">Interface of the program</a></li>
+<li><a href="#author">About "kabalone"</a></li>
+</ul>
+
+<hr>
+
+<h2><a name=about>What is "Abalone"?</a></h2>
+Abalone is a simple board strategy game. It's played by two players. 
+There are red and yellow types of pieces for the different players.
+Beginning from a start position where each player has 14 pieces,
+moves are drawn till one player has pushed 6 pieces of his opponent out
+of the board.
+
+<hr>
+
+<H2><a name=rules>The Rules for Abalone</a></H2>
+
+1. Red always moves first. <p>
+
+2. Two types of moves are allowed: <p>
+<ul>
+<li> Normal <br>
+One, two or three pieces of yours in a row can be moved be one in the 6
+directions. Side moves are allowed too. <p>
+
+Press a mouse button on the first
+of the pieces you want to move. The piece will be highlighted. Now drag the
+mouse in the wished direction. If the move is valid, the cursor will change
+to a arrow in that direction and all the pieces of the move are highlighted.
+If that's the move you want to draw release the mouse button. <p>
+
+Side moves are handled another way: For two adjacent pieces click between
+them and drag; for three pieces press the middle mouse button on the middle
+piece - if a side move is allowed for the pieces they all are highlighted.
+Otherwise only the middle one is highlighted and you draw a normal move. <p>
+
+<li> Pushing <br>
+You can push a maximum of two pieces of the opponent in front of your own
+pieces as long as the number of the drawn pieces of yours is greater than
+that of the opponent pieces. That means with three own pieces you can
+push one or two of the opponent and with two pieces one. <p>
+
+Special pushing moves are those which push a piece of the opponent out of
+the board. If you have drawn 6 of those moves you have won. <p>
+
+</ul>
+
+If you still don't know what's all about, look at a game where the computer
+plays both sides. After executing KAbalone, select Options/Computer plays/Both
+and start a new game.
+
+<hr>
+
+<h2><a name=interface>Interface of the program</a></h2>
+
+Drawing moves should be obvious (see remarks in Rules above). 
+The buttons in the toolbar have the same meaning as entries in the Files 
+menu.<p>
+
+The Files menu: <p>
+<ul>
+<li> New Game <br>
+Start a new game, even in a running game. <p>
+
+<li> Save position <br>
+You can save the actual position and retrieve it later with Restore position.
+Positions are saved even after quitting the program. <p>
+
+<li> Restore position <br>
+If there is a previously saved position, this position is restored. <p>
+
+<li> Stop search <br>
+When the computer is thinking, his depth search is interrupted and he draws
+the best move he has found so far. <p>
+
+<li> Take back <br>
+Take back your move. Two (!) moves are undone: the opponents move and your
+last move. So it's your turn again. About 100 moves are remembered; so don't
+hesitate to take back moves till you are at the beginning of the game
+(faster is a F2 key press). <p>
+
+<li> Hint <br>
+A hint for your next move is shown. Only possible if you play at level
+normal or above, the move number is 2 or greater and you don't have undone
+your move.
+</ul> <p>
+
+The Options menu: <p>
+
+<ul>
+<li> Level <br>
+The computer can play at four different levels. This influences the number
+of moves he's searching in advance to calculate the best move. You can
+interrupt the search by pressing the S key. <p>
+
+<li> Computer plays <br>
+You can make the computer play Red, Yellow or both sides. Choose between
+these options before starting a new game. Of course it works in a game too
+if you want to change side. <p>
+
+<li> Moving slow <br>
+A move drawn by the computer normally (when this option is checked) is shown
+by blinking and highlighting of the pieces used in this move. Uncheck this
+option if you don't want to wait for this (pseudo) animation: Then only a
+quick highlighting is done. <p>
+
+<li> Spy <br>
+If option Spion is checked, that means: If it's your turn, you can see the
+computer's rating of the move you want to play in the status bar. If it's the
+computer's turn you can see (in status bar and hightlighted pieces) the
+move he actually thinks is the best to play. Of course this changes along his
+search. <p>
+
+<li> Save <br>
+Save options in application config file. Options are restored at each start
+of the program. <p>
+
+</ul> <p>
+
+The rest should be obvious.
+
+<hr>
+
+<h2><a name=author>About KAbalone</a></h2>
+"kabalone" is part of the <a href="http://www.kde.org">KDE (Kool Desktop
+Environment)</a> project. It was written in September 1997 by
+<a href="mailto:weidendo@informatik.tu-muenchen.de">Josef Weidendorfer</a>.
+Don't hesitate to contact me if you find bugs or if you have 
+questions/suggestions on the implementation (... my 
+<a href="http://www.student.uni-augsburg.de/~weidendo/">homepage</a>).
+The program is
+published under the GNU GPL. <p>
+
+The original program was developed in 1993 for DOS and pure Xlib. For KDE
+there was a major rewrite.<p>
+
+Notice: The game idea is not by me. It's a real board game vendored by a
+German game producing firm (I think).
+<p>
+
+<hr>
+<i>Josef Weidendorfer, 9/97<i>
+</BODY>
+</HTML>

@@ -6,7 +6,7 @@
  * Josef Weidendorfer, 9/97
  */
 
-#include <qapp.h>
+#include <kapp.h>
 #include <qbitmap.h>
 #include <qpainter.h>
 #include <qdatetm.h>
@@ -66,6 +66,8 @@ BoardWidget::BoardWidget(Board& b, QWidget *parent, const char *name)
   yellowColor  = new QColor("yellow2");
   redHColor    = new QColor("orange");
   yellowHColor = new QColor("green");
+	
+  copyPosition();
 }
 
 BoardWidget::~BoardWidget()
@@ -75,12 +77,12 @@ BoardWidget::~BoardWidget()
       delete arrow[i];
 }
 
-void BoardWidget::resizeEvent(QResizeEvent * /*e*/ )
+void BoardWidget::resizeEvent(QResizeEvent *)
 {
   drawBoard();
 }
 
-void BoardWidget::paintEvent(QPaintEvent * /*e*/ )
+void BoardWidget::paintEvent(QPaintEvent *)
 {
   bitBlt(this, 0, 0, &pm);
 }
@@ -95,7 +97,7 @@ void drawShadedHexagon(QPainter *p, int x, int y, int r, int lineWidth,
 
   QPen oldPen = p->pen();
     
-  p->setPen(sunken ? g.light() : g.dark());
+  p->setPen(sunken ? g.midlight() : g.dark());
 
   for(i=0; i<lineWidth; i++) {
     p->drawLine( x-i+dx, y-dy, x+2*dx-i, y);
@@ -103,7 +105,7 @@ void drawShadedHexagon(QPainter *p, int x, int y, int r, int lineWidth,
     p->drawLine( x-i+dx, y1+i, x+i-dx, y1+i);
   }
 
-  p->setPen(sunken ? g.dark() : g.light());
+  p->setPen(sunken ? g.dark() : g.midlight());
 
   for(i=0; i<lineWidth; i++) {
     p->drawLine( x+i-dx, y-dy, x+i-2*dx, y);
@@ -226,7 +228,7 @@ void BoardWidget::draw()
     for(i= ((j>0)?j-4:-4) ; i< ((j<0)?5+j:5) ;i++) {
       int x=xpos(i,j);
       int y=ypos(j);
-      int w=board[60+j*11+i];
+      int w=field[60+j*11+i];
 		  
       if (w==Board::color1) 
 	drawColor(&p, x,y, 35, redColor );
@@ -238,25 +240,40 @@ void BoardWidget::draw()
 	drawColor(&p, x,y, 35, yellowHColor );
     }
 
-  if (board.getColor1Count() >0) {
+  if (color1Count >0) {
     /* the outer marks of color1 */
-    if (board.getColor1Count() <12) {
-      for(i=11; i>board.getColor1Count() ;i--)
+    if (color1Count <12) {
+      for(i=11; i>color1Count ;i--)
 	drawColor(&p, xpos(12-i,7-i)+55, ypos(7-i), 35, redColor );
     }
-    for(i=14; i>11 && i>board.getColor1Count() ;i--)
-    drawColor(&p, xpos(-6,10-i)+55, ypos(10-i), 35, redColor );
+    for(i=14; i>11 && i>color1Count ;i--)
+      drawColor(&p, xpos(-6,10-i)+55, ypos(10-i), 35, redColor );
     
     /* the outer marks of color2 */
-    if (board.getColor2Count() <12) {
-      for(i=11; i>board.getColor2Count() ;i--)
+    if (color2Count <12) {
+      for(i=11; i>color2Count ;i--)
 	drawColor(&p, xpos(i-12,i-7)-55, ypos(i-7), 35, yellowColor);
     }
-    for(i=14; i>11 && i>board.getColor2Count() ;i--)
+    for(i=14; i>11 && i>color2Count ;i--)
       drawColor(&p, xpos(6,i-10)-55, ypos(i-10), 35, yellowColor);
   }
   p.end();
   bitBlt(this, 0, 0, &pm);
+}
+
+void BoardWidget::copyPosition()
+{
+	for(int i=0; i<Board::AllFields;i++)
+	  field[i] = board[i];
+	color1Count = board.getColor1Count();
+	color2Count = board.getColor2Count();
+}
+
+void BoardWidget::clearPosition()
+{
+  for(int i=0; i<Board::AllFields;i++)
+    field[i] = 0;
+  color1Count = color2Count = 0;
 }
 
 void BoardWidget::choseMove(MoveList *pl)
@@ -265,6 +282,7 @@ void BoardWidget::choseMove(MoveList *pl)
     pList = pl;
     gettingMove = true;
     mbDown = false;
+    actValue = - board.calcValue();
     PRINT(( "Chose Move...\n" ));
   }
 }
@@ -471,7 +489,10 @@ bool BoardWidget::isValidEnd(int pos)
 
 void BoardWidget::mousePressEvent( QMouseEvent* pEvent )
 {
-  if (!gettingMove) return;
+  if (!gettingMove) {
+    emit mousePressed();
+    return;
+  }
   mbDown = true;
 
   int pos = positionOf( pEvent->x(), pEvent->y() );
@@ -484,7 +505,12 @@ void BoardWidget::mousePressEvent( QMouseEvent* pEvent )
 
   board.showStart(actMove,1);
   startShown = true;
+  copyPosition();
   draw();
+
+  QString tmp;
+  tmp.sprintf("%s: %d", klocale->translate("Board value"), actValue);
+  emit updateSpy(tmp);
 }
 
 
@@ -508,7 +534,12 @@ void BoardWidget::mouseMoveEvent( QMouseEvent* pEvent )
 
     board.showStart(actMove,1);
     startShown = true;
+    copyPosition();
     draw();
+
+    QString tmp;
+    tmp.sprintf("%s: %d", klocale->translate("Board value"), actValue);
+    emit updateSpy(tmp);
     return;
   }
 
@@ -521,16 +552,33 @@ void BoardWidget::mouseMoveEvent( QMouseEvent* pEvent )
 
   if (isValidEnd(pos)) {
     //    actMove.print();
+
+    board.showMove(actMove,0);
+    board.playMove(actMove);
+    int v = board.calcValue();
+    board.takeBack();
+
+    QString tmp;
+    tmp.sprintf("%s : %+d",
+		(const char*) actMove.name(), v-actValue);
+    emit updateSpy(tmp);
+
     board.showMove(actMove,3);
     setCursor(*arrow[shownDirection]);
   }
   else {
+    QString tmp;
+
     setCursor(crossCursor);
     if (pos == startPos) {
 	board.showStart(actMove,1);
 	startShown = true;
-      }	
+	tmp.sprintf("%s: %d", klocale->translate("Board value"), actValue);
+    }	
+    emit updateSpy(tmp);
+
   }
+  copyPosition();
   draw();
 }
 
@@ -553,11 +601,14 @@ void BoardWidget::mouseReleaseEvent( QMouseEvent* pEvent )
   }
 
   board.showStart(actMove,0);
+  copyPosition();
   draw();
   startValid = false;
   setCursor(crossCursor);
-}
 
+  QString tmp;
+  emit updateSpy(tmp);
+}
 
 #include "BoardWidget.moc"
 
