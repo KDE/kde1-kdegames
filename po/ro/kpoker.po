@@ -1,8 +1,8 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"Last-Translator: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
+"POT-Creation-Date: 1998-02-02 13:24+0100\n"
+"Last-Translator: Vatafu Valerica, <wally@chuck.tlnet.de>\n"
 
 #: kpoker.cpp:96
 msgid "Draw !"

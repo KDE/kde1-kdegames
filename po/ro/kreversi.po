@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"PO-Revision-Date: 1997-10-25 18:54 MET DST\n"
-"Last-Translator: Mario Weilguni <mweilguni@sime.com>\n"
+"PO-Revision-Date: 1998-02-02 18:54 MET DST\n"
+"Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 
 #: about.cpp:51
 msgid "About KReversi"
