@@ -26,6 +26,7 @@ class Board : public QArray<int>
 {
 public:
   Board  (int s);
+  ~Board() {};
   QRect  rect(int i);
 
   void   set(int i, Square sq);
