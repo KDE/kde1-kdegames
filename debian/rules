@@ -16,7 +16,7 @@ $(BUILDDIR)/build-stamp:
 	cd $(BUILDDIR) ;\
 	CXXFLAGS="-g -O2 -Wall" \
 	  ../configure --with-install-root=`pwd`/../debian/tmp --prefix=/usr \
-	  --enable-debug --disable-rpath --bindir=$${kde_bindir} 
+	  --disable-rpath --bindir=$${kde_bindir} 
 	
 	make -C $(BUILDDIR)
  
@@ -41,12 +41,18 @@ binary-arch: build
 	dh_testroot
 	dh_clean -k
 	make -C $(BUILDDIR) bindir=`pwd`/debian/tmp/usr/games install
+	cp kasteroids/sprites/bits/b* debian/tmp/usr/share/apps/kasteroids/sprites/bits/
+	cp kasteroids/sprites/missile/m* debian/tmp/usr/share/apps/kasteroids/sprites/missile/
+	cp kasteroids/sprites/rock1/r* debian/tmp/usr/share/apps/kasteroids/sprites/rock1/
+	cp kasteroids/sprites/rock2/r* debian/tmp/usr/share/apps/kasteroids/sprites/rock2/
+	cp kasteroids/sprites/rock3/r* debian/tmp/usr/share/apps/kasteroids/sprites/rock3/
+	cp kasteroids/sprites/ship/s* debian/tmp/usr/share/apps/kasteroids/sprites/ship/
 	perl -w debian/kderules
 	dh_movefiles
 	dh_undocumented `cat debian/man-pages`
 	dh_installdocs
 	dh_installmenu
-	dh_installchangelogs
+	dh_installchangelogs ChangeLog
 	dh_strip
 	dh_compress
 	dh_fixperms
