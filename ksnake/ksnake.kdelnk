@@ -1,0 +1,9 @@
+# KDE Config File
+[KDE Desktop Entry]
+Name=Snake Race
+Name[de]=Schlangen-Rennen
+Exec=ksnake
+DocPath=Reversi.html
+Info=Eat all items before the computer
+Info[de]=Fress alles bevor es der Rechner tut
+Terminal=0

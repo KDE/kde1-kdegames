@@ -23,10 +23,8 @@ INSTALL_DIR = $(install) -d -m 0755
 INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 
 prefix = @prefix@
-KDEINC = $(prefix)/include
 BINDIR = $(prefix)/bin
-LIBDIR = $(prefix)/lib
-PICSDIR = $(LIBDIR)/pics
+APPSDIR = $(prefix)/share/applnk/Games
 
 ########### File Formats ###########
 
@@ -71,6 +69,9 @@ TARGET	= 	ksnake
 
 all: $(TARGET)
 
+Makefile: Makefile.in
+	cd .. && CONFIG_FILES=ksnake/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
 $(TARGET):  $(OBJECTS) $(OBJMETA)
 	$(CXX) $(OBJECTS) $(OBJMETA) -o $(TARGET) $(LDFLAGS) -lm
 
@@ -84,9 +85,16 @@ distclean: clean
 install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
+	$(INSTALL_DIR) $(APPSDIR)
+	$(INSTALL_DATA) ksnake.kdelnk $(APPSDIR)
+	(cd doc && $(MAKE) install)
+	(cd data && $(MAKE) install)
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
+	rm -f $(APPSDIR)/ksnake.kdelnk
+	(cd doc && $(MAKE) uninstall)
+	(cd data && $(MAKE) uninstall)
 
 ####### Meta classes
 

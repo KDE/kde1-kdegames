@@ -12,7 +12,7 @@
 PixServer::PixServer( Board *b, QWidget *parent)
 {
     pixDir.setStr(KApplication::kdedir());
-    pixDir.append("/lib/ksnake/pixmaps/");
+    pixDir.append("/share/apps/ksnake/pics/");
 
     board = b;
     initPixmaps();

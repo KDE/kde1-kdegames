@@ -1,11 +1,14 @@
 # Generated automatically from Makefile.in by configure.
 HELPFILES = ksnake.html snakeRace.gif
 
-DOCSDIR = /home/kulow/prod/kde/doc/HTML/ksnake
-INSTALL_DIR = /home/kulow/bin/install -c -d -m 0755
-INSTALL_DATA = /home/kulow/bin/install -c -m 644
+DOCSDIR = /home/coolo/prod/kde/share/doc/HTML/ksnake
+INSTALL_DIR = /usr/bin/install -c -d -m 0755
+INSTALL_DATA = /usr/bin/install -c -m 644
 
 all:
+
+Makefile: Makefile.in
+	cd .. && CONFIG_FILES=ksnake/doc/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
 install:
 	$(INSTALL_DIR) $(DOCSDIR)

@@ -1,7 +1,7 @@
 
 SNAKEDIR = @prefix@/share/apps/ksnake
 LEVELDIR = $(SNAKEDIR)/levels
-PIXDIR = $(SNAKEDIR)/pixmaps
+PIXDIR = $(SNAKEDIR)/pics
 
 INSTALL_DIR = @INSTALL@ -d -m 0755
 INSTALL_DATA = @INSTALL@ -m 644
@@ -12,6 +12,9 @@ LEVELS = `find levels -name "room*" -print | sort`
 PIXS = `find pixmaps -name "*.xpm" -print | sort`
 
 all:
+
+Makefile: Makefile.in
+	cd ../.. && CONFIG_FILES=ksnake/data/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
 install:
 	$(INSTALL_DIR) $(SNAKEDIR)
