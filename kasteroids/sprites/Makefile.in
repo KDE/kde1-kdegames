@@ -8,6 +8,9 @@ all: pngtoppmpgm
 clean:
 	rm -f *~ pngtoppmpgm
 
+distclean: clean
+	rm -f Makefile
+
 FILES = `find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
 prefix = @prefix@
 DESTDIR = $(prefix)/share/apps/kasteroids/sprites
