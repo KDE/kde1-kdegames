@@ -6,9 +6,8 @@ msgstr ""
 "Last-Translator: Oliver Hensel <EMAIL@ADDRESS>\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "kmines: Spiel-Einstellungen"
+msgstr "Spiel-Einstellungen"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -24,7 +23,7 @@ msgstr "Minen"
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
-msgstr ""
+msgstr "Highscore"
 
 #: dialogs.cpp:288 main.cpp:57
 msgid "Easy"
@@ -108,7 +107,7 @@ msgstr "Minesweeper"
 
 #: main.cpp:67
 msgid "by"
-msgstr ""
+msgstr "von"
 
 #: main.cpp:72
 msgid "Level"
@@ -118,41 +117,3 @@ msgstr "Level"
 msgid "Show menu bar"
 msgstr "Menüleiste an"
 
-#~ msgid "kmines : High Scores"
-#~ msgstr "kmines : Highscores"
-
-#~ msgid "Easy :"
-#~ msgstr "Leicht :"
-
-#~ msgid "Normal :"
-#~ msgstr "Normal :"
-
-#~ msgid "Expert :"
-#~ msgstr "Experte :"
-
-#~ msgid "minutes."
-#~ msgstr "Minuten."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Highscore-Datei nicht schreibbar!"
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines : Fehler"
-
-#~ msgid "Close dialog"
-#~ msgstr "Schließen-Dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "OK-Dialog"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Abbrechen-Dialog"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "von Nicolas Hadacek"
