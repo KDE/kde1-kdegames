@@ -11,7 +11,7 @@ all:
 	fi
 	@echo "*** Concatenating configure tests into acinclude.m4"
 	@make -f Makefile.am acinclude.m4
-	@echo "*** Creating list of subdirectories in SUBDIRS"
+	@echo "*** Creating list of subdirectories in subdirs"
 	@make -f Makefile.am subdirs
 	@echo "*** Searching for subdirectories..."
 	@make -f Makefile.am configure.in
@@ -43,6 +43,4 @@ dist:
 	for i in $$LIST; do \
 	 file2=`echo $$i | sed -e "s#\.po#\.gmo#"`; \
 	 msgfmt -o $$file2 $$i || touch $$file2; \
-	done; \
-
-
+	done
