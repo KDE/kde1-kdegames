@@ -1,0 +1,108 @@
+msgid ""
+msgstr ""
+"Date: 1997-09-24 10:59:56+0200\n"
+"From: root <root@joe>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
+"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+
+#: AbTop.cpp:29 AbTop.cpp:143
+msgid "Move"
+msgstr "Tah"
+
+#: AbTop.cpp:32 AbTop.cpp:147
+msgid "Press F2 for a new game"
+msgstr "Stiskni F2 pro novou hru"
+
+#: AbTop.cpp:73
+msgid "New Game"
+msgstr "Nová hra"
+
+#: AbTop.cpp:75
+msgid "Stop Search"
+msgstr "Zastav hledání"
+
+#: AbTop.cpp:80
+msgid "Take back"
+msgstr "Vem zpìt"
+
+#: AbTop.cpp:82
+msgid "Hint"
+msgstr "Rada"
+
+#: AbTop.cpp:85
+msgid "Quit"
+msgstr "Ukonèit"
+
+#: AbTop.cpp:89
+msgid "Easy"
+msgstr "Snadná"
+
+#: AbTop.cpp:91
+msgid "Normal"
+msgstr "Normální"
+
+#: AbTop.cpp:93
+msgid "Hard"
+msgstr "Tì¾ká"
+
+#: AbTop.cpp:95
+msgid "Challange"
+msgstr "Slo¾itá"
+
+#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
+msgid "Red"
+msgstr "Èervený"
+
+#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
+msgid "Yellow"
+msgstr "®lutý"
+
+#: AbTop.cpp:105
+msgid "Both"
+msgstr "Oba"
+
+#: AbTop.cpp:111
+msgid "Level"
+msgstr "Úroveò"
+
+#: AbTop.cpp:112
+msgid "Computer plays"
+msgstr "Poèítaè hraje jako"
+
+#: AbTop.cpp:114
+msgid "Move slow"
+msgstr "Pøesunuj pomalu"
+
+#: AbTop.cpp:122 AbTop.cpp:405
+msgid "About"
+msgstr "Informace"
+
+#: AbTop.cpp:123
+msgid "Rules"
+msgstr "Pravidla"
+
+#: AbTop.cpp:127
+msgid "File"
+msgstr "Soubor"
+
+#: AbTop.cpp:128
+msgid "Options"
+msgstr "Mo¾nosti"
+
+#: AbTop.cpp:130
+msgid "Help"
+msgstr "Nápovìda"
+
+#: AbTop.cpp:152
+msgid "won"
+msgstr "vyhrál"
+
+#: AbTop.cpp:156
+msgid "I am thinking..."
+msgstr "Pøemý¹lím"
+
+#: AbTop.cpp:157
+msgid "It's your turn !"
+msgstr "Jsi na tahu!"
+
