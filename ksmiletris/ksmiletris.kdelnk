@@ -18,6 +18,7 @@ Comment[pt_BR]=Outro jogo no estilo Tetris
 Comment[ro]=Un alt joc de tetris
 Comment[ru]=Â›≈ œƒŒ¡ –œ»œ÷¡— Œ¡ ‘≈‘“…” …«“¡
 Comment[sk]=œalπia hra podobn· Tetrisu
+Comment[sl]=Igra, podobna tetrisu
 Comment[sv]=Ett annat Tetris-liknande spel
 Commnet[cs]=DalπÌ hra podobn· Tetrisu
 Exec=ksmiletris -caption "%c" %i %m

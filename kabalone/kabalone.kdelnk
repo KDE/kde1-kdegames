@@ -1,6 +1,7 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Abalone
+Name[is]=KМnaskАk
 Name[no]=SjЬЬre
 Type=Application
 Exec=kabalone -caption "%c"
@@ -24,4 +25,5 @@ Comment[pt_BR]=Jogue Abalone contra o computador
 Comment[ro]=Joci Abalone Нmpotriva calculatorului
 Comment[ru]=Играйте в Abalone против компьютера
 Comment[sk]=Hraj Abalone proti poХМtaХu
+Comment[sl]=Igra Abalone proti raХunalniku
 Comment[sv]=Spela Abalone mot datorn
