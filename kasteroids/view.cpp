@@ -44,6 +44,8 @@
 
 #define MAX_ROCK_SPEED 2.5
 
+#define TEXT_SPEED     2
+
 #define PI_X_2         6.283185307
 
 KAsteroidsView::KAsteroidsView( QWidget *parent, const char *name )
@@ -53,6 +55,8 @@ KAsteroidsView::KAsteroidsView( QWidget *parent, const char *name )
     rocks.setAutoDelete( true );
     missiles.setAutoDelete( true );
     bits.setAutoDelete( true );
+
+    textSprite = new QwTextSprite;
 
     readSprites();
 }
@@ -131,7 +135,7 @@ void KAsteroidsView::readSprites()
 	SPRITES_PREFIX + SHIP_IMAGE,
 	SPRITES_PREFIX + SHIP_MASK, SHIP_FRAMES );
 
-    ship = new QwRealMobileSprite( *images );
+    ship = new QwRealMobileSprite( images );
     ship->setBoundsAction( QwRealMobileSprite::Wrap );
     ship->hide();
 
@@ -145,7 +149,7 @@ void KAsteroidsView::addRocks( int num )
 
     for ( i = 0; i < num; i++ )
     {
-	KLargeRock *rock = new KLargeRock( *largeRockImg );
+	KLargeRock *rock = new KLargeRock( largeRockImg );
 	rock->setBoundsAction( QwRealMobileSprite::Wrap );
 	rock->setVelocity( 2.0 - (double)(random()%256)/64.0,
 			    2.0 - (double)(random()%256)/64.0 );
@@ -172,6 +176,23 @@ void KAsteroidsView::addRocks( int num )
     }
 }
 
+void KAsteroidsView::showText( const char *text, const QColor &color )
+{
+    textSprite->setText( text );
+    textSprite->setColor( color );
+
+    textDy = TEXT_SPEED;
+
+    textSprite->moveTo( (width()-textSprite->boundingRect().width()) / 2, -5 );
+
+    textSprite->show();
+}
+
+void KAsteroidsView::hideText()
+{
+    textDy = -TEXT_SPEED;
+}
+
 void KAsteroidsView::resizeEvent(QResizeEvent* event)
 {
     QWidget::resizeEvent(event);
@@ -182,17 +203,17 @@ void KAsteroidsView::resizeEvent(QResizeEvent* event)
 
     for ( rock = rocks.first(); rock; rock = rocks.next() )
     {
-	rock->adoptPlayfieldBounds();
+	rock->adoptSpritefieldBounds();
     }
 
     QwRealMobileSprite *missile;
 
     for ( missile = missiles.first(); missile; missile = missiles.next() )
     {
-	missile->adoptPlayfieldBounds();
+	missile->adoptSpritefieldBounds();
     }
 
-    ship->adoptPlayfieldBounds();
+    ship->adoptSpritefieldBounds();
 }
 
 void KAsteroidsView::timerEvent( QTimerEvent * )
@@ -245,6 +266,18 @@ void KAsteroidsView::timerEvent( QTimerEvent * )
     // check for collision with a rock.
     processShip();
 
+    if ( textSprite->visible() )
+    {
+	if ( textDy < 0 && textSprite->boundingRect().y() <= -5 )
+	    textSprite->hide();
+	else
+	{
+	    textSprite->moveBy( 0, textDy );
+	}
+	if ( textSprite->boundingRect().y() > height()/3 )
+	    textDy = 0;
+    }
+
     field.update();
 }
 
@@ -291,12 +324,12 @@ void KAsteroidsView::processMissiles()
 	    if ( hit->rtti() == LARGE_ROCK || hit->rtti() == MEDIUM_ROCK )
 	    {
 		// break into smaller rocks
-		double dx, dy;
 		double addx[4] = { 1.0, 1.0, -1.0, -1.0 };
 		double addy[4] = { -1.0, 1.0, -1.0, 1.0 };
 
 		QwRealMobileSprite *rHit = (QwRealMobileSprite *) hit;
-		rHit->getVelocity( dx, dy );
+		double dx = rHit->dX();
+		double dy = rHit->dY();
 
 		if ( dx > MAX_ROCK_SPEED )
 		    dx = MAX_ROCK_SPEED;
@@ -314,12 +347,12 @@ void KAsteroidsView::processMissiles()
 		    double r = (double)(random()%10)/15;
 		    if ( hit->rtti() == LARGE_ROCK )
 		    {
-			nrock = new KMediumRock( *mediumRockImg );
+			nrock = new KMediumRock( mediumRockImg );
 			emit rockHit( 0 );
 		    }
 		    else
 		    {
-			nrock = new KSmallRock( *smallRockImg );
+			nrock = new KSmallRock( smallRockImg );
 			emit rockHit( 1 );
 		    }
 
@@ -360,7 +393,7 @@ void KAsteroidsView::processShip()
 		    KBit *bit;
 		    for ( i = 0; i < 12; i++ )
 		    {
-			bit = new KBit( *bitImg );
+			bit = new KBit( bitImg );
 			bit->setBoundsAction( QwRealMobileSprite::Wrap );
 			bit->moveTo( ship->exact_x(), ship->exact_y(), 
 				    random()%BITS_FRAMES );
@@ -413,7 +446,7 @@ void KAsteroidsView::processShip()
 	{
 	    if ( !shootDelay && missiles.count() < 5 )
 	    {
-		KMissile *missile = new KMissile( *missileImg );
+		KMissile *missile = new KMissile( missileImg );
 		missile->setBoundsAction( QwRealMobileSprite::Wrap );
 		missile->moveTo( ship->exact_x()+cosangle*24,
 				ship->exact_y()+sinangle*24, 0 );

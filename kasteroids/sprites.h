@@ -17,7 +17,7 @@
 class KMissile : public QwRealMobileSprite
 {
 public:
-    KMissile (QwSpritePixmapSequence& s) : QwRealMobileSprite( s )
+    KMissile (QwSpritePixmapSequence *s) : QwRealMobileSprite( s )
 	{ myAge = 0; }
     virtual ~KMissile() {}
 
@@ -34,7 +34,7 @@ private:
 class KBit : public QwRealMobileSprite
 {
 public:
-    KBit( QwSpritePixmapSequence &s ) : QwRealMobileSprite( s )
+    KBit( QwSpritePixmapSequence *s ) : QwRealMobileSprite( s )
 	{  death = 7; }
     virtual ~KBit() {}
 
@@ -52,7 +52,7 @@ private:
 class KLargeRock : public QwRealMobileSprite
 {
 public:
-    KLargeRock (QwSpritePixmapSequence& s) : QwRealMobileSprite( s )
+    KLargeRock (QwSpritePixmapSequence *s) : QwRealMobileSprite( s )
 	{}
     virtual ~KLargeRock() {}
 
@@ -63,7 +63,7 @@ public:
 class KMediumRock : public QwRealMobileSprite
 {
 public:
-    KMediumRock (QwSpritePixmapSequence& s) : QwRealMobileSprite( s )
+    KMediumRock (QwSpritePixmapSequence *s) : QwRealMobileSprite( s )
 	{}
     virtual ~KMediumRock() {}
 
@@ -74,7 +74,7 @@ public:
 class KSmallRock : public QwRealMobileSprite
 {
 public:
-    KSmallRock (QwSpritePixmapSequence& s) : QwRealMobileSprite( s )
+    KSmallRock (QwSpritePixmapSequence *s) : QwRealMobileSprite( s )
 	{}
     virtual ~KSmallRock() {}
 

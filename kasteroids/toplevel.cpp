@@ -10,6 +10,12 @@
 #include <kmenubar.h>
 #include <klocale.h>
 
+// sound support
+extern "C" {
+#include <mediatool.h>
+}
+#include <kaudio.h>
+
 #include "kfixedtopwidget.h"
 #include "toplevel.h"
 #include "version.h"
@@ -50,7 +56,19 @@ SLevel levels[MAX_LEVELS] =
     { 5, 1.0 }
 };
 
+const char *soundEvents[] = 
+{
+    "ShipDestroyed",
+    "RockDestroyed",
+    0
+};
 
+const char *soundDefaults[] = 
+{
+    "Explosion.wav",
+    "ploop.wav",
+    0
+};
 
 KAstTopLevel::KAstTopLevel() : KFixedTopWidget()
 {
@@ -136,15 +154,20 @@ KAstTopLevel::KAstTopLevel() : KFixedTopWidget()
     setView( mainWin );
     setMenu( menu );
 
-    message = new KAstMsg( this );
-    message->hide();
-
     setFocusPolicy( StrongFocus );
     setFocus();
+
+    readSettings();
+
+    kas = new KAudio;
+
+    if ( kas->serverStatus() )
+	sound = false;
 }
 
 KAstTopLevel::~KAstTopLevel()
 {
+    delete kas;
 }
 
 void KAstTopLevel::createMenuBar()
@@ -168,6 +191,38 @@ void KAstTopLevel::createMenuBar()
     menu->insertItem( klocale->translate( "&File" ), fileMenu );
     menu->insertSeparator();
     menu->insertItem( klocale->translate( "&Help" ), help );
+}
+
+void KAstTopLevel::readSettings()
+{
+    KConfig *config = KApplication::getKApplication()->getConfig();
+    config->setGroup( "Sounds" );
+
+    QString qs;
+
+    for ( int i = 0; soundEvents[i]; i++ )
+    {
+	qs = config->readEntry( soundEvents[i] );
+	if ( !qs.isEmpty() )
+	    soundDict.insert( soundEvents[i], qs );
+	else
+	    soundDict.insert( soundEvents[i], soundDefaults[i] );
+    }
+
+    qs = config->readEntry( "PlaySounds" );
+    if ( qs.isEmpty() || qs != "Yes" )
+	sound = false;
+    else
+	sound = true;
+}
+
+void KAstTopLevel::playSound( const char *snd )
+{
+    kas->stop();
+    QString filename = kapp->kde_datadir().copy();
+    filename += "/kasteroids/";
+    filename += soundDict[ snd ];
+    kas->play( filename );
 }
 
 void KAstTopLevel::keyPressEvent( QKeyEvent *event )
@@ -224,7 +279,7 @@ void KAstTopLevel::keyReleaseEvent( QKeyEvent *event )
 		view->newShip();
 		event->accept();
 		waitShip = false;
-		message->hide();
+		view->hideText();
 	    }
 	    break;
 
@@ -259,9 +314,7 @@ void KAstTopLevel::slotNewGame()
     view->newGame();
     view->setRockSpeed( levels[0].rockSpeed );
     view->addRocks( levels[0].nrocks );
-    message->setMessage( klocale->translate( "Press Enter to launch.") );
-    message->move( ( width() - message->width() ) / 2, 80 );
-    message->show();
+    view->showText( klocale->translate( "Press Enter to launch." ), yellow );
     waitShip = true;
 }
 
@@ -275,12 +328,12 @@ void KAstTopLevel::slotShipKilled()
     shipsRemain--;
     shipsLCD->display( shipsRemain-1 );
 
+    playSound( "ShipDestroyed" );
+
     if ( shipsRemain )
     {
-	message->setMessage( klocale->translate( "Ship Destroyed.  Press Enter to launch.") );
 	waitShip = true;
-	message->move( ( width() - message->width() ) / 2, 80 );
-	message->show();
+	view->showText( klocale->translate( "Ship Destroyed.  Press Enter to launch."), yellow );
     }
     else
     {
@@ -305,6 +358,8 @@ void KAstTopLevel::slotRockHit( int size )
 	default:
 	    score += 40;
     }
+
+    playSound( "RockDestroyed" );
 
     scoreLCD->display( score );
 }

@@ -6,12 +6,13 @@
 #include <ktoolbar.h>
 #include <ktopwidget.h>
 #include <qlcdnum.h>
+#include <qdict.h>
 #include <kmenubar.h>
 
 #include "kfixedtopwidget.h"
-#include "kastmsg.h"
 #include "view.h"
 
+class KAudio;
 
 class KAstTopLevel : public KFixedTopWidget
 {
@@ -22,6 +23,9 @@ public:
 
 private:
     void createMenuBar();
+    void readSettings();
+    void playSound( const char *snd );
+    void readSoundMapping();
 
 protected:
     virtual void keyPressEvent( QKeyEvent *event );
@@ -43,7 +47,10 @@ private:
     QLCDNumber *scoreLCD;
     QLCDNumber *levelLCD;
     QLCDNumber *shipsLCD;
-    KAstMsg *message;
+
+    bool   sound;
+    KAudio *kas;
+    QDict<char> soundDict;
 
     // waiting for user to press Enter to launch a ship
     bool waitShip;

@@ -26,6 +26,8 @@ public:
     void thrust( bool t ) { thrustShip = t; }
     void shoot( bool s ) { shootShip = s; shootDelay = 0; }
 
+    void showText( const char *text, const QColor &color );
+    void hideText();
 
 signals:
     void shipKilled();
@@ -52,6 +54,7 @@ private:
     QList<KBit> bits;
     QwSpritePixmapSequence *bitImg;
     QwRealMobileSprite *ship;
+    QwTextSprite *textSprite;
 
     bool rotateL;
     bool rotateR;
@@ -64,6 +67,8 @@ private:
 
     double shipDx;
     double shipDy;
+
+    int  textDy;
 
     double rockSpeed;
 };

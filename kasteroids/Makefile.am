@@ -1,14 +1,14 @@
 
-INCLUDES = -IQwSpriteField $(all_includes) 
+INCLUDES = $(all_includes)
 
 LDFLAGS = $(all_libraries) $(KDE_RPATH)
-LDADD = -lkdeui -lkdecore QwSpriteField/libSpriteField.a -lqt -lXext -lX11 $(LIBSOCKET)
+LDADD = -lkdeui -lkdecore -lQwSpriteField -lmediatool -lqt -lXext -lX11 $(LIBSOCKET)
 
-kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp kastmsg.cpp
+kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp
 BUILTSOURCES = view.moc toplevel.moc kfixedtopwidget.moc
 bin_PROGRAMS = kasteroids
 
-SUBDIRS = QwSpriteField html
+SUBDIRS = html
 
 picsdir = $(kde_datadir)/kasteroids/sprites
 pics_DATA = bg.ppm
