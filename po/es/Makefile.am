@@ -3,7 +3,7 @@
 GMFILES = kasteroids.gmo kabalone.gmo kpat.gmo
 POFILES = $(GMFILES:.gmo=.po)
 
-LANG = de
+LANG = es
 
 localedir = $(prefix)/share/locale
 
