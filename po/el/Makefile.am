@@ -3,7 +3,7 @@
 GMFILES = kpat.gmo 
 POFILES = $(GMFILES:.gmo=.po)
 
-LANG = de
+LANG = el
 
 localedir = $(kde_locale)
 
