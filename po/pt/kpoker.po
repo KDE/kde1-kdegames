@@ -86,7 +86,7 @@ msgstr "Perdeu"
 
 #: kpoker.cpp:535
 msgid "Oops - you went bankrupt.\n"
-msgstr ""
+msgstr "Oops - foi à falência."
 
 #: kpoker.cpp:536
 msgid "New game"

@@ -160,6 +160,3 @@ msgstr "Pontuação"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Não consigo carregar imagens!"
-
-#~ msgid "Medium"
-#~ msgstr "Médio"
