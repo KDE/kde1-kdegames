@@ -283,7 +283,7 @@ msgstr "&Tastaturbelegung"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "von"
 
 #: main.cpp:71
 msgid "Show menu"

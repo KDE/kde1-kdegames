@@ -308,9 +308,8 @@ msgid "Rank"
 msgstr "Rang"
 
 #: app.cpp:885
-#, fuzzy
 msgid "Name"
-msgstr "&Neues Spiel"
+msgstr "Name"
 
 #: app.cpp:889
 msgid "Color"

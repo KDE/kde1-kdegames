@@ -87,7 +87,7 @@ msgid ""
 "\n"
 "\n"
 "by Mario Weilguni"
-msgstr ""
+msgstr "\n\nvon Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -166,18 +166,16 @@ msgid "Rank"
 msgstr "Rang"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Neues Spiel"
+msgstr "Name"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Zeit"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "&Größe"
+msgstr "Größe"
 
 #: app.cpp:650
 msgid "Score"

@@ -106,7 +106,7 @@ msgstr "&Sound"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:75
 msgid ""
@@ -114,6 +114,7 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n\nvon Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -121,9 +122,12 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n\nEine Liste von Danksagungen\n"
+"finden Sie in den Hilfe-Dateien"
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\nVorschläge und Bug-Reporte sind willkommen"

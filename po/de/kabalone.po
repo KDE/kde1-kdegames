@@ -5,9 +5,8 @@ msgstr ""
 "Last-Translator: Josef Weidendorfer <weidendo@informatik.tu-muenchen.de>\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
-msgstr "RechtsHoch"
+msgstr "Rechts"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -18,9 +17,8 @@ msgid "LeftDown"
 msgstr "LinksRunter"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "LinksHoch"
+msgstr "Links"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -76,7 +74,7 @@ msgstr "Leicht"
 
 #: AbTop.cpp:317
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -116,7 +114,7 @@ msgstr "Spion"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Abalone"
 
 #: AbTop.cpp:351
 msgid ""
@@ -124,6 +122,7 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
+"\n\nvon Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"

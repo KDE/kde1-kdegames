@@ -31,7 +31,7 @@ msgstr "Leicht"
 
 #: dialogs.cpp:289 main.cpp:60
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: dialogs.cpp:290 main.cpp:61
 msgid "Expert"
