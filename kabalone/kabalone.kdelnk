@@ -3,7 +3,7 @@
 Name=Abalone
 Name[hu]=Abalone
 Type=Application
-Exec=kabalone
+Exec=kabalone -caption "%c"
 DocPath=kabalone/index.html
 Comment=Play Abalone against computer
 Comment[de]=Abalone gegen den Computer
