@@ -30,13 +30,13 @@ install-data-local:
 	$(mkinstalldirs) $(APPSDIR)
 	$(INSTALL_DATA) $(srcdir)/ksmiletris.kdelnk $(APPSDIR)
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-ksmiletris.xpm $(kde_minidir)/MMmiletris.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-ksmiletris.xpm $(kde_minidir)/ksmiletris.xpm
 	$(mkinstalldirs) $(kde_icondir)/large
 	$(INSTALL_DATA) $(srcdir)/large-ksmiletris.xpm $(kde_icondir)/large/ksmiletris.xpm
 
 uninstall-local:
 	-rm -f $(APPSDIR)/ksmiletris.kdelnk
-	-rm -f $(kde_minidir)/MMmiletris.xpm
+	-rm -f $(kde_minidir)/ksmiletris.xpm
 	-rm -f $(kde_icondir)/large/ksmiletris.xpm
 
 
