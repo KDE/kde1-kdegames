@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-11-08 23:50+0100\n"
+"PO-Revision-Date: 1998-03-15 20:00-0500\n"
+"Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
+"Language-Team: Croatian\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: iso-8859-2\n"      
+
+#: kmahjongg.cpp:101
+msgid "Classic"
+msgstr "Klasièna"
+
+#: kmahjongg.cpp:102
+msgid "Tower"
+msgstr "Kula"
+
+#: kmahjongg.cpp:103
+msgid "Triangle"
+msgstr "Trokut"
+
+#: kmahjongg.cpp:104
+msgid "Pyramide"
+msgstr "Piramida"
+
+#: kmahjongg.cpp:211
+msgid "&Start new game"
+msgstr "Po&kreni novu igru"
+
+#: kmahjongg.cpp:213
+msgid "&Help me"
+msgstr "&Pomogni mi"
+
+#: kmahjongg.cpp:214
+msgid "&Undo last move"
+msgstr "&Vrati zadnji potez"
+
+#: kmahjongg.cpp:215
+msgid "&Demo mode"
+msgstr "&Demo"
+
+#: kmahjongg.cpp:216
+msgid "Show &matching tiles"
+msgstr "Prika¾i ploèe"
+
+#: kmahjongg.cpp:222
+msgid "&Load Background image..."
+msgstr "&Uèitaj pozadinsku sliku..."
+
+#: kmahjongg.cpp:224
+msgid "&Statusbar"
+msgstr "Traka &stanja"
+
+#: kmahjongg.cpp:226
+msgid "Mahjongg"
+msgstr "Mahjongg"
+
+#: kmahjongg.cpp:228
+msgid ""
+"\n"
+"\n"
+"by Mathias Mueller"
+msgstr ""
+"\n"
+"\n"
+"Mathias Mueller"
+
+#: kmahjongg.cpp:387 kmahjongg.cpp:401
+msgid "Unable to open bitmap file !"
+msgstr "Ne mogu otvoriti bitmapu"
+
+#: kmahjongg.cpp:455
+msgid "Undo operation done successfully."
+msgstr "Vraæanje poteza uspje¹no dovr¹eno."
+
+#: kmahjongg.cpp:458
+msgid "What do you want to undo? You have done nothing!"
+msgstr "©to ¾elite vratiti? Niste jos¹ ni¹ta ni uèinili!"
+
+#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+msgid "Sorry, you have lost the game."
+msgstr "®alim, izgubili ste igru"
+
+#: kmahjongg.cpp:504
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "Demo naèin. Kliknite gumb mi¹a za zavr¹etak."
+
+#: kmahjongg.cpp:512
+msgid "Now it's you again."
+msgstr "Sada je tvoj red."
+
+#: kmahjongg.cpp:532
+msgid "Your computer has lost the game."
+msgstr "Va¹e raèunalo izgubilo je igru."
+
+#: kmahjongg.cpp:618
+msgid "Congratulations. You have won!"
+msgstr "Èestitam. Pobjedili ste!"
+
+#: kmahjongg.cpp:644
+msgid "Calculating new game..."
+msgstr "Namje¹tam novu igru..."
+
+#: kmahjongg.cpp:650
+msgid "Error converting board information!"
+msgstr "Gre¹ka prilikom konvertiranja podataka sa ploèe"
+
+#: kmahjongg.cpp:662
+msgid "Ready. Now it's your turn."
+msgstr "Ja sam gotov. Na tebi je red."
+
+#: kmahjongg.cpp:668
+msgid "Error generating new game!"
+msgstr "Gre¹ka prilikom stvaranja nove igre!"
+
+#: kmahjongg.cpp:1666
+#, c-format
+msgid ""
+"Failed to load image:\n"
+"%s"
+msgstr ""
+"Ne mogu uèitati sliku:\n"
+"%s"
+
+#: kmahjongg.cpp:1677
+#, c-format
+msgid ""
+"Sorry, this image uses %d colors.\n"
+"Maximum allowed is %d"
+msgstr ""
+"®alim, ova slika koristi %d boja.\n"
+"Najveæi dopu¹teni broj je %d"
+
