@@ -6,6 +6,9 @@ segfault when you press "Draw Cards" :-(
 
 - [Robert William] put version.h back in.
 
+- integrated version.h so that there is only one #define for the version & 
+  release date (and not multiple ones like before)
+
 ------------------------------------------------------------------------------
 Version 0.4
 

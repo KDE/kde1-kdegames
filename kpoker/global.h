@@ -10,5 +10,8 @@
 
 extern KLocale *locale;
 extern KConfig *conf;
+
+#include "version.h"
+
 #endif
 

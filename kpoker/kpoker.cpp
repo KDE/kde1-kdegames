@@ -70,7 +70,7 @@ kpok::kpok(QWidget *parent, const char *name)
 
         locale = kapp->getLocale();
 	
-	sprintf(version, "%s %s", kapp->getCaption(), PVERSION);
+	sprintf(version, "%s %s", kapp->getCaption(), KPOKER_VERSION);
 	setCaption( version );
 	
 	

@@ -71,7 +71,7 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	optionsPopup->setCheckable(TRUE);
 
 	QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Poker"))
-					 + " " + PVERSION + " released " + PDATE
+					 + " " + KPOKER_VERSION + " released " + KPOKER_RELEASE_DATE
                                          + i18n("\n\nby Jochen Tuchbreiter")
                                          + " (whynot@mabi.de)"
 					 + i18n("\n\nFor a list of credits see helpfile")
