@@ -21,7 +21,7 @@ SUBDIRS = docs sounds bitmaps
 
 
 install-data-local:
-	$(INSTALL_DIR) $(kde_minidir)
+	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-kpoker.xpm $(kde_minidir)/kpoker.xpm
 
 uninstall:

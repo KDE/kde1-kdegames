@@ -7,6 +7,7 @@ Name[hu]=Póker
 Name[sk]=Poker
 Exec=kpoker -caption "%c"
 Icon=kpoker.xpm
+Miniicon=kpoker.xpm
 DocPath=kpoker/index.html
 Comment=A simple video poker clone
 Comment[de]=Ein einfaches Videopoker-Spiel
