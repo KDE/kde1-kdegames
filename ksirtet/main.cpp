@@ -246,7 +246,7 @@ by Eirik ENG.\nhttp://www.via.ecp.fr/~hadacek/KDE/ktetris.html",
 
 void KTetris::help()
 {
-	kapp->invokeHTMLHelp("ktetris.html",NULL);
+	kapp->invokeHTMLHelp("ktetris.html",QString());
 }
 
 void KTetris::multiGame()
