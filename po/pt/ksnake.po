@@ -71,15 +71,15 @@ msgstr "Bolas"
 
 #: game.cpp:132
 msgid "Computer Snakes"
-msgstr "Cobras do Compuador"
+msgstr "Cobras do Computador"
 
 #: game.cpp:134
 msgid "Select background color..."
-msgstr "Seleccione cor de fundo..."
+msgstr "Seleccionar cor de fundo..."
 
 #: game.cpp:135
 msgid "Select background pixmap"
-msgstr "Seleccione imagem de fundo"
+msgstr "Seleccionar imagem de fundo"
 
 #: game.cpp:137
 msgid "Change keys..."
@@ -121,7 +121,7 @@ msgstr "Por Omissão"
 
 #: keys.cpp:30 startroom.cpp:34
 msgid "Cancel"
-msgstr "Canceçar"
+msgstr "Cancelar"
 
 #: keys.cpp:83
 msgid "Change Direction Keys"
@@ -181,7 +181,7 @@ msgstr "Quadro de Honra"
 
 #: score.cpp:54
 msgid "Today's High Scores"
-msgstr "Melhores Pontuações de Hoje"
+msgstr "Melhores de Hoje"
 
 #: score.cpp:78
 msgid ""
