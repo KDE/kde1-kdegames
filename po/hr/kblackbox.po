@@ -14,19 +14,19 @@ msgstr ""
 
 #: kbbgame.cpp:73 kbbgame.cpp:114
 msgid "&Help"
-msgstr ""
+msgstr "&Pomoæ"
 
 #: kbbgame.cpp:76
 msgid "&About KBlackBox"
-msgstr ""
+msgstr "&O KBlackBoxu"
 
 #: kbbgame.cpp:78
 msgid "About &Qt"
-msgstr ""
+msgstr "O &Qtu"
 
 #: kbbgame.cpp:81
 msgid "&Quit"
-msgstr ""
+msgstr "&Zavr¹i"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -58,19 +58,19 @@ msgstr "&Vodiè"
 
 #: kbbgame.cpp:110
 msgid "&File"
-msgstr ""
+msgstr "&Datoteka"
 
 #: kbbgame.cpp:111
 msgid "&Game"
-msgstr ""
+msgstr "&Igra"
 
 #: kbbgame.cpp:112
 msgid "&Options"
-msgstr ""
+msgstr "&Postavke"
 
 #: kbbgame.cpp:170
 msgid "Quit"
-msgstr ""
+msgstr "Zavr¹i"
 
 #: kbbgame.cpp:172
 msgid "New"
@@ -86,11 +86,11 @@ msgstr "Gotov"
 
 #: kbbgame.cpp:179
 msgid "Help"
-msgstr ""
+msgstr "Pomoæ"
 
 #: kbbgame.cpp:406
 msgid "About"
-msgstr ""
+msgstr "O"
 
 #: kbbgame.cpp:408
 msgid ""
@@ -104,7 +104,7 @@ msgstr ""
 
 #: kbbgame.cpp:413
 msgid "Qt information"
-msgstr ""
+msgstr "Qt informacije"
 
 #: kbbgame.cpp:432 kbbgame.cpp:551 kbbgame.cpp:607 kbbgame.cpp:636
 msgid "Warning!"
@@ -154,11 +154,11 @@ msgstr "Trèi"
 
 #: kbbgame.cpp:572
 msgid "Yes"
-msgstr ""
+msgstr "Da"
 
 #: kbbgame.cpp:575
 msgid "No"
-msgstr ""
+msgstr "Ne"
 
 #: kbbgame.cpp:578
 msgid "Size"
