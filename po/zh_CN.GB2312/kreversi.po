@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kcmkpanel\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
-"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
 #: about.cpp:52
@@ -108,7 +108,7 @@ msgstr "等级 3 (生手)"
 
 #: app.cpp:269
 msgid "Level 4 (Average)"
-msgstr "等级 4 (平均一般)"
+msgstr "等级 4 (一般)"
 
 #: app.cpp:270
 msgid "Level 5 (Good)"
@@ -150,7 +150,7 @@ msgstr "80%"
 
 #: app.cpp:283
 msgid "D&efault size"
-msgstr "缺省大小[&E]"
+msgstr "默认大小[&E]"
 
 #: app.cpp:284
 #, c-format

@@ -3,28 +3,28 @@ msgstr ""
 "Project-Id-Version: kcmkpanel\n"
 "POT-Creation-Date: 1998-06-18 22:45+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
-"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
 #: dialogs.cpp:95
 #, fuzzy
 msgid "Customize Game"
-msgstr "自定义等级"
+msgstr "kmines : 定制游戏"
 
+#
 #: dialogs.cpp:124
-#, fuzzy
 msgid "Width"
-msgstr "宽度 :"
+msgstr "宽度"
 
+#
 #: dialogs.cpp:149
-#, fuzzy
 msgid "Height"
-msgstr "高度 :"
+msgstr "高度"
 
+#
 #: dialogs.cpp:174
-#, fuzzy
 msgid "Mines"
-msgstr "地雷数 :"
+msgstr "地雷数"
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
@@ -42,14 +42,14 @@ msgstr "专家级"
 msgid "in"
 msgstr "时间"
 
+#
 #: dialogs.cpp:332
-#, fuzzy
 msgid "minutes"
-msgstr "分钟 "
+msgstr "分钟"
 
 #: dialogs.cpp:342
 msgid "and"
-msgstr ""
+msgstr "和"
 
 #: dialogs.cpp:354
 msgid "seconds."
@@ -69,7 +69,7 @@ msgstr "按任意键继续"
 
 #: status.cpp:215
 msgid "You did it ... but not in time."
-msgstr "你完成了... 但超过了规定的实际."
+msgstr "你完成了... 但超过了规定的时间."
 
 #: status.cpp:216
 msgid "Yeeessss !"
@@ -109,7 +109,7 @@ msgstr "自定义"
 
 #: main.cpp:64
 msgid "Minesweeper"
-msgstr ""
+msgstr "扫雷"
 
 #: main.cpp:67
 msgid "by"
@@ -123,21 +123,24 @@ msgstr "等级"
 msgid "Show menu bar"
 msgstr "显示菜单条"
 
-#, fuzzy
+#
 #~ msgid "kmines : High Scores"
-#~ msgstr "高分排行榜"
+#~ msgstr "kmines: 高分排行榜"
 
-#, fuzzy
+#
 #~ msgid "Easy :"
-#~ msgstr "简单"
+#~ msgstr "简单 :"
 
-#, fuzzy
+#~ msgid "Normal :"
+#~ msgstr "普通 :"
+
+#
 #~ msgid "Expert :"
-#~ msgstr "专家级"
+#~ msgstr "专家级:"
 
-#, fuzzy
+#
 #~ msgid "minutes."
-#~ msgstr "分钟 "
+#~ msgstr "分钟."
 
 #~ msgid "Highscore file is not writable !"
 #~ msgstr "高分排行榜文件无法写入 !"
@@ -153,6 +156,18 @@ msgstr "显示菜单条"
 
 #~ msgid "Cancel dialog"
 #~ msgstr "取消对话框"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "by Nicolas Hadacek"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "by Nicolas Hadacek"
+
+#~ msgid "Custom Level"
+#~ msgstr "自定义等级"
 
 #~ msgid "Uncertain (?) mark"
 #~ msgstr "不确定的 (?) 标记"

@@ -3,7 +3,7 @@ msgstr ""
 "Project-Id-Version: kcmkpanel\n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
-"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
 #: cardmaps.cpp:63
@@ -82,7 +82,7 @@ msgstr "简单的规则"
 
 #: klondike.cpp:68
 msgid "Hard rules"
-msgstr "困难的规则"
+msgstr "难的的规则"
 
 #: klondike.cpp:94
 msgid ""
@@ -106,7 +106,7 @@ msgstr "&Klondike"
 
 #: pwidget.cpp:101 pwidget.cpp:277
 msgid "MicroSolitaire"
-msgstr "MicroSolitaire"
+msgstr "小型纸牌游戏"
 
 #: pwidget.cpp:102 pwidget.cpp:281
 msgid "Calculation"
@@ -118,11 +118,11 @@ msgstr "Napoleon's Tomb"
 
 #: pwidget.cpp:104 pwidget.cpp:285
 msgid "The Idiot"
-msgstr "The Idiot"
+msgstr "蠢蛋"
 
 #: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
-msgstr "Grandfater"
+msgstr "老谋深算"
 
 #: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
@@ -130,11 +130,11 @@ msgstr "十"
 
 #: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
-msgstr ""
+msgstr "Mod3"
 
 #: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
-msgstr ""
+msgstr "Freecell"
 
 #: pwidget.cpp:110
 msgid "Choose new game"
@@ -166,7 +166,7 @@ msgstr "启动时的动画"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Patience"
 
 #: pwidget.cpp:128
 msgid ""
@@ -175,6 +175,10 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"by Paul Olav Tvetei\n"
+"\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
