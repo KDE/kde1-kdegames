@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"POT-Creation-Date: 1998-11-17 10:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,6 +105,10 @@ msgstr ""
 
 #: gameboard.cc:580
 msgid "Do you wish to retire this game?"
+msgstr ""
+
+#: gameboard.cc:586
+msgid "Final Standings"
 msgstr ""
 
 #: gameboard.cc:758
@@ -212,4 +216,28 @@ msgstr ""
 #: gameenddlg.cc:64
 #, c-format
 msgid "Add %d turns"
+msgstr ""
+
+#: scoredlg.cc:18
+msgid "Player"
+msgstr ""
+
+#: scoredlg.cc:19
+msgid "Ships Built"
+msgstr ""
+
+#: scoredlg.cc:20
+msgid "Planets Conquered"
+msgstr ""
+
+#: scoredlg.cc:21
+msgid "Fleets Launched"
+msgstr ""
+
+#: scoredlg.cc:22
+msgid "Fleets Destroyed"
+msgstr ""
+
+#: scoredlg.cc:23
+msgid "Ships Destroyed"
 msgstr ""

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/kmahjongg\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"POT-Creation-Date: 1998-11-17 10:39+0100\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -107,6 +107,11 @@ msgstr "Slutt spill"
 #: gameboard.cc:580
 msgid "Do you wish to retire this game?"
 msgstr "Vil du avslutte spillet?"
+
+#: gameboard.cc:586
+#, fuzzy
+msgid "Final Standings"
+msgstr "Vise rangering"
 
 #: gameboard.cc:758
 msgid "Not enough ships to send."
@@ -222,3 +227,30 @@ msgstr ""
 #, c-format
 msgid "Add %d turns"
 msgstr "Legg til %d trekk"
+
+#: scoredlg.cc:18
+#, fuzzy
+msgid "Player"
+msgstr "&Spillerliste"
+
+#: scoredlg.cc:19
+#, fuzzy
+msgid "Ships Built"
+msgstr "Skip : "
+
+#: scoredlg.cc:20
+#, fuzzy
+msgid "Planets Conquered"
+msgstr "Planet beseiret"
+
+#: scoredlg.cc:21
+msgid "Fleets Launched"
+msgstr ""
+
+#: scoredlg.cc:22
+msgid "Fleets Destroyed"
+msgstr ""
+
+#: scoredlg.cc:23
+msgid "Ships Destroyed"
+msgstr ""
