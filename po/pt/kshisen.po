@@ -162,8 +162,8 @@ msgid ""
 "your cool rating."
 msgstr ""
 "Entraste para o \"Quadro de Honra\". Escreve o teu\n"
-"nome para que a humanidade sempre saiba que és mesmo\n"
-"bom nisto."
+"nome para que a humanidade saiba para sempre que\n"
+"és mesmo bom nisto."
 
 #: app.cpp:430
 msgid "Your name:"

@@ -116,7 +116,7 @@ msgstr "Carregue para continuar"
 
 #: dialogs.cpp:97
 msgid "Custom Level"
-msgstr "Nivel personalizado"
+msgstr "Nível personalizado"
 
 #: dialogs.cpp:108 dialogs.cpp:124
 msgid "Width :"

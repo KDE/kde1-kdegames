@@ -36,15 +36,20 @@ msgstr ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"Este programa é software livre publicado sob os termos da Licensa Publica "
-"Geral GNU (veja na ajuda para obter detalhes)\n"
+"Este programa é software livre\n"
+"publicado sob os termos da Licença\n"
+"Pública Geral GNU (veja na ajuda\n"
+"para obter detalhes)\n"
 "\n"
 "Agradecimentos:\n"
-"\tMats Luthman pelo motor do jogo (Transferi-o de uma applet JAVA)\n"
+"\tMats Luthman pelo motor do jogo\n"
+"\t(Transferi-o de uma applet JAVA)\n"
 "\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> pelos comentarios e correcções\n"
+"\tStephan Kulow\n"
+"\tpelos comentários e correcções\n"
 "\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> pelas peças raytraced"
+"\tArne Klaassen\n"
+"\t pelas peças raytraced"
 
 #: app.cpp:218 app.cpp:548
 msgid ""
@@ -52,7 +57,7 @@ msgid ""
 "Cannot enable sound support."
 msgstr ""
 "Ocorreu um problema com o servidor de som!\n"
-"Não foi possivel activar o suporte de som."
+"Não foi possível activar o suporte de som."
 
 #: app.cpp:245
 msgid "&New game"
@@ -92,35 +97,35 @@ msgstr "Quadro de &Honra..."
 
 #: app.cpp:266
 msgid "Level 1 (Wimp)"
-msgstr "Nivel 1 (Fracote)"
+msgstr "Nível 1 (Cobarde)"
 
 #: app.cpp:267
 msgid "Level 2 (Beginner)"
-msgstr "Nivel 2 (Iniciante)"
+msgstr "Nível 2 (Iniciante)"
 
 #: app.cpp:268
 msgid "Level 3 (Novice)"
-msgstr "Nivel 3 (Novato)"
+msgstr "Nível 3 (Novato)"
 
 #: app.cpp:269
 msgid "Level 4 (Average)"
-msgstr "Nivel 4 (Medio)"
+msgstr "Nível 4 (Médio)"
 
 #: app.cpp:270
 msgid "Level 5 (Good)"
-msgstr "Nivel 5 (Bom)"
+msgstr "Nível 5 (Bom)"
 
 #: app.cpp:271
 msgid "Level 6 (Expert)"
-msgstr "Nivel 6 (Perito)"
+msgstr "Nível 6 (Perito)"
 
 #: app.cpp:272
 msgid "Level 7 (Master)"
-msgstr "Nivel 7 (Mestre)"
+msgstr "Nível 7 (Mestre)"
 
 #: app.cpp:273
 msgid "Skill"
-msgstr "Pericia"
+msgstr "Perícia"
 
 #: app.cpp:275
 msgid "&Shrink board"
@@ -198,11 +203,11 @@ msgstr "&Animações"
 
 #: app.cpp:315
 msgid "1 (fastest)"
-msgstr "1 (rapidissimo)"
+msgstr "1 (rapidíssimo)"
 
 #: app.cpp:321
 msgid "10 (slowest)"
-msgstr "10 (lentissimo)"
+msgstr "10 (lentíssimo)"
 
 #: app.cpp:322
 msgid "Animation speed"
@@ -218,11 +223,11 @@ msgstr "&Regras"
 
 #: app.cpp:331
 msgid "&Strategy hints"
-msgstr "Dicas de &Estrategia"
+msgstr "Dicas de &Estratégia"
 
 #: app.cpp:333
 msgid "About &Qt..."
-msgstr "&Acerca do &Qt..."
+msgstr "Acerca do &Qt..."
 
 #: app.cpp:334
 msgid "&About..."
@@ -258,7 +263,7 @@ msgstr "turno de XXXXX's"
 
 #: app.cpp:388
 msgid "You (XXXXX): 88"
-msgstr "Voce (XXXXX): 88"
+msgstr "Você (XXXXX): 88"
 
 #: app.cpp:389
 msgid "Computer (XXXXX): 88"
@@ -304,7 +309,7 @@ msgid ""
 msgstr ""
 "O jogo está empatado!\n"
 "\n"
-"Voce      : %d\n"
+"Você      : %d\n"
 "Computador: %d"
 
 #: app.cpp:678 app.cpp:690 app.cpp:710
@@ -319,11 +324,11 @@ msgid ""
 "Computer: %d\n"
 "Your rating %4.1f%%"
 msgstr ""
-"Parabens, ganhou!\n"
+"Parabéns, ganhou!\n"
 "\n"
-"Voce      : %d\n"
+"Você      : %d\n"
 "Computador: %d\n"
-"A sua posiçã %4.1f%%"
+"A sua posição %4.1f%%"
 
 #: app.cpp:708
 #, c-format
@@ -335,7 +340,7 @@ msgid ""
 msgstr ""
 "Perdeu o jogo!\n"
 "\n"
-"Voce      : %d\n"
+"Você      : %d\n"
 "Computador: %d"
 
 #: app.cpp:719
@@ -343,7 +348,7 @@ msgid "Red's"
 msgstr "Vermelho"
 
 #: app.cpp:719 app.cpp:721
-msgid "turn"
+msgid "jogada"
 msgstr "turno"
 
 #: app.cpp:721

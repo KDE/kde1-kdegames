@@ -11,12 +11,12 @@ msgstr "por favor aguarde, a ler cartas..."
 
 #: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
-msgstr "KPat - um jogo Solitario"
+msgstr "KPat - um jogo de Solitário"
 
 #: cardmaps.cpp:104
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
-msgstr "kpat: PANICO, não foi possivel ler o pixmap da carta \"%s\"\n"
+msgstr "kpat: PANICO, não foi possível ler o pixmap da carta \"%s\"\n"
 
 #: cardmaps.cpp:204
 #, c-format
@@ -41,23 +41,23 @@ msgstr "Fácil 1"
 
 #: computation.cpp:97
 msgid "Hard 1"
-msgstr "Dificil 1"
+msgstr "Difícil 1"
 
 #: computation.cpp:98
 msgid "Hard 2"
-msgstr "Dificil 2"
+msgstr "Difícil 2"
 
 #: computation.cpp:99
 msgid "Hard 3"
-msgstr "Dificil 3"
+msgstr "Difícil 3"
 
 #: computation.cpp:100
 msgid "Hard 4"
-msgstr "Dificil 4"
+msgstr "Difícil 4"
 
 #: computation.cpp:101
 msgid "Hard 5"
-msgstr "Dificil 5"
+msgstr "Difícil 5"
 
 #: grandf.cpp:34
 msgid "Try to move card:"
@@ -81,7 +81,7 @@ msgstr "Regras fáceis"
 
 #: klondike.cpp:68
 msgid "Hard rules"
-msgstr "Regras dificeis"
+msgstr "Regras difíceis"
 
 #: klondike.cpp:94
 msgid ""
@@ -153,7 +153,7 @@ msgstr "Vermelho clássico"
 
 #: pwidget.cpp:121
 msgid "Technical"
-msgstr "Tecnico"
+msgstr "Técnico"
 
 #: pwidget.cpp:122
 msgid "Card backside"
@@ -229,7 +229,7 @@ msgstr "Acerca do kpat"
 
 #: pwidget.cpp:385
 msgid "Could not load background image!"
-msgstr "Não foi possivel carregar a imagem do fundo"
+msgstr "Não foi possível carregar a imagem do fundo"
 
 #: ten.cpp:40
 msgid "Full Auto"

@@ -11,7 +11,7 @@ msgstr "Pontuação"
 
 #: toplevel.cpp:91
 msgid "Level"
-msgstr "Nivel"
+msgstr "Nível"
 
 #: toplevel.cpp:105
 msgid "Ships"
@@ -31,7 +31,7 @@ msgstr "KAsteriods"
 
 #: toplevel.cpp:292
 msgid "Ship Destroyed.  Press Enter to launch."
-msgstr "Nave Destruida. Pressione Enter para lançar"
+msgstr "Nave Destruída. Pressione Enter para lançar."
 
 #: toplevel.cpp:300
 msgid "Game Over!"

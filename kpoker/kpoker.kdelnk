@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Poker
 Name[fi]=Pokeri
+Name[pt]=Poker
 Exec=kpoker -caption %c
 Icon=kpoker.xpm
 DocPath=kpoker.html
@@ -9,5 +10,6 @@ Comment=A simple video poker clone
 Comment[de]=Ein einfaches Videopoker-Spiel
 Comment[pl]=Prosta odmiana pokera.
 Comment[fi]=Yksinkertainen videopokerin kopio
+Comment[pt]=Um clone do video-poker
 Terminal=0
 Type=Application

@@ -87,7 +87,7 @@ msgstr "Erro conexão"
 
 #: net.cpp:251 net.cpp:306
 msgid "Server unreachable"
-msgstr "Servidor inatingivel"
+msgstr "Servidor inatingível"
 
 #: net.cpp:274
 msgid "The server has died"
@@ -313,7 +313,7 @@ msgstr ""
 "%s (%s) \n"
 "\n"
 "por Nicolas HADACEK(hadacek@kde.org)\n"
-"kerndel de tetris por Eirik ENG.\n"
+"kernel de tetris por Eirik ENG.\n"
 "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
 
 #: main.cpp:80
