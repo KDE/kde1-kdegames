@@ -23,7 +23,7 @@ msgstr "Trekk !"
 
 #: kpoker.cpp:122
 msgid "Click a card to hold it"
-msgstr "Klikk på et kort for å beholde det"
+msgstr "Klikk på kortet for å beholde det"
 
 #: kpoker.cpp:143
 msgid "Held"
@@ -43,7 +43,7 @@ msgstr "penger igjen"
 
 #: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
 msgid "nothing"
-msgstr "intet"
+msgstr "ingen"
 
 #: kpoker.cpp:372
 msgid "Cash"
