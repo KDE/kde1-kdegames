@@ -43,7 +43,7 @@ msgstr "Skjul menylinje"
 
 #: main.cpp:61
 msgid "? mark"
-msgstr "? merke"
+msgstr "?-merke"
 
 #: main.cpp:62
 msgid "Keys"
@@ -83,7 +83,7 @@ msgstr "Jaaaaaaa !"
 
 #: status.cpp:255
 msgid "Bad luck !"
-msgstr "Dårlig hell !"
+msgstr "Det var leit !"
 
 #: status.cpp:301
 msgid "Highscore file is not writable !"
@@ -139,7 +139,7 @@ msgstr "På toppen av seierspallen"
 
 #: dialogs.cpp:365 dialogs.cpp:379
 msgid "Uncertain (?) mark"
-msgstr "Usikkerhets (?) merke"
+msgstr "Usikkerhetsmerke (?)"
 
 #: dialogs.cpp:424
 msgid "Try again"
