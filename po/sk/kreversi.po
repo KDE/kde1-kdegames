@@ -14,7 +14,6 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
 msgstr "Informácie o KReversi"
 
@@ -45,7 +44,7 @@ msgstr ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"Tento program je volný softvér poskytovaný pod GNU General Public License "
+"Tento program je voµný softvér poskytovaný pod GNU General Public License "
 "(nahliadnite do nápovedy pre ïal¹ie detaily)\n"
 "\n"
 "Podakovanie pre:\n"
@@ -78,7 +77,6 @@ msgid "&Save game"
 msgstr "U&lo¾i» hru"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
 msgstr "Obdr¾ &radu"
 
@@ -315,7 +313,7 @@ msgid ""
 "Computer: %d\n"
 "Your rating %4.1f%%"
 msgstr ""
-"Gratuluji, vyhrali ste!\n"
+"Gratulujem, vyhrali ste!\n"
 "\n"
 "Vy      : %d\n"
 "Poèítaè : %dVa¹e hodnotenie %4.1f%%"
@@ -385,15 +383,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Va¹e meno:"
-
-#~ msgid "&Rules"
-#~ msgstr "P&ravidlá"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "&Strategické rady"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informácie o &Qt"
-
-#~ msgid "&About..."
-#~ msgstr "&Informácie..."
