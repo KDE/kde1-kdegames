@@ -186,6 +186,7 @@ msgstr ""
 "\n"
 "di Paul Olav Tvetei\n"
 "\n"
+
 #: pwidget.cpp:273
 msgid "Klondike"
 msgstr "Klondike"

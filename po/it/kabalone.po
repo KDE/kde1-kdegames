@@ -8,7 +8,6 @@ msgstr ""
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
 #: Move.cpp:17
-
 msgid "Right"
 msgstr "Destra"
 
@@ -48,8 +47,8 @@ msgstr "Premi"
 msgid "Board value"
 msgstr "Valore a tabellone"
 
-#: AbTop.cpp:241 AbTop.cpp:398
 #
+#: AbTop.cpp:241 AbTop.cpp:398
 msgid "Move"
 msgstr "Muovi"
 

@@ -20,8 +20,8 @@ msgstr "Livello"
 msgid "Ships"
 msgstr "Navi"
 
-#: toplevel.cpp:186
 #
+#: toplevel.cpp:186
 msgid "Asteroids"
 msgstr "Asteroidi"
 

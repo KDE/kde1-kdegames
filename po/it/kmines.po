@@ -103,17 +103,14 @@ msgid "Hide menu bar"
 msgstr "Nascondi barra Menu"
 
 #: main.cpp:46
-#,
 msgid "&New game"
 msgstr "&Nuova partita"
 
 #: main.cpp:49
-#, 
 msgid "&Pause game"
 msgstr "&Pausa"
 
 #: main.cpp:52
-#,
 msgid "&High scores"
 msgstr "&Punteggi massimi"
 
@@ -134,11 +131,9 @@ msgid "by"
 msgstr "da"
 
 #: main.cpp:79
-#,
 msgid "&Level"
 msgstr "&Livello"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "Mostra barra Menu"
-
