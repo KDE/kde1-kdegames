@@ -18,24 +18,7 @@ DISTCLEANFILES = $(BUILTSOURCES)
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x ../../kdelibs/po/kde.pot $(ktetris_SOURCES) && mv messages.po ../po/ktetris.pot
 
-## ##########################
-## # Installation definitions
-
-icondir = $(kde_icondir)
-icon_DATA = ktetris.xpm
-minidir = $(kde_minidir)
-appsdir = $(kde_appsdir)/Games
-apps_DATA = ktetris.kdelnk
-htmldir = $(kde_htmldir)/en/ktetris
-html_DATA = index.html index-1.html index-2.html logotp3.gif
-
-install-data-local:
-	$(mkinstalldirs) $(minidir)
-	$(INSTALL_DATA) mini-ktetris.xpm $(minidir)/ktetris.xpm
-
-uninstall-local:
-	rm -f $(minidir)/ktetris.xpm
-	rm -rf $(htmldir)
+SUBDIRS = data
 
 ## ##############
 ## # MOC building

@@ -27,10 +27,10 @@ KTetris::KTetris()
 	QPopupMenu *options = new QPopupMenu;
 	options->insertItem(i18n("&Keys"), this, SLOT(configKeys()) );
 	
- 	QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Tetris"))
+ 	QPopupMenu *help = kapp->getHelpMenu(true, QString(KTETRIS_NAME)
                                          + " " + KTETRIS_VERSION
-                                         + i18n("\n\nby Nicolas Hadacek")
-                                         + " (hadacek@kde.org)");  
+										 + " (" + KTETRIS_DATE + ")\n\n"
+										 + i18n("by") + " " + KTETRIS_AUTHOR);
 	
 	menu = new KMenuBar(this);
 	menu->enableMoving(TRUE);

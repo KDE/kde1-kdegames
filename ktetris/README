@@ -1,6 +1,9 @@
-KTETRIS 0.2.12 : Alpha version (10/03/98)
-Copyright (c) 1995 Eirik ENG & 1996-97-98 Nicolas HADACEK (hadacek@kde.org)
+KTETRIS : version 1.0.0 (18/06/98)
+----------------------------------
+Copyright (c) 1995       Eirik ENG
+Copyright (c) 1996-97-98 Nicolas HADACEK (hadacek@kde.org)
 Distributed under the GNU General Public License
+
 
 
 This program is a clone of the well-known game Tetris. 
@@ -11,6 +14,5 @@ Most of the core code (gtetris) has been written by Eirik Eng (see the file
 Enjoy !
 
 
-Requirements :
- * libkdecore-0.0.11 or higher
- * libkdeui-0.0.10 or higher
+
+Requirements : uptodate "libkdecore" & "libkdeui".
