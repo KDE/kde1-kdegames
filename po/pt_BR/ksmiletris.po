@@ -97,6 +97,5 @@ msgid "New High Score"
 msgstr "Nova pontuação recorde"
 
 #: newscoredialog.cpp:47
-#, fuzzy
 msgid "Enter name"
-msgstr "&Finalizar Jogo"
+msgstr "Digite nome"
