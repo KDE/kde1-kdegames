@@ -1,0 +1,321 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ktetris\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-01-29 10:00+0000\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+
+#: board.cpp:68 dialogs.cpp:140
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: board.cpp:85
+msgid "Game paused"
+msgstr "Jogo pausado"
+
+#: board.cpp:90
+msgid "Press to resume"
+msgstr "Carregue para continuar"
+
+#: board.cpp:105 net.cpp:216
+msgid "Game over"
+msgstr "Jogo terminado"
+
+#: board.cpp:109
+msgid "Press Return to replay"
+msgstr "Carregue em Return para voltar a jogar"
+
+#: board.cpp:113
+msgid "Press to start game"
+msgstr "Carregue para começar"
+
+#: board.cpp:154 field.cpp:31 field.cpp:48
+msgid "Move left"
+msgstr "Mexer para a esquerda"
+
+#: board.cpp:155 field.cpp:32 field.cpp:49
+msgid "Move right"
+msgstr "Mexer para a direita"
+
+#: board.cpp:156 field.cpp:33 field.cpp:50
+msgid "Drop down"
+msgstr "Deixar cair"
+
+#: board.cpp:157 field.cpp:34 field.cpp:51
+msgid "One line down"
+msgstr "Descer uma linha"
+
+#: board.cpp:158 field.cpp:35 field.cpp:52
+msgid "Rotate left"
+msgstr "Rodar esquerda"
+
+#: board.cpp:159 field.cpp:36 field.cpp:53
+msgid "Rotate right"
+msgstr "Rodar direita"
+
+#: board.cpp:269
+msgid "You suck !"
+msgstr "És um nojo !"
+
+#: board.cpp:391
+msgid "Highscores file not writable !"
+msgstr "Impossível escrever ficheiro do Quadro de Honra!"
+
+#: net.cpp:133
+msgid "Illegal port"
+msgstr "Porta ilegal"
+
+#: net.cpp:139
+msgid "Null address"
+msgstr "Endereço nulo"
+
+#: net.cpp:145 net.cpp:151
+msgid "Unknown address"
+msgstr "Endereço desconhecido"
+
+#: net.cpp:166
+msgid "Cannot create socket"
+msgstr "Não consegui criar socket"
+
+#: net.cpp:204
+msgid "at"
+msgstr "em"
+
+#: net.cpp:241
+msgid "Connect error"
+msgstr "Erro conexão"
+
+#: net.cpp:251 net.cpp:306
+msgid "Server unreachable"
+msgstr "Servidor inatingivel"
+
+#: net.cpp:274
+msgid "The server has died"
+msgstr "O servidor morreu"
+
+#: net.cpp:274
+msgid "Cancel from server"
+msgstr "Cancelado pelo servidor"
+
+#: net.cpp:280 net.cpp:340
+msgid "Unknown data from server"
+msgstr "Data desconhecida do servidor"
+
+#: net.cpp:319
+msgid "Cannot send to server"
+msgstr "Não consigo mandar para o servidor"
+
+#: net.cpp:331
+msgid "Client timeout (No message from server)"
+msgstr "Timeout do cliente (Nenhuma mensagem do servidor)"
+
+#: net.cpp:336
+msgid "Server has vanished"
+msgstr "Servidor desapareceu"
+
+#: net.cpp:373
+msgid "Bind error"
+msgstr "Erro no bind"
+
+#: net.cpp:378
+msgid "Listen error"
+msgstr "Erro no listen"
+
+#: net.cpp:397
+msgid "Unknown message from unknown player (??)"
+msgstr "Mensagem desconhecida de um jogador desconhecido (??)"
+
+#: net.cpp:456 net.cpp:497
+msgid "Unknown message from client"
+msgstr "Mensagem desconhecida do cliente"
+
+#: net.cpp:493
+msgid "Client has died"
+msgstr "Cliente morreu"
+
+#: net.cpp:493
+msgid "Cancel from client"
+msgstr "Cancelado pelo cliente"
+
+#: net.cpp:501
+msgid "Timeout"
+msgstr "Timeout"
+
+#: net.cpp:527
+msgid "No message from client"
+msgstr "Nenhuma mensagem do cliente"
+
+#: net.cpp:532
+msgid "Client has vanished"
+msgstr "Cliente desapareceu"
+
+#: net.cpp:536
+msgid "Unknown data from client"
+msgstr "Dados desconhecidos do cliente"
+
+#: net.cpp:540
+msgid "End message from client"
+msgstr "Mensagem de fim do cliente"
+
+#: net.cpp:557
+msgid "Cannot send to client"
+msgstr "Não consigo enviar para o cliente"
+
+#: dialogs.cpp:61
+msgid "High Scores"
+msgstr "Melhores Pontuações"
+
+#: dialogs.cpp:84 dialogs.cpp:94
+msgid "Hall of Fame"
+msgstr "Quadro de Honra"
+
+#: dialogs.cpp:161
+msgid "No option yet !"
+msgstr "Nenhuma opção ainda !"
+
+#: dialogs.cpp:184 dialogs.cpp:234
+msgid "Network Dialog"
+msgstr "Diálogo de Rede"
+
+#: dialogs.cpp:187
+msgid "Server"
+msgstr "Servidor"
+
+#: dialogs.cpp:188
+msgid "Client"
+msgstr "Cliente"
+
+#: dialogs.cpp:192
+msgid "Player name :"
+msgstr "Nome do jogador :"
+
+#: dialogs.cpp:194
+msgid "Server address :"
+msgstr "Endereço do servidor :"
+
+#: dialogs.cpp:196
+msgid "Port :"
+msgstr "Porta :"
+
+#: dialogs.cpp:208
+msgid "Connect"
+msgstr "Ligar"
+
+#: dialogs.cpp:211
+msgid "Connecting ..."
+msgstr "A ligar ..."
+
+#: dialogs.cpp:214
+msgid "Play !"
+msgstr "Jogar !"
+
+#: dialogs.cpp:254
+msgid "Network game"
+msgstr "Jogo em rede"
+
+#: dialogs.cpp:258
+msgid "Server mode"
+msgstr "Modo servidor"
+
+#: dialogs.cpp:260
+msgid "Client mode"
+msgstr "Modo cliente"
+
+#: dialogs.cpp:338
+msgid "Waiting for other player(s) ..."
+msgstr "À espera do(s) outro(s) jogador(es) ..."
+
+#: field.cpp:27 field.cpp:43
+msgid "New game"
+msgstr "Novo jogo"
+
+#: field.cpp:28 field.cpp:44
+msgid "Pause game"
+msgstr "Pausar jogo"
+
+#: field.cpp:30 field.cpp:46
+msgid "High scores"
+msgstr "Melhores pontuações"
+
+#: field.cpp:37
+msgid "Close dialog"
+msgstr "Diálogo de fecho"
+
+#: field.cpp:38
+msgid "Ok dialog"
+msgstr "Diálogo de ok"
+
+#: field.cpp:39
+msgid "Cancel dialog"
+msgstr "Diálogo de cancelamento"
+
+#: field.cpp:55
+msgid "Score"
+msgstr "Pontuação"
+
+#: field.cpp:59
+msgid "Lines removed"
+msgstr "Linhas"
+
+#: field.cpp:63
+msgid "Level"
+msgstr "Nível"
+
+#: field.cpp:67
+msgid "Next tile"
+msgstr "Próximo mosaico"
+
+#: field.cpp:173
+msgid "&Restart game"
+msgstr "&Recomeçar jogo"
+
+#: field.cpp:174
+msgid "&Pause game"
+msgstr "&Pausar jogo"
+
+#: field.cpp:175
+msgid "&Multiplayer game"
+msgstr "Jogo &Multijogador"
+
+#: field.cpp:177
+msgid "&High scores"
+msgstr "Mel&hores pontuações"
+
+#: main.cpp:22 main.cpp:67
+msgid "Hide menu"
+msgstr "Esconder menu"
+
+#: main.cpp:27
+msgid "&Keys"
+msgstr "&Teclas"
+
+#: main.cpp:30
+msgid "&Contents"
+msgstr "&Conteúdo"
+
+#: main.cpp:33
+msgid "About &Qt"
+msgstr "Acerca do &Qt"
+
+#: main.cpp:64
+msgid "Show menu"
+msgstr "Mostrar menu"
+
+#: main.cpp:77
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK(hadacek@kde.org)\n"
+"tetris kernel by Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+msgstr ""
+"%s (%s) \n"
+"\n"
+"por Nicolas HADACEK(hadacek@kde.org)\n"
+"kerndel de tetris por Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+
+#: main.cpp:80
+msgid "ktetris : about"
+msgstr "ktetris : acerca"
