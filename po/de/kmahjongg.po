@@ -70,7 +70,7 @@ msgid "&View"
 msgstr "&Anzeige"
 
 #: kmahjongg..cpp:286
-msgid ""About %s"
+msgid "About %s"
 msgstr "Über %s"
 
 #: kmahjongg..cpp:291
@@ -88,7 +88,7 @@ msgid "Close"
 msgstr "Schliessen"
 
 #: kmahjongg..cpp:434
-msgid "Undo operation done successfully.""
+msgid "Undo operation done successfully."
 msgstr "Letzter Zug wurde rückgängig gemacht."
 
 #: kmahjongg..cpp:437
@@ -116,7 +116,7 @@ msgid "Congratulations. You have won!"
 msgstr "Gratulation. Sie haben gewonnen!"
 
 #: kmahjongg..cpp:623
-msgid "Calculating new game...""
+msgid "Calculating new game..."
 msgstr "Neues Spiel wird berechnet..."
 
 #: kmahjongg..cpp:629
