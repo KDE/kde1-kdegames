@@ -1,6 +1,7 @@
+/* Yo Emacs, this is -*- C++ -*- */
 /*
- *   ksame 0.2 - simple Game
- *   Copyright (C) 1997  Marcus Kreutzberger
+ *   ksame 0.4 - simple Game
+ *   Copyright (C) 1997,1998  Marcus Kreutzberger
  * 
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -21,12 +22,8 @@
 #ifndef _STONEWIDGET
 #define _STONEWIDGET
 
-#include <qlined.h> 
 #include <qpixmap.h>
-#include <qbitmap.h> 
 #include <qwidget.h>
-#include <qstring.h>
-//#include "StoneWidget.moc"
 
 #define F_CHANGED 128
 #define F_MARKED  64
@@ -44,96 +41,94 @@
 
 
 class StoneWidget : public QWidget {
-    Q_OBJECT
-public:
-    StoneWidget( QWidget *parent=0, int x=10,int y=10);
-    ~StoneWidget();
-
-    // Zustand abfragen
-    int getScore();
-
-    int getBoard();
-
-    int getSizex();
-
-    int getSizey();
-    int getColors() { return colors; }
-    void setColors(int c) { if ((colors<=maxcolor)&&(colors>1)) colors = c; }
-
-    // Spielende abfragen
-    int isGameover();
-
-    // Das Spielfeld wird neu initialisiert.
-    void newGame(int colors, int boardno, int size_x, int size_y);
-
-    void setMultiSpin(int state);
-    int getMultiSpin();
-
-    // Das Spielfeld wird neu initialisiert. 
-    // mit den alten/standard Parametern.
-    void newGame();
-protected:
-    void paintEvent( QPaintEvent *e );
-    void mousePressEvent ( QMouseEvent *e);
-    void timerEvent( QTimerEvent *e );
-    void mouseMoveEvent ( QMouseEvent *e);
 private:
+     Q_OBJECT
 
-    
-    void collapseArea();
-    void recursive_markfield(int i,unsigned char color);
-    int markfield(int x, int y,int always=0);
-    void drawfield( QPaintEvent *e=0,int erase=0 );
-    void drawfield_multispin( QPaintEvent *e=0,int erase=0 );
-    void drawfield_singlespin( QPaintEvent *e=0,int erase=0 );
-    void checkGameOver();
+     // Spiel abhaengige Parameter
+     int f_colors;
+     int f_board;
+     int f_score;
+     int f_gameover;
+     int stones_x;           // Feldgröße in Steinen.
+     int stones_y;           // Feldgröße in Steinen.
 
-    void setStoneSize(int size_x, int size_y);
-    
-    int lastfield,lastcolor;
-    int stones;
+public:
+     StoneWidget( QWidget *parent=0, int x=10,int y=10);
+     ~StoneWidget();
+     
+     // Zustand abfragen
+     
+     int board()  { return f_board; }
+     int score()  { return f_score; }
+     QSize size() { return QSize(stones_x,stones_y); }  
+     int colors() { return f_colors; }
 
-    int colors,boardno;
+     QSize sizeHint ();
+     
+     // Das Spielfeld wird neu initialisiert.
+     void newgame(int board, int colors=-1);
 
-    long score;
-    int dx,dy;   // Pixelgröße eines Steines.
-    int sx,sy;   // Feldgröße in Steinen.
-    int slice;   // Bildnummer des Steinmovies
-    int px,py;   // Pixelgröße des SteinFeldes.
-    int maxspin,maxcolor,doublecolor,multispin;
-    QPixmap stonemap;
-    QPixmap *backmap;
-    QPixmap *tempmap;
-    QBitmap maskmap;
+     // Spiel zuruecksetzen
+     void reset();
+     // Spielstein und verbundene Steine loeschen
+     // und zusammenruecken
+     void remove(int x,int y,int force=0,int withsignal=0);
 
-    int lastpoint;
-    unsigned char *field;
-    unsigned char *spin;
-    
-    int gameover;
-    int highscore;
-  
-    QLineEdit *edit;
-    
-public slots: 
+     // Spielende abfragen
+     int gameover();
 
-// Das Spielfeld wird neu initialisiert.
-//void newGame();
+     int xyToStone(int x,int y);
+protected:
 
+     void unmark();
+     void mark(int i,int force=0);
+     void r_mark(int i,unsigned char color);
+     void collapse();
+
+     void timerEvent( QTimerEvent *e );
+     void paintEvent( QPaintEvent *e );
+     void mousePressEvent ( QMouseEvent *e);
+     void mouseMoveEvent ( QMouseEvent *e);
+
+     // Eigenschaften des SteinBildes
+     int stone_px,stone_py; // Pixelgröße eines Steines.
+     int maxcolors;         // Anzahl verschiedener Steine (Y Richtung)
+     int maxslices;         // Anzahl Steine eines Movies  (X Richtung)
+
+private:
+     int modified;
+     int marked;            // Anzahl markierter Steine
+
+     int stonepyy,stonepxx;
+
+     // Array das die Zustaende der Steine speichert
+     unsigned char *stones;
+     int stones_size;
+     // Bildnummer des Steinmovies
+     int slice;          
+
+     QPixmap stonemap;
 signals: 
 
-    // Der Punktestand hat sich geändert.
-    void s_updateScore(int score);
-    void s_updateBoard(int boardno);
-    void s_updateColors(int colors);
+     // Ein neues Spiel beginnt
+     void s_newgame();
 
-    // Das Spiel ist zueende. Die Endpunkte werden mit übergeben.
-    void s_gameover(int score);
+     // Der Punktestand hat sich geändert.
+     void s_score(int score);
+     
+     // Es wurden Steine markiert
+     void s_mark(int m);
 
-    // Der Stein (x,y) wurde angeklickt(entfernt), alle umliegend betroffenen Steine
-    // verschwinden automatisch, d.h. kein extra Signal.
-    void s_removeStone(int x, int y);
-    
+     // Das Spiel ist zueende. 
+     void s_gameover();
+     
+     // Der Stein (x,y) wurde angeklickt(entfernt), 
+     // alle umliegend betroffenen Steine
+     // verschwinden automatisch, d.h. kein extra Signal.
+     void s_remove(int x,int y);
+     
+     void s_sizechanged();
+
 };
 
 #endif

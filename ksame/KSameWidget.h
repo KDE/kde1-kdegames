@@ -1,6 +1,6 @@
 /*
- *   ksame 0.2 - simple Game
- *   Copyright (C) 1997  Marcus Kreutzberger
+ *   ksame 0.4 - simple Game
+ *   Copyright (C) 1997,1998  Marcus Kreutzberger
  * 
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -20,16 +20,13 @@
 
 #ifndef _KSAMEWIDGET
 #define _KSAMEWIDGET
-#include <qlined.h> 
 #include <qwidget.h>
-#include <kbutton.h>
 #include <qpushbt.h>
-#include <qlcdnum.h>
 #include <ktopwidget.h> 
-#include <kmenubar.h>
-
-class StoneWidget;
-class ScoreWidget;
+#include <qlist.h>
+#include <qpoint.h>
+#include "StoneWidget.h"
+#include "HighScore.h"
 
 class KSameWidget: public KTopLevelWidget {
  Q_OBJECT
@@ -39,32 +36,46 @@ public:
  
 private:
     StoneWidget *stone;
-    ScoreWidget *hiscore;
+    HighScore *highscore;
     KStatusBar *status;
     
+    QList<QPoint> history;
+
     QPopupMenu *colorsmenu;
     QPopupMenu *optionsmenu;
     int multispin_item;
     int random_item;
 
+    int israndom;
+    int board;
+
+    void set_board(int no);
+protected:
+    void load_history();
+    void store_history();
+
+    virtual void saveProperties(KConfig *conf);
+    virtual void readProperties(KConfig *conf);
 public slots: 
+    void sizeChanged();   
   /* File Menu */
     void m_new();
     void m_load();
     void m_save();
+    void m_showhs();
     void m_quit();
     
+    
+
     /* Options Menu */
     void m_colors(int);
     void m_tglboard();
-    void m_tglmultispin();
     
-    void gameover(int);
-    void updatescore(int);
-    void updateboard(int);
-    void updatecolors(int);
-  
-
+    void gameover();
+    void set_score(int);
+    void set_marked(int); 
+    void history_add(int,int);
+    void history_clear();
 };
 
 

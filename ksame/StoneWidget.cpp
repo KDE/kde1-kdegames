@@ -1,6 +1,6 @@
 /*
- *   ksame 0.3 - simple Game
- *   Copyright (C) 1997  Marcus Kreutzberger
+ *   ksame 0.4 - simple Game
+ *   Copyright (C) 1997,1998  Marcus Kreutzberger
  * 
  *   This program is free software; you can redistribute it and/or modify
  *   it under the terms of the GNU General Public License as published by
@@ -18,336 +18,256 @@
  *
  */
 
-
 #include <stdio.h>
 #include <stdlib.h>
+#include <kapp.h>
 #include <qpainter.h> 
 #include <qpixmap.h> 
-#include <qbitmap.h> 
-#include <qlabel.h> 
-#include <qstring.h>
-#include "StoneWidget.moc"
-#include <kapp.h>
 #include <kiconloader.h>
+#include "StoneWidget.moc"
+/*
+unsigned int randseed;
 
+unsigned int random() {
+  return((randseed=(randseed*134775813)+1)>>16);
+}
+*/       
 StoneWidget::StoneWidget( QWidget *parent, int x, int y ) 
     : QWidget(parent) {
-  
-	backmap = 0;
-	tempmap=0;
+
+	 stones_x=x;  // Feldgroesse setzten
+	 stones_y=y;
+	 stones_size=stones_x*stones_y;
+	 stones=new unsigned char[stones_size];
+	 
+	 f_gameover=-1;
+	 f_board=0;
+	 f_colors=0;
+	 f_score=0;
+	 slice=0;
+	 for (int i=0;i<stones_size;i++)
+	      stones[i]=F_CHANGED;
+
+	 if ( stonemap.isNull() )
+	      stonemap = kapp->getIconLoader()->loadIcon("stones.gif");
+
+	 stone_px=stone_py=40;
+	 maxslices=30;
+	 maxcolors=4;
+
+	 stonepyy=stone_py*stones_y;
+	 stonepxx=stone_px*stones_x;
+
+	 //	 resize(stones_x*stone_px,stones_y*stone_py);
+	 //	 setFixedSize(stones_x*stone_px,stones_y*stone_py);
+
+	 setMouseTracking(true);
 	
-	edit=0;
-	
-	dx=40;
-	dy=40; 
-	maxspin=30;
-	
-	field = 0;
-	spin=0;
-	setStoneSize(x,y);
-	
-	colors=3;
-	maxcolor=4;
-	doublecolor=1;
-	boardno=0;
-	
-	if ( stonemap.isNull() )
-	    stonemap = kapp->getIconLoader()->loadIcon("stones2000.bmp");
-	
-	if (  maskmap.isNull() ) {  // NO MASK !!!
-	    maskmap = kapp->getIconLoader()->loadIcon("stones2000_mask.bmp");
-	    stonemap.setMask(maskmap);
-	}
-	if (!backmap) {
-	    backmap = new QPixmap(sx*dx,sy*dy);
-	    CHECK_PTR(backmap);
-	    backmap->fill(QColor(70,70,70));
-	}
-	if (!tempmap) {
-	    tempmap = new QPixmap(dx,dy);
-	    CHECK_PTR(tempmap);
-	}
-	
-	
-	slice=0;
-	setMouseTracking(TRUE);
-	
-	QColor c(115,115,115);
-	setBackgroundColor(c);
-	newGame();
-	
-	startTimer( 100 ); 
+	 QColor c(115,115,115);
+	 setBackgroundColor(c);
+
+	 emit s_sizechanged();
+	 startTimer( 100 ); 
+}
+QSize 
+StoneWidget::sizeHint () {
+     return QSize(stones_x*stone_px,stones_y*stone_py);
 }
 
- StoneWidget::~StoneWidget() {  
-   setMouseTracking(FALSE);
-   killTimers();
-   delete field;
-   delete tempmap;
-   //   debug("~StoneWidget\n");
+// Rechnet die (x,y) Koordinaten eines Steines
+// in eine lineare Position um.
+// Rueckgabe zwischen 0 und stones_size-1 inklusive,
+// bei Fehler -1.
+int 
+StoneWidget::xyToStone(int x,int y) {
+     if (x<0||y<0||x>=stones_x||y>=stones_y)  
+	  return -1;
+     return x+y*stones_x;
 }
 
-void StoneWidget::setStoneSize(int size_x, int size_y) {
+// Startet ein neues Spiel
+// Signal s_newgame wird gesendet.
+void 
+StoneWidget::newgame(int board, int colors) {
+     if (colors<2) colors=3;
+     
+     if (colors>maxcolors)
+	  f_colors=maxcolors;
+     else f_colors=colors;
+
+     f_board=board;    
+     reset();
+     emit s_newgame();
+}
+
+// Setzt ein Spiel zurueck.
+void 
+StoneWidget::reset() {
+     f_score=0;
+     f_gameover=-1;
+     slice=0;
+     modified=1;
+     marked=0;
+     srand(f_board);
+     for (int i=0;i<stones_size;i++)
+	  SETCOLOR(stones[i], (unsigned char)(rand()%f_colors)+1);
+     emit s_score(f_score);
+     emit s_mark(0);
+}
+
+// Entfernt alle Steine, die  mit dem Stein(x,y) verbunden sind.
+// Es kann auch ein einzelner Stein entfernt werden, wenn
+// force=1 gesetzt ist.
+// Die Score wird hochgezaehlt. Es werden keine Signale gesendet.
+void 
+StoneWidget::remove(int x,int y,int force=0,int withsignal=0) {
+     mark(xyToStone(x,y),force);
+     
+     if (!marked) return;
+     
+     if (force||marked>1) {
+	  // Score hochzaehlen
+	  if (marked>2)
+	       f_score+=(marked-2)*(marked-2);
+	  // markierte Steine loeschen
+	  for (int i=0;i<stones_size;i++)
+	       if (ISMARKED(stones[i]))
+		    stones[i]=F_CHANGED;
+	  // Spielsteine zusammenruecken
+	  collapse();
+	  // Bonus berechen
+	  if (!GETCOLOR(stones[stones_size-stones_x])) {
+	       f_score+=1000;      
+	  }
+	  // damit Paint neuzeichnet
+	  modified=1;
+	  // damit gameover neu berechnet wird.
+	  f_gameover=-1;
+	  // Signale senden
+	  if (withsignal) emit s_remove(x,y); 
+	  if (withsignal) emit s_score(f_score); 
+	  if (gameover()){
+	       if (withsignal) emit s_gameover(); 
+	  }
+     }
+}
+int
+StoneWidget::gameover() {
+     register int i=stones_size-1;;
+     register unsigned char color;
+    
+     if (f_gameover>=0) return f_gameover;
+     f_gameover=0;
+     while (i>=0) {
+	  // leere Felder ueberspringen
+	  while ( GETCOLOR(stones[i])==0 && i>=0 ) i--;
+	  // Wenn Stein gefunden, 
+	  // dann die Nachbarn auf gleiche Farbe pruefen.
+	  while ( (color=GETCOLOR(stones[i]))!=0 && i>=0 ) {
+	       // nicht ganz links und gleiche Farbe
+	       if ( (i%stones_x)!=0 && GETCOLOR(stones[i-1])==color)
+		    return 0;  
+	       // nicht ganz oben und gleiche Farbe
+	       if ((i>=stones_x)&&(GETCOLOR(stones[i-stones_x])==color)) 
+		    return 0;  
+	       // nicht ganz rechts und gleiche Farbe
+	       if ( ((i+1)%stones_x)!=0 && GETCOLOR(stones[i+1])==color )
+		    return 0;  
+	       i--;
+	  }
+     }
+     f_gameover=1;
+     return 1;
+}
+
+
+
+// Loesche die Markierung von allen Steinen
+// wenn Steine markiert sind.
+void 
+StoneWidget::unmark() {
+     if (!marked) return;
+     for (int i=0;i<stones_size;i++) { 
+	  if (ISMARKED(stones[i])) {
+	       CLEARMARKED(stones[i]);
+	       SETCHANGED(stones[i]);
+	  }	       
+     }
+     marked=0;
+     modified=1;
+}
+// Markiere den Stein an Position i
+void
+StoneWidget::mark(int i,int force) {
+     if ((i<0)||(i>=stones_size)) {
+	  unmark();
+	  return;
+     }
+     if (ISMARKED(stones[i])) return;
+     unmark();
+     r_mark(i,GETCOLOR(stones[i]));
+     if (!force&&marked==1) {
+	  CLEARMARKED(stones[i]);
+	  marked=0;
+     }
+     slice=0;
+     if (marked>1) 
+	  emit s_mark((marked-2)*(marked-2));
+     else emit s_mark(0);
+}
+// Markiere rekursiv alle umliegenden Steine
+// mit der Farbe Color
+void 
+StoneWidget::r_mark(int i,unsigned char color) {
+     if ((i<0)||(i>=stones_size)) return;
+     if (ISMARKED(stones[i])) return;
  
-    sx=size_x;
-    sy=size_y;
-    setGeometry(0,0,dx*sx,dy*sy);
-    setMinimumSize( dx*sx,dy*sy);
-    setMaximumSize( dx*sx,dy*sy);  
-    delete field;
-    field = new unsigned char[sx*sy];
-    delete spin;
-    spin = new unsigned char[sx*sy];
-    lastpoint=-1;
-    slice=0;
-}
-void StoneWidget::newGame(int colors, int boardno, int size_x, int size_y) {
-    this->colors=colors;
-    this->boardno=boardno;    
-    setStoneSize(size_x,size_y);
-    newGame();
-}
-
-void StoneWidget::newGame() {
-    score=0;
-    gameover=0;
-    highscore=0;
-    for (int i=0;i<sx*sy;i++) { 
-	SETCOLOR(field[i], (unsigned char)(rand()%colors)+1);
-	spin[i]=0;
-    }
-    lastfield=-2;
-    emit s_updateScore(score);    
-    emit s_updateColors(colors);
-    emit s_updateBoard(boardno);
+     int mycolor=GETCOLOR(stones[i]);
+     if (!mycolor||mycolor!=color) return;
     
+     SETMARKED(stones[i]);
+     SETCHANGED(stones[i]);
+     marked++;
+     modified=1;
+     // nicht ganz links
+     if ((i%stones_x)!=0) r_mark(i-1,color); 
+     // nicht ganz oben   
+     if (i>=stones_x) r_mark(i-stones_x,color);
+     // nicht ganz unten
+     if (i<(stones_x-1)*stones_y) r_mark(i+stones_x,color);
+     // nicht ganz rechts
+     if (((i+1)%stones_x)!=0) r_mark(i+1,color);
+     return;
 }
 
-int StoneWidget::getScore() {
-  return score;
-}
-int StoneWidget::getBoard() {
-  return boardno;
-}
-int StoneWidget::getSizex() {
-  return sx;
-}
-int StoneWidget::getSizey() {
-  return sy;
-}
-int StoneWidget::isGameover() {
-  return gameover;
-}
-int StoneWidget::getMultiSpin(){
-    return multispin;
-}
-
-void StoneWidget::setMultiSpin(int state){
-    multispin=state;
-}
-
-void StoneWidget::drawfield(QPaintEvent *e,int erase) {
-    if (multispin) {
-	drawfield_multispin(e,erase);
-    } else {
-	drawfield_singlespin(e,erase);
-    }
-}
-
-void StoneWidget::drawfield_multispin(QPaintEvent *e,int erase) {
-    int slicex,slicey;		
-    int p,xdx,ydy,marked,redraw,color;
-
-    for (int x=0;x<sx;x++) {
-	for (int y=0;y<sy;y++) {	    
-	    p=x+y*sx;
-	    xdx=x*dx;
-	    ydy=y*dy;
-	    
-	    marked=ISMARKED(field[p]);
-	    redraw=erase;
-
-	    if (!marked&&e) {
-		QRect r(xdx,ydy,dx,dy);
-		redraw=erase||r.intersects(e->rect());
-	    }	    
-
-	    if (marked||ISCHANGED(field[p])||redraw) {
-		CLEARCHANGED(field[p]);
-		color=GETCOLOR(field[p]);
-		slicey=(color-1)*dy;
-		if (marked) {
-		    slicex=dx*(spin[p]++);
-		    if (spin[p]==maxspin) spin[p]=0;
-		    //		    if (doublecolor) slicey+=maxcolor*dy;
-		} else {
-		    slicex=spin[p]*dx;
-		}
-		if (!color) {
-		    bitBlt(this,xdx,ydy,backmap,xdx,ydy,dx,dy,CopyROP,TRUE);
-		} else {
-		    bitBlt(tempmap,0,0,backmap,xdx,ydy,dx,dy,CopyROP,TRUE);
-		    bitBlt(tempmap,0,0,&stonemap,slicex,slicey,dx,dy,CopyROP,FALSE);
-		    bitBlt(this,xdx,ydy,tempmap,0,0,dx,dy,CopyROP,TRUE);
-		}
-	    }
-	    
-	}
-    }
-    return;
-}
-void StoneWidget::drawfield_singlespin(QPaintEvent *e,int erase) {
-    int slicex,slicey;		
-    int p,xdx,ydy,marked,redraw,color;
-
-    for (int x=0;x<sx;x++) {
-	for (int y=0;y<sy;y++) {	    
-	    p=x+y*sx;
-	    xdx=x*dx;
-	    ydy=y*dy;
-	    
-	    marked=ISMARKED(field[p]);
-	    redraw=erase;
-
-	    if (!marked&&e) {
-		QRect r(xdx,ydy,dx,dy);
-		redraw=erase||r.intersects(e->rect());
-	    }	    
-
-	    if (marked||ISCHANGED(field[p])||redraw) {
-		CLEARCHANGED(field[p]);
-		color=GETCOLOR(field[p]);
-		slicex=(marked)?dx*slice:0;	       
-		slicey=(color-1)*dy;
-		if (!color) {
-		    bitBlt(this,xdx,ydy,backmap,xdx,ydy,dx,dy,CopyROP,TRUE);
-		} else {
-		    bitBlt(tempmap,0,0,backmap,xdx,ydy,dx,dy,CopyROP,TRUE);
-		    bitBlt(tempmap,0,0,&stonemap,slicex,slicey,dx,dy,CopyROP,FALSE);
-		    bitBlt(this,xdx,ydy,tempmap,0,0,dx,dy,CopyROP,TRUE);
-		}
-	    }
-	    
-	}
-    }
-    return;
-}
-
-
-
-
-int StoneWidget::markfield(int x,int y,int always) {
-    // gibt true zurück, wenn sich ein Stein ändert.
-
-    int changed=0;
-    if ((x<0)||(y<0)||(x>sx)||(y>sy)) { 
-	if (stones) {
-	    changed=1;
-	    for (int i=0;i<sx*sy;i++) { 
-		CLEARMARKED(field[i]);
-		SETCHANGED(field[i]);
-	    }
-	    stones=0;
-	}
-	lastpoint=-1;
-	return (changed);
-    }
-    
-    int p=x+y*sx;  
-    if (!ISMARKED(field[p])||always) {
-	if (stones||always) {
-	    changed=1;
-	    for (int i=0;i<sx*sy;i++) {
-		if (ISMARKED(field[i])) {
-		    CLEARMARKED(field[i]);
-		}
-	    }
-	    stones=0;
-	}
-	
-	if (lastpoint!=p||always) {
-	    changed=1;
-	    recursive_markfield(p,GETCOLOR(field[p]));
-	    lastpoint=p;
-	    if (stones==1) {
-		CLEARMARKED(field[p]);
-		stones=0;
-	    }
-	}
-    }
-    return(changed);
-}
-
-void StoneWidget::recursive_markfield(int i,unsigned char color) {
-  if ((i<0)||(i>sx*sy)) return;
-  if (ISMARKED(field[i])) return;
-
-  int mycolor=GETCOLOR(field[i]);
-  if (!mycolor||mycolor!=color) return;
-
-  SETMARKED(field[i]);
-  SETCHANGED(field[i]);
-  stones++;
-  if ((i%sx)!=0) recursive_markfield(i-1,color);  // nicht ganz links
-  if (i>=sx) recursive_markfield(i-sx,color);  // nicht ganz oben   
-  if (i<(sx-1)*sy) recursive_markfield(i+sx,color);  // nicht ganz unten
-  if (((i+1)%sx)!=0) recursive_markfield(i+1,color); // nicht ganz rechts
-  return;
-}
-
-void StoneWidget::checkGameOver() {
-  int i;
-  unsigned char color;
-  
-  gameover=1;
-  i=sx*sy-1;
-  while ((i>=0)&&gameover) {
-    while ((GETCOLOR(field[i])==0)&&(i>=0)&&gameover) i--;
-    while (((color=GETCOLOR(field[i]))!=0)&&(i>=0)&&gameover) {
-      if (((i%sx)!=0)&&(GETCOLOR(field[i-1])==color))  // nicht ganz links
-	gameover=0;  
-      if ((i>=sx)&&(GETCOLOR(field[i-sx])==color))   // nicht ganz oben   
-	gameover=0;  
-      if ((((i+1)%sx)!=0)&&(GETCOLOR(field[i+1])==color))// nicht ganz rechts 
-	gameover=0; 
-      i--;
-    }
-  }
-  if (gameover) {
-    emit s_gameover(score);
-  }
-}
-
-
-
-// Steine zusammenrücken erst nach unten, dann nach links aufrücken 
-void StoneWidget::collapseArea() {
+// Steine zusammenruecken erst nach unten, dann nach links
+void StoneWidget::collapse() {
     int j,i1,i2;
     
-    for (int x=0;x<sx;x++) {
-	i1=x+(sy-1)*sx;
-	while ((GETCOLOR(field[i1])!=0)&&(i1>=0)) i1-=sx;
+    for (int x=0;x<stones_x;x++) {
+	i1=x+(stones_y-1)*stones_x;
+	while ((GETCOLOR(stones[i1])!=0)&&(i1>=0)) i1-=stones_x;
 	i2=i1;
 	while (i2>=0) {
-	    while ((GETCOLOR(field[i2])==0)&&(i2>=0)) i2-=sx;
-	    while ((GETCOLOR(field[i2])!=0)&&(i2>=0)) {
-		field[i1]=field[i2]|F_CHANGED;
-		field[i2]=0|F_CHANGED;	  
-		i1-=sx;
-		i2-=sx;
+	    while ((GETCOLOR(stones[i2])==0)&&(i2>=0)) i2-=stones_x;
+	    while ((GETCOLOR(stones[i2])!=0)&&(i2>=0)) {
+		stones[i1]=stones[i2]|F_CHANGED;
+		stones[i2]=0|F_CHANGED;	  
+		i1-=stones_x;
+		i2-=stones_x;
 	    }
 	}
     }  
-    for (int x=0;x<sx;x++) {
-	i1=x+(sy-1)*sx;
-	while ((GETCOLOR(field[i1])!=0)&&(i1<sx*sy)) i1++;
+    for (int x=0;x<stones_x;x++) {
+	i1=x+(stones_y-1)*stones_x;
+	while ((GETCOLOR(stones[i1])!=0)&&(i1<stones_size)) i1++;
 	i2=i1;
-	while (i2<sx*sy) {
-	    while ((GETCOLOR(field[i2])==0)&&(i2<sx*sy)) i2++;
-	    while ((GETCOLOR(field[i2])!=0)&&(i2<sx*sy)) {
-		for (j=0;j<sy*sx;j+=sx) {
-		    field[i1-j]=field[i2-j]|F_CHANGED;
-		    field[i2-j]=0|F_CHANGED;
+	while (i2<stones_size) {
+	    while ((GETCOLOR(stones[i2])==0)&&(i2<stones_size)) i2++;
+	    while ((GETCOLOR(stones[i2])!=0)&&(i2<stones_size)) {
+		for (j=0;j<stones_size;j+=stones_x) {
+		    stones[i1-j]=stones[i2-j]|F_CHANGED;
+		    stones[i2-j]=0|F_CHANGED;
 		}
 		i1++;
 		i2++;
@@ -356,58 +276,87 @@ void StoneWidget::collapseArea() {
     }  
 }
 
-
-void StoneWidget::paintEvent( QPaintEvent *e ) {
-   drawfield(e);
-}
-
 void StoneWidget::timerEvent( QTimerEvent * ) {
-    QPoint p=mapFromGlobal(cursor().pos());
-    int x=p.x();
-    int y=p.y();
-
-    if (x<0||y<0||x>dx*sx||y>dy*sy) return;
-  
-    slice=(slice+1)%maxspin;    
-    markfield(x/dx,y/dy);
-    drawfield();
-    return;
+     QPoint p=mapFromGlobal(cursor().pos());
+     if (p.x()<0||p.y()<0||p.x()>=stonepxx||p.y()>=stonepyy) 
+	  unmark();
+     slice=(slice+1)%maxslices;
+     paintEvent(0);
 }
 
 void StoneWidget::mouseMoveEvent ( QMouseEvent *e) { 
-    if (!gameover&&markfield((e->pos().x())/dx,(e->pos().y())/dy)) {
-	if (!multispin) slice=maxspin-1;
-	drawfield();
-    }
-    return;
+     if (gameover()) {
+	  unmark();
+	  return; 
+     }
+     int x=e->pos().x();
+     int y=e->pos().y();
+     if (x<0||y<0||x>=stonepxx||y>=stonepyy) return;
+     mark(xyToStone(x/stone_px,y/stone_py));
 }
 
 void StoneWidget::mousePressEvent ( QMouseEvent *e) {
-    int x=(e->pos().x())/dx;
-    int y=(e->pos().y())/dy;
-
-    if (stones>1&&!gameover) {
-	emit s_removeStone(x,y);
-	score+=(stones-2)*(stones-2);
-	stones=0;
-	for (int i=0;i<sx*sy;i++) {
-	    if (ISMARKED(field[i])) field[i]=0|F_CHANGED;
-	}
-    
-	collapseArea();
-	
-	if (!GETCOLOR(field[(sy-1)*sx])) {
-	    debug("Bonus\n");
-	    score+=1000;      
-	}
-	if (markfield(x,y,1)) drawfield();
-	emit s_updateScore(score);
-	checkGameOver();
-    }
+     if (gameover()) return;
+     int x=e->pos().x();
+     int y=e->pos().y();
+     if (x<0||y<0||x>=stonepxx||y>=stonepyy) return;
+     remove(x/stone_px,
+	    y/stone_py,
+	    0, // mindestens zwei Steine
+	    1); // Signale senden.
+     mark(xyToStone(x/stone_px,y/stone_py));
 }
 
+StoneWidget::~StoneWidget() {  
+     setMouseTracking(false);
+     killTimers();
+     delete stones;
+     //   debug("~StoneWidget\n");
+}
 
-
+void StoneWidget::paintEvent( QPaintEvent *e ) {
+     
+     int slicey;		
+     int px,py;
+     int redraw;  // Stein soll neu gezeichnet werden.
+     unsigned char *stone=stones;
+     QPainter p(this);
+     QBrush backgr(blue);
+     int color;
+     
+     //     printf("slice:%i\n",slice);
+     
+     for (py=0;py<stonepyy;py+=stone_py) {
+	  for (px=0;px<stonepxx;px+=stone_px) {
+	       
+	       if (!(redraw=*stone&(F_MARKED|F_CHANGED))&&e) {
+		    QRect r(px,py,stone_px,stone_py);
+		    redraw=r.intersects(e->rect());
+	       }
+	       if (redraw) {
+		    CLEARCHANGED(*stone);
+		    color=GETCOLOR(*stone);
+		    slicey=(color-1)*stone_py;
+		    
+		    if (!color) {
+			 //p.fillRect(px,py,stone_px,stone_py, backgr );
+			 bitBlt(this,px,py,
+				&stonemap,stone_px*maxslices,0,
+				stone_px,stone_py,CopyROP,FALSE);
+		    } else {
+			 bitBlt(this,px,py,
+				&stonemap,
+				(ISMARKED(*stone))?(stone_px*slice):0,
+				slicey,
+				stone_px,stone_py,CopyROP,FALSE);
+			 
+		    }   
+	       }
+	       stone++;  // naechster Stein.
+	  }
+	  
+     }
+}
 
 
 

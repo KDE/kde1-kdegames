@@ -1,2 +1,6 @@
-#define KSAME_VERSION	"0.2.1"
+#define KSAME_VERSION	"0.4"
+
+
+
+
 
