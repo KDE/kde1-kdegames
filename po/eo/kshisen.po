@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen 1.0\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-07-28 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -14,9 +14,13 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-3\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Ne eblis malfermi rastrobildojn!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -81,6 +85,13 @@ msgstr "Facila"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Malfacila"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -158,14 +169,20 @@ msgstr "Shisen-Sho: La plej bonaj"
 msgid "Rank"
 msgstr "Rango"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "&Nova Ludo"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Tempo"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "&Grandeco"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "Poentoj"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Ne eblis malfermi rastrobildojn!"

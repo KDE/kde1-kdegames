@@ -6,61 +6,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1997-05-26 15:00+0200\n"
 "Last-Translator: KDE Team <kde-team@obelix.ee.duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-
-#: about.cpp:52
-#, fuzzy
-msgid "About kreversi"
-msgstr "Σχετικά με το KReversi"
-
-#: about.cpp:65
-msgid "Version "
-msgstr "Έκδοση"
-
-#: about.cpp:67
-#, fuzzy
-msgid ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software\n"
-"published under the GNU General\n"
-"Public License (take a look\n"
-"into help for details)\n"
-"\n"
-"Thanks to:\n"
-"\tMats Luthman for the game engine\n"
-"\t(I've ported it from his JAVA applet)\n"
-"\n"
-"\tStephan Kulow\n"
-"\tfor comments and bugfixes\n"
-"\n"
-"\tArne Klaassen\n"
-"\t for the raytraced chips"
-msgstr ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"Το πρόγραμμα αυτό είναι free software\n"
-"εκδιδόμενο από την GNU General\n"
-"Άδεια δημοσίευσης(κοίταξε\n"
-"στη βοήθεια για λεπτομέριες)\n"
-"\n"
-"Ευχαριστίες στους:\n"
-"\tMats Lythman για τη μηχανή του παιχνιδιού\n"
-"\t(Την έχω κρατήσει από την JAVA εφαρμογή του)\n"
-"\n"
-"\tStephan Kulow\n"
-"\tγια τα σχόλειά του και τις διορθώσεις του\n"
-"\n"
-"\tArne Klaassen\n"
-"\t για την σχεδίαση των ολοκληρωμένων"
 
 #: app.cpp:218 app.cpp:553
 msgid ""
@@ -374,6 +326,10 @@ msgstr "KReversi: Πίνακας πρώτων"
 msgid "Rank"
 msgstr "βαθμός"
 
+#: app.cpp:885
+msgid "Name"
+msgstr "Όνομα"
+
 #: app.cpp:889
 msgid "Color"
 msgstr "Χρώμα"
@@ -401,6 +357,54 @@ msgstr ""
 msgid "Your name:"
 msgstr "Το όνομά σου:"
 
+#: about.cpp:52
+#, fuzzy
+msgid "About kreversi"
+msgstr "Σχετικά με το KReversi"
+
+#: about.cpp:65
+msgid "Version "
+msgstr "Έκδοση"
+
+#: about.cpp:67
+#, fuzzy
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Το πρόγραμμα αυτό είναι free software\n"
+"εκδιδόμενο από την GNU General\n"
+"Άδεια δημοσίευσης(κοίταξε\n"
+"στη βοήθεια για λεπτομέριες)\n"
+"\n"
+"Ευχαριστίες στους:\n"
+"\tMats Lythman για τη μηχανή του παιχνιδιού\n"
+"\t(Την έχω κρατήσει από την JAVA εφαρμογή του)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tγια τα σχόλειά του και τις διορθώσεις του\n"
+"\n"
+"\tArne Klaassen\n"
+"\t για την σχεδίαση των ολοκληρωμένων"
+
 #~ msgid "&Rules"
 #~ msgstr "Κ&ανονισμοί"
 
@@ -413,6 +417,3 @@ msgstr "Το όνομά σου:"
 
 #~ msgid "&About..."
 #~ msgstr "Σχετικά &αρκετή"
-
-#~ msgid "Name"
-#~ msgstr "Όνομα"

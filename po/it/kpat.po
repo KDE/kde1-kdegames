@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Luciano Nocera <lnocera@grip.cis.upenn.edu>\n"
 "Language-Team: Italian <LL@li.org>\n"
@@ -43,6 +43,10 @@ msgstr "Facile 2"
 msgid "Easy 1"
 msgstr "Facile 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Difficile 1"
@@ -63,22 +67,6 @@ msgstr "Difficile 4"
 msgid "Hard 5"
 msgstr "Difficile 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Prova a muovere la carta:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Rifare un contratto"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Piccolo consiglio"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Solo tre contratti possibili"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Regole facili"
@@ -95,10 +83,25 @@ msgstr ""
 "Questo termina il gioco in corso\n"
 "Sei sicuro di volerlo fare?"
 
-#
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Nessuna nuova carta"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Prova a muovere la carta:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Rifare un contratto"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Piccolo consiglio"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Solo tre contratti possibili"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Tutto Automatico"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -197,6 +200,7 @@ msgstr "kpat: gioco non ancora programmato %d\n"
 msgid "Could not load background image!"
 msgstr "Impossibile caricare immagine di sfondo!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Tutto Automatico"
+#
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Nessuna nuova carta"

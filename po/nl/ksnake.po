@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Pieter Eendebak <pte@ddsw.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,34 +95,6 @@ msgstr ""
 "\n"
 "Door Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Standaard"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Verander Richting Toetsen"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Niet ingestelde toetsen"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "fout bij laden %s, afbreken\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -147,6 +119,25 @@ msgstr "&Ja"
 msgid "&No"
 msgstr "&Nee"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Slangen Race Beginkamer"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Beginkamer"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Slangen Race High Scores"
@@ -167,10 +158,19 @@ msgstr ""
 "Je hebt de high score gehaald!\n"
 " voer je naam in"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Slangen Race Beginkamer"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "fout bij laden %s, afbreken\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Beginkamer"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Standaard"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Verander Richting Toetsen"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Niet ingestelde toetsen"

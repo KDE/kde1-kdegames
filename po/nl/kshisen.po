@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,9 +14,13 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Kan pixmap niet laden !"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -81,6 +85,13 @@ msgstr "Eenvoudig"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Moeilijk"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -158,20 +169,22 @@ msgstr "Shisen-Sho: Hall Of Fame"
 msgid "Rank"
 msgstr "Rangorde"
 
+#: app.cpp:638
+msgid "Name"
+msgstr "Naam"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Tijd "
+
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "Grootte"
 
 #: app.cpp:650
 msgid "Score"
 msgstr ""
 
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Kan pixmap niet laden !"
-
 #~ msgid "Medium"
 #~ msgstr "Gemiddeld"
-
-#~ msgid "Name"
-#~ msgstr "Naam"

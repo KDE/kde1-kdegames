@@ -4,13 +4,55 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-5\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: Move.cpp:17
+#, fuzzy
+msgid "Right"
+msgstr "DesnoGore"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "DesnoDole"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "LevoDole"
+
+#: Move.cpp:20
+#, fuzzy
+msgid "Left"
+msgstr "LevoGore"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "LevoGore"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "DesnoGore"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Strana"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Nadvor"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "Pritisnete"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Vrednost na tablata"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -39,6 +81,10 @@ msgstr "Vrati ja Pozicijata"
 #: AbTop.cpp:315
 msgid "Easy"
 msgstr "Lesno"
+
+#: AbTop.cpp:317
+msgid "Normal"
+msgstr ""
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -76,6 +122,17 @@ msgstr "Povlechi poleka"
 msgid "Spy"
 msgstr "Shpioniraj"
 
+#: AbTop.cpp:349
+msgid "Abalone"
+msgstr ""
+
+#: AbTop.cpp:351
+msgid ""
+"\n"
+"\n"
+"by Josef Weidendorfer"
+msgstr ""
+
 #: AbTop.cpp:407
 msgid "won"
 msgstr "Pobeda"
@@ -87,38 +144,6 @@ msgstr "Razmisluvam..."
 #: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "Ti si na red !"
-
-#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
-msgid "Board value"
-msgstr "Vrednost na tablata"
-
-#: Move.cpp:18
-msgid "RightDown"
-msgstr "DesnoDole"
-
-#: Move.cpp:19
-msgid "LeftDown"
-msgstr "LevoDole"
-
-#: Move.cpp:21
-msgid "LeftUp"
-msgstr "LevoGore"
-
-#: Move.cpp:22
-msgid "RightUp"
-msgstr "DesnoGore"
-
-#: Move.cpp:35 Move.cpp:42
-msgid "Side"
-msgstr "Strana"
-
-#: Move.cpp:49
-msgid "Out"
-msgstr "Nadvor"
-
-#: Move.cpp:50
-msgid "Push"
-msgstr "Pritisnete"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"

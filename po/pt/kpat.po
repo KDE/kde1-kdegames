@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-01-26 14:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
@@ -39,6 +39,10 @@ msgstr "Fácil 2"
 msgid "Easy 1"
 msgstr "Fácil 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Difícil 1"
@@ -59,22 +63,6 @@ msgstr "Difícil 4"
 msgid "Hard 5"
 msgstr "Difícil 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Tente mover a carta:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Dar"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Dica"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Apenas 3 deals são permitidos"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Regras fáceis"
@@ -91,9 +79,25 @@ msgstr ""
 "Isto irá terminar o jogo actual\n"
 "Deseja mesmo fazer isto?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Não há mais cartas"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Tente mover a carta:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Dar"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Dica"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Apenas 3 deals são permitidos"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Automatismo Total"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -195,6 +199,6 @@ msgstr "kpat: tipo de jogo não implementado %d\n"
 msgid "Could not load background image!"
 msgstr "Não foi possível carregar a imagem do fundo"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Automatismo Total"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Não há mais cartas"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-04-21 03:53+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -47,6 +47,10 @@ msgstr "簡單級 2"
 msgid "Easy 1"
 msgstr "簡單級 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "困難級 1"
@@ -67,22 +71,6 @@ msgstr "困難級 4"
 msgid "Hard 5"
 msgstr "困難級 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "試著移動卡片:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "重新發牌"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "提示"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "只有三次發牌機會"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "簡單的規則"
@@ -99,9 +87,25 @@ msgstr ""
 "這個動作會結束目前的遊戲\n"
 "確定要這麼做嗎?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "沒有多的卡片"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "試著移動卡片:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "重新發牌"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "提示"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "只有三次發牌機會"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "全自動"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -200,6 +204,6 @@ msgstr "kpat: 尚未實作這種遊戲類型 %d\n"
 msgid "Could not load background image!"
 msgstr "無法載入背景圖形!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "全自動"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "沒有多的卡片"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -97,31 +97,6 @@ msgid ""
 "by Michel Filippi (mfilippi@sade.rhein-main.de)"
 msgstr ""
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr ""
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr ""
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr ""
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr ""
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -142,6 +117,22 @@ msgstr ""
 msgid "&No"
 msgstr ""
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr ""
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr ""
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr ""
@@ -160,10 +151,19 @@ msgid ""
 " please enter your name"
 msgstr ""
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
 msgstr ""
 
-#: startroom.cpp:41
-msgid "Starting Room"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr ""
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr ""
+
+#: keys.cpp:96
+msgid "Undefined key"
 msgstr ""

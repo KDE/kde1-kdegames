@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,8 +14,12 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
+msgstr ""
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
 msgstr ""
 
 #: app.cpp:108
@@ -80,6 +84,13 @@ msgstr ""
 
 #: app.cpp:141
 msgid "Hard"
+msgstr ""
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
 msgstr ""
 
 #: app.cpp:151
@@ -155,14 +166,18 @@ msgstr ""
 msgid "Rank"
 msgstr ""
 
+#: app.cpp:638
+msgid "Name"
+msgstr ""
+
 #: app.cpp:642
 msgid "Time"
 msgstr ""
 
-#: app.cpp:650
-msgid "Score"
+#: app.cpp:646
+msgid "Size"
 msgstr ""
 
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
+#: app.cpp:650
+msgid "Score"
 msgstr ""

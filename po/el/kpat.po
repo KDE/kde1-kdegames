@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-03-30 21:00+0200\n"
 "Last-Translator: Fotis Andritsopoulos <fandrit@duth.gr>\n"
 "Language-Team: GREEK <kde-team@obelix.ee.duth.gr>\n"
@@ -48,6 +48,10 @@ msgstr "„ç¡¦¢¦ 2"
 msgid "Easy 1"
 msgstr "Eç¡¦¢¦ 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "ƒç©¡¦¢¦ 1"
@@ -68,22 +72,6 @@ msgstr "ƒç©¡¦¢¦ 4"
 msgid "Hard 5"
 msgstr "ƒç©¡¦¢¦ 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "ƒ¦¡å£˜©œ ¤˜ £œ«˜¡ ¤ã©œ ª «¤ ¡á¨«˜:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "˜¤˜£¦å¨˜©œ"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Hint"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "3 £¦ ¨á©£˜«˜ œ§ «¨â§¦¤«˜ "
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "„ç¡¦¢¦  ¡˜¤æ¤œª"
@@ -100,9 +88,25 @@ msgstr ""
 "€¬«æ Ÿ˜ «œ¨£˜«å©œ  «¦ «¨â®¦¤ §˜ ®¤å› \n"
 "„å©«œ ©åš¦¬¨¦  §àª Ÿâ¢œ«œ ¤˜ «¦ ¡á¤œ«œ ˜¬«æ?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "ƒœ¤ ¬§á¨®¦¬¤ á¢¢œª ¡á¨«œª"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "ƒ¦¡å£˜©œ ¤˜ £œ«˜¡ ¤ã©œ ª «¤ ¡á¨«˜:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "˜¤˜£¦å¨˜©œ"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Hint"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "3 £¦ ¨á©£˜«˜ œ§ «¨â§¦¤«˜ "
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "E¤«œ¢éª ˜¬«æ£˜«¦"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -206,9 +210,9 @@ msgstr "kpa: €¤¦¢¦¡¢ã¨à«¦ª «ç§¦ª §˜ ®¤ › ¦ç\n"
 msgid "Could not load background image!"
 msgstr "ƒœ¤ ¡˜«á­œ¨œ ¤˜ ­¦¨«àŸœå  œ ¡æ¤˜ š ˜ «¦ ­æ¤«¦!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "E¤«œ¢éª ˜¬«æ£˜«¦"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "ƒœ¤ ¬§á¨®¦¬¤ á¢¢œª ¡á¨«œª"
 
 #~ msgid "Help on &rules..."
 #~ msgstr "&¦ãŸœ ˜ ©«¦¬ª ¡˜¤æ¤œª..."

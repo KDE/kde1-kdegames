@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-22 22:00+0100\n"
 "Last-Translator: Balázs Scheidler <bazsi@balabit.hu>\n"
 "Language-Team: hungarian <LL@li.org>\n"
@@ -9,9 +9,13 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "A pixmap betöltése sikertelen!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -76,6 +80,13 @@ msgstr "Könnyû"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Nehéz"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -153,14 +164,20 @@ msgstr "Shisen-Sho: Elsõ 10"
 msgid "Rank"
 msgstr "Helyezés"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "Ú&j játék"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Idõ"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "&Méret"
+
 #: app.cpp:650
 msgid "Score"
 msgstr ""
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "A pixmap betöltése sikertelen!"

@@ -1,9 +1,8 @@
 # KTranslator Generated File
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake revision 1.2\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-08-22 20:48+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -97,34 +96,6 @@ msgstr ""
 "\n"
 "av Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Standardvärden"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Ändra riktningstangenter"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Odefinerad tangent"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tTalområde måste vara 0..99\n"
-"\toch minVal får inte vara större än maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "fel under läsning av %s, avbryter\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -149,6 +120,25 @@ msgstr "&Ja"
 msgid "&No"
 msgstr "&Nej"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Startrum för Orm Lopp"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Startrum"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tTalområde måste vara 0..99\n"
+"\toch minVal får inte vara större än maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Poängstatistik för Orm Lopp"
@@ -169,10 +159,19 @@ msgstr ""
 "du har uppnått en plats på poängtavlan!\n"
 " var vänlig och skriv in ditt namn"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Startrum för Orm Lopp"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "fel under läsning av %s, avbryter\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Startrum"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Standardvärden"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Ändra riktningstangenter"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Odefinerad tangent"

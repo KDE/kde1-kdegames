@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1997-10-DA HO:MI+ZONE\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 "First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
@@ -39,6 +39,10 @@ msgstr "Fácil 2"
 msgid "Easy 1"
 msgstr "Fácil 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Difícil 1"
@@ -59,22 +63,6 @@ msgstr "Difícil 4"
 msgid "Hard 5"
 msgstr "Difícil 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Intente mover una carta:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Barajar"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Trampa"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Sólo permitidas tres manos"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Reglas fáciles"
@@ -91,9 +79,25 @@ msgstr ""
 "El juego actual se finalizará\n"
 "¿Está seguro de que así lo desea?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "No hay mas cartas"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Intente mover una carta:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Barajar"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Trampa"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Sólo permitidas tres manos"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Automático"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -196,6 +200,6 @@ msgstr "kpat: juego aún no implementado %d\n"
 msgid "Could not load background image!"
 msgstr "Imposible leer la imagen de fondo"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Automático"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "No hay mas cartas"

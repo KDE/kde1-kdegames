@@ -1,12 +1,16 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-17 21:24+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "¡No se pueden cargar imagenes de mapas pixels!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -71,6 +75,13 @@ msgstr "Fácil"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Difícil"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -148,14 +159,20 @@ msgstr "Shisen-Sho: Sala de la Fama"
 msgid "Rank"
 msgstr "Ordenar"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "&Nuevo juego"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Tiempo"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "&Tamaño"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "Puntuación"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "¡No se pueden cargar imagenes de mapas pixels!"

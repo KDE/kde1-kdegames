@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,10 @@ msgstr ""
 msgid "Easy 1"
 msgstr ""
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr ""
@@ -68,6 +72,20 @@ msgstr ""
 msgid "Hard 5"
 msgstr ""
 
+#: klondike.cpp:67
+msgid "Easy rules"
+msgstr ""
+
+#: klondike.cpp:68
+msgid "Hard rules"
+msgstr ""
+
+#: klondike.cpp:94
+msgid ""
+"This will end the current game\n"
+"Are you sure you want to do this?"
+msgstr ""
+
 #: grandf.cpp:35
 msgid "Try to move card:"
 msgstr ""
@@ -84,22 +102,8 @@ msgstr ""
 msgid "Only 3 deals allowed"
 msgstr ""
 
-#: klondike.cpp:67
-msgid "Easy rules"
-msgstr ""
-
-#: klondike.cpp:68
-msgid "Hard rules"
-msgstr ""
-
-#: klondike.cpp:94
-msgid ""
-"This will end the current game\n"
-"Are you sure you want to do this?"
-msgstr ""
-
-#: mod3.cpp:137
-msgid "No more cards"
+#: ten.cpp:40
+msgid "Full Auto"
 msgstr ""
 
 #: pwidget.cpp:96
@@ -199,6 +203,6 @@ msgstr ""
 msgid "Could not load background image!"
 msgstr ""
 
-#: ten.cpp:40
-msgid "Full Auto"
+#: mod3.cpp:137
+msgid "No more cards"
 msgstr ""

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -30,11 +30,16 @@ msgstr "地雷数"
 msgid "Hall of Fame"
 msgstr "名人堂"
 
-#: dialogs.cpp:288 main.cpp:57
+#: dialogs.cpp:288 main.cpp:59
 msgid "Easy"
 msgstr "简单"
 
-#: dialogs.cpp:290 main.cpp:59
+#: dialogs.cpp:289 main.cpp:60
+#, fuzzy
+msgid "Normal"
+msgstr "普通 :"
+
+#: dialogs.cpp:290 main.cpp:61
 msgid "Expert"
 msgstr "专家级"
 
@@ -79,49 +84,48 @@ msgstr "成功 !!!!"
 msgid "Bad luck !"
 msgstr "运气不好 !"
 
-#: main.cpp:21 main.cpp:28 main.cpp:44
+#: main.cpp:24 main.cpp:46
 msgid "New game"
 msgstr "开始新游戏"
 
-#: main.cpp:22 main.cpp:29 main.cpp:45
+#: main.cpp:25 main.cpp:47
 msgid "Pause game"
 msgstr "暂停游戏"
 
-#: main.cpp:23 main.cpp:30 main.cpp:47
+#: main.cpp:26 main.cpp:49
 msgid "High scores"
 msgstr "高分排行榜"
 
-#: main.cpp:41 main.cpp:146
+#: main.cpp:43 main.cpp:154
 msgid "Hide menu bar"
 msgstr "隐藏菜单条"
 
-#: main.cpp:53
+#: main.cpp:55
 msgid "? mark"
 msgstr "? 标记"
 
-#: main.cpp:54
+#: main.cpp:56
 msgid "Keys"
 msgstr "按键"
 
-#: main.cpp:61
+#: main.cpp:63
 msgid "Custom"
 msgstr "自定义"
 
-#: main.cpp:64
-msgid "Minesweeper"
-msgstr "扫雷"
-
-#: main.cpp:67
+#: main.cpp:69
 msgid "by"
 msgstr ""
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "Level"
 msgstr "等级"
 
-#: main.cpp:143
+#: main.cpp:151
 msgid "Show menu bar"
 msgstr "显示菜单条"
+
+#~ msgid "Minesweeper"
+#~ msgstr "扫雷"
 
 #
 #~ msgid "kmines : High Scores"
@@ -130,9 +134,6 @@ msgstr "显示菜单条"
 #
 #~ msgid "Easy :"
 #~ msgstr "简单 :"
-
-#~ msgid "Normal :"
-#~ msgstr "普通 :"
 
 #
 #~ msgid "Expert :"

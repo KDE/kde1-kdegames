@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
@@ -23,6 +23,18 @@ msgstr "Nivo"
 #: toplevel.cpp:126
 msgid "Ships"
 msgstr "Brodovi"
+
+#: toplevel.cpp:186
+#, fuzzy
+msgid "Asteroids"
+msgstr "KAsteroidi"
+
+#: toplevel.cpp:188
+msgid ""
+"\n"
+"\n"
+"by Martin R. Jones"
+msgstr ""
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."

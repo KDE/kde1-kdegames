@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-06-18 22:22+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-08-08 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -15,95 +15,95 @@ msgstr ""
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
 
-#: kpoker.cpp:98
-msgid "Draw !"
-msgstr "Dijeli !"
-
-#: kpoker.cpp:125
-msgid "Click a card to hold it"
-msgstr "Izaberi kartu koju ¾eli¹ zadr¾ati"
-
-#: kpoker.cpp:146
-msgid "Held"
-msgstr "Dr¾i"
-
-#: kpoker.cpp:185
-msgid "draw new cards"
-msgstr "vuci nove karte"
-
-#: kpoker.cpp:186 kpoker.cpp:187
-msgid "your last hand"
-msgstr "va¹a zadnja ruka"
-
-#: kpoker.cpp:188 kpoker.cpp:189
-msgid "money left"
-msgstr "preostali novac"
-
-#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
-msgid "nothing"
-msgstr "ni¹ta"
-
-#: kpoker.cpp:370
-msgid "Cash"
-msgstr "Gotovina"
-
-#: kpoker.cpp:406
-msgid "Last Hand"
-msgstr "Zadnja ruka"
-
-#: kpoker.cpp:517
-msgid "One Pair"
-msgstr "Jedan par"
-
-#: kpoker.cpp:518
-msgid "Two Pairs"
-msgstr "Dva para"
-
-#: kpoker.cpp:519
-msgid "3 of a kind"
-msgstr "3 karte iste vrste"
-
-#: kpoker.cpp:520
-msgid "Full House"
-msgstr "Full House"
-
-#: kpoker.cpp:521
-msgid "4 of a kind"
-msgstr "4 karte iste vrste"
-
-#: kpoker.cpp:522
-msgid "Straight"
-msgstr "Straight"
-
-#: kpoker.cpp:523
-msgid "Flush"
-msgstr "Flush"
-
-#: kpoker.cpp:524
-msgid "Straight Flush"
-msgstr "Straight Flush"
-
-#: kpoker.cpp:525
-msgid "Royal Flush"
-msgstr "Royal Flush"
-
-#: kpoker.cpp:534
-msgid "You Lost"
-msgstr "Izgubio si"
-
-#: kpoker.cpp:535
-msgid "Oops - you went bankrupt.\n"
-msgstr "Ajoj - bankrotirao si.\n"
-
-#: kpoker.cpp:536
+#: kpoker.cpp:82 kpoker.cpp:538
 msgid "New game"
 msgstr "Nova igra"
 
-#: kpoker.cpp:617
+#: kpoker.cpp:95
+msgid "Draw !"
+msgstr "Dijeli !"
+
+#: kpoker.cpp:122
+msgid "Click a card to hold it"
+msgstr "Izaberi kartu koju ¾eli¹ zadr¾ati"
+
+#: kpoker.cpp:143
+msgid "Held"
+msgstr "Dr¾i"
+
+#: kpoker.cpp:182
+msgid "draw new cards"
+msgstr "vuci nove karte"
+
+#: kpoker.cpp:183 kpoker.cpp:184
+msgid "your last hand"
+msgstr "va¹a zadnja ruka"
+
+#: kpoker.cpp:185 kpoker.cpp:186
+msgid "money left"
+msgstr "preostali novac"
+
+#: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
+msgid "nothing"
+msgstr "ni¹ta"
+
+#: kpoker.cpp:372
+msgid "Cash"
+msgstr "Gotovina"
+
+#: kpoker.cpp:408
+msgid "Last Hand"
+msgstr "Zadnja ruka"
+
+#: kpoker.cpp:519
+msgid "One Pair"
+msgstr "Jedan par"
+
+#: kpoker.cpp:520
+msgid "Two Pairs"
+msgstr "Dva para"
+
+#: kpoker.cpp:521
+msgid "3 of a kind"
+msgstr "3 karte iste vrste"
+
+#: kpoker.cpp:522
+msgid "Full House"
+msgstr "Full House"
+
+#: kpoker.cpp:523
+msgid "4 of a kind"
+msgstr "4 karte iste vrste"
+
+#: kpoker.cpp:524
+msgid "Straight"
+msgstr "Straight"
+
+#: kpoker.cpp:525
+msgid "Flush"
+msgstr "Flush"
+
+#: kpoker.cpp:526
+msgid "Straight Flush"
+msgstr "Straight Flush"
+
+#: kpoker.cpp:527
+msgid "Royal Flush"
+msgstr "Royal Flush"
+
+#: kpoker.cpp:536
+msgid "You Lost"
+msgstr "Izgubio si"
+
+#: kpoker.cpp:537
+msgid "Oops - you went bankrupt.\n"
+msgstr "Ajoj - bankrotirao si.\n"
+
+#: kpoker.cpp:619
 msgid "You won $"
 msgstr "Dobio si $"
 
-#: kpoker.cpp:620
+#: kpoker.cpp:622
 msgid "Game Over"
 msgstr "Igra je gotova"
 
@@ -114,3 +114,27 @@ msgstr "&Nova igra"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Zvuk"
+
+#: top.cpp:73
+msgid "Poker"
+msgstr ""
+
+#: top.cpp:75
+msgid ""
+"\n"
+"\n"
+"by Jochen Tuchbreiter"
+msgstr ""
+
+#: top.cpp:77
+msgid ""
+"\n"
+"\n"
+"For a list of credits see helpfile"
+msgstr ""
+
+#: top.cpp:78
+msgid ""
+"\n"
+"Suggestions, bug reports etc. are welcome"
+msgstr ""

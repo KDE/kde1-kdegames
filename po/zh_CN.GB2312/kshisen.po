@@ -1,14 +1,18 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "不能载入图形!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -73,6 +77,13 @@ msgstr "简单"
 #: app.cpp:141
 msgid "Hard"
 msgstr "困难"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -150,17 +161,23 @@ msgstr "Shisen-Sho: 名人堂"
 msgid "Rank"
 msgstr "排名"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "开始新游戏[&N]"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "时间"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "大小[&Z]"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "分数"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "不能载入图形!"
 
 #~ msgid "Medium"
 #~ msgstr "中等"

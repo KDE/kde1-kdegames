@@ -1,13 +1,17 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Não foi possível carregar imagens!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -72,6 +76,13 @@ msgstr "Fácil"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Difícil"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -149,17 +160,23 @@ msgstr "Shisen-Sho: Pódio"
 msgid "Rank"
 msgstr "Posição"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "&Novo jogo"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Tempo"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "Tama&nho"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "Pontuação"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Não foi possível carregar imagens!"
 
 #~ msgid "Medium"
 #~ msgstr "Médio"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -100,34 +100,6 @@ msgstr ""
 "\n"
 "Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Oletukset"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Vaiha suuntan‰pp‰imi‰"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "M‰‰rittelem‰tˆn"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tAlueen pit‰‰ olla 0..99\n"
-"\tja minVal ei saa olla suurempi kuin maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "virhe ladatessa %s, lopetan\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -152,6 +124,25 @@ msgstr "&Kyll‰"
 msgid "&No"
 msgstr "&Ei"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "K‰‰rmerallin aloitushuone"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Aloitushuone"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tAlueen pit‰‰ olla 0..99\n"
+"\tja minVal ei saa olla suurempi kuin maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "K‰‰rmerallin enn‰tykset"
@@ -172,10 +163,19 @@ msgstr ""
 "Olet saavuttanut enn‰tystulokset!\n"
 " anna nimesi"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "K‰‰rmerallin aloitushuone"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "virhe ladatessa %s, lopetan\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Aloitushuone"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Oletukset"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Vaiha suuntan‰pp‰imi‰"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "M‰‰rittelem‰tˆn"

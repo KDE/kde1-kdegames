@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,55 +14,31 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: board.cpp:66 dialogs.cpp:137
+#: board.cpp:65 dialogs.cpp:137
 msgid "Anonymous"
 msgstr ""
 
-#: board.cpp:98
+#: board.cpp:97
 msgid "Game paused"
 msgstr ""
 
-#: board.cpp:103
+#: board.cpp:102
 msgid "Press to resume"
 msgstr ""
 
-#: board.cpp:120 net.cpp:208
+#: board.cpp:119 net.cpp:208
 msgid "Game over"
 msgstr ""
 
-#: board.cpp:124
+#: board.cpp:123
 msgid "Press Return to replay"
 msgstr ""
 
-#: board.cpp:128
+#: board.cpp:127
 msgid "Press to start game"
 msgstr ""
 
-#: board.cpp:174 field.cpp:29 field.cpp:45
-msgid "Move left"
-msgstr ""
-
-#: board.cpp:175 field.cpp:30 field.cpp:46
-msgid "Move right"
-msgstr ""
-
-#: board.cpp:176 field.cpp:31 field.cpp:47
-msgid "Drop down"
-msgstr ""
-
-#: board.cpp:177 field.cpp:32 field.cpp:48
-msgid "One line down"
-msgstr ""
-
-#: board.cpp:178 field.cpp:33 field.cpp:49
-msgid "Rotate left"
-msgstr ""
-
-#: board.cpp:179 field.cpp:34 field.cpp:50
-msgid "Rotate right"
-msgstr ""
-
-#: board.cpp:372
+#: board.cpp:371
 msgid "Highscores file not writable !"
 msgstr ""
 
@@ -230,43 +206,55 @@ msgstr ""
 msgid "Waiting for other player(s) ..."
 msgstr ""
 
-#: field.cpp:25 field.cpp:41
+#: field.cpp:27
 msgid "New game"
 msgstr ""
 
-#: field.cpp:26 field.cpp:42
+#: field.cpp:28
 msgid "Pause game"
 msgstr ""
 
-#: field.cpp:28 field.cpp:43
+#: field.cpp:30
 msgid "High scores"
 msgstr ""
 
+#: field.cpp:31
+msgid "Move left"
+msgstr ""
+
+#: field.cpp:32
+msgid "Move right"
+msgstr ""
+
+#: field.cpp:33
+msgid "Drop down"
+msgstr ""
+
+#: field.cpp:34
+msgid "One line down"
+msgstr ""
+
 #: field.cpp:35
-msgid "Close dialog"
+msgid "Rotate left"
 msgstr ""
 
 #: field.cpp:36
-msgid "Ok dialog"
+msgid "Rotate right"
 msgstr ""
 
-#: field.cpp:37
-msgid "Cancel dialog"
-msgstr ""
-
-#: field.cpp:52
+#: field.cpp:51
 msgid "Score"
 msgstr ""
 
-#: field.cpp:56
+#: field.cpp:55
 msgid "Lines removed"
 msgstr ""
 
-#: field.cpp:60
+#: field.cpp:59
 msgid "Level"
 msgstr ""
 
-#: field.cpp:64
+#: field.cpp:63
 msgid "Next tile"
 msgstr ""
 
@@ -286,25 +274,18 @@ msgstr ""
 msgid "&High scores"
 msgstr ""
 
-#: main.cpp:23 main.cpp:67
+#: main.cpp:25 main.cpp:74
 msgid "Hide menu"
 msgstr ""
 
-#: main.cpp:28
+#: main.cpp:30
 msgid "&Keys"
 msgstr ""
 
-#: main.cpp:30
-msgid "Tetris"
+#: main.cpp:35
+msgid "by"
 msgstr ""
 
-#: main.cpp:32
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
-msgstr ""
-
-#: main.cpp:64
+#: main.cpp:71
 msgid "Show menu"
 msgstr ""

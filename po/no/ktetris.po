@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -13,55 +13,31 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: ISO_8859-1\n"
 
-#: board.cpp:66 dialogs.cpp:137
+#: board.cpp:65 dialogs.cpp:137
 msgid "Anonymous"
 msgstr "Anonym"
 
-#: board.cpp:98
+#: board.cpp:97
 msgid "Game paused"
 msgstr "Pause i spillet"
 
-#: board.cpp:103
+#: board.cpp:102
 msgid "Press to resume"
 msgstr "Trykk for å fortsette"
 
-#: board.cpp:120 net.cpp:208
+#: board.cpp:119 net.cpp:208
 msgid "Game over"
 msgstr "Spillet er slutt"
 
-#: board.cpp:124
+#: board.cpp:123
 msgid "Press Return to replay"
 msgstr "Trykk Return for spille om igjen"
 
-#: board.cpp:128
+#: board.cpp:127
 msgid "Press to start game"
 msgstr "Trykk for å starte spill"
 
-#: board.cpp:174 field.cpp:29 field.cpp:45
-msgid "Move left"
-msgstr "Flytt til venstre"
-
-#: board.cpp:175 field.cpp:30 field.cpp:46
-msgid "Move right"
-msgstr "Flytt til høyre"
-
-#: board.cpp:176 field.cpp:31 field.cpp:47
-msgid "Drop down"
-msgstr "Slipp ned"
-
-#: board.cpp:177 field.cpp:32 field.cpp:48
-msgid "One line down"
-msgstr "En linje ned"
-
-#: board.cpp:178 field.cpp:33 field.cpp:49
-msgid "Rotate left"
-msgstr "Roter til venstre"
-
-#: board.cpp:179 field.cpp:34 field.cpp:50
-msgid "Rotate right"
-msgstr "Roter til høyre"
-
-#: board.cpp:372
+#: board.cpp:371
 msgid "Highscores file not writable !"
 msgstr "Kan ikke skrive til fil for høy poengsum !"
 
@@ -229,43 +205,55 @@ msgstr "Klient mode"
 msgid "Waiting for other player(s) ..."
 msgstr "Venter på annen(andre) spiller(e) ..."
 
-#: field.cpp:25 field.cpp:41
+#: field.cpp:27
 msgid "New game"
 msgstr "Nytt spill"
 
-#: field.cpp:26 field.cpp:42
+#: field.cpp:28
 msgid "Pause game"
 msgstr "Pause i spillet"
 
-#: field.cpp:28 field.cpp:43
+#: field.cpp:30
 msgid "High scores"
 msgstr "Høy poengsum"
 
+#: field.cpp:31
+msgid "Move left"
+msgstr "Flytt til venstre"
+
+#: field.cpp:32
+msgid "Move right"
+msgstr "Flytt til høyre"
+
+#: field.cpp:33
+msgid "Drop down"
+msgstr "Slipp ned"
+
+#: field.cpp:34
+msgid "One line down"
+msgstr "En linje ned"
+
 #: field.cpp:35
-msgid "Close dialog"
-msgstr "Lukk dialog"
+msgid "Rotate left"
+msgstr "Roter til venstre"
 
 #: field.cpp:36
-msgid "Ok dialog"
-msgstr "Dialog ok"
+msgid "Rotate right"
+msgstr "Roter til høyre"
 
-#: field.cpp:37
-msgid "Cancel dialog"
-msgstr "Kanseller dialog"
-
-#: field.cpp:52
+#: field.cpp:51
 msgid "Score"
 msgstr "Poengsum"
 
-#: field.cpp:56
+#: field.cpp:55
 msgid "Lines removed"
 msgstr "Linjer er fjernet"
 
-#: field.cpp:60
+#: field.cpp:59
 msgid "Level"
 msgstr "Nivå"
 
-#: field.cpp:64
+#: field.cpp:63
 msgid "Next tile"
 msgstr "Neste flis"
 
@@ -285,28 +273,39 @@ msgstr "&Flere spillere deltar"
 msgid "&High scores"
 msgstr "&Høy poengsum"
 
-#: main.cpp:23 main.cpp:67
+#: main.cpp:25 main.cpp:74
 msgid "Hide menu"
 msgstr "Skjul meny"
 
-#: main.cpp:28
+#: main.cpp:30
 msgid "&Keys"
 msgstr "&Taster"
 
-#: main.cpp:30
-msgid "Tetris"
-msgstr "Tetris"
-
-#: main.cpp:32
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
+#: main.cpp:35
+msgid "by"
 msgstr ""
-"\n"
-"\n"
-"av Nicolas Hadacek"
 
-#: main.cpp:64
+#: main.cpp:71
 msgid "Show menu"
 msgstr "Vis meny"
+
+#~ msgid "Close dialog"
+#~ msgstr "Lukk dialog"
+
+#~ msgid "Ok dialog"
+#~ msgstr "Dialog ok"
+
+#~ msgid "Cancel dialog"
+#~ msgstr "Kanseller dialog"
+
+#~ msgid "Tetris"
+#~ msgstr "Tetris"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "by Nicolas Hadacek"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "av Nicolas Hadacek"

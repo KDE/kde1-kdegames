@@ -1,12 +1,10 @@
 # KTranslator Generated File
-
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Vladimir Vuksan <vuksan@veus.hr>, 1998.
-
 msgid ""
 msgstr ""
 "Project-Id-Version: games\n"
-"POT-Creation-Date: 1998-09-14 22:23+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-09-17 13:38+MST\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -22,10 +20,6 @@ msgstr "Utrka Zmija"
 msgid "KConfig error ??\n"
 msgstr "KConfig gre¹ka ??\n"
 
-#: game.cpp:79
-msgid "New"
-msgstr "Nova"
-
 #: game.cpp:80
 msgid "Pause"
 msgstr "Pauziraj"
@@ -33,10 +27,6 @@ msgstr "Pauziraj"
 #: game.cpp:81
 msgid "High Scores..."
 msgstr "Najvi¹i rezultati..."
-
-#: game.cpp:83
-msgid "&Quit"
-msgstr "&Zavr¹i"
 
 #: game.cpp:88 game.cpp:97
 msgid "0"
@@ -108,54 +98,6 @@ msgstr ""
 "\n"
 "Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: game.cpp:150
-msgid "&Game"
-msgstr "&Igra"
-
-#: game.cpp:151
-msgid "&Options"
-msgstr "&Opcije"
-
-#: game.cpp:153
-msgid "&Help"
-msgstr "Po&moæ"
-
-#: keys.cpp:18 score.cpp:57 score.cpp:91 startroom.cpp:28
-msgid "Ok"
-msgstr "U redu"
-
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Podrazumijevano"
-
-#: keys.cpp:30 startroom.cpp:34
-msgid "Cancel"
-msgstr "Poni¹ti"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Promijeni tipke za usmjeravanje"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Nedefinirana tipka"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRaspon mora biti 0..99\n"
-"\ti minVal mora biti veæi od maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "gre¹ka prilikom uèitavanja %s, odustajem\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -180,6 +122,25 @@ msgstr "&Da"
 msgid "&No"
 msgstr "&Ne"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Poèetna soba za utrku zmija"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Poèetna soba"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRaspon mora biti 0..99\n"
+"\ti minVal mora biti veæi od maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Utrka zmija najvi¹i rezultati"
@@ -200,10 +161,40 @@ msgstr ""
 "prestigli ste najvi¹i rezultat!\n"
 " molim unesite svoje ime"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Poèetna soba za utrku zmija"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "gre¹ka prilikom uèitavanja %s, odustajem\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Poèetna soba"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Podrazumijevano"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Promijeni tipke za usmjeravanje"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Nedefinirana tipka"
+
+#~ msgid "New"
+#~ msgstr "Nova"
+
+#~ msgid "&Quit"
+#~ msgstr "&Zavr¹i"
+
+#~ msgid "&Game"
+#~ msgstr "&Igra"
+
+#~ msgid "&Options"
+#~ msgstr "&Opcije"
+
+#~ msgid "&Help"
+#~ msgstr "Po&moæ"
+
+#~ msgid "Ok"
+#~ msgstr "U redu"
+
+#~ msgid "Cancel"
+#~ msgstr "Poni¹ti"

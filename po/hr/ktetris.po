@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-03-23 22:00+0100\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr> \n"
 "Language-Team: Croatian\n"
@@ -13,55 +13,31 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: board.cpp:66 dialogs.cpp:137
+#: board.cpp:65 dialogs.cpp:137
 msgid "Anonymous"
 msgstr "Nepoznat"
 
-#: board.cpp:98
+#: board.cpp:97
 msgid "Game paused"
 msgstr "Igra pauzirana"
 
-#: board.cpp:103
+#: board.cpp:102
 msgid "Press to resume"
 msgstr "Pritisni za nastavak"
 
-#: board.cpp:120 net.cpp:208
+#: board.cpp:119 net.cpp:208
 msgid "Game over"
 msgstr "Igra je zavr¹ena"
 
-#: board.cpp:124
+#: board.cpp:123
 msgid "Press Return to replay"
 msgstr "Pritisni Return za reprizu"
 
-#: board.cpp:128
+#: board.cpp:127
 msgid "Press to start game"
 msgstr "Pritisni za poèetak igre"
 
-#: board.cpp:174 field.cpp:29 field.cpp:45
-msgid "Move left"
-msgstr "Lijevo"
-
-#: board.cpp:175 field.cpp:30 field.cpp:46
-msgid "Move right"
-msgstr "Desno"
-
-#: board.cpp:176 field.cpp:31 field.cpp:47
-msgid "Drop down"
-msgstr "Ispusti"
-
-#: board.cpp:177 field.cpp:32 field.cpp:48
-msgid "One line down"
-msgstr "Spusti za jedan red"
-
-#: board.cpp:178 field.cpp:33 field.cpp:49
-msgid "Rotate left"
-msgstr "Zakreni lijevo"
-
-#: board.cpp:179 field.cpp:34 field.cpp:50
-msgid "Rotate right"
-msgstr "Zakreni desno"
-
-#: board.cpp:372
+#: board.cpp:371
 msgid "Highscores file not writable !"
 msgstr "Datoteka s rekordima nije dozvoljena za pisanje!"
 
@@ -229,43 +205,55 @@ msgstr "Klient mod"
 msgid "Waiting for other player(s) ..."
 msgstr "Èekam druge igraèe..."
 
-#: field.cpp:25 field.cpp:41
+#: field.cpp:27
 msgid "New game"
 msgstr "Nova igra"
 
-#: field.cpp:26 field.cpp:42
+#: field.cpp:28
 msgid "Pause game"
 msgstr "Pauziraj"
 
-#: field.cpp:28 field.cpp:43
+#: field.cpp:30
 msgid "High scores"
 msgstr "Rekordi"
 
+#: field.cpp:31
+msgid "Move left"
+msgstr "Lijevo"
+
+#: field.cpp:32
+msgid "Move right"
+msgstr "Desno"
+
+#: field.cpp:33
+msgid "Drop down"
+msgstr "Ispusti"
+
+#: field.cpp:34
+msgid "One line down"
+msgstr "Spusti za jedan red"
+
 #: field.cpp:35
-msgid "Close dialog"
-msgstr "Zatvori dialog"
+msgid "Rotate left"
+msgstr "Zakreni lijevo"
 
 #: field.cpp:36
-msgid "Ok dialog"
-msgstr "Ok dialog"
+msgid "Rotate right"
+msgstr "Zakreni desno"
 
-#: field.cpp:37
-msgid "Cancel dialog"
-msgstr "Poni¹ti dialog"
-
-#: field.cpp:52
+#: field.cpp:51
 msgid "Score"
 msgstr "Rezultat"
 
-#: field.cpp:56
+#: field.cpp:55
 msgid "Lines removed"
 msgstr "Maknutih linija"
 
-#: field.cpp:60
+#: field.cpp:59
 msgid "Level"
 msgstr "Nivo"
 
-#: field.cpp:64
+#: field.cpp:63
 msgid "Next tile"
 msgstr "Slijedeæi oblik"
 
@@ -285,28 +273,39 @@ msgstr "&Mre¾na  igra"
 msgid "&High scores"
 msgstr "Re&kordi"
 
-#: main.cpp:23 main.cpp:67
+#: main.cpp:25 main.cpp:74
 msgid "Hide menu"
 msgstr "Sakrij izbornik"
 
-#: main.cpp:28
+#: main.cpp:30
 msgid "&Keys"
 msgstr "&Tipke"
 
-#: main.cpp:30
-msgid "Tetris"
-msgstr "Tetris"
-
-#: main.cpp:32
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
+#: main.cpp:35
+msgid "by"
 msgstr ""
-"\n"
-"\n"
-"Nicolas Hadacek"
 
-#: main.cpp:64
+#: main.cpp:71
 msgid "Show menu"
 msgstr "Prika¾i izbornik"
+
+#~ msgid "Close dialog"
+#~ msgstr "Zatvori dialog"
+
+#~ msgid "Ok dialog"
+#~ msgstr "Ok dialog"
+
+#~ msgid "Cancel dialog"
+#~ msgstr "Poni¹ti dialog"
+
+#~ msgid "Tetris"
+#~ msgstr "Tetris"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "by Nicolas Hadacek"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "Nicolas Hadacek"

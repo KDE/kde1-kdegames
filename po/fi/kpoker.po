@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:46+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,95 +14,95 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kpoker.cpp:98
-msgid "Draw !"
-msgstr "Jaa !"
-
-#: kpoker.cpp:125
-msgid "Click a card to hold it"
-msgstr "Paina nappia lukitaksesi kortin"
-
-#: kpoker.cpp:146
-msgid "Held"
-msgstr "Lukittu"
-
-#: kpoker.cpp:185
-msgid "draw new cards"
-msgstr "jaa uusia kortteja"
-
-#: kpoker.cpp:186 kpoker.cpp:187
-msgid "your last hand"
-msgstr "viimeinen k‰tesi"
-
-#: kpoker.cpp:188 kpoker.cpp:189
-msgid "money left"
-msgstr "rahaa j‰ljell‰"
-
-#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
-msgid "nothing"
-msgstr "ei mit‰‰n"
-
-#: kpoker.cpp:370
-msgid "Cash"
-msgstr "K‰teist‰"
-
-#: kpoker.cpp:406
-msgid "Last Hand"
-msgstr "Viimeinen k‰si"
-
-#: kpoker.cpp:517
-msgid "One Pair"
-msgstr "Yksi pari"
-
-#: kpoker.cpp:518
-msgid "Two Pairs"
-msgstr "Kaksi paria"
-
-#: kpoker.cpp:519
-msgid "3 of a kind"
-msgstr "3 samaa"
-
-#: kpoker.cpp:520
-msgid "Full House"
-msgstr "T‰ysk‰si"
-
-#: kpoker.cpp:521
-msgid "4 of a kind"
-msgstr "4 samaa"
-
-#: kpoker.cpp:522
-msgid "Straight"
-msgstr "Suora"
-
-#: kpoker.cpp:523
-msgid "Flush"
-msgstr "V‰ri"
-
-#: kpoker.cpp:524
-msgid "Straight Flush"
-msgstr "V‰risuora"
-
-#: kpoker.cpp:525
-msgid "Royal Flush"
-msgstr "Kuninkaallinen v‰ri"
-
-#: kpoker.cpp:534
-msgid "You Lost"
-msgstr "H‰visit"
-
-#: kpoker.cpp:535
-msgid "Oops - you went bankrupt.\n"
-msgstr ""
-
-#: kpoker.cpp:536
+#: kpoker.cpp:82 kpoker.cpp:538
 msgid "New game"
 msgstr "Uusi peli"
 
-#: kpoker.cpp:617
+#: kpoker.cpp:95
+msgid "Draw !"
+msgstr "Jaa !"
+
+#: kpoker.cpp:122
+msgid "Click a card to hold it"
+msgstr "Paina nappia lukitaksesi kortin"
+
+#: kpoker.cpp:143
+msgid "Held"
+msgstr "Lukittu"
+
+#: kpoker.cpp:182
+msgid "draw new cards"
+msgstr "jaa uusia kortteja"
+
+#: kpoker.cpp:183 kpoker.cpp:184
+msgid "your last hand"
+msgstr "viimeinen k‰tesi"
+
+#: kpoker.cpp:185 kpoker.cpp:186
+msgid "money left"
+msgstr "rahaa j‰ljell‰"
+
+#: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
+msgid "nothing"
+msgstr "ei mit‰‰n"
+
+#: kpoker.cpp:372
+msgid "Cash"
+msgstr "K‰teist‰"
+
+#: kpoker.cpp:408
+msgid "Last Hand"
+msgstr "Viimeinen k‰si"
+
+#: kpoker.cpp:519
+msgid "One Pair"
+msgstr "Yksi pari"
+
+#: kpoker.cpp:520
+msgid "Two Pairs"
+msgstr "Kaksi paria"
+
+#: kpoker.cpp:521
+msgid "3 of a kind"
+msgstr "3 samaa"
+
+#: kpoker.cpp:522
+msgid "Full House"
+msgstr "T‰ysk‰si"
+
+#: kpoker.cpp:523
+msgid "4 of a kind"
+msgstr "4 samaa"
+
+#: kpoker.cpp:524
+msgid "Straight"
+msgstr "Suora"
+
+#: kpoker.cpp:525
+msgid "Flush"
+msgstr "V‰ri"
+
+#: kpoker.cpp:526
+msgid "Straight Flush"
+msgstr "V‰risuora"
+
+#: kpoker.cpp:527
+msgid "Royal Flush"
+msgstr "Kuninkaallinen v‰ri"
+
+#: kpoker.cpp:536
+msgid "You Lost"
+msgstr "H‰visit"
+
+#: kpoker.cpp:537
+msgid "Oops - you went bankrupt.\n"
+msgstr ""
+
+#: kpoker.cpp:619
 msgid "You won $"
 msgstr "Voitit $"
 
-#: kpoker.cpp:620
+#: kpoker.cpp:622
 msgid "Game Over"
 msgstr "Peli loppu"
 
@@ -113,3 +113,27 @@ msgstr "&Uusi peli"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&ƒ‰ni"
+
+#: top.cpp:73
+msgid "Poker"
+msgstr ""
+
+#: top.cpp:75
+msgid ""
+"\n"
+"\n"
+"by Jochen Tuchbreiter"
+msgstr ""
+
+#: top.cpp:77
+msgid ""
+"\n"
+"\n"
+"For a list of credits see helpfile"
+msgstr ""
+
+#: top.cpp:78
+msgid ""
+"\n"
+"Suggestions, bug reports etc. are welcome"
+msgstr ""

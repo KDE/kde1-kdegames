@@ -5,13 +5,55 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone 1.02\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-06-18 09:44 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+#: Move.cpp:17
+#, fuzzy
+msgid "Right"
+msgstr "Vpravo nahoru"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "Vpravo dolù"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "Vlevo dolù"
+
+#: Move.cpp:20
+#, fuzzy
+msgid "Left"
+msgstr "Vlevo nahoru"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "Vlevo nahoru"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "Vpravo nahoru"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Stranou"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Ven"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "Tlaèit"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Ohodnocení desky"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -40,6 +82,10 @@ msgstr "Obnovení pozice"
 #: AbTop.cpp:315
 msgid "Easy"
 msgstr "Snadná"
+
+#: AbTop.cpp:317
+msgid "Normal"
+msgstr ""
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -77,6 +123,17 @@ msgstr "Pøesunuj pomalu"
 msgid "Spy"
 msgstr "©pión"
 
+#: AbTop.cpp:349
+msgid "Abalone"
+msgstr ""
+
+#: AbTop.cpp:351
+msgid ""
+"\n"
+"\n"
+"by Josef Weidendorfer"
+msgstr ""
+
 #: AbTop.cpp:407
 msgid "won"
 msgstr "vyhrál"
@@ -88,38 +145,6 @@ msgstr "Pøemý¹lím"
 #: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "Jsi na tahu!"
-
-#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
-msgid "Board value"
-msgstr "Ohodnocení desky"
-
-#: Move.cpp:18
-msgid "RightDown"
-msgstr "Vpravo dolù"
-
-#: Move.cpp:19
-msgid "LeftDown"
-msgstr "Vlevo dolù"
-
-#: Move.cpp:21
-msgid "LeftUp"
-msgstr "Vlevo nahoru"
-
-#: Move.cpp:22
-msgid "RightUp"
-msgstr "Vpravo nahoru"
-
-#: Move.cpp:35 Move.cpp:42
-msgid "Side"
-msgstr "Stranou"
-
-#: Move.cpp:49
-msgid "Out"
-msgstr "Ven"
-
-#: Move.cpp:50
-msgid "Push"
-msgstr "Tlaèit"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"

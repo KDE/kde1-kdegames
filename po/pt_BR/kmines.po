@@ -1,8 +1,9 @@
 msgid ""
-msgstr "Project-Id-Version: kmines\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
-       "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
+msgstr ""
+"Project-Id-Version: kmines\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"PO-Revision-Date: 1998-06-23 09:00-0300\n"
+"Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 
 #: dialogs.cpp:95
 msgid "Customize Game"
@@ -24,11 +25,15 @@ msgstr "Minas"
 msgid "Hall of Fame"
 msgstr "Pódio"
 
-#: dialogs.cpp:288 main.cpp:57
+#: dialogs.cpp:288 main.cpp:59
 msgid "Easy"
 msgstr "Fácil"
 
-#: dialogs.cpp:290 main.cpp:59
+#: dialogs.cpp:289 main.cpp:60
+msgid "Normal"
+msgstr ""
+
+#: dialogs.cpp:290 main.cpp:61
 msgid "Expert"
 msgstr "Expert"
 
@@ -72,46 +77,45 @@ msgstr "Siiimmmm !"
 msgid "Bad luck !"
 msgstr "Má sorte!"
 
-#: main.cpp:21 main.cpp:28 main.cpp:44
+#: main.cpp:24 main.cpp:46
 msgid "New game"
 msgstr "Novo jogo"
 
-#: main.cpp:22 main.cpp:29 main.cpp:45
+#: main.cpp:25 main.cpp:47
 msgid "Pause game"
 msgstr "Pausar jogo"
 
-#: main.cpp:23 main.cpp:30 main.cpp:47
+#: main.cpp:26 main.cpp:49
 msgid "High scores"
 msgstr "Quadro de honra"
 
-#: main.cpp:41 main.cpp:146
+#: main.cpp:43 main.cpp:154
 msgid "Hide menu bar"
 msgstr "Esconder barra de menu"
 
-#: main.cpp:53
+#: main.cpp:55
 msgid "? mark"
 msgstr "marca ?"
 
-#: main.cpp:54
+#: main.cpp:56
 msgid "Keys"
 msgstr "Teclas"
 
-#: main.cpp:61
+#: main.cpp:63
 msgid "Custom"
 msgstr "Personalizado"
 
-#: main.cpp:64
-msgid "Minesweeper"
-msgstr "Caça-Minas"
-
-#: main.cpp:67
+#: main.cpp:69
 msgid "by"
 msgstr "por"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "Level"
 msgstr "Nível"
 
-#: main.cpp:143
+#: main.cpp:151
 msgid "Show menu bar"
 msgstr "Mostrar barra de menu"
+
+#~ msgid "Minesweeper"
+#~ msgstr "Caça-Minas"

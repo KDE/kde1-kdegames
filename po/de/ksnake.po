@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-07-30 01:10+MET\n"
 "Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
 
@@ -91,34 +91,6 @@ msgstr ""
 "\n"
 "by Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Voreinstellungen"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Ändern der Richtungstasten"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Nicht definierte Taste"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange muss zwischen 0 und 99 liegen\n"
-"\t und minVal darf nicht grösser als maxVal sein"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "Fehler beim Laden von %s, Abbruch\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -143,6 +115,25 @@ msgstr "&Ja"
 msgid "&No"
 msgstr "&Nein"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Startraum für das Schlangen-Rennen"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Startraum"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange muss zwischen 0 und 99 liegen\n"
+"\t und minVal darf nicht grösser als maxVal sein"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "High Score für das Schlangen-Rennen"
@@ -163,10 +154,19 @@ msgstr ""
 "Sie haben einen Höchstwert erreicht!\n"
 " Bitte geben Sie Ihren Namen ein"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Startraum für das Schlangen-Rennen"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "Fehler beim Laden von %s, Abbruch\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Startraum"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Voreinstellungen"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Ändern der Richtungstasten"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Nicht definierte Taste"

@@ -1,29 +1,15 @@
 # KTranslator Generated File
-
 # KTranslator Generated File
-
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame revision 1.4\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-08-22 21:50+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-
-#: HighScore.cpp:104 KSameWidget.cpp:141
-msgid "Board"
-msgstr "Bräde"
-
-#: HighScore.cpp:109
-msgid "Please &enter your name:"
-msgstr "Skriv in ditt namn:"
-
-#: HighScore.cpp:148
-msgid "Anonymous"
-msgstr "Anonym"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -74,6 +60,10 @@ msgstr "SameGame: Nytt spel"
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
 msgstr "Vill du dra dig ur nuvarande spel?"
+
+#: HighScore.cpp:104 KSameWidget.cpp:141
+msgid "Board"
+msgstr "Bräde"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
@@ -126,3 +116,16 @@ msgstr "Markerade: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Poäng: %06i"
+
+#: HighScore.cpp:107
+#, fuzzy
+msgid "Name"
+msgstr "Spel"
+
+#: HighScore.cpp:109
+msgid "Please &enter your name:"
+msgstr "Skriv in ditt namn:"
+
+#: HighScore.cpp:148
+msgid "Anonymous"
+msgstr "Anonym"

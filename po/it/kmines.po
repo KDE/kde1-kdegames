@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSIONPOT-Creation-Date: 1998-02-19 22:49+0100\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-02-03 16:00+0100\n"
 "Last-Translator:Lotti Frnacesco <goo@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -33,11 +33,15 @@ msgstr "Mine"
 msgid "Hall of Fame"
 msgstr "Sala Delle Celebritá"
 
-#: dialogs.cpp:288 main.cpp:57
+#: dialogs.cpp:288 main.cpp:59
 msgid "Easy"
 msgstr "Facile"
 
-#: dialogs.cpp:290 main.cpp:59
+#: dialogs.cpp:289 main.cpp:60
+msgid "Normal"
+msgstr ""
+
+#: dialogs.cpp:290 main.cpp:61
 msgid "Expert"
 msgstr "Esperto"
 
@@ -82,46 +86,45 @@ msgstr "Siiiiiiiii !"
 msgid "Bad luck !"
 msgstr "E' andata male !"
 
-#: main.cpp:21 main.cpp:28 main.cpp:44
+#: main.cpp:24 main.cpp:46
 msgid "New game"
 msgstr "Nuova partita"
 
-#: main.cpp:22 main.cpp:29 main.cpp:45
+#: main.cpp:25 main.cpp:47
 msgid "Pause game"
 msgstr "Pausa"
 
-#: main.cpp:23 main.cpp:30 main.cpp:47
+#: main.cpp:26 main.cpp:49
 msgid "High scores"
 msgstr "Punteggi"
 
-#: main.cpp:41 main.cpp:146
+#: main.cpp:43 main.cpp:154
 msgid "Hide menu bar"
 msgstr "Nascondi barra Menu"
 
-#: main.cpp:53
+#: main.cpp:55
 msgid "? mark"
 msgstr "Segno ? "
 
-#: main.cpp:54
+#: main.cpp:56
 msgid "Keys"
 msgstr "Tasti"
 
-#: main.cpp:61
+#: main.cpp:63
 msgid "Custom"
 msgstr "Personalizzato"
 
-#: main.cpp:64
-msgid "Minesweeper"
-msgstr "Artificiere"
-
-#: main.cpp:67
+#: main.cpp:69
 msgid "by"
 msgstr "da"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "Level"
 msgstr "Livello"
 
-#: main.cpp:143
+#: main.cpp:151
 msgid "Show menu bar"
 msgstr "Mostra barra Menu"
+
+#~ msgid "Minesweeper"
+#~ msgstr "Artificiere"

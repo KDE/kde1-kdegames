@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,10 @@ msgstr "Eenvoudig 2"
 msgid "Easy 1"
 msgstr "Eenvoudig 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Moeilijk 1"
@@ -68,22 +72,6 @@ msgstr "Moeilijk 4"
 msgid "Hard 5"
 msgstr "Moeilijk 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Probeer kaart te verplaatsen:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Deel opnieuw"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Hint"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Slechts 3 deelronden toegestaan"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Eenvoudige regels"
@@ -100,9 +88,25 @@ msgstr ""
 "Dit zal het huidige spel beeindigen.\n"
 "Bent u zeker dat u dit wilt doen ?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Er zijn geen kaarten meer"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Probeer kaart te verplaatsen:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Deel opnieuw"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Hint"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Slechts 3 deelronden toegestaan"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Volautomatisch"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -201,6 +205,6 @@ msgstr "kpat: ongeimplementeerd spel type %d\n"
 msgid "Could not load background image!"
 msgstr "Kan achtergrond plaatje niet laden !"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Volautomatisch"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Er zijn geen kaarten meer"

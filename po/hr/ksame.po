@@ -1,32 +1,15 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Vladimir Vuksan <vuksan@veus.hr>, 1998.
-
 msgid ""
 msgstr ""
 "Project-Id-Version: games\n"
-"POT-Creation-Date: 1998-09-14 22:23+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-09-17 13:38+MST\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
-
-#: HighScore.cpp:62
-msgid "Highscore"
-msgstr "Najvi¹i rezultat"
-
-#: HighScore.cpp:104 KSameWidget.cpp:141
-msgid "Board"
-msgstr "Ploèa"
-
-#: HighScore.cpp:109
-msgid "Please &enter your name:"
-msgstr "Molim &unesite svoje ime:"
-
-#: HighScore.cpp:148
-msgid "Anonymous"
-msgstr "Anonimac"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -71,12 +54,17 @@ msgid "Score: XXXXXX"
 msgstr "Rezultat: XXXXXX"
 
 #: KSameWidget.cpp:134
-msgid "Isto: New Game"
+#, fuzzy
+msgid "SameGame: New Game"
 msgstr "Isto: Nova Igra"
 
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
 msgstr "Da li ¾eli¹ napustiti igru ?"
+
+#: HighScore.cpp:104 KSameWidget.cpp:141
+msgid "Board"
+msgstr "Ploèa"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
@@ -129,3 +117,19 @@ msgstr "Oznaèeno: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Rezultat: %06i"
+
+#: HighScore.cpp:107
+#, fuzzy
+msgid "Name"
+msgstr "Igra"
+
+#: HighScore.cpp:109
+msgid "Please &enter your name:"
+msgstr "Molim &unesite svoje ime:"
+
+#: HighScore.cpp:148
+msgid "Anonymous"
+msgstr "Anonimac"
+
+#~ msgid "Highscore"
+#~ msgstr "Najvi¹i rezultat"

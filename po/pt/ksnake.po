@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-19 12:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 
@@ -91,34 +91,6 @@ msgstr ""
 "\n"
 "por Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Por Omissão"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Mudar Teclas de Direcção"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Tecla indefinida"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange têm de ser 0..99\n"
-"\te minVal não pode ser maior do que maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "erro ao carregar %s, a abortar\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -143,6 +115,25 @@ msgstr "&Sim"
 msgid "&No"
 msgstr "&Não"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Sala Inicial da Corrida de Cobras"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Sala Inicial"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange têm de ser 0..99\n"
+"\te minVal não pode ser maior do que maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Pontuações da Corrida de Cobras"
@@ -163,10 +154,19 @@ msgstr ""
 "conseguiu entrar no quadro de honra!\n"
 " insira o seu nome"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Sala Inicial da Corrida de Cobras"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "erro ao carregar %s, a abortar\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Sala Inicial"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Por Omissão"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Mudar Teclas de Direcção"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Tecla indefinida"

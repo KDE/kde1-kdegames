@@ -1,9 +1,51 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+
+#: Move.cpp:17
+#, fuzzy
+msgid "Right"
+msgstr "Direita Cima"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "Direita Abaixo"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "Esquerda Abaixo"
+
+#: Move.cpp:20
+#, fuzzy
+msgid "Left"
+msgstr "Esquerda Acima"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "Esquerda Acima"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "Direita Cima"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Lado"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Fora"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "Empurrar"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Valor do tabuleiro"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -32,6 +74,10 @@ msgstr "Carregar Posição"
 #: AbTop.cpp:315
 msgid "Easy"
 msgstr "Fácil"
+
+#: AbTop.cpp:317
+msgid "Normal"
+msgstr ""
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -69,6 +115,17 @@ msgstr "Mover devagar"
 msgid "Spy"
 msgstr "Espiar"
 
+#: AbTop.cpp:349
+msgid "Abalone"
+msgstr ""
+
+#: AbTop.cpp:351
+msgid ""
+"\n"
+"\n"
+"by Josef Weidendorfer"
+msgstr ""
+
 #: AbTop.cpp:407
 msgid "won"
 msgstr "ganhou"
@@ -80,38 +137,6 @@ msgstr "Pensando..."
 #: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "É a sua vez !"
-
-#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
-msgid "Board value"
-msgstr "Valor do tabuleiro"
-
-#: Move.cpp:18
-msgid "RightDown"
-msgstr "Direita Abaixo"
-
-#: Move.cpp:19
-msgid "LeftDown"
-msgstr "Esquerda Abaixo"
-
-#: Move.cpp:21
-msgid "LeftUp"
-msgstr "Esquerda Acima"
-
-#: Move.cpp:22
-msgid "RightUp"
-msgstr "Direita Cima"
-
-#: Move.cpp:35 Move.cpp:42
-msgid "Side"
-msgstr "Lado"
-
-#: Move.cpp:49
-msgid "Out"
-msgstr "Fora"
-
-#: Move.cpp:50
-msgid "Push"
-msgstr "Empurrar"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"

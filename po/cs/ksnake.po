@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-20 18:33 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
@@ -100,34 +100,6 @@ msgstr ""
 "\n"
 "napsal Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Implicitní"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Zmìna smìrových klávs"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Nedefinovaná klávesa"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRozsah musí být 0..99\n"
-"\ta minVal nesmí být vìt¹í ne¾ maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "chyba pøi nahrávání %s, pøeru¹uji\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -152,6 +124,25 @@ msgstr "&Ano"
 msgid "&No"
 msgstr "&Ne"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Úvodní místnost Závodu hadù"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Úvodní místnost"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRozsah musí být 0..99\n"
+"\ta minVal nesmí být vìt¹í ne¾ maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Nejvy¹¹í skóre v Závodech hadù"
@@ -172,10 +163,19 @@ msgstr ""
 "dosáhli jste vysoké skóre!\n"
 " prosím vlo¾te své jméno"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Úvodní místnost Závodu hadù"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "chyba pøi nahrávání %s, pøeru¹uji\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Úvodní místnost"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Implicitní"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Zmìna smìrových klávs"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Nedefinovaná klávesa"

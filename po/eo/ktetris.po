@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ktetris 1.0\n"
-"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-07-28 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -14,55 +14,31 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-3\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: board.cpp:66 dialogs.cpp:137
+#: board.cpp:65 dialogs.cpp:137
 msgid "Anonymous"
 msgstr "Anonimulo"
 
-#: board.cpp:98
+#: board.cpp:97
 msgid "Game paused"
 msgstr "Ludpaýzo"
 
-#: board.cpp:103
+#: board.cpp:102
 msgid "Press to resume"
 msgstr "Premu por rekomenci"
 
-#: board.cpp:120 net.cpp:208
+#: board.cpp:119 net.cpp:208
 msgid "Game over"
 msgstr "Ludo finita"
 
-#: board.cpp:124
+#: board.cpp:123
 msgid "Press Return to replay"
 msgstr "Premu \"Return\" por reludi"
 
-#: board.cpp:128
+#: board.cpp:127
 msgid "Press to start game"
 msgstr "Premu por komenci ludon"
 
-#: board.cpp:174 field.cpp:29 field.cpp:45
-msgid "Move left"
-msgstr "Movu maldekstren"
-
-#: board.cpp:175 field.cpp:30 field.cpp:46
-msgid "Move right"
-msgstr "Movu dekstren"
-
-#: board.cpp:176 field.cpp:31 field.cpp:47
-msgid "Drop down"
-msgstr "Faligu"
-
-#: board.cpp:177 field.cpp:32 field.cpp:48
-msgid "One line down"
-msgstr "Unu linion malsupren"
-
-#: board.cpp:178 field.cpp:33 field.cpp:49
-msgid "Rotate left"
-msgstr "Rotaciu maldekstren"
-
-#: board.cpp:179 field.cpp:34 field.cpp:50
-msgid "Rotate right"
-msgstr "Rotaciu dekstren"
-
-#: board.cpp:372
+#: board.cpp:371
 msgid "Highscores file not writable !"
 msgstr "Dosiero de la plej bonaj ne skribebla!"
 
@@ -230,43 +206,55 @@ msgstr "Klientmodo"
 msgid "Waiting for other player(s) ..."
 msgstr "Atendante aliajn ludantoj..."
 
-#: field.cpp:25 field.cpp:41
+#: field.cpp:27
 msgid "New game"
 msgstr "Nova ludo"
 
-#: field.cpp:26 field.cpp:42
+#: field.cpp:28
 msgid "Pause game"
 msgstr "Ludpaýzo"
 
-#: field.cpp:28 field.cpp:43
+#: field.cpp:30
 msgid "High scores"
 msgstr "Plej bonaj"
 
+#: field.cpp:31
+msgid "Move left"
+msgstr "Movu maldekstren"
+
+#: field.cpp:32
+msgid "Move right"
+msgstr "Movu dekstren"
+
+#: field.cpp:33
+msgid "Drop down"
+msgstr "Faligu"
+
+#: field.cpp:34
+msgid "One line down"
+msgstr "Unu linion malsupren"
+
 #: field.cpp:35
-msgid "Close dialog"
-msgstr "Fermu dialogon"
+msgid "Rotate left"
+msgstr "Rotaciu maldekstren"
 
 #: field.cpp:36
-msgid "Ok dialog"
-msgstr "Konfirmu dialogon"
+msgid "Rotate right"
+msgstr "Rotaciu dekstren"
 
-#: field.cpp:37
-msgid "Cancel dialog"
-msgstr "Rezignu dialogon"
-
-#: field.cpp:52
+#: field.cpp:51
 msgid "Score"
 msgstr "Poentoj"
 
-#: field.cpp:56
+#: field.cpp:55
 msgid "Lines removed"
 msgstr "Linioj forigitaj"
 
-#: field.cpp:60
+#: field.cpp:59
 msgid "Level"
 msgstr "Nivelo"
 
-#: field.cpp:64
+#: field.cpp:63
 msgid "Next tile"
 msgstr "Sekva tegolo"
 
@@ -286,28 +274,39 @@ msgstr "&Pluraj ludantoj"
 msgid "&High scores"
 msgstr "Plej &bonaj"
 
-#: main.cpp:23 main.cpp:67
+#: main.cpp:25 main.cpp:74
 msgid "Hide menu"
 msgstr "Kaþu menuon"
 
-#: main.cpp:28
+#: main.cpp:30
 msgid "&Keys"
 msgstr "&Klavoj"
 
-#: main.cpp:30
-msgid "Tetris"
-msgstr "Tetris"
-
-#: main.cpp:32
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
+#: main.cpp:35
+msgid "by"
 msgstr ""
-"\n"
-"\n"
-"de Nicolas Hadacek"
 
-#: main.cpp:64
+#: main.cpp:71
 msgid "Show menu"
 msgstr "Montru menuon"
+
+#~ msgid "Close dialog"
+#~ msgstr "Fermu dialogon"
+
+#~ msgid "Ok dialog"
+#~ msgstr "Konfirmu dialogon"
+
+#~ msgid "Cancel dialog"
+#~ msgstr "Rezignu dialogon"
+
+#~ msgid "Tetris"
+#~ msgstr "Tetris"
+
+#~ msgid ""
+#~ "\n"
+#~ "\n"
+#~ "by Nicolas Hadacek"
+#~ msgstr ""
+#~ "\n"
+#~ "\n"
+#~ "de Nicolas Hadacek"

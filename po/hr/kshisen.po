@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
 "Language-Team: Croatian\n"
@@ -13,9 +13,13 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Ne mogu uèitati pixmape!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -80,6 +84,13 @@ msgstr "Lagano"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Te¹ko"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -157,17 +168,23 @@ msgstr "Shisen-Sho: Dvorac Slave"
 msgid "Rank"
 msgstr "Rang"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "&Nova igra"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Vrijeme"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "Ve&lièina"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "Rezultat"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Ne mogu uèitati pixmape!"
 
 #~ msgid "Medium"
 #~ msgstr "Srednje"

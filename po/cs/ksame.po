@@ -5,25 +5,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-20 18:44 CEST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
-#: HighScore.cpp:104 KSameWidget.cpp:141
-msgid "Board"
-msgstr "Hrací deska"
-
-#: HighScore.cpp:109
-msgid "Please &enter your name:"
-msgstr "Zadejte prosím své jméno:"
-
-#: HighScore.cpp:148
-msgid "Anonymous"
-msgstr "Anonymní"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -74,6 +62,10 @@ msgstr "Hra Same: Nová hra"
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
 msgstr "Chcete se vzdát?"
+
+#: HighScore.cpp:104 KSameWidget.cpp:141
+msgid "Board"
+msgstr "Hrací deska"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
@@ -126,3 +118,16 @@ msgstr "Oznaèené: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Skóre: %06i"
+
+#: HighScore.cpp:107
+#, fuzzy
+msgid "Name"
+msgstr "Hra"
+
+#: HighScore.cpp:109
+msgid "Please &enter your name:"
+msgstr "Zadejte prosím své jméno:"
+
+#: HighScore.cpp:148
+msgid "Anonymous"
+msgstr "Anonymní"

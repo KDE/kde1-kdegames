@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -48,6 +48,10 @@ msgstr "Elég könnyû"
 msgid "Easy 1"
 msgstr "Könnyû"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr "Közepes"
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Kicsit nehezebb"
@@ -68,22 +72,6 @@ msgstr "Elég nehéz"
 msgid "Hard 5"
 msgstr "Durvanehéz"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Próbáld ezt a kártyát:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Új leosztás"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Tipp"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Csak 3 új leosztás engedélyezett"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Könnyû szabályok"
@@ -100,10 +88,25 @@ msgstr ""
 "Azt hiszem, hogy rossz gombot nyomott meg,\n"
 "mert ha most igent mond, akkor vége lesz a játéknak."
 
-#: mod3.cpp:137
-#, fuzzy
-msgid "No more cards"
+#: grandf.cpp:35
+msgid "Try to move card:"
 msgstr "Próbáld ezt a kártyát:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Új leosztás"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Tipp"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Csak 3 új leosztás engedélyezett"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Teljesen auto."
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -202,9 +205,10 @@ msgstr "kpat: nem implement játéktípus: %d\n"
 msgid "Could not load background image!"
 msgstr "Nem tudom betölteni a háttér-képet"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Teljesen auto."
+#: mod3.cpp:137
+#, fuzzy
+msgid "No more cards"
+msgstr "Próbáld ezt a kártyát:"
 
 #, fuzzy
 #~ msgid "Help on &rules..."
@@ -227,9 +231,6 @@ msgstr "Teljesen auto."
 #, fuzzy
 #~ msgid "A&bout..."
 #~ msgstr "A programról..."
-
-#~ msgid "Normal"
-#~ msgstr "Közepes"
 
 #~ msgid "Information"
 #~ msgstr "Információ"

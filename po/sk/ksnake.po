@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-23 21:00+0001\n"
 "Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
 "Language-Team: Slovak <sk@li.org>\n"
@@ -99,34 +99,6 @@ msgstr ""
 "\n"
 "napísal Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "©tandard."
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Zmeni» klávesy smeru"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Nedef. kláves"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRozsah musí by» 0..99\n"
-"\ta minVal nesmie by» väè¹ia ako maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "chyba pri nahrávaní %s, vzdávam to\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -151,6 +123,25 @@ msgstr "Án&o"
 msgid "&No"
 msgstr "&Nie"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Spú¹»acia miestnos» závodu hadov"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Spú¹»acia miestnos»"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRozsah musí by» 0..99\n"
+"\ta minVal nesmie by» väè¹ia ako maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Najlep¹ie výsledky závodu hadov"
@@ -171,11 +162,19 @@ msgstr ""
 "Dosiahli ste výborný výsledok!\n"
 " Prosím zadajte va¹e meno"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Spú¹»acia miestnos» závodu hadov"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "chyba pri nahrávaní %s, vzdávam to\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Spú¹»acia miestnos»"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "©tandard."
 
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Zmeni» klávesy smeru"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Nedef. kláves"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français\n"
@@ -47,6 +47,10 @@ msgstr "Facile 2"
 msgid "Easy 1"
 msgstr "Facile 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr "Normal"
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Difficile 1"
@@ -67,22 +71,6 @@ msgstr "Difficile 4"
 msgid "Hard 5"
 msgstr "Difficile 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Essayez de bouger la carte :"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Nouvelle donne"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Astuce"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Seulement 3 deals sont permis"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Règles faciles"
@@ -99,9 +87,25 @@ msgstr ""
 "Cela va terminer le jeu ;\n"
 "Etes-vous sûr(e) de vouloir quitter ?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Plus de cartes"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Essayez de bouger la carte :"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Nouvelle donne"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Astuce"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Seulement 3 deals sont permis"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Tout automatique"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -204,9 +208,9 @@ msgstr "kpat: type de jeu non implementé %d\n"
 msgid "Could not load background image!"
 msgstr "Impossible de charger l'image d'arrière-plan !"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Tout automatique"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Plus de cartes"
 
 #~ msgid "Help on &rules..."
 #~ msgstr "Aide sur les règles"
@@ -246,9 +250,6 @@ msgstr "Tout automatique"
 
 #~ msgid "A&bout..."
 #~ msgstr "Au sujet de..."
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
 
 #~ msgid "Ok"
 #~ msgstr "Ok"

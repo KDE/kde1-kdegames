@@ -6,59 +6,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KReversi 0.6.5\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-04-20 18:43+0100\n"
 "Last-Translator: Csaba Major <major@terrasoft.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=Latin2\n"
 "Content-Transfer-Encoding: ISO-8859-2\n"
-
-# about.cpp:52
-#: about.cpp:52
-#, fuzzy
-msgid "About kreversi"
-msgstr "KReversi névjegye"
-
-# about.cpp:67
-#: about.cpp:65
-msgid "Version "
-msgstr "Verzió "
-
-# about.cpp:69
-#: about.cpp:67
-#, fuzzy
-msgid ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software\n"
-"published under the GNU General\n"
-"Public License (take a look\n"
-"into help for details)\n"
-"\n"
-"Thanks to:\n"
-"\tMats Luthman for the game engine\n"
-"\t(I've ported it from his JAVA applet)\n"
-"\n"
-"\tStephan Kulow\n"
-"\tfor comments and bugfixes\n"
-"\n"
-"\tArne Klaassen\n"
-"\t for the raytraced chips"
-msgstr ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software published under the GNU General Public License "
-"(take a look into help for details)\n"
-"\n"
-"Thanks to:\n"
-"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
-"\n"
-"\tStephan Kulow <coolo@kde.org> for comments and bugfixes\n"
-"\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
 
 # app.cpp:208 app.cpp:506
 #: app.cpp:218 app.cpp:553
@@ -427,6 +381,12 @@ msgstr "KReversi: Top Lista"
 msgid "Rank"
 msgstr ""
 
+# app.cpp:321
+#: app.cpp:885
+#, fuzzy
+msgid "Name"
+msgstr "&Játék"
+
 # app.cpp:812
 #: app.cpp:889
 #, fuzzy
@@ -457,6 +417,52 @@ msgstr ""
 msgid "Your name:"
 msgstr "Neved:"
 
+# about.cpp:52
+#: about.cpp:52
+#, fuzzy
+msgid "About kreversi"
+msgstr "KReversi névjegye"
+
+# about.cpp:67
+#: about.cpp:65
+msgid "Version "
+msgstr "Verzió "
+
+# about.cpp:69
+#: about.cpp:67
+#, fuzzy
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software published under the GNU General Public License "
+"(take a look into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow <coolo@kde.org> for comments and bugfixes\n"
+"\n"
+"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
+
 # app.cpp:207 app.cpp:505
 #~ msgid "Error"
 #~ msgstr "Hiba"
@@ -484,10 +490,6 @@ msgstr "Neved:"
 # app.cpp:320
 #~ msgid "&File"
 #~ msgstr "&File"
-
-# app.cpp:321
-#~ msgid "&Game"
-#~ msgstr "&Játék"
 
 # app.cpp:322
 #~ msgid "&Options"

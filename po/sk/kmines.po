@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -33,11 +33,15 @@ msgstr "Poèet mín"
 msgid "Hall of Fame"
 msgstr "Hala slávy"
 
-#: dialogs.cpp:288 main.cpp:57
+#: dialogs.cpp:288 main.cpp:59
 msgid "Easy"
 msgstr "¥ahká"
 
-#: dialogs.cpp:290 main.cpp:59
+#: dialogs.cpp:289 main.cpp:60
+msgid "Normal"
+msgstr ""
+
+#: dialogs.cpp:290 main.cpp:61
 msgid "Expert"
 msgstr "Pre expertov"
 
@@ -81,46 +85,45 @@ msgstr "Ánoooo !"
 msgid "Bad luck !"
 msgstr "Smola!"
 
-#: main.cpp:21 main.cpp:28 main.cpp:44
+#: main.cpp:24 main.cpp:46
 msgid "New game"
 msgstr "Nová hra"
 
-#: main.cpp:22 main.cpp:29 main.cpp:45
+#: main.cpp:25 main.cpp:47
 msgid "Pause game"
 msgstr "Pozastavi» hru"
 
-#: main.cpp:23 main.cpp:30 main.cpp:47
+#: main.cpp:26 main.cpp:49
 msgid "High scores"
 msgstr "Najlep¹ie výsledky"
 
-#: main.cpp:41 main.cpp:146
+#: main.cpp:43 main.cpp:154
 msgid "Hide menu bar"
 msgstr "Skry» menu"
 
-#: main.cpp:53
+#: main.cpp:55
 msgid "? mark"
 msgstr "Znaèka ?"
 
-#: main.cpp:54
+#: main.cpp:56
 msgid "Keys"
 msgstr "Klávesy"
 
-#: main.cpp:61
+#: main.cpp:63
 msgid "Custom"
 msgstr "Vlastná"
 
-#: main.cpp:64
-msgid "Minesweeper"
-msgstr "Míny"
-
-#: main.cpp:67
+#: main.cpp:69
 msgid "by"
 msgstr "od"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "Level"
 msgstr "Úroveò"
 
-#: main.cpp:143
+#: main.cpp:151
 msgid "Show menu bar"
 msgstr "Zobrazi» menu"
+
+#~ msgid "Minesweeper"
+#~ msgstr "Míny"

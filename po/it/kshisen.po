@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,9 +14,13 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr ""
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Impossibile aprire le pixmaps"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -81,6 +85,13 @@ msgstr "Facile"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Difficile"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -158,23 +169,25 @@ msgstr "Shisen-Sho: Sala degli eroi"
 msgid "Rank"
 msgstr "Posizione"
 
+#: app.cpp:638
+msgid "Name"
+msgstr "Nome"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Tempo"
+
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "Dimensione"
 
 #: app.cpp:650
 msgid "Score"
 msgstr ""
 
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Impossibile aprire le pixmaps"
-
 #~ msgid "Medium"
 #~ msgstr "Medio"
-
-#~ msgid "Name"
-#~ msgstr "Nome"
 
 #~ msgid "About &Qt..."
 #~ msgstr "Info sulle &Qt..."

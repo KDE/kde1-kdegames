@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-05-11 14:16+0100\n"
 "Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
 "Language-Team: German <de@li.org>\n"
@@ -10,9 +10,13 @@ msgstr ""
 "Content-Transfer-Encoding: ISO-8859-1\n"
 "Translator: Stephan Kulow <coolo@kde.org>\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Konnte Pixmap nicht laden!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -77,6 +81,13 @@ msgstr "Einfach"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Schwer"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -154,17 +165,23 @@ msgstr "Shisen-Sho: Bestenliste"
 msgid "Rank"
 msgstr "Rang"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "&Neues Spiel"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Zeit"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "&Größe"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "Score"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Konnte Pixmap nicht laden!"
 
 #~ msgid "Medium"
 #~ msgstr "Mittel"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,6 +47,10 @@ msgstr "Lett 2"
 msgid "Easy 1"
 msgstr "Lett 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Vanskelig 1"
@@ -67,22 +71,6 @@ msgstr "Vanskelig 4"
 msgid "Hard 5"
 msgstr "Vanskelig 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Prøv å flytte dette kortet:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Ny omgang"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Tips"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Bare 3 omganger tillatt"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Lette regler"
@@ -99,9 +87,25 @@ msgstr ""
 "Dette vil avslutte spillet\n"
 "Er du sikker?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Ingen kort igjen"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Prøv å flytte dette kortet:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Ny omgang"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Tips"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Bare 3 omganger tillatt"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Helautomatisk"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -204,6 +208,6 @@ msgstr "kpat: spill type %d er ikke implementert\n"
 msgid "Could not load background image!"
 msgstr "Kunne ikke laste bakgrunnsbilde"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Helautomatisk"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Ingen kort igjen"

@@ -6,16 +6,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-04-21 04:04+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "四川省"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "不能載入圖形!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -80,6 +84,13 @@ msgstr "簡單"
 #: app.cpp:141
 msgid "Hard"
 msgstr "難"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -157,17 +168,23 @@ msgstr "四川省: 名人堂"
 msgid "Rank"
 msgstr "排名"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "新遊戲[&N]"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "時間"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "大小[&Z]"
+
 #: app.cpp:650
 msgid "Score"
 msgstr ""
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "不能載入圖形!"
 
 #~ msgid "Medium"
 #~ msgstr "中等"

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-06-18 09:41 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -47,6 +47,10 @@ msgstr "Snadná 2"
 msgid "Easy 1"
 msgstr "Snadná 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Tì¾ká 1"
@@ -67,22 +71,6 @@ msgstr "Tì¾ká 4"
 msgid "Hard 5"
 msgstr "Tì¾ká 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Skus pøesunout kartu:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Znovu rozdej"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Rada"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Povoleny pouze 3 rozdání"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Jednoduchá pravidla"
@@ -99,9 +87,25 @@ msgstr ""
 "Toto ukonèí souèsnou hru\n"
 "Jste si jisti, ¾e si to pøejete?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "®ádné dal¹í karty nejsou k dispozici"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Skus pøesunout kartu:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Znovu rozdej"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Rada"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Povoleny pouze 3 rozdání"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Plnì automatické"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -204,6 +208,6 @@ msgstr "kpat: neimplementovaný typ hry %d\n"
 msgid "Could not load background image!"
 msgstr "Nemoho nahrát obrázek zadní strany!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Plnì automatické"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "®ádné dal¹í karty nejsou k dispozici"

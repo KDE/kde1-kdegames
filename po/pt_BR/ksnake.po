@@ -1,9 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
-       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
-       "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
+"PO-Revision-Date: 1998-06-23 09:00-0300\n"
+"Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
@@ -95,34 +95,6 @@ msgstr ""
 "\n"
 "por Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Padrões"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Mudar teclas de direção"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Tecla indefinida"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange precisa estar entre 0..99\n"
-"\te minVal não pode ser maior que maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "erro ao carregar %s, abortando\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -147,6 +119,25 @@ msgstr "&Sim"
 msgid "&No"
 msgstr "&Não"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Sala de início da Corrida de Cobras"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Sala de início"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange precisa estar entre 0..99\n"
+"\te minVal não pode ser maior que maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Pódio da Corrida de Cobras"
@@ -167,10 +158,19 @@ msgstr ""
 "você atingiu uma grande pontuação!\n"
 " Por favor digite seu nome"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Sala de início da Corrida de Cobras"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "erro ao carregar %s, abortando\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Sala de início"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Padrões"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Mudar teclas de direção"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Tecla indefinida"

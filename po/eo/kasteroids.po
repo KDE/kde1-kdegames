@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kasteroids 1.0\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-07-27 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -25,6 +25,18 @@ msgstr "Nivelo"
 #: toplevel.cpp:126
 msgid "Ships"
 msgstr "Þipoj"
+
+#: toplevel.cpp:186
+#, fuzzy
+msgid "Asteroids"
+msgstr "KAsteroids"
+
+#: toplevel.cpp:188
+msgid ""
+"\n"
+"\n"
+"by Martin R. Jones"
+msgstr ""
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."

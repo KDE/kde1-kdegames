@@ -5,21 +5,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-14 22:22+0200\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
-
-#: HighScore.cpp:104 KSameWidget.cpp:141
-msgid "Board"
-msgstr "Spielfeld"
-
-#: HighScore.cpp:109
-msgid "Please &enter your name:"
-msgstr "Bitt&e geben Sie Ihren Namen ein:"
-
-#: HighScore.cpp:148
-msgid "Anonymous"
-msgstr "Unbekannt"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -70,6 +58,10 @@ msgstr "SameGame: Neues Spiel"
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
 msgstr "Wollen Sie aufgeben?"
+
+#: HighScore.cpp:104 KSameWidget.cpp:141
+msgid "Board"
+msgstr "Spielfeld"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
@@ -122,6 +114,19 @@ msgstr "Markiert: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Punkte: %06i"
+
+#: HighScore.cpp:107
+#, fuzzy
+msgid "Name"
+msgstr "Spiel"
+
+#: HighScore.cpp:109
+msgid "Please &enter your name:"
+msgstr "Bitt&e geben Sie Ihren Namen ein:"
+
+#: HighScore.cpp:148
+msgid "Anonymous"
+msgstr "Unbekannt"
 
 #~ msgid "Highscore"
 #~ msgstr "Bestenliste"

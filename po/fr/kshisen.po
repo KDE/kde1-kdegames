@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français\n"
@@ -12,9 +12,13 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Impossible de charger les images !"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -79,6 +83,13 @@ msgstr "Facile"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Difficile"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -157,23 +168,25 @@ msgstr "Shisen-Sho : Panthéon"
 msgid "Rank"
 msgstr "Rang"
 
+#: app.cpp:638
+msgid "Name"
+msgstr "Nom"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Temps"
+
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "Taille (&z)"
 
 #: app.cpp:650
 msgid "Score"
 msgstr "Résultat"
 
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Impossible de charger les images !"
-
 #~ msgid "Medium"
 #~ msgstr "Moyen"
-
-#~ msgid "Name"
-#~ msgstr "Nom"
 
 #~ msgid "About &Qt..."
 #~ msgstr "A propos de &Qt..."

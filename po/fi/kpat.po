@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KPAT\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -48,6 +48,10 @@ msgstr "Helppo 2"
 msgid "Easy 1"
 msgstr "Helppo 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Vaikea 1"
@@ -68,22 +72,6 @@ msgstr "Vaikea 4"
 msgid "Hard 5"
 msgstr "Vaikea 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Yrit‰ siirt‰‰ korttia:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Uudelleenjaa"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Vihje"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Vain 3 jakoa sallittu"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Helpot s‰‰nnˆt"
@@ -100,9 +88,25 @@ msgstr ""
 "T‰m‰ lopettaa nykyisen pelin\n"
 "Oletko varma ett‰ haluat lopettaa?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Ei en‰‰ kortteja"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Yrit‰ siirt‰‰ korttia:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Uudelleenjaa"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Vihje"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Vain 3 jakoa sallittu"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "T‰ysin automaattinen"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -205,6 +209,6 @@ msgstr "kpat: toteuttamaton pelin tyyppi %d\n"
 msgid "Could not load background image!"
 msgstr "En voinut ladata taustakuvaa!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "T‰ysin automaattinen"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Ei en‰‰ kortteja"

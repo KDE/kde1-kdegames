@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kcmkpanel\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-02-21 05:04+0800\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -40,6 +40,10 @@ msgstr "简单级 2"
 msgid "Easy 1"
 msgstr "简单级 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "困难级 1"
@@ -60,22 +64,6 @@ msgstr "困难级 4"
 msgid "Hard 5"
 msgstr "困难级 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "试着移动卡片:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "重新发牌"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "提示"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "只有三次发牌机会"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "简单的规则"
@@ -92,9 +80,25 @@ msgstr ""
 "这样将结束当前的游戏\n"
 "确定要这么做吗?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "没有别的纸牌了"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "试着移动卡片:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "重新发牌"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "提示"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "只有三次发牌机会"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "全自动"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -197,6 +201,6 @@ msgstr "kpat: 尚未实现的游戏类型 %d\n"
 msgid "Could not load background image!"
 msgstr "无法载入背景图形!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "全自动"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "没有别的纸牌了"

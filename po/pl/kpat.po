@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat \n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-08-08 00:46+0200\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -40,6 +40,10 @@ msgstr "£atwy 2"
 msgid "Easy 1"
 msgstr "£atwy 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Trudny 1"
@@ -60,22 +64,6 @@ msgstr "Trudny 4"
 msgid "Hard 5"
 msgstr "Trudny 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Spróbuj ruszyæ kartê:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Rozdanie"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Podpowied¼"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Dozwolone tylko 3 rozdania"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Proste zasady"
@@ -92,9 +80,25 @@ msgstr ""
 "Gra zostanie zakoñczona\n"
 "Czy jeste¶ tego pewien?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Brak kart"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Spróbuj ruszyæ kartê:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Rozdanie"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Podpowied¼"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Dozwolone tylko 3 rozdania"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Pe³na automatyka"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -197,6 +201,6 @@ msgstr "kpat: nie ma gry %d\n"
 msgid "Could not load background image!"
 msgstr "Nie mo¿na za³adowaæ t³a!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Pe³na automatyka"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Brak kart"

@@ -1,60 +1,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-06-20 20:30+200\n"
 "Last-Translator: Francesco Lotti <Goo@hey.to>\n"
 "Language-Team: Italiano <it@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
-
-#
-#: about.cpp:52
-msgid "About kreversi"
-msgstr "Info Kreversi"
-
-#: about.cpp:65
-msgid "Version "
-msgstr "Versione"
-
-#
-#: about.cpp:67
-msgid ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software\n"
-"published under the GNU General\n"
-"Public License (take a look\n"
-"into help for details)\n"
-"\n"
-"Thanks to:\n"
-"\tMats Luthman for the game engine\n"
-"\t(I've ported it from his JAVA applet)\n"
-"\n"
-"\tStephan Kulow\n"
-"\tfor comments and bugfixes\n"
-"\n"
-"\tArne Klaassen\n"
-"\t for the raytraced chips"
-msgstr ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"Questo programma é \"free software\"\n"
-"publicato sotto la GNU General Public\n"
-"License (fai un click su aiuto per ottenere\n"
-"piú informazioni)\n"
-"\n"
-"Ringraziamenti a:\n"
-"\tMats Luthman per il motore del gioco\n"
-"\t(portato dalla sua JAVA applet)\n"
-"\n"
-"\tStephan Kulow/n\tper i commenti e sbagli\n"
-"\n"
-"\tArne Klaassen\n"
-"\tper la grafica delle pedine"
 
 #: app.cpp:218 app.cpp:553
 msgid ""
@@ -358,6 +311,11 @@ msgstr "KReversi: Sala Delle Celebritá"
 msgid "Rank"
 msgstr ""
 
+#: app.cpp:885
+#, fuzzy
+msgid "Name"
+msgstr "&Nuovo gioco"
+
 #: app.cpp:889
 msgid "Color"
 msgstr "Chiudi"
@@ -383,3 +341,50 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Il tuo nome:"
+
+#
+#: about.cpp:52
+msgid "About kreversi"
+msgstr "Info Kreversi"
+
+#: about.cpp:65
+msgid "Version "
+msgstr "Versione"
+
+#
+#: about.cpp:67
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Questo programma é \"free software\"\n"
+"publicato sotto la GNU General Public\n"
+"License (fai un click su aiuto per ottenere\n"
+"piú informazioni)\n"
+"\n"
+"Ringraziamenti a:\n"
+"\tMats Luthman per il motore del gioco\n"
+"\t(portato dalla sua JAVA applet)\n"
+"\n"
+"\tStephan Kulow/n\tper i commenti e sbagli\n"
+"\n"
+"\tArne Klaassen\n"
+"\tper la grafica delle pedine"

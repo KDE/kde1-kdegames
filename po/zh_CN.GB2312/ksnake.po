@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-14 22:20+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -96,34 +96,6 @@ msgstr ""
 "\n"
 "by Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "默认"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "改变方向键"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "取消键定义"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "载入%s时错误 , 退出\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -148,6 +120,25 @@ msgstr "是[&Y]"
 msgid "&No"
 msgstr "否[&N]"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "金蛇狂舞起点"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "起点"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "金蛇狂舞高分排行榜"
@@ -168,13 +159,22 @@ msgstr ""
 "你取得了一个高分!\n"
 " 请输入你的名字"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "金蛇狂舞起点"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "载入%s时错误 , 退出\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "起点"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "默认"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "改变方向键"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "取消键定义"
 
 #~ msgid "New"
 #~ msgstr "重新开始"

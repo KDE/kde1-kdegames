@@ -1,8 +1,9 @@
 msgid ""
-msgstr "Project-Id-Version: kpat\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
-       "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
+msgstr ""
+"Project-Id-Version: kpat\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"PO-Revision-Date: 1998-06-23 09:00-0300\n"
+"Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
@@ -38,6 +39,10 @@ msgstr "Fácil 2"
 msgid "Easy 1"
 msgstr "Fácil 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Difícil 1"
@@ -58,6 +63,22 @@ msgstr "Difícil 4"
 msgid "Hard 5"
 msgstr "Difícil 5"
 
+#: klondike.cpp:67
+msgid "Easy rules"
+msgstr "Regras fáceis"
+
+#: klondike.cpp:68
+msgid "Hard rules"
+msgstr "Regras difíceis"
+
+#: klondike.cpp:94
+msgid ""
+"This will end the current game\n"
+"Are you sure you want to do this?"
+msgstr ""
+"Isto irá terminar o jogo atual\n"
+"Deseja mesmo fazer isto?"
+
 #: grandf.cpp:35
 msgid "Try to move card:"
 msgstr "Tente mover a carta:"
@@ -74,24 +95,9 @@ msgstr "Dica"
 msgid "Only 3 deals allowed"
 msgstr "Apenas 3 trocas são permitidos"
 
-#: klondike.cpp:67
-msgid "Easy rules"
-msgstr "Regras fáceis"
-
-#: klondike.cpp:68
-msgid "Hard rules"
-msgstr "Regras difíceis"
-
-#: klondike.cpp:94
-msgid ""
-"This will end the current game\n"
-"Are you sure you want to do this?"
-msgstr "Isto irá terminar o jogo atual\n"
-       "Deseja mesmo fazer isto?"
-
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Não há mais cartas"
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Automatismo Total"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -194,6 +200,6 @@ msgstr "kpat: tipo de jogo não implementado %d\n"
 msgid "Could not load background image!"
 msgstr "Não foi possível carregar a imagem do fundo"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Automatismo Total"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Não há mais cartas"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "Last-Translator: Francesco Lotti <Goo@hey.to>\n"
 "Language-Team: ITALIAN <it@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -19,6 +19,18 @@ msgstr "Livello"
 #: toplevel.cpp:126
 msgid "Ships"
 msgstr "Navi"
+
+#: toplevel.cpp:186
+#, fuzzy
+msgid "Asteroids"
+msgstr "KAsteroids"
+
+#: toplevel.cpp:188
+msgid ""
+"\n"
+"\n"
+"by Martin R. Jones"
+msgstr ""
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."

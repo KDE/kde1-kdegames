@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,6 +47,10 @@ msgstr "Laki 2"
 msgid "Easy 1"
 msgstr "Laki 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Te¾ak 1"
@@ -67,22 +71,6 @@ msgstr "Te¾ak 4"
 msgid "Hard 5"
 msgstr "Te¾ak 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Poku¹aj micanja karte:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Dijeli iznova"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Trik"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Samo tri djeljenja dozvoljena"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Laka pravila"
@@ -99,9 +87,25 @@ msgstr ""
 "Ovim æete prekinuti trenutnu igru\n"
 "Sigurni ste da to ¾elite?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Nema vi¹e karata"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Poku¹aj micanja karte:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Dijeli iznova"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Trik"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Samo tri djeljenja dozvoljena"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Potpuno automatski"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -204,6 +208,6 @@ msgstr "kpat: igra %d nije ugraðena\n"
 msgid "Could not load background image!"
 msgstr "Ne mogu uèitati pozadinsku sliku!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Potpuno automatski"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Nema vi¹e karata"

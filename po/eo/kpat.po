@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat 1.0\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-07-27 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -48,6 +48,10 @@ msgstr "Facila 2"
 msgid "Easy 1"
 msgstr "Facila 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Malfacila 1"
@@ -68,22 +72,6 @@ msgstr "Malfacila 4"
 msgid "Hard 5"
 msgstr "Malfacila 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Provu movi karton:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Redonu kartojn"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Helpindiko"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Nur 3 redonoj permesitaj"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Facilaj reguloj"
@@ -100,9 +88,25 @@ msgstr ""
 "Tio finos la aktualan ludon\n"
 "Æu vi estas certa, ke vi volas tion?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Ne plu estas kartoj"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Provu movi karton:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Redonu kartojn"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Helpindiko"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Nur 3 redonoj permesitaj"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Aýtomate"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -205,6 +209,6 @@ msgstr "KPat: neimplemetita ludtipo %d\n"
 msgid "Could not load background image!"
 msgstr "Ne eblis legi fonbildon!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Aýtomate"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Ne plu estas kartoj"

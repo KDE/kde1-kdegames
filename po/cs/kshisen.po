@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-18 09:41 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -13,9 +13,13 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "©isen-©o"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "Není mo¾né naèíst obrázky!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -80,6 +84,13 @@ msgstr "Snadná"
 #: app.cpp:141
 msgid "Hard"
 msgstr "Tì¾ká"
+
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -156,14 +167,20 @@ msgstr "©isen-©o: Hala Slávy"
 msgid "Rank"
 msgstr "Poøadí"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "&Nová hra"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "Èas"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "&Velikost"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "Skóre"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "Není mo¾né naèíst obrázky!"

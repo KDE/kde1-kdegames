@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français\n"
@@ -24,6 +24,18 @@ msgstr "Niveau"
 #: toplevel.cpp:126
 msgid "Ships"
 msgstr "Vaisseaux"
+
+#: toplevel.cpp:186
+#, fuzzy
+msgid "Asteroids"
+msgstr "KAsteroids"
+
+#: toplevel.cpp:188
+msgid ""
+"\n"
+"\n"
+"by Martin R. Jones"
+msgstr ""
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."

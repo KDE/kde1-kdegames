@@ -1,11 +1,53 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: Francesco Lotti <Goo@hey.to>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+
+#: Move.cpp:17
+#, fuzzy
+msgid "Right"
+msgstr "In alto a destra"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "In basso a destra"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "In basso a sinistra"
+
+#: Move.cpp:20
+#, fuzzy
+msgid "Left"
+msgstr "In alto a sinistra"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "In alto a sinistra"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "In alto a destra"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Parte"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Fuori"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "Premi"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Valore a tabellone"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -34,6 +76,10 @@ msgstr "Riprendi Posizione"
 #: AbTop.cpp:315
 msgid "Easy"
 msgstr "Facile"
+
+#: AbTop.cpp:317
+msgid "Normal"
+msgstr ""
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -71,6 +117,17 @@ msgstr "Muovi piano"
 msgid "Spy"
 msgstr "Spia"
 
+#: AbTop.cpp:349
+msgid "Abalone"
+msgstr ""
+
+#: AbTop.cpp:351
+msgid ""
+"\n"
+"\n"
+"by Josef Weidendorfer"
+msgstr ""
+
 #: AbTop.cpp:407
 msgid "won"
 msgstr "Vinto"
@@ -82,38 +139,6 @@ msgstr "Sto pensando..."
 #: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "E' il tuo turno !"
-
-#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
-msgid "Board value"
-msgstr "Valore a tabellone"
-
-#: Move.cpp:18
-msgid "RightDown"
-msgstr "In basso a destra"
-
-#: Move.cpp:19
-msgid "LeftDown"
-msgstr "In basso a sinistra"
-
-#: Move.cpp:21
-msgid "LeftUp"
-msgstr "In alto a sinistra"
-
-#: Move.cpp:22
-msgid "RightUp"
-msgstr "In alto a destra"
-
-#: Move.cpp:35 Move.cpp:42
-msgid "Side"
-msgstr "Parte"
-
-#: Move.cpp:49
-msgid "Out"
-msgstr "Fuori"
-
-#: Move.cpp:50
-msgid "Push"
-msgstr "Premi"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"

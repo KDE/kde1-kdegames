@@ -1,8 +1,50 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "Last-Translator: Josef Weidendorfer <weidendo@informatik.tu-muenchen.de>\n"
+
+#: Move.cpp:17
+#, fuzzy
+msgid "Right"
+msgstr "RechtsHoch"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "RechtsRunter"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "LinksRunter"
+
+#: Move.cpp:20
+#, fuzzy
+msgid "Left"
+msgstr "LinksHoch"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "LinksHoch"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "RechtsHoch"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Seitlich"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Raus"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "Schieben"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Bewertung"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -31,6 +73,10 @@ msgstr "Stellung restaurieren"
 #: AbTop.cpp:315
 msgid "Easy"
 msgstr "Leicht"
+
+#: AbTop.cpp:317
+msgid "Normal"
+msgstr ""
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -68,6 +114,17 @@ msgstr "Langsam ziehen"
 msgid "Spy"
 msgstr "Spion"
 
+#: AbTop.cpp:349
+msgid "Abalone"
+msgstr ""
+
+#: AbTop.cpp:351
+msgid ""
+"\n"
+"\n"
+"by Josef Weidendorfer"
+msgstr ""
+
 #: AbTop.cpp:407
 msgid "won"
 msgstr "hat gewonnen"
@@ -79,38 +136,6 @@ msgstr "Ich überlege..."
 #: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "Sie sind dran !"
-
-#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
-msgid "Board value"
-msgstr "Bewertung"
-
-#: Move.cpp:18
-msgid "RightDown"
-msgstr "RechtsRunter"
-
-#: Move.cpp:19
-msgid "LeftDown"
-msgstr "LinksRunter"
-
-#: Move.cpp:21
-msgid "LeftUp"
-msgstr "LinksHoch"
-
-#: Move.cpp:22
-msgid "RightUp"
-msgstr "RechtsHoch"
-
-#: Move.cpp:35 Move.cpp:42
-msgid "Side"
-msgstr "Seitlich"
-
-#: Move.cpp:49
-msgid "Out"
-msgstr "Raus"
-
-#: Move.cpp:50
-msgid "Push"
-msgstr "Schieben"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"

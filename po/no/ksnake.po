@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-06-14 22:20+0200\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -99,34 +99,6 @@ msgstr ""
 "\n"
 "av Michel Filippi (mfilippi@sade.rhein-main.de)"
 
-#: keys.cpp:24
-msgid "Defaults"
-msgstr "Standard"
-
-#: keys.cpp:83
-msgid "Change Direction Keys"
-msgstr "Endre retningstaster"
-
-#: keys.cpp:96
-msgid "Undefined key"
-msgstr "Udefinert tast"
-
-#: lcdrange.cpp:61
-#, c-format
-msgid ""
-"LCDRange::setRange(%d,%d)\n"
-"\tRange must be 0..99\n"
-"\tand minVal must not be greater than maxVal"
-msgstr ""
-"LCDRange::setRange(%d,%d)\n"
-"\tTallområdet må værebe 0..99\n"
-"\tog minVal må ikk være større enn maxVal"
-
-#: pixServer.cpp:182
-#, c-format
-msgid "error loading %s, aborting\n"
-msgstr "feil under lasting av %s, avbryter\n"
-
 #: rattler.cpp:277
 msgid ""
 "Game Paused\n"
@@ -151,6 +123,25 @@ msgstr "&Ja"
 msgid "&No"
 msgstr "&Nei"
 
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Slangeløp starter rom"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Starter rom"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tTallområdet må værebe 0..99\n"
+"\tog minVal må ikk være større enn maxVal"
+
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
 msgstr "Poengtavle for slangeløp"
@@ -171,10 +162,19 @@ msgstr ""
 "du har oppnådd en plass på poengtavle!\n"
 " vennligst skriv innn ditt navn"
 
-#: startroom.cpp:23
-msgid "Snake Race Starting Room"
-msgstr "Slangeløp starter rom"
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "feil under lasting av %s, avbryter\n"
 
-#: startroom.cpp:41
-msgid "Starting Room"
-msgstr "Starter rom"
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Standard"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Endre retningstaster"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Udefinert tast"

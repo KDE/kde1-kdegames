@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 
@@ -39,6 +39,10 @@ msgstr "Uºor 2"
 msgid "Easy 1"
 msgstr "Uºor 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Greu 1"
@@ -59,22 +63,6 @@ msgstr "Greu 4"
 msgid "Hard 5"
 msgstr "Greu 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Încerc sã miºc cãrþile:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "O noua mînã"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Propunere"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Numa 3 mîini sînt permise"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Reguli simple"
@@ -91,9 +79,25 @@ msgstr ""
 "Prin aceasta se terminã jocul\n"
 "Eºti sigur cã doreºti aceasta?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Nu mai sînt cãrþi"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Încerc sã miºc cãrþile:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "O noua mînã"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Propunere"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Numa 3 mîini sînt permise"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Automatic"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -192,9 +196,9 @@ msgstr "kpat: Varianta %d nu existã\n"
 msgid "Could not load background image!"
 msgstr "Nu pot sã incarc imaginea de fond!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Automatic"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Nu mai sînt cãrþi"
 
 #~ msgid "Help on &rules..."
 #~ msgstr "Ajutor la &Reguli.."

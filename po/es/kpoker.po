@@ -1,99 +1,99 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-18 22:46+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-06-17 21:17+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 "First-Translator: Jochen Tuchbreiter\n"
 
-#: kpoker.cpp:98
-msgid "Draw !"
-msgstr "Repartir"
-
-#: kpoker.cpp:125
-msgid "Click a card to hold it"
-msgstr "Pulse sobre una carta para mantenerla"
-
-#: kpoker.cpp:146
-msgid "Held"
-msgstr "Mantener"
-
-#: kpoker.cpp:185
-msgid "draw new cards"
-msgstr "volver a repartir"
-
-#: kpoker.cpp:186 kpoker.cpp:187
-msgid "your last hand"
-msgstr "su última mano"
-
-#: kpoker.cpp:188 kpoker.cpp:189
-msgid "money left"
-msgstr "dinero restante"
-
-#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
-msgid "nothing"
-msgstr "nada"
-
-#: kpoker.cpp:370
-msgid "Cash"
-msgstr "Dinero"
-
-#: kpoker.cpp:406
-msgid "Last Hand"
-msgstr "Última mano"
-
-#: kpoker.cpp:517
-msgid "One Pair"
-msgstr "Pareja"
-
-#: kpoker.cpp:518
-msgid "Two Pairs"
-msgstr "Dobles parejas"
-
-#: kpoker.cpp:519
-msgid "3 of a kind"
-msgstr "Trío"
-
-#: kpoker.cpp:520
-msgid "Full House"
-msgstr "Full"
-
-#: kpoker.cpp:521
-msgid "4 of a kind"
-msgstr "Póker"
-
-#: kpoker.cpp:522
-msgid "Straight"
-msgstr "Escalera"
-
-#: kpoker.cpp:523
-msgid "Flush"
-msgstr "Color"
-
-#: kpoker.cpp:524
-msgid "Straight Flush"
-msgstr "Escalera de color"
-
-#: kpoker.cpp:525
-msgid "Royal Flush"
-msgstr "Escalera de color alta"
-
-#: kpoker.cpp:534
-msgid "You Lost"
-msgstr "Ud. pierde"
-
-#: kpoker.cpp:535
-msgid "Oops - you went bankrupt.\n"
-msgstr ""
-
-#: kpoker.cpp:536
+#: kpoker.cpp:82 kpoker.cpp:538
 msgid "New game"
 msgstr "Nuevo juego"
 
-#: kpoker.cpp:617
+#: kpoker.cpp:95
+msgid "Draw !"
+msgstr "Repartir"
+
+#: kpoker.cpp:122
+msgid "Click a card to hold it"
+msgstr "Pulse sobre una carta para mantenerla"
+
+#: kpoker.cpp:143
+msgid "Held"
+msgstr "Mantener"
+
+#: kpoker.cpp:182
+msgid "draw new cards"
+msgstr "volver a repartir"
+
+#: kpoker.cpp:183 kpoker.cpp:184
+msgid "your last hand"
+msgstr "su última mano"
+
+#: kpoker.cpp:185 kpoker.cpp:186
+msgid "money left"
+msgstr "dinero restante"
+
+#: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
+msgid "nothing"
+msgstr "nada"
+
+#: kpoker.cpp:372
+msgid "Cash"
+msgstr "Dinero"
+
+#: kpoker.cpp:408
+msgid "Last Hand"
+msgstr "Última mano"
+
+#: kpoker.cpp:519
+msgid "One Pair"
+msgstr "Pareja"
+
+#: kpoker.cpp:520
+msgid "Two Pairs"
+msgstr "Dobles parejas"
+
+#: kpoker.cpp:521
+msgid "3 of a kind"
+msgstr "Trío"
+
+#: kpoker.cpp:522
+msgid "Full House"
+msgstr "Full"
+
+#: kpoker.cpp:523
+msgid "4 of a kind"
+msgstr "Póker"
+
+#: kpoker.cpp:524
+msgid "Straight"
+msgstr "Escalera"
+
+#: kpoker.cpp:525
+msgid "Flush"
+msgstr "Color"
+
+#: kpoker.cpp:526
+msgid "Straight Flush"
+msgstr "Escalera de color"
+
+#: kpoker.cpp:527
+msgid "Royal Flush"
+msgstr "Escalera de color alta"
+
+#: kpoker.cpp:536
+msgid "You Lost"
+msgstr "Ud. pierde"
+
+#: kpoker.cpp:537
+msgid "Oops - you went bankrupt.\n"
+msgstr ""
+
+#: kpoker.cpp:619
 msgid "You won $"
 msgstr "Ganó $"
 
-#: kpoker.cpp:620
+#: kpoker.cpp:622
 msgid "Game Over"
 msgstr "Fin del juego"
 
@@ -104,6 +104,30 @@ msgstr "&Nuevo juego"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Sonido"
+
+#: top.cpp:73
+msgid "Poker"
+msgstr ""
+
+#: top.cpp:75
+msgid ""
+"\n"
+"\n"
+"by Jochen Tuchbreiter"
+msgstr ""
+
+#: top.cpp:77
+msgid ""
+"\n"
+"\n"
+"For a list of credits see helpfile"
+msgstr ""
+
+#: top.cpp:78
+msgid ""
+"\n"
+"Suggestions, bug reports etc. are welcome"
+msgstr ""
 
 #~ msgid ""
 #~ "Oops - you went bankrupt.\n"

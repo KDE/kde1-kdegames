@@ -6,25 +6,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame 1.0\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: 1998-07-28 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-3\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
-#: HighScore.cpp:104 KSameWidget.cpp:141
-msgid "Board"
-msgstr "Tabulo"
-
-#: HighScore.cpp:109
-msgid "Please &enter your name:"
-msgstr "Bonvolu indiki vian nomon:"
-
-#: HighScore.cpp:148
-msgid "Anonymous"
-msgstr "Anonimulo"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -75,6 +63,10 @@ msgstr "SameGame: Nova ludo"
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
 msgstr "Æu vi volas rezigni?"
+
+#: HighScore.cpp:104 KSameWidget.cpp:141
+msgid "Board"
+msgstr "Tabulo"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
@@ -127,3 +119,16 @@ msgstr "elektitaj: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Poentoj: %06i"
+
+#: HighScore.cpp:107
+#, fuzzy
+msgid "Name"
+msgstr "Ludo"
+
+#: HighScore.cpp:109
+msgid "Please &enter your name:"
+msgstr "Bonvolu indiki vian nomon:"
+
+#: HighScore.cpp:148
+msgid "Anonymous"
+msgstr "Anonimulo"

@@ -1,11 +1,9 @@
 # KTranslator Generated File
-
 # KTranslator Generated File
-
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines revision 1.7\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-08-22 21:41+SET\n"
 "Last-Translator:  Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -33,11 +31,15 @@ msgstr "Minor"
 msgid "Hall of Fame"
 msgstr "Poängtoppen"
 
-#: dialogs.cpp:288 main.cpp:57
+#: dialogs.cpp:288 main.cpp:59
 msgid "Easy"
 msgstr "Lätt"
 
-#: dialogs.cpp:290 main.cpp:59
+#: dialogs.cpp:289 main.cpp:60
+msgid "Normal"
+msgstr ""
+
+#: dialogs.cpp:290 main.cpp:61
 msgid "Expert"
 msgstr "Expert"
 
@@ -81,46 +83,45 @@ msgstr "Jaaaaa !"
 msgid "Bad luck !"
 msgstr "Otur !"
 
-#: main.cpp:21 main.cpp:28 main.cpp:44
+#: main.cpp:24 main.cpp:46
 msgid "New game"
 msgstr "Nytt spel"
 
-#: main.cpp:22 main.cpp:29 main.cpp:45
+#: main.cpp:25 main.cpp:47
 msgid "Pause game"
 msgstr "Pausa spelet"
 
-#: main.cpp:23 main.cpp:30 main.cpp:47
+#: main.cpp:26 main.cpp:49
 msgid "High scores"
 msgstr "Poängtoppen"
 
-#: main.cpp:41 main.cpp:146
+#: main.cpp:43 main.cpp:154
 msgid "Hide menu bar"
 msgstr "Göm menyrad"
 
-#: main.cpp:53
+#: main.cpp:55
 msgid "? mark"
 msgstr "?-markera"
 
-#: main.cpp:54
+#: main.cpp:56
 msgid "Keys"
 msgstr "Tangenter "
 
-#: main.cpp:61
+#: main.cpp:63
 msgid "Custom"
 msgstr "Anpassa"
 
-#: main.cpp:64
-msgid "Minesweeper"
-msgstr "Minesweeper"
-
-#: main.cpp:67
+#: main.cpp:69
 msgid "by"
 msgstr "av"
 
-#: main.cpp:72
+#: main.cpp:74
 msgid "Level"
 msgstr "Nivå"
 
-#: main.cpp:143
+#: main.cpp:151
 msgid "Show menu bar"
 msgstr "Visa menyrad"
+
+#~ msgid "Minesweeper"
+#~ msgstr "Minesweeper"

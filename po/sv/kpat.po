@@ -1,9 +1,8 @@
 # KTranslator Generated File
-
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat revision 1.7\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-08-22 20:33+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -45,6 +44,10 @@ msgstr "Lätt 2"
 msgid "Easy 1"
 msgstr "Lätt 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Svår 1"
@@ -65,22 +68,6 @@ msgstr "Svår 4"
 msgid "Hard 5"
 msgstr "Svår 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Prova att flytta detta kort:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Ny omgång"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Tips"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Bara 3 omgångar tillåtet"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Lätta regler"
@@ -97,9 +84,25 @@ msgstr ""
 "Detta kommer att avsluta nuvarande spel\n"
 "Är du säker på att du vill göra detta?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Inga mer kort"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Prova att flytta detta kort:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Ny omgång"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Tips"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Bara 3 omgångar tillåtet"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Helautomatisk"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -183,7 +186,6 @@ msgstr ""
 "\n"
 "\n"
 "av Paul Olav Tvetei\n"
-""
 
 #: pwidget.cpp:273
 msgid "Klondike"
@@ -202,6 +204,6 @@ msgstr "kpat: speltypen %d är inte implementerad\n"
 msgid "Could not load background image!"
 msgstr "Kunde inte ladda bakgrundsbild!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Helautomatisk"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Inga mer kort"

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Mario Weilguni <mweilguni@sime.com>\n"
 
@@ -39,6 +39,10 @@ msgstr "Leicht 2"
 msgid "Easy 1"
 msgstr "Leicht 1"
 
+#: computation.cpp:96
+msgid "Normal"
+msgstr ""
+
 #: computation.cpp:97
 msgid "Hard 1"
 msgstr "Schwer 1"
@@ -59,22 +63,6 @@ msgstr "Schwer 4"
 msgid "Hard 5"
 msgstr "Schwer 5"
 
-#: grandf.cpp:35
-msgid "Try to move card:"
-msgstr "Versuche die Karte zu bewegen:"
-
-#: grandf.cpp:114 mod3.cpp:57
-msgid "Redeal"
-msgstr "Neu geben"
-
-#: grandf.cpp:148
-msgid "Hint"
-msgstr "Vorschlag"
-
-#: grandf.cpp:175
-msgid "Only 3 deals allowed"
-msgstr "Nur 3 mal geben erlaubt"
-
 #: klondike.cpp:67
 msgid "Easy rules"
 msgstr "Einfache Regeln"
@@ -91,9 +79,25 @@ msgstr ""
 "Dadurch wird das aktuelle Spiel beendet\n"
 "Wollen Sie das wirklich?"
 
-#: mod3.cpp:137
-msgid "No more cards"
-msgstr "Keine Karten mehr"
+#: grandf.cpp:35
+msgid "Try to move card:"
+msgstr "Versuche die Karte zu bewegen:"
+
+#: grandf.cpp:114 mod3.cpp:57
+msgid "Redeal"
+msgstr "Neu geben"
+
+#: grandf.cpp:148
+msgid "Hint"
+msgstr "Vorschlag"
+
+#: grandf.cpp:175
+msgid "Only 3 deals allowed"
+msgstr "Nur 3 mal geben erlaubt"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Automatisch"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -196,9 +200,9 @@ msgstr "kpat: Spielvariante %d nicht verfügbar\n"
 msgid "Could not load background image!"
 msgstr "Kann Hintergrundbild nicht laden!"
 
-#: ten.cpp:40
-msgid "Full Auto"
-msgstr "Automatisch"
+#: mod3.cpp:137
+msgid "No more cards"
+msgstr "Keine Karten mehr"
 
 #~ msgid "Help on &rules..."
 #~ msgstr "Hilfe zu den &Regeln.."

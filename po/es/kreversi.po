@@ -1,50 +1,9 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1998-06-17 21:18+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 "First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
-
-#: about.cpp:52
-msgid "About kreversi"
-msgstr "Acerca de kreversi"
-
-#: about.cpp:65
-msgid "Version "
-msgstr "Versión"
-
-#: about.cpp:67
-msgid ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software\n"
-"published under the GNU General\n"
-"Public License (take a look\n"
-"into help for details)\n"
-"\n"
-"Thanks to:\n"
-"\tMats Luthman for the game engine\n"
-"\t(I've ported it from his JAVA applet)\n"
-"\n"
-"\tStephan Kulow\n"
-"\tfor comments and bugfixes\n"
-"\n"
-"\tArne Klaassen\n"
-"\t for the raytraced chips"
-msgstr ""
-"\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"Este programa es software libre publicado bajo la Licencia General de Uso "
-"GNU (consultar la ayuda para más información)\n"
-"\n"
-"Gracias a:\n"
-"\tMats Luthman por el motor del juego (Lo he portado de su applet de JAVA)\n"
-"\n"
-"\tStephan Kulow <coolo@kde.org> por los comentarios y correciones\n"
-"\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> por los raytraced chips"
 
 #: app.cpp:218 app.cpp:553
 msgid ""
@@ -346,6 +305,11 @@ msgstr "Kreversi: Los mejores"
 msgid "Rank"
 msgstr "Rango"
 
+#: app.cpp:885
+#, fuzzy
+msgid "Name"
+msgstr "&Nuevo juego"
+
 #: app.cpp:889
 msgid "Color"
 msgstr "Color"
@@ -370,3 +334,44 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Su nombre:"
+
+#: about.cpp:52
+msgid "About kreversi"
+msgstr "Acerca de kreversi"
+
+#: about.cpp:65
+msgid "Version "
+msgstr "Versión"
+
+#: about.cpp:67
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Este programa es software libre publicado bajo la Licencia General de Uso "
+"GNU (consultar la ayuda para más información)\n"
+"\n"
+"Gracias a:\n"
+"\tMats Luthman por el motor del juego (Lo he portado de su applet de JAVA)\n"
+"\n"
+"\tStephan Kulow <coolo@kde.org> por los comentarios y correciones\n"
+"\n"
+"\tArne Klaassen <klaassen@informatik.uni-rostock.de> por los raytraced chips"
