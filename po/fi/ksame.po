@@ -82,11 +82,11 @@ msgstr "Anna &laudan numero:"
 
 #: KSameWidget.cpp:181
 msgid "menu load not supported"
-msgstr "valikon lataaminen ei ole tuettu"
+msgstr "vallikon lataamista ei tueta"
 
 #: KSameWidget.cpp:184
 msgid "menu save not supported"
-msgstr "valikon talletus ei ole tuettu"
+msgstr "valikon talletusta ei tueta"
 
 #: KSameWidget.cpp:192
 msgid "SameGame - Quit"
@@ -98,7 +98,7 @@ msgstr "Halutako todella lopettaa?"
 
 #: KSameWidget.cpp:199
 msgid "menu colors not supported"
-msgstr "valikon värit ei ole tuettu"
+msgstr "valikon värejä ei tueta"
 
 #: KSameWidget.cpp:203
 #, c-format
@@ -136,5 +136,3 @@ msgstr "Anna &nimesi:"
 msgid "Anonymous"
 msgstr "Tuntematon"
 
-#~ msgid "Game"
-#~ msgstr "Peli"

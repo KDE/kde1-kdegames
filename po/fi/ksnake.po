@@ -164,7 +164,7 @@ msgid ""
 "you have achieved a high score!\n"
 " please enter your name"
 msgstr ""
-"Olet saavuttanut ennätystulokset!\n"
+"Olet saavuttanut ennätystuloksen!\n"
 " anna nimesi"
 
 #: pixServer.cpp:182

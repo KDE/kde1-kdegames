@@ -16,7 +16,7 @@ msgstr ""
 
 #: dialogs.cpp:95
 msgid "Customize Game"
-msgstr "Kustomoi peliä"
+msgstr "Muokkaa peliä"
 
 #: dialogs.cpp:124
 msgid "Width"

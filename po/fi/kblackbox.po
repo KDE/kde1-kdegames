@@ -156,11 +156,11 @@ msgstr "Run"
 
 #: kbbgame.cpp:574
 msgid "Yes"
-msgstr ""
+msgstr "Kyllä"
 
 #: kbbgame.cpp:577
 msgid "No"
-msgstr ""
+msgstr "Ei"
 
 #: kbbgame.cpp:580
 msgid "Size"
