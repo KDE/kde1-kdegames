@@ -14,23 +14,20 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: KSameWidget.cpp:50
-#, fuzzy
 msgid "&New"
-msgstr "Ny"
+msgstr "&Ny"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "Å&pne"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Vis poengtavle"
+msgstr "&Vis poengtavle"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Tilfeldig brett"
+msgstr "&Tilfeldig brett"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
@@ -137,6 +134,3 @@ msgstr "&Skriv inn navnet ditt:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Annonym"
-
-#~ msgid "Game"
-#~ msgstr "Spill"
