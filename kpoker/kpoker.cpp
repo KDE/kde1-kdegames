@@ -686,15 +686,4 @@ void kpok::paintEvent( QPaintEvent *)
 }
 
 
-void kpok::showAboutBox()
-{
-   char aboutText[250];
-   sprintf(aboutText,"%s v%s (%s)\n\ncopyright 1997 by Jochen Tuchbreiter\n<whynot@mabi.de>\n\nFor a list of credits see helpfile.\n\nSuggestions, bug reports etc. are welcome", kapp->getCaption(),PVERSION, PDATE);
-   QMessageBox::information( this, kapp->getCaption(),locale->translate(aboutText));
-}
-
-void kpok::showQtAboutBox()
-{
-   QMessageBox::aboutQt(this);
-}
 

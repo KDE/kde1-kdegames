@@ -86,9 +86,6 @@ protected slots:
        void waveTimerEvent();
    
 	void displayWin(const char *hand, int cashWon);
-	void showAboutBox();
-	void showQtAboutBox();
-/*	void help();*/
 
    void startWave();
    void stopWave();
