@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSIONPOT-Creation-Date: 1998-02-19 22:49+0100\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-06-18 22:45+0200\n"
 "PO-Revision-Date: 1998-02-03 16:00+0100\n"
 "Last-Translator: Andrea Rizzi <Bilibao@ouverture.it>\n"
 "Language-Team: Italiano <it@li.org>\n"
@@ -14,170 +14,153 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: dialogs.cpp:94
-msgid "kmines : Customize Game"
-msgstr ""
+#: dialogs.cpp:95
+#, fuzzy
+msgid "Customize Game"
+msgstr "Livello Personalizzato"
 
-#: dialogs.cpp:122
+#: dialogs.cpp:124
 #, fuzzy
 msgid "Width"
 msgstr "Larghezza :"
 
-#: dialogs.cpp:147
+#: dialogs.cpp:149
 #, fuzzy
 msgid "Height"
 msgstr "Altezza :"
 
-#: dialogs.cpp:172
+#: dialogs.cpp:174
 #, fuzzy
 msgid "Mines"
 msgstr "Mine :"
 
-#: dialogs.cpp:257
-#, fuzzy
-msgid "kmines : High Scores"
-msgstr "Punteggi "
+#: dialogs.cpp:258
+msgid "Hall of Fame"
+msgstr "Sala Delle Celebritá"
 
-#: dialogs.cpp:287
-#, fuzzy
-msgid "Easy :"
+#: dialogs.cpp:288 main.cpp:57
+msgid "Easy"
 msgstr "Facile"
 
-#: dialogs.cpp:288
-msgid "Normal :"
-msgstr ""
-
-#: dialogs.cpp:289
-#, fuzzy
-msgid "Expert :"
+#: dialogs.cpp:290 main.cpp:59
+msgid "Expert"
 msgstr "Esperto"
 
-#: dialogs.cpp:315
+#: dialogs.cpp:317
 msgid "in"
 msgstr "in"
 
-#: dialogs.cpp:330
-#, fuzzy
-msgid "minutes."
-msgstr "minuti e "
-
-#: dialogs.cpp:331
+#: dialogs.cpp:332
 #, fuzzy
 msgid "minutes"
 msgstr "minuti e "
 
-#: dialogs.cpp:340
+#: dialogs.cpp:342
 msgid "and"
 msgstr ""
 
-#: dialogs.cpp:352
+#: dialogs.cpp:354
 msgid "seconds."
 msgstr "secondi."
 
-#: dialogs.cpp:383 status.cpp:103
+#: dialogs.cpp:384 status.cpp:96
 msgid "Anonymous"
 msgstr "Anonimo"
 
-#: field.cpp:83 field.cpp:90
+#: field.cpp:81
 msgid "Game paused"
 msgstr "Gioco in pausa"
 
-#: field.cpp:86 field.cpp:92
+#: field.cpp:82
 msgid "Press to resume"
 msgstr "Premi per ripristinare"
 
-#: status.cpp:222
+#: status.cpp:215
 msgid "You did it ... but not in time."
 msgstr "Ce l'hai fatta...ma non in tempo"
 
-#: status.cpp:223
+#: status.cpp:216
 msgid "Yeeessss !"
 msgstr "Siiiiiiiii !"
 
-#: status.cpp:226
+#: status.cpp:219
 msgid "Bad luck !"
 msgstr "E' andata male !"
 
-#: status.cpp:259
-msgid "Highscore file is not writable !"
-msgstr "Il file della classifica non è riscrivibile !"
-
-#: status.cpp:267
-msgid "kmines : Error"
-msgstr "kmines : Errore"
-
-#: main.cpp:24 main.cpp:34 main.cpp:50
+#: main.cpp:21 main.cpp:28 main.cpp:44
 msgid "New game"
 msgstr "Nuova partita"
 
-#: main.cpp:25 main.cpp:35 main.cpp:51
+#: main.cpp:22 main.cpp:29 main.cpp:45
 msgid "Pause game"
 msgstr "Pausa"
 
-#: main.cpp:26 main.cpp:36 main.cpp:53
+#: main.cpp:23 main.cpp:30 main.cpp:47
 msgid "High scores"
 msgstr "Punteggi"
 
-#: main.cpp:27
-msgid "Close dialog"
-msgstr "Chiudi finestra"
-
-#: main.cpp:28
-msgid "Ok dialog"
-msgstr "Ok "
-
-#: main.cpp:29
-msgid "Cancel dialog"
-msgstr "Annulla"
-
-#: main.cpp:47 main.cpp:153
+#: main.cpp:41 main.cpp:146
 msgid "Hide menu bar"
 msgstr "Nascondi barra Menu"
 
-#: main.cpp:59
+#: main.cpp:53
 msgid "? mark"
 msgstr "Segno ? "
 
-#: main.cpp:60
+#: main.cpp:54
 msgid "Keys"
 msgstr "Tasti"
 
-#: main.cpp:63
-msgid "Easy"
-msgstr "Facile"
-
-#: main.cpp:65
-msgid "Expert"
-msgstr "Esperto"
-
-#: main.cpp:67
+#: main.cpp:61
 msgid "Custom"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:64
 msgid "Minesweeper"
 msgstr ""
 
-#: main.cpp:73
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
+#: main.cpp:67
+msgid "by"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:72
 msgid "Level"
 msgstr "Livello"
 
-#: main.cpp:150
+#: main.cpp:143
 msgid "Show menu bar"
 msgstr "Mostra barra Menu"
 
-#~ msgid "Custom Level"
-#~ msgstr "Livello Personalizzato"
+#, fuzzy
+#~ msgid "kmines : High Scores"
+#~ msgstr "Punteggi "
 
-#~ msgid "Hall of Fame"
-#~ msgstr "Sala Delle Celebritá"
+#, fuzzy
+#~ msgid "Easy :"
+#~ msgstr "Facile"
+
+#, fuzzy
+#~ msgid "Expert :"
+#~ msgstr "Esperto"
+
+#, fuzzy
+#~ msgid "minutes."
+#~ msgstr "minuti e "
+
+#~ msgid "Highscore file is not writable !"
+#~ msgstr "Il file della classifica non è riscrivibile !"
+
+#~ msgid "kmines : Error"
+#~ msgstr "kmines : Errore"
+
+#~ msgid "Close dialog"
+#~ msgstr "Chiudi finestra"
+
+#~ msgid "Ok dialog"
+#~ msgstr "Ok "
+
+#~ msgid "Cancel dialog"
+#~ msgstr "Annulla"
 
 #~ msgid "Uncertain (?) mark"
 #~ msgstr "Segno di incertezza (?)"

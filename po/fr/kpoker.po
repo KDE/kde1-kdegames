@@ -1,13 +1,13 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-18 22:46+0200\n"
+"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"Language-Team: Français\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
-"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
-"Language-Team: Français\n"
 
 #: kpoker.cpp:98
 msgid "Draw !"
@@ -33,75 +33,71 @@ msgstr "Votre dernière main"
 msgid "money left"
 msgstr "Argent restant"
 
-#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "rien"
 
-#: kpoker.cpp:366
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "Liquide"
 
-#: kpoker.cpp:402
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "Dernière main"
 
-#: kpoker.cpp:513
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "Une paire"
 
-#: kpoker.cpp:514
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "Deux paires"
 
-#: kpoker.cpp:515
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr "Trois d'un même type"
 
-#: kpoker.cpp:516
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr "Full House"
 
-#: kpoker.cpp:517
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr "Quatre d'un même type"
 
-#: kpoker.cpp:518
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr "Straight"
 
-#: kpoker.cpp:519
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:520
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr "Straight Flush"
 
-#: kpoker.cpp:521
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr "Flush Royal"
 
-#: kpoker.cpp:530
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "Vous avez perdu !"
 
-#: kpoker.cpp:531
-msgid ""
-"Oops - you went bankrupt.\n"
-"A highscoretable will appear over here later..."
+#: kpoker.cpp:535
+msgid "Oops - you went bankrupt.\n"
 msgstr ""
-"Oops - vous venez de faire faillite.\n"
-"La table des meilleurs résultats va apparaître..."
 
-#: kpoker.cpp:532
+#: kpoker.cpp:536
 msgid "New game"
 msgstr "Nouveau jeu"
 
-#: kpoker.cpp:613
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "Vous gagnez $"
 
-#: kpoker.cpp:616
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "Fin de la partie"
 
@@ -112,6 +108,13 @@ msgstr "&Nouveau jeu"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Sons"
+
+#~ msgid ""
+#~ "Oops - you went bankrupt.\n"
+#~ "A highscoretable will appear over here later..."
+#~ msgstr ""
+#~ "Oops - vous venez de faire faillite.\n"
+#~ "La table des meilleurs résultats va apparaître..."
 
 #~ msgid "&About..."
 #~ msgstr "Au &sujet de..."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-06-18 22:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,167 +14,153 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: dialogs.cpp:94
-msgid "kmines : Customize Game"
-msgstr ""
+#: dialogs.cpp:95
+#, fuzzy
+msgid "Customize Game"
+msgstr "Eigen level"
 
-#: dialogs.cpp:122
+#: dialogs.cpp:124
 #, fuzzy
 msgid "Width"
 msgstr "Breedte :"
 
-#: dialogs.cpp:147
+#: dialogs.cpp:149
 #, fuzzy
 msgid "Height"
 msgstr "Hoogte :"
 
-#: dialogs.cpp:172
+#: dialogs.cpp:174
 #, fuzzy
 msgid "Mines"
 msgstr "Mijnen"
 
-#: dialogs.cpp:257
-#, fuzzy
-msgid "kmines : High Scores"
-msgstr "kmines : Fout"
-
-#: dialogs.cpp:287
-#, fuzzy
-msgid "Easy :"
-msgstr "Makkelijk"
-
-#: dialogs.cpp:288
-msgid "Normal :"
+#: dialogs.cpp:258
+msgid "Hall of Fame"
 msgstr ""
 
-#: dialogs.cpp:289
-#, fuzzy
-msgid "Expert :"
+#: dialogs.cpp:288 main.cpp:57
+msgid "Easy"
+msgstr "Makkelijk"
+
+#: dialogs.cpp:290 main.cpp:59
+msgid "Expert"
 msgstr "Moeilijk"
 
-#: dialogs.cpp:315
+#: dialogs.cpp:317
 msgid "in"
 msgstr "in"
 
-#: dialogs.cpp:330
-#, fuzzy
-msgid "minutes."
-msgstr "minuten en "
-
-#: dialogs.cpp:331
+#: dialogs.cpp:332
 #, fuzzy
 msgid "minutes"
 msgstr "minuten en "
 
-#: dialogs.cpp:340
+#: dialogs.cpp:342
 msgid "and"
 msgstr ""
 
-#: dialogs.cpp:352
+#: dialogs.cpp:354
 msgid "seconds."
 msgstr "seconden."
 
-#: dialogs.cpp:383 status.cpp:103
+#: dialogs.cpp:384 status.cpp:96
 msgid "Anonymous"
 msgstr "Anoniem"
 
-#: field.cpp:83 field.cpp:90
+#: field.cpp:81
 msgid "Game paused"
 msgstr "Spel gepauzeerd"
 
-#: field.cpp:86 field.cpp:92
+#: field.cpp:82
 msgid "Press to resume"
 msgstr "Klik om verder te gaan"
 
-#: status.cpp:222
+#: status.cpp:215
 msgid "You did it ... but not in time."
 msgstr "Je hebt het gehaald ... maar niet op tijd."
 
-#: status.cpp:223
+#: status.cpp:216
 msgid "Yeeessss !"
 msgstr ""
 
-#: status.cpp:226
+#: status.cpp:219
 msgid "Bad luck !"
 msgstr ""
 
-#: status.cpp:259
-msgid "Highscore file is not writable !"
-msgstr "Highscore bestand in niet schrijfbaar !"
-
-#: status.cpp:267
-msgid "kmines : Error"
-msgstr "kmines : Fout"
-
-#: main.cpp:24 main.cpp:34 main.cpp:50
+#: main.cpp:21 main.cpp:28 main.cpp:44
 msgid "New game"
 msgstr "Nieuw spel"
 
-#: main.cpp:25 main.cpp:35 main.cpp:51
+#: main.cpp:22 main.cpp:29 main.cpp:45
 msgid "Pause game"
 msgstr "Pauzeer spel"
 
-#: main.cpp:26 main.cpp:36 main.cpp:53
+#: main.cpp:23 main.cpp:30 main.cpp:47
 msgid "High scores"
 msgstr "High scores"
 
-#: main.cpp:27
-msgid "Close dialog"
-msgstr "Sluiten dialoog"
-
-#: main.cpp:28
-msgid "Ok dialog"
-msgstr "Ok dialoog"
-
-#: main.cpp:29
-msgid "Cancel dialog"
-msgstr "Annuleren dialoog"
-
-#: main.cpp:47 main.cpp:153
+#: main.cpp:41 main.cpp:146
 msgid "Hide menu bar"
 msgstr "Menubalk verbergen"
 
-#: main.cpp:59
+#: main.cpp:53
 msgid "? mark"
 msgstr "? teken"
 
-#: main.cpp:60
+#: main.cpp:54
 msgid "Keys"
 msgstr "Toetsen"
 
-#: main.cpp:63
-msgid "Easy"
-msgstr "Makkelijk"
-
-#: main.cpp:65
-msgid "Expert"
-msgstr "Moeilijk"
-
-#: main.cpp:67
+#: main.cpp:61
 msgid "Custom"
 msgstr ""
 
-#: main.cpp:70
+#: main.cpp:64
 msgid "Minesweeper"
 msgstr ""
 
-#: main.cpp:73
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
+#: main.cpp:67
+msgid "by"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:72
 msgid "Level"
 msgstr "Level"
 
-#: main.cpp:150
+#: main.cpp:143
 msgid "Show menu bar"
 msgstr "Menubalk tonen"
 
-#~ msgid "Custom Level"
-#~ msgstr "Eigen level"
+#, fuzzy
+#~ msgid "kmines : High Scores"
+#~ msgstr "kmines : Fout"
+
+#, fuzzy
+#~ msgid "Easy :"
+#~ msgstr "Makkelijk"
+
+#, fuzzy
+#~ msgid "Expert :"
+#~ msgstr "Moeilijk"
+
+#, fuzzy
+#~ msgid "minutes."
+#~ msgstr "minuten en "
+
+#~ msgid "Highscore file is not writable !"
+#~ msgstr "Highscore bestand in niet schrijfbaar !"
+
+#~ msgid "kmines : Error"
+#~ msgstr "kmines : Fout"
+
+#~ msgid "Close dialog"
+#~ msgstr "Sluiten dialoog"
+
+#~ msgid "Ok dialog"
+#~ msgstr "Ok dialoog"
+
+#~ msgid "Cancel dialog"
+#~ msgstr "Annuleren dialoog"
 
 #~ msgid "Uncertain (?) mark"
 #~ msgstr "Onzeker (?) teken"

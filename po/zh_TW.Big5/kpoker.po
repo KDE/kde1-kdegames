@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-18 22:46+0200\n"
 "PO-Revision-Date: 1998-04-21 03:55+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -37,75 +37,71 @@ msgstr "您的最後一手"
 msgid "money left"
 msgstr "剩下的錢"
 
-#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "沒有"
 
-#: kpoker.cpp:366
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "現金"
 
-#: kpoker.cpp:402
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "最後一手"
 
-#: kpoker.cpp:513
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "一對"
 
-#: kpoker.cpp:514
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "兩對"
 
-#: kpoker.cpp:515
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr ""
 
-#: kpoker.cpp:516
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr ""
 
-#: kpoker.cpp:517
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr ""
 
-#: kpoker.cpp:518
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr ""
 
-#: kpoker.cpp:519
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr ""
 
-#: kpoker.cpp:520
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr ""
 
-#: kpoker.cpp:521
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr ""
 
-#: kpoker.cpp:530
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "您輸了"
 
-#: kpoker.cpp:531
-msgid ""
-"Oops - you went bankrupt.\n"
-"A highscoretable will appear over here later..."
+#: kpoker.cpp:535
+msgid "Oops - you went bankrupt.\n"
 msgstr ""
-"喔! 您已經破產了.\n"
-"等會兒會秀出高分排行榜..."
 
-#: kpoker.cpp:532
+#: kpoker.cpp:536
 msgid "New game"
 msgstr "新遊戲"
 
-#: kpoker.cpp:613
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "您嬴了 $"
 
-#: kpoker.cpp:616
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "遊戲結束"
 
@@ -116,3 +112,10 @@ msgstr "新遊戲[&N]"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "音效[&S]"
+
+#~ msgid ""
+#~ "Oops - you went bankrupt.\n"
+#~ "A highscoretable will appear over here later..."
+#~ msgstr ""
+#~ "喔! 您已經破產了.\n"
+#~ "等會兒會秀出高分排行榜..."

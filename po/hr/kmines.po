@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-06-18 22:45+0200\n"
 "PO-Revision-Date: 1998-03-15 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian\n"
@@ -13,170 +13,153 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: iso-8859-2\n"
 
-#: dialogs.cpp:94
-msgid "kmines : Customize Game"
-msgstr ""
+#: dialogs.cpp:95
+#, fuzzy
+msgid "Customize Game"
+msgstr "Izaberi razinu"
 
-#: dialogs.cpp:122
+#: dialogs.cpp:124
 #, fuzzy
 msgid "Width"
 msgstr "©irina :"
 
-#: dialogs.cpp:147
+#: dialogs.cpp:149
 #, fuzzy
 msgid "Height"
 msgstr "Visina :"
 
-#: dialogs.cpp:172
+#: dialogs.cpp:174
 #, fuzzy
 msgid "Mines"
 msgstr "Mine :"
 
-#: dialogs.cpp:257
-#, fuzzy
-msgid "kmines : High Scores"
-msgstr "Najvi¹i rezultati"
+#: dialogs.cpp:258
+msgid "Hall of Fame"
+msgstr "Dvorac Slave"
 
-#: dialogs.cpp:287
-#, fuzzy
-msgid "Easy :"
+#: dialogs.cpp:288 main.cpp:57
+msgid "Easy"
 msgstr "Lagano"
 
-#: dialogs.cpp:288
-msgid "Normal :"
-msgstr ""
-
-#: dialogs.cpp:289
-#, fuzzy
-msgid "Expert :"
+#: dialogs.cpp:290 main.cpp:59
+msgid "Expert"
 msgstr "Ekspert"
 
-#: dialogs.cpp:315
+#: dialogs.cpp:317
 msgid "in"
 msgstr "u"
 
-#: dialogs.cpp:330
-#, fuzzy
-msgid "minutes."
-msgstr "minuta i "
-
-#: dialogs.cpp:331
+#: dialogs.cpp:332
 #, fuzzy
 msgid "minutes"
 msgstr "minuta i "
 
-#: dialogs.cpp:340
+#: dialogs.cpp:342
 msgid "and"
 msgstr ""
 
-#: dialogs.cpp:352
+#: dialogs.cpp:354
 msgid "seconds."
 msgstr "sekundi."
 
-#: dialogs.cpp:383 status.cpp:103
+#: dialogs.cpp:384 status.cpp:96
 msgid "Anonymous"
 msgstr "Anonimno"
 
-#: field.cpp:83 field.cpp:90
+#: field.cpp:81
 msgid "Game paused"
 msgstr "Igra zaustavljena"
 
-#: field.cpp:86 field.cpp:92
+#: field.cpp:82
 msgid "Press to resume"
 msgstr "Pritisni tipku za nastavak"
 
-#: status.cpp:222
+#: status.cpp:215
 msgid "You did it ... but not in time."
 msgstr "Uspio si ... medjutim vrijeme je isteklo."
 
-#: status.cpp:223
+#: status.cpp:216
 msgid "Yeeessss !"
 msgstr "Daaaaaaa !"
 
-#: status.cpp:226
+#: status.cpp:219
 msgid "Bad luck !"
 msgstr "Nema¹ sreæe !"
 
-#: status.cpp:259
-msgid "Highscore file is not writable !"
-msgstr "Datoteka "
-
-#: status.cpp:267
-msgid "kmines : Error"
-msgstr "kmines : Gre¹ka"
-
-#: main.cpp:24 main.cpp:34 main.cpp:50
+#: main.cpp:21 main.cpp:28 main.cpp:44
 msgid "New game"
 msgstr "Nova igra"
 
-#: main.cpp:25 main.cpp:35 main.cpp:51
+#: main.cpp:22 main.cpp:29 main.cpp:45
 msgid "Pause game"
 msgstr "Zaustavi igru"
 
-#: main.cpp:26 main.cpp:36 main.cpp:53
+#: main.cpp:23 main.cpp:30 main.cpp:47
 msgid "High scores"
 msgstr "Najvi¹i rezultati"
 
-#: main.cpp:27
-msgid "Close dialog"
-msgstr "Zatvori dijalog"
-
-#: main.cpp:28
-msgid "Ok dialog"
-msgstr "Ok dijalog"
-
-#: main.cpp:29
-msgid "Cancel dialog"
-msgstr "Poni¹ti "
-
-#: main.cpp:47 main.cpp:153
+#: main.cpp:41 main.cpp:146
 msgid "Hide menu bar"
 msgstr "Sakrij traku sa izbornicima"
 
-#: main.cpp:59
+#: main.cpp:53
 msgid "? mark"
 msgstr "? oznaka"
 
-#: main.cpp:60
+#: main.cpp:54
 msgid "Keys"
 msgstr "Tipke"
 
-#: main.cpp:63
-msgid "Easy"
-msgstr "Lagano"
-
-#: main.cpp:65
-msgid "Expert"
-msgstr "Ekspert"
-
-#: main.cpp:67
+#: main.cpp:61
 msgid "Custom"
 msgstr "Prilagodjeno"
 
-#: main.cpp:70
+#: main.cpp:64
 msgid "Minesweeper"
 msgstr ""
 
-#: main.cpp:73
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
+#: main.cpp:67
+msgid "by"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:72
 msgid "Level"
 msgstr "Razina"
 
-#: main.cpp:150
+#: main.cpp:143
 msgid "Show menu bar"
 msgstr "Prika¾i traku sa izbornicima"
 
-#~ msgid "Custom Level"
-#~ msgstr "Izaberi razinu"
+#, fuzzy
+#~ msgid "kmines : High Scores"
+#~ msgstr "Najvi¹i rezultati"
 
-#~ msgid "Hall of Fame"
-#~ msgstr "Dvorac Slave"
+#, fuzzy
+#~ msgid "Easy :"
+#~ msgstr "Lagano"
+
+#, fuzzy
+#~ msgid "Expert :"
+#~ msgstr "Ekspert"
+
+#, fuzzy
+#~ msgid "minutes."
+#~ msgstr "minuta i "
+
+#~ msgid "Highscore file is not writable !"
+#~ msgstr "Datoteka "
+
+#~ msgid "kmines : Error"
+#~ msgstr "kmines : Gre¹ka"
+
+#~ msgid "Close dialog"
+#~ msgstr "Zatvori dijalog"
+
+#~ msgid "Ok dialog"
+#~ msgstr "Ok dijalog"
+
+#~ msgid "Cancel dialog"
+#~ msgstr "Poni¹ti "
 
 #~ msgid "Uncertain (?) mark"
 #~ msgstr "Nesiguran (?) oznaka"

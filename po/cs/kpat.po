@@ -181,7 +181,11 @@ msgid ""
 "\n"
 "by Paul Olav Tvetei\n"
 "\n"
-msgstr "\n\nnapsal Paul Olav Tvetei\n\n"
+msgstr ""
+"\n"
+"\n"
+"napsal Paul Olav Tvetei\n"
+"\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

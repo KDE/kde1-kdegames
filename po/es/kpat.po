@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1997-10-DA HO:MI+ZONE\n"
-"First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-18 22:46+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Case Roole <cjr@xs4all.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -38,75 +38,71 @@ msgstr "uw laatste hand"
 msgid "money left"
 msgstr "overgebleven geld"
 
-#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "niets"
 
-#: kpoker.cpp:366
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "Cash"
 
-#: kpoker.cpp:402
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "Vorige Hand"
 
-#: kpoker.cpp:513
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "One Pair"
 
-#: kpoker.cpp:514
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "Two Pairs"
 
-#: kpoker.cpp:515
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr "3 of a kind"
 
-#: kpoker.cpp:516
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr "Full House"
 
-#: kpoker.cpp:517
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr "4 of a kind"
 
-#: kpoker.cpp:518
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr "Straight"
 
-#: kpoker.cpp:519
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:520
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr "Straight Flush"
 
-#: kpoker.cpp:521
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr "Royal Flush"
 
-#: kpoker.cpp:530
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "U hebt verloren"
 
-#: kpoker.cpp:531
-msgid ""
-"Oops - you went bankrupt.\n"
-"A highscoretable will appear over here later..."
+#: kpoker.cpp:535
+msgid "Oops - you went bankrupt.\n"
 msgstr ""
-"Oeps - u bent bankroet gegaan.\n"
-"Een topscore tabel zal hier dadelijk verschijnen..."
 
-#: kpoker.cpp:532
+#: kpoker.cpp:536
 msgid "New game"
 msgstr "Nieuw spel"
 
-#: kpoker.cpp:613
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "U won $"
 
-#: kpoker.cpp:616
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "Spel over"
 
@@ -117,3 +113,10 @@ msgstr "&Nieuw spel"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Geluid"
+
+#~ msgid ""
+#~ "Oops - you went bankrupt.\n"
+#~ "A highscoretable will appear over here later..."
+#~ msgstr ""
+#~ "Oeps - u bent bankroet gegaan.\n"
+#~ "Een topscore tabel zal hier dadelijk verschijnen..."

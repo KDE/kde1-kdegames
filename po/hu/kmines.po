@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-06-18 22:45+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Székely Krisztián <szekelyk@edasz.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -13,170 +13,153 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: dialogs.cpp:94
-msgid "kmines : Customize Game"
-msgstr ""
+#: dialogs.cpp:95
+#, fuzzy
+msgid "Customize Game"
+msgstr "Egyéni szint"
 
-#: dialogs.cpp:122
+#: dialogs.cpp:124
 #, fuzzy
 msgid "Width"
 msgstr "Szélesség :"
 
-#: dialogs.cpp:147
+#: dialogs.cpp:149
 #, fuzzy
 msgid "Height"
 msgstr "Magasság :"
 
-#: dialogs.cpp:172
+#: dialogs.cpp:174
 #, fuzzy
 msgid "Mines"
 msgstr "Aknák :"
 
-#: dialogs.cpp:257
-#, fuzzy
-msgid "kmines : High Scores"
-msgstr "Rekord pontok"
+#: dialogs.cpp:258
+msgid "Hall of Fame"
+msgstr "Dicsõség Csarnok"
 
-#: dialogs.cpp:287
-#, fuzzy
-msgid "Easy :"
+#: dialogs.cpp:288 main.cpp:57
+msgid "Easy"
 msgstr "Könnyû"
 
-#: dialogs.cpp:288
-msgid "Normal :"
-msgstr ""
-
-#: dialogs.cpp:289
-#, fuzzy
-msgid "Expert :"
+#: dialogs.cpp:290 main.cpp:59
+msgid "Expert"
 msgstr "Szakértõ"
 
-#: dialogs.cpp:315
+#: dialogs.cpp:317
 msgid "in"
 msgstr ""
 
-#: dialogs.cpp:330
-#, fuzzy
-msgid "minutes."
-msgstr "perc és"
-
-#: dialogs.cpp:331
+#: dialogs.cpp:332
 #, fuzzy
 msgid "minutes"
 msgstr "perc és"
 
-#: dialogs.cpp:340
+#: dialogs.cpp:342
 msgid "and"
 msgstr ""
 
-#: dialogs.cpp:352
+#: dialogs.cpp:354
 msgid "seconds."
 msgstr "másodperc"
 
-#: dialogs.cpp:383 status.cpp:103
+#: dialogs.cpp:384 status.cpp:96
 msgid "Anonymous"
 msgstr "Ismeretlen"
 
-#: field.cpp:83 field.cpp:90
+#: field.cpp:81
 msgid "Game paused"
 msgstr "A játék szünetel"
 
-#: field.cpp:86 field.cpp:92
+#: field.cpp:82
 msgid "Press to resume"
 msgstr "Nyomd meg a folytatáshoz"
 
-#: status.cpp:222
+#: status.cpp:215
 msgid "You did it ... but not in time."
 msgstr "Megcsináltad ... de nem elég gyorsan"
 
-#: status.cpp:223
+#: status.cpp:216
 msgid "Yeeessss !"
 msgstr "Igeeeen !"
 
-#: status.cpp:226
+#: status.cpp:219
 msgid "Bad luck !"
 msgstr "Ez nem sikerült !"
 
-#: status.cpp:259
-msgid "Highscore file is not writable !"
-msgstr "A rekord pontokat tartalmazó fájl nem írható !"
-
-#: status.cpp:267
-msgid "kmines : Error"
-msgstr "kmines : Hiba"
-
-#: main.cpp:24 main.cpp:34 main.cpp:50
+#: main.cpp:21 main.cpp:28 main.cpp:44
 msgid "New game"
 msgstr "Új játék"
 
-#: main.cpp:25 main.cpp:35 main.cpp:51
+#: main.cpp:22 main.cpp:29 main.cpp:45
 msgid "Pause game"
 msgstr "Szünet"
 
-#: main.cpp:26 main.cpp:36 main.cpp:53
+#: main.cpp:23 main.cpp:30 main.cpp:47
 msgid "High scores"
 msgstr "Rekord pontok"
 
-#: main.cpp:27
-msgid "Close dialog"
-msgstr "Bezárás"
-
-#: main.cpp:28
-msgid "Ok dialog"
-msgstr "Rendben"
-
-#: main.cpp:29
-msgid "Cancel dialog"
-msgstr "Mégsem"
-
-#: main.cpp:47 main.cpp:153
+#: main.cpp:41 main.cpp:146
 msgid "Hide menu bar"
 msgstr "Menüsor elrejtése"
 
-#: main.cpp:59
+#: main.cpp:53
 msgid "? mark"
 msgstr "? jel"
 
-#: main.cpp:60
+#: main.cpp:54
 msgid "Keys"
 msgstr "Gombok"
 
-#: main.cpp:63
-msgid "Easy"
-msgstr "Könnyû"
-
-#: main.cpp:65
-msgid "Expert"
-msgstr "Szakértõ"
-
-#: main.cpp:67
+#: main.cpp:61
 msgid "Custom"
 msgstr "Egyéni"
 
-#: main.cpp:70
+#: main.cpp:64
 msgid "Minesweeper"
 msgstr ""
 
-#: main.cpp:73
-msgid ""
-"\n"
-"\n"
-"by Nicolas Hadacek"
+#: main.cpp:67
+msgid "by"
 msgstr ""
 
-#: main.cpp:79
+#: main.cpp:72
 msgid "Level"
 msgstr "Szint"
 
-#: main.cpp:150
+#: main.cpp:143
 msgid "Show menu bar"
 msgstr "Menüsor megjelenítése"
 
-#~ msgid "Custom Level"
-#~ msgstr "Egyéni szint"
+#, fuzzy
+#~ msgid "kmines : High Scores"
+#~ msgstr "Rekord pontok"
 
-#~ msgid "Hall of Fame"
-#~ msgstr "Dicsõség Csarnok"
+#, fuzzy
+#~ msgid "Easy :"
+#~ msgstr "Könnyû"
+
+#, fuzzy
+#~ msgid "Expert :"
+#~ msgstr "Szakértõ"
+
+#, fuzzy
+#~ msgid "minutes."
+#~ msgstr "perc és"
+
+#~ msgid "Highscore file is not writable !"
+#~ msgstr "A rekord pontokat tartalmazó fájl nem írható !"
+
+#~ msgid "kmines : Error"
+#~ msgstr "kmines : Hiba"
+
+#~ msgid "Close dialog"
+#~ msgstr "Bezárás"
+
+#~ msgid "Ok dialog"
+#~ msgstr "Rendben"
+
+#~ msgid "Cancel dialog"
+#~ msgstr "Mégsem"
 
 #~ msgid "Uncertain (?) mark"
 #~ msgstr "Bizonytalan (?) jel"

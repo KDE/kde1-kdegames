@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-18 22:46+0200\n"
 "Last-Translator: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 
 #: kpoker.cpp:98
@@ -28,75 +28,71 @@ msgstr "Ihre letzte Hand"
 msgid "money left"
 msgstr "Restliches Geld"
 
-#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "keine"
 
-#: kpoker.cpp:366
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "Geld"
 
-#: kpoker.cpp:402
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "Letzte Hand"
 
-#: kpoker.cpp:513
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "Ein Paar"
 
-#: kpoker.cpp:514
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "Zwei Paare"
 
-#: kpoker.cpp:515
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr "3 einer Art"
 
-#: kpoker.cpp:516
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr "Full House"
 
-#: kpoker.cpp:517
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr "4 einer Art"
 
-#: kpoker.cpp:518
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr "Straﬂe"
 
-#: kpoker.cpp:519
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:520
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr "Straight Flush"
 
-#: kpoker.cpp:521
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr "Royal Flush"
 
-#: kpoker.cpp:530
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "Sie haben verloren !"
 
-#: kpoker.cpp:531
-msgid ""
-"Oops - you went bankrupt.\n"
-"A highscoretable will appear over here later..."
+#: kpoker.cpp:535
+msgid "Oops - you went bankrupt.\n"
 msgstr ""
-"Oops - du bist bankrott gegangen.\n"
-"Hier wird bald eine Hiscoreliste erscheinen..."
 
-#: kpoker.cpp:532
+#: kpoker.cpp:536
 msgid "New game"
 msgstr "Neues Spiel"
 
-#: kpoker.cpp:613
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "Gewinn $"
 
-#: kpoker.cpp:616
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "Spielende"
 
@@ -107,6 +103,13 @@ msgstr "&Neues Spiel"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Sound"
+
+#~ msgid ""
+#~ "Oops - you went bankrupt.\n"
+#~ "A highscoretable will appear over here later..."
+#~ msgstr ""
+#~ "Oops - du bist bankrott gegangen.\n"
+#~ "Hier wird bald eine Hiscoreliste erscheinen..."
 
 #~ msgid "&About..."
 #~ msgstr "&‹ber..."

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-06-18 22:46+0200\n"
 "Last-Translator: Vatafu Valerica, <wally@chuck.tlnet.de>\n"
 
 #: kpoker.cpp:98
@@ -28,75 +28,71 @@ msgstr "Ultima mîna"
 msgid "money left"
 msgstr "Restul de bani"
 
-#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "Nimic"
 
-#: kpoker.cpp:366
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "Bani"
 
-#: kpoker.cpp:402
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "Ultima mîna"
 
-#: kpoker.cpp:513
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "O pereche"
 
-#: kpoker.cpp:514
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "Douã perechi"
 
-#: kpoker.cpp:515
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr "3 de un fel"
 
-#: kpoker.cpp:516
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr "Full House"
 
-#: kpoker.cpp:517
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr "4 de un fel"
 
-#: kpoker.cpp:518
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr "Straight"
 
-#: kpoker.cpp:519
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:520
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr "Straight Flush"
 
-#: kpoker.cpp:521
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr "Royal Flush"
 
-#: kpoker.cpp:530
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "A-þi pierdut !"
 
-#: kpoker.cpp:531
-msgid ""
-"Oops - you went bankrupt.\n"
-"A highscoretable will appear over here later..."
+#: kpoker.cpp:535
+msgid "Oops - you went bankrupt.\n"
 msgstr ""
-"Oops - eºti faliment.\n"
-"Aici o sã aparã in curînd o Hiscore listã..."
 
-#: kpoker.cpp:532
+#: kpoker.cpp:536
 msgid "New game"
 msgstr "Joc nou"
 
-#: kpoker.cpp:613
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "Cîstig $"
 
-#: kpoker.cpp:616
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "Game Over"
 
@@ -107,6 +103,13 @@ msgstr "&Joc nou"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Sunet"
+
+#~ msgid ""
+#~ "Oops - you went bankrupt.\n"
+#~ "A highscoretable will appear over here later..."
+#~ msgstr ""
+#~ "Oops - eºti faliment.\n"
+#~ "Aici o sã aparã in curînd o Hiscore listã..."
 
 #~ msgid "&About..."
 #~ msgstr "&Despre..."

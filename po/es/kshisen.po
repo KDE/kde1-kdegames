@@ -2,8 +2,6 @@ msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1998-06-17 21:24+0200\n"
-"Last-Translator: Santiago Fernández <santi@est.unileon.es>\n"
-"Last-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: app.cpp:94 board.cpp:222

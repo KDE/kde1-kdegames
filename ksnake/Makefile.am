@@ -40,6 +40,9 @@ install-data-local: all
 uninstall-local:
 	-rm -f $(kde_minidir)/ksnake.xpm
 
+messages:
+	$(XGETTEXT) -C -ki18n -ktranslate -x../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/ksnake.pot
+
 ####### Meta classes
 
 mrattler.cpp: rattler.h
