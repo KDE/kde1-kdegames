@@ -307,7 +307,7 @@ void AbTop::setupMenu()
   hint_id = _file->insertItem( klocale->translate("Hint"),
 			     this, SLOT(suggestion()), Key_H );
   _file->insertSeparator();
-  _file->insertItem( klocale->translate("Quit"), 
+  _file->insertItem( i18n("&Quit"), 
 		     this, SLOT(quit()), stdAccel->quit() );
 
   _level = new QPopupMenu;
@@ -353,10 +353,10 @@ void AbTop::setupMenu()
 
   menu  = new KMenuBar(this);
   CHECK_PTR( menu );
-  menu->insertItem( klocale->translate("File"), _file);
-  menu->insertItem( klocale->translate("Options"), _options);
+  menu->insertItem( klocale->translate("&File"), _file);
+  menu->insertItem( klocale->translate("&Options"), _options);
   menu->insertSeparator();
-  menu->insertItem( klocale->translate("Help"), help);
+  menu->insertItem( klocale->translate("&Help"), help);
   menu->show();
 
   setMenu(menu);
