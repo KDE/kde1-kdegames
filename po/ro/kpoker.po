@@ -1,0 +1,117 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kpoker\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"Last-Translator: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
+
+#: kpoker.cpp:96
+msgid "Draw !"
+msgstr "Trage!"
+
+#: kpoker.cpp:123
+msgid "Click a card to hold it"
+msgstr "Click pe o carte ca sã o opreºti"
+
+#: kpoker.cpp:144
+msgid "Held"
+msgstr "Carte blocatã"
+
+#: kpoker.cpp:178
+msgid "draw new cards"
+msgstr "Trage o carte nouã"
+
+#: kpoker.cpp:179 kpoker.cpp:180
+msgid "your last hand"
+msgstr "Ultima mîna"
+
+#: kpoker.cpp:181 kpoker.cpp:182
+msgid "money left"
+msgstr "Restul de bani"
+
+#: kpoker.cpp:205 kpoker.cpp:485 kpoker.cpp:497
+msgid "nothing"
+msgstr "Nimic"
+
+#: kpoker.cpp:360
+msgid "Cash"
+msgstr "Bani"
+
+#: kpoker.cpp:374
+msgid "Last Hand"
+msgstr "Ultima mîna"
+
+#: kpoker.cpp:487
+msgid "One Pair"
+msgstr "O pereche"
+
+#: kpoker.cpp:488
+msgid "Two Pairs"
+msgstr "Douã perechi"
+
+#: kpoker.cpp:489
+msgid "3 of a kind"
+msgstr "3 de un fel"
+
+#: kpoker.cpp:490
+msgid "Full House"
+msgstr "Full House"
+
+#: kpoker.cpp:491
+msgid "4 of a kind"
+msgstr "4 de un fel"
+
+#: kpoker.cpp:492
+msgid "Straight"
+msgstr "Straight"
+
+#: kpoker.cpp:493
+msgid "Flush"
+msgstr "Flush"
+
+#: kpoker.cpp:494
+msgid "Straight Flush"
+msgstr "Straight Flush"
+
+#: kpoker.cpp:495
+msgid "Royal Flush"
+msgstr "Royal Flush"
+
+#: kpoker.cpp:503
+msgid "You Lost"
+msgstr "A-þi pierdut !"
+
+#: kpoker.cpp:504
+msgid ""
+"Oops - you went bankrupt.\n"
+"A highscoretable will appear over here later..."
+msgstr ""
+"Oops - eºti faliment.\n"
+"Aici o sã aparã in curînd o Hiscore listã..."
+
+#: kpoker.cpp:505
+msgid "New game"
+msgstr "Joc nou"
+
+#: kpoker.cpp:571
+msgid "You won $"
+msgstr "Cîstig $"
+
+#: kpoker.cpp:575
+msgid "Game Over"
+msgstr "Game Over"
+
+#: top.cpp:62
+msgid "&New game"
+msgstr "&Joc nou"
+
+#: top.cpp:68
+msgid "&Sound"
+msgstr "&Sunet"
+
+#: top.cpp:81
+msgid "&About..."
+msgstr "&Despre..."
+
+#: top.cpp:82
+msgid "About &Qt..."
+msgstr "Despre &Qt..."
