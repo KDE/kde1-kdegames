@@ -54,7 +54,7 @@ void Score::display(int newHall = -1, int newToday = -1)
     sb2->setTitle(klocale->translate("Today's High Scores"));
 
     QPushButton *b = new QPushButton( dlg);
-    b->setText(klocale->translate("Ok"));
+    b->setText(klocale->translate("OK"));
     b->setAutoDefault(TRUE);
     b->setFocus();
     b->move(300, 480);
@@ -88,7 +88,7 @@ QString Score::getPlayerName() {
     QFrame *sep = new QFrame( dlg);
     sep->setFrameStyle( QFrame::HLine | QFrame::Sunken );
 
-    QPushButton *b = new QPushButton(klocale->translate("Ok"), dlg);
+    QPushButton *b = new QPushButton(klocale->translate("OK"), dlg);
     b->setDefault(TRUE);
     b->setAutoDefault(TRUE);
     connect(b, SIGNAL(released()), dlg, SLOT(accept()));

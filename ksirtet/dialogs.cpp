@@ -155,7 +155,7 @@ Options::Options( QWidget *parent, const char *name )
 	QLabel *label;
 	ADD_LABEL(label, i18n("No option yet !"), 10, 10, 90, LABEL_H);
 	QPushButton *pb;
-	ADD_BUTTON(pb, i18n("Ok"), 35, 130, 50, 30, accept());
+	ADD_BUTTON(pb, i18n("OK"), 35, 130, 50, 30, accept());
 	
 	resize(120,170);
 	exec();

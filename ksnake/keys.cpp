@@ -15,7 +15,7 @@ Keys::Keys( QWidget *parent, const char *name)
 {
 
     QPushButton *okButton  = new QPushButton(this);
-    okButton->setText(klocale->translate("Ok"));
+    okButton->setText(klocale->translate("OK"));
     okButton->setFixedSize(okButton->size());
     connect( okButton, SIGNAL(clicked()),this, SLOT(ok()) );
     okButton->move(20,210);

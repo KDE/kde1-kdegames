@@ -25,7 +25,7 @@ StartRoom::StartRoom( int init, int *newRoom, QWidget *parent, const char *name)
     nr = newRoom;
 
     QPushButton *okButton  = new QPushButton(this);
-    okButton->setText(klocale->translate("Ok"));
+    okButton->setText(klocale->translate("OK"));
     okButton->setFixedSize(okButton->size());
     okButton->setGeometry(60,170, 100, 100);
     connect( okButton, SIGNAL(clicked()), SLOT(ok()) );

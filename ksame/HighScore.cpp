@@ -116,7 +116,7 @@ HighScore::add(int board, int score,int colors) {
      w=MAX(name.width()+20,w);
      h+=name.height()+10;
      
-     QPushButton ok(klocale->translate("Ok"), &dlg);
+     QPushButton ok(klocale->translate("OK"), &dlg);
      ok.setDefault(true);
      
      w=MAX(ok.width()+20,w);
