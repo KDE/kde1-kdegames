@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"PO-Revision-Date: 1998-12-06 20:00+0200\n"
+"Last-Translator: Montel Laurent <montell@club-internet.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kmahjongg.cpp:101
+msgid "Classic"
+msgstr "Classique"
+
+#: kmahjongg.cpp:102
+msgid "Tower"
+msgstr "Tour"
+
+#: kmahjongg.cpp:103
+msgid "Triangle"
+msgstr "Triangle"
+
+#: kmahjongg.cpp:104
+msgid "Pyramide"
+msgstr "Pyramide"
+
+#: kmahjongg.cpp:211
+msgid "&Start new game"
+msgstr "&Démarrer une nouvelle partie"
+
+#: kmahjongg.cpp:213
+msgid "&Help me"
+msgstr "&Aide moi"
+
+#: kmahjongg.cpp:214
+msgid "&Undo last move"
+msgstr "&Annuler le dernier déplacement"
+
+#: kmahjongg.cpp:215
+msgid "&Demo mode"
+msgstr "Mode démonstration"
+
+#: kmahjongg.cpp:216
+msgid "Show &matching tiles"
+msgstr ""
+
+#: kmahjongg.cpp:222
+msgid "&Load Background image..."
+msgstr "&Charger une image de fond..."
+
+#: kmahjongg.cpp:224
+msgid "&Statusbar"
+msgstr ""
+
+#: kmahjongg.cpp:226
+msgid "Mahjongg"
+msgstr ""
+
+#: kmahjongg.cpp:228
+msgid ""
+"\n"
+"\n"
+"by Mathias Mueller"
+msgstr ""
+"\n"
+"\n"
+"par Mathias Mueller"
+
+#: kmahjongg.cpp:387 kmahjongg.cpp:401
+msgid "Unable to open bitmap file !"
+msgstr "Impossible d'ouvrir le fichier bitmap !"
+
+#: kmahjongg.cpp:455
+msgid "Undo operation done successfully."
+msgstr "Annulé avec succès."
+
+#: kmahjongg.cpp:458
+msgid "What do you want to undo? You have done nothing!"
+msgstr "Qu'est ce que vous voulez annuler? Vous n'avez rien précisé!"
+
+#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+msgid "Sorry, you have lost the game."
+msgstr "Désolé ,vous avez perdu la partie."
+
+#: kmahjongg.cpp:504
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "Mode démonstration.Cliquer sur la souris pour l'arrêter"
+
+#: kmahjongg.cpp:512
+msgid "Now it's you again."
+msgstr ""
+
+#: kmahjongg.cpp:532
+msgid "Your computer has lost the game."
+msgstr "Votre ordinateur a perdu la partie."
+
+#: kmahjongg.cpp:618
+msgid "Congratulations. You have won!"
+msgstr "Félicitation. Vous avez gagné!"
+
+#: kmahjongg.cpp:644
+msgid "Calculating new game..."
+msgstr "Calcul d'une nouvelle partie..."
+
+#: kmahjongg.cpp:650
+msgid "Error converting board information!"
+msgstr ""
+
+#: kmahjongg.cpp:662
+msgid "Ready. Now it's your turn."
+msgstr "Prêt.C'est votre tour"
+
+#: kmahjongg.cpp:668
+msgid "Error generating new game!"
+msgstr "Erreur pendant la génération de la nouvelle partie !"
+
+#: kmahjongg.cpp:1666
+#, c-format
+msgid ""
+"Failed to load image:\n"
+"%s"
+msgstr ""
+"Le chargement de l'image:\n"
+"%s a échoué"
+
+#: kmahjongg.cpp:1677
+#, c-format
+msgid ""
+"Sorry, this image uses %d colors.\n"
+"Maximum allowed is %d"
+msgstr ""
+"Désolé, cette image utilise %d couleurs.\n"
+"Le maximum permis est %d"

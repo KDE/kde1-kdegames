@@ -1,0 +1,139 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"PO-Revision-Date: 1998-12-06 20:00+0200\n"
+"Last-Translator: Montel Laurent <montell@club-internet.fr>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: dialogs.cpp:95
+msgid "Customize Game"
+msgstr ""
+
+#: dialogs.cpp:124
+msgid "Width"
+msgstr "Largeur"
+
+#: dialogs.cpp:149
+msgid "Height"
+msgstr "Hauteur"
+
+#: dialogs.cpp:174
+msgid "Mines"
+msgstr "Mines"
+
+#: dialogs.cpp:258
+msgid "Hall of Fame"
+msgstr ""
+
+#: dialogs.cpp:288 main.cpp:64
+msgid "Easy"
+msgstr "Facile"
+
+#: dialogs.cpp:289 main.cpp:65
+msgid "Normal"
+msgstr "Normal"
+
+#: dialogs.cpp:290 main.cpp:66
+msgid "Expert"
+msgstr "Expert"
+
+#: dialogs.cpp:317
+msgid "in"
+msgstr "en"
+
+#: dialogs.cpp:332
+msgid "minutes"
+msgstr "minutes"
+
+#: dialogs.cpp:342
+msgid "and"
+msgstr "et"
+
+#: dialogs.cpp:354
+msgid "seconds."
+msgstr "seconds"
+
+#: dialogs.cpp:384 status.cpp:96
+msgid "Anonymous"
+msgstr ""
+
+#: field.cpp:81
+msgid "Game paused"
+msgstr ""
+
+#: field.cpp:82
+msgid "Press to resume"
+msgstr "Appuyer pour redémarrer"
+
+#: status.cpp:215
+msgid "You did it ... but not in time."
+msgstr ""
+
+#: status.cpp:216
+msgid "Yeeessss !"
+msgstr ""
+
+#: status.cpp:219
+msgid "Bad luck !"
+msgstr "Pas de chance !"
+
+#: main.cpp:22
+msgid "New game"
+msgstr "Nouvelle partie"
+
+#: main.cpp:23
+msgid "Pause game"
+msgstr "Pause"
+
+#: main.cpp:24
+msgid "High scores"
+msgstr "Meilleurs scores"
+
+#: main.cpp:43 main.cpp:159
+msgid "Hide menu bar"
+msgstr "Cacher la barre du menu"
+
+#: main.cpp:46
+msgid "&New game"
+msgstr "&Nouvelle partie"
+
+#: main.cpp:49
+msgid "&Pause game"
+msgstr "&Pause"
+
+#: main.cpp:52
+msgid "&High scores"
+msgstr "&Meilleurs scores"
+
+#: main.cpp:60
+msgid "? mark"
+msgstr ""
+
+#: main.cpp:61
+msgid "Keys"
+msgstr ""
+
+#: main.cpp:68
+msgid "Custom"
+msgstr ""
+
+#: main.cpp:74
+msgid "by"
+msgstr ""
+
+#: main.cpp:79
+msgid "&Level"
+msgstr "&Niveau"
+
+#: main.cpp:156
+msgid "Show menu bar"
+msgstr "Montrer la barre du menu"
