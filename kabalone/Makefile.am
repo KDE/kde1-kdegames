@@ -29,12 +29,12 @@ apps_DATA = kabalone.kdelnk
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kabalone.xpm $(kde_icondir)balone.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kabalone.xpm $(kde_minidir)/MMbalone.xpm
 	$(mkinstalldirs) $(kde_icondir)/large
 	$(INSTALL_DATA) $(srcdir)/large-kabalone.xpm $(kde_icondir)/large/kabalone.xpm
 
 uninstall-local:
-	-rm -f $(kde_icondir)balone.xpm
+	-rm -f $(kde_minidir)/MMbalone.xpm
 	-rm -f $(kde_icondir)/large/kabalone.xpm
 
 messages:

@@ -23,12 +23,12 @@ EXTRA_DIST = $(apps_DATA) $(kde_icon_DATA) mini-kpoker.xpm
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kpoker.xpm $(kde_icondir)oker.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kpoker.xpm $(kde_minidir)/MMoker.xpm
 	$(mkinstalldirs) $(kde_icondir)/large
 	$(INSTALL_DATA) $(srcdir)/large-kpoker.xpm $(kde_icondir)/large/kpoker.xpm
 
 uninstall-local:
-	rm -f $(kde_icondir)oker.xpm
+	rm -f $(kde_minidir)/MMoker.xpm
 	rm -f $(kde_icondir)/large/kpoker.xpm
 
 messages:

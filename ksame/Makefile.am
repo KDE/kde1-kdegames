@@ -23,12 +23,12 @@ EXTRA_DIST = $(pics_DATA) $(apps_DATA) ksame.xpm mini-ksame.xpm
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-ksame.xpm $(kde_icondir)ame.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-ksame.xpm $(kde_minidir)/MMame.xpm
 	$(mkinstalldirs) $(kde_icondir)/large
 	$(INSTALL_DATA) $(srcdir)/large-ksame.xpm $(kde_icondir)/large/ksame.xpm
 
 uninstall-local:
-	rm -f $(kde_icondir)ame.xpm
+	rm -f $(kde_minidir)/MMame.xpm
 	rm -f $(kde_icondir)/large/ksame.xpm
 
 messages:

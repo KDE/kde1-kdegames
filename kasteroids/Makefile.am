@@ -25,12 +25,12 @@ kde_icon_DATA = kasteroids.xpm
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kasteroids.xpm $(kde_icondir)steroids.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kasteroids.xpm $(kde_minidir)/MMsteroids.xpm
 	$(mkinstalldirs) $(kde_icondir)/large
 	$(INSTALL_DATA) $(srcdir)/large-kasteroids.xpm $(kde_icondir)/large/kasteroids.xpm
 
 uninstall-local:
-	-rm -f $(kde_icondir)steroids.xpm
+	-rm -f $(kde_minidir)/MMsteroids.xpm
 	-rm -f $(kde_icondir)/large/kasteroids.xpm
 
 messages:
