@@ -12,7 +12,7 @@ msgstr ""
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-3\n"
-"Content-Transfer-Encoding: 8-bit\n" 
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: kmahjongg.cpp:101
 msgid "Classic"
@@ -137,6 +137,3 @@ msgid ""
 msgstr ""
 "Pardonu, tiu bildo uzas %d kolorojn.\n"
 "Maksimumo estas %d"
-
-
-

@@ -12,7 +12,7 @@ msgstr ""
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-3\n"
-"Content-Transfer-Encoding: 8-bit\n" 
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: kpoker.cpp:98
 msgid "Draw !"
@@ -113,7 +113,3 @@ msgstr "&Nova ludo"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Sonoroj"
-
-
-
-

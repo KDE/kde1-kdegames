@@ -12,7 +12,7 @@ msgstr ""
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-3\n"
-"Content-Transfer-Encoding: 8-bit\n" 
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
@@ -208,7 +208,3 @@ msgstr "Ne eblis legi fonbildon!"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Aýtomate"
-
-
-
-

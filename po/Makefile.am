@@ -1,6 +1,6 @@
 
 SUBDIRS = cs de es fi fr hr hu it no pl pt ro ru sk nl el \
-	zh_CN.GB2312 zh_TW.Big5 mk pt_BR
+	zh_CN.GB2312 zh_TW.Big5 mk pt_BR eo
 
 # this is a general list for merging!
 APPS = kreversi kabalone kasteroids kpat kpoker kshisen kmines \

@@ -169,7 +169,3 @@ msgstr "Poentoj"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Ne eblis malfermi rastrobildojn!"
-
-
-
-
