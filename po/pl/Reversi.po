@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reversi \n"
 "POT-Creation-Date: 1998-01-02 15:01+0100\n"
-"PO-Revision-Date: 1998-01-05 18:01+0100\n"
+"PO-Revision-Date: 1998-01-13 14:06+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -274,9 +274,8 @@ msgid "Computer (XXXXX): 88"
 msgstr "Komputer (XXXXX): 88"
 
 #: app.cpp:424
-#, fuzzy
 msgid "Game saved"
-msgstr "Gra siê zakoñczy³a"
+msgstr "Gra zachowana"
 
 #: app.cpp:602
 msgid "not yet implemented"
