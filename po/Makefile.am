@@ -1,5 +1,5 @@
 
-SUBDIRS = cs de es fi fr hr hu it no pl pt ro ru zh sk nl
+SUBDIRS = cs de es fi fr hr hu it no pl pt ro ru zh sk nl el
 
 # this is a general list for merging!
 APPS = kreversi kabalone kasteroids kpat kpoker kshisen kmines \
