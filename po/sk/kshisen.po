@@ -1,0 +1,201 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kshisen\n"
+"POT-Creation-Date: 1998-03-05 12:11+0100\n"
+"PO-Revision-Date: 1998-03-20 12:20 MET\n"
+"Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
+"Language-Team: Slovak <bednar@isternet.sk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"           
+
+#: app.cpp:88 board.cpp:175
+msgid "Shisen-Sho"
+msgstr "©insen-©o"
+
+#: app.cpp:102
+msgid "Get &hint"
+msgstr "Poskytnú» &radu"
+
+#: app.cpp:104
+msgid "&New game"
+msgstr "&Nová hra"
+
+#: app.cpp:105
+msgid "Res&tart game"
+msgstr "&Re¹tartova» hru"
+
+#: app.cpp:107
+msgid "Is game solvable?"
+msgstr "Je hra rie¹iteµná?"
+
+#: app.cpp:109
+msgid "&Hall of Fame"
+msgstr "&Hala slávy"
+
+#: app.cpp:115
+msgid "14x6"
+msgstr "14x6"
+
+#: app.cpp:116
+msgid "18x8"
+msgstr "18x8"
+
+#: app.cpp:117
+msgid "24x12"
+msgstr "24x12"
+
+#: app.cpp:118
+msgid "28x16"
+msgstr "28x16"
+
+#: app.cpp:119
+msgid "32x20"
+msgstr "32x20"
+
+#: app.cpp:123
+msgid "Very fast"
+msgstr "Veµmi rýchla"
+
+#: app.cpp:124
+msgid "Fast"
+msgstr "Rýchla"
+
+#: app.cpp:125 app.cpp:130
+msgid "Medium"
+msgstr "Stredná"
+
+#: app.cpp:126
+msgid "Slow"
+msgstr "Pomalá"
+
+#: app.cpp:127
+msgid "Very slow"
+msgstr "Veµmi pomalá"
+
+#: app.cpp:129
+msgid "Easy"
+msgstr "¥ahká"
+
+#: app.cpp:131
+msgid "Hard"
+msgstr "«a¾ká"
+
+#: app.cpp:137
+msgid "About &Qt..."
+msgstr "Informácie o &Qt ..."
+
+#: app.cpp:142
+msgid "Si&ze"
+msgstr "&Veµkos»"
+
+#: app.cpp:143
+msgid "S&peed"
+msgstr "&Rýchlos»"
+
+#: app.cpp:144
+msgid "&Level"
+msgstr "Ú&roveò"
+
+#: app.cpp:145
+msgid "Disallow unsolvable games"
+msgstr "Nepripusti» nerie¹iteµné hry"
+
+#: app.cpp:166
+msgid "Your time: XX:XX:XX"
+msgstr "Vá¹ èas: XX:XX:XX"
+
+#: app.cpp:167 app.cpp:256 app.cpp:281
+msgid "Cheat mode"
+msgstr "Podvádzanie"
+
+#: app.cpp:247
+msgid "This game is solveable"
+msgstr "Táto hra je rie¹iteµná"
+
+#: app.cpp:250
+msgid "This game is NOT solveable"
+msgstr "Táto hra NIE JE rie¹iteµná"
+
+#: app.cpp:348
+msgid "About Shisen-Sho"
+msgstr "Informácie o ©insen-©o"
+
+#: app.cpp:349
+msgid ""
+"Shisen-Sho\n"
+"\n"
+"version 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software published \n"
+"under the GNU General Public License GPL.\n"
+"More about this in the help."
+msgstr ""
+"©isen-©o\n"
+"\n"
+"verzia 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Tento program je volný softvér publikovaný\n"
+"pod GNU General Public License GPL.\n"
+"Viac informácii nájdete v pomocníkovi."
+
+#: app.cpp:381 app.cpp:404
+msgid "End of game"
+msgstr "Koniec hry"
+
+#: app.cpp:382
+msgid "No more moves possible!"
+msgstr "Ïal¹ie »ahy sú u¾ nemo¾né!"
+
+#: app.cpp:399
+#, c-format
+msgid "Congratulations! You made it in %02d:%02d:%02d"
+msgstr "Gratulujem! Zvládli ste to za %02d:%02d:%02d"
+
+#: app.cpp:416
+#, c-format
+msgid "Your time: %02d:%02d:%02d"
+msgstr "Vá¹ èas je: %02d:%02d:%02d"
+
+#: app.cpp:427
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr ""
+"Dostali ste sa do \"Haly Slávy\". Vlo¾te svoje meno, aby\n"
+"si µudstvo stále pamätalo va¹e skvelé hodnotenie."
+
+#: app.cpp:430
+msgid "Your name:"
+msgstr "Va¹e meno:"
+
+#: app.cpp:571 app.cpp:576
+msgid "Hall Of Fame"
+msgstr "Hala slávy"
+
+#: app.cpp:572
+msgid "Shisen-Sho: Hall Of Fame"
+msgstr "©insen-©o: Hala Slávy"
+
+#: app.cpp:597
+msgid "Rank"
+msgstr "Poradie"
+
+#: app.cpp:601
+msgid "Name"
+msgstr "Meno"
+
+#: app.cpp:605
+msgid "Time"
+msgstr "Èas"
+
+#: board.cpp:176
+msgid "Cannot load pixmaps!"
+msgstr "Nie je mo¾né naèíta» obrázky!"
