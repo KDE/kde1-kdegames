@@ -2,16 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1999-01-21 01:39+0100\n"
-"PO-Revision-Date: 1998-06-17 21:37+0200\n"
-"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
+"PO-Revision-Date: 1999-02-06 21:37+0100\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: kbbgame.cpp:73 kbbgame.cpp:114
 msgid "&Help"
-msgstr "&Ayuda"
+msgstr "A&yuda"
 
 #: kbbgame.cpp:76
 msgid "&About KBlackBox"
-msgstr "A&cerca de KBlackBox"
+msgstr "&Acerca de KBlackBox"
 
 #: kbbgame.cpp:78
 msgid "About &Qt"
@@ -62,9 +66,8 @@ msgid "&Options"
 msgstr "&Opciones"
 
 #: kbbgame.cpp:170
-#, fuzzy
 msgid "Quit"
-msgstr "&Salir"
+msgstr "Quitar"
 
 #: kbbgame.cpp:172
 msgid "New"
@@ -79,9 +82,8 @@ msgid "Done"
 msgstr "Hecho"
 
 #: kbbgame.cpp:179
-#, fuzzy
 msgid "Help"
-msgstr "&Ayuda"
+msgstr "Ayuda"
 
 #: kbbgame.cpp:406
 msgid "About"
@@ -152,7 +154,6 @@ msgid "Yes"
 msgstr "Sí"
 
 #: kbbgame.cpp:575
-#, fuzzy
 msgid "No"
 msgstr "No"
 
@@ -179,15 +180,3 @@ msgstr "No importa..."
 #: kbbgame.cpp:611 kbbgame.cpp:640
 msgid "Oh, no!"
 msgstr "¡Oh, no!"
-
-#~ msgid "Click here when you think you placed all the balls."
-#~ msgstr "Haz click aquí cuando crea que ha colocado todas las bolas."
-
-#~ msgid "This is your score."
-#~ msgstr "Esta es su puntuación."
-
-#~ msgid "These are some game statistics."
-#~ msgstr "Estas son algunas estadísticas."
-
-#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-#~ msgstr " Ejecuntando: %s, Tamaño: %3d x%3d, Bolas: %3d /%3d"

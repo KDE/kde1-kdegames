@@ -1,9 +1,13 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-10-18 15:53+0200\n"
+"PO-Revision-Date: 1999-02-06 21:53+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
-"First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: app.cpp:218 app.cpp:553
 msgid ""
@@ -15,15 +19,15 @@ msgstr ""
 
 #: app.cpp:245
 msgid "&New game"
-msgstr "&Nuevo juego"
+msgstr "&Nueva partida"
 
 #: app.cpp:246
 msgid "&Load game"
-msgstr "&Cargar juego"
+msgstr "&Cargar partida"
 
 #: app.cpp:247
 msgid "&Save game"
-msgstr "&Guardar juego"
+msgstr "&Guardar partida"
 
 #: app.cpp:252
 msgid "Get &hint"
@@ -209,7 +213,7 @@ msgstr "Ordenador (XXXXX): 88"
 
 #: app.cpp:429
 msgid "Game saved"
-msgstr "Juego guardado"
+msgstr "Partida guardada"
 
 #: app.cpp:591
 msgid "not yet implemented"
@@ -235,7 +239,7 @@ msgstr "rojo"
 
 #: app.cpp:656
 msgid "End of game"
-msgstr "Final del juego"
+msgstr "Fin de la partida"
 
 #: app.cpp:666
 #, c-format
@@ -252,7 +256,7 @@ msgstr ""
 
 #: app.cpp:667 app.cpp:679 app.cpp:699
 msgid "Game ended"
-msgstr "Juego finalizado"
+msgstr "Partida finalizada"
 
 #: app.cpp:677
 msgid ""
@@ -276,7 +280,7 @@ msgid ""
 "You     : %d\n"
 "Computer: %d"
 msgstr ""
-"¡Ha perdido!\n"
+"¡Ha perdido la partida!\n"
 "\n"
 "Usted     : %d\n"
 "Ordenador : %d"

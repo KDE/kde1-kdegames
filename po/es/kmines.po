@@ -1,12 +1,17 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1999-01-27 01:35+0100\n"
-"PO-Revision-Date: 1998-10-18 16:07+0200\n"
+"PO-Revision-Date: 1999-02-06 21:07+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: dialogs.cpp:95
 msgid "Customize Game"
-msgstr "Personalizar juego"
+msgstr "Personalizar Partida"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -58,7 +63,7 @@ msgstr "Anónimo"
 
 #: field.cpp:81
 msgid "Game paused"
-msgstr "Juego en Pausa"
+msgstr "Partida pausada"
 
 #: field.cpp:82
 msgid "Press to resume"
@@ -66,11 +71,11 @@ msgstr "Presione para seguir"
 
 #: status.cpp:217
 msgid "You did it ... but not in time."
-msgstr "Lo hiciste ... pero no a tiempo."
+msgstr "Lo hicistes ... pero no a tiempo."
 
 #: status.cpp:218
 msgid "Yeeessss !"
-msgstr "¡ Yeahhhhh ;-) !"
+msgstr "¡ Yeahhhhh !"
 
 #: status.cpp:221
 msgid "Bad luck !"
@@ -78,15 +83,15 @@ msgstr "¡Mala suerte¡"
 
 #: main.cpp:22
 msgid "New game"
-msgstr "Nuevo juego"
+msgstr "Nueva partida"
 
 #: main.cpp:23
 msgid "Pause game"
-msgstr "Pausa"
+msgstr "Pausar partida"
 
 #: main.cpp:24
 msgid "High scores"
-msgstr "Mejores tiempos"
+msgstr "Mejores puntuaciones"
 
 #: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
@@ -94,19 +99,19 @@ msgstr "Ocultar barra de menus"
 
 #: main.cpp:48
 msgid "&New game"
-msgstr "&Nuevo juego"
+msgstr "&Nueva partida"
 
 #: main.cpp:51
 msgid "&Pause game"
-msgstr "&Pausar juego"
+msgstr "&Pausar partida"
 
 #: main.cpp:54
 msgid "&High scores"
-msgstr "&Mejores puntos"
+msgstr "&Mejores puntuaciones"
 
 #: main.cpp:56
 msgid "&Print"
-msgstr ""
+msgstr "Im&primir"
 
 #: main.cpp:64
 msgid "? mark"
@@ -131,42 +136,3 @@ msgstr "Nive&l"
 #: main.cpp:160
 msgid "Show menu bar"
 msgstr "Mostrar barra de menus"
-
-#~ msgid "Minesweeper"
-#~ msgstr "Buscaminas"
-
-#~ msgid "kmines : High Scores"
-#~ msgstr "kmins : Mejores tiempos"
-
-#~ msgid "Easy :"
-#~ msgstr "Fácil :"
-
-#~ msgid "Expert :"
-#~ msgstr "Experto :"
-
-#~ msgid "minutes."
-#~ msgstr "minutos."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "¡El archivo de records no es modificable!"
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines : Error"
-
-#~ msgid "Close dialog"
-#~ msgstr "Cerrar ventana de diálogo"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Aceptar ventana de diálogo"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Cancelar ventana de dialogo"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "por Nicolas Hadacek"

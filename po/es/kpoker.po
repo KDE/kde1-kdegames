@@ -1,13 +1,17 @@
 msgid ""
 msgstr ""
+"Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1999-01-05 01:44+0100\n"
-"PO-Revision-Date: 1998-10-18 14:54+0200\n"
+"PO-Revision-Date: 1999-02-06 21:54+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
-"First-Translator: Jochen Tuchbreiter\n"
+"Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=ISO-8859-1\n"
+"Content-Transfer-Encoding: 8-bit\n"
 
 #: kpoker.cpp:82 kpoker.cpp:538
 msgid "New game"
-msgstr "Nuevo juego"
+msgstr "Nueva partida"
 
 #: kpoker.cpp:95
 msgid "Draw !"
@@ -95,11 +99,11 @@ msgstr "Ganó $"
 
 #: kpoker.cpp:622
 msgid "Game Over"
-msgstr "Fin del juego"
+msgstr "Partida Terminada"
 
 #: top.cpp:63
 msgid "&New game"
-msgstr "&Nuevo juego"
+msgstr "&Nueva partida"
 
 #: top.cpp:69
 msgid "&Sound"
@@ -136,10 +140,3 @@ msgid ""
 msgstr ""
 "\n"
 "Sugerencias, reportes de fallos etc. son bienvenidos"
-
-#~ msgid ""
-#~ "Oops - you went bankrupt.\n"
-#~ "A highscoretable will appear over here later..."
-#~ msgstr ""
-#~ "Oops - está en bancarrota!\n"
-#~ "Aparecerá una tabla de vencedores más tarde..."
