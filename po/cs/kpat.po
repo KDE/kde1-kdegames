@@ -2,16 +2,15 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kpat\n"
+"PO-Revision-Date: 1997-10-18 17:21 MET DST\n"
 "POT-Creation-Date: 1997-09-11 12:52+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
+"Language-Team: czech <LL@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: cardmaps.cpp:60
@@ -138,7 +137,7 @@ msgstr "&Restartuj hru"
 
 #: pwidget.cpp:85
 msgid "&Klondike"
-msgstr ""
+msgstr "&Klondike"
 
 #: pwidget.cpp:86 pwidget.cpp:250
 msgid "MicroSolitaire"
@@ -197,20 +196,24 @@ msgid "&Options"
 msgstr "&Mo¾nosti"
 
 #: pwidget.cpp:109
-msgid "Help..."
-msgstr "Nápovìda..."
+msgid "&Help..."
+msgstr "&Nápovìda..."
 
 #: pwidget.cpp:110
-msgid "Help on rules..."
-msgstr "Nápovìda k pravidlùm..."
+msgid "Help on &rules..."
+msgstr "Nápovìda k &pravidlùm..."
+
+#: pwidget.cpp:111
+msgid "About &Qt..."
+msgstr "Informace o &Qt"
 
 #: pwidget.cpp:112
-msgid "About..."
-msgstr "Informace..."
+msgid "A&bout..."
+msgstr "&Informace..."
 
 #: pwidget.cpp:113 pwidget.cpp:125
-msgid "&Help"
-msgstr "&Nápovìda"
+msgid "Help"
+msgstr "Nápovìda"
 
 #: pwidget.cpp:124
 msgid "Quit"

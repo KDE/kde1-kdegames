@@ -1,0 +1,137 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kpoker\n"
+"PO-Revision-Date: 1997-10-18 17:21 MET DST\n"
+"Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
+"Language-Team: czech <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kpoker.cpp:97
+msgid "Draw !"
+msgstr "Rozdej !"
+
+#: kpoker.cpp:123
+msgid "Click a card to hold it"
+msgstr "Klikni na karty, které si chcete ponechat"
+
+#: kpoker.cpp:144
+msgid "Held"
+msgstr "Podr¾et"
+
+#: kpoker.cpp:180
+msgid "draw new cards"
+msgstr "Rozdej nové karty"
+
+#: kpoker.cpp:181 kpoker.cpp:182
+msgid "your last hand"
+msgstr "va¹e poslední ruka"
+
+#: kpoker.cpp:183 kpoker.cpp:184
+msgid "money left"
+msgstr "zbylé peníze"
+
+#: kpoker.cpp:207 kpoker.cpp:488 kpoker.cpp:500
+msgid "nothing"
+msgstr "nic"
+
+#: kpoker.cpp:364
+msgid "Cash"
+msgstr "Peníze"
+
+#: kpoker.cpp:378
+msgid "Last Hand"
+msgstr "V poslední ruce"
+
+#: kpoker.cpp:490
+msgid "One Pair"
+msgstr "Jeden pár"
+
+#: kpoker.cpp:491
+msgid "Two Pairs"
+msgstr "Dva páry"
+
+#: kpoker.cpp:492
+msgid "3 of a kind"
+msgstr "3 od jednoho druhu"
+
+#: kpoker.cpp:493
+msgid "Full House"
+msgstr ""
+
+#: kpoker.cpp:494
+msgid "4 of a kind"
+msgstr "4 od jednoho druhu"
+
+#: kpoker.cpp:495
+msgid "Straight"
+msgstr ""
+
+#: kpoker.cpp:496
+msgid "Flush"
+msgstr ""
+
+#: kpoker.cpp:497
+msgid "Straight Flush"
+msgstr ""
+
+#: kpoker.cpp:498
+msgid "Royal Flush"
+msgstr ""
+
+#: kpoker.cpp:506
+msgid "You Lost"
+msgstr "Prohrál jste"
+
+#: kpoker.cpp:507
+msgid ""
+"Oops - you went bankrupt.\n"
+"A highscoretable will appear over here later..."
+msgstr ""
+"Ouha - zbankrotoval jste.\n"
+"Pozdìji se zde objeví tabulka nejvy¹¹ích výkonù..."
+
+#: kpoker.cpp:508
+msgid "New game"
+msgstr "Nová hra"
+
+#: kpoker.cpp:574
+msgid "You won $"
+msgstr "Vyhrál jste $"
+
+#: kpoker.cpp:578
+msgid "Game Over"
+msgstr "Hra skonèena"
+
+#: top.cpp:62
+msgid "&New game"
+msgstr "&Nová hra"
+
+#: top.cpp:64
+msgid "&Quit"
+msgstr "&Ukonèit"
+
+#: top.cpp:68
+msgid "&Sound"
+msgstr "&Zvuk"
+
+#: top.cpp:79 top.cpp:88
+msgid "&Help"
+msgstr "&Nápovìda"
+
+#: top.cpp:81
+msgid "&About..."
+msgstr "&Informace..."
+
+#: top.cpp:84
+msgid "&File"
+msgstr "&Soubor"
+
+#: top.cpp:85
+msgid "&Options"
+msgstr "&Mo¾nosti"
