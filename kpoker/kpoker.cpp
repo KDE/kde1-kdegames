@@ -93,8 +93,8 @@ kpok::kpok(QWidget *parent, const char *name)
 
 	drawButton = new QPushButton(this,0);
 	
-	drawButton->setGeometry(210-30,CLHDistFromTop,60,30);
 	drawButton->setText(locale->translate("Draw !"));
+	drawButton->setGeometry(210-drawButton->sizeHint().width() / 2,CLHDistFromTop,drawButton->sizeHint().width(),drawButton->sizeHint().height());
 	connect( drawButton, SIGNAL(clicked()), this, SLOT( drawClick() ) );
 	
 	for (w=0;w < 5; w++)
