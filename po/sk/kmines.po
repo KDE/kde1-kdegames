@@ -102,19 +102,16 @@ msgid "Hide menu bar"
 msgstr "Skry» menu"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Nová hra"
+msgstr "&Nová hra"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Pozastavi» hru"
+msgstr "&Pozastavi» hru"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Najlep¹ie výsledky"
+msgstr "Na&jlep¹ie výsledky"
 
 #: main.cpp:60
 msgid "? mark"
@@ -133,13 +130,10 @@ msgid "by"
 msgstr "od"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Úroveò"
+msgstr "Ú&roveò"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "Zobrazi» menu"
 
-#~ msgid "Minesweeper"
-#~ msgstr "Míny"
