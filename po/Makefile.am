@@ -1,5 +1,5 @@
 
-SUBDIRS = de fr cs it pl pt es fi hu
+SUBDIRS = de fr cs it pl pt es fi hu ru
 
 # TODO: This does not any longer work
 merge:
