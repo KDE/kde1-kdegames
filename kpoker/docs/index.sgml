@@ -3,12 +3,13 @@
 <article>
 <title>KPoker help
 <author>Jochen Tuchbreiter, <htmlurl url="mailto:whynot@mabi.de" name="whynot@mabi.de">
-<date>v0.2, 09/05/97
+<date>v0.3, 26/02/98
 <abstract>
-This is the helpfile of KPoker, a little video poker clone.
+This is the helpfile of KPoker, a little video poker clone. It was last
+updated for KPoker version 0.4.1
 </abstract>
 <toc>
-<sect>General information about KPoker
+<sect>Introduction
 
 <sect1>What is KPoker ?
 <p>
@@ -20,30 +21,10 @@ pocket video poker games which are sometimes called "Videopoker" as well.
 <p>
 The latest version of KPoker is always avaible at
 <itemize>
-<item>The KPoker homepage: <url url="http://www.mabi.de/~whynot/kpoker.html">
+<item>The KPoker homepage: <url url="http://www.mabi.de/~whynot/kpoker/">
 <item>The KDE homepage: <url url="http://www.kde.org">
 </itemize>
 </sect1>
-
-<sect1>How do I contact the author ?
-<p>
-The best way to contact me is EMail: Jochen Tuchbreiter as <htmlurl url="mailto:whynot@mabi.de" name="whynot@mabi.de">
-
-I would appreciate any positive or negative feedback concerning this
-game. I am also very open to new suggestions and ideas... :)
-</sect1>
-
-<sect1>Credits
-<p>
-Thanks go to:
-<itemize>
-<item>Chris Holmes - for the idea of writing this game and for parts of the visual appearence
-<item>John Fitzgibbon - for providing the card images
-<item>Nico Schirwing - for drawing the backsides of the cards
-<item>The whole KDE development team - for creating such a wonderful desktop environment.
-</itemize>
-</sect1>
-
 
 <sect>Gameplay
 <sect1>How do I play ?
@@ -88,5 +69,25 @@ Possible poker hands are:
 <item> Royal Flush: $2000
 </itemize>
 </sect1>
+
+<sect>Epilogue
+<sect1>Authors
+<p>
+Author of KPoker is Jochen Tuchbreiter, <htmlurl url="mailto:whynot@mabi.de" name="whynot@mabi.de">
+<p>
+Persons helping me:
+<itemize>
+<item>Chris Holmes - idea of writing this game and for parts of the visual appearence
+<item>John Fitzgibbon - provided the card images
+<item>Nico Schirwing - drew the backsides of the cards
+</itemize>
+</sect1>
+
+<sect1>Copyright
+<p>
+KPoker is released under the GPL license
+</sect1>
+
+</sect>
 
 </article>

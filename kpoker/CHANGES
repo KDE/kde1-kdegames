@@ -9,6 +9,8 @@ segfault when you press "Draw Cards" :-(
 - integrated version.h so that there is only one #define for the version & 
   release date (and not multiple ones like before)
 
+- put epilogue into the documentation
+
 ------------------------------------------------------------------------------
 Version 0.4
 

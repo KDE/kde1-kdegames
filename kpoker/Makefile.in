@@ -1,5 +1,5 @@
-# This is the kpoker Makefile.in (thanks to Stefan Coolo for the
-# providing an example Makefile
+# This is the kpoker Makefile.in (thanks to Stefan Coolo for
+# providing an example Makefile)
 
 kde_libraries = @kde_libraries@
 qt_libraries = @qt_libraries@
