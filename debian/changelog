@@ -1,3 +1,9 @@
+kdegames (2:980419-b4-1) unstable; urgency=low
+
+  * new upstream version Beta4
+
+ -- Stephan Kulow <coolo@kde.org>  Sun, 19 Apr 1998 15:49:10 +0200
+
 kdegames (2:980310-3) frozen; urgency=low
 
   * removed this ugly dependency on a specific kdebase version
