@@ -23,6 +23,8 @@ DISTCLEANFILES = $(ksmiletris_METASOURCES)
 
 EXTRA_DIST = ksmiletris.xpm mini-ksmiletris.xpm ksmiletris.kdelnk
 
+messages:
+
 install-data-local: 
 	$(mkinstalldirs) $(APPSDIR)
 	$(INSTALL_DATA) ksmiletris.kdelnk $(APPSDIR)
