@@ -6,102 +6,162 @@ msgstr ""
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
-#: AbTop.cpp:29 AbTop.cpp:143
+#: AbTop.cpp:228 AbTop.cpp:379
 msgid "Move"
 msgstr "Zug"
 
-#: AbTop.cpp:32 AbTop.cpp:147
+#: AbTop.cpp:231 AbTop.cpp:383
 msgid "Press F2 for a new game"
 msgstr "F2 für ein neues Spiel"
 
-#: AbTop.cpp:73
+#: AbTop.cpp:244 AbTop.cpp:278
 msgid "New Game"
 msgstr "Neues Spiel"
 
-#: AbTop.cpp:75
+#: AbTop.cpp:249 AbTop.cpp:286
 msgid "Stop Search"
 msgstr "Suche unterbrechen"
 
-#: AbTop.cpp:80
+#: AbTop.cpp:254 AbTop.cpp:290
 msgid "Take back"
 msgstr "Zurücknehmen"
 
-#: AbTop.cpp:82
+#: AbTop.cpp:259 AbTop.cpp:292
 msgid "Hint"
 msgstr "Vorschlag"
 
-#: AbTop.cpp:85
-msgid "Quit"
-msgstr "Beenden"
-
-#: AbTop.cpp:89
-msgid "Easy"
-msgstr "Leicht"
-
-#: AbTop.cpp:91
-msgid "Normal"
-msgstr ""
-
-#: AbTop.cpp:93
-msgid "Hard"
-msgstr "Schwer"
-
-#: AbTop.cpp:95
-msgid "Challange"
-msgstr "Herausforderung"
-
-#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
-msgid "Red"
-msgstr "Rot"
-
-#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
-msgid "Yellow"
-msgstr "Gelb"
-
-#: AbTop.cpp:105
-msgid "Both"
-msgstr "Beide Seiten"
-
-#: AbTop.cpp:111
-msgid "Level"
-msgstr "Spielstärke"
-
-#: AbTop.cpp:112
-msgid "Computer plays"
-msgstr "Computer spielt"
-
-#: AbTop.cpp:114
-msgid "Move slow"
-msgstr "Langsam ziehen"
-
-#: AbTop.cpp:122 AbTop.cpp:405
-msgid "About"
-msgstr "Über..."
-
-#: AbTop.cpp:123
+#: AbTop.cpp:264 AbTop.cpp:333
 msgid "Rules"
 msgstr "Spielregeln"
 
-#: AbTop.cpp:127
+#: AbTop.cpp:281
+msgid "Save Position"
+msgstr "Stellung speichern"
+
+#: AbTop.cpp:283
+msgid "Restore Position"
+msgstr "Stellung restaurieren"
+
+#: AbTop.cpp:295
+msgid "Quit"
+msgstr "Beenden"
+
+#: AbTop.cpp:299
+msgid "Easy"
+msgstr "Leicht"
+
+#: AbTop.cpp:301
+msgid "Normal"
+msgstr ""
+
+#: AbTop.cpp:303
+msgid "Hard"
+msgstr "Schwer"
+
+#: AbTop.cpp:305
+msgid "Challange"
+msgstr "Herausforderung"
+
+#: AbTop.cpp:311 AbTop.cpp:387 AbTop.cpp:391
+msgid "Red"
+msgstr "Rot"
+
+#: AbTop.cpp:313 AbTop.cpp:387 AbTop.cpp:391
+msgid "Yellow"
+msgstr "Gelb"
+
+#: AbTop.cpp:315
+msgid "Both"
+msgstr "Beide Seiten"
+
+#: AbTop.cpp:321
+msgid "Level"
+msgstr "Spielstärke"
+
+#: AbTop.cpp:322
+msgid "Computer plays"
+msgstr "Computer spielt"
+
+#: AbTop.cpp:324
+msgid "Move slow"
+msgstr "Langsam ziehen"
+
+#: AbTop.cpp:326 Spion.cpp:75
+msgid "Spy"
+msgstr "Spion"
+
+#: AbTop.cpp:332 AbTop.cpp:719
+msgid "About"
+msgstr "Über..."
+
+#: AbTop.cpp:337
 msgid "File"
 msgstr "Datei"
 
-#: AbTop.cpp:128
+#: AbTop.cpp:338
 msgid "Options"
-msgstr "Optionen"
+msgstr "Einstellungen"
 
-#: AbTop.cpp:130
+#: AbTop.cpp:340
 msgid "Help"
 msgstr "Hilfe"
 
-#: AbTop.cpp:152
+#: AbTop.cpp:388
 msgid "won"
 msgstr "hat gewonnen"
 
-#: AbTop.cpp:156
+#: AbTop.cpp:392
 msgid "I am thinking..."
 msgstr "Ich überlege..."
 
-#: AbTop.cpp:157
+#: AbTop.cpp:393
 msgid "It's your turn !"
 msgstr "Sie sind dran !"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Bewertung"
+
+#: Move.cpp:17
+msgid "Right"
+msgstr "Rechts"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "RechtsRunter"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "LinksRunter"
+
+#: Move.cpp:20
+msgid "Left"
+msgstr "Links"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "LinksHoch"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "RechtsHoch"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Seitlich"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Raus"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "Schieben"
+
+#: Spion.cpp:21
+msgid "Actual examined position:"
+msgstr "Aktuell untersuchte Stellung:"
+
+#: Spion.cpp:46
+msgid "Best move so far:"
+msgstr "Bester Zug bis jetzt:"
