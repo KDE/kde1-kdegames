@@ -1,0 +1,398 @@
+¾# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-09-10 17:26+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: app.cpp:207 app.cpp:505
+msgid "Error"
+msgstr "Gre¹ka"
+
+#: app.cpp:208 app.cpp:506
+msgid ""
+"A problem with the sound server occured!\n"
+"Cannot enable sound support."
+msgstr ""
+"Pojavio se problem s upravljaèem zvuka!\n"
+"Ne mogu pokrenuti zvuènu podr¹ku."
+
+#: app.cpp:232
+msgid "&Quit"
+msgstr "&Zavr¹i"
+
+#: app.cpp:235
+msgid "Get &hint)"
+msgstr "&Trik"
+
+#: app.cpp:237
+msgid "&Stop thinking"
+msgstr "Prestani &razmi¹ljati"
+
+#: app.cpp:238
+msgid "&Continue"
+msgstr "Na&stavi"
+
+#: app.cpp:240
+msgid "&New game"
+msgstr "&Nova igra"
+
+#: app.cpp:242
+msgid "&Undo move"
+msgstr "&Vrati potez"
+
+#: app.cpp:243
+msgid "Switch si&des"
+msgstr "Zami&jeni strane"
+
+#: app.cpp:245
+msgid "Hall Of &Fame..."
+msgstr "Naj&bolji..."
+
+#: app.cpp:251
+msgid "Level 1 (Wimp)"
+msgstr "Razina 1 (Nesposobnjakoviæ)"
+
+#: app.cpp:252
+msgid "Level 2 (Beginner)"
+msgstr "Razina 2 (Poèetnik)"
+
+#: app.cpp:253
+msgid "Level 3 (Novice)"
+msgstr "Razina 3 (Amater)"
+
+#: app.cpp:254
+msgid "Level 4 (Average)"
+msgstr "Razina 4 (Prosjeèan)"
+
+#: app.cpp:255
+msgid "Level 5 (Good)"
+msgstr "Razina 5 (Dobar)"
+
+#: app.cpp:256
+msgid "Level 6 (Expert)"
+msgstr "Razina 6 (Struènjak)"
+
+#: app.cpp:257
+msgid "Level 7 (Master)"
+msgstr "Razina 7 (Veliki Guru)"
+
+#: app.cpp:258
+msgid "Skill"
+msgstr "Sposobnost"
+
+#: app.cpp:260
+msgid "&Shrink board"
+msgstr "&Smanji ploèu"
+
+#: app.cpp:261
+msgid "&Enlarge board"
+msgstr "&Poveæaj ploèu"
+
+#: app.cpp:265
+msgid "&Half size"
+msgstr "Pola &velièine"
+
+#: app.cpp:266
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: app.cpp:267
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: app.cpp:268
+msgid "D&efault size"
+msgstr "U&obièajena velièina"
+
+#: app.cpp:269
+#, c-format
+msgid "120%"
+msgstr "120%"
+
+#: app.cpp:270
+#, c-format
+msgid "140%"
+msgstr "140%"
+
+#: app.cpp:271
+#, c-format
+msgid "160%"
+msgstr "160%"
+
+#: app.cpp:272
+#, c-format
+msgid "180%"
+msgstr "180%"
+
+#: app.cpp:273
+msgid "&Double size"
+msgstr "Dvostru&ka velièina"
+
+#: app.cpp:274
+msgid "Set size"
+msgstr "Postavi velièinu"
+
+#: app.cpp:277
+msgid "Select &background color..."
+msgstr "Biraj boju pozadi&ne..."
+
+#: app.cpp:283
+msgid "none"
+msgstr "ni¹ta"
+
+#: app.cpp:293
+msgid "Select background image"
+msgstr "Biraj pozadinsku sliku"
+
+#: app.cpp:294
+msgid "&Grayscale"
+msgstr "Nijanse &sivog"
+
+#: app.cpp:296
+msgid "&Animations"
+msgstr "&Animacije"
+
+#: app.cpp:300
+msgid "1 (fastest)"
+msgstr "1 (najbr¾e)"
+
+#: app.cpp:306
+msgid "10 (slowest)"
+msgstr "10 (najsporije)"
+
+#: app.cpp:307
+msgid "Animation speed"
+msgstr "Brzina animacije"
+
+#: app.cpp:310
+msgid "S&ound"
+msgstr "Zv&uk"
+
+#: app.cpp:314 app.cpp:324
+msgid "&Help"
+msgstr "&Pomoæ"
+
+#: app.cpp:315
+msgid "&Rules"
+msgstr "P&ravila"
+
+#: app.cpp:316
+msgid "&Strategy hints"
+msgstr "&Strategija i trikovi"
+
+#: app.cpp:318
+msgid "&About..."
+msgstr "&O programu..."
+
+#: app.cpp:320
+msgid "&File"
+msgstr "&Datoteka"
+
+#: app.cpp:321
+msgid "&Game"
+msgstr "&Igra"
+
+#: app.cpp:322
+msgid "&Options"
+msgstr "P&ode¹avanja"
+
+#: app.cpp:357
+msgid "Stop thinking"
+msgstr "Prestani razmi¹ljati"
+
+#: app.cpp:358
+msgid "Undo move"
+msgstr "Vrati potez"
+
+#: app.cpp:359
+msgid "Shrink board"
+msgstr "Smanji ploèu"
+
+#: app.cpp:360
+msgid "Enlarge board"
+msgstr "Poveæaj ploèu"
+
+#: app.cpp:361
+msgid "Get hint"
+msgstr "Trik"
+
+#: app.cpp:362
+msgid "Get help"
+msgstr "Pomoæ"
+
+#: app.cpp:369
+msgid "XXXXX's turn"
+msgstr "XXXXX na potezu"
+
+#: app.cpp:370
+msgid "You (XXXXX): 88"
+msgstr "Vi (XXXXX): 88"
+
+#: app.cpp:371
+msgid "Computer (XXXXX): 88"
+msgstr "Raèunalo (XXXXX): 88"
+
+#: app.cpp:556
+msgid "Information"
+msgstr "Informacija"
+
+#: app.cpp:556
+msgid "not yet implemented"
+msgstr "jo¹ nije ugraðeno"
+
+#: app.cpp:570 app.cpp:574 app.cpp:841
+msgid "blue"
+msgstr "plavi"
+
+#: app.cpp:571 app.cpp:573 app.cpp:843
+msgid "red"
+msgstr "crveni"
+
+#: app.cpp:618
+msgid "End of game"
+msgstr "Kraj igre"
+
+#: app.cpp:628
+#, c-format
+msgid ""
+"Game is drawn!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"Igra nerije¹ena!\}"
+"\n"
+"Vi:     : %d\n"
+"Raèunalo: %d\n"
+
+#: app.cpp:629 app.cpp:641 app.cpp:661
+msgid "Game ended"
+msgstr "Igra privedena kraju"
+
+#: app.cpp:639
+msgid ""
+"Congratulations, you have won!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d\n"
+"Your rating %4.1f%%"
+msgstr ""
+"Bravo, pobijedili ste!\n"
+"\n"
+"Vi:     : %d\n"
+"Raèunalo: %d\n"
+"Va¹ rezultat %4.1f%%"
+
+#: app.cpp:659
+#, c-format
+msgid ""
+"You have lost the game!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"Izgubili ste!\n"
+"\n"
+"Vi:     : %d\n"
+"Raèunalo: %d"
+
+
+#: app.cpp:670
+msgid "Red's"
+msgstr "Crveni"
+
+#: app.cpp:670 app.cpp:672
+msgid "turn"
+msgstr "na potezu"
+
+#: app.cpp:672
+msgid "Blue's"
+msgstr "Plavi"
+
+#: app.cpp:811
+msgid "Hall of Fame"
+msgstr "Najbolji"
+
+#: app.cpp:812
+msgid "Close"
+msgstr "Zatvori"
+
+#: app.cpp:814 app.cpp:816
+msgid "KReversi: Hall Of Fame"
+msgstr "Kreversi: Najbolji igraèi"
+
+#: app.cpp:866
+msgid ""
+"You've made in into the \"Hall Of Fame\". Type in your name so mankind will "
+"always remember your cool rating."
+msgstr ""
+"U¹li ste u popis najboljih! Upi¹ite svoje ime kako bi èovjeèanstvo "
+"zauvijek zapamtilo va¹ uspjeh."
+
+#: app.cpp:871
+msgid "Your name:"
+msgstr "Va¹e ime:"
+
+#: about.cpp:83 app.cpp:880
+msgid "Ok"
+msgstr "U redu"
+
+#: about.cpp:52
+msgid "About KReversi"
+msgstr "O programu KReversi"
+
+#: about.cpp:67
+msgid "Version "
+msgstr "Verzija"
+
+#: about.cpp:69 
+msgid ""  
+"\n"  
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"  
+"\n" 
+"This program is free software published under the GNU General Public License "  
+"(take a look into help for details)\n"  
+"\n"  
+"Thanks to:\n"  
+"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"  
+"\n"  
+"\tStephan Kulow <coolo@itm.mu-luebeck.de> for comments and bugfixes\n"  
+"\n"  
+"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"  
+
+msgstr ""  
+"\n"  
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n" 
+"\n" 
+"Ovaj program je besplatan i izdan pod GNU General Public License " 
+"(za detalje pogledajte pomoæ)\n" 
+"\n" 
+"Hvala:\n" 
+"\tMats Luthman za game engine (igra je naèinjena na osnovu njegovog JAVA appleta)\n" 
+"\n"  
+"\tStephan Kulow <coolo@itm.mu-luebeck.de> za komentare i uklanjanje gre¹aka\n" 
+"\n" 
+"\tArne Klaassen <klaassen@informatik.uni-rostock.de> za animirane ¾etone"             
+
+
+#: app.cpp:569 app.cpp:574
+#, c-format
+msgid "You (%s): %d"
+msgstr "Vi (%s): %d"
+
+#: app.cpp:571 app.cpp:576
+#, c-format
+msgid "Computer (%s): %d"
+msgstr "Raèunalo (%s): %d"
