@@ -14,23 +14,20 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KSameWidget.cpp:50
-#, fuzzy
 msgid "&New"
-msgstr "Nová"
+msgstr "&Nová"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "&Otvori»"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Ukáza» najlep¹ie skóre"
+msgstr "U&káza» najlep¹ie skóre"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Náhodná doska"
+msgstr "&Náhodná doska"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
