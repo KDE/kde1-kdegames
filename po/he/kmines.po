@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-12-01 HO:MI+ZONE\n"
 "Last-Translator: Erez Nir <erez-n@Aactcom.co.il>\n"
 "Language-Team: Hebrew <he@li.org>\n"
@@ -14,149 +14,159 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-8\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:24 main.cpp:35 main.cpp:53
-msgid "New game"
-msgstr "שדח קחשמ"
+#: dialogs.cpp:95
+#, fuzzy
+msgid "Customize Game"
+msgstr "תישיא תמאתומ המר"
 
-#: main.cpp:25 main.cpp:36 main.cpp:54
-msgid "Pause game"
-msgstr "קחשמ רוצע"
+#: dialogs.cpp:124
+#, fuzzy
+msgid "Width"
+msgstr "בחור"
 
-#: main.cpp:27 main.cpp:38 main.cpp:56
-msgid "High scores"
-msgstr "תוהובגה תואצותה"
+#: dialogs.cpp:149
+#, fuzzy
+msgid "Height"
+msgstr "הבוג"
 
-#: main.cpp:28
-msgid "Close dialog"
-msgstr "רוגס חיש תבית"
+#: dialogs.cpp:174
+#, fuzzy
+msgid "Mines"
+msgstr "םישקומ רפסמ"
 
-#: main.cpp:29
-msgid "Ok dialog"
-msgstr "רשא חיש תבית"
+#: dialogs.cpp:258
+msgid "Hall of Fame"
+msgstr "הליהתה לכיה"
 
-#: main.cpp:30
-msgid "Cancel dialog"
-msgstr "לוטיב חיש תבית"
-
-#: main.cpp:51 main.cpp:159
-msgid "Hide menu bar"
-msgstr "םיטירפת רתסה"
-
-#: main.cpp:61
-msgid "? mark"
-msgstr "? ב ןמס"
-
-#: main.cpp:62
-msgid "Keys"
-msgstr "קחשמה ישקמ"
-
-#: main.cpp:65
+#: dialogs.cpp:288 main.cpp:64
 msgid "Easy"
 msgstr "םיליחתמ"
 
-#: main.cpp:67
+#: dialogs.cpp:289 main.cpp:65
+msgid "Normal"
+msgstr ""
+
+#: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
 msgstr "םיחמומ"
 
-#: main.cpp:69
+#: dialogs.cpp:317
+msgid "in"
+msgstr "ךות"
+
+#: dialogs.cpp:332
+#, fuzzy
+msgid "minutes"
+msgstr "ו תוקד"
+
+#: dialogs.cpp:342
+msgid "and"
+msgstr ""
+
+#: dialogs.cpp:354
+msgid "seconds."
+msgstr "תוינש"
+
+#: dialogs.cpp:384 status.cpp:96
+msgid "Anonymous"
+msgstr "ינומלא"
+
+#: field.cpp:81
+msgid "Game paused"
+msgstr "קספוה קחשמה"
+
+#: field.cpp:82
+msgid "Press to resume"
+msgstr "ךישמהל תנמ לע ץחל"
+
+#: status.cpp:215
+msgid "You did it ... but not in time."
+msgstr "ןמזב אל לבא ..תחלצה"
+
+#: status.cpp:216
+msgid "Yeeessss !"
+msgstr "!! ןכ"
+
+#: status.cpp:219
+msgid "Bad luck !"
+msgstr "! תינש הסנ"
+
+#: main.cpp:22
+msgid "New game"
+msgstr "שדח קחשמ"
+
+#: main.cpp:23
+msgid "Pause game"
+msgstr "קחשמ רוצע"
+
+#: main.cpp:24
+msgid "High scores"
+msgstr "תוהובגה תואצותה"
+
+#: main.cpp:43 main.cpp:159
+msgid "Hide menu bar"
+msgstr "םיטירפת רתסה"
+
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "שדח קחשמ"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "קחשמ רוצע"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "תוהובגה תואצותה"
+
+#: main.cpp:60
+msgid "? mark"
+msgstr "? ב ןמס"
+
+#: main.cpp:61
+msgid "Keys"
+msgstr "קחשמה ישקמ"
+
+#: main.cpp:68
 msgid "Custom"
 msgstr "המר רדגה"
 
-#: main.cpp:82
-msgid "Level"
+#: main.cpp:74
+msgid "by"
+msgstr ""
+
+#: main.cpp:79
+#, fuzzy
+msgid "&Level"
 msgstr "המר"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "טירפת גצה"
 
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "ינומלא"
+#~ msgid "Close dialog"
+#~ msgstr "רוגס חיש תבית"
 
-#: status.cpp:251
-msgid "You did it ... but not in time."
-msgstr "ןמזב אל לבא ..תחלצה"
+#~ msgid "Ok dialog"
+#~ msgstr "רשא חיש תבית"
 
-#: status.cpp:252
-msgid "Yeeessss !"
-msgstr "!! ןכ"
+#~ msgid "Cancel dialog"
+#~ msgstr "לוטיב חיש תבית"
 
-#: status.cpp:255
-msgid "Bad luck !"
-msgstr "! תינש הסנ"
+#~ msgid "Highscore file is not writable !"
+#~ msgstr "תוהובגה תואצותה תלבטל בותכל ןתינ אל"
 
-#: status.cpp:301
-msgid "Highscore file is not writable !"
-msgstr "תוהובגה תואצותה תלבטל בותכל ןתינ אל"
+#~ msgid "kmines : Error"
+#~ msgstr "האיגש :םישקומה הלוש"
 
-#: status.cpp:316
-msgid "kmines : Error"
-msgstr "האיגש :םישקומה הלוש"
+#~ msgid "High Scores"
+#~ msgstr "תוהובגה תואצותה"
 
-#: field.cpp:86 field.cpp:93
-msgid "Game paused"
-msgstr "קספוה קחשמה"
+#~ msgid "Uncertain (?) mark"
+#~ msgstr "חוטב ךניא םא ? ב ןומס"
 
-#: field.cpp:89 field.cpp:95
-msgid "Press to resume"
-msgstr "ךישמהל תנמ לע ץחל"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "תישיא תמאתומ המר"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
-msgstr "בחור"
-
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
-msgstr "הבוג"
-
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
-msgstr "םישקומ רפסמ"
-
-#: dialogs.cpp:222
-msgid "High Scores"
-msgstr "תוהובגה תואצותה"
-
-#: dialogs.cpp:232 dialogs.cpp:295
-msgid "in"
-msgstr "ךות"
-
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
-msgstr "ו תוקד"
-
-#: dialogs.cpp:234 dialogs.cpp:319
-msgid "seconds."
-msgstr "תוינש"
-
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "הליהתה לכיה"
-
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "חוטב ךניא םא ? ב ןומס"
-
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "תינש הסנ"
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+#~ msgid "Try again"
+#~ msgstr "תינש הסנ"
