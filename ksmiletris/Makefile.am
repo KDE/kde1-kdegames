@@ -1,4 +1,4 @@
-SUBDIRS = data doc
+SUBDIRS = data doc wav
 EXTRA_DIST = COPYRIGHT
 AUTOMAKE_OPTIONS = foreign 
 
