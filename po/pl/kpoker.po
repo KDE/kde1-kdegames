@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpoker \n"
 "POT-Creation-Date: 1998-06-18 22:46+0200\n"
-"PO-Revision-Date: 1998-01-17 21:35+0100\n"
-"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"PO-Revision-Date: 1998-08-08 00:47+0200\n"
+"Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: kpoker.cpp:98
@@ -84,7 +84,7 @@ msgstr "Przegra³e¶"
 
 #: kpoker.cpp:535
 msgid "Oops - you went bankrupt.\n"
-msgstr ""
+msgstr "Och - zosta³e¶ bankrutem.\n"
 
 #: kpoker.cpp:536
 msgid "New game"
@@ -105,16 +105,3 @@ msgstr "&Nowa gra"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&D¼wiêk"
-
-#~ msgid ""
-#~ "Oops - you went bankrupt.\n"
-#~ "A highscoretable will appear over here later..."
-#~ msgstr ""
-#~ "Ojej - zbankrutowa³e¶.\n"
-#~ "Za chwilê zobaczysz listê wyników..."
-
-#~ msgid "&About..."
-#~ msgstr "&Informacje"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informacje o &Qt"

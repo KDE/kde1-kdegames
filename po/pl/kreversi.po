@@ -1,15 +1,14 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: Reversi \n"
+"Project-Id-Version: kreversi \n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
-"PO-Revision-Date: 1998-01-13 14:06+0100\n"
-"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"PO-Revision-Date: 1998-08-08 00:48+0200\n"
+"Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
-msgstr "Informacje o KReversi"
+msgstr "Informacje o kreversi"
 
 #: about.cpp:65
 msgid "Version "
@@ -54,7 +53,7 @@ msgstr ""
 "\n"
 "Polskie t³umaczenie\n"
 "(C) 1997 Piotr Roszatycki\n"
-"<dexter@fnet.com.pl>"
+"<dexter@fnet.pl>"
 
 #: app.cpp:218 app.cpp:553
 msgid ""
@@ -77,7 +76,6 @@ msgid "&Save game"
 msgstr "&Zachowaj grê"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
 msgstr "Po&dpowied¼"
 
@@ -351,7 +349,7 @@ msgstr "Lista zwyciêzców"
 
 #: app.cpp:856 app.cpp:860
 msgid "KReversi: Hall Of Fame"
-msgstr "KReversi: Lista zwyciêzców"
+msgstr "Odwracanka: Lista zwyciêzców"
 
 #: app.cpp:881
 msgid "Rank"
@@ -381,18 +379,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Twoje imiê:"
-
-#~ msgid "Name"
-#~ msgstr "Imiê"
-
-#~ msgid "&Rules"
-#~ msgstr "&Zasady"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "&Idea strategii"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informacje o &Qt..."
-
-#~ msgid "&About..."
-#~ msgstr "&Informacje..."

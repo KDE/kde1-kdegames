@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat \n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
-"PO-Revision-Date: 1998-01-09 00:08+0100\n"
-"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"PO-Revision-Date: 1998-08-08 00:46+0200\n"
+"Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: cardmaps.cpp:63
@@ -166,7 +166,7 @@ msgstr "Animacja na pocz±tku"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Pasjans"
 
 #: pwidget.cpp:128
 msgid ""
@@ -175,6 +175,10 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"Paul Olav Tvetei\n"
+"\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
@@ -196,47 +200,3 @@ msgstr "Nie mo¿na za³adowaæ t³a!"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Pe³na automatyka"
-
-#~ msgid "Help on &rules..."
-#~ msgstr "&Zasady..."
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informacje o &Qt..."
-
-#~ msgid "COMMAND %d not implemented!\n"
-#~ msgstr "POLECENIE %d jest nie obs³ugiwane!\n"
-
-#~ msgid ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Version "
-#~ msgstr ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Wersja "
-
-#~ msgid ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Additional work done by:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is part of the K Desktop Environment.\n"
-#~ "Use help for license information."
-#~ msgstr ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Czê¶æ pasjansów:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Ten program jest czê¶ci± ¶rodowiska KDE.\n"
-#~ "U¿yj KDE Pomoc, by sprawdziæ informacje o licencji."
-
-#~ msgid "About kpat"
-#~ msgstr "Informacje o kpat"

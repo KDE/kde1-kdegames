@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen \n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
-"PO-Revision-Date: 1998-01-09 00:34+0100\n"
-"Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
+"PO-Revision-Date: 1998-08-08 01:04+0200\n"
+"Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: app.cpp:94 board.cpp:222
@@ -68,11 +68,11 @@ msgstr "Bardzo wolno"
 
 #: app.cpp:139
 msgid "Easy"
-msgstr "£atwo"
+msgstr "£atwy"
 
 #: app.cpp:141
 msgid "Hard"
-msgstr "Trudno"
+msgstr "Trudny"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -108,7 +108,7 @@ msgstr "Tê grê NIE mo¿na ukoñczyæ"
 
 #: app.cpp:389 app.cpp:421
 msgid "End of game"
-msgstr "Koniec gry"
+msgstr "Cofnij ruch"
 
 #: app.cpp:390
 msgid "No more moves possible!"
@@ -135,7 +135,7 @@ msgstr ""
 
 #: app.cpp:447
 msgid "Your name:"
-msgstr "Twoje imiê:"
+msgstr "Nazwa grupy:"
 
 #: app.cpp:608 app.cpp:613
 msgid "Hall Of Fame"
@@ -155,39 +155,8 @@ msgstr "Czas"
 
 #: app.cpp:650
 msgid "Score"
-msgstr ""
+msgstr "Wynik"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Nie mo¿na za³adowaæ pixmapy!"
-
-#~ msgid "Medium"
-#~ msgstr "¦rednio"
-
-#~ msgid "Name"
-#~ msgstr "Imiê"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informacje o &Qt"
-
-#~ msgid "About Shisen-Sho"
-#~ msgstr "Informacje o Shisen-Sho"
-
-#~ msgid ""
-#~ "Shisen-Sho\n"
-#~ "\n"
-#~ "version 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is free software published \n"
-#~ "under the GNU General Public License GPL.\n"
-#~ "More about this in the help."
-#~ msgstr ""
-#~ "Shisen-Sho\n"
-#~ "\n"
-#~ "wersja 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Ten darmowy program jest rozpowszechniany \n"
-#~ "na licencji GNU.\n"
-#~ "Wiêcej informacji jest w pomocy."
