@@ -7,7 +7,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1999-03-16 16:20+0100\n"
 "Last-Translator: Philippe.Thomin <Philippe.Thomin@univ-valenciennes.fr>\n"
 "Language-Team: Français\n"
@@ -69,7 +69,7 @@ msgstr "KSame : Nouvelle partie"
 msgid "Do you want to resign?"
 msgstr "Voulez-vous abandonner ?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "Jeu"
 
@@ -125,14 +125,14 @@ msgstr "Points : %06i"
 msgid "Score: %06i"
 msgstr "Score : %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 msgid "Name"
 msgstr "Nom"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "Entrez votre nom :"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "Anonyme"

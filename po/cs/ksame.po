@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1999-01-16 10:37+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
@@ -67,7 +67,7 @@ msgstr "Hra Same: Nová hra"
 msgid "Do you want to resign?"
 msgstr "Chcete se vzdát?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "Hrací deska"
 
@@ -123,14 +123,14 @@ msgstr "Oznaèené: %06i"
 msgid "Score: %06i"
 msgstr "Skóre: %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 msgid "Name"
 msgstr "Jméno"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "Zadejte prosím své jméno:"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "Anonymní"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame 1.0\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1998-12-17 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -68,7 +68,7 @@ msgstr "SameGame: Nova ludo"
 msgid "Do you want to resign?"
 msgstr "Æu vi volas rezigni?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "Tabulo"
 
@@ -125,14 +125,14 @@ msgstr "elektitaj: %06i"
 msgid "Score: %06i"
 msgstr "Poentoj: %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 msgid "Name"
 msgstr "Nomo"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "Bonvolu indiki vian nomon:"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "Anonimulo"

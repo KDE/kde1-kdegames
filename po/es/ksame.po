@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1999-02-06 21:43+0100\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.uni-stuttgart.de>\n"
@@ -63,7 +63,7 @@ msgstr "Iguales: Nueva Partida"
 msgid "Do you want to resign?"
 msgstr "¿Desea abandonar?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "Tablero"
 
@@ -119,14 +119,14 @@ msgstr "Marcado: %06i"
 msgid "Score: %06i"
 msgstr "Puntos: %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 msgid "Name"
 msgstr "Nombre"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "Por favor, introduzca su nombr&e:"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "Anónimo"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.4\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1998-07-29 10:10+0100\n"
 "Last-Translator: Willem de Groot <wilm@stip.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -70,7 +70,7 @@ msgstr "SameGame: Nieuw Spel"
 msgid "Do you want to resign?"
 msgstr "Wil je dit spel stoppen?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "Spelbord"
 
@@ -127,16 +127,16 @@ msgstr "Punten: %06i"
 msgid "Score: %06i"
 msgstr "Score: %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 #, fuzzy
 msgid "Name"
 msgstr "Spel"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "Wat is je naam?"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "Anoniempje"
 

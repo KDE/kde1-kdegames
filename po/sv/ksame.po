@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame revision 1.4\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1998-11-21 21:50+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -63,7 +63,7 @@ msgstr "SameGame: Nytt spel"
 msgid "Do you want to resign?"
 msgstr "Vill du dra dig ur nuvarande spel?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "Bräde"
 
@@ -120,14 +120,14 @@ msgstr "Markerade: %06i"
 msgid "Score: %06i"
 msgstr "Poäng: %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 msgid "Name"
 msgstr "Namn"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "Skriv in ditt namn:"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "Anonym"

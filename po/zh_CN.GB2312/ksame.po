@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1998-06-14 20:34+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
@@ -66,7 +66,7 @@ msgstr "SameGame: 新的游戏"
 msgid "Do you want to resign?"
 msgstr "你要放弃吗 ?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "棋局"
 
@@ -123,16 +123,16 @@ msgstr "标记: %06i"
 msgid "Score: %06i"
 msgstr "分数: %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 #, fuzzy
 msgid "Name"
 msgstr "游戏"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "请输入你的名字[&E]:"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "无名氏"
 

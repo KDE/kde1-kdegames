@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1999-01-12 14:06+0100\n"
+"POT-Creation-Date: 1999-04-16 02:03+0200\n"
 "PO-Revision-Date: 1998-09-17 13:38+MST\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -65,7 +65,7 @@ msgstr "Isto: Nova Igra"
 msgid "Do you want to resign?"
 msgstr "Da li ¾eli¹ napustiti igru ?"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
+#: HighScore.cpp:105 KSameWidget.cpp:141
 msgid "Board"
 msgstr "Ploèa"
 
@@ -121,14 +121,14 @@ msgstr "Oznaèeno: %06i"
 msgid "Score: %06i"
 msgstr "Rezultat: %06i"
 
-#: HighScore.cpp:107
+#: HighScore.cpp:108
 msgid "Name"
 msgstr "Ime"
 
-#: HighScore.cpp:109
+#: HighScore.cpp:110
 msgid "Please &enter your name:"
 msgstr "Molim &unesite svoje ime:"
 
-#: HighScore.cpp:148
+#: HighScore.cpp:149
 msgid "Anonymous"
 msgstr "Anonimac"
