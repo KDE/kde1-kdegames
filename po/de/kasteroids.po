@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kasteroids\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1997-01-02 14:57 MET\n"
-"Last-Translator: Stephan Kulow <coolo@kde.org>\n"
+"PO-Revision-Date: 1999-03-29 11:37 MET\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>" 
+"Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: toplevel.cpp:98
 msgid "Score"
@@ -11,7 +12,7 @@ msgstr "Punkte"
 
 #: toplevel.cpp:112
 msgid "Level"
-msgstr "Stufe"
+msgstr "Spielstufe"
 
 #: toplevel.cpp:126
 msgid "Ships"
@@ -19,7 +20,7 @@ msgstr "Schiffe"
 
 #: toplevel.cpp:186
 msgid "Asteroids"
-msgstr "Asteroiden"
+msgstr "Asteroids"
 
 #: toplevel.cpp:188
 msgid ""
@@ -45,7 +46,7 @@ msgstr "KAsteroids"
 
 #: toplevel.cpp:341
 msgid "Game Over!"
-msgstr "Das Spiel ist aus!"
+msgstr "Das Spiel ist beendet!"
 
 #~ msgid "&About..."
 #~ msgstr "Ü&ber..."

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
 "POT-Creation-Date: 1999-03-05 01:33+0100\n"
-"PO-Revision-Date: 1999-01-23 19:30+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
-"Language-Team: de <de@li.org>\n"
+"PO-Revision-Date: 1999-03-29 11:40+MET\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>\n"
+"Language-Team: de <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -40,7 +40,7 @@ msgstr "&Fertig"
 
 #: kbbgame.cpp:90
 msgid "&Resize"
-msgstr "Größe &ändern"
+msgstr "&Größe zurücksetzen"
 
 #: kbbgame.cpp:102
 msgid "&Size"
@@ -64,15 +64,15 @@ msgstr "&Spiel"
 
 #: kbbgame.cpp:114
 msgid "&Options"
-msgstr "&Optionen"
+msgstr "&Einstellungen"
 
 #: kbbgame.cpp:172
 msgid "Quit"
-msgstr "Be&enden"
+msgstr "Beenden"
 
 #: kbbgame.cpp:174
 msgid "New"
-msgstr "Neu"
+msgstr "Neues Spiel"
 
 #: kbbgame.cpp:176
 msgid "Give up"
@@ -98,7 +98,7 @@ msgid ""
 msgstr ""
 "KBlackBox Logikspiel\n"
 "Autor: Robert Cimrman\n"
-"e-mail: cimrman3@students.zcu.cz"
+"Email: cimrman3@students.zcu.cz"
 
 #: kbbgame.cpp:415
 msgid "Qt information"

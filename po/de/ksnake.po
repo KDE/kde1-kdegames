@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
 "POT-Creation-Date: 1999-01-18 01:39+0100\n"
-"PO-Revision-Date: 1999-01-23 19:45+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
-"Language-Team: de <de@li.org>\n"
+"PO-Revision-Date: 1999-03-29 13:06+MET\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>\n"
+"Language-Team: de <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -12,7 +12,7 @@ msgstr ""
 
 #: game.cpp:41 game.cpp:144 rattler.cpp:350
 msgid "Snake Race"
-msgstr "Schlangen-Rennen"
+msgstr "Schlangenrennen"
 
 #: game.cpp:45
 msgid "KConfig error ??\n"
@@ -28,7 +28,7 @@ msgstr "Pause"
 
 #: game.cpp:81
 msgid "High Scores..."
-msgstr "Höchstwerte..."
+msgstr "Bestenliste..."
 
 #: game.cpp:88 game.cpp:97
 msgid "0"
@@ -56,7 +56,7 @@ msgstr "Anfänger"
 
 #: game.cpp:127
 msgid "Intermediate"
-msgstr "Mittel"
+msgstr "Durchschnitt"
 
 #: game.cpp:128
 msgid "Advanced"
@@ -76,7 +76,7 @@ msgstr "Computerschlangen"
 
 #: game.cpp:134
 msgid "Select background color..."
-msgstr "Hintergrundfarbe"
+msgstr "Hintergrundfarbe..."
 
 #: game.cpp:135
 msgid "Select background pixmap"
@@ -84,7 +84,7 @@ msgstr "Hintergrundbild"
 
 #: game.cpp:137
 msgid "Change keys..."
-msgstr "Tastenbelegung ändern..."
+msgstr "Tastenbelegung..."
 
 #: game.cpp:139
 msgid "Starting Room..."
@@ -126,7 +126,7 @@ msgstr "&Nein"
 
 #: startroom.cpp:23
 msgid "Snake Race Starting Room"
-msgstr "Startraum für das Schlangen-Rennen"
+msgstr "Startraum für das Schlangenrennen"
 
 #: startroom.cpp:41
 msgid "Starting Room"
@@ -145,7 +145,7 @@ msgstr ""
 
 #: score.cpp:46 score.cpp:77
 msgid "Snake Race High Scores"
-msgstr "High Score für das Schlangen-Rennen"
+msgstr "Bestenliste für das Schlangenrennen"
 
 #: score.cpp:50
 msgid "Hall of Fame"
@@ -153,14 +153,14 @@ msgstr "Ruhmeshalle"
 
 #: score.cpp:54
 msgid "Today's High Scores"
-msgstr "Höchstwerte von heute"
+msgstr "Heutige Bestwerte"
 
 #: score.cpp:78
 msgid ""
 "you have achieved a high score!\n"
 " please enter your name"
 msgstr ""
-"Sie haben einen Höchstwert erreicht!\n"
+"Sie haben einen Bestwert erreicht!\n"
 " Bitte geben Sie Ihren Namen ein"
 
 #: pixServer.cpp:182
@@ -170,7 +170,7 @@ msgstr "Fehler beim Laden von %s, Abbruch\n"
 
 #: keys.cpp:24
 msgid "Defaults"
-msgstr "Voreinstellungen"
+msgstr "Standard"
 
 #: keys.cpp:83
 msgid "Change Direction Keys"
@@ -182,16 +182,16 @@ msgstr "Nicht definierte Taste"
 
 #: keys.cpp:153
 msgid "Up"
-msgstr "Aufwärts"
+msgstr "Up"
 
 #: keys.cpp:154
 msgid "Down"
-msgstr "Abwärts"
+msgstr "Down"
 
 #: keys.cpp:155
 msgid "Left"
-msgstr "Links"
+msgstr "Left"
 
 #: keys.cpp:156
 msgid "Right"
-msgstr "Rechts"
+msgstr "Right"

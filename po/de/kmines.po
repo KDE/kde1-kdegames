@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
 "POT-Creation-Date: 1999-01-27 01:35+0100\n"
-"PO-Revision-Date: 1999-01-30 17:25+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
+"PO-Revision-Date: 1999-03-29 12:39+MET\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>\n"
 "Language-Team: de <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -12,7 +12,7 @@ msgstr ""
 
 #: dialogs.cpp:95
 msgid "Customize Game"
-msgstr "Spiel-Einstellungen"
+msgstr "Spieleinstellungen"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -40,7 +40,7 @@ msgstr "Normal"
 
 #: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
-msgstr "Experten"
+msgstr "Experte"
 
 #: dialogs.cpp:317
 msgid "in"
@@ -64,7 +64,7 @@ msgstr "Anonym"
 
 #: field.cpp:81
 msgid "Game paused"
-msgstr "Spielpause"
+msgstr "Spiel angehalten"
 
 #: field.cpp:82
 msgid "Press to resume"
@@ -88,15 +88,15 @@ msgstr "Neues Spiel"
 
 #: main.cpp:23
 msgid "Pause game"
-msgstr "Spielpause"
+msgstr "Spiel anhalten"
 
 #: main.cpp:24
 msgid "High scores"
-msgstr "Höchste Punktzahlen"
+msgstr "Ruhmeshalle"
 
 #: main.cpp:45 main.cpp:163
 msgid "Hide menu bar"
-msgstr "Menüleiste aus"
+msgstr "Menüleiste ausblenden"
 
 #: main.cpp:48
 msgid "&New game"
@@ -104,11 +104,11 @@ msgstr "&Neues Spiel"
 
 #: main.cpp:51
 msgid "&Pause game"
-msgstr "Spiel&pause"
+msgstr "&Spiel anhalten"
 
 #: main.cpp:54
 msgid "&High scores"
-msgstr "&Höchste Punktzahlen"
+msgstr "&Ruhmeshalle"
 
 #: main.cpp:56
 msgid "&Print"
@@ -120,7 +120,7 @@ msgstr "?-Markierung"
 
 #: main.cpp:65
 msgid "Keys"
-msgstr "Tasten"
+msgstr "Tastenbelegung"
 
 #: main.cpp:72
 msgid "Custom"
@@ -132,8 +132,8 @@ msgstr "von"
 
 #: main.cpp:83
 msgid "&Level"
-msgstr "&Level"
+msgstr "&Spielstufe"
 
 #: main.cpp:160
 msgid "Show menu bar"
-msgstr "Menüleiste an"
+msgstr "Menüleiste anzeigen"

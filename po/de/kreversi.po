@@ -2,15 +2,20 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1997-10-25 18:54 MET DST\n"
-"Last-Translator: Mario Weilguni <mweilguni@sime.com>\n"
+"PO-Revision-Date: 1999-03-29 12:56 MET DST\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>"
+"Translator: Mario Weilguni <mweilguni@sime.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-1\n"
+"Content-Transfer-Encoding: 8bit\n"
 
 #: app.cpp:218 app.cpp:553
 msgid ""
 "A problem with the sound server occured!\n"
 "Cannot enable sound support."
 msgstr ""
-"Es ist ein Problem mit der Soundunterstütung\n"
+"Es ist ein Problem mit der Soundunterstützung\n"
 "aufgetreten! Der Sound kann daher nicht\n"
 "aktiviert werden."
 
@@ -32,7 +37,7 @@ msgstr "Zug &vorschlagen"
 
 #: app.cpp:254
 msgid "&Stop thinking"
-msgstr "&Zugberechnung abbrechen"
+msgstr "Zugberechnung &abbrechen"
 
 #: app.cpp:255
 msgid "&Continue"
@@ -40,7 +45,7 @@ msgstr "Zugberechnung &fortsetzen"
 
 #: app.cpp:257
 msgid "&Undo move"
-msgstr "Zug zu&rücknehmen"
+msgstr "Zug &zurücknehmen"
 
 #: app.cpp:258
 msgid "Switch si&des"
@@ -48,35 +53,35 @@ msgstr "&Seiten wechseln"
 
 #: app.cpp:260
 msgid "Hall Of &Fame..."
-msgstr "Zeige Ruhmes&halle"
+msgstr "Zeige &Ruhmeshalle"
 
 #: app.cpp:266
 msgid "Level 1 (Wimp)"
-msgstr "Level 1 (Schwächling)"
+msgstr "Stufe 1 (Schwächling)"
 
 #: app.cpp:267
 msgid "Level 2 (Beginner)"
-msgstr "Level 2 (Anfänger)"
+msgstr "Stufe 2 (Anfänger)"
 
 #: app.cpp:268
 msgid "Level 3 (Novice)"
-msgstr "Level 3 (Novize)"
+msgstr "Stufe 3 (Novize)"
 
 #: app.cpp:269
 msgid "Level 4 (Average)"
-msgstr "Level 4 (Durchschnittlich)"
+msgstr "Stufe 4 (Durchschnittlich)"
 
 #: app.cpp:270
 msgid "Level 5 (Good)"
-msgstr "Level 5 (Gut)"
+msgstr "Stufe 5 (Gut)"
 
 #: app.cpp:271
 msgid "Level 6 (Expert)"
-msgstr "Level 6 (Experte)"
+msgstr "Stufe 6 (Experte)"
 
 #: app.cpp:272
 msgid "Level 7 (Master)"
-msgstr "Level 7 (Meister)"
+msgstr "Stufe 7 (Meister)"
 
 #: app.cpp:273
 msgid "Skill"
@@ -138,7 +143,7 @@ msgstr "Größe einstellen"
 
 #: app.cpp:292
 msgid "Select &background color..."
-msgstr "Hintergrundfar&be..."
+msgstr "&Hintergrundfarbe..."
 
 #: app.cpp:298
 msgid "none"
@@ -174,7 +179,7 @@ msgstr "S&ound"
 
 #: app.cpp:369
 msgid "Stop thinking"
-msgstr "Zugberechnung stoppen"
+msgstr "Zugberechnung abbrechen"
 
 #: app.cpp:370
 msgid "Undo move"

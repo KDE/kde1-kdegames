@@ -6,32 +6,33 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1999-01-13 01:34+0100\n"
-"PO-Revision-Date: 1999-01-14 19:10+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
-"Language-Team: German <kde-i18n@kde.org>\n"
+"PO-Revision-Date: 1999-03-29 11:53+MET\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>"
+"Translator: Thomas Diehl <th_diehl@csi.com>\n"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: gameboard.cc:55
 msgid "End Turn"
-msgstr "Letzte Runde"
+msgstr "Runde beenden"
 
 #: gameboard.cc:203
 msgid ": Select source planet..."
-msgstr "Herkunfts-Planeten auswählen..."
+msgstr ": Herkunftsplaneten auswählen..."
 
 #: gameboard.cc:221
 msgid ": Select destination planet..."
-msgstr "Zielplanet auswählen..."
+msgstr ": Zielplanet auswählen..."
 
 #: gameboard.cc:243
 msgid ": How many ships?"
-msgstr "Wieviele Schiffe?"
+msgstr ": Wieviele Schiffe?"
 
 #: gameboard.cc:267
 msgid "Ruler: Select starting planet."
-msgstr "Herrscher: Wähle den Start-Planeten aus."
+msgstr "Herrscher: Wähle den Startplaneten aus."
 
 #: gameboard.cc:287
 #, c-format
@@ -40,7 +41,7 @@ msgid ""
 "A ship leaving this turn will arrive on turn %s"
 msgstr ""
 "Die Entfernung vom Planeten %s zum Planeten %s beträgt %s Lichtjahre.\n"
-"Ein Schiff, das diese Runde verläßt, wird in Runde %s ankommen."
+"Ein Schiff, das in dieser Runde startet, wird in Runde %s ankommen."
 
 #: gameboard.cc:291
 msgid "Distance"
@@ -48,17 +49,17 @@ msgstr "Entfernung"
 
 #: gameboard.cc:296
 msgid "Ruler: Select ending planet."
-msgstr "Herrscher: Wähle den End-Planeten aus."
+msgstr "Herrscher: Wähle den Endplaneten aus."
 
 #: gameboard.cc:311
 #, c-format
 msgid "Turn #: %2d of %2d"
-msgstr "Runde #:  %2d von %2d"
+msgstr "Runde #: %2d von %2d"
 
 #: gameboard.cc:426
 #, c-format
 msgid "The once mighty empire of %s has fallen in ruins."
-msgstr "Das einst mächtige Reich von %s ist in Trümmer gesunken."
+msgstr "Das einst mächtige Reich von %s ist in Trümmern versunken."
 
 #: gameboard.cc:428
 msgid "An Empire has fallen..."
@@ -76,7 +77,7 @@ msgstr "Aus der Asche erstanden..."
 #: gameboard.cc:460
 #, c-format
 msgid "Reinforcements have arrived for planet %s"
-msgstr "Vom Planet %s ist Verstärkung eingetroffen."
+msgstr "Für Planet %s ist Verstärkung eingetroffen."
 
 #: gameboard.cc:462
 msgid "Fleet Arrival"
@@ -85,7 +86,7 @@ msgstr "Ankunft der Flotte"
 #: gameboard.cc:505
 #, c-format
 msgid "Planet %s has held against an attack from %s"
-msgstr "Planet %s hatte die Attacke von %s überstanden."
+msgstr "Planet %s hat die Attacke von %s überstanden."
 
 #: gameboard.cc:507
 msgid "Planet Holds"
@@ -147,11 +148,11 @@ msgstr "Stand anzeigen"
 
 #: newgamedlg.cc:31
 msgid "Preview Map"
-msgstr "Karten-Vorschau"
+msgstr "Kartenvorschau"
 
 #: newgamedlg.cc:35
 msgid "&Reject Map"
-msgstr "Karte &zurückweisen"
+msgstr "&Karte zurückweisen"
 
 #: newgamedlg.cc:41
 msgid "&Player List"
@@ -163,7 +164,7 @@ msgstr "&Hinzufügen"
 
 #: newgamedlg.cc:54
 msgid "&Clear"
-msgstr "&Löschen"
+msgstr "&Zurücksetzen"
 
 #: newgamedlg.cc:70
 msgid "&Start Game"
@@ -197,7 +198,7 @@ msgstr "Produktion: "
 
 #: planet_info.cc:93
 msgid "Kill Percent : "
-msgstr "Tot in Prozent: "
+msgstr "Kampfkraft: "
 
 #: planet_info.cc:137
 #, c-format
@@ -212,14 +213,14 @@ msgstr "Produktion: %d"
 #: planet_info.cc:143
 #, c-format
 msgid "Kill Percent : %.3f"
-msgstr "Tot in Prozent: %.3f"
+msgstr "Kampfkraft: %.3f"
 
 #: gameenddlg.cc:14
 msgid ""
 "This is the last turn.\n"
 "Do you wish to add more turns?"
 msgstr ""
-"Dies ist der letzte Turn.\n"
+"Dies ist die letzte Runde.\n"
 "Möchten Sie weitere Runden anhängen?"
 
 #: gameenddlg.cc:64

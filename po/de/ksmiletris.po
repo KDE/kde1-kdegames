@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmiletris\n"
 "POT-Creation-Date: 1999-01-18 01:39+0100\n"
-"PO-Revision-Date: 1999-01-13 16:25+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
-"Language-Team: de <de@li.org>\n"
+"PO-Revision-Date: 1999-03-29 13:48+MET\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>\n"
+"Language-Team: de <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -20,23 +20,23 @@ msgstr "&Pause"
 
 #: gamewindow.cpp:54
 msgid "&End Game"
-msgstr "Spiel-&Ende"
+msgstr "&Spiel beenden"
 
 #: gamewindow.cpp:56
 msgid "&High Scores..."
-msgstr "&Höchste Wertungen..."
+msgstr "&Bestenliste..."
 
 #: gamewindow.cpp:61
 msgid "&Smiles"
-msgstr "&Lächeln"
+msgstr "&Smileys"
 
 #: gamewindow.cpp:62
 msgid "S&ymbols"
-msgstr "&Symbole"
+msgstr "&Zeichen"
 
 #: gamewindow.cpp:64
 msgid "&Icons"
-msgstr "&Icons"
+msgstr "S&ymbole"
 
 #: gamewindow.cpp:67
 msgid "&Pieces"
@@ -71,7 +71,7 @@ msgstr "Wertung: 99999"
 
 #: scoredialog.cpp:35
 msgid "High Scores"
-msgstr "Höchstwertungen"
+msgstr "Bestenliste"
 
 #: scoredialog.cpp:42
 msgid "Level"
@@ -91,7 +91,7 @@ msgstr "Unbekannt"
 
 #: newscoredialog.cpp:36
 msgid "New High Score"
-msgstr "Neue Höchstwertung"
+msgstr "Neuer Bestwert"
 
 #: newscoredialog.cpp:47
 msgid "Enter name"

@@ -2,9 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
 "POT-Creation-Date: 1999-01-04 01:41+0100\n"
-"PO-Revision-Date: 1999-01-13 16:25+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>Language-Team: German "
-"<de@li.org>\n"
+"PO-Revision-Date: 1999-03-29 13:32+MET\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>"
+"Language-Team: German <kde-i18n-de@kde.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: ISO-8859-1\n"
@@ -28,7 +28,7 @@ msgstr "&Neues Spiel"
 
 #: app.cpp:111
 msgid "Res&tart game"
-msgstr "Spiel neu &starten"
+msgstr "&Spiel neu starten"
 
 #: app.cpp:113
 msgid "Is game solvable?"
@@ -102,11 +102,11 @@ msgstr "&Größe"
 
 #: app.cpp:152
 msgid "S&peed"
-msgstr "Ge&schwindigkeit"
+msgstr "G&eschwindigkeit"
 
 #: app.cpp:153
 msgid "&Level"
-msgstr "S&tufe"
+msgstr "&Spielstufe"
 
 #: app.cpp:154
 msgid "Disallow unsolvable games"
@@ -134,7 +134,7 @@ msgstr "Ende des Spiels"
 
 #: app.cpp:390
 msgid "No more moves possible!"
-msgstr "Keine weiteren Züge möglich"
+msgstr "Keine weiteren Züge möglich!"
 
 #: app.cpp:416
 #, c-format
@@ -186,4 +186,4 @@ msgstr "Größe"
 
 #: app.cpp:650
 msgid "Score"
-msgstr "Score"
+msgstr "Punkte"
