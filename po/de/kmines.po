@@ -7,7 +7,7 @@ msgstr ""
 
 #: dialogs.cpp:94
 msgid "kmines : Customize Game"
-msgstr "kmines: Spiel-Einstellungen
+msgstr "kmines: Spiel-Einstellungen"
 
 #: dialogs.cpp:122
 msgid "Width"
@@ -42,9 +42,8 @@ msgid "in"
 msgstr "in"
 
 #: dialogs.cpp:330
-#, fuzzy
 msgid "minutes."
-msgstr "Minuten und "
+msgstr "Minuten."
 
 #: dialogs.cpp:331
 msgid "minutes"
