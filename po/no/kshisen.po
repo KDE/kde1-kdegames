@@ -169,7 +169,7 @@ msgstr "Berømmelsens tinde"
 
 #: app.cpp:609
 msgid "Shisen-Sho: Hall Of Fame"
-msgstr "Shisen-Sho: Hall Of Fame"
+msgstr "Shisen-Sho: Berømmelsens tinde"
 
 #: app.cpp:634
 msgid "Rank"

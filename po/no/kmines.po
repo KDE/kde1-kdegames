@@ -102,19 +102,16 @@ msgid "Hide menu bar"
 msgstr "Skjul menylinje"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Nytt spill"
+msgstr "&Nytt spill"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Pause i spillet"
+msgstr "&Pause i spillet"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Høy poengsum"
+msgstr "&Poengtavle"
 
 #: main.cpp:60
 msgid "? mark"
@@ -133,13 +130,9 @@ msgid "by"
 msgstr "ved"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Nivå"
+msgstr "&Nivå"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "Vis menylinje"
-
-#~ msgid "Minesweeper"
-#~ msgstr "Minesveiper"
