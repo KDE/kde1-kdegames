@@ -33,13 +33,13 @@ SUBDIRS = doc data
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-ksnake.xpm $(kde_minidir)/ksnake.xpm
-	$(mkinstalldirs) $(kde_minidir)/../large
-	$(INSTALL_DATA) $(srcdir)/large-ksnake.xpm $(kde_minidir)/../large/ksnake.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-ksnake.xpm $(kde_icondir)nake.xpm
+	$(mkinstalldirs) $(kde_icondir)/large
+	$(INSTALL_DATA) $(srcdir)/large-ksnake.xpm $(kde_icondir)/large/ksnake.xpm
 
 uninstall-local:
-	-rm -f $(kde_minidir)/ksnake.xpm
-	-rm -f $(kde_minidir)/../large/ksnake.xpm
+	-rm -f $(kde_icondir)nake.xpm
+	-rm -f $(kde_icondir)/large/ksnake.xpm
 
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(ksnake_SOURCES) && mv messages.po ../po/ksnake.pot

@@ -29,13 +29,13 @@ apps_DATA = kabalone.kdelnk
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) $(srcdir)/mini-kabalone.xpm $(kde_minidir)/kabalone.xpm
-	$(mkinstalldirs) $(kde_minidir)/../large
-	$(INSTALL_DATA) $(srcdir)/large-kabalone.xpm $(kde_minidir)/../large/kabalone.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kabalone.xpm $(kde_icondir)balone.xpm
+	$(mkinstalldirs) $(kde_icondir)/large
+	$(INSTALL_DATA) $(srcdir)/large-kabalone.xpm $(kde_icondir)/large/kabalone.xpm
 
 uninstall-local:
-	-rm -f $(kde_minidir)/kabalone.xpm
-	-rm -f $(kde_minidir)/../large/kabalone.xpm
+	-rm -f $(kde_icondir)balone.xpm
+	-rm -f $(kde_icondir)/large/kabalone.xpm
 
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kabalone_SOURCES) && mv messages.po ../po/kabalone.pot
