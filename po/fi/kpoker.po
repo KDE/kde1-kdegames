@@ -118,8 +118,3 @@ msgstr "&Uusi peli"
 msgid "&Sound"
 msgstr "&Ääni"
 
-#~ msgid "&About..."
-#~ msgstr "&Tietoja..."
-
-#~ msgid "About &Qt..."
-#~ msgstr "Tietoja &Qt:ta..."

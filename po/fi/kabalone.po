@@ -128,5 +128,3 @@ msgstr "Paras siirto tähänasti:"
 msgid "Spion"
 msgstr "Vakoilija"
 
-#~ msgid "Rules"
-#~ msgstr "&Säännöt"

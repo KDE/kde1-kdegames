@@ -15,7 +15,6 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
 msgstr "Tietoja KReversistä"
 
@@ -82,7 +81,6 @@ msgid "&Save game"
 msgstr "&Tallenna peli"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
 msgstr "&Vinkki"
 
@@ -391,14 +389,3 @@ msgstr ""
 msgid "Your name:"
 msgstr "Nimesi:"
 
-#~ msgid "&Rules"
-#~ msgstr "&Säännöt"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "&Strategiavihjeet"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Tietoja &Qt:ta..."
-
-#~ msgid "&About..."
-#~ msgstr "&Tietoja..."
