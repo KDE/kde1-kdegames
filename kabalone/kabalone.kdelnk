@@ -6,6 +6,7 @@ Type=Application
 Exec=kabalone -caption "%c"
 DocPath=kabalone/index.html
 Comment=Play Abalone against computer
+Comment[ca]=Jugueu Abalone contra l'ordinador
 Comment[cs]=Hraj Abalone proti poèítaèi
 Comment[da]=Spil abalone mod maskinen
 Comment[de]=Abalone gegen den Computer
