@@ -307,8 +307,6 @@ msgstr ""
 "\n"
 "napísal Nicolas Hadacek"
 
-
 #: main.cpp:64
 msgid "Show menu"
 msgstr "Zobrazi» menu"
-

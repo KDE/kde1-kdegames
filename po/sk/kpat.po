@@ -191,4 +191,3 @@ msgstr "Nemô¾em nahra» obrázok zadnej strany!"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Plne automatické"
-

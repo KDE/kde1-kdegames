@@ -171,4 +171,3 @@ msgstr "Body"
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Nie je mo¾né naèíta» obrázky!"
-
