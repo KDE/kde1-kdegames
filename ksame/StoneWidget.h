@@ -58,7 +58,7 @@ public:
 
     int getSizey();
     int getColors() { return colors; }
-    void setColors(int c) { colors = c; }
+    void setColors(int c) { if ((colors<=maxcolor)&&(colors>1)) colors = c; }
 
     // Spielende abfragen
     int isGameover();
@@ -96,7 +96,10 @@ private:
     int colors,boardno;
 
     long score;
-    int dx,dy,sx,sy,slice;
+    int dx,dy;   // Pixelgröße eines Steines.
+    int sx,sy;   // Feldgröße in Steinen.
+    int slice;   // Bildnummer des Steinmovies
+    int px,py;   // Pixelgröße des SteinFeldes.
     int maxspin,maxcolor,doublecolor,multispin;
     QPixmap stonemap;
     QPixmap *backmap;

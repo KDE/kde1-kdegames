@@ -52,10 +52,10 @@ StoneWidget::StoneWidget( QWidget *parent, int x, int y )
 	boardno=0;
 	
 	if ( stonemap.isNull() )
-	    stonemap = kapp->getIconLoader()->loadIcon("stones2000.bmp");
+	    stonemap = kapp->getIconLoader()->loadIcon("stones2000.gif");
 	
 	if (  maskmap.isNull() ) {  // NO MASK !!!
-	    maskmap = kapp->getIconLoader()->loadIcon("stones2000_mask.bmp");
+	    maskmap = kapp->getIconLoader()->loadIcon("stones2000_mask.gif");
 	    stonemap.setMask(maskmap);
 	}
 	if (!backmap) {
@@ -179,7 +179,7 @@ void StoneWidget::drawfield_multispin(QPaintEvent *e,int erase) {
 		if (marked) {
 		    slicex=dx*(spin[p]++);
 		    if (spin[p]==maxspin) spin[p]=0;
-		    if (doublecolor) slicey+=maxcolor*dy;
+		    //		    if (doublecolor) slicey+=maxcolor*dy;
 		} else {
 		    slicex=spin[p]*dx;
 		}
@@ -237,6 +237,7 @@ void StoneWidget::drawfield_singlespin(QPaintEvent *e,int erase) {
 
 
 int StoneWidget::markfield(int x,int y,int always) {
+    // gibt true zurück, wenn sich ein Stein ändert.
 
     int changed=0;
     if ((x<0)||(y<0)||(x>sx)||(y>sy)) { 
@@ -360,17 +361,17 @@ void StoneWidget::paintEvent( QPaintEvent *e ) {
    drawfield(e);
 }
 
-void StoneWidget::timerEvent( QTimerEvent * )
-{
-  QPoint p=mapFromGlobal(cursor().pos());
+void StoneWidget::timerEvent( QTimerEvent * ) {
+    QPoint p=mapFromGlobal(cursor().pos());
+    int x=p.x();
+    int y=p.y();
 
-  //printf("vor %i ",slice);
-   slice=(slice+1)%maxspin;
-  //printf("nach %i %i\n",slice,stoneslice);
-  markfield(p.x()/dx,p.y()/dy);
-  drawfield();
-
-  return;
+    if (x<0||y<0||x>dx*sx||y>dy*sy) return;
+  
+    slice=(slice+1)%maxspin;    
+    markfield(x/dx,y/dy);
+    drawfield();
+    return;
 }
 
 void StoneWidget::mouseMoveEvent ( QMouseEvent *e) { 
@@ -404,6 +405,11 @@ void StoneWidget::mousePressEvent ( QMouseEvent *e) {
 	checkGameOver();
     }
 }
+
+
+
+
+
 
 
 

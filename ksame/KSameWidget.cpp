@@ -62,6 +62,8 @@ KSameWidget::KSameWidget() {
   colorsmenu->insertItem("2", two_item );
   colorsmenu->insertItem("3", three_item );
   colorsmenu->insertItem("4", four_item ); 
+  // colorsmenu->insertItem("5", five_item );
+  // colorsmenu->insertItem("6", six_item);
   connect (colorsmenu, SIGNAL (activated (int)), SLOT (m_colors(int)));
 
   optionsmenu->insertItem("Colors",colorsmenu);
@@ -156,16 +158,14 @@ void KSameWidget::m_tglmultispin() {
     optionsmenu->setItemChecked(multispin_item, stone->getMultiSpin());
 }
 void KSameWidget::m_help() {
-  debug("menu help not supported");
+    //  debug("menu help not supported");
+  kapp->invokeHTMLHelp("ksame/index.html","");
+
 }
 void KSameWidget::m_about() {
-    //  stone->showHighscore();
-  kapp->invokeHTMLHelp("ksame/index.html","");
-  
   KMsgBox::message(stone, "ksame - About", 
 		   "ksame\nby\nkreutzbe@informatik.mu-luebeck.de", 
 		   KMsgBox::INFORMATION);
-  //  stone->hideHighscore();
 }
 
 void KSameWidget::gameover(int score) {
