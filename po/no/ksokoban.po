@@ -129,7 +129,7 @@ msgstr "Nivå:"
 
 #: MainWindow.C:248
 msgid "(invalid)"
-msgstr ""
+msgstr "(ugyldig)"
 
 #: PlayField.C:262
 msgid "Level completed"
