@@ -5,7 +5,7 @@
 int nores = 0;
 
 KFixedTopWidget::KFixedTopWidget(
-                                  const char *name = NULL )
+                                  const char *name )
   : QWidget( 0L, name )
  {
    kmenubar = NULL;

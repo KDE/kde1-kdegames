@@ -350,20 +350,20 @@ void Board::updateTimeoutTime()
 
 void Board::options()
 {
-	Options::Options(this);
+	Options(this);
 }
 
 
 void Board::showHighScores()
 {
-	WHighScores::WHighScores(TRUE, 0, this);
+	WHighScores(TRUE, 0, this);
 }
 
 
 void Board::setHighScore(int score)
 {
 	if ( isConfigWritable ) {
-		WHighScores::WHighScores(FALSE, score, this);
+		WHighScores(FALSE, score, this);
 		/* save the new score (in the file to be sure it won't be lost) */
 		kconf->sync();
 	} else

@@ -33,7 +33,7 @@
 extern CardImages  *cardImage;
 
 
-CardWidget::CardWidget( QWidget *parent=0, const char *name=0 )
+CardWidget::CardWidget( QWidget *parent, const char *name )
 : QPushButton( parent, name )
 {
 	held=0;

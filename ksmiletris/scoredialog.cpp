@@ -29,8 +29,8 @@ this software.
 
 #include "scoredialog.h"
 
-ScoreDialog::ScoreDialog(QWidget *parent, const char *name)
-        : QDialog(parent, name, true)
+ScoreDialog::ScoreDialog(QWidget *parent, const char *oname)
+        : QDialog(parent, oname, true)
 {
 	setCaption(i18n("High Scores"));
 

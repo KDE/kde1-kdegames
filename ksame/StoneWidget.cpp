@@ -120,7 +120,7 @@ StoneWidget::reset() {
 // force=1 gesetzt ist.
 // Die Score wird hochgezaehlt. Es werden keine Signale gesendet.
 void 
-StoneWidget::remove(int x,int y,int force=0,int withsignal=0) {
+StoneWidget::remove(int x,int y,int force,int withsignal) {
      mark(xyToStone(x,y),force);
      
      if (!marked) return;
