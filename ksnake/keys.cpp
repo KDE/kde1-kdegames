@@ -150,10 +150,10 @@ void Keys::defaults()
 
     lab = 0;
 
-    labels[0]->setText("Up");
-    labels[1]->setText("Down");
-    labels[2]->setText("Left");
-    labels[3]->setText("Right");
+    labels[0]->setText(i18n("Up"));
+    labels[1]->setText(i18n("Down"));
+    labels[2]->setText(i18n("Left"));
+    labels[3]->setText(i18n("Right"));
 }
 
 void Keys::init()
