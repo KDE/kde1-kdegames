@@ -1,9 +1,17 @@
-# KDE Config File 
+# KDE Config File
 [KDE Desktop Entry]
-Name=Asteroids
+Comment[C]=A little arcade game
+BinaryPattern=kasteroids;
 Name[pl]=Asteroidy
-Exec=kasteroids
-Type=Application
+Name=Asteroids
+Name[C]=Asteroids
+MimeType=
 Comment=A little arcade game
-Comment[de]=Ein bekanntes Ballerspiel
+Exec=kasteroids
 Comment[pl]=Znana gra zrêczno¶ciowa.
+Icon=kasteroids.xpm
+TerminalOptions=
+Path=
+Type=Application
+Comment[de]=Ein bekanntes Ballerspiel
+Terminal=0
