@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksnake 1.0\n"
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
-"PO-Revision-Date: 1998-07-28 21:00+0100\n"
+"PO-Revision-Date: 1998-12-17 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "KConfig-eraro ??\n"
 
 #: game.cpp:79
 msgid "New"
-msgstr ""
+msgstr "Nova"
 
 #: game.cpp:80
 msgid "Pause"

@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen 1.0\n"
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
-"PO-Revision-Date: 1998-07-28 20:00+0100\n"
+"PO-Revision-Date: 1998-12-17 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -96,6 +96,9 @@ msgid ""
 "\n"
 "by Mario Weilguni"
 msgstr ""
+"\n"
+"\n"
+"de Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -174,18 +177,16 @@ msgid "Rank"
 msgstr "Rango"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Nova Ludo"
+msgstr "Nomo"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Tempo"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "&Grandeco"
+msgstr "Grandeco"
 
 #: app.cpp:650
 msgid "Score"

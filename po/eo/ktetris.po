@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktetris 1.0\n"
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: 1998-07-28 21:00+0100\n"
+"PO-Revision-Date: 1998-12-17 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -284,29 +284,8 @@ msgstr "&Klavoj"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "de"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Montru menuon"
-
-#~ msgid "Close dialog"
-#~ msgstr "Fermu dialogon"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Konfirmu dialogon"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Rezignu dialogon"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "de Nicolas Hadacek"

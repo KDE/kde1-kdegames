@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpoker 1.0\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-07-27 20:00+0100\n"
+"PO-Revision-Date: 1998-12-17 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -116,7 +116,7 @@ msgstr "&Sonoroj"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Pokero"
 
 #: top.cpp:75
 msgid ""
@@ -124,6 +124,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"de Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -131,9 +134,14 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"Dankolisto troviøas en la helpdosiero"
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Sugestoj, erarraportoj ktp. estas bonvenaj"

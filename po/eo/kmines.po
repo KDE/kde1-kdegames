@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmines 1.0\n"
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
-"PO-Revision-Date: 1998-07-27 20:00+0100\n"
+"PO-Revision-Date: 1998-12-17 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -40,7 +40,7 @@ msgstr "Facila"
 
 #: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
-msgstr ""
+msgstr "Normala"
 
 #: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
@@ -103,19 +103,16 @@ msgid "Hide menu bar"
 msgstr "Kaþu menulistelon"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Nova ludo"
+msgstr "&Nova ludo"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Paýzu"
+msgstr "&Paýzu"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Plej bonaj"
+msgstr "Plej &bonaj"
 
 #: main.cpp:60
 msgid "? mark"
@@ -134,13 +131,9 @@ msgid "by"
 msgstr "de"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Nivelo"
+msgstr "&Nivelo"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "Montru menulistelon"
-
-#~ msgid "Minesweeper"
-#~ msgstr "Minseræanto"

@@ -1,0 +1,135 @@
+# Esperantaj mesaøoj por "kblackbox"
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Wolfram Diestel <diestel@rzaix340.rz.uni-leipzig.de>, 1998.
+#
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: kblackbox\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"PO-Revision-Date: 1998-12-17 21:00+0100\n"
+"Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
+"Language-Team: Esperanto <eo@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-3\n"
+"Content-Transfer-Encoding: 8-bit\n"
+
+#: kbbgame.cpp:72
+msgid ""
+"KBlackBox logical game\n"
+"author: Robert Cimrman\n"
+"e-mail: cimrman3@students.zcu.cz"
+msgstr ""
+"Nigra Kesto - logikludo\n"
+"aýtoro: Robert Cimrman\n"
+"retpoþto: cimrman3@students.zcu.cz"
+
+#: kbbgame.cpp:81
+msgid "&New"
+msgstr "&Nova"
+
+#: kbbgame.cpp:82
+msgid "&Give up"
+msgstr "&Rezignu"
+
+#: kbbgame.cpp:83
+msgid "&Done"
+msgstr "&Finu"
+
+#: kbbgame.cpp:85
+msgid "&Resize"
+msgstr "Aløustigu &grandecon"
+
+#: kbbgame.cpp:97
+msgid "&Size"
+msgstr "&Grandeco"
+
+#: kbbgame.cpp:98
+msgid "&Balls"
+msgstr "&Globoj"
+
+#: kbbgame.cpp:99
+msgid "&Tutorial"
+msgstr "&Instrukcioj"
+
+#: kbbgame.cpp:170
+msgid "New"
+msgstr "Nova"
+
+#: kbbgame.cpp:172
+msgid "Give up"
+msgstr "Rezignu"
+
+#: kbbgame.cpp:174
+msgid "Done"
+msgstr "Finu"
+
+#: kbbgame.cpp:423 kbbgame.cpp:542 kbbgame.cpp:598 kbbgame.cpp:625
+msgid "Warning!"
+msgstr "Averto!"
+
+#: kbbgame.cpp:425 kbbgame.cpp:544
+msgid "Do you really want to give up this game?"
+msgstr "Æu vi vere volas rezigni?"
+
+#: kbbgame.cpp:426 kbbgame.cpp:545
+msgid "Yes, I'm burnt out."
+msgstr "Jes, mi tro laciøis."
+
+#: kbbgame.cpp:427 kbbgame.cpp:546
+msgid "No, not yet..."
+msgstr "Ne, ankoraý ne..."
+
+#: kbbgame.cpp:478
+#, c-format
+msgid "Your final score is: %d."
+msgstr "Via rezulto estas: %d."
+
+#: kbbgame.cpp:480
+msgid "Wow!"
+msgstr "Hej!"
+
+#: kbbgame.cpp:482
+msgid "Damned!"
+msgstr "Fek!"
+
+#: kbbgame.cpp:485
+#, c-format
+msgid ""
+"You should place %d balls!\n"
+"You have placed %d."
+msgstr ""
+"Vi devus marki %d globojn!\n"
+"Vi markis %d."
+
+#: kbbgame.cpp:487
+msgid "D'accord"
+msgstr "Konfirmu"
+
+#: kbbgame.cpp:562 kbbgame.cpp:565
+msgid "Run"
+msgstr "Ludo"
+
+#: kbbgame.cpp:569
+msgid "Size"
+msgstr "Grandeco"
+
+#: kbbgame.cpp:572
+msgid "Placed"
+msgstr "Markoj"
+
+#: kbbgame.cpp:585
+msgid "Score"
+msgstr "Poentoj"
+
+#: kbbgame.cpp:600 kbbgame.cpp:627
+msgid "This will be the end of the current game!"
+msgstr "Tio estos la fino de la nun ludo!"
+
+#: kbbgame.cpp:601 kbbgame.cpp:628
+msgid "Never mind..."
+msgstr "Ne zorgu..."
+
+#: kbbgame.cpp:602 kbbgame.cpp:629
+msgid "Oh, no!"
+msgstr "Ho, ne!"
