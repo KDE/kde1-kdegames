@@ -1,3 +1,11 @@
+kdegames (2:980310-3) frozen; urgency=low
+
+  * removed this ugly dependency on a specific kdebase version
+  * new compile cycle with fixed kdelibs. This time from CVS
+  * add undocumented man page
+
+ -- Stephan Kulow <coolo@kde.org>  Fri,  3 Apr 1998 17:08:37 +0200
+
 kdegames (2:980310-2) frozen; urgency=low
 
   * new compile cycle with qt-1.33 and libstc++-2.8

@@ -7,20 +7,19 @@ LDADD =  -lkdeui -lkdecore -lqt -lXext -lX11 -lm
 noinst_HEADERS = game.h trys.h rattler.h board.h\
 		level.h ball.h snake.h\
 		basket.h startroom.h lcdrange.h score.h\
-		pixServer.h progress.h levels.h view.o keys.h \
-		$(BUILTSOURCES)
+		pixServer.h progress.h levels.h view.o keys.h 
 
 ksnake_SOURCES = game.cpp trys.cpp rattler.cpp board.cpp\
 		level.cpp ball.cpp snake.cpp\
 		basket.cpp startroom.cpp lcdrange.cpp\
 		score.cpp pixServer.cpp progress.cpp levels.cpp\
-		view.cpp keys.cpp
+		view.cpp keys.cpp $(BUILTSOURCES)
 
 BUILTSOURCES = 	mgame.cpp mrattler.cpp msnake.cpp  mtrys.cpp\
 		mbasket.cpp mstartroom.cpp mlcdrange.cpp mscore.cpp\
 	        mprogress.cpp mview.cpp mkeys.cpp
 
-DISTCLEANFILES = $(BUILTSOUCES)
+DISTCLEANFILES = $(BUILTSOURCES)
 
 bin_PROGRAMS = 	ksnake
 
@@ -34,11 +33,11 @@ icondir = $(kde_icondir)
 
 SUBDIRS = doc data 
 
-install: all
+install-data-local: all
 	$(mkinstalldirs) $(kde_minidir)
 	$(INSTALL_DATA) mini-ksnake.xpm $(kde_minidir)/ksnake.xpm
 
-uninstall:
+uninstall-local:
 	-rm -f $(kde_minidir)/ksnake.xpm
 
 ####### Meta classes
