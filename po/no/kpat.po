@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -192,47 +191,3 @@ msgstr "Kunne ikke laste bakgrunnsbilde"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Helautomatisk"
-
-#~ msgid "Help on &rules..."
-#~ msgstr "Hjelp"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Om &Qt"
-
-#~ msgid "COMMAND %d not implemented!\n"
-#~ msgstr "KOMMANDO %d er ikke implementert!\n"
-
-#~ msgid ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Version "
-#~ msgstr ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Versjon "
-
-#~ msgid ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Additional work done by:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is part of the K Desktop Environment.\n"
-#~ "Use help for license information."
-#~ msgstr ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Ytterligere arbeid gjort av:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Dette programmet er en del av  K Desktop Environment.\n"
-#~ "Bruk hjelp for lisensinformasjon."
-
-#~ msgid "About kpat"
-#~ msgstr "Om kpat"

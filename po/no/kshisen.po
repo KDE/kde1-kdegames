@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -168,36 +167,8 @@ msgstr "Tid"
 
 #: app.cpp:650
 msgid "Score"
-msgstr ""
+msgstr "Poeng"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Kan ikke laste inn pixmaps!"
-
-#~ msgid "Name"
-#~ msgstr "Navn"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Om &Qt..."
-
-#~ msgid "About Shisen-Sho"
-#~ msgstr "Om Shisen-Sho"
-
-#~ msgid ""
-#~ "Shisen-Sho\n"
-#~ "\n"
-#~ "version 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is free software published \n"
-#~ "under the GNU General Public License GPL.\n"
-#~ "More about this in the help."
-#~ msgstr ""
-#~ "Shisen-Sho\n"
-#~ "\n"
-#~ "versjon 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Dette program er fri software publisert \n"
-#~ "under  GNU General Public License GPL.\n"
-#~ "Mer om dette i hjelp."

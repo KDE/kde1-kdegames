@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -15,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
-msgstr "Om KReversi"
+msgstr "Om kreversi"
 
 #: about.cpp:65
 msgid "Version "
@@ -82,7 +80,6 @@ msgid "&Save game"
 msgstr "&Lagre spill"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
 msgstr "Få &hint"
 

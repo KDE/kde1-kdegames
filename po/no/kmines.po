@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -145,20 +144,3 @@ msgstr "Usikkerhets (?) merke"
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "Forsøk igjen"
-
-#~ msgid "About..."
-#~ msgstr "Om..."
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "av Nicolas HADACEK (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-
-#~ msgid "kmines : About"
-#~ msgstr "KMines : About"
