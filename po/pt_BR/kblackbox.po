@@ -38,7 +38,7 @@ msgstr "&Desistir"
 
 #: kbbgame.cpp:86
 msgid "&Done"
-msgstr "&Feito"
+msgstr "&Pronto"
 
 #: kbbgame.cpp:88
 msgid "&Resize"
@@ -82,7 +82,7 @@ msgstr "Desistir"
 
 #: kbbgame.cpp:176
 msgid "Done"
-msgstr "Feito"
+msgstr "Pronto"
 
 #: kbbgame.cpp:179
 msgid "Help"
