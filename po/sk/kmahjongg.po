@@ -64,6 +64,10 @@ msgid ""
 "\n"
 "by Mathias Mueller (in5y158@public.uni-hamburg.de)"
 msgstr ""
+"Mahjongg %s\n"
+"\n"
+"napísal Mathias Mueller (in5y158@public.uni-hamburg.de)"
+
 
 #: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"

@@ -50,7 +50,6 @@ msgid "&Sounds"
 msgstr "&Zvuky"
 
 #: gamewindow.cpp:73
-#, fuzzy, c-format
 msgid ""
 "KSmiletris %s\n"
 "\n"
@@ -58,7 +57,7 @@ msgid ""
 "\n"
 "Feedbacks are welcome!\n"
 msgstr ""
-"KSmiletris %d\n"
+"KSmiletris %s\n"
 "\n"
 "Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"
@@ -97,6 +96,5 @@ msgid "New High Score"
 msgstr "Prírastok do sieòe slávy"
 
 #: newscoredialog.cpp:47
-#, fuzzy
 msgid "Enter name"
-msgstr "&Koniec hry"
+msgstr "Zadajte meno"
