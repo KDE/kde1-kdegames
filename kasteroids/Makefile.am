@@ -4,15 +4,6 @@ INCLUDES = $(all_includes) -IQwSpriteField
 LDFLAGS = $(all_libraries) -L$(topdir)/kasteroids/QwSpriteField 
 LDADD = -lkdeui -lkdecore -lSpriteField -lqt -lXext -lX11 $(LIBSOCKET)
 
-########### File Formats ###########
-
-SUFFIXES =  .moc
-
-.h.moc: 
-	$(MOC) $< -o $@
-
-########## Files #####################
-
 kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp kastmsg.cpp
 BUILTSOURCES = view.moc toplevel.moc kfixedtopwidget.moc
 bin_PROGRAMS = kasteroids
@@ -39,3 +30,17 @@ uninstall-local:
 
 messages:
 	@XGETTEXT@ -C -ktranslate -x ../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/kasteroids.pot
+
+# Dependencies
+view.cpp:view.moc
+view.moc: view.h
+	$(MOC) view.h -o view.moc
+
+toplevel.cpp:toplevel.moc
+toplevel.moc: toplevel.h
+	$(MOC) toplevel.h -o toplevel.moc
+
+kfixedtopwidget.cpp:kfixedtopwidget.moc
+kfixedtopwidget.moc: kfixedtopwidget.h
+	$(MOC) kfixedtopwidget.h -o kfixedtopwidget.moc
+
