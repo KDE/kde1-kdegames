@@ -113,7 +113,7 @@ msgstr "Naj&vi¹i rezultati"
 
 #: main.cpp:56
 msgid "&Print"
-msgstr ""
+msgstr "&Ispis"
 
 #: main.cpp:64
 msgid "? mark"

@@ -90,7 +90,6 @@ msgid "SameGame - Quit"
 msgstr "Isto - Zavr¹i"
 
 #: KSameWidget.cpp:193
-#, fuzzy
 msgid "Do you really want to quit?"
 msgstr "®elite li zbilja zavr¹iti?"
 
