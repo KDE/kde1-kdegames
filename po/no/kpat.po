@@ -173,7 +173,7 @@ msgstr "Animasjon ved oppstart"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Tålmodighet"
 
 #: pwidget.cpp:128
 msgid ""
@@ -182,6 +182,10 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"av Paul Olav Tvetei\n"
+"\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

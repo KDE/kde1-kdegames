@@ -15,59 +15,51 @@ msgstr ""
 
 #: dialogs.cpp:94
 msgid "kmines : Customize Game"
-msgstr ""
+msgstr "kmines: Tilpasset spill"
 
 #: dialogs.cpp:122
-#, fuzzy
 msgid "Width"
-msgstr "Bredde :"
+msgstr "Bredde"
 
 #: dialogs.cpp:147
-#, fuzzy
 msgid "Height"
-msgstr "Høyde :"
+msgstr "Høyde"
 
 #: dialogs.cpp:172
-#, fuzzy
 msgid "Mines"
-msgstr "Mines :"
+msgstr "Miner"
 
 #: dialogs.cpp:257
-#, fuzzy
 msgid "kmines : High Scores"
-msgstr "Høy poengsum"
+msgstr "kmines: Liste over de beste"
 
 #: dialogs.cpp:287
-#, fuzzy
 msgid "Easy :"
-msgstr "Lett"
+msgstr "Lett :"
 
 #: dialogs.cpp:288
 msgid "Normal :"
-msgstr ""
+msgstr "Normal :"
 
 #: dialogs.cpp:289
-#, fuzzy
 msgid "Expert :"
-msgstr "Ekspert"
+msgstr "Ekspert :"
 
 #: dialogs.cpp:315
 msgid "in"
 msgstr "i"
 
 #: dialogs.cpp:330
-#, fuzzy
 msgid "minutes."
-msgstr "minutter og "
+msgstr "minutter."
 
 #: dialogs.cpp:331
-#, fuzzy
 msgid "minutes"
-msgstr "minutter og "
+msgstr "minutter"
 
 #: dialogs.cpp:340
 msgid "and"
-msgstr ""
+msgstr "og"
 
 #: dialogs.cpp:352
 msgid "seconds."
@@ -155,7 +147,7 @@ msgstr "Tilpasset"
 
 #: main.cpp:70
 msgid "Minesweeper"
-msgstr ""
+msgstr "Minesveiper"
 
 #: main.cpp:73
 msgid ""
@@ -163,6 +155,9 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
+"\n"
+"\n"
+"av Nicolas Hadacek"
 
 #: main.cpp:79
 msgid "Level"
