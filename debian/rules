@@ -14,7 +14,7 @@ $(BUILDDIR)/build-stamp:
 	test -d $(BUILDDIR) || mkdir $(BUILDDIR) ;\
 	cd $(BUILDDIR) ;\
 	CXXFLAGS="-g -O2 -Wall" \
-	  ../configure --with-install-root=`pwd`/../debian/tmp \
+	  ../configure --with-install-root=`pwd`/../debian/tmp --prefix=/usr \
 	  --enable-debug --disable-rpath --bindir=$${kde_bindir} 
 	
 	make -C $(BUILDDIR)
