@@ -1,7 +1,7 @@
 
 # This has to be set. The rest should be reusable
 GMFILES = kasteroids.gmo kabalone.gmo kpat.gmo kreversi.gmo kpoker.gmo \
-	kshisen.gmo
+	kshisen.gmo ktetris.gmo kmines.gmo
 POFILES = $(GMFILES:.gmo=.po)
 
 LANG = es

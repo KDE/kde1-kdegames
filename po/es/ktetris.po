@@ -1,0 +1,332 @@
+
+# Transale pot for Ktetris Spanish
+# todo : Server has vanished (#: net.cpp:204 msgid "at" msgstr "at") Client has vanished
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Nicolas HADACEK(hadacek@kde.org), 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Santiago Fernández and Jorge Valencia<jorgev@est.unileon.es>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: board.cpp:68 dialogs.cpp:140
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: board.cpp:85
+msgid "Game paused"
+msgstr "Juego en pausa"
+
+#: board.cpp:90
+msgid "Press to resume"
+msgstr "Presione para continuar"
+
+#: board.cpp:105 net.cpp:216
+msgid "Game over"
+msgstr "Fin del juego"
+
+#: board.cpp:109
+msgid "Press Return to replay"
+msgstr "Presione Intro para empezar"
+
+#: board.cpp:113
+msgid "Press to start game"
+msgstr "Presione para empezar juego"
+
+#: board.cpp:154 field.cpp:31 field.cpp:48
+msgid "Move left"
+msgstr "Mover a la izquierda"
+
+#: board.cpp:155 field.cpp:32 field.cpp:49
+msgid "Move right"
+msgstr "Mover a la derecha"
+
+#: board.cpp:156 field.cpp:33 field.cpp:50
+msgid "Drop down"
+msgstr "Posar abajo"
+
+#: board.cpp:157 field.cpp:34 field.cpp:51
+msgid "One line down"
+msgstr "Mover una línea abajo"
+
+#: board.cpp:158 field.cpp:35 field.cpp:52
+msgid "Rotate left"
+msgstr "Rotar a la izquierda"
+
+#: board.cpp:159 field.cpp:36 field.cpp:53
+msgid "Rotate right"
+msgstr "Rotar a la derecha"
+
+#: board.cpp:269
+msgid "You suck !"
+msgstr "¡ La mangaste !"
+
+#: board.cpp:391
+msgid "Highscores file not writable !"
+msgstr "¡ El archivo de puntuaciones no es modificable !"
+
+#: net.cpp:133
+msgid "Illegal port"
+msgstr "Puerto ilegal"
+
+#: net.cpp:139
+msgid "Null address"
+msgstr "Dirección no válida"
+
+#: net.cpp:145 net.cpp:151
+msgid "Unknown address"
+msgstr "Dirección desconocida"
+
+#: net.cpp:166
+msgid "Cannot create socket"
+msgstr "Imposible crear Socket"
+
+#: net.cpp:204
+msgid "at"
+msgstr "en"
+
+#: net.cpp:241
+msgid "Connect error"
+msgstr "Error de conexión"
+
+#: net.cpp:251 net.cpp:306
+msgid "Server unreachable"
+msgstr "Servidor inalcanzable"
+
+#: net.cpp:274
+msgid "The server has died"
+msgstr "El servidor ha muerto"
+
+#: net.cpp:274
+msgid "Cancel from server"
+msgstr "El servidor ha cancelado"
+
+#: net.cpp:280 net.cpp:340
+msgid "Unknown data from server"
+msgstr "Datos desconocidos del servidor"
+
+#: net.cpp:319
+msgid "Cannot send to server"
+msgstr "No se puede mandar datos al servidor"
+
+#: net.cpp:331
+msgid "Client timeout (No message from server)"
+msgstr "Cliente fuera de tiempo (Ningun mensaje del servidor)"
+
+#: net.cpp:336
+msgid "Server has vanished"
+msgstr "El servidor ha desaparecido"
+
+#: net.cpp:373
+msgid "Bind error"
+msgstr "Error de unión"
+
+#: net.cpp:378
+msgid "Listen error"
+msgstr "Error de escucha"
+
+#: net.cpp:397
+msgid "Unknown message from unknown player (??)"
+msgstr "Mensaje desconocido de jugador desconocido (¿?)"
+
+#: net.cpp:456 net.cpp:497
+msgid "Unknown message from client"
+msgstr "Mensaje desconocido del cliente"
+
+#: net.cpp:493
+msgid "Client has died"
+msgstr "El cliente ha muerto"
+
+#: net.cpp:493
+msgid "Cancel from client"
+msgstr "Cancelación del cliente"
+
+#: net.cpp:501
+msgid "Timeout"
+msgstr "Fuera del tiempo de respuesta"
+
+#: net.cpp:527
+msgid "No message from client"
+msgstr "No hay mensajes del cliente"
+
+#: net.cpp:532
+msgid "Client has vanished"
+msgstr "El cliente ha desaparecido"
+
+#: net.cpp:536
+msgid "Unknown data from client"
+msgstr "Datos desconocidos desde el cliente"
+
+#: net.cpp:540
+msgid "End message from client"
+msgstr "Fin de mensaje del cliente"
+
+#: net.cpp:557
+msgid "Cannot send to client"
+msgstr "No es posible enviar al cliente"
+
+#: dialogs.cpp:61
+msgid "High Scores"
+msgstr "Mejores Puntuaciones"
+
+#: dialogs.cpp:84 dialogs.cpp:94
+msgid "Hall of Fame"
+msgstr "Sala de la Fama"
+
+#: dialogs.cpp:161
+msgid "No option yet !"
+msgstr "¡Sin opciones todavia!"
+
+#: dialogs.cpp:184 dialogs.cpp:234
+msgid "Network Dialog"
+msgstr "Diálogo de Red"
+
+#: dialogs.cpp:187
+msgid "Server"
+msgstr "Servidor"
+
+#: dialogs.cpp:188
+msgid "Client"
+msgstr "Cliente"
+
+#: dialogs.cpp:192
+msgid "Player name :"
+msgstr "Nombre de jugador :"
+
+#: dialogs.cpp:194
+msgid "Server address :"
+msgstr "Dirección del servidor :"
+
+#: dialogs.cpp:196
+msgid "Port :"
+msgstr "Puerto :"
+
+#: dialogs.cpp:208
+msgid "Connect"
+msgstr "Connexión"
+
+#: dialogs.cpp:211
+msgid "Connecting ..."
+msgstr "Conectando ..."
+
+#: dialogs.cpp:214
+msgid "Play !"
+msgstr "¡ Juega !"
+
+#: dialogs.cpp:254
+msgid "Network game"
+msgstr "Juego en red"
+
+#: dialogs.cpp:258
+msgid "Server mode"
+msgstr "Modo Servidor"
+
+#: dialogs.cpp:260
+msgid "Client mode"
+msgstr "Modo cliente"
+
+#: dialogs.cpp:338
+msgid "Waiting for other player(s) ..."
+msgstr "Esperando por los demas jugadores ..."
+
+#: field.cpp:27 field.cpp:43
+msgid "New game"
+msgstr "Nuevo juego"
+
+#: field.cpp:28 field.cpp:44
+msgid "Pause game"
+msgstr "Juego en pausa"
+
+#: field.cpp:30 field.cpp:46
+msgid "High scores"
+msgstr "Mejores Puntuaciones"
+
+#: field.cpp:37
+msgid "Close dialog"
+msgstr "Cerrar charla"
+
+#: field.cpp:38
+msgid "Ok dialog"
+msgstr "Ok charla"
+
+#: field.cpp:39
+msgid "Cancel dialog"
+msgstr "Cancelar charla"
+
+#: field.cpp:55
+msgid "Score"
+msgstr "Puntuación"
+
+#: field.cpp:59
+msgid "Lines removed"
+msgstr "Líneas borradas"
+
+#: field.cpp:63
+msgid "Level"
+msgstr "Nivel"
+
+#: field.cpp:67
+msgid "Next tile"
+msgstr "Siguiente pieza"
+
+#: field.cpp:173
+msgid "&Restart game"
+msgstr "&Comenzar juego"
+
+#: field.cpp:174
+msgid "&Pause game"
+msgstr "&Juego en pausa"
+
+#: field.cpp:175
+msgid "&Multiplayer game"
+msgstr "&Juego Multijugador"
+
+#: field.cpp:177
+msgid "&High scores"
+msgstr "&Mejores Puntuaciones"
+
+#: main.cpp:22 main.cpp:67
+msgid "Hide menu"
+msgstr "Ocultar menu"
+
+#: main.cpp:27
+msgid "&Keys"
+msgstr "&Teclas"
+
+#: main.cpp:30
+msgid "&Contents"
+msgstr "&Contenidos"
+
+#: main.cpp:33
+msgid "About &Qt"
+msgstr "Acerca de &Qt"
+
+#: main.cpp:64
+msgid "Show menu"
+msgstr "Mostrar menu"
+
+#: main.cpp:77
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK(hadacek@kde.org)\n"
+"tetris kernel by Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
+
+msgstr ""
+"%s (%s) \n"
+"\n"
+"por Nicolas HADACEK(hadacek@kde.org)\n"
+"Núcleo del tetris por Eirik ENG.\n"
+
+#: main.cpp:80
+msgid "ktetris : about"
+msgstr "ktetris : Acerca de"
