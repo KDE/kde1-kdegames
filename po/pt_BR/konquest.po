@@ -38,7 +38,9 @@ msgstr "Selecione planeta inicial."
 msgid ""
 "The distance from Planet %s to Planet %s is %s light years.\n"
 "A ship leaving this turn will arrive on turn %s"
-msgstr "A distância do Planeta %s para o Planeta %s é de %s anos-luz.\nUm cruzador que parta nesta rodada chegará na rodada %s"
+msgstr ""
+"A distância do Planeta %s para o Planeta %s é de %s anos-luz.\n"
+"Um cruzador que parta nesta rodada chegará na rodada %s"
 
 #: gameboard.cc:291
 msgid "Distance"
@@ -216,7 +218,9 @@ msgstr "Porcentagem destruída: %.3f"
 msgid ""
 "This is the last turn.\n"
 "Do you wish to add more turns?"
-msgstr "Esta é a última rodada.\nVocê quer adicionar mais rodadas?"
+msgstr ""
+"Esta é a última rodada.\n"
+"Você quer adicionar mais rodadas?"
 
 #: gameenddlg.cc:64
 #, c-format
