@@ -5,7 +5,7 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1998-10-13 13:30+0200\n"
 "PO-Revision-Date: 1998-05-14 20:00-0500\n"
 "Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
@@ -17,9 +17,8 @@ msgstr ""
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
-msgstr "DesnoGore"
+msgstr "Desno"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -30,9 +29,8 @@ msgid "LeftDown"
 msgstr "LijevoDolje"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "LijevoGore"
+msgstr "Lijevo"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -92,7 +90,7 @@ msgstr "Lako"
 
 #: AbTop.cpp:317
 msgid "Normal"
-msgstr ""
+msgstr "Normalno"
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -132,7 +130,7 @@ msgstr "©pijuniraj"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Abalone"
 
 #: AbTop.cpp:351
 msgid ""
@@ -140,6 +138,9 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
+"\n"
+"\n"
+"Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"

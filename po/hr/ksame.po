@@ -2,18 +2,18 @@
 # Vladimir Vuksan <vuksan@veus.hr>, 1998.
 msgid ""
 msgstr ""
-"Project-Id-Version: games\n"
+"Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-09-17 13:38+MST\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=iso8859-2\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
 #: KSameWidget.cpp:50
 msgid "New"
-msgstr ""
+msgstr "Nova"
 
 #: KSameWidget.cpp:57
 msgid "Show Highscore"
@@ -58,7 +58,6 @@ msgid "Score: XXXXXX"
 msgstr "Rezultat: XXXXXX"
 
 #: KSameWidget.cpp:134
-#, fuzzy
 msgid "SameGame: New Game"
 msgstr "Isto: Nova Igra"
 
@@ -123,9 +122,8 @@ msgid "Score: %06i"
 msgstr "Rezultat: %06i"
 
 #: HighScore.cpp:107
-#, fuzzy
 msgid "Name"
-msgstr "Igra"
+msgstr "Ime"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"
@@ -134,6 +132,3 @@ msgstr "Molim &unesite svoje ime:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonimac"
-
-#~ msgid "Highscore"
-#~ msgstr "Najvi¹i rezultat"

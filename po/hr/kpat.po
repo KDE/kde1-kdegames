@@ -1,21 +1,20 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Radoslav Dejanovic <rdejanov@public.srce.hr>, 1998
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
+"Project-Id-Version: kdegames\n"
+"POT-Creation-Date: 1998-05-13 12:05+0200\n"
+"PO-Revision-Date: 1998-10-15 15:00-0500\n"
+"Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
+"Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"                             
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
-msgstr "Saèekajte molim, uèitavam karte..."
+msgstr "saèekajte molim, uèitavam karte..."
 
 #: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
@@ -49,7 +48,7 @@ msgstr "Laki 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normalno"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -109,7 +108,7 @@ msgstr "Potpuno automatski"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
-msgstr "Ponovi &Igru"
+msgstr "Ponovi &igru"
 
 #: pwidget.cpp:100
 msgid "&Klondike"
@@ -133,11 +132,11 @@ msgstr "The Idiot"
 
 #: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
-msgstr "Grandfather"
+msgstr "Djed"
 
 #: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
-msgstr "Ten"
+msgstr "Desetka"
 
 #: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"

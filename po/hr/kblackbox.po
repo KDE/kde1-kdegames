@@ -1,17 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Vladimir Vuksan <vuksan@veus.hr>, 1998
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"PO-Revision-Date: 1998-03-15 20:00-0500\n"
+"Project-Id-Version: kdegames\n"
+"POT-Creation-Date: 1998-05-13 12:05+0200\n"
+"PO-Revision-Date: 1998-10-15 15:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
-"Language-Team: Croatian\n"
+"Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: iso-8859-2\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"                         
 
 #: kbbgame.cpp:76
 msgid "&About KBlackBox"
@@ -30,9 +29,8 @@ msgid "&Give up"
 msgstr "&Odustani"
 
 #: kbbgame.cpp:86
-#, fuzzy
 msgid "&Done"
-msgstr "Gotov"
+msgstr "&Gotov"
 
 #: kbbgame.cpp:88
 msgid "&Resize"
@@ -51,14 +49,12 @@ msgid "&Tutorial"
 msgstr "&Vodiè"
 
 #: kbbgame.cpp:174
-#, fuzzy
 msgid "New"
-msgstr "&Nova"
+msgstr "Nova"
 
 #: kbbgame.cpp:176
-#, fuzzy
 msgid "Give up"
-msgstr "&Odustani"
+msgstr "Odustani"
 
 #: kbbgame.cpp:178
 msgid "Done"
@@ -125,18 +121,16 @@ msgid "Run"
 msgstr ""
 
 #: kbbgame.cpp:604
-#, fuzzy
 msgid "Size"
-msgstr "&Velièina"
+msgstr "Velièina"
 
 #: kbbgame.cpp:607
 msgid "Placed"
 msgstr ""
 
 #: kbbgame.cpp:620
-#, fuzzy
 msgid "Score"
-msgstr "Rezultat %4d"
+msgstr "Rezultat"
 
 #: kbbgame.cpp:635 kbbgame.cpp:662
 msgid "This will be the end of the current game!"
@@ -149,39 +143,3 @@ msgstr "Nema veze..."
 #: kbbgame.cpp:637 kbbgame.cpp:664
 msgid "Oh, no!"
 msgstr "O ne !"
-
-#~ msgid "&Help"
-#~ msgstr "Po&moæ"
-
-#~ msgid "&Quit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Game"
-#~ msgstr "&Igra"
-
-#~ msgid "&Options"
-#~ msgstr "&Opcije"
-
-#~ msgid "Click here when you think you placed all the balls."
-#~ msgstr "Kliknite ovdje nakon ¹to polo¾ite sve lopte."
-
-#~ msgid "This is your score."
-#~ msgstr "Va¹ rezultat."
-
-#~ msgid "These are some game statistics."
-#~ msgstr "Statistike igre."
-
-#~ msgid "About"
-#~ msgstr "O"
-
-#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-#~ msgstr " Vrijeme: %s, Velièina: %3d x%3d, Lopte: %3d /%3d"
-
-#~ msgid "Yes"
-#~ msgstr "Da"
-
-#~ msgid " No"
-#~ msgstr " Ne"

@@ -1,17 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Radoslav Dejanovic <rdejanov@public.srce.hr>, 1998
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: 1998-03-23 22:00+0100\n"
-"Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr> \n"
-"Language-Team: Croatian\n"
+"Project-Id-Version: kdegames\n"
+"POT-Creation-Date: 1998-05-13 12:05+0200\n"
+"PO-Revision-Date: 1998-10-15 15:00-0500\n"
+"Last-Translator: Radoslav Dejanovic <rdejanov@public.srce.hr>\n"
+"Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: iso-8859-2\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"             
 
 #: board.cpp:65 dialogs.cpp:137
 msgid "Anonymous"
@@ -283,29 +282,8 @@ msgstr "&Tipke"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "od"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Prika¾i izbornik"
-
-#~ msgid "Close dialog"
-#~ msgstr "Zatvori dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dialog"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Poni¹ti dialog"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "Nicolas Hadacek"

@@ -1,17 +1,16 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Almir Uzunovic <auzunovi@sava.utic.net.ba>, 1998
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
-"PO-Revision-Date: 1998-03-15 20:00-0500\n"
-"Last-Translator: Almir Uzunovic <auzunovi@sava.utic.net.ba> \n"
-"Language-Team: Croatian\n"
+"Project-Id-Version: kdegames\n"
+"POT-Creation-Date: 1998-05-13 12:05+0200\n"
+"PO-Revision-Date: 1998-10-15 15:00-0500\n"
+"Last-Translator: Almir Uzunovic <auzunovi@sava.utic.net.ba>\n"
+"Language-Team: Croatian <hr@li.org>\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: iso-8859-2\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: 8bit\n"      
 
 #: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
@@ -95,6 +94,9 @@ msgid ""
 "\n"
 "by Mario Weilguni"
 msgstr ""
+"\n"
+"\n"
+"Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -173,18 +175,16 @@ msgid "Rank"
 msgstr "Rang"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Nova igra"
+msgstr "Ime"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Vrijeme"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "Ve&lièina"
+msgstr "Velièina"
 
 #: app.cpp:650
 msgid "Score"
