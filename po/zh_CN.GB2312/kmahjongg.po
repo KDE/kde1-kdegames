@@ -1,0 +1,135 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
+"PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
+"Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
+"Language-Team: zh_CN ( gb2312 )\n"
+
+#: kmahjongg.cpp:101
+msgid "Classic"
+msgstr "古典"
+
+#: kmahjongg.cpp:102
+msgid "Tower"
+msgstr "高塔"
+
+#: kmahjongg.cpp:103
+msgid "Triangle"
+msgstr "三角"
+
+#: kmahjongg.cpp:104
+msgid "Pyramide"
+msgstr "叠罗汉"
+
+#: kmahjongg.cpp:211
+msgid "&Start new game"
+msgstr "开始新游戏[&S]"
+
+#: kmahjongg.cpp:213
+msgid "&Help me"
+msgstr "帮助我[&H]"
+
+#: kmahjongg.cpp:214
+msgid "&Undo last move"
+msgstr "取消上一步[&U]"
+
+#: kmahjongg.cpp:215
+msgid "&Demo mode"
+msgstr "演示模式[&D]"
+
+#: kmahjongg.cpp:216
+msgid "Show &matching tiles"
+msgstr "显示配对的子[&M]"
+
+#: kmahjongg.cpp:222
+msgid "&Load Background image..."
+msgstr "载入背景图象[&L]..."
+
+#: kmahjongg.cpp:224
+msgid "&Statusbar"
+msgstr "状态条[&S]"
+
+#: kmahjongg.cpp:226
+msgid "Mahjongg"
+msgstr "Mahjongg"
+
+#: kmahjongg.cpp:228
+msgid ""
+"\n"
+"\n"
+"by Mathias Mueller"
+msgstr ""
+"\n"
+"\n"
+"by Mathias Mueller"
+
+#: kmahjongg.cpp:387 kmahjongg.cpp:401
+msgid "Unable to open bitmap file !"
+msgstr "不能打开位图文件 !"
+
+#: kmahjongg.cpp:455
+msgid "Undo operation done successfully."
+msgstr "悔棋成功."
+
+#: kmahjongg.cpp:458
+msgid "What do you want to undo? You have done nothing!"
+msgstr "你要悔棋吗 ? 你还没有走呢 !"
+
+#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+msgid "Sorry, you have lost the game."
+msgstr "抱歉 , 你输了."
+
+#: kmahjongg.cpp:504
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "演示模式.按鼠标停止."
+
+#: kmahjongg.cpp:512
+msgid "Now it's you again."
+msgstr "该你了."
+
+#: kmahjongg.cpp:532
+msgid "Your computer has lost the game."
+msgstr "你的计算机输了."
+
+#: kmahjongg.cpp:618
+msgid "Congratulations. You have won!"
+msgstr "恭喜.你赢了!"
+
+#: kmahjongg.cpp:644
+msgid "Calculating new game..."
+msgstr "计算机新的游戏 ..."
+
+#: kmahjongg.cpp:650
+msgid "Error converting board information!"
+msgstr "转化游戏数据时发生错误!"
+
+#: kmahjongg.cpp:662
+msgid "Ready. Now it's your turn."
+msgstr "好了. 该你了."
+
+#: kmahjongg.cpp:668
+msgid "Error generating new game!"
+msgstr "产生新的游行时发生错误!"
+
+#: kmahjongg.cpp:1666
+#, c-format
+msgid ""
+"Failed to load image:\n"
+"%s"
+msgstr ""
+"无法载入图象:\n"
+"%s"
+
+#: kmahjongg.cpp:1677
+#, c-format
+msgid ""
+"Sorry, this image uses %d colors.\n"
+"Maximum allowed is %d"
+msgstr ""
+"抱歉 , 这个图象用了 %d 种颜色.\n"
+"最多只能用 %d 种"
