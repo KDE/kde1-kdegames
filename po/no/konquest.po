@@ -94,7 +94,7 @@ msgstr "Planet inneholder"
 #: gameboard.cc:515
 #, c-format
 msgid "Planet %s has fallen to %s"
-msgstr "Planet &s har blitt mistet til %s"
+msgstr "Planet %s har blitt mistet til %s"
 
 #: gameboard.cc:517
 msgid "Planet Conquered"
