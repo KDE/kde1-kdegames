@@ -1,0 +1,4 @@
+[KDE Desktop Entry]
+Exec=ktetris -caption "%c"
+DocPath=ktetris.html
+Info=One more Tetris game
