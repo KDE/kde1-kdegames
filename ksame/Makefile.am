@@ -6,9 +6,9 @@ ksame_SOURCES= main.cpp StoneWidget.cpp KSameWidget.cpp ScoreWidget.cpp
 BUILTSOURCES = StoneWidget.moc KSameWidget.moc ScoreWidget.moc
 DISTCLEANFILES = $(BUILTSOURCES)
 
-DOCDIR = $(kde_htmldir)/en/ksame/
-APPSDIR= $(kde_appsdir)/Games
-PICSDIR= $(kde_datadir)/ksame/pics
+docsdir = $(kde_htmldir)/en/ksame/
+appsdir = $(kde_appsdir)/Games
+picsdir = $(kde_datadir)/ksame/pics
 
 StoneWidget.cpp: StoneWidget.moc
 StoneWidget.moc: StoneWidget.h
@@ -22,18 +22,7 @@ ScoreWidget.cpp: ScoreWidget.moc
 ScoreWidget.moc: ScoreWidget.h
 	$(MOC) -o ScoreWidget.moc ScoreWidget.h
 
-install-data-local: 
-	$(mkinstalldirs) $(DOCDIR)
-	$(INSTALL) index.html $(DOCDIR)
-	$(mkinstalldirs) $(APPSDIR)
-	$(INSTALL) ksame.kdelnk $(APPSDIR)
-	$(mkinstalldirs) $(PICSDIR)
-	$(INSTALL) stones.bmp $(PICSDIR)
-	$(INSTALL) stones_mask.bmp $(PICSDIR)
-
-uninstall-local:
-	rm -f $(DOCDIR)/index.html
-	rm -f $(APPSDIR)/ksame.kdelnk
-	rm -f $(PICSDIR)/stones.bmp $(PICSDIR)/stones_mask.bmp
-
+pics_DATA = stones.bmp stones_mask.bmp stones2000_mask.bmp stones2000.bmp 
+docs_DATA = index.html
+apps_DATA = ksame.kdelnk
 
