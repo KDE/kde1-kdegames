@@ -5,6 +5,7 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1999-02-02 01:43+0100\n"
+"PO-Revision-Date: 1999-04-26 22:35-0500\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
@@ -108,39 +109,39 @@ msgstr "&Endurtaka leik"
 
 #: pwidget.cpp:100
 msgid "&Klondike"
-msgstr ""
+msgstr "&Sjöspilakapall"
 
 #: pwidget.cpp:101 pwidget.cpp:277
 msgid "MicroSolitaire"
-msgstr ""
+msgstr "Litli kapall"
 
 #: pwidget.cpp:102 pwidget.cpp:281
 msgid "Calculation"
-msgstr ""
+msgstr "Útreikningur"
 
 #: pwidget.cpp:103
 msgid "Napoleon's Tomb"
-msgstr ""
+msgstr "Gröf Napóleons"
 
 #: pwidget.cpp:104 pwidget.cpp:285
 msgid "The Idiot"
-msgstr ""
+msgstr "Fávitinn"
 
 #: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
-msgstr ""
+msgstr "Afi gamli"
 
 #: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
-msgstr ""
+msgstr "Tugur"
 
 #: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
-msgstr ""
+msgstr "Þrí-afgangur"
 
 #: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
-msgstr ""
+msgstr "Fríklefinn"
 
 #: pwidget.cpp:110
 msgid "Choose new game"
@@ -172,7 +173,7 @@ msgstr "Teiknimynd í upphafi"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Þolinmæðin"
 
 #: pwidget.cpp:128
 msgid ""
@@ -192,11 +193,11 @@ msgstr "Aðra vinnu unnu:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
-msgstr ""
+msgstr "Sjöspilakapall"
 
 #: pwidget.cpp:289
 msgid "Napoleons Tomb"
-msgstr ""
+msgstr "Gröf Napóleons"
 
 #: pwidget.cpp:294
 #, c-format
