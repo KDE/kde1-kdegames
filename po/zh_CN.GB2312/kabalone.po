@@ -1,0 +1,88 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkpanel\n"
+"POT-Creation-Date: 1998-04-17 00:02+0200\n"
+"PO-Revision-Date: 1998-02-21 05:04+0800\n"
+"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Language-Team: zh_CN ( gb2312 )\n"
+
+msgid "Actual examined position:"
+msgstr "实际检验位置:"
+
+msgid "Board value"
+msgstr "版面值"
+
+msgid "Both"
+msgstr "两者"
+
+msgid "Challange"
+msgstr "挑战赛"
+
+msgid "Computer plays"
+msgstr "电脑玩者"
+
+msgid "Easy"
+msgstr "简单"
+
+msgid "Hard"
+msgstr "困难"
+
+msgid "Hint"
+msgstr "提示"
+
+msgid "I am thinking..."
+msgstr "我正在在思考..."
+
+msgid "It's your turn !"
+msgstr "轮到你下了!"
+
+msgid "LeftDown"
+msgstr "左下"
+
+msgid "LeftUp"
+msgstr "左上"
+
+msgid "Level"
+msgstr "等级"
+
+msgid "Move"
+msgstr "移动"
+
+msgid "Move slow"
+msgstr "慢动作"
+
+msgid "Press F2 for a new game"
+msgstr "按 F2 开始新游戏"
+
+msgid "Red"
+msgstr "红色"
+
+msgid "Restore Position"
+msgstr "还原位置"
+
+msgid "RightDown"
+msgstr "右下"
+
+msgid "RightUp"
+msgstr "右上"
+
+msgid "Save Position"
+msgstr "保存位置"
+
+msgid "Side"
+msgstr "两旁"
+
+msgid "Spy"
+msgstr "间谍"
+
+msgid "Stop Search"
+msgstr "停止搜寻"
+
+msgid "Take back"
+msgstr "回子"
+
+msgid "Yellow"
+msgstr "黄色"
+
+msgid "won"
+msgstr "胜利"

@@ -1,0 +1,106 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kcmkpanel\n"
+"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"PO-Revision-Date: 1998-02-21 05:04+0800\n"
+"Last-Translator: Wang Jian <lark@ipc.ustc.edu.cn>\n"
+"Language-Team: zh_CN ( gb2312 )\n"
+
+msgid "? mark"
+msgstr "? 标记"
+
+msgid "Anonymous"
+msgstr "匿名"
+
+msgid "Bad luck !"
+msgstr "运气不好 !"
+
+msgid "Cancel dialog"
+msgstr "取消对话框"
+
+msgid "Close dialog"
+msgstr "关闭对话框"
+
+msgid "Custom"
+msgstr "自定义"
+
+msgid "Custom Level"
+msgstr "自定义等级"
+
+msgid "Easy"
+msgstr "简单"
+
+msgid "Expert"
+msgstr "专家级"
+
+msgid "Game paused"
+msgstr "游戏暂停"
+
+msgid "Hall of Fame"
+msgstr "名人堂"
+
+msgid "Height :"
+msgstr "高度 :"
+
+msgid "Hide menu bar"
+msgstr "隐藏菜单条"
+
+msgid "High Scores"
+msgstr "高分排行榜"
+
+msgid "High scores"
+msgstr "高分排行榜"
+
+msgid "Highscore file is not writable !"
+msgstr "高分排行榜文件无法写入 !"
+
+msgid "Keys"
+msgstr "按键设定"
+
+msgid "Level"
+msgstr "等级"
+
+msgid "Mines :"
+msgstr "地雷数 :"
+
+msgid "New game"
+msgstr "开始新游戏"
+
+msgid "Ok dialog"
+msgstr "确定对话框"
+
+msgid "Pause game"
+msgstr "暂停游戏"
+
+msgid "Press to resume"
+msgstr "按任意键继续"
+
+msgid "Show menu bar"
+msgstr "显示菜单条"
+
+msgid "Try again"
+msgstr "再试一次"
+
+msgid "Uncertain (?) mark"
+msgstr "不确定的 (?) 标记"
+
+msgid "Width :"
+msgstr "宽度 :"
+
+msgid "Yeeessss !"
+msgstr "成功 !!!!"
+
+msgid "You did it ... but not in time."
+msgstr "你完成了... 但没有在规定时间内."
+
+msgid "in"
+msgstr "时间"
+
+msgid "kmines : Error"
+msgstr "kmines : 错误"
+
+msgid "minutes and "
+msgstr "分"
+
+msgid "seconds."
+msgstr "秒."
