@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=SameGame
 Name[de]=Probiere
+Name[no]=Same
 Name[pl]=ToSamo
 Name[fi]=SamaPeli
 Name[pt]=Iguais
@@ -14,6 +15,7 @@ Type=Application
 DocPath=ksame/index.html
 Comment=A little board game
 Comment[de]=Ein Spiel mit bunten Kugeln
+Comment[no]=Et lite brettspill
 Comment[pl]=Niewielka gra w kulki.
 Comment[fi]=Yksinkertainen lautapeli
 Comment[hu]=Egy kis táblás játék

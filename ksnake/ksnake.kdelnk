@@ -3,6 +3,7 @@
 Name=Snake Race
 Icon=ksnake.xpm
 Name[de]=Schlangen-Rennen
+Name[no]=Langeløp
 Name[pl]=W±¿
 Name[fi]=Käärmeralli
 Name[pt]=Cobras
@@ -14,6 +15,7 @@ Exec=ksnake -caption "%c"
 DocPath=ksnake/index.html
 Comment=Eat all items before the computer
 Comment[de]=Fress alles bevor es der Rechner tut
+Comment[no]=Spis alt før datamaskinen
 Comment[pl]=Zjedz wszystkie owoce, zanim to zrobi komputer.
 Comment[fi]=Syö kaikki palikat ennen tietokonetta
 Comment[pt]=Coma tudo antes que o computador o faça

@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Abalone
 Name[cs]=Abalone
+Name[no]=Sjøøre
 Name[sk]=Abalone
 Name[hu]=Abalone
 Name[hr]=Abalone
@@ -10,6 +11,7 @@ Exec=kabalone -caption "%c"
 DocPath=kabalone/index.html
 Comment=Play Abalone against computer
 Comment[de]=Abalone gegen den Computer
+Comment[no]=Sjøøre mot datamaskinen
 Comment[pl]=Zagraj w Abalone przeciwko komputerowi.
 Comment[fi]=Pelaa Abalonea tietokonetta vastaan
 Comment[hu]=Játssz Abalone-t a gép ellen
