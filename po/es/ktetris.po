@@ -320,12 +320,12 @@ msgid ""
 "by Nicolas HADACEK(hadacek@kde.org)\n"
 "tetris kernel by Eirik ENG.\n"
 "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-
 msgstr ""
 "%s (%s) \n"
 "\n"
 "por Nicolas HADACEK(hadacek@kde.org)\n"
 "Núcleo del tetris por Eirik ENG.\n"
+"http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
 
 #: main.cpp:80
 msgid "ktetris : about"
