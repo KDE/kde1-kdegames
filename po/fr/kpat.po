@@ -173,7 +173,7 @@ msgstr "Animation du début"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Patience"
 
 #: pwidget.cpp:128
 msgid ""
@@ -182,6 +182,10 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"Par Paul Olav Tvetei\n"
+"\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
@@ -232,7 +236,7 @@ msgstr "Tout automatique"
 #~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
 #~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
 #~ "\n"
-#~ "Ce programme fais partie du K Desktop Environment."
+#~ "Ce programme fait partie du K Desktop Environment."
 
 #~ msgid "About kpat"
 #~ msgstr "Au sujet de kpat"
