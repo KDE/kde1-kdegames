@@ -4,12 +4,12 @@
 # @CXXFLAGS@     : is set to -g -Wall (when debuging) or -O2 -Wall (when not)
 # @all_includes@ : is set to all needed include paths for QT, KDE and X11
 # -I.. 	         : needed for config.h
-CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I.. -I.
+CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I..
 
 # @LDFLAGS@    : is set to -s (when not debuging) for stripping
 # @all_libra.@ : is set to all needed libraries paths for QT, KDE and X11
 # you need also @LIBSOCKET@, if you link with -lkfm
-LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkdecore -lqt -lXext -lX11 -lkdeui
+LDFLAGS	= @LDFLAGS@ @all_libraries@ -lmediatool -lkdeui -lkdecore -lqt -lXext -lX11
 
 # both are clear, I think
 CXX     = @CXX@
@@ -70,15 +70,14 @@ install: all
 	$(INSTALL_DATA) kpoker.xpm $(ICONDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) kpoker.kdelnk $(APPSDIR)
-	$(INSTALL_DIR) $(DOCSDIR)
-	$(INSTALL_DATA) docs/kpoker.html $(DOCSDIR)
-	
+	(cd docs && $(MAKE) install)
+	(cd sounds && $(MAKE) install)
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
-	rm -f $(APPSDIR)/kpoker.kdelnk
+	rm -f $(APPSDIR)/Games/kpoker.kdelnk
 	(cd bitmaps && $(MAKE) uninstall)
-	rm -rf $(DOCSDIR)
-	
+	(cd docs && $(MAKE) uninstall)
+	(cd sounds && $(MAKE) uninstall)	
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.

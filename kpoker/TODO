@@ -1,5 +1,5 @@
 - highscore table
 - build in a funky "you won $x" display (maybe wave effect out of Qt
 example)
-- sound support (lib is pretty alpha)
+- translation using KLocale
 

@@ -1,4 +1,9 @@
-// Some defines for the outlook etc.
+/* 
+ $Id$
+*/
+
+
+/* Some defines for the outlook etc. */
 #define highestCard 52
 
 #define drawDelay 300

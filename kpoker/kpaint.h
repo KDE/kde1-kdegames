@@ -1,6 +1,6 @@
 /*
  $Id$
- */
+*/
 
 #include <qpixmap.h>
 #include <qwindow.h>

@@ -1,3 +1,12 @@
+0.2
+===
+- reduced number of colors needed by the images for the backsides of cards
+- KPoker documentation is now written in .sgml format
+- lots of changes in makefiles
+- fixed that "#include <top.h>" bug.
+- sound support (experimental - *please* report problems :)
+
+
 0.1.2
 =====
 - made kpoker use KTopLevelWidget + the new menubars

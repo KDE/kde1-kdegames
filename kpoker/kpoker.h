@@ -10,9 +10,10 @@
 #include "kpaint.h"
 #include "defines.h"
 
+class KAudio;
 
-const char PVERSION[] = "0.1.2";
-const char PDATE[] = "08/06/97";
+const char PVERSION[] = "0.2";
+const char PDATE[] = "09/05/97";
 
 typedef enum _cardtype { // I don't use this anymore. But it helps to understand the numbers :)
 	        DECK=0,
@@ -63,10 +64,16 @@ protected:
 	int  testFlush();
 	int  testStraight();
 	int  findCardTypes(int cardT[5], int card);
+	void playSound(const char *filename);
+	
 
+public slots:
+	int initSound();	
+	void toggleSound();	
 protected slots:
-        void drawClick();
 	void initPoker();
+	
+	void drawClick();
 	void frameClick(CardWidget *);
 	void bTimerEvent();
 	void drawCardsEvent();
@@ -99,7 +106,8 @@ private:
 	int           blinkingCards[5]; // cards that should blink in the blinking timerevent
 	int           blinkStat; // status of blinking
 	int           drawStat; // status of drawing (which card already was drawn etc.
-	
+        bool          sound;
+        KAudio       *KAS;						      
 };
 
 

@@ -1,6 +1,12 @@
-#include <ktopwidget.h>
+/* 
+ $Id$
+*/
 
-class QPopupMenu;
+
+#include <ktopwidget.h>
+#include <qwidget.h>
+
+
 class KMenuBar;
 class KToolBar;
 class KStatusBar;
@@ -13,12 +19,23 @@ class PokerWindow : public KTopLevelWidget
 private:
 	KMenuBar        *menu;
 	
-	QPopupMenu      *filePopup;
+	QPopupMenu      *optionsPopup;
 	QPopupMenu      *helpPopup;
-	
+	QPopupMenu      *filePopup;
+
 	kpok            *_kpok;
+	
+protected slots:
+	int toggleSound();
+
 	
 public:
 	PokerWindow();
 	~PokerWindow();
 };
+
+
+
+
+
+

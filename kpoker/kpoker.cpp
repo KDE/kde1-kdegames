@@ -1,5 +1,5 @@
 /*
- * $Id$
+ *  $Id$
  * 
  *     This program is free software; you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
@@ -36,6 +36,11 @@
 #include <kmsgbox.h>
 #include <kkeyconf.h>
 
+// sound support
+extern "C" {
+#include <mediatool.h>
+}
+#include <kaudio.h>
 
 
 #include <time.h>
@@ -54,8 +59,8 @@ kpok::kpok(QWidget *parent, const char *name)
 	int w;
 	char version[270];
 	
-       	setFixedSize(420,250);	
-	
+       	setFixedSize(420,220);	
+
 	sprintf(version, "%s %s", kapp->getCaption(), PVERSION);
 	setCaption( version );
 	
@@ -174,6 +179,7 @@ kpok::kpok(QWidget *parent, const char *name)
 	
 	
 	initPoker();
+	initSound();
 }
 
 void kpok::initPoker()
@@ -196,7 +202,40 @@ void kpok::initPoker()
 	setHand("nothing");
 }
 
+int kpok::initSound()
+{
+	KAS = new KAudio();
+	
+	if (KAS->serverStatus())
+	  {
+		  sound = false;
+		  return 0;
+	  }
+	else
+	    sound = true;
+	    return 1;
+}
 
+void kpok::playSound(const char *soundname)
+{
+	char filename[300];
+
+	if (!sound)
+	    return;
+
+	strcpy(filename, KPoker->kdedir()+"/share/apps/kpoker/sounds/"+soundname);
+	
+	
+	KAS->play(filename);
+
+	//	printf("Playing: %s\n",filename);
+}
+
+void kpok::toggleSound()
+{
+	if (sound) sound=0;
+	else sound=1;
+}
 
 void kpok::drawCards(int skip[5])
 {
@@ -338,6 +377,7 @@ void kpok::setHand(char *newHand)
 void kpok::frameClick(CardWidget *MyCW)
 {
 	if (status != 0) {
+		playSound("hold.wav");
 		if (MyCW->toggleHeld() == 1) 
 		    MyCW->heldLabel->show();
 		else
@@ -412,6 +452,8 @@ void kpok::drawCardsEvent()
 	
 	cardW[drawStat]->show();
 	cardW[drawStat]->paintCard(cards[drawStat],0,0);
+	
+	playSound("cardflip.wav");
 	
 	if (drawStat == 4) /* just did last card */
 	  {
@@ -506,11 +548,14 @@ void kpok::displayWin(char *hand, int cashWon)
 	setHand(hand);
 	setCash(getCash() + cashWon);
 	
-	if (cashWon)
-	    sprintf(buf,"You won $ %d !", cashWon);
-	else
-	    sprintf(buf,"Game Over");
-	
+	if (cashWon) {
+		playSound("win.wav");
+		sprintf(buf,"You won $ %d !", cashWon);
+	}
+	else {
+		playSound("lose.wav");
+		sprintf(buf,"Game Over");
+	}
 	wonLabel->setText(buf);
 	wonLabel->move(this->width() / 2 - wonLabel->width() / 2, wonLabelVDist);
 	wonLabel->show();
@@ -520,7 +565,7 @@ void kpok::displayWin(char *hand, int cashWon)
 void kpok::showAboutBox()
 {
 	char aboutText[250];
-	sprintf(aboutText,"%s v%s (%s)\n\ncopyright 1997 by Jochen Tuchbreiter\n<whynot@digicron.com>\n\nCredits for cardimages go to\nJohn Fitzgibbon(http://www.sb.net/fitz/card.htm)\n\nSuggestions, bug reports etc. are welcome", kapp->getCaption(),PVERSION, PDATE);
+	sprintf(aboutText,"%s v%s (%s)\n\ncopyright 1997 by Jochen Tuchbreiter\n<whynot@mabi.de>\n\nFor a list of credits see helpfile.\n\nSuggestions, bug reports etc. are welcome", kapp->getCaption(),PVERSION, PDATE);
 	KMsgBox::message(0, kapp->getCaption(), aboutText);
 }
 

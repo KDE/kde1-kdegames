@@ -1,0 +1,29 @@
+
+top_srcdir = @top_srcdir@
+INSTALL_DATA = @INSTALL@ -m 0644
+INSTALL_DIR = $(SHELL) $(top_srcdir)/mkinstalldirs
+
+DOCS = `find . -type f -name "*.html" -print`
+prefix = @prefix@
+destdir = $(prefix)/share/doc/HTML/kpoker
+
+
+all:
+
+Makefile: Makefile.in
+	cd ../.. && CONFIG_FILES=kpoker/docs/Makefile CONFIG_HEADER= config.status 
+
+clean:
+
+install:
+	$(INSTALL_DIR) $(destdir)
+	@for i in $(DOCS); do \
+	 echo "$(INSTALL_DATA) $$i $(destdir)/$$i"; \
+	 $(INSTALL_DATA) "$$i" $(destdir)/$$i; \
+	done
+
+uninstall:
+	for i in $(DOCS); do \
+	 rm -f $(destdir)/$$i; \
+	done
+

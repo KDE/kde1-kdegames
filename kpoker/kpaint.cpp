@@ -1,5 +1,5 @@
 /*
- * $Id$
+ *  $Id$
  *
  *     This program is free software; you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
@@ -91,8 +91,8 @@ bool CardImages::loadCards( const char *path)
 	
         srandom(time(NULL));
 
-        randomDeck=random() % 4;
-        randomDeck+=1;
+        randomDeck=(random() % 4) +1;
+//        randomDeck+=1;
 	
 	sprintf(lpath,"%sdeck%d.bmp",path, randomDeck);
 	if(!deck.load(lpath)) 
