@@ -17,8 +17,8 @@
  *  Foundation, Inc., 59 Temple Place, Suite 330, Boston, MA  02111-1307  USA
  */
 
-#ifndef MOVESTEP_H
-#define MOVESTEP_H
+#ifndef MOVESEQUENCE_H
+#define MOVESEQUENCE_H
 
 #include <assert.h>
 
@@ -42,4 +42,4 @@ private:
 
 };
 
-#endif  /* MOVESTEP_H */
+#endif  /* MOVESEQUENCE_H */
