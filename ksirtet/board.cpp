@@ -82,8 +82,12 @@ Board::~Board()
 
 void Board::buttonClick()
 {
-	if (state==Paused) pause();
-	else startGame();
+  if(pb->isVisible()) {
+    if (state==Paused) 
+      pause();
+    else 
+      startGame();
+  }
 }
 
 
@@ -145,11 +149,11 @@ void Board::midbutton(bool game_over)
 
 void Board::showBoard()
 {
-	state = Playing;
-	setPieceMovingKeys(TRUE);
-    msg->hide();
-    pb->hide();
-	GenericTetris::showBoard();
+  state = Playing;
+  setPieceMovingKeys(TRUE);
+  msg->hide();
+  pb->hide();
+  GenericTetris::showBoard();
 }
 
 
@@ -188,6 +192,7 @@ void Board::pause()
 	 case Paused : 
 		/* already in pause : resume game (reactivate the piece-moving keys */
 		showBoard();
+		removeFullLines();
 		if (multiGame) updateOpponents();
         else timer->start(timeoutTime);
 		break;

@@ -1,3 +1,7 @@
+1.0.1 Mario Weilguni <mweilguni@kde.org>
+  * fixed bug #315 (lines not removed when pressing pause)
+  * fixed bug #316 (hidden pushbutton still accepting keyboard commands)
+
 1.0.0
   * final cleanup before 1.0 !
 
