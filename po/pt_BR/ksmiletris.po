@@ -50,7 +50,6 @@ msgid "&Sounds"
 msgstr "So&ns"
 
 #: gamewindow.cpp:73
-#, fuzzy, c-format
 msgid ""
 "KSmiletris %s\n"
 "\n"
@@ -58,7 +57,7 @@ msgid ""
 "\n"
 "Feedbacks are welcome!\n"
 msgstr ""
-"KSmiletris %d\n"
+"KSmiletris %s\n"
 "\n"
 "by Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"
