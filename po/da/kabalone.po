@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kabalone\n"
 "POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"PO-Revision-Date: 1999-01-26 11:52-0500\n"
+"PO-Revision-Date: 1999-02-16 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "Skub"
 
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
-msgstr "Bræt vaærdi"
+msgstr "Brætværdi"
 
 #: AbTop.cpp:241 AbTop.cpp:398
 msgid "Move"
@@ -67,7 +67,7 @@ msgstr "Stop søgning"
 
 #: AbTop.cpp:267 AbTop.cpp:305
 msgid "Take back"
-msgstr "Tag tilbage"
+msgstr "Gør om"
 
 #: AbTop.cpp:272 AbTop.cpp:307
 msgid "Hint"

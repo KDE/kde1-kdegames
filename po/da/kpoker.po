@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kpoker\n"
 "POT-Creation-Date: 1999-01-05 01:44+0100\n"
-"PO-Revision-Date: 1999-01-26 11:52-0500\n"
+"PO-Revision-Date: 1999-02-16 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -95,7 +95,7 @@ msgstr "Du tabte"
 
 #: kpoker.cpp:537
 msgid "Oops - you went bankrupt.\n"
-msgstr "Hov du gik bankerot.\n"
+msgstr "Hov - du gik bankerot.\n"
 
 #: kpoker.cpp:619
 msgid "You won $"
