@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: ksnake\n"
+"POT-Creation-Date: 1998-06-18 22:48+0200\n"
+"PO-Revision-Date: 1998-07-30 01:10+MET\n"
+"Last-Translator: Gregor Zumstein <zumstein@ssd.ethz.ch>\n"
+
+#: game.cpp:41 game.cpp:144 rattler.cpp:349
+msgid "Snake Race"
+msgstr "Schlangen-Rennen"
+
+#: game.cpp:45
+msgid "KConfig error ??\n"
+msgstr "KConfig Fehler??\n"
+
+#: game.cpp:80
+msgid "Pause"
+msgstr "Pause"
+
+#: game.cpp:81
+msgid "High Scores..."
+msgstr "High Scores..."
+
+#: game.cpp:88 game.cpp:97
+msgid "0"
+msgstr "0"
+
+#: game.cpp:89 game.cpp:98
+msgid "1"
+msgstr "1"
+
+#: game.cpp:90 game.cpp:99
+msgid "2"
+msgstr "2"
+
+#: game.cpp:91 game.cpp:100
+msgid "3"
+msgstr "3"
+
+#: game.cpp:111
+msgid "none"
+msgstr "kein"
+
+#: game.cpp:126
+msgid "Beginner"
+msgstr "Anfänger"
+
+#: game.cpp:127
+msgid "Intermediate"
+msgstr "Mittel"
+
+#: game.cpp:128
+msgid "Advanced"
+msgstr "Fortgeschritten"
+
+#: game.cpp:129
+msgid "Expert"
+msgstr "Experte"
+
+#: game.cpp:131
+msgid "Balls"
+msgstr "Bälle"
+
+#: game.cpp:132
+msgid "Computer Snakes"
+msgstr "Computerschlangen"
+
+#: game.cpp:134
+msgid "Select background color..."
+msgstr "Hintergrundfarbe"
+
+#: game.cpp:135
+msgid "Select background pixmap"
+msgstr "Hintergrundbild"
+
+#: game.cpp:137
+msgid "Change keys..."
+msgstr "Tastenbelegung..."
+
+#: game.cpp:139
+msgid "Starting Room..."
+msgstr "Startraum..."
+
+#: game.cpp:146
+msgid ""
+"\n"
+"\n"
+"by Michel Filippi (mfilippi@sade.rhein-main.de)"
+msgstr ""
+"\n"
+"\n"
+"by Michel Filippi (mfilippi@sade.rhein-main.de)"
+
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Voreinstellungen"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Ändern der Richtungstasten"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Nicht definierte Taste"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange muss zwischen 0 und 99 liegen\n"
+"\t und minVal darf nicht grösser als maxVal sein"
+
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "Fehler beim Laden von %s, Abbruch\n"
+
+#: rattler.cpp:277
+msgid ""
+"Game Paused\n"
+" Press F3 to resume\n"
+msgstr ""
+"Spiel angehalten\n"
+" F3 drücken um fortzufahren\n"
+
+#: rattler.cpp:350
+msgid ""
+"A game is already started\n"
+"Start a new one ?\n"
+msgstr ""
+"Es ist bereits ein Spiel gestartet\n"
+"Ein neues starten?\n"
+
+#: rattler.cpp:352
+msgid "&Yes"
+msgstr "&Ja"
+
+#: rattler.cpp:352
+msgid "&No"
+msgstr "&Nein"
+
+#: score.cpp:46 score.cpp:77
+msgid "Snake Race High Scores"
+msgstr "High Score für das Schlangen-Rennen"
+
+#: score.cpp:50
+msgid "Hall of Fame"
+msgstr "Ruhmeshalle"
+
+#: score.cpp:54
+msgid "Today's High Scores"
+msgstr "High Scores von heute"
+
+#: score.cpp:78
+msgid ""
+"you have achieved a high score!\n"
+" please enter your name"
+msgstr ""
+"Sie haben einen Höchstwert erreicht!\n"
+" Bitte geben Sie Ihren Namen ein"
+
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Startraum für das Schlangen-Rennen"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Startraum"
