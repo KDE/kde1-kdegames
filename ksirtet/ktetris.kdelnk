@@ -4,6 +4,7 @@ Name=Tetris
 Name[hu]=Tetrisz
 Name[sk]=Tetris
 Name[cs]=Tetris
+Name[hr]=Tetris
 Icon=ktetris.xpm
 Exec=ktetris -caption "%c" %i %m
 Type=Application
@@ -16,3 +17,5 @@ Comment[hu]=Mégegy Tetrisz játék
 Comment[pt]=Outro jogo de Tetris
 Comment[sk]=Ïal¹ia tetrisová hra
 Comment[cs]=Dal¹í tetrisová hra
+Comment[hr]=Jo¹ jedna igra tetrisa
+
