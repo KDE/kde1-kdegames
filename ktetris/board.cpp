@@ -65,7 +65,7 @@ Board::Board( int type, QWidget *p, const char *name )
 	for (int i=0; i<NB_HS; i++) {
 		str1.sprintf("%s%i", HS_NAME_KEY, i);
 		if ( !kconf->hasKey(str1) )
-		    kconf->writeEntry(str1, "Anonymous");
+		    kconf->writeEntry(str1, klocale->translate("Anonymous"));
 		str2.sprintf("%s%i", HS_SCORE_KEY, i);    
 		if ( !kconf->hasKey(str2) )
 			kconf->writeEntry(str2, 0);
@@ -82,12 +82,12 @@ void Board::midbutton(bool game_over)
 	int sw, sh, sw2, sh2;
 	
 	if ( isPaused) {
-		sprintf(spa,"Game paused");
+		sprintf(spa, klocale->translate("Game paused"));
 		QFontMetrics fm = msg->fontMetrics();
 		sw = fm.width(spa) + 10;
 		sh = fm.height() + 10;
 		
-		sprintf(sre,"Press to resume");
+		sprintf(sre, klocale->translate("Press to resume"));
 		QFontMetrics fm2 = pb->fontMetrics();
 		sw2 = fm2.width(sre) + 10;
 		sh2 = fm2.height() + 10;
@@ -102,15 +102,15 @@ void Board::midbutton(bool game_over)
 	} else {
 		msg->hide();
 		if (game_over) {
-			sprintf(spa,"Game Over");
+			sprintf(spa, klocale->translate("Game over"));
 			QFontMetrics fm = msg->fontMetrics();
 			sw = fm.width(spa) + 15;     
 			sh = fm.height() + 15;
-			sprintf(sre,"Press Return to replay");
+			sprintf(sre,  klocale->translate("Press Return to replay"));
 		} else {
 			sw = 0;
 			sh = 0;
-			sprintf(sre,"Press to start game");
+			sprintf(sre, klocale->translate("Press to start game"));
 		}
 		
 		QFontMetrics fm2 = pb->fontMetrics();
@@ -149,17 +149,15 @@ void Board::startGame()
     /* Note that the timer is started by updateLevel! */
 }
 
-
 void Board::setPieceMovingKeys( bool activate )
 {
-	kKeys->toggleFunction("main", "Move left", activate);
-	kKeys->toggleFunction("main", "Move right", activate);
-	kKeys->toggleFunction("main", "Drop down", activate);
-	kKeys->toggleFunction("main", "One line down", activate);
-	kKeys->toggleFunction("main", "Rotate left", activate);
-	kKeys->toggleFunction("main", "Rotate right", activate);
+	kKeys->toggleFunction(K_MAIN, klocale->translate("Move left"), activate);
+	kKeys->toggleFunction(K_MAIN, klocale->translate("Move right"), activate);
+	kKeys->toggleFunction(K_MAIN, klocale->translate("Drop down"), activate);
+	kKeys->toggleFunction(K_MAIN, klocale->translate("One line down"), activate);
+	kKeys->toggleFunction(K_MAIN, klocale->translate("Rotate left"), activate);
+	kKeys->toggleFunction(K_MAIN, klocale->translate("Rotate right"), activate);
 }
-
 
 void Board::pause()
 {
@@ -180,7 +178,6 @@ void Board::pause()
 	hideBoard(TRUE);
 }
 
-
 void Board::hideBoard( bool pause )
 {
 	isPaused = pause;
@@ -189,7 +186,6 @@ void Board::hideBoard( bool pause )
 	GenericTetris::hideBoard();
 	midbutton(FALSE);
 }
-
 
 void Board::drawSquare(int x,int y,int value)
 {
@@ -270,7 +266,7 @@ void Board::gameOver()
 	if ( !multiGame ) 
 		setHighScore(getScore());
 	else {
-		QString msg = "You suck !";
+		QString msg = klocale->translate("You suck !");
 		net_obj->gameOver(msg);
 	}
 	
@@ -365,25 +361,21 @@ void Board::resizeEvent(QResizeEvent *e)
     yOffset     = 1;
 }
 
-
 void Board::updateTimeoutTime()
 {
     timeoutTime = 1000/(1 + getLevel());
 }
-
 
 void Board::options()
 {
 	Options::Options(this);
 }
 
-
 void Board::showHighScores()
 {
 	WHighScores *whs = new WHighScores(TRUE, 0, this);
 	delete whs;
 }
-
 
 void Board::setHighScore(int score)
 {
@@ -395,10 +387,10 @@ void Board::setHighScore(int score)
 		if (isConfigWritable)
 			kconf->sync();
 	} else
-		KMsgBox::message( 0, "Warning", "Could not save high scores",
-						  KMsgBox::EXCLAMATION, "Close" );
+		KMsgBox::message(0, klocale->translate("Warning"), 
+						 klocale->translate("Highscores file not writable !"),
+						 KMsgBox::EXCLAMATION, klocale->translate("Close"));
 }
-
 
 void drawTetrisButton( QPainter *p, int x, int y, int w, int h,
 					   const QColor *color )
@@ -420,7 +412,6 @@ void drawTetrisButton( QPainter *p, int x, int y, int w, int h,
 	
 	p->fillRect( x, y, w, h, fc );
 }
-
 
 void Board::initMultiGame(NetObject *net_object)
 {

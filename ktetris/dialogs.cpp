@@ -13,16 +13,7 @@
 
 #include "dialogs.moc"
 
-
-#define DEC   10
-#define HDEC  -2
-#define I_LAB 30
-#define N_LAB 70
-#define S_LAB 60
-#define DEC2  DEC + I_LAB + 5
-#define DEC3  DEC2 + N_LAB + 40
-#define iDEC  DEC + i*(HDEC+LABEL_H)
-
+/*********************/
 /* HighScore dialogs */
 WHighScores::WHighScores( bool show, int score,
 						  QWidget *parent, const char *name)
@@ -67,39 +58,78 @@ void WHighScores::showHS( bool show, int score)
 		kconf->writeEntry(str1, score);
 	}
 			
-	setCaption("Hall of Fame");
-		
-	QLabel *label;
+	setCaption(klocale->translate("High Scores"));
+
+	/* set dialog layout */
+	int frame_w = 10; int frame_h = 10;
+	int dec1_h = 20; int dec2_h = 10; int dec3_h = 20;
 	
+	QFont f1( font() );
+	QFontMetrics fm1( f1 );
+	int nb_w = 2*fm1.maxWidth(); int nb2_w = 10*fm1.maxWidth();
+	int button_h = fm1.height() + 2*10;
+	int button_w = fm1.width(klocale->translate("Close")) +2*15;
+	int space_w = fm1.width(" ");
+	
+	f1.setBold(TRUE);
+	QFontMetrics fm2(f1);
+	int label_h = QMAX(fm1.height(), fm2.height()) + 2*2;
+	int name_label_w = 10*fm2.maxWidth();
+	
+	QFont f2( font() );
+	QFontInfo info(f2);
+	f2.setPointSize(info.pointSize()+6);
+	f2.setBold(TRUE);
+	QFontMetrics fm3(f2);
+	int title_w = fm3.width(klocale->translate("Hall of Fame"));
+	int title_h = fm3.height();
+
+	int H = 2*frame_h + title_h + dec1_h + NB_HS*label_h + (NB_HS-1)*dec2_h
+		    + dec3_h + button_h;
+	int W = QMAX(title_w+10, name_label_w + 3*space_w + nb_w + nb2_w)
+		    + 2*frame_w;
+	setFixedSize(W, H);
+	
+	QLabel *label;
+	ADD_LABEL(label, klocale->translate("Hall of Fame"),
+			  (W-title_w)/2, frame_h, title_w, title_h);
+	label->setFont(f2);
+	label->setAlignment(AlignCenter);
+	
+	int temp = frame_h + title_h + dec1_h;
+	int dec = label_h + dec2_h;
+	int temp2;
+	#define HDEC temp+i*dec
 	for (i=0; i<NB_HS; i++) {
-		str1.setNum(i);
-		ADD_LABEL(label, str1, DEC, iDEC, I_LAB, LABEL_H);
+		temp2 = frame_w;
 		str1.sprintf("%s%i", HS_NAME_KEY, i);
 		if ( show || range !=i ) {
-			ADD_LABEL( label, kconf->readEntry(str1), DEC2, iDEC,
-					  N_LAB, LABEL_H );
+			ADD_LABEL(label, kconf->readEntry(str1), temp2, HDEC,
+					  name_label_w, label_h);
 			label->setAlignment( AlignLeft | AlignVCenter);
+			label->setFont(f1);
 		} else {
-			ADD_LABEL( lb, "", DEC2, iDEC, N_LAB, LABEL_H );
+			ADD_LABEL(lb, "", temp2, HDEC, name_label_w, label_h);
 			lb->setAlignment( AlignLeft | AlignVCenter);
+			lb->setFont(f1);
 			lb->hide();
-			ADD_EDIT( qle, 15, DEC2, iDEC, N_LAB, LABEL_H);
-			connect( qle,  SIGNAL(returnPressed()),
-					 this, SLOT(writeName()) );
+			ADD_EDIT(qle, 10, temp2, HDEC, name_label_w, label_h);
+			connect(qle, SIGNAL(returnPressed()), SLOT(writeName()));
 		}
+		temp2 += name_label_w + 2*space_w;
+		ADD_LABEL(label, "-", temp2, HDEC, nb_w, label_h);
+		temp2 += nb_w + space_w;
 		str1.sprintf("%s%i", HS_SCORE_KEY, i);
-		ADD_LABEL( label, kconf->readEntry(str1), DEC3, iDEC,
-				   S_LAB, LABEL_H );
+		ADD_LABEL(label, kconf->readEntry(str1), temp2, HDEC, nb2_w, label_h);
         label->setAlignment( AlignRight | AlignVCenter);
 	}
 
-	ADD_BUTTON( pb, "Ok", (DEC3+S_LAB+DEC-70)/2, iDEC + 20, 70, LABEL_H,
-			    accept() );
+	ADD_BUTTON(pb, klocale->translate("Close"),
+			   (W-button_w)/2, H-frame_h-button_h,
+			   button_w, button_h, accept());
 	
-	if ( !show )
-		pb->hide();
-	
-	adjustSize();
+	if ( !show ) pb->hide();
+
 	exec();
 }
 
@@ -107,7 +137,7 @@ void WHighScores::writeName()
 {
 	QString str = qle->text();
 	if ( str.isNull() )
-		str = "Anonymous";
+		str = klocale->translate("Anonymous");
 
 	QString str2;
 	str2.sprintf("%s%i", HS_NAME_KEY, range);
@@ -120,8 +150,7 @@ void WHighScores::writeName()
 	lb->show();
 }
      
-
-
+/******************/
 /* Options dialog */
 Options::Options( QWidget *parent, const char *name )
 : QDialog(parent, name, TRUE)
@@ -129,16 +158,16 @@ Options::Options( QWidget *parent, const char *name )
 	initMetaObject();
 
 	QLabel *ql;
-	ADD_LABEL(ql, "Options :", 10, 10, 90, LABEL_H); 
+	ADD_LABEL(ql, klocale->translate("No option yet !"), 10, 10, 90, LABEL_H); 
 	
 	QPushButton *pb;
-	ADD_BUTTON(pb, "Ok", 35, 130, 50, 30, accept());
+	ADD_BUTTON(pb, klocale->translate("Ok"), 35, 130, 50, 30, accept());
 	
 	resize(120,170);
 	exec();
 }
 
-
+/***********************/
 /* network game Dialog */
 netDialog::netDialog( NetObject **p_net_object,
 					  QWidget *parent, const char *name )
@@ -152,36 +181,37 @@ netDialog::netDialog( NetObject **p_net_object,
 	p_net_obj = p_net_object;
 	
 	/* create title label */
-	ADD_LABEL( labTitle, "Network Dialog", 10, 10, 150, LABEL_H);
+	ADD_LABEL(labTitle, klocale->translate("Network Dialog"), 10, 10, 150, LABEL_H);
 		
 	/* create the choice buttons (SERVER, CLIENT & CANCEL) */
-	ADD_BUTTON( butServer, "Server", 35, 50, 100, 30, server());
-	ADD_BUTTON( butClient, "Client", 35, 90, 100, 30, client());
-	ADD_BUTTON( butCancel, "Cancel", 35, 130, 100, 30, cancel());
+	ADD_BUTTON(butServer, klocale->translate("Server"), 35, 50, 100, 30, server());
+	ADD_BUTTON(butClient, klocale->translate("Client"), 35, 90, 100, 30, client());
+	ADD_BUTTON(butCancel, klocale->translate("Cancel"), 35, 130, 100, 30, cancel());
 
 	/* create labels and edit lines for ASK_ADD */
-	ADD_LABEL( labNameE, "Player name :", 10, 40, 100, LABEL_H);
+	ADD_LABEL(labNameE, klocale->translate("Player name :"), 10, 40, 100, LABEL_H);
 	labNameE->hide();
-	ADD_LABEL( labAddE, "Server address :", 10, 60, 100, LABEL_H );
+	ADD_LABEL(labAddE, klocale->translate("Server address :"), 10, 60, 100, LABEL_H);
 	labAddE->hide();
-	ADD_LABEL( labPortE, "Port : ", 10, 90, 100, LABEL_H); labPortE->hide();
+	ADD_LABEL(labPortE, klocale->translate("Port :"), 10, 90, 100, LABEL_H);
+	labPortE->hide();
 
-	ADD_LABEL( labName, "", 120, 40, 100, LABEL_H ); labName->hide();
-	ADD_LABEL( labAdd, "", 120, 60, 200, LABEL_H ); labAdd->hide();
-	ADD_LABEL( labPort, "", 120, 90, 50, LABEL_H ); labPort->hide();
+	ADD_LABEL(labName, "", 120, 40, 100, LABEL_H); labName->hide();
+	ADD_LABEL(labAdd, "", 120, 60, 200, LABEL_H); labAdd->hide();
+	ADD_LABEL(labPort, "", 120, 90, 50, LABEL_H); labPort->hide();
 
-	ADD_EDIT( edName, 10, 120, 40, 100, 20); edName->hide();
-	ADD_EDIT( edAdd, 40, 120, 60, 200, 20); edAdd->hide();
-	ADD_EDIT( edPort, 4, 120, 90, 40, 20); edPort->hide();
+	ADD_EDIT(edName, 10, 120, 40, 100, 20); edName->hide();
+	ADD_EDIT(edAdd, 40, 120, 60, 200, 20); edAdd->hide();
+	ADD_EDIT(edPort, 4, 120, 90, 40, 20); edPort->hide();
 	
 	/* create buttons and label for CONNECT & WAIT_PLAYERS */
-	ADD_BUTTON( butConnect, "Connect", 200, 130, 100, LABEL_H, connecting() );
+	ADD_BUTTON(butConnect, klocale->translate("Connect"), 200, 130, 100, LABEL_H, connecting());
 	butConnect->hide();
 
-	ADD_LABEL( labState, "Connecting ...", 160, 130, 200, LABEL_H );
+	ADD_LABEL(labState, klocale->translate("Connecting ..."), 160, 130, 200, LABEL_H);
 	labState->setAlignment( AlignCenter ); labState->hide();
 	
-	ADD_BUTTON( butPlay, "PLAY !",  200, 130, 100, LABEL_H, play() );
+	ADD_BUTTON(butPlay, klocale->translate("Play !"),  200, 130, 100, LABEL_H, play());
 	butPlay->hide();
 
 	/* variable that indicates in which state we are */
@@ -201,7 +231,7 @@ void netDialog::showConnect(int new_state)
 	/* ASK_MODE : is called if cancel in ASK_ADD */
 	if ( state==ASK_MODE ) {
 		/* change title label */
-		labTitle->setText("Network Dialog");
+		labTitle->setText(klocale->translate("Network Dialog"));
 		labTitle->resize(150, LABEL_H);
 		/* hide labels & edLines used in ASK_ADD */
 		labNameE->hide();
@@ -221,12 +251,13 @@ void netDialog::showConnect(int new_state)
 	
 	/* ASK_ADD */
 	if ( state==ASK_ADD ) {
-		str = "Network Game";
+		str = klocale->translate("Network game");
 		/* change the title label */
+		str += " : ";
 		if ( net_obj->isServer() )
-			str += " : Server mode";
-		else
-			str += " : Client mode";
+			str += klocale->translate("Server mode");
+		else 
+			str += klocale->translate("Client mode");
 		labTitle->resize(200, LABEL_H); 
 		labTitle->setText(str);
 		
@@ -304,7 +335,7 @@ void netDialog::showConnect(int new_state)
 	if ( state==WAIT_PLAYERS ) {
 		/* update state label */
 		if ( net_obj->getNbPlayers()==0 ) {
-			labState->setText("Waiting for other(s) player(s) ...");
+			labState->setText(klocale->translate("Waiting for other player(s) ..."));
 			labState->show();
 			butPlay->hide();
 		}
@@ -329,7 +360,6 @@ void netDialog::showConnect(int new_state)
 	adjustSize();
 }
 
-
 void netDialog::createNetObject(bool server)
 {
 	QString tmp_add, tmp_name, tmp_port;
@@ -338,18 +368,18 @@ void netDialog::createNetObject(bool server)
 	
 	/* if net_object exists and if net_object is client_type/server_type
 	   : delete it */
-	if ( net_obj!=NULL )
+	if ( net_obj!=0 )
 		if ( (server && net_obj->isClient())
 			 || (!server && net_obj->isServer()) ) {
 			tmp_add = net_obj->t_address;
 			tmp_name = net_obj->t_name;
 			tmp_port = net_obj->t_port;
 		    delete net_obj;
-			net_obj = NULL;
+			net_obj = 0;
 		}
 
 	/* create a new net object if it does not already exist */
-	if ( net_obj==NULL ) {
+	if ( net_obj==0 ) {
 		if ( server )
 			net_obj = new ServerNetObject(tmp_add, tmp_name, tmp_port);
 		else
@@ -359,7 +389,6 @@ void netDialog::createNetObject(bool server)
 	
 	showConnect(ASK_ADD);
 }
-
 
 void netDialog::connecting()
 {
@@ -421,7 +450,6 @@ void netDialog::timeout()
 	}
 }
 
-
 void netDialog::cancel()
 {
 	if ( state==ASK_ADD )
@@ -432,7 +460,6 @@ void netDialog::cancel()
 		reject();
 	}
 }
-
 
 void netDialog::play()
 {

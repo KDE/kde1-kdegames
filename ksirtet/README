@@ -1,20 +1,37 @@
---- ktetris 0.2.5 : Alpha version (28/05/97)
+--- ktetris 0.2.10 : Alpha version (21/01/98)
+--- Copyright (c) 1995 Eirik ENG & 1996-97-98 Nicolas HADACEK (hadacek@kde.org)
+--- Distributed under the GNU General Public License
 
 This program is a clone of the well-known game Tetris. 
 
-Most of the code has been written by Eirik Eng (see the file README.original)
+Most of the core code has been written by Eirik Eng (see the file README.original)
 as an example for the Qt distribution.
 
-Requirements : kdelibs-0.9.00 or higher
 
-TODO List:
+--- REQUIREMENTS : -------------------------------------------------------
+ - libkdecore-0.0.11 or higher
+ - libkdeui-0.0.10 or higher
+
+--- TODO LIST : -----------------------------------------------------------
  - highlight detroyed lines
- - options
-     (vertical alignment help - size of the tiles - next tile (y/n) - ...)
+ - options (vertical alignment help - size of the tiles - next tile (y/n) - ...)
  - use KConfig for the multiplayer stuff
- 
-Changelog: 
- 
+
+--- CHANGELOG : -----------------------------------------------------------
+
+0.2.10
+ - included in hte CVS tree
+ - KTopLevelWidget & KMenubar
+
+0.2.7
+ - some cleanups + international support
+ - net fix : use 'uname' rather than 'getenv("HOSTNAME")' 
+
+0.2.6
+ - no more NULLs (for the sake of 64bits)
+ - a nicer highscores dialog (there should be no more truncated score
+   for ace players :)
+
 0.2.5
  - just a minor change to allow compile in Linux/Alpha
  
@@ -45,13 +62,3 @@ Changelog:
  - the real scoring (Asger)
  - get rid of some needless stuff in GenericTetris (Asger)
  - highscores
-
- 
-AUTHORS :
- Eirik Eng & Nicolas HADACEK
- 
-MAINTAINER: 
- Nicolas HADACEK 
- email : hadacen7@cti.ecp.fr or hadacek@via.ecp.fr
-
-Copyright Eirik ENG 1995 & Nicolas HADACEK 1996 and distributed under the GPL.

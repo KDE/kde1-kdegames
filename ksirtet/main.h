@@ -1,89 +1,36 @@
-#ifndef KTETRIS_H
-#define KTETRIS_H
-
-#include "board.h"
-#include "net.h"
-
-#include <qframe.h>
-#include <qlcdnum.h>
-#include <qpushbt.h>
-#include <qpainter.h>
-#include <qmenubar.h>
-#include <qpopmenu.h>
+#ifndef MAIN_H
+#define MAIN_H
 
 #include <ktopwidget.h>
 #include <kmenubar.h>
-#include <kprogress.h>
+#include <qpopmenu.h>
 #include <kconfig.h>
+#include "field.h"
 
-
-class ShowNextPiece : public QFrame
+class KTetris : public KTopLevelWidget
 {
  Q_OBJECT
- friend class QTetris;
-	
+
  public:
-    ShowNextPiece( QWidget *parent=0, const char *name=0  );
- 
- public slots:
-    void drawNextSquare( int x, int y,QColor *color );
-
- signals:
-    void update();
+	KTetris();
 	
- private:
-    void paintEvent( QPaintEvent * );
-    void resizeEvent( QResizeEvent * );
-    
-    int  blockWidth, blockHeight;
-    int  xOffset, yOffset;
-};
-
-
-class KTetris : public KTopLevelWidget //QWidget
-{
- Q_OBJECT
-		
- public:
-    KTetris( QWidget *parent=0, const char *name=0 );
-
 	bool menu_visible;
-	
- signals:
-	void initMultiGame(NetObject *net_obj);
 	
  private slots:
 	void about();
-        void aboutqt();
+	void aboutqt();
 	void help();
-	void multiGame();
-	void showOpponents();
-	void updateOpponents();
 	void configKeys();
 	void toggleMenu();
 	void quit();
 	
- protected:
-	void resizeEvent(QResizeEvent *);
-	bool eventFilter(QObject *, QEvent *e);
-	
  private:
-    Board  *board;
-    ShowNextPiece *showNext;
-
-	KConfig *kconf;
-	
 	KMenuBar *menu;
 	QPopupMenu *popup;
 	int tog_id;
 	
-    QLCDNumber *showScore, *showLevel, *showLines;
-    QPushButton *quitButton , *startButton, *pauseButton;
-	QLabel *lScore, *lLines, *lLevel, *lNext;
-	QLabel *labPrevName, *labNextName;
-	KProgress *prevHeight, *nextHeight;
-	
-	NetObject *net_obj;
+	KConfig *kconf;
+	Field *field;
 };
 
-#endif
+#endif // MAIN_H

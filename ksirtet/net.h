@@ -1,4 +1,3 @@
-
 #ifndef KTETRIS_NE_H
 #define KTETRIS_NE_H 
 
@@ -43,7 +42,7 @@ typedef struct {
 
 typedef struct {
 	int height, lines, end;
-} ClientMessage;
+} _ClientMessage;
 
 typedef struct {
 	int height_prev, height_next, lines;
@@ -86,8 +85,8 @@ class NetObject
 					 QString& serror );
 	bool createSocket( QString& serror );
 	bool connectSocketExists() { return pl[0]->sock!=-1; }
-	bool samePort()            { return port==t_port.toInt(NULL); }
-	void setPort()             { port = t_port.toInt(NULL); }
+	bool samePort()            { return port==t_port.toInt(0); }
+	void setPort()             { port = t_port.toInt(0); }
 	virtual bool connectSocket( QString& serror ) = 0;
 	virtual bool dialogTimeout( QString& serror ) = 0;
 	virtual bool initGame( QString& serror) = 0;
@@ -141,7 +140,7 @@ class NetObject
 	struct hostent *host;
 	NamesMessage names_msg;
 	bool firstTime;
-	ClientMessage c_msg;
+	_ClientMessage c_msg;
 	ServerMessage s_msg;
 	
 	int max_fd;
