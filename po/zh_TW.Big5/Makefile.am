@@ -6,7 +6,7 @@ GMFILES = kreversi.gmo kpat.gmo kasteroids.gmo kabalone.gmo \
 
 POFILES = $(GMFILES:.gmo=.po)
 
-LANG = zh_TW_Big5
+LANG = zh_TW.Big5
 
 localedir = $(kde_locale)
 
