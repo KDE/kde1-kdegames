@@ -146,7 +146,7 @@ void Game::menu()
                                          + klocale->translate("\n\nby Michel Filippi"
                                          " (mfilippi@sade.rhein-main.de)")); 
     menubar = new KMenuBar( this );
-    CHECK_PTR( menu );
+    CHECK_PTR( menubar );
     menubar->insertItem( klocale->translate("&Game"), game );
     menubar->insertItem( klocale->translate("&Options"), options );
     menubar->insertSeparator();
