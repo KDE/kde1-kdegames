@@ -10,37 +10,38 @@
 #include "board.h"
 #include "pixServer.h"
 
-enum Fruits { Red, Golden, Bummer };
+enum Fruits { Red, Golden };
 
 class Kaffee : public QObject
 {
-  Q_OBJECT
+    Q_OBJECT
 public:
-  Kaffee(int pos);
-  int position() { return p;}
-  Fruits type() { return t;}
+    Kaffee(int pos);
+    int position() { return p;}
+    Fruits type() { return t;}
+    bool dirty;
 private slots:
-  void golden();
+    void golden();
 private:
-  int p;
-  Fruits t;
+    int p;
+    Fruits t;
 };
 
 class Basket : public QObject
 {
-  Q_OBJECT
+    Q_OBJECT
 public:
-  Basket(Board *b, PixServer *p);
-  void repaint();
-  void newApples();
-  void clear();
-  Fruits eaten( int i);
+    Basket(Board *b, PixServer *p);
+    void repaint(bool);
+    void newApples();
+    void clear();
+    Fruits eaten( int i);
 signals:
-  void openGate();
+    void openGate();
 private:
-  Board   *board;
-  PixServer *pixServer;
-  QList<Kaffee> *list;
+    Board   *board;
+    PixServer *pixServer;
+    QList<Kaffee> *list;
 };
 
 #endif // BASKET_H

@@ -1,25 +1,127 @@
 <!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 3.2//EN">
 <HTML>
 <HEAD>
-   <TITLE>Ksnake Help</TITLE>
+   <TITLE>Snake Race</TITLE>
    <META NAME="GENERATOR" CONTENT="Mozilla/3.01Gold (X11; I; Linux 2.0.18 i486) [Netscape]">
 </HEAD>
 <BODY>
 
-<H1 ALIGN=CENTER>Welcome to Snake Race</H1>
+<H1>Snake Race</H1>
 
-<CENTER><P><IMG SRC="snakeRace.gif" HEIGHT=121 WIDTH=135>&nbsp; </P></CENTER>
+<H3>A KDE Snake game</H3>
 
-<CENTER><P>please send your suggestions to Michel Filippi &nbsp;<A HREF="mailto:mfilippi@sade.rhein-main.de">mfilippi@sade.rhein-main.de</A>
-&nbsp;&nbsp;,&nbsp;many thanks.</P></CENTER>
+<H2>Contents</H2>
 
-<CENTER><P>
-<HR WIDTH="100%"></P></CENTER>
+<UL>
+<LI><A HREF="#Overview">Overview</A></LI>
 
-<CENTER><P><I>this doc to be written real soon now</I></P></CENTER>
+<LI><A HREF="#Rules">Rules of the game</A></LI>
 
-<CENTER><P>
-<HR WIDTH="100%"></P></CENTER>
+<LI><A HREF="#Levels">Create your own levels</A></LI>
+
+<LI><A HREF="#Scoring">Scoring</A></LI>
+
+<LI><A HREF="#Author">About &quot;ksnake&quot;</A></LI>
+</UL>
+
+<P>
+<HR></P>
+
+<H2><A NAME="Overview"></A>Overview</H2>
+
+<P>Snake Race is a game of speed and agility. You are a hungry snake and
+are trying to eat all the apples in the room before getting out!</P>
+
+<P>
+<HR></P>
+
+<H2><A NAME="Rules"></A>Rules of the game</H2>
+
+<P>To win Snake Race you must eat all the apples in the room and leave
+through the exit that opens at the top.</P>
+
+<UL>
+<UL>
+<LI>each apple you eat makes you grow longer.</LI>
+
+<LI>if you hit a wall, you die</LI>
+
+<LI>if you hit yourself , you die</LI>
+
+<LI>if you are hit in the head by a bouncing ball, you die</LI>
+
+<LI>if you take too long to eat the apples, more of them appear.</LI>
+</UL>
+</UL>
+
+<P>
+<HR></P>
+
+<P><A NAME="Levels"></A><B><FONT SIZE=+1>Create your own levels</FONT></B></P>
+
+<P>To create your own level copy one of the levels from $KDEDIR/share/apps/ksnake/levels
+to ~/.kde/share/apps/ksnake and edit it with a bitmap editor. You can then
+select it in Options/Starting room.</P>
+
+<H2>
+<HR WIDTH="100%"></H2>
+
+<H2><A NAME="Scoring"></A>Scoring</H2>
+
+<P><B>Before the timer has run out, you score:</B></P>
+
+<UL>
+<UL>
+<LI>1 point for a red apple + a bonus depending on your skill level.</LI>
+
+<LI>5 points for a gold apple + a bonus for your skill level + 2points
+for each computer snake + 2 points for each bouncing ball.</LI>
+
+<LI>twice your level number when you exit the room + a bonus depending
+on your skill level.</LI>
+</UL>
+</UL>
+
+<P><B>After the timer has run out, you score:</B></P>
+
+<UL>
+<UL>
+<LI>1 point for a red apple</LI>
+
+<LI>2 points for a gold apple</LI>
+
+<LI>points equal to your level number when you exit the room + a bonus depending
+on your skill level.</LI>
+</UL>
+</UL>
+
+<P><B>When the computer snake eats an object you loose:</B></P>
+
+<UL>
+<UL>
+<LI>2 points for a red apple</LI>
+
+<LI>5 points for a gold apple</LI>
+</UL>
+</UL>
+
+<P><B>20 points for killing a computer snake!!!</B></P>
+
+<P>
+<HR></P>
+
+<H2><A NAME="Author"></A>About Snake Race</H2>
+
+<P>&quot;ksnake&quot; is part of the <A HREF="http://www.kde.org">KDE (Kool
+Desktop Environment)</A> project. It was written by <A HREF="mailto:mfilippi@sade.rhein-main.de">Michel
+Filippi</A> . </P>
+
+<P>The program is published under the GNU GPL. </P>
+
+<P>Snake Race was inspired by a windows game called RattlerRace. </P>
+
+<P>
+<HR></P>
 
 </BODY>
 </HTML>

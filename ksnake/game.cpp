@@ -1,26 +1,39 @@
+
+/*
+  note: the code to lookup and insert the pixmaps
+  into the Options menu was copied and adapted
+  from KReversi.
+  thanks.
+  */
+#include <qdir.h>
+#include <qregexp.h>
+
 #include <qlcdnum.h>
 #include <qkeycode.h>
 #include <qcolor.h>
 #include <qpopmenu.h>
+#include <qmsgbox.h>
 
 #include <kapp.h>
-#include <kmsgbox.h>
 #include <kmenubar.h>
 
-#include "rattler.h"
-#include "trys.h"
-#include "score.h"
-#include "progress.h"
-#include "game.h"
-#include "lcdrange.h"
-#include "startroom.h"
+#include <kcolordlg.h>
 
+#include "rattler.h"
+#include "score.h"
+#include "game.h"
+#include "startroom.h"
 #include "levels.h"
 
-Game::Game( QWidget *parent, const char *name )
-    : QWidget( parent, name )
-{
+#include "trys.h"
+#include "lcdrange.h"
+#include "progress.h"
 
+#include "view.h"
+#include "keys.h"
+
+Game::Game() :  KTopLevelWidget()
+{
     setCaption("Snake Race");
     setIcon("Snake Race");
 
@@ -31,49 +44,41 @@ Game::Game( QWidget *parent, const char *name )
     }
 
     levels = new Levels();
-    score     = new Score;
+    score  = new Score;
     menu();
     checkMenuItems();
 
-    lcd  = new QLCDNumber( this);
-    lcd->setFrameStyle( QFrame::Panel | QFrame::Sunken );
-
-    trys = new Trys(this);
-    pg = new Progress(this);
-    rattler = new Rattler( this);
-
-    connect(rattler, SIGNAL(setPoints(int)), lcd, SLOT(display(int)));
-    connect(rattler, SIGNAL(setTrys(int)), trys, SLOT(set(int)));
-    connect(rattler, SIGNAL(rewind()), pg, SLOT(rewind()));
-    connect(rattler, SIGNAL(advance()), pg, SLOT(advance()));
-    connect(pg, SIGNAL(restart()), rattler, SLOT(restartTimer()));
-    connect(rattler, SIGNAL(setScore(int)), score, SLOT(setScore(int)));
-
-    int y;
-
-    menubar->setGeometry(0, 0, rattler->width(), menubar->height() );
-    y = menubar->height() +2;
-    lcd->setGeometry(420, y+5, 135, 42);
-    trys->setGeometry(0, y, 405, 50);
-    y += 52;
-    pg->setGeometry(5, y, 550, 12);
-    y += 14;
-    rattler->setGeometry(0, y, rattler->width(), rattler->height());
-    setFixedSize(rattler->width(), y + rattler->height() );
+    View *view = new View(this);
+    rattler = view->rattler;
     rattler->setFocus();
 
+    connect(rattler, SIGNAL(setPoints(int)), view->lcd, SLOT(display(int)));
+    connect(rattler, SIGNAL(setTrys(int)), view->trys, SLOT(set(int)));
+    connect(rattler, SIGNAL(rewind()), view->pg, SLOT(rewind()));
+    connect(rattler, SIGNAL(advance()), view->pg, SLOT(advance()));
+    connect(view->pg, SIGNAL(restart()), rattler, SLOT(restartTimer()));
+
+    connect(rattler, SIGNAL(togglePaused()), this, SLOT(togglePaused()));
+    connect(rattler, SIGNAL(setScore(int)), score, SLOT(setScore(int)));
+
+    menubar->show();
+    setMenu(menubar);
+    view->show();
+    setView(view);
 }
 
 
 void Game::menu()
 {
-    QPopupMenu *game = new QPopupMenu();
+
+    game = new QPopupMenu();
     CHECK_PTR( game );
     game->insertItem( "New", this, SLOT(newGame()),Key_F2);
-    game->insertItem( "Pause", this , SLOT(pauseGame()), Key_F3);
+    pauseID = game->insertItem( "Pause", this , SLOT(pauseGame()), Key_F3);
     game->insertItem( "High Scores...", this, SLOT(showHighScores()));
     game->insertSeparator();
-    game->insertItem( "Exit",  this, SLOT(quitGame()), Key_F10 );
+    game->insertItem( "&Quit",  this, SLOT(quitGame()), CTRL+Key_Q );
+    game->setCheckable( TRUE );
 
     balls = new QPopupMenu;
     CHECK_PTR( balls );
@@ -94,6 +99,25 @@ void Game::menu()
     connect(snakes, SIGNAL(activated(int)), this,
 	    SLOT ( snakesChecked(int) ));
 
+
+    pix = new QPopupMenu;
+    lookupBackgroundPixmaps();
+    pixID.resize(backgroundPixmaps.count());
+
+    if(backgroundPixmaps.count() == 0)
+	pix->insertItem("none");
+    else
+	for(unsigned i = 0; i < backgroundPixmaps.count(); i++) {
+	    // since the filename may contain underscore, they
+	    // are replaced with spaces in the menu entry
+	    QString s(backgroundPixmaps.at(i)->baseName());
+	    s = s.replace(QRegExp("_"), " ");
+	    pixID[i] = pix->insertItem((const char *)s);
+	}
+    pix->setCheckable( TRUE );
+    connect(pix, SIGNAL(activated(int)), this,
+	    SLOT ( pixChecked(int) ));
+
     options = new QPopupMenu();
     CHECK_PTR( options );
     skillID[0] = options->insertItem( "Beginner");
@@ -104,15 +128,22 @@ void Game::menu()
     options->insertItem("Balls", balls);
     options->insertItem("Computer Snakes", snakes);
     options->insertSeparator();
+    options->insertItem("Select background color...", this, SLOT(backgroundColor()));
+    options->insertItem("Select background pixmap", pix);
+    options->insertSeparator();
+    options->insertItem("Change keys...",this, SLOT(confKeys()));
+    options->insertSeparator();
     options->insertItem("Starting Room...", this, SLOT(startingRoom()));
+
     options->setCheckable( TRUE );
     connect(options, SIGNAL(activated(int)), this, SLOT ( skillChecked(int) ));
 
     QPopupMenu *help = new QPopupMenu();
     CHECK_PTR( help );
-    help->insertItem("Help", this, SLOT(help()), Key_F1);
+    help->insertItem("Contents", this, SLOT(help()), Key_F1);
     help->insertSeparator();
     help->insertItem("About Snake Race...", this, SLOT(about()) );
+    help->insertItem("About Qt...", this, SLOT(aboutQt()) );
 
     menubar = new KMenuBar( this );
     CHECK_PTR( menu );
@@ -124,9 +155,13 @@ void Game::menu()
 
 void Game::about()
 {
-    KMsgBox::message(0, "About Snake Race",
-		     "Snake Race \n\nMichel Filippi (mfilippi@sade.rhein-main.de) \n\nA snake game for the KDE Desktop",
-		     KMsgBox::INFORMATION, "Ok");
+    QMessageBox::about( this, "About Snake Race",
+			"ksnake-0.2 \n\nMichel Filippi (mfilippi@sade.rhein-main.de) \n\nA snake game for the KDE Desktop");
+}
+
+void Game::aboutQt()
+{
+    QMessageBox::aboutQt( this, "About Qt" );
 }
 
 void Game::help()
@@ -170,16 +205,36 @@ void Game::skillChecked(int id)
 	}
 }
 
+void Game::pixChecked(int id)
+{
+    for ( unsigned int x = 0; x < backgroundPixmaps.count(); x++)
+	pix->setItemChecked( pixID[x] , pixID[x] == id );
+
+	conf->writeEntry("Background", 2);
+	conf->writeEntry("BackgroundPixmap",
+				      backgroundPixmaps.at(id)->filePath());
+
+	rattler->reloadRoomPixmap();
+}
+
 void Game::checkMenuItems()
 {
     balls->setItemChecked( ballsID[conf->readNumEntry("Balls", 1)], TRUE );
     snakes->setItemChecked( snakesID[conf->readNumEntry("ComputerSnakes", 1)], TRUE );
     options->setItemChecked( skillID[conf->readNumEntry("Skill", 1)], TRUE );
+
+    QString path = conf->readEntry("BackgroundPixmap");
+    for ( unsigned int x = 0; x < backgroundPixmaps.count(); x++) {
+	if (path == backgroundPixmaps.at(x)->filePath()) {
+	    pix->setItemChecked( x , TRUE );
+	    break;
+	}
+    }
 }
 
 void Game::quitGame()
 {
-    qApp->quit();
+    kapp->quit();
 }
 
 void Game::showHighScores()
@@ -197,6 +252,13 @@ void Game::pauseGame()
     rattler->pause();
 }
 
+void Game::togglePaused()
+{
+    static bool checked = FALSE;
+    checked = !checked;
+    game->setItemChecked( pauseID, checked );
+}
+
 void Game::startingRoom()
 {
     int r = 0;
@@ -208,4 +270,72 @@ void Game::startingRoom()
 	conf->writeEntry("StartingRoom", r);
 	rattler->setRoom(r);
     }
+}
+
+void Game::confKeys()
+{
+    Keys *keys = new Keys();
+    if (keys->exec() == QDialog::Accepted)
+	rattler->initKeys();
+    delete keys;
+}
+
+
+//taken from KReversi
+void Game::backgroundColor()
+{
+    QString s;
+    QColor c;
+      if(KColorDialog::getColor(c)) {
+	conf->writeEntry("Background", 1);
+	s.sprintf("%d %d %d", c.red(), c.green(), c.blue());
+	conf->writeEntry("BackgroundColor", (const char *)s);
+	rattler->reloadRoomPixmap();
+      }
+}
+
+void Game::lookupBackgroundPixmaps()
+{
+    QString pixDir;
+    pixDir.setStr(KApplication::kdedir());
+    pixDir.append("/share/apps/ksnake/backgrounds");
+    QDir dir(pixDir, "*.xpm");
+
+    if(!dir.exists())
+	return;
+
+    const QFileInfoList *fl = dir.entryInfoList();
+
+    // sanity check, maybe the directory is unreadable
+    if(fl == NULL)
+	return;
+
+    QFileInfoListIterator it( *fl );
+    QFileInfo *fi;
+
+    while((fi = it.current())) {
+	backgroundPixmaps.append(new QFileInfo(*fi));
+	++it;
+    }
+}
+
+
+
+
+
+
+/************************** main ******************************/
+
+
+
+
+
+int main( int argc, char **argv )
+{
+  KApplication a( argc, argv, "ksnake" );
+
+  Game g;
+  a.setMainWidget( &g );
+  g.show();
+  return a.exec();
 }

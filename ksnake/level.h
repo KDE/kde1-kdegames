@@ -6,7 +6,7 @@
 
 #include "board.h"
 
-enum Img {Banner, Room, Samy, GameOver};
+enum Img {Banner, Room, Intro, GameOver};
 
 
 class Level {

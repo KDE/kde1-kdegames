@@ -1,14 +1,31 @@
 #include <qcolor.h>
 #include <qpainter.h>
 #include <qpixmap.h>
+#include <qbitmap.h>
 #include <qrect.h>
 #include <qstring.h>
 
 #include <kapp.h>
-#include <qbitmap.h>
 
 #include "pixServer.h"
 #include "board.h"
+
+
+//from the QColor man page.
+QPixmap loadPixmap( const char *fileName )
+{
+    /*
+    static int alloc_context = 0;
+    if ( alloc_context )
+	QColor::destroyAllocContext( alloc_context );
+    alloc_context = QColor::enterAllocContext();
+    QPixmap pm( fileName );
+    QColor::leaveAllocContext();
+    */
+
+    QPixmap pm(fileName);
+    return pm;
+}
 
 PixServer::PixServer( Board *b, QWidget *parent)
 {
@@ -17,12 +34,17 @@ PixServer::PixServer( Board *b, QWidget *parent)
 
     board = b;
     initPixmaps();
+    initBrickPixmap();
+    initbackPixmaps();
     initRoomPixmap();
     w = parent;
 }
 
 void PixServer::erase(int pos)
 {
+    if (!board->isEmpty(pos))
+	return;
+
     QRect rect = board->rect(pos);
     bitBlt( w, rect.x(), rect.y(), &backPix,
 	    rect.x(), rect.y(), rect.width(), rect.height());
@@ -42,8 +64,11 @@ void PixServer::draw(int pos, PixMap pix, int i = 0)
 
     QRect rect = board->rect(pos);
 
-    bitBlt( &p, 0, 0, &backPix,
-	    rect.x(), rect.y(), rect.width(), rect.height());
+    if (! plainColor)
+	bitBlt( &p, 0, 0, &backPix,
+		rect.x(), rect.y(), rect.width(), rect.height());
+    else
+	p.fill(backgroundColor);
 
     switch (pix) {
     case SamyPix:        bitBlt(&p ,0,0, &samyPix[i]);
@@ -63,18 +88,17 @@ void PixServer::draw(int pos, PixMap pix, int i = 0)
 
 void PixServer::initPixmaps()
 {
-
     QPixmap PIXMAP;
 
     PIXMAP.load((const char *)(pixDir + "snake1.xpm"));
-    for (int x = 0 ; x < 14; x++){
+    for (int x = 0 ; x < 18; x++){
 	compuSnakePix[x].resize(16, 16);
 	bitBlt(&compuSnakePix[x] ,0,0, &PIXMAP,x*16, 0, 16, 16, CopyROP, TRUE);
 	compuSnakePix[x].setMask(compuSnakePix[x].createHeuristicMask());
     }
 
     PIXMAP.load((const char *)(pixDir + "snake2.xpm"));
-    for (int x = 0 ; x < 14; x++){
+    for (int x = 0 ; x < 18; x++){
 	samyPix[x].resize(16, 16);
 	bitBlt(&samyPix[x] ,0,0, &PIXMAP,x*16, 0, 16, 16, CopyROP, TRUE);
 	samyPix[x].setMask(samyPix[x].createHeuristicMask());
@@ -93,21 +117,73 @@ void PixServer::initPixmaps()
 	bitBlt(&applePix[x] ,0,0, &PIXMAP,x*16, 0, 16, 16, CopyROP, TRUE);
 	applePix[x].setMask(applePix[x].createHeuristicMask());
     }
+}
 
-    PIXMAP.load((const char *)(pixDir + "background.xpm"));
+void PixServer::initbackPixmaps()
+{
+    QString path;
+    plainColor = FALSE;
 
-    int  pw = PIXMAP.width();
-    int  ph = PIXMAP.height();
+    int red, green, blue;
+    red = green = blue = 0;
+
+    KConfig *conf = kapp->getConfig();
+    if(conf != NULL) {
+	int i = conf->readNumEntry("Background", 2);
+	if(i == 1) {
+	    QString s = conf->readEntry("BackgroundColor");
+	    if ( s.length() > 0)
+		sscanf((const char *)s, "%d %d %d", &red, &green, &blue);
+	    backgroundColor = (QColor(red, green, blue));
+	    plainColor = TRUE;
+	} else if(i == 2) {
+	    path.setStr(KApplication::kdedir());
+	    path.append("/share/apps/ksnake/backgrounds/");
+	    path.append("Green_Carpet.xpm");
+	    path = conf->readEntry("BackgroundPixmap", (const char *)path);
+	}
+    }
+
+    QPixmap PIXMAP;
+    int pw, ph;
 
     backPix.resize(560, 560 );
-    for (int x = 0; x <= 560; x+=pw)
-	for (int y = 0; y <= 560; y+=ph)
-	    bitBlt(&backPix, x, y, &PIXMAP);
+
+    if (! plainColor) {
+
+	PIXMAP = loadPixmap((const char *) path);
+
+	if (!PIXMAP.isNull()) {
+	    pw = PIXMAP.width();
+	    ph = PIXMAP.height();
+
+	    for (int x = 0; x <= 560; x+=pw)
+		for (int y = 0; y <= 560; y+=ph)
+		    bitBlt(&backPix, x, y, &PIXMAP);
+	}
+	else  {
+	    printf("error loading background image :%s\n", path.data() );
+	    backgroundColor = (QColor(red, green, blue));
+	    plainColor = TRUE;
+	}
+    }
+    if ( plainColor)
+	backPix.fill(backgroundColor);
+
     backPix.resize(560, 560 );
+}
+
+void PixServer::initBrickPixmap()
+{
+    QPixmap PIXMAP;
 
     PIXMAP.load((const char *)(pixDir + "brick.xpm"));
-    pw = PIXMAP.width();
-    ph = PIXMAP.height();
+    if (PIXMAP.isNull()) {
+	printf("error loading %s, aborting\n", (const char *)(pixDir + "brick.xpm"));
+	kapp->quit();
+    }
+    int pw = PIXMAP.width();
+    int ph = PIXMAP.height();
 
     offPix.resize(560, 560 );
     for (int x = 0; x <= 560; x+=pw)

@@ -28,4 +28,3 @@ void Trys::set(int i)
   snakes = i;
   repaint();
 }
-

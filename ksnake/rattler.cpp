@@ -5,8 +5,11 @@
 #include <qcolor.h>
 #include <qlabel.h>
 #include <qkeycode.h>
+#include <qmsgbox.h>
+#include <qbitarry.h>
 
 #include <kapp.h>
+#include <kkeyconf.h>
 
 #include "rattler.h"
 #include "board.h"
@@ -17,8 +20,8 @@
 #include "pixServer.h"
 
 
+QBitArray gameState(5);
 QLabel *label = 0;
-
 int speed[4] = { 85, 75, 55, 40 };
 
 Rattler::Rattler( QWidget *parent, const char *name )
@@ -32,6 +35,9 @@ Rattler::Rattler( QWidget *parent, const char *name )
     numSnakes = conf->readNumEntry("ComputerSnakes", 1);
     skill = conf->readNumEntry("Skill", 1);
     room = conf->readNumEntry("StartingRoom", 1);
+
+
+    initKeys();
 
     board = new Board(35*35);
     level = new Level(board);
@@ -56,7 +62,9 @@ Rattler::Rattler( QWidget *parent, const char *name )
     QTime midnight( 0, 0, 0 );
     srand( midnight.secsTo(QTime::currentTime()) );
 
-    gameState = Demo;
+    gameState.fill(FALSE);
+    gameState.setBit(Demo);
+
     timerCount = 0;
     QTimer::singleShot( 2000, this, SLOT(demo()) );
 }
@@ -72,11 +80,11 @@ void Rattler::paintEvent( QPaintEvent *e)
 	       &pix->levelPix(), rect.x(), rect.y(), rect.width(), rect.height());
     }
 
-    if (gameState != Init && gameState != Over) {
+    if (!gameState.testBit(Init) && !gameState.testBit(Over)) {
 
-	basket->repaint();
+	basket->repaint( dirty );
 
-	if(gameState != Demo)samy->repaint( dirty );
+	if(!gameState.testBit(Demo))samy->repaint( dirty );
 
 	for (CompuSnake *as = computerSnakes->first(); as != 0;
 	     as = computerSnakes->next())
@@ -90,7 +98,6 @@ void Rattler::paintEvent( QPaintEvent *e)
 
 void Rattler::timerEvent( QTimerEvent * )
 {
-
     timerCount++;
 
     if ( !leaving )		// advance progressBar unless Samy
@@ -106,13 +113,84 @@ void Rattler::timerEvent( QTimerEvent * )
 
     samyState state = ok;
 
-    if(gameState != Demo)
+    if(!gameState.testBit(Demo))
 	state = samy->nextMove(direction);
 
     repaint(0,0,0,0, FALSE);
 
-    if (state == ko) newTry();
-    else if (state == out) levelUp();
+    if (state == ko)
+	newTry();
+    else if (state == out)
+	levelUp();
+}
+
+void Rattler::initKeys()
+{
+    KConfig *conf = kapp->getConfig();
+
+    QString up("Up");
+    up = conf->readEntry("upKey", (const char*) up);
+    UpKey    = stringToKey(up);
+
+    QString down("Down");
+    down = conf->readEntry("downKey", (const char*) down);
+    DownKey  = stringToKey(down);
+
+    QString left("Left");
+    left = conf->readEntry("leftKey", (const char*) left);
+    LeftKey  = stringToKey(left);
+
+    QString right("Right");
+    right = conf->readEntry("rightKey", (const char*) right);
+    RightKey = stringToKey(right);
+
+}
+
+void Rattler::keyPressEvent( QKeyEvent *k )
+{
+    if (gameState.testBit(Paused))
+	return;
+
+    uint key = k->key();
+    if (key == UpKey)
+	direction = N;
+    else if (key == DownKey)
+	direction = S;
+    else if (key == RightKey)
+	direction = E;
+    else if (key == LeftKey)
+	direction = W;
+    else {
+	k->ignore();
+	return;
+    }
+    k->accept();
+
+    /*
+    switch ( k->key()) {
+    case (const int)UpKey:
+	direction = N;
+	break;
+    case  DownKey:
+	direction = S;
+	break;
+    case RightKey:
+	direction = E;
+	break;
+    case LeftKey:
+	direction = W;
+	break;
+    default:
+	k->ignore();
+	return;
+    }
+    k->accept();
+    */
+
+
+
+
+
 }
 
 void Rattler::closeGate(int i)
@@ -129,122 +207,174 @@ void Rattler::openGate()
 
 void Rattler::scoring(bool win, int i)
 {
-
     Fruits fruit  = basket->eaten(i);
-    if (fruit == Bummer)
-	return;
-    if (gameState == Demo) win = TRUE;
 
-    if (win) {
-	switch (fruit) {
-	case Red: if (!timerHasRunOut)
-	    points += 1 + skill*2;
-	else points++;
-	break;
-	case Golden: if (!timerHasRunOut)
-	    points += 5 + (skill*2) + (numSnakes*2);
-	else points += 2;
-	break;
-	case Bummer:
-	default:
-	    break;
+    if (gameState.testBit(Demo))
+	win = TRUE;
+
+    int p = 0;
+
+    switch (fruit) {
+
+    case Red:
+	if (win) {
+	    if (!timerHasRunOut)
+		p = 1 + skill*2;
+	    else p = 1;
 	}
-    }
-    else {
-	switch (fruit) {
-	case Red: points -= 2;
-	    break;
-	case Golden: points -= 5;
-	    break;
-	case Bummer:
-	default:
-	    break;
+	else p = -2;
+	break;
+
+    case Golden:
+	if (win) {
+	    if (!timerHasRunOut)
+		p = 2 + (skill*2) + (numSnakes*2) + (numBalls+2);
+	    else p = 2;
 	}
+	else p = -5;
+	break;
+
+    default:
+	break;
+
     }
-    if (points < 0)
-	points = 0;
+
+    score(p);
+}
+
+void Rattler::score(int p)
+{
+    points += p;
+    points = (points < 0 ? 0 : points);
     emit setPoints(points);
 
-    if(points > check*50) {
-	check++;
-	if(gameState != Demo)
-	    emit setTrys(++trys);
-    }
+	while (points > check*50) {
+	    check++;
+	    if (trys < 7 && !gameState.testBit(Demo))
+		emit setTrys(++trys);
+	}
+}
+
+void Rattler::killedComputerSnake()
+{
+    if (!gameState.testBit(Demo))
+	score(20);
 }
 
 void Rattler::pause()
 {
-    if (gameState == Playing) {
-	gameState = Paused;
-	killTimer(gameTimer );
+    if (gameState.testBit(Init))
+	return;
+
+    if (gameState.testBit(Playing)) {
+
+	gameState.toggleBit(Playing);
+	gameState.setBit(Paused);
+	stop();
 
 	label = new QLabel(this);
-	label->setFont( QFont( "Times", 18, QFont::Bold ) );
-	label->setText("Game Paused\n Press F3 To Resume\n");
+	label->setFont( QFont( "Times", 16, QFont::Bold ) );
+	label->setText("Game Paused\n Press F3 to resume\n");
 	label->setAlignment( AlignCenter );
 	label->setFrameStyle( QFrame::Panel | QFrame::Raised );
-	label->setGeometry(192, 206, 178, 80);
+	label->setGeometry(182, 206, 198, 80);
 	label->show();
+	emit togglePaused();
     }
-    else if (gameState == Paused) {
-	gameState = Playing;
-	gameTimer = startTimer( speed [skill] );
-	delete label;
+    else if (gameState.testBit(Paused)) {
+	gameState.toggleBit(Paused);
+	gameState.setBit(Playing);
+	start();
+	cleanLabel();
+	emit togglePaused();
     }
+}
 
+void Rattler::cleanLabel()
+{
+    if (label) {
+	delete label;
+	label = 0;
+    }
 }
 
 void Rattler::restartDemo()
 {
-    if (gameState != Demo)
+    if (!gameState.testBit(Demo))
 	return;
 
-    int r = rand() % 60000;
+    int r = 50000+ (rand() % 30000);
     QTimer::singleShot( r, this, SLOT(restartDemo()) );
 
-    level->create(Samy);
-    basket->clear();
-    basket->newApples();
-    restartBalls(FALSE);
-    restartComputerSnakes(FALSE);
+    stop();
+    level->create(Intro);
+    init(FALSE);
     repaint();
+    start();
 }
-
 
 void Rattler::demo()
 {
     static  bool first_time = TRUE;
 
-    if(gameState == Init) return;
+    if(gameState.testBit(Init))
+	return;
+
+    stop();
 
     QTimer::singleShot( 60000, this, SLOT(restartDemo()) );
-    stop();
-    gameState = Init;
+    gameState.fill(FALSE);
+    gameState.setBit(Init);
+    gameState.setBit(Demo);
     resetFlags();
 
     if(!first_time) {
-	level->create(Samy);
+	level->create(Intro);
 	pix->initRoomPixmap();
     }
     repaint(rect(), FALSE);
     init(FALSE);
-    runDemo();
-
+    run();
     first_time = FALSE;
 }
 
 void Rattler::restart()
 {
-    if (gameState == Init) return;
+    if (gameState.testBit(Init))
+	return;
     stop();
-    gameState = Init;
+
+    if (gameState.testBit(Paused) || gameState.testBit(Playing)) {
+
+	switch( QMessageBox::information( this, "Snake Race",
+					  "A game is already started\n"
+					  "Start a new one ?\n",
+					  "&Yes", "&No",
+					  0, 1 ) ) {
+	case 0:
+	    if ( gameState.testBit(Paused))
+		emit togglePaused();
+	    break;
+	case 1:
+	    if ( !gameState.testBit(Paused))
+		start();
+	    return;
+	}
+    }
+
+    gameState.fill(FALSE);
+    gameState.setBit(Init);
+    gameState.setBit(Playing);
+
     resetFlags();
 
     level->set(room);
     level->create(Banner);
     pix->initRoomPixmap();
-    repaint();
 
+    cleanLabel();
+
+    repaint();
     QTimer::singleShot( 2000, this, SLOT(showRoom()) );
 }
 
@@ -253,7 +383,8 @@ void Rattler::newTry()
     stop();
 
     if(trys==0) {
-	gameState = Over;
+	gameState.fill(FALSE);
+	gameState.setBit(Over);
 	level->create(GameOver);
 	pix->initRoomPixmap();
 	repaint();
@@ -262,21 +393,26 @@ void Rattler::newTry()
 	return;
     }
     --trys;
-    emit setTrys(trys);
-    gameState = Init;
+    gameState.fill(FALSE);
+    gameState.setBit(Init);
+    gameState.setBit(Playing);
+
     level->create(Room);
     pix->initRoomPixmap();
     init(TRUE);
     repaint();
-    QTimer::singleShot( 1000, this, SLOT(runPlay()) );
+    QTimer::singleShot( 1000, this, SLOT(run()) );
 }
 
 void Rattler::levelUp()
 {
     stop();
-    gameState = Init;
 
-    points += level->get()+5+(2*numSnakes)+numBalls;
+    gameState.fill(FALSE);
+    gameState.setBit(Init);
+    gameState.setBit(Playing);
+
+    score (2*(level->get())+(2*numSnakes)+(2*numBalls)+(2*skill));
 
     level->up();
     level->create(Banner);
@@ -303,7 +439,7 @@ void Rattler::speedUp()
 {
     leaving = TRUE;
     stop();
-    start( 45 );
+    start( 30 );
 }
 
 void Rattler::resetFlags()
@@ -313,41 +449,13 @@ void Rattler::resetFlags()
     points = 0;
 }
 
-void Rattler::runDemo()
-{
-    gameState = Demo;
-    start();
-}
-
-void Rattler::runPlay()
-{
-    direction = N;
-    gameState = Playing;
-    start();
-}
-
 void Rattler::showRoom()
 {
     level->create(Room);
     pix->initRoomPixmap();
     init(TRUE);
     repaint();
-    runPlay();
-}
-
-void Rattler::start()
-{
-    gameTimer = startTimer( speed [skill] );
-}
-
-void Rattler::start(int t)
-{
-    gameTimer = startTimer(t);
-}
-
-void Rattler::stop()
-{
-    killTimer( gameTimer );
+    QTimer::singleShot( 1000, this, SLOT(run()) );
 }
 
 void Rattler::init(bool play)
@@ -365,6 +473,29 @@ void Rattler::init(bool play)
     restartBalls(play);
     restartComputerSnakes(play);
     if(play) samy->init();
+
+}
+
+void Rattler::run()
+{
+    direction = N;
+    gameState.toggleBit(Init);
+    start();
+}
+
+void Rattler::start()
+{
+    gameTimer = startTimer( speed [skill] );
+}
+
+void Rattler::start(int t)
+{
+    gameTimer = startTimer(t);
+}
+
+void Rattler::stop()
+{
+    killTimers ();
 }
 
 void Rattler::restartComputerSnakes(bool play)
@@ -379,6 +510,7 @@ void Rattler::restartComputerSnakes(bool play)
 	connect( as, SIGNAL(closeGate(int)), this, SLOT(closeGate(int)));
 	connect( as, SIGNAL(restartTimer()), this, SLOT(restartTimer()));
 	connect( as, SIGNAL(score(bool, int)), this, SLOT(scoring(bool,int)));
+	connect( as, SIGNAL(killed()), this, SLOT(killedComputerSnake()));
 	computerSnakes->append(as);
     }
 }
@@ -391,7 +523,7 @@ void Rattler::restartBalls(bool play)
     int i = (play == FALSE && numBalls == 0 ? 1 : numBalls);
 
     for (int x = 0; x < i; x++) {
-	Ball *b = new Ball(board, pix, BoardWidth+1+x);
+	Ball *b = new Ball(board, pix);
 	balls->append(b);
     }
 }
@@ -402,10 +534,10 @@ void Rattler::setBalls(int i)
     numBalls = i;
     int count = balls->count();
 
-    if (gameState == Playing || gameState == Demo) {
+    if (gameState.testBit(Playing) || gameState.testBit(Demo)) {
 	if ( i > count) {
 	    while ( i > count) {
-		Ball *b = new Ball(board, pix, BoardWidth+1+count);
+		Ball *b = new Ball(board, pix);
 		balls->append(b);
 		i--;
 	    }
@@ -427,13 +559,14 @@ void Rattler::setCompuSnakes(int i)
     numSnakes = i;
     int count = computerSnakes->count();
 
-    if (gameState == Playing || gameState == Demo) {
+    if (gameState.testBit(Playing) || gameState.testBit(Demo)) {
 	if ( i > count) {
 	    while ( i > count) {
 		CompuSnake *as = new CompuSnake(board, pix);
 		connect( as, SIGNAL(closeGate(int)), this, SLOT(closeGate(int)));
 		connect( as, SIGNAL(restartTimer()), this, SLOT(restartTimer()));
 		connect( as, SIGNAL(score(bool, int)), this, SLOT(scoring(bool,int)));
+		connect( as, SIGNAL(killed()), this, SLOT(killedComputerSnake()));
 		computerSnakes->append(as);
 		i--;
 	    }
@@ -452,7 +585,7 @@ void Rattler::setCompuSnakes(int i)
 void Rattler::setSkill(int i)
 {
     skill = i;
-    if (gameState == Playing || gameState == Demo) {
+    if (gameState.testBit(Playing) || gameState.testBit(Demo)) {
 	stop();
 	start();
     }
@@ -463,23 +596,9 @@ void Rattler::setRoom(int i)
     room = i;
 }
 
-void Rattler::keyPressEvent( QKeyEvent *k )
+void Rattler::reloadRoomPixmap()
 {
-    switch ( k->key()) {
-    case Key_Up:
-	direction = N;
-	break;
-    case  Key_Down:
-	direction = S;
-	break;
-    case Key_Right:
-	direction = E;
-	break;
-    case Key_Left:
-	direction = W;
-	break;
-    default:
-	k->ignore();
-	break;
-    }
+    pix->initbackPixmaps();
+    pix->initRoomPixmap();
+    demo();
 }

@@ -3,6 +3,7 @@
 
 #include <qwidget.h>
 #include <qlist.h>
+#include <qbitarry.h>
 
 #include "board.h"
 #include "level.h"
@@ -11,7 +12,8 @@
 #include "pixServer.h"
 #include "snake.h"
 
-enum GameState { Init, Playing, Demo, Paused, Over };
+enum { Init, Playing, Demo, Paused, Over };
+
 
 class Rattler : public QWidget
 {
@@ -27,16 +29,26 @@ public:
 public slots:
     void closeGate(int);
     void openGate();
+
     void scoring(bool, int);
+
     void restart();
     void newTry();
+    void levelUp();
+
     void pause();
     void restartTimer();
-    void levelUp();
+
     void speedUp();
-    void runDemo();
-    void runPlay();
+
+    void run();
     void demo();
+
+    void killedComputerSnake();
+
+    void reloadRoomPixmap();
+
+    void initKeys();
 
 private slots:
     void start();
@@ -49,6 +61,7 @@ signals:
     void setTrys(int);
 
     void setScore(int);
+    void togglePaused();
 
     // progress
     void rewind();
@@ -62,7 +75,7 @@ protected:
     void  focusInEvent( QFocusEvent * )  { ; }
 private:
 
-    GameState gameState;
+    //    QBitArray *gameState;
 
     int  timerCount;
     bool leaving;
@@ -76,7 +89,7 @@ private:
     Board     *board;
     PixServer *pix;
     Level     *level;
-    Basket     *basket;
+    Basket    *basket;
     SamySnake *samy;
 
     QList<Ball> *balls;
@@ -90,11 +103,20 @@ private:
     int room;
     int skill;
 
-    int gameTimer;
+    int  gameTimer;
     bool timerHasRunOut;
     void start(int);
     void resetFlags();
     void init(bool);
+
+    void score(int);
+    void cleanLabel();
+
+    uint UpKey;
+    uint DownKey;
+    uint RightKey;
+    uint LeftKey;
+
 };
 
 

@@ -13,11 +13,15 @@ int bounce[8][8]={
     { SW, SE, NW, NE, S, W, N, E }
 };
 
-Ball::Ball(Board *b, PixServer *p, int i)
+Ball::Ball(Board *b, PixServer *p)
 {
     board = b;
     pixServer = p;
+
+    int i = BoardWidth+1;
+    while( !board->isEmpty(i) ) i++;
     hold = index = i;
+    board->set(index, Balle);
     next = SE;
 }
 
@@ -31,13 +35,13 @@ void Ball::nextMove()
 {
     hold = index;
     board->set(hold, empty);
-    int nextSq = index;
 
     for ( int x = 0; x < 8 ; x++) {
-	nextSq = board->getNext(bounce[next][x], index);
+	int d = bounce[next][x];
+	int nextSq = board->getNext(d, index);
 
 	if (board->isHead(nextSq) || board->isEmpty(nextSq)) {
-	    next = bounce[next][x];
+	    next = d;
 	    index = nextSq;
 	    board->set(index, Balle);
 	    break;
@@ -53,10 +57,8 @@ void Ball::repaint()
     pixServer->erase(hold);
     pixServer->draw(index, BallPix, i);
 
-    if (rotate) {
-	i++; rotate = FALSE;
-	if (i>3)
-	    i=0;
-    } else
-	rotate = TRUE;
+    if (rotate)
+	if (++i > 3) i=0;
+
+	rotate = !rotate;
 }

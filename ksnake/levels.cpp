@@ -35,7 +35,7 @@ Levels::Levels()
     }
 
     d.cd (QDir::homeDirPath() );
-    if ( d.cd(".kde/ksnake") ) {
+    if ( d.cd(".kde/share/apps/ksnake") ) {
 	for ( unsigned int i=0; i<d.count(); i++ ) {
 	    QString *s = new QString;
 	    s->sprintf("%s/%s",(const char*)d.absPath(),  d[i] );

@@ -3,14 +3,17 @@ prefix = @prefix@
 SNAKEDIR = $(prefix)/share/apps/ksnake
 LEVELDIR = $(SNAKEDIR)/levels
 PIXDIR = $(SNAKEDIR)/pics
+BGDIR = $(SNAKEDIR)/backgrounds
 
 INSTALL_DIR = @INSTALL@ -d -m 0755
 INSTALL_DATA = @INSTALL@ -m 644
+
 INSTALL_HIGH = @INSTALL@ -m 666
 
 HIGHSCORES = ./highScores
 LEVELS = `find levels -name "room*" -print | sort`
 PIXS = `find pixmaps -name "*.xpm" -print | sort`
+BGS = `find backgrounds -name "*.xpm" -print | sort`
 
 all:
 
@@ -31,6 +34,12 @@ install:
 		@for i in $(PIXS); do \
 		 echo "$(INSTALL_DATA) $$i $(PIXDIR)"; \
 		 $(INSTALL_DATA) "$$i" $(PIXDIR); \
+		done
+
+	$(INSTALL_DIR) $(BGDIR)
+		@for i in $(BGS); do \
+		 echo "$(INSTALL_DATA) $$i $(BGDIR)"; \
+		 $(INSTALL_DATA) "$$i" $(BGDIR); \
 		done
 
 uninstall:

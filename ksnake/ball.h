@@ -9,7 +9,7 @@
 
 class Ball {
 public:
-    Ball(Board *b, PixServer *p, int i);
+    Ball(Board *b, PixServer *p);
     void nextMove();
     void repaint();
     void zero();

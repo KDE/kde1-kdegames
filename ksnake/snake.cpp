@@ -16,10 +16,6 @@ int emptySq[4][4]={
     { W, S, N, W }
 };
 
-int findSq[4]={
-    N, S, E, W
-};
-
 Snake::Snake(Board *b, PixServer *p, Gate g, PixMap x)
 {
     list.setAutoDelete( TRUE );
@@ -39,8 +35,8 @@ void Snake::updateSamy()
 void Snake::zero()
 {
     for ( Samy *sam = list.first(); sam != 0; sam = list.next() ) {
-	pixServer->erase(sam->index);
 	board->set(sam->index, empty);
+	pixServer->erase(sam->index);
     }
 }
 
@@ -63,16 +59,16 @@ void Snake::reset(int index, int border)
 
     switch (border) {
     case N:
-	sam->pixmap = HeadUp;
+	sam->pixmap = (tail() == 0 ? HtailUp : HeadUp);
 	break;
     case S:
-	sam->pixmap = HeadDown;
+	sam->pixmap = (tail() == 0 ? HtailDown : HeadDown);
 	break;
     case E:
-	sam->pixmap = HeadRight;
+	sam->pixmap = (tail() == 0 ? HtailRight : HeadRight);
 	break;
     case W:
-	sam->pixmap = HeadLeft;
+	sam->pixmap = (tail() == 0 ? HtailLeft : HeadLeft);
 	break;
     }
 
@@ -138,7 +134,7 @@ void Snake::repaint( bool dirty)
 	    pixServer->draw(sam->index, pixmap, sam->pixmap);
 		}
     }
-    if (!growing() && hold != OUT && hold != gate && board->isEmpty(hold)) {
+    if (!growing() && hold != OUT && hold != gate) {
 	pixServer->erase(hold);
     }
 }
@@ -159,7 +155,7 @@ bool CompuSnake::init()
     int index = NORTH_GATE;
     int length = 12;
     grow = 0;
-    hold = 0;
+    hold = OUT;
 
     if ( !board->isBrick(gate) ) return FALSE;
 
@@ -179,6 +175,12 @@ bool CompuSnake::init()
 bool CompuSnake::permission()
 {
     if( list.isEmpty() ){
+
+	if ( hold != OUT) {
+	    emit killed();
+	    hold = OUT;
+	}
+
 	if(board->isBrick(gate)){
 	    static int  skip = 12;
 	    if (skip < 12) {
@@ -199,27 +201,39 @@ void CompuSnake::nextMove()
     if (!permission()) return;
 
     Samy *sam = list.first();
-    bool found = FALSE;
     int  index = sam->index;
-    int b = sam->direction;
+    int  dir = sam->direction;
+    static bool varies = FALSE;
 
-    for ( int x = 0; x < 4 ; x++)
-	if (board->isApple(board->getNext(findSq[x], sam->index))){
-	    index = board->getNext(findSq[x], sam->index);
-	    b = findSq[x];
-	    found = TRUE;
-	    grow+=6;
-	    emit score(FALSE, index);
-	    break;
+
+    bool found = FALSE;
+
+	for ( int x = 0; x < 4 ; x++) {
+	    int next = board->getNext(x, sam->index);
+	    if (board->isApple(next)){
+		index = next;
+		dir = x;
+		found = TRUE;
+		grow+=6;
+		emit score(FALSE, index);
+		break;
+	    }
 	}
+
     if(!found)
-	for ( int x = 0; x < 4 ; x++)
-	    if ( findEmpty(board->getNext(emptySq[sam->direction][x], sam->index), x)) {
-		index = board->getNext(emptySq[sam->direction][x], sam->index);
-		b = emptySq[sam->direction][x];
+	for ( int x = 0; x < 4 ; x++) {
+	    int sq = emptySq[sam->direction][x];
+	    if (varies && (x > 0 && x < 3))
+		sq = opposite[sq];
+	    int next = board->getNext(sq, sam->index);
+	    if (findEmpty(next, x)) {
+		index = next;
+		dir = sq;
 		found = TRUE;
 		break;
 	    }
+	}
+    varies = !varies;
 
     if(!found) {
 	hold = list.last()->index;
@@ -238,7 +252,7 @@ void CompuSnake::nextMove()
 
     if( !list.isEmpty()) {
 	board->set(index, snake);
-	reset(index, b);
+	reset(index, dir);
     }
 
     if ( hold == gate)
@@ -284,8 +298,6 @@ void CompuSnake::out()
 	list.clear();
     }
 }
-
-
 
 SamySnake::SamySnake( Board *b, PixServer *p)
     : Snake( b, p, SOUTH_GATE, SamyPix )

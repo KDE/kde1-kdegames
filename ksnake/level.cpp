@@ -19,7 +19,7 @@ const uchar *numbers[10] = { zero_bits, one_bits, two_bits,
 Level::Level(Board *b)
 {
     board = b;
-    create(Samy);
+    create(Intro);
 }
 
 void Level::up()
@@ -37,7 +37,7 @@ void Level::create(Img img)
     case Room:
 	createRoom();
 	break;
-    case Samy:
+    case Intro:
 	makeImageFromData(intro_bits);
 	break;
     case GameOver:
@@ -67,6 +67,7 @@ void Level::initBoard(QImage image)
     for ( int y = 0;y < image.height();y++ ) {
 	b = image.scanLine(y);
 	for ( int x = 0;x < image.width();x++ ) {
+
 	    if ( image.bitOrder() == QImage::BigEndian ) {
 		if (((*b >> (7 - (x & 7))) & 1) == 1)
 		    board->set(index, brick);
@@ -76,6 +77,7 @@ void Level::initBoard(QImage image)
 		    board->set(index, brick);
 		else board->set(index, empty);
 	    }
+
 	    if ( (x & 7) == 7 )
 		b++;
 	    index++;
@@ -109,6 +111,7 @@ void Level::doNumber(int beginAt, const uchar *buf)
     for ( int y = 0;y < image.height();y++ ) {
 	b = image.scanLine(y);
 	for ( int x = 0;x < image.width();x++ ) {
+
 	    if ( image.bitOrder() == QImage::BigEndian ) {
 		if (((*b >> (7 - (x & 7))) & 1) == 1)
 		    board->set(index, brick);
@@ -116,10 +119,12 @@ void Level::doNumber(int beginAt, const uchar *buf)
 		if (((*b >> (x & 7)) & 1) == 1)
 		    board->set(index, brick);
 	    }
+
 	    if ( (x & 7) == 7 )
 		b++;
 	    index++;
 	}
+
 	index += 28;
     }
 }

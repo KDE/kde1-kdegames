@@ -30,9 +30,9 @@ INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 
 prefix = @prefix@
 BINDIR = $(prefix)/bin
+APPSDIR = $(prefix)/share/applnk/Games
 ICONDIR = $(prefix)/share/icons
 MINIDIR = $(prefix)/share/icons/mini
-APPSDIR = $(prefix)/share/applnk/Games
 
 ########### File Formats ###########
 
@@ -41,32 +41,36 @@ APPSDIR = $(prefix)/share/applnk/Games
 .cpp.o:
 	$(CXX) -c $(CXXFLAGS) $<
 
+%.moc: %.h
+	$(MOC) $< -o $@
+
 ########## Files #####################
 
 HEADERS =	game.h trys.h rattler.h board.h\
 		level.h ball.h snake.h\
 		basket.h startroom.h lcdrange.h score.h\
-		pixServer.h progress.h levels.h
+		pixServer.h progress.h levels.h view.o keys.h
 
 SOURCES = 	game.cpp trys.cpp rattler.cpp board.cpp\
 		level.cpp ball.cpp snake.cpp\
-		basket.cpp main.cpp startroom.cpp lcdrange.cpp\
-		score.cpp pixServer.cpp progress.cpp levels.cpp
+		basket.cpp startroom.cpp lcdrange.cpp\
+		score.cpp pixServer.cpp progress.cpp levels.cpp\
+		view.cpp keys.cpp
 
 
 OBJECTS = 	game.o trys.o rattler.o board.o\
 		level.o ball.o snake.o\
-		basket.o main.o  startroom.o lcdrange.o score.o\
-		pixServer.o progress.o levels.o
+		basket.o startroom.o lcdrange.o score.o\
+		pixServer.o progress.o levels.o view.o keys.o
 
 
 SRCMETA = 	mgame.cpp mrattler.cpp msnake.cpp  mtrys.cpp\
 		mbasket.cpp mstartroom.cpp mlcdrange.cpp mscore.cpp\
-	        mprogress.cpp
+	        mprogress.cpp mview.cpp mkeys.cpp
 
 OBJMETA = 	mgame.o mrattler.o msnake.o  mtrys.o\
 		mbasket.o mstartroom.o mlcdrange.o mscore.o\
-		mprogress.o
+		mprogress.o mview.o mkeys.o
 
 TARGET	= 	ksnake
 
@@ -92,51 +96,57 @@ install: all
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) ksnake.kdelnk $(APPSDIR)
+	(cd doc && $(MAKE) install)
+	(cd data && $(MAKE) install)
 	$(INSTALL_DIR) $(ICONDIR)
 	$(INSTALL_DATA) ksnake.xpm $(ICONDIR)
 	$(INSTALL_DIR) $(MINIDIR)
 	$(INSTALL_DATA) mini-ksnake.xpm $(MINIDIR)/ksnake.xpm
-	(cd doc && $(MAKE) install)
-	(cd data && $(MAKE) install)
 
 uninstall:
-	rm -f $(BINDIR)/$(TARGET)
-	rm -f $(APPSDIR)/ksnake.kdelnk
-	rm -f $(ICONDIR)/ksnake.xpm
-	rm -f $(MINIDIR)/ksnake.xpm
+	-rm -f $(ICONDIR)/ksnake.xpm
+	-rm -f $(MINIDIR)/ksnake.xpm
+	-rm -f $(BINDIR)/$(TARGET)
+	-rm -f $(APPSDIR)/ksnake.kdelnk
 	(cd doc && $(MAKE) uninstall)
 	(cd data && $(MAKE) uninstall)
 
 ####### Meta classes
 
 mrattler.cpp: rattler.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 msnake.cpp: snake.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mgame.cpp: game.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mtrys.cpp: trys.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mbasket.cpp: basket.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mstartroom.cpp: startroom.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mlcdrange.cpp: lcdrange.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mscore.cpp: score.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mbox.cpp: box.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
 
 mprogress.cpp: progress.h
-	$(MOC) -o $@ $?
+	$(MOC) -o $@ $<
+
+mview.cpp: view.h
+	$(MOC) -o $@ $<
+
+mkeys.cpp: keys.h
+	$(MOC) -o $@ $<
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.

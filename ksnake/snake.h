@@ -21,6 +21,7 @@ public:
     void zero();
 signals:
     void score(bool, int);
+    void killed();
     void closeGate(int);
     void restartTimer();
     void goingOut();
