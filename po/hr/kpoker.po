@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
@@ -19,71 +19,71 @@ msgstr "Izaberi kartu koju ¾eli¹ zadr¾ati"
 msgid "Held"
 msgstr "Saèuvane"
 
-#: kpoker.cpp:180
+#: kpoker.cpp:178
 msgid "draw new cards"
 msgstr "Vuci nove karte"
 
-#: kpoker.cpp:181 kpoker.cpp:182
+#: kpoker.cpp:179 kpoker.cpp:180
 msgid "your last hand"
 msgstr "va¹a zadnja ruka"
 
-#: kpoker.cpp:183 kpoker.cpp:184
+#: kpoker.cpp:181 kpoker.cpp:182
 msgid "money left"
 msgstr "preostali novac"
 
-#: kpoker.cpp:207 kpoker.cpp:487 kpoker.cpp:499
+#: kpoker.cpp:205 kpoker.cpp:485 kpoker.cpp:497
 msgid "nothing"
 msgstr "ni¹ta"
 
-#: kpoker.cpp:363
+#: kpoker.cpp:360
 msgid "Cash"
 msgstr "Gotovina"
 
-#: kpoker.cpp:377
+#: kpoker.cpp:374
 msgid "Last Hand"
 msgstr "Zadnja ruka"
 
-#: kpoker.cpp:489
+#: kpoker.cpp:487
 msgid "One Pair"
 msgstr "Jedan par"
 
-#: kpoker.cpp:490
+#: kpoker.cpp:488
 msgid "Two Pairs"
 msgstr "Dva para"
 
-#: kpoker.cpp:491
+#: kpoker.cpp:489
 msgid "3 of a kind"
 msgstr "3 karte iste vrste"
 
-#: kpoker.cpp:492
+#: kpoker.cpp:490
 msgid "Full House"
 msgstr "Full House"
 
-#: kpoker.cpp:493
+#: kpoker.cpp:491
 msgid "4 of a kind"
 msgstr "4 karte iste vrste"
 
-#: kpoker.cpp:494
+#: kpoker.cpp:492
 msgid "Straight"
 msgstr "Straight"
 
-#: kpoker.cpp:495
+#: kpoker.cpp:493
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:496
+#: kpoker.cpp:494
 msgid "Straight Flush"
 msgstr "Straight Flush"
 
-#: kpoker.cpp:497
+#: kpoker.cpp:495
 msgid "Royal Flush"
 msgstr "Royal Flush"
 
-#: kpoker.cpp:505
+#: kpoker.cpp:503
 msgid "You Lost"
 msgstr "Izgubio si"
 
-#: kpoker.cpp:506
+#: kpoker.cpp:504
 msgid ""
 "Oops - you went bankrupt.\n"
 "A highscoretable will appear over here later..."
@@ -91,15 +91,15 @@ msgstr ""
 "Ajoj - bankrotirao si.\n"
 "Lista sa najvi¹im rezultatima pojaviti æe se ovdje kasnije..."
 
-#: kpoker.cpp:507
+#: kpoker.cpp:505
 msgid "New game"
 msgstr "Nova igra"
 
-#: kpoker.cpp:573
+#: kpoker.cpp:571
 msgid "You won $"
 msgstr "Dobio si $"
 
-#: kpoker.cpp:577
+#: kpoker.cpp:575
 msgid "Game Over"
 msgstr "Igra je gotova"
 

@@ -2,7 +2,7 @@
 # Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"

@@ -1,65 +1,9 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
-"POT-Creation-Date: 1998-01-06 13:33+0100\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Oliver Hensel <EMAIL@ADDRESS>\n"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Eigener Level"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
-msgstr "Breite :"
-
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
-msgstr "Höhe :"
-
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
-msgstr "Minen :"
-
-#: dialogs.cpp:222
-msgid "High Scores"
-msgstr "Highscores"
-
-#: dialogs.cpp:232 dialogs.cpp:295
-msgid "in"
-msgstr "in"
-
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
-msgstr "Minuten und "
-
-#: dialogs.cpp:234 dialogs.cpp:319
-msgid "seconds."
-msgstr "Sekunden."
-
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Hall of Fame"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Anonym"
-
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Unsichere (?) Markierung"
-
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Nochmal versuchen"
-
-#: field.cpp:87 field.cpp:94
-msgid "Game paused"
-msgstr "Spielpause"
-
-#: field.cpp:90 field.cpp:96
-msgid "Press to resume"
-msgstr "Zum Fortsetzen drücken"
 
 #: main.cpp:22 main.cpp:34 main.cpp:53
 msgid "New game"
@@ -138,6 +82,10 @@ msgstr "kmines : Über"
 msgid "Show menu bar"
 msgstr "Menüleiste an"
 
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "Anonym"
+
 #: status.cpp:251
 msgid "You did it ... but not in time."
 msgstr "Geschafft... aber nicht rechtzeitig."
@@ -157,3 +105,55 @@ msgstr "Highscore-Datei nicht schreibbar!"
 #: status.cpp:316
 msgid "kmines : Error"
 msgstr "kmines : Fehler"
+
+#: field.cpp:87 field.cpp:94
+msgid "Game paused"
+msgstr "Spielpause"
+
+#: field.cpp:90 field.cpp:96
+msgid "Press to resume"
+msgstr "Zum Fortsetzen drücken"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "Eigener Level"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "Breite :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "Höhe :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "Minen :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "Highscores"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr "in"
+
+#: dialogs.cpp:233 dialogs.cpp:306
+msgid "minutes and "
+msgstr "Minuten und "
+
+#: dialogs.cpp:234 dialogs.cpp:319
+msgid "seconds."
+msgstr "Sekunden."
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "Hall of Fame"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "Unsichere (?) Markierung"
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "Nochmal versuchen"
