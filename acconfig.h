@@ -23,6 +23,3 @@
 /* Define to 1 if NLS is requested.  */
 #undef ENABLE_NLS
 
-/* Define if compiled symbols have a leading underscore */
-#undef WITH_SYMBOL_UNDERSCORE
-
