@@ -376,6 +376,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "O seu nome:"
-
-#~ msgid "Name"
-#~ msgstr "Nome"

@@ -159,11 +159,8 @@ msgstr "Tempo"
 
 #: app.cpp:648
 msgid "Score"
-msgstr ""
+msgstr "Pontuação"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Não consigo carregar imagens!"
-
-#~ msgid "Name"
-#~ msgstr "Nome"

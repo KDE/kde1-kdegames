@@ -287,7 +287,7 @@ msgstr "&Teclas"
 
 #: main.cpp:30
 msgid "Tetris"
-msgstr ""
+msgstr "Tetris"
 
 #: main.cpp:32
 msgid ""
@@ -295,32 +295,10 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
+"\n"
+"\n"
+"por Nicolas Hadacek"
 
 #: main.cpp:64
 msgid "Show menu"
 msgstr "M&ostrar menu"
-
-#~ msgid "You suck !"
-#~ msgstr "És um nojo !"
-
-#~ msgid "&Contents"
-#~ msgstr "&Conteúdo"
-
-#~ msgid "About &Qt"
-#~ msgstr "Acerca do &Qt"
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK(hadacek@kde.org)\n"
-#~ "tetris kernel by Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "por Nicolas HADACEK(hadacek@kde.org)\n"
-#~ "kernel de tetris por Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-
-#~ msgid "ktetris : about"
-#~ msgstr "ktetris : acerca"
