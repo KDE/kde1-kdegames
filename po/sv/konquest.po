@@ -2,7 +2,6 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -122,7 +121,7 @@ msgid "GNU-Lactic Conquest"
 msgstr "GNU-Lactic Conquest"
 
 #: mainwin.cc:47
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Version %s\n"
 "Copyright (c) 1998 by\n"

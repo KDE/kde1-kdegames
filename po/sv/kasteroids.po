@@ -22,7 +22,6 @@ msgid "Ships"
 msgstr "Farkoster"
 
 #: toplevel.cpp:186
-#, fuzzy
 msgid "Asteroids"
 msgstr "Asterioder"
 

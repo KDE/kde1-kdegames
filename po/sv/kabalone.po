@@ -10,7 +10,6 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
 msgstr "Höger"
 
@@ -23,7 +22,6 @@ msgid "LeftDown"
 msgstr "VänsterNed"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
 msgstr "Vänster"
 
@@ -52,9 +50,8 @@ msgid "Board value"
 msgstr "Brädvärde"
 
 #: AbTop.cpp:241 AbTop.cpp:398
-#, fuzzy
 msgid "Move"
-msgstr "Flytta långsamt"
+msgstr "Flytta"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"

@@ -18,12 +18,10 @@ msgid "&Open"
 msgstr "Ö&ppna"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
 msgstr "V&isa poängtoppen"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
 msgstr "Slumpmässigt b&räde"
 
@@ -122,9 +120,8 @@ msgid "Score: %06i"
 msgstr "Poäng: %06i"
 
 #: HighScore.cpp:107
-#, fuzzy
 msgid "Name"
-msgstr "Spel"
+msgstr "Namn"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"
@@ -133,6 +130,3 @@ msgstr "Skriv in ditt namn:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonym"
-
-#~ msgid "Game"
-#~ msgstr "Spel"

@@ -280,29 +280,8 @@ msgstr "&Tangenter"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "av"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Visa menyrad"
-
-#~ msgid "Close dialog"
-#~ msgstr "Stäng dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dialog"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Avbryt dialog"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "av Nicolas Hadacek"

@@ -2,7 +2,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen revision 1.7\n"
-"POT-Creation-Date: 1999-01-04 01:41+0100\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: 1998-08-22 21:55+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -51,12 +51,12 @@ msgid "24x12"
 msgstr "24x12"
 
 #: app.cpp:128
-msgid "26x14"
-msgstr ""
+msgid "28x16"
+msgstr "28x16"
 
 #: app.cpp:129
-msgid "30x16"
-msgstr ""
+msgid "32x20"
+msgstr "32x20"
 
 #: app.cpp:133
 msgid "Very fast"
@@ -68,7 +68,7 @@ msgstr "Snabb"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr ""
+msgstr "Medium"
 
 #: app.cpp:136
 msgid "Slow"
@@ -92,6 +92,9 @@ msgid ""
 "\n"
 "by Mario Weilguni"
 msgstr ""
+"\n"
+"\n"
+"av Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -170,25 +173,17 @@ msgid "Rank"
 msgstr "Resultat"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Nytt spel"
+msgstr "Namn"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Tid"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "&Storlek"
+msgstr "Storlek"
 
 #: app.cpp:650
 msgid "Score"
 msgstr "Poäng"
-
-#~ msgid "28x16"
-#~ msgstr "28x16"
-
-#~ msgid "32x20"
-#~ msgstr "32x20"
