@@ -1,0 +1,14 @@
+# KDE Config File
+[KDE Desktop Entry]
+BinaryPattern=ksmiletris;
+Protocols=
+MimeType=
+Comment=Another Tetris-like game
+Exec=ksmiletris -caption "%c" %i %m
+Icon=ksmiletris.xpm
+TerminalOptions=
+Path=
+DocPath=ksmiletris/index.html
+Type=Application
+Terminal=0
+Name=Smiletris
