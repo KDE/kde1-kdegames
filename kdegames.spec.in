@@ -30,6 +30,7 @@ kreversi: the Reversi game
 ksame: board game
 kshisen: Shisen-Sho - a game related to mahjongg
 ksnake: snake race
+ksokoban: a Sokoban game
 ktetris: the well-known tetris game
 
 %prep
