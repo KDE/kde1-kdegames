@@ -1,9 +1,9 @@
 
 # This has to be set. The rest should be reusable
-GMFILES = kasteroids.gmo kmines.gmo kmahjongg.gmo ktetris.gmo \
+GMOFILES = kasteroids.gmo kmines.gmo kmahjongg.gmo ktetris.gmo \
 	kabalone.gmo kpat.gmo kpoker.gmo kreversi.gmo kshisen.gmo \
 	ksame.gmo ksnake.gmo
-POFILES = $(GMFILES:.gmo=.po)
+POFILES = $(GMOFILES:.gmo=.po)
 
 LANG = nl
 
@@ -25,11 +25,11 @@ SUFFIXES = .po .gmo
 	file=$(srcdir)/`echo $* | sed 's,.*/,,'`.gmo \
 	&& rm -f $$file && $(GMSGFMT) -o $$file $< 
 
-all-yes: $(GMFILES)
+all-yes: $(GMOFILES)
 all-no:
 
 install-yes: all
-	@catalogs='$(GMFILES)'; \
+	@catalogs='$(GMOFILES)'; \
 	for cat in $$catalogs; do \
 	destdir=$(localedir); \
 	name=`echo $$cat | sed -e 's/\.gmo/\.mo/'` \
@@ -42,7 +42,7 @@ install-yes: all
 install-no:
 
 uninstall-local:
-	@catalogs='$(GMFILES)'; \
+	@catalogs='$(GMOFILES)'; \
 	for cat in $$catalogs; do \
 	destdir=$(localedir); \
 	name=`echo $$cat | sed -e 's/\.gmo/\.mo/'` \
