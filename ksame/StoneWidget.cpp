@@ -6,15 +6,12 @@
 #include <qlabel.h> 
 #include <qstring.h>
 #include "StoneWidget.moc"
-#include "stone3.inc"
-#include "stonemask3.xbm"
 #include <kapp.h>
+#include <kiconloader.h>
 
- StoneWidget::StoneWidget( QWidget *parent, int x, int y ) 
-  : QWidget(parent) {
+StoneWidget::StoneWidget( QWidget *parent, int x, int y ) 
+    : QWidget(parent) {
   
-  stonemap= 0;
-  maskmap = 0;
   backmap = 0;
   tempmap=0;
   
@@ -49,8 +46,6 @@
    setMouseTracking(FALSE);
    killTimers();
    delete field;
-   delete stonemap;
-   delete maskmap;
    delete tempmap;
    debug("~StoneWidget\n");
 }
@@ -100,16 +95,12 @@ void StoneWidget::drawField(QPaintEvent *e,int erase) {
   }
   active=1;
   
-  if (!stonemap) {
-     stonemap = new QPixmap();
-     if (!stonemap) printf("zero stones\n");
-     stonemap->loadFromData((const unsigned char *)stone3,stone3_len,"BMP");
-  }
-  if (!maskmap) {
-    maskmap = new QBitmap(mask3_width,mask3_height,
-			  (const unsigned char *)mask3_bits,TRUE);
-    CHECK_PTR(maskmap);
-    stonemap->setMask(*maskmap);
+  if ( stonemap.isNull() )
+      stonemap = kapp->getIconLoader()->loadIcon("stones.bmp");
+
+  if ( maskmap.isNull() ) {
+      maskmap = kapp->getIconLoader()->loadIcon("stones_mask.bmp");
+      stonemap.setMask(maskmap);
   }
   if (!backmap) {
     backmap = new QPixmap(sx*dx,sy*dy);
@@ -139,14 +130,14 @@ void StoneWidget::drawField(QPaintEvent *e,int erase) {
 	    bitBlt(this,x*dx,y*dy,backmap,x*dx,y*dy,dx,dy,CopyROP,TRUE);
 	  } else {
 	    bitBlt(tempmap,0,0,backmap,x*dx,y*dy,dx,dy,CopyROP,TRUE);
-	    bitBlt(tempmap,0,0,stonemap,0,(c-1)*dy,dx,dy,CopyROP,FALSE);
+	    bitBlt(tempmap,0,0,&stonemap,0,(c-1)*dy,dx,dy,CopyROP,FALSE);
 	    bitBlt(this,x*dx,y*dy,tempmap,0,0,dx,dy,CopyROP,TRUE);
 	  }
 	}
       } else {
 	bitBlt(tempmap,0,0,backmap,x*dx,y*dy,dx,dy,CopyROP,TRUE);
 	bitBlt(tempmap,0,0,
-	       stonemap,pcount*dx,(-c-1)*dy,dx,dy,CopyROP,FALSE);
+	       &stonemap,pcount*dx,(-c-1)*dy,dx,dy,CopyROP,FALSE);
 	bitBlt(this,x*dx,y*dy,tempmap,0,0,dx,dy,CopyROP,TRUE);
 	
       }

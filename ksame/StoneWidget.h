@@ -37,10 +37,10 @@ private:
   int stones;
   long score;
   int dx,dy,sx,sy,pcount;
-  QPixmap *stonemap;
+  QPixmap stonemap;
   QPixmap *backmap;
   QPixmap *tempmap;
-  QBitmap *maskmap;
+  QBitmap maskmap;
   char *field;
   char *change;
   

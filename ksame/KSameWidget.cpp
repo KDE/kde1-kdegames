@@ -79,7 +79,7 @@ void KSameWidget::newbt_clicked() {
 
 void KSameWidget::aboutbt_clicked() {
   stone->showHighscore();
-  kapp->invokeHTMLHelp("ksame/ksame.html","");
+  kapp->invokeHTMLHelp("ksame/index.html","");
   
   KMsgBox::message(stone, "ksame - About", 
 		   "ksame\nby\nkreutzbe@informatik.mu-luebeck.de", 
