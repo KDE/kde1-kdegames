@@ -15,7 +15,7 @@ msgstr ""
 
 #: gameboard.cc:55
 msgid "End Turn"
-msgstr ""
+msgstr "Rodada Final"
 
 #: gameboard.cc:203
 msgid ": Select source planet..."
@@ -27,18 +27,18 @@ msgstr ": Selecione planeta de destino..."
 
 #: gameboard.cc:243
 msgid ": How many ships?"
-msgstr ""
+msgstr ": Quantos cruzadores ?"
 
 #: gameboard.cc:267
 msgid "Ruler: Select starting planet."
-msgstr ""
+msgstr "Selecione planeta inicial."
 
 #: gameboard.cc:287
 #, c-format
 msgid ""
 "The distance from Planet %s to Planet %s is %s light years.\n"
 "A ship leaving this turn will arrive on turn %s"
-msgstr ""
+msgstr "A distância do Planeta %s para o Planeta %s é de %s anos-luz.\nUm cruzador que parta nesta rodada chegará na rodada %s"
 
 #: gameboard.cc:291
 msgid "Distance"
@@ -46,17 +46,17 @@ msgstr "Distância"
 
 #: gameboard.cc:296
 msgid "Ruler: Select ending planet."
-msgstr ""
+msgstr "Selecione planeta final."
 
 #: gameboard.cc:311
 #, c-format
 msgid "Turn #: %2d of %2d"
-msgstr ""
+msgstr "Rodada #: %2d de %2d"
 
 #: gameboard.cc:426
 #, c-format
 msgid "The once mighty empire of %s has fallen in ruins."
-msgstr ""
+msgstr "O outrora pujante império de %s caiu em ruínas."
 
 #: gameboard.cc:428
 msgid "An Empire has fallen..."
@@ -78,25 +78,25 @@ msgstr "Reforços chegaram do planeta %s"
 
 #: gameboard.cc:462
 msgid "Fleet Arrival"
-msgstr ""
+msgstr "Chegada de Naves"
 
 #: gameboard.cc:505
 #, c-format
 msgid "Planet %s has held against an attack from %s"
-msgstr ""
+msgstr "Planeta %s foi pego num ataque de %s"
 
 #: gameboard.cc:507
 msgid "Planet Holds"
-msgstr ""
+msgstr "Planetas Pegos"
 
 #: gameboard.cc:515
 #, c-format
 msgid "Planet %s has fallen to %s"
-msgstr ""
+msgstr "Planeta %s rendeu-se para %s"
 
 #: gameboard.cc:517
 msgid "Planet Conquered"
-msgstr "Planea Conquistado"
+msgstr "Planeta Conquistado"
 
 #: gameboard.cc:579 mainwin.cc:82
 msgid "End Game"
@@ -108,11 +108,11 @@ msgstr "Você quer sair deste jogo ?"
 
 #: gameboard.cc:586
 msgid "Final Standings"
-msgstr ""
+msgstr "Pontuação Final"
 
 #: gameboard.cc:758
 msgid "Not enough ships to send."
-msgstr ""
+msgstr "Não há cruzadores suficientes para mandar."
 
 #: mainwin.cc:23
 msgid "GNU-Lactic Conquest"
@@ -141,7 +141,7 @@ msgstr "Medir Distância"
 
 #: mainwin.cc:92
 msgid "Show Standings"
-msgstr ""
+msgstr "Mostrar Pontuação"
 
 #: newgamedlg.cc:28
 msgid "Preview Map"
@@ -175,7 +175,7 @@ msgstr "Número de Planetas Neutros: %2d"
 #: newgamedlg.cc:178
 #, c-format
 msgid "Number of turns: %2d"
-msgstr ""
+msgstr "Número de rodadas: %2d"
 
 #: planet_info.cc:81 planet_info.cc:116 planet_info.cc:131
 msgid "Planet Name : "
@@ -187,41 +187,41 @@ msgstr "Dono: "
 
 #: planet_info.cc:87
 msgid "Ships : "
-msgstr ""
+msgstr "Cruzadores: "
 
 #: planet_info.cc:90
 msgid "Production : "
-msgstr ""
+msgstr "Produção: "
 
 #: planet_info.cc:93
 msgid "Kill Percent : "
-msgstr ""
+msgstr "Porcentagem destruída: "
 
 #: planet_info.cc:137
 #, c-format
 msgid "Ships : %d"
-msgstr ""
+msgstr "Cruzadores: %d"
 
 #: planet_info.cc:140
 #, c-format
 msgid "Production : %d"
-msgstr ""
+msgstr "Produção: %d"
 
 #: planet_info.cc:143
 #, c-format
 msgid "Kill Percent : %.3f"
-msgstr ""
+msgstr "Porcentagem destruída: %.3f"
 
 #: gameenddlg.cc:14
 msgid ""
 "This is the last turn.\n"
 "Do you wish to add more turns?"
-msgstr ""
+msgstr "Esta é a última rodada.\nVocê quer adicionar mais rodadas?"
 
 #: gameenddlg.cc:64
 #, c-format
 msgid "Add %d turns"
-msgstr ""
+msgstr "Adicionar %d rodadas"
 
 #: scoredlg.cc:18
 msgid "Player"
@@ -229,7 +229,7 @@ msgstr "Jogador"
 
 #: scoredlg.cc:19
 msgid "Ships Built"
-msgstr ""
+msgstr "Cruzadores Construídos"
 
 #: scoredlg.cc:20
 msgid "Planets Conquered"
@@ -237,12 +237,12 @@ msgstr "Planetas Conquistados"
 
 #: scoredlg.cc:21
 msgid "Fleets Launched"
-msgstr ""
+msgstr "Naves Lançadas"
 
 #: scoredlg.cc:22
 msgid "Fleets Destroyed"
-msgstr ""
+msgstr "Naves Destruídas"
 
 #: scoredlg.cc:23
 msgid "Ships Destroyed"
-msgstr ""
+msgstr "Cruzadores Destruídos"
