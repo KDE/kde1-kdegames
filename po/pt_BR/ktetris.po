@@ -1,8 +1,9 @@
 msgid ""
-msgstr "Project-Id-Version: kuser\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-03-23 00:00+0100\n"
-       "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+msgstr ""
+"Project-Id-Version: kuser\n"
+"POT-Creation-Date: 1998-05-30 17:50+0200\n"
+"PO-Revision-Date: 1998-03-23 00:00+0100\n"
+"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
 #: board.cpp:66 dialogs.cpp:137
 msgid "Anonymous"
@@ -294,9 +295,9 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
-       "\n"
-       "\n"
-       "por Nicolas Hadacek"
+"\n"
+"\n"
+"por Nicolas Hadacek"
 
 #: main.cpp:64
 msgid "Show menu"

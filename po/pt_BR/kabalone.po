@@ -1,12 +1,9 @@
 msgid ""
-msgstr "Project-Id-Version: kuser\n"
-       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
-       "PO-Revision-Date: 1998-03-23 00:00+0100\n"
-       "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
-
-#: AbTop.cpp:241 AbTop.cpp:398
-msgid "Move"
-msgstr "Mover"
+msgstr ""
+"Project-Id-Version: kuser\n"
+"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"PO-Revision-Date: 1998-03-23 00:00+0100\n"
+"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -127,3 +124,6 @@ msgstr "Melhor jogada até agora:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Spion"
+
+#~ msgid "Move"
+#~ msgstr "Mover"
