@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-04 01:41+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -55,11 +55,11 @@ msgid "24x12"
 msgstr ""
 
 #: app.cpp:128
-msgid "28x16"
+msgid "26x14"
 msgstr ""
 
 #: app.cpp:129
-msgid "32x20"
+msgid "30x16"
 msgstr ""
 
 #: app.cpp:133

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-04 01:41+0100\n"
 "PO-Revision-Date: 1998-04-21 04:04+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -54,11 +54,11 @@ msgid "24x12"
 msgstr ""
 
 #: app.cpp:128
-msgid "28x16"
+msgid "26x14"
 msgstr ""
 
 #: app.cpp:129
-msgid "32x20"
+msgid "30x16"
 msgstr ""
 
 #: app.cpp:133
