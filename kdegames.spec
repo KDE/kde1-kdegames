@@ -1,15 +1,15 @@
-%define version Beta3
+%define version @VERSION@
 %define name kdegames
 Name: %{name}
 Summary: K Desktop Environment - Games
 Version: %{version}
 Release: 1
-Source: ftp.kde.org:/pub/unstable/CVS/snapshots//current/%{name}-%{version}.tar.gz
+Source: ftp.kde.org:/pub/stable/Beta4/distribution/tgz/source/%{name}-%{version}-1.src.tar.gz
 Group: X11/KDE/Games
 BuildRoot: /tmp/realhot_%{name}
 Copyright: GPL
-Requires: qt >= 1.31
-Packager: Magnus Pfeffer <pfeffer@unix-ag.uni-kl.de>
+Requires: qt >= 1.33
+Packager: Preston Brown <pbrown@kde.org>
 Distribution: KDE
 Vendor: The KDE Team
 
