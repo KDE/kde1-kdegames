@@ -150,7 +150,6 @@ kpok::kpok(QWidget *parent, const char *name)
 	}
 	cashFrame = new QFrame(this,0);
 	cashFrame->setGeometry(CLHBorderDistance, CLHDistFromTop, CLHWidth, 30);
-//	cashFrame->setFrameStyle(QFrame::Panel | QFrame::Plain);
 	cashFrame->setFrameStyle(QFrame::WinPanel | QFrame::Sunken);
 	cashLabel= new QLabel(cashFrame,0);
 	cashLabel->setAutoResize(true);
@@ -158,7 +157,6 @@ kpok::kpok(QWidget *parent, const char *name)
 	
 	LHFrame = new QFrame(this,0);
 	LHFrame->setGeometry(this->width() - CLHBorderDistance - CLHWidth, CLHDistFromTop, CLHWidth, 30);
-	//	LHFrame->setFrameStyle(QFrame::Panel | QFrame::Plain);
 	LHFrame->setFrameStyle(QFrame::WinPanel | QFrame::Sunken);
 	
 	LHLabel= new QLabel(LHFrame,0);
@@ -232,7 +230,6 @@ void kpok::playSound(const char *soundname)
 	
 	
 	KAS->play(filename);
-
 }
 
 void kpok::toggleSound()
@@ -472,8 +469,9 @@ void kpok::drawCardsEvent()
 	
 	cardW[drawStat]->show();
 	cardW[drawStat]->paintCard(cards[drawStat],0,0);
-	
-	playSound("cardflip.wav");
+    
+	if (!cardW[drawStat]->queryHeld()) 
+	  playSound("cardflip.wav");
 	
 	if (drawStat == 4) /* just did last card */
 	  {
