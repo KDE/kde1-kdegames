@@ -1,0 +1,8 @@
+# KDE Config File
+[KDE Desktop Entry]
+Name=SameGame
+Name[de]=Probiere
+Exec=ksame
+DocPath=ksame/ksame.html
+Info=A little board game
+Info[de]=Ein Spiel mit bunten Kugeln

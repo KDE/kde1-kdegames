@@ -1,0 +1,58 @@
+# Makefile.in of ksame-0.2
+
+CXX	=	@CXX@
+LDFLAGS	=	@all_libraries@ -lkdeui -lkdecore -lqt -lX11 -lXext
+CXXFLAGS=	@CXXFLAGS@ -DHAVE_CONFIG_H @all_includes@ -I..
+MOC	=	@MOC@
+install	=	@INSTALL@
+
+# files
+OBJECTS = main.o StoneWidget.o KSameWidget.o ScoreWidget.o
+SRCMETA = StoneWidget.moc KSameWidget.moc ScoreWidget.moc
+TARGET	= ksame
+
+#install
+INSTALL_BIN = $(install) -m 755
+INSTALL_DIR = $(install) -d -m 0755
+INSTALL = $(install) -m 0644
+BINDIR = @prefix@/bin
+DOCDIR = @prefix@/share/doc/HTML/ksame/
+APPSDIR= @prefix@/share/applnk/Games
+
+%.moc: %.h
+	$(MOC) -o $@ $<
+
+%.o: %.cpp
+	$(CXX) -c $(CXXFLAGS) $<
+
+all: $(TARGET)
+
+Makefile: Makefile.in
+	cd .. && CONFIG_FILES=ksame/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+$(TARGET): $(SRCMETA)  $(OBJECTS) 
+	$(CXX)  -o $(TARGET) $(OBJECTS) $(LDFLAGS)
+
+install: all
+	$(INSTALL_DIR) $(BINDIR)
+	$(INSTALL_BIN) $(TARGET) $(BINDIR)
+	$(INSTALL_DIR) $(DOCDIR)
+	$(INSTALL) ksame.html $(DOCDIR)
+	$(INSTALL_DIR) $(APPSDIR)
+	$(INSTALL) Ksame.kdelnk $(APPSDIR)
+	
+uninstall:
+	rm -f $(BINDIR)/$(TARGET)
+	rm -f $(DOCDIR)/ksame.html
+	rm -f $(APPSDIR)/Ksame.kdelnk
+	
+clean:
+	rm -f *.o  *.moc $(TARGET) bintoinc stone3.inc *~ 
+
+stone3.inc: stone3.bmp bintoinc
+	./bintoinc stone3.bmp stone3.inc stone3
+
+StoneWidget.o: stone3.inc stonemask3.xbm
+
+bintoinc: bintoinc.c
+	$(CXX) -o bintoinc bintoinc.c
