@@ -5,6 +5,7 @@
 #include <qstring.h>
 
 #include <kapp.h>
+#include <qbitmap.h>
 
 #include "pixServer.h"
 #include "board.h"
