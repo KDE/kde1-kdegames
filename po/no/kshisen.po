@@ -83,7 +83,7 @@ msgstr "Vanskelig"
 
 #: app.cpp:151
 msgid "Si&ze"
-msgstr "St&ørrelse"
+msgstr "&Størrelse"
 
 #: app.cpp:152
 msgid "S&peed"
