@@ -23,6 +23,7 @@ msgstr "Inaèica "
 
 #: about.cpp:67
 #, fuzzy
+msgid
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
