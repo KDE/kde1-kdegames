@@ -35,7 +35,12 @@ int main( int argc, char *argv[] )
 	PokerWindow *MainScreen = new PokerWindow;
 
 //	locale = kapp->getLocale();
-	
+
+	if (myApp->isRestored()) {
+	  if (KTopLevelWidget::canBeRestored(1))
+	    MainScreen->restore(1);
+	}
+
 	myApp->setMainWidget( MainScreen );
 	MainScreen->show();
 		  
