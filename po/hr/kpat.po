@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-06 14:08+0100\n"
+"POT-Creation-Date: 1997-09-11 12:52+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,20 +14,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: cardmaps.cpp:62
+#: cardmaps.cpp:60
 msgid "please wait, loading cards..."
 msgstr "Salèekajte molim, uèitavam karte..."
 
-#: cardmaps.cpp:66
+#: cardmaps.cpp:64
 msgid "KPat - a Solitaire game"
 msgstr "KPat - Solitaire igra"
 
-#: cardmaps.cpp:104
+#: cardmaps.cpp:102
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
-msgstr "kpat: PANIKA, ne mogu uèitati slièicu karte \"%s\"\n"
+msgstr "kpat: PANIKA, ne mogu uèitati slièicu karte |"%s\"\n"
 
-#: cardmaps.cpp:204
+#: cardmaps.cpp:202
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: pristup do pogre¹ne karte %d, %d\n"
@@ -47,6 +47,10 @@ msgstr "Laki 2"
 #: computation.cpp:95
 msgid "Easy 1"
 msgstr "Laki 1"
+
+#: computation.cpp:96
+msgid "Normal"
+msgstr "Normalan"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -72,15 +76,23 @@ msgstr "Te¾ak 5"
 msgid "Try to move card:"
 msgstr "Poku¹aj micanja karte:"
 
-#: grandf.cpp:113 mod3.cpp:56
+#: grandf.cpp:45
+msgid "Ok"
+msgstr "U redu"
+
+#: grandf.cpp:111
 msgid "Redeal"
 msgstr "Dijeli iznova"
 
-#: grandf.cpp:147
+#: grandf.cpp:145
 msgid "Hint"
 msgstr "Trik"
 
-#: grandf.cpp:174
+#: grandf.cpp:171
+msgid "Information"
+msgstr "Informacija"
+
+#: grandf.cpp:172
 msgid "Only 3 deals allowed"
 msgstr "Samo tri djeljenja dozvoljena"
 
@@ -92,6 +104,10 @@ msgstr "Laka pravila"
 msgid "Hard rules"
 msgstr "Te¹ka pravila"
 
+#: klondike.cpp:93
+msgid "Warning"
+msgstr "Upozorenje"
+
 #: klondike.cpp:94
 msgid ""
 "This will end the current game\n"
@@ -100,194 +116,170 @@ msgstr ""
 "Ovim æete prekinuti trenutnu igru\n"
 "Sigurni ste da to ¾elite?"
 
-#: mod3.cpp:136
-#, fuzzy
-msgid "No more cards"
-msgstr "Poku¹aj micanja karte:"
+#: pwidget.cpp:73
+msgid "&Quit"
+msgstr "&Zavr¹i"
 
-#: pwidget.cpp:98
+#: pwidget.cpp:75
+msgid "&File"
+msgstr "&Datoteka"
+
+#: pwidget.cpp:78
+msgid "&Game"
+msgstr "&Igra"
+
+#: pwidget.cpp:80
+msgid "&Undo"
+msgstr "&Vrati"
+
+#: pwidget.cpp:81
 msgid "&Restart game"
 msgstr "Ponovi &Igru"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:85
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:103 pwidget.cpp:287
+#: pwidget.cpp:86 pwidget.cpp:250
 msgid "MicroSolitaire"
 msgstr "MicroSolitaire"
 
-#: pwidget.cpp:104 pwidget.cpp:291
+#: pwidget.cpp:87 pwidget.cpp:254
 msgid "Calculation"
 msgstr "Calculation"
 
-#: pwidget.cpp:105
+#: pwidget.cpp:88
 msgid "Napoleon's Tomb"
 msgstr "Napoleon's Tomb"
 
-#: pwidget.cpp:106 pwidget.cpp:295
+#: pwidget.cpp:89 pwidget.cpp:258
 msgid "The Idiot"
 msgstr "The Idiot"
 
-#: pwidget.cpp:107 pwidget.cpp:279
+#: pwidget.cpp:90 pwidget.cpp:242
 msgid "Grandfather"
 msgstr "Grandfather"
 
-#: pwidget.cpp:108 pwidget.cpp:267
+#: pwidget.cpp:91 pwidget.cpp:238
 msgid "Ten"
 msgstr "Ten"
 
-#: pwidget.cpp:109 pwidget.cpp:271
-msgid "Mod3"
-msgstr ""
-
-#: pwidget.cpp:110 pwidget.cpp:275
-msgid "Freecell"
-msgstr ""
-
-#: pwidget.cpp:112
+#: pwidget.cpp:93
 msgid "Choose new game"
 msgstr "Biraj novu igru"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:99
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:100
 msgid "Classic blue"
 msgstr "Klasiène plave"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:101
 msgid "Classic red"
 msgstr "Klasiène crvene"
 
-#: pwidget.cpp:121
+#: pwidget.cpp:102
 msgid "Technical"
 msgstr "Tehnièke"
 
-#: pwidget.cpp:122
+#: pwidget.cpp:103
 msgid "Card backside"
 msgstr "Pozadina karata"
 
-#: pwidget.cpp:123
+#: pwidget.cpp:104
 msgid "Animation on startup"
 msgstr "Animacija pri startu"
 
-#: pwidget.cpp:129
-#, fuzzy
-msgid "Help on &rules..."
+#: pwidget.cpp:105
+msgid "&Options"
+msgstr "P&ode¹avanja"
+
+#: pwidget.cpp:109
+msgid "Help..."
+msgstr "Pomoæ..."
+
+#: pwidget.cpp:110
+msgid "Help on rules..."
 msgstr "Pomoæ o pravilima..."
 
-#: pwidget.cpp:131
-#, fuzzy
-msgid "About &Qt..."
+#: pwidget.cpp:112
+msgid "About..."
 msgstr "O programu..."
 
-#: pwidget.cpp:254
+#: pwidget.cpp:113 pwidget.cpp:125
+msgid "&Help"
+msgstr "&Pomoæ"
+
+#: pwidget.cpp:124
+msgid "Quit"
+msgstr "Zavr¹i"
+
+#: pwidget.cpp:225
 #, c-format
 msgid "COMMAND %d not implemented!\n"
 msgstr "NAREDBA %d nije ugraðena!\n"
 
-#: pwidget.cpp:283
+#: pwidget.cpp:246
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:262
 msgid "Napoleons Tomb"
 msgstr "Napoleons Tomb"
 
-#: pwidget.cpp:304
+#: pwidget.cpp:267
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: igra %d nije ugraðena\n"
 
-#: pwidget.cpp:336
-msgid ""
-"KPat\n"
-"\n"
-"Version "
-msgstr ""
-"KPat\n"
+#: pwidget.cpp:299 
+msgid ""  
+"KPat\n"  
+"\n"  
+"Version "  
+msgstr ""  
+"KPat\n"  
 "\n"
 "Verzija "
 
-#: pwidget.cpp:338
-#, fuzzy
-msgid ""
+
+#: pwidget.cpp:301 
+msgid ""  
+"\n"  
+"Copyright (C) 1995 Paul Olav Tvete\n"  
+"\n"  
+"Additional work done by:\t\t \n"  
+"\tMatthias Ettrich\t<ettrich@kde.org>\n"  
+"\tMario Weilguni\t<mweilguni@sime.com>\n"  
+"\n"  
+"This program is part of the K Desktop Environment.\n"  
+"Use help for license information."  
+msgstr ""  
+"\n"  
+"Copyright (C) 1995 Paul Olav Tvete\n"  
+"\n"  
+"Dodatci:\t\t \n" 
+"\tMatthias Ettrich\t<ettrich@kde.org>\n" 
+"\tMario Weilguni\t<mweilguni@sime.com>\n" 
 "\n"
-"Copyright (C) 1997  Paul Olav Tvete\n"
-"\n"
-"Additional work done by:\n"
-"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"This program is part of the K Desktop Environment.\n"
-"Use help for license information."
-msgstr ""
-"\n"
-"Copyright (C) 1995 Paul Olav Tvete\n"
-"\n"
-"Dodatci:\t\t \n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"Ovaj program dio je K Desktop Enviroment.\n"
-"Pogledajte pomoæ za informacije o licenci."
+"Ovaj program dio je K Desktop Enviroment.\n" 
+"Pogledajte pomoæ za informacije o licenci."                           
+
+
+#: pwidget.cpp:309
+msgid "About kpat"  
+msgstr "O programu kpat" 
+
+#: pwidget.cpp:346
+msgid "Error"
+msgstr "Gre¹ka"
 
 #: pwidget.cpp:347
-msgid "About kpat"
-msgstr "O programu kpat"
-
-#: pwidget.cpp:385
 msgid "Could not load background image!"
 msgstr "Ne mogu uèitati pozadinsku sliku!"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Potpuno automatski"
-
-#, fuzzy
-#~ msgid "&Help..."
-#~ msgstr "Pomoæ..."
-
-#, fuzzy
-#~ msgid "A&bout..."
-#~ msgstr "O programu..."
-
-#~ msgid "Normal"
-#~ msgstr "Normalan"
-
-#~ msgid "Ok"
-#~ msgstr "U redu"
-
-#~ msgid "Information"
-#~ msgstr "Informacija"
-
-#~ msgid "Warning"
-#~ msgstr "Upozorenje"
-
-#~ msgid "&Quit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Game"
-#~ msgstr "&Igra"
-
-#~ msgid "&Undo"
-#~ msgstr "&Vrati"
-
-#~ msgid "&Options"
-#~ msgstr "P&ode¹avanja"
-
-#, fuzzy
-#~ msgid "Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "Quit"
-#~ msgstr "Zavr¹i"
-
-#~ msgid "Error"
-#~ msgstr "Gre¹ka"

@@ -1,155 +1,107 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-02 15:01+0100\n"
-"Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
+"Content-Type: text/plain; charset=\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
-#: AbTop.cpp:240 AbTop.cpp:399
+#: AbTop.cpp:29 AbTop.cpp:143
 msgid "Move"
 msgstr "Potez"
 
-#: AbTop.cpp:243 AbTop.cpp:403
+#: AbTop.cpp:32 AbTop.cpp:147
 msgid "Press F2 for a new game"
 msgstr "Pritisni F2 za novu igru"
 
-#: AbTop.cpp:261 AbTop.cpp:301
+#: AbTop.cpp:73
+msgid "New Game"
+msgstr "Nova igra"
+
+#: AbTop.cpp:75
 msgid "Stop Search"
 msgstr "Prestani tra¾iti"
 
-#: AbTop.cpp:266 AbTop.cpp:305
+#: AbTop.cpp:80
 msgid "Take back"
 msgstr "Vrati potez"
 
-#: AbTop.cpp:271 AbTop.cpp:307
+#: AbTop.cpp:82
 msgid "Hint"
 msgstr "Trik"
 
-#: AbTop.cpp:276 AbTop.cpp:352
-msgid "Rules"
-msgstr "Pravila"
+#: AbTop.cpp:85
+msgid "Quit"
+msgstr "Zavr¹i"
 
-#: AbTop.cpp:296
-msgid "Save Position"
-msgstr ""
-
-#: AbTop.cpp:298
-msgid "Restore Position"
-msgstr ""
-
-#: AbTop.cpp:315
+#: AbTop.cpp:89
 msgid "Easy"
 msgstr "Lako"
 
-#: AbTop.cpp:319
+#: AbTop.cpp:91
+msgid "Normal"
+msgstr "Normalno"
+
+#: AbTop.cpp:93
 msgid "Hard"
 msgstr "Te¹ko"
 
-#: AbTop.cpp:321
+#: AbTop.cpp:95
 msgid "Challange"
 msgstr "Izazovno"
 
-#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
 msgid "Red"
 msgstr "Crveni"
 
-#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
 msgid "Yellow"
 msgstr "®uti"
 
-#: AbTop.cpp:331
+#: AbTop.cpp:105
 msgid "Both"
 msgstr "Oba"
 
-#: AbTop.cpp:337
+#: AbTop.cpp:111
 msgid "Level"
 msgstr "Nivo"
 
-#: AbTop.cpp:338
+#: AbTop.cpp:112
 msgid "Computer plays"
 msgstr "Raèunalo igra"
 
-#: AbTop.cpp:340
+#: AbTop.cpp:114
 msgid "Move slow"
 msgstr "Spori potezi"
 
-#: AbTop.cpp:342
-msgid "Spy"
-msgstr ""
+#: AbTop.cpp:122 AbTop.cpp:405
+msgid "About"
+msgstr "O programu"
 
-#: AbTop.cpp:408
+#: AbTop.cpp:123
+msgid "Rules"
+msgstr "Pravila"
+
+#: AbTop.cpp:127
+msgid "File"
+msgstr "Datoteka"
+
+#: AbTop.cpp:128
+msgid "Options"
+msgstr "Opcije"
+
+#: AbTop.cpp:130
+msgid "Help"
+msgstr "Pomoæ"
+
+#: AbTop.cpp:152
 msgid "won"
 msgstr "je pobjednik"
 
-#: AbTop.cpp:412
+#: AbTop.cpp:156
 msgid "I am thinking..."
 msgstr "Razmi¹ljam..."
 
-#: AbTop.cpp:413
+#: AbTop.cpp:157
 msgid "It's your turn !"
 msgstr " Na potezu si!"
-
-#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
-msgid "Board value"
-msgstr ""
-
-#: Move.cpp:18
-msgid "RightDown"
-msgstr ""
-
-#: Move.cpp:19
-msgid "LeftDown"
-msgstr ""
-
-#: Move.cpp:21
-msgid "LeftUp"
-msgstr ""
-
-#: Move.cpp:22
-msgid "RightUp"
-msgstr ""
-
-#: Move.cpp:35 Move.cpp:42
-msgid "Side"
-msgstr ""
-
-#: Move.cpp:49
-msgid "Out"
-msgstr ""
-
-#: Move.cpp:50
-msgid "Push"
-msgstr ""
-
-#: Spy.cpp:21
-msgid "Actual examined position:"
-msgstr ""
-
-#: Spy.cpp:46
-msgid "Best move so far:"
-msgstr ""
-
-#: Spy.cpp:75
-#, fuzzy
-msgid "Spion"
-msgstr "Opcije"
-
-#~ msgid "New Game"
-#~ msgstr "Nova igra"
-
-#~ msgid "Quit"
-#~ msgstr "Zavr¹i"
-
-#~ msgid "Normal"
-#~ msgstr "Normalno"
-
-#~ msgid "About"
-#~ msgstr "O programu"
-
-#~ msgid "File"
-#~ msgstr "Datoteka"
-
-#~ msgid "Help"
-#~ msgstr "Pomoæ"
