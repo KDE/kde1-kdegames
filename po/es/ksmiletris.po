@@ -1,0 +1,90 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kdegames\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"PO-Revision-Date: 1998-12-07 21:33+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"Language-Team: Spanish <kde-es@kyb.ml.org>\n"
+
+#: gamewindow.cpp:49
+msgid "Smiletris"
+msgstr "Smiletris"
+
+#: gamewindow.cpp:53
+msgid "&Pause"
+msgstr "&Pausa"
+
+#: gamewindow.cpp:54
+msgid "&End Game"
+msgstr "&Finalizar juego"
+
+#: gamewindow.cpp:56
+msgid "&High Scores..."
+msgstr "Mejores &Puntuaciones..."
+
+#: gamewindow.cpp:61
+msgid "&Smiles"
+msgstr "&Sonrisas"
+
+#: gamewindow.cpp:62
+msgid "S&ymbols"
+msgstr "Si&mbolos"
+
+#: gamewindow.cpp:64
+msgid "&Icons"
+msgstr "&Iconos"
+
+#: gamewindow.cpp:67
+msgid "&Pieces"
+msgstr "&Piezas"
+
+#: gamewindow.cpp:69
+msgid "&Sounds"
+msgstr "&Sonidos"
+
+#: gamewindow.cpp:73
+#, c-format
+msgid ""
+"KSmiletris %d\n"
+"\n"
+"by Sandro Sigala <ssigala@globalnet.it>\n"
+"\n"
+"Feedbacks are welcome!\n"
+msgstr ""
+"KSmiletris %d\n"
+"\n"
+"por Sandro Sigala <ssigala@globalnet.it>\n"
+"\n"
+"Feedbacks are welcome!\n"
+
+#: gamewindow.cpp:88
+msgid "Level: 99"
+msgstr "Nivel: 99"
+
+#: gamewindow.cpp:89
+msgid "Score: 999999"
+msgstr "Puntuación: 999999"
+
+#: scoredialog.cpp:35
+msgid "High Scores"
+msgstr "Mejores Puntuaciones"
+
+#: scoredialog.cpp:42
+msgid "Level"
+msgstr "Nivel"
+
+#: scoredialog.cpp:45
+msgid "Score"
+msgstr "Puntuación"
+
+#: scoredialog.cpp:48
+msgid "Name"
+msgstr "Nombre"
+
+#: scoredialog.cpp:61
+msgid "Noname"
+msgstr "Sin nombre"
+
+#: newscoredialog.cpp:36
+msgid "New High Score"
+msgstr "Nueva Máxima Puntuación"
