@@ -190,10 +190,11 @@ msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: Varianta %d nu existã\n"
 
 #: pwidget.cpp:336
+#, fuzzy
 msgid ""
 "KPat\n"
 "\n"
-"Versiunea "
+"Version "
 msgstr ""
 "KPat\n"
 "\n"

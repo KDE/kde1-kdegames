@@ -145,7 +145,6 @@ msgstr ""
 "sous la licence GNU.\n"
 "Vous trouverez de plus amples informations dans l'aide."
 
-
 #: app.cpp:381 app.cpp:404
 msgid "End of game"
 msgstr "Fin du jeu"
@@ -170,7 +169,8 @@ msgid ""
 "your name so mankind will always remember\n"
 "your cool rating."
 msgstr ""
-"Vous l'avez tellement bien fait que vous etes dans le \"Hall de la gloire\".\n"
+"Vous l'avez tellement bien fait que vous etes dans le \"Hall de la "
+"gloire\".\n"
 "Tapez votre nom de facon a ce que votre bon score soit pour toujours\n"
 "memorise."
 

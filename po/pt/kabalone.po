@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
-"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 
 #: AbTop.cpp:240 AbTop.cpp:399
 msgid "Move"

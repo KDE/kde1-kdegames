@@ -2,74 +2,16 @@
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Székely Krisztián <szekelyk@edasz.hu>, 1998.
 #
-#, (személynevek magyar sorrendben)
-#, (in Hungarian family name comes first)
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines VERSION\n"
-"POT-Creation-Date: 1998-01-23 21:00+0100\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Székely Krisztián <szekelyk@edasz.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
-
-#: dialogs.cpp:97
-msgid "Custom Level"
-msgstr "Egyéni szint"
-
-#: dialogs.cpp:108 dialogs.cpp:124
-msgid "Width :"
-msgstr "Szélesség :"
-
-#: dialogs.cpp:109 dialogs.cpp:136
-msgid "Height :"
-msgstr "Magasság :"
-
-#: dialogs.cpp:110 dialogs.cpp:148
-msgid "Mines :"
-msgstr "Aknák :"
-
-#: dialogs.cpp:222
-msgid "High Scores"
-msgstr "Rekord pontok"
-
-#: dialogs.cpp:232 dialogs.cpp:295
-msgid "in"
-msgstr ""
-
-#: dialogs.cpp:233 dialogs.cpp:306
-msgid "minutes and "
-msgstr "perc és"
-
-#: dialogs.cpp:234 dialogs.cpp:319
-msgid "seconds."
-msgstr "másodperc"
-
-#: dialogs.cpp:251 dialogs.cpp:261
-msgid "Hall of Fame"
-msgstr "Dicsõség Csarnok"
-
-#: dialogs.cpp:342 status.cpp:117
-msgid "Anonymous"
-msgstr "Ismeretlen"
-
-#: dialogs.cpp:365 dialogs.cpp:379
-msgid "Uncertain (?) mark"
-msgstr "Bizonytalan (?) jel"
-
-#: dialogs.cpp:424
-msgid "Try again"
-msgstr "Próbáld újra"
-
-#: field.cpp:87 field.cpp:94
-msgid "Game paused"
-msgstr "A játék szünetel"
-
-#: field.cpp:90 field.cpp:96
-msgid "Press to resume"
-msgstr "Nyomd meg a folytatáshoz"
 
 #: main.cpp:22 main.cpp:34 main.cpp:53
 msgid "New game"
@@ -148,6 +90,10 @@ msgstr "kmines : Névjegy"
 msgid "Show menu bar"
 msgstr "Menüsor megjelenítése"
 
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "Ismeretlen"
+
 #: status.cpp:251
 msgid "You did it ... but not in time."
 msgstr "Megcsináltad ... de nem elég gyorsan"
@@ -167,3 +113,55 @@ msgstr "A rekord pontokat tartalmazó fájl nem írható !"
 #: status.cpp:316
 msgid "kmines : Error"
 msgstr "kmines : Hiba"
+
+#: field.cpp:87 field.cpp:94
+msgid "Game paused"
+msgstr "A játék szünetel"
+
+#: field.cpp:90 field.cpp:96
+msgid "Press to resume"
+msgstr "Nyomd meg a folytatáshoz"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "Egyéni szint"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "Szélesség :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "Magasság :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "Aknák :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "Rekord pontok"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr ""
+
+#: dialogs.cpp:233 dialogs.cpp:306
+msgid "minutes and "
+msgstr "perc és"
+
+#: dialogs.cpp:234 dialogs.cpp:319
+msgid "seconds."
+msgstr "másodperc"
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "Dicsõség Csarnok"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "Bizonytalan (?) jel"
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "Próbáld újra"

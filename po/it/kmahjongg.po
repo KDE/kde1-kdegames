@@ -1,122 +1,154 @@
-#: kmahjongg.cpp:93
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-02-26 15:02+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kmahjongg.cpp:101
 msgid "Classic"
 msgstr "Classico"
 
-#: kmahjongg.cpp:94
+#: kmahjongg.cpp:102
 msgid "Tower"
 msgstr "Torre"
 
-#: kmahjongg.cpp:95
+#: kmahjongg.cpp:103
 msgid "Triangle"
 msgstr "Triangolo"
 
-#: kmahjongg.cpp:96
+#: kmahjongg.cpp:104
 msgid "Pyramide"
 msgstr "Piramide"
 
-#: kmahjongg.cpp:195
+#: kmahjongg.cpp:211
 msgid "&Start new game"
 msgstr "Inizia nuovo gioco"
 
-#: kmahjongg.cpp:197
+#: kmahjongg.cpp:213
 msgid "&Help me"
 msgstr "Aiutami.."
 
-#: kmahjongg.cpp:198
+#: kmahjongg.cpp:214
 msgid "&Undo last move"
 msgstr "Annulla ultima mossa"
 
-#: kmahjongg.cpp:199
+#: kmahjongg.cpp:215
 msgid "&Demo mode"
 msgstr "Demo"
 
-#: kmahjongg.cpp:200
+#: kmahjongg.cpp:216
 msgid "Show &matching tiles"
 msgstr "Mostra piastre corrispondenti"
 
-#: kmahjongg.cpp:202
-msgid "&Quit"
-msgstr "Esci"
-
-#: kmahjongg.cpp:206
+#: kmahjongg.cpp:222
 msgid "&Load Background image..."
 msgstr "Carica immagine di background"
 
-#: kmahjongg.cpp:208
+#: kmahjongg.cpp:224
 msgid "&Statusbar"
 msgstr "Barra di stato"
 
-#: kmahjongg.cpp:211
-msgid "&Help"
-msgstr "Aiuto"
-
-#: kmahjongg.cpp:213
-msgid "&About..."
-msgstr "Info...."
-
-#: kmahjongg.cpp:221
-msgid "&Game"
-msgstr "Gioco"
-
-#: kmahjongg.cpp:222
-msgid "&View"
-msgstr "Vista"
-
-#: kmahjongg.cpp:286
-msgid "About %s"
-msgstr "Info su %s"
-
-#: kmahjongg.cpp:291
-msgid ""
-    "%s V%s\n\n"
-    "by Mathias Mueller\n"
-    "(in5y158@public.uni-hamburg.de)"
+#: kmahjongg.cpp:226
+msgid "Mahjongg"
 msgstr ""
 
-#: kmahjongg.cpp:294
-msgid "Close"
-msgstr "Chiudi"
+#: kmahjongg.cpp:228
+msgid ""
+"\n"
+"\n"
+"by Mathias Mueller"
+msgstr ""
 
-#: kmahjongg.cpp:434
+#: kmahjongg.cpp:387 kmahjongg.cpp:401
+msgid "Unable to open bitmap file !"
+msgstr ""
+
+#: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
 msgstr "\"Annulla\" eseguito con successo "
 
-#: kmahjongg.cpp:437
+#: kmahjongg.cpp:458
 msgid "What do you want to undo? You have done nothing!"
 msgstr "Cosa vuoi annullare? Non hai fatto niente!"
 
-#: kmahjongg.cpp:452,1410
+# kmahjongg.cpp:452,1410
+#: kmahjongg.cpp:473 kmahjongg.cpp:1437
 msgid "Sorry, you have lost the game."
-msgstr "Spiacente, hai perso!" 
+msgstr "Spiacente, hai perso!"
 
-#: kmahjongg.cpp:483
+#: kmahjongg.cpp:504
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "Demo... Clicka con il mouse per interrompere."
 
-#: kmahjongg.cpp:491
+#: kmahjongg.cpp:512
 msgid "Now it's you again."
 msgstr "Ora tocca a te."
 
-#: kmahjongg.cpp:511
+#: kmahjongg.cpp:532
 msgid "Your computer has lost the game."
 msgstr "Il tuo computer ha perso"
 
-#: kmahjongg.cpp:597
+#: kmahjongg.cpp:618
 msgid "Congratulations. You have won!"
 msgstr "Congratulazioni. Hai vinto!"
 
-#: kmahjongg.cpp:623
+#: kmahjongg.cpp:644
 msgid "Calculating new game..."
 msgstr "Calcolo un nuovo gioco..."
 
-#: kmahjongg.cpp:629
+#: kmahjongg.cpp:650
 msgid "Error converting board information!"
 msgstr "Errore di conversione informazioni tavolozza"
 
-#: kmahjongg.cpp:641
+#: kmahjongg.cpp:662
 msgid "Ready. Now it's your turn."
 msgstr "Pronto. Tocca a te."
 
-#: kmahjongg.cpp:647
+#: kmahjongg.cpp:668
 msgid "Error generating new game!"
 msgstr "Errore nella creazione del nuovo gioco!"
+
+#: kmahjongg.cpp:1666
+#, c-format
+msgid ""
+"Failed to load image:\n"
+"%s"
+msgstr ""
+
+#: kmahjongg.cpp:1677
+#, c-format
+msgid ""
+"Sorry, this image uses %d colors.\n"
+"Maximum allowed is %d"
+msgstr ""
+
+#~ msgid "&Quit"
+#~ msgstr "Esci"
+
+#~ msgid "&Help"
+#~ msgstr "Aiuto"
+
+#~ msgid "&About..."
+#~ msgstr "Info...."
+
+#~ msgid "&Game"
+#~ msgstr "Gioco"
+
+#~ msgid "&View"
+#~ msgstr "Vista"
+
+#~ msgid "About %s"
+#~ msgstr "Info su %s"
+
+#~ msgid "Close"
+#~ msgstr "Chiudi"

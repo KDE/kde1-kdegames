@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-02-23 20:17+0100\n"
+"POT-Creation-Date: 1998-02-26 15:02+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,45 +14,119 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kmahjongg.cpp:201
+#: kmahjongg.cpp:101
+msgid "Classic"
+msgstr ""
+
+#: kmahjongg.cpp:102
+msgid "Tower"
+msgstr ""
+
+#: kmahjongg.cpp:103
+msgid "Triangle"
+msgstr ""
+
+#: kmahjongg.cpp:104
+msgid "Pyramide"
+msgstr ""
+
+#: kmahjongg.cpp:211
 msgid "&Start new game"
 msgstr ""
 
-#: kmahjongg.cpp:203
+#: kmahjongg.cpp:213
 msgid "&Help me"
 msgstr ""
 
-#: kmahjongg.cpp:204
+#: kmahjongg.cpp:214
 msgid "&Undo last move"
 msgstr ""
 
-#: kmahjongg.cpp:205
+#: kmahjongg.cpp:215
 msgid "&Demo mode"
 msgstr ""
 
-#: kmahjongg.cpp:206
+#: kmahjongg.cpp:216
 msgid "Show &matching tiles"
 msgstr ""
 
-#: kmahjongg.cpp:212
+#: kmahjongg.cpp:222
 msgid "&Load Background image..."
 msgstr ""
 
-#: kmahjongg.cpp:214
+#: kmahjongg.cpp:224
 msgid "&Statusbar"
 msgstr ""
 
-#: kmahjongg.cpp:221
+#: kmahjongg.cpp:226
 msgid "Mahjongg"
 msgstr ""
 
-#: kmahjongg.cpp:223
+#: kmahjongg.cpp:228
 msgid ""
 "\n"
 "\n"
 "by Mathias Mueller"
 msgstr ""
 
-#: kmahjongg.cpp:1438
+#: kmahjongg.cpp:387 kmahjongg.cpp:401
+msgid "Unable to open bitmap file !"
+msgstr ""
+
+#: kmahjongg.cpp:455
+msgid "Undo operation done successfully."
+msgstr ""
+
+#: kmahjongg.cpp:458
+msgid "What do you want to undo? You have done nothing!"
+msgstr ""
+
+#: kmahjongg.cpp:473 kmahjongg.cpp:1437
 msgid "Sorry, you have lost the game."
+msgstr ""
+
+#: kmahjongg.cpp:504
+msgid "Demo mode. Click mousebutton to stop."
+msgstr ""
+
+#: kmahjongg.cpp:512
+msgid "Now it's you again."
+msgstr ""
+
+#: kmahjongg.cpp:532
+msgid "Your computer has lost the game."
+msgstr ""
+
+#: kmahjongg.cpp:618
+msgid "Congratulations. You have won!"
+msgstr ""
+
+#: kmahjongg.cpp:644
+msgid "Calculating new game..."
+msgstr ""
+
+#: kmahjongg.cpp:650
+msgid "Error converting board information!"
+msgstr ""
+
+#: kmahjongg.cpp:662
+msgid "Ready. Now it's your turn."
+msgstr ""
+
+#: kmahjongg.cpp:668
+msgid "Error generating new game!"
+msgstr ""
+
+#: kmahjongg.cpp:1666
+#, c-format
+msgid ""
+"Failed to load image:\n"
+"%s"
+msgstr ""
+
+#: kmahjongg.cpp:1677
+#, c-format
+msgid ""
+"Sorry, this image uses %d colors.\n"
+"Maximum allowed is %d"
 msgstr ""
