@@ -182,9 +182,3 @@ msgstr "Tamanho"
 #: app.cpp:650
 msgid "Score"
 msgstr "Pontuação"
-
-#~ msgid "28x16"
-#~ msgstr "28x16"
-
-#~ msgid "32x20"
-#~ msgstr "32x20"
