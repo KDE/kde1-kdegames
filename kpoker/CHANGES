@@ -4,6 +4,8 @@ Silly me deleted some important lines that were initializing a timer while
 merging my version of 0.4 with the one in the CVS. This caused 0.4 to
 segfault when you press "Draw Cards" :-(
 
+- [Robert William] put version.h back in.
+
 ------------------------------------------------------------------------------
 Version 0.4
 
