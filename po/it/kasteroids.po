@@ -1,0 +1,50 @@
+#KDE Translation project
+#Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
+
+#: toplevel.cpp:89
+msgid "&New Game"
+msgstr "&Nuova Partita"
+
+#: toplevel.cpp:92
+msgid "&Quit"
+msgstr "&Esci"
+
+#: toplevel.cpp:97
+msgid "&About"
+msgstr "&Info su..."
+
+#: toplevel.cpp:100
+msgid "&File"
+msgstr "&File"
+
+#: toplevel.cpp:102
+msgid "&Help"
+msgstr "&?"
+
+#: toplevel.cpp:115 toplevel.cpp:190 toplevel.cpp:257
+msgid "Score"
+msgstr "Punteggio"
+
+#: toplevel.cpp:117 toplevel.cpp:193 toplevel.cpp:272
+msgid "Level"
+msgstr "Livello"
+
+#: toplevel.cpp:119 toplevel.cpp:196 toplevel.cpp:222
+msgid "Ships"
+msgstr "Navi"
+
+#: toplevel.cpp:201
+msgid "Press Enter to launch."
+msgstr "Premi Invio per un nuovo lancio."
+
+#: toplevel.cpp:214 toplevel.cpp:234
+msgid "KAsteriods"
+msgstr "KAsteroids"
+
+#: toplevel.cpp:227
+msgid "Ship Destroyed.  Press Enter to launch."
+msgstr "Nave sitrutta. Premi Invio per un nuovo lancio"
+
+#: toplevel.cpp:235
+msgid "Game Over!"
+msgstr "Game Over!"

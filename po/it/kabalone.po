@@ -1,0 +1,109 @@
+#KDE Translation project
+#Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
+msgid ""
+msgstr ""
+"Date: 1997-09-24 10:59:56+0200\n"
+"From: root <root@joe>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
+"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+
+#: AbTop.cpp:29 AbTop.cpp:143
+msgid "Move"
+msgstr "Muovi"
+
+#: AbTop.cpp:32 AbTop.cpp:147
+msgid "Press F2 for a new game"
+msgstr "Premi F2 per una nuova partita"
+
+#: AbTop.cpp:73
+msgid "New Game"
+msgstr "Nuova partita"
+
+#: AbTop.cpp:75
+msgid "Stop Search"
+msgstr "Ferma la ricerca"
+
+#: AbTop.cpp:80
+msgid "Take back"
+msgstr "Riprendi"
+
+#: AbTop.cpp:82
+msgid "Hint"
+msgstr "Suggerimento"
+
+#: AbTop.cpp:85
+msgid "Quit"
+msgstr "Esci"
+
+#: AbTop.cpp:89
+msgid "Easy"
+msgstr "Facile"
+
+#: AbTop.cpp:91
+msgid "Normal"
+msgstr "Normale"
+
+#: AbTop.cpp:93
+msgid "Hard"
+msgstr "Difficile"
+
+#: AbTop.cpp:95
+msgid "Challange"
+msgstr "Sfida"
+
+#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
+msgid "Red"
+msgstr "Rosso"
+
+#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
+msgid "Yellow"
+msgstr "Giallo"
+
+#: AbTop.cpp:105
+msgid "Both"
+msgstr "Entrambi"
+
+#: AbTop.cpp:111
+msgid "Level"
+msgstr "Livello"
+
+#: AbTop.cpp:112
+msgid "Computer plays"
+msgstr "Gioca il computer"
+
+#: AbTop.cpp:114
+msgid "Move slow"
+msgstr "Muovi piano"
+
+#: AbTop.cpp:122 AbTop.cpp:405
+msgid "About"
+msgstr "Info su..."
+
+#: AbTop.cpp:123
+msgid "Rules"
+msgstr "Regole"
+
+#: AbTop.cpp:127
+msgid "File"
+msgstr ""
+
+#: AbTop.cpp:128
+msgid "Options"
+msgstr "Opzioni"
+
+#: AbTop.cpp:130
+msgid "Help"
+msgstr "?"
+
+#: AbTop.cpp:152
+msgid "won"
+msgstr "Vinto"
+
+#: AbTop.cpp:156
+msgid "I am thinking..."
+msgstr "Sto pensando..."
+
+#: AbTop.cpp:157
+msgid "It's your turn !"
+msgstr "E' il tuo turno !"
