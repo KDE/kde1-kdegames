@@ -1,6 +1,6 @@
 AUTOMAKE_OPTIONS = foreign
 
-data_DATA = index.html
+data_DATA = index.html ksmiletris.gif
 
 datadir = $(kde_htmldir)/en/ksmiletris
 
