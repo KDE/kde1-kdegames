@@ -1,0 +1,128 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"PO-Revision-Date: 1998-10-18 19:43+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"First-Translator: Alonso Lara <jlaram@nexo.es>\n"
+
+#: KSameWidget.cpp:50
+msgid "New"
+msgstr "Nuevo"
+
+#: KSameWidget.cpp:57
+msgid "Show Highscore"
+msgstr "Mostrar Puntuaciones"
+
+#: KSameWidget.cpp:63
+msgid "Game"
+msgstr "Juego"
+
+#: KSameWidget.cpp:76
+msgid "Random Board"
+msgstr "Tablero Aleatorio"
+
+#: KSameWidget.cpp:82
+msgid "About SameGame"
+msgstr "Sobre Iguales"
+
+#: KSameWidget.cpp:84
+msgid ""
+"\n"
+"\n"
+"by Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
+msgstr ""
+"\n"
+"\n"
+"por Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
+
+#: KSameWidget.cpp:91
+msgid "Colors: XX"
+msgstr "Colores: XX"
+
+#: KSameWidget.cpp:92
+msgid "Board: XXXXXX"
+msgstr "Tablero: XXXXXX"
+
+#: KSameWidget.cpp:93
+msgid "Marked: XXXXXX"
+msgstr "Marcado: XXXXXX"
+
+#: KSameWidget.cpp:94
+msgid "Score: XXXXXX"
+msgstr "Puntos: XXXXXX"
+
+#: KSameWidget.cpp:134
+msgid "SameGame: New Game"
+msgstr "Iguales: Nuevo Juego"
+
+#: KSameWidget.cpp:135
+msgid "Do you want to resign?"
+msgstr "¿Desea abandonar?"
+
+#: HighScore.cpp:104 KSameWidget.cpp:141
+msgid "Board"
+msgstr "Tablero"
+
+#: KSameWidget.cpp:144
+msgid "Hello"
+msgstr "Hola"
+
+#: KSameWidget.cpp:146
+msgid "Please &enter the board number:"
+msgstr "Por favor, introduzca &el número de tablero:"
+
+#: KSameWidget.cpp:181
+msgid "menu load not supported"
+msgstr "carga de menú no soportado"
+
+#: KSameWidget.cpp:184
+msgid "menu save not supported"
+msgstr "salvación de menú no soportado"
+
+#: KSameWidget.cpp:192
+msgid "SameGame - Quit"
+msgstr "Iguales - Salir"
+
+#: KSameWidget.cpp:193
+msgid "Do you want really quit?"
+msgstr "¿Desea realmente salir?"
+
+#: KSameWidget.cpp:199
+msgid "menu colors not supported"
+msgstr "colores de menú no soportado"
+
+#: KSameWidget.cpp:203
+#, c-format
+msgid "Colors: %01i"
+msgstr "Colores: %01i"
+
+#: KSameWidget.cpp:216
+#, c-format
+msgid "Board: %06i"
+msgstr "Tablero: %06i"
+
+#: KSameWidget.cpp:220
+msgid "GameOver"
+msgstr "Juego Terminado"
+
+#: KSameWidget.cpp:225
+#, c-format
+msgid "Marked: %06i"
+msgstr "Marcado: %06i"
+
+#: KSameWidget.cpp:230
+#, c-format
+msgid "Score: %06i"
+msgstr "Puntos: %06i"
+
+#: HighScore.cpp:107
+msgid "Name"
+msgstr "Nombre"
+
+#: HighScore.cpp:109
+msgid "Please &enter your name:"
+msgstr "Por favor, introduzca su nombr&e:"
+
+#: HighScore.cpp:148
+msgid "Anonymous"
+msgstr "Anónimo"

@@ -1,0 +1,130 @@
+msgid ""
+msgstr ""
+"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"PO-Revision-Date: 1998-10-18 21:23+0200\n"
+"Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
+"First-Translator: Alonso Lara <jlaram@nexo.es>\n"
+
+#: kmahjongg.cpp:101
+msgid "Classic"
+msgstr "Clásico"
+
+#: kmahjongg.cpp:102
+msgid "Tower"
+msgstr "Torre"
+
+#: kmahjongg.cpp:103
+msgid "Triangle"
+msgstr "Triángulo"
+
+#: kmahjongg.cpp:104
+msgid "Pyramide"
+msgstr "Pirámide"
+
+#: kmahjongg.cpp:211
+msgid "&Start new game"
+msgstr "&Iniciar nuevo juego"
+
+#: kmahjongg.cpp:213
+msgid "&Help me"
+msgstr "&Ayúdame"
+
+#: kmahjongg.cpp:214
+msgid "&Undo last move"
+msgstr "D&eshacer último movimiento"
+
+#: kmahjongg.cpp:215
+msgid "&Demo mode"
+msgstr "Modo &demostración"
+
+#: kmahjongg.cpp:216
+msgid "Show &matching tiles"
+msgstr "&Mostrar baldosas emparejadas"
+
+#: kmahjongg.cpp:222
+msgid "&Load Background image..."
+msgstr "&Cargar imagen de fondo..."
+
+#: kmahjongg.cpp:224
+msgid "&Statusbar"
+msgstr "Barra de e&stado"
+
+#: kmahjongg.cpp:226
+msgid "Mahjongg"
+msgstr "Mahjongg"
+
+#: kmahjongg.cpp:228
+msgid ""
+"\n"
+"\n"
+"by Mathias Mueller"
+msgstr ""
+"\n"
+"\n"
+"por Mathias Mueller"
+
+#: kmahjongg.cpp:387 kmahjongg.cpp:401
+msgid "Unable to open bitmap file !"
+msgstr "¡Imposible abrir archivo de mapa de bits!"
+
+#: kmahjongg.cpp:455
+msgid "Undo operation done successfully."
+msgstr "Operación de deshacer concluida satisfactoriamente."
+
+#: kmahjongg.cpp:458
+msgid "What do you want to undo? You have done nothing!"
+msgstr "¿Que quiere deshacer? ¡No ha hecho nada!"
+
+#: kmahjongg.cpp:473 kmahjongg.cpp:1437
+msgid "Sorry, you have lost the game."
+msgstr "Lo siento, ha perdido la partida."
+
+#: kmahjongg.cpp:504
+msgid "Demo mode. Click mousebutton to stop."
+msgstr "Modo demostración. Pulse un botón del ratón para detener."
+
+#: kmahjongg.cpp:512
+msgid "Now it's you again."
+msgstr "Ahora es suyo de nuevo."
+
+#: kmahjongg.cpp:532
+msgid "Your computer has lost the game."
+msgstr "Su computadora ha perdido la partida."
+
+#: kmahjongg.cpp:618
+msgid "Congratulations. You have won!"
+msgstr "Felicidades. ¡Ha ganado!"
+
+#: kmahjongg.cpp:644
+msgid "Calculating new game..."
+msgstr "Calculando nueva partida..."
+
+#: kmahjongg.cpp:650
+msgid "Error converting board information!"
+msgstr "¡Error convirtiendo información del tablero!"
+
+#: kmahjongg.cpp:662
+msgid "Ready. Now it's your turn."
+msgstr "Listo. Ahora es su turno."
+
+#: kmahjongg.cpp:668
+msgid "Error generating new game!"
+msgstr "¡Error generando nueva partida!"
+
+#: kmahjongg.cpp:1666
+#, c-format
+msgid ""
+"Failed to load image:\n"
+"%s"
+msgstr ""
+"Fallo al cargar imagen:\n"
+"%s"
+
+#: kmahjongg.cpp:1677
+#, c-format
+msgid ""
+"Sorry, this image uses %d colors.\n"
+"Maximum allowed is %d"
+msgstr ""
+"Lo siento, esta imagen usa %d colores.\n"
+"El máximo permitido es %d"
