@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-06-14 22:23+0200\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: game.cpp:41 game.cpp:144 rattler.cpp:349
+msgid "Snake Race"
+msgstr "K‰‰rmekilpailu"
+
+#: game.cpp:45
+msgid "KConfig error ??\n"
+msgstr "KConfig virhe ??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr "Uusi"
+
+#: game.cpp:80
+msgid "Pause"
+msgstr "Tauko"
+
+#: game.cpp:81
+msgid "High Scores..."
+msgstr "Enn‰tystulokset..."
+
+#: game.cpp:83
+msgid "&Quit"
+msgstr "&Lopeta"
+
+#: game.cpp:88 game.cpp:97
+msgid "0"
+msgstr "0"
+
+#: game.cpp:89 game.cpp:98
+msgid "1"
+msgstr "1"
+
+#: game.cpp:90 game.cpp:99
+msgid "2"
+msgstr "2"
+
+#: game.cpp:91 game.cpp:100
+msgid "3"
+msgstr "3"
+
+#: game.cpp:111
+msgid "none"
+msgstr "ei mik‰‰n"
+
+#: game.cpp:126
+msgid "Beginner"
+msgstr "Aloittelija"
+
+#: game.cpp:127
+msgid "Intermediate"
+msgstr "Keskinkertainen"
+
+#: game.cpp:128
+msgid "Advanced"
+msgstr "Edistynyt"
+
+#: game.cpp:129
+msgid "Expert"
+msgstr "Ammattilainen"
+
+#: game.cpp:131
+msgid "Balls"
+msgstr "Pallot"
+
+#: game.cpp:132
+msgid "Computer Snakes"
+msgstr "Tietokoneen k‰‰rmeet"
+
+#: game.cpp:134
+msgid "Select background color..."
+msgstr "Valitse taustav‰ri..."
+
+#: game.cpp:135
+msgid "Select background pixmap"
+msgstr "Valitse taustakuva"
+
+#: game.cpp:137
+msgid "Change keys..."
+msgstr "Vaihda n‰pp‰imi‰..."
+
+#: game.cpp:139
+msgid "Starting Room..."
+msgstr "Aloitushuone..."
+
+#: game.cpp:146
+msgid ""
+"\n"
+"\n"
+"by Michel Filippi (mfilippi@sade.rhein-main.de)"
+msgstr ""
+"\n"
+"\n"
+"Michel Filippi (mfilippi@sade.rhein-main.de)"
+
+#: game.cpp:150
+msgid "&Game"
+msgstr "&Peli"
+
+#: game.cpp:151
+msgid "&Options"
+msgstr "&Asetukset"
+
+#: game.cpp:153
+msgid "&Help"
+msgstr "&Ohje"
+
+#: keys.cpp:18 score.cpp:57 score.cpp:91 startroom.cpp:28
+msgid "Ok"
+msgstr "Ok"
+
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "Oletukset"
+
+#: keys.cpp:30 startroom.cpp:34
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Vaiha suuntan‰pp‰imi‰"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "M‰‰rittelem‰tˆn"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tAlueen pit‰‰ olla 0..99\n"
+"\tja minVal ei saa olla suurempi kuin maxVal"
+
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "virhe ladatessa %s, lopetan\n"
+
+#: rattler.cpp:277
+msgid ""
+"Game Paused\n"
+" Press F3 to resume\n"
+msgstr ""
+"Peli pys‰ytetty\n"
+" Paina F3 jatkaaksesi\n"
+
+#: rattler.cpp:350
+msgid ""
+"A game is already started\n"
+"Start a new one ?\n"
+msgstr ""
+"Peli on jo k‰ynnistetty\n"
+"Aloita uusi peli ?\n"
+
+#: rattler.cpp:352
+msgid "&Yes"
+msgstr "&Kyll‰"
+
+#: rattler.cpp:352
+msgid "&No"
+msgstr "&Ei"
+
+#: score.cpp:46 score.cpp:77
+msgid "Snake Race High Scores"
+msgstr "K‰‰rmerallin enn‰tykset"
+
+#: score.cpp:50
+msgid "Hall of Fame"
+msgstr "Enn‰tystulokset"
+
+#: score.cpp:54
+msgid "Today's High Scores"
+msgstr "T‰m‰np‰iv‰n enn‰tykset"
+
+#: score.cpp:78
+msgid ""
+"you have achieved a high score!\n"
+" please enter your name"
+msgstr ""
+"Olet saavuttanut enn‰tystulokset!\n"
+" anna nimesi"
+
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "K‰‰rmerallin aloitushuone"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Aloitushuone"

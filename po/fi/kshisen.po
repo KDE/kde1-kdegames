@@ -167,11 +167,8 @@ msgstr "Aika"
 
 #: app.cpp:650
 msgid "Score"
-msgstr ""
+msgstr "Tulos"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "En saa ladattua kuvia!"
-
-#~ msgid "Name"
-#~ msgstr "Nimi"
