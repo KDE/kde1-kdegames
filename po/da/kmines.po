@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kmines\n"
 "POT-Creation-Date: 1999-01-27 01:35+0100\n"
-"PO-Revision-Date: 1999-01-26 11:52-0500\n"
+"PO-Revision-Date: 1999-02-02 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -115,11 +115,11 @@ msgstr "&Højeste resultater"
 
 #: main.cpp:56
 msgid "&Print"
-msgstr ""
+msgstr "&Udskriv"
 
 #: main.cpp:64
 msgid "? mark"
-msgstr "? marker"
+msgstr "? tegn"
 
 #: main.cpp:65
 msgid "Keys"

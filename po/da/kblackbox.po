@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kblackbox\n"
 "POT-Creation-Date: 1999-01-21 01:39+0100\n"
-"PO-Revision-Date: 1999-01-26 11:52-0500\n"
+"PO-Revision-Date: 1999-02-02 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -15,19 +15,19 @@ msgstr ""
 
 #: kbbgame.cpp:73 kbbgame.cpp:114
 msgid "&Help"
-msgstr ""
+msgstr "&Hjælp"
 
 #: kbbgame.cpp:76
 msgid "&About KBlackBox"
-msgstr ""
+msgstr "&Om KBlackBox"
 
 #: kbbgame.cpp:78
 msgid "About &Qt"
-msgstr ""
+msgstr "Om Qt"
 
 #: kbbgame.cpp:81
 msgid "&Quit"
-msgstr ""
+msgstr "&Afslut"
 
 #: kbbgame.cpp:84
 msgid "&New"
@@ -59,19 +59,19 @@ msgstr "&Underviser"
 
 #: kbbgame.cpp:110
 msgid "&File"
-msgstr ""
+msgstr "&Fil"
 
 #: kbbgame.cpp:111
 msgid "&Game"
-msgstr ""
+msgstr "&Spil"
 
 #: kbbgame.cpp:112
 msgid "&Options"
-msgstr ""
+msgstr "&Muligheder"
 
 #: kbbgame.cpp:170
 msgid "Quit"
-msgstr ""
+msgstr "Afslut"
 
 #: kbbgame.cpp:172
 msgid "New"
@@ -87,11 +87,11 @@ msgstr "Færdig"
 
 #: kbbgame.cpp:179
 msgid "Help"
-msgstr ""
+msgstr "Hjælp"
 
 #: kbbgame.cpp:406
 msgid "About"
-msgstr ""
+msgstr "Om"
 
 #: kbbgame.cpp:408
 msgid ""
@@ -105,7 +105,7 @@ msgstr ""
 
 #: kbbgame.cpp:413
 msgid "Qt information"
-msgstr ""
+msgstr "Qt information"
 
 #: kbbgame.cpp:432 kbbgame.cpp:551 kbbgame.cpp:607 kbbgame.cpp:636
 msgid "Warning!"
@@ -155,11 +155,11 @@ msgstr "Løb"
 
 #: kbbgame.cpp:572
 msgid "Yes"
-msgstr ""
+msgstr "Ja"
 
 #: kbbgame.cpp:575
 msgid "No"
-msgstr ""
+msgstr "Nej"
 
 #: kbbgame.cpp:578
 msgid "Size"

@@ -92,9 +92,8 @@ msgid "SameGame - Quit"
 msgstr "SameGame - Slut"
 
 #: KSameWidget.cpp:193
-#, fuzzy
 msgid "Do you really want to quit?"
-msgstr "Vil du virkelig slutte"
+msgstr "Vil du virkelig slutte?"
 
 #: KSameWidget.cpp:199
 msgid "menu colors not supported"
