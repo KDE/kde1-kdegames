@@ -1,0 +1,131 @@
+msgid ""
+msgstr ""
+"Date: 1997-09-30 20:08:33+0200\n"
+"From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: -C -ktranslate\n"
+"Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
+
+#: kpoker.cpp:97
+msgid "Draw !"
+msgstr "Donner !"
+
+#: kpoker.cpp:123
+msgid "Click a card to hold it"
+msgstr "Cliquer sur une carte pour la tenir"
+
+#: kpoker.cpp:144
+msgid "Held"
+msgstr "Tenu"
+
+#: kpoker.cpp:180
+msgid "draw new cards"
+msgstr "donner de nouvelles cartes"
+
+#: kpoker.cpp:181 kpoker.cpp:182
+msgid "your last hand"
+msgstr "Votre dernière poignée"
+
+#: kpoker.cpp:183 kpoker.cpp:184
+msgid "money left"
+msgstr "Argent restant"
+
+#: kpoker.cpp:207 kpoker.cpp:488 kpoker.cpp:500
+msgid "nothing"
+msgstr "rien"
+
+#: kpoker.cpp:364
+msgid "Cash"
+msgstr "Liquide"
+
+#: kpoker.cpp:378
+msgid "Last Hand"
+msgstr "Dernière poignée"
+
+#: kpoker.cpp:490
+msgid "One Pair"
+msgstr "Une paire"
+
+#: kpoker.cpp:491
+msgid "Two Pairs"
+msgstr "Deux paires"
+
+#: kpoker.cpp:492
+msgid "3 of a kind"
+msgstr "3 d'un type"
+
+#: kpoker.cpp:493
+msgid "Full House"
+msgstr "Full House"
+
+#: kpoker.cpp:494
+msgid "4 of a kind"
+msgstr "4 d'un type"
+
+#: kpoker.cpp:495
+msgid "Straight"
+msgstr "Straight"
+
+#: kpoker.cpp:496
+msgid "Flush"
+msgstr "Flush"
+
+#: kpoker.cpp:497
+msgid "Straight Flush"
+msgstr "Straight Flush"
+
+#: kpoker.cpp:498
+msgid "Royal Flush"
+msgstr "Flush Royal"
+
+#: kpoker.cpp:506
+msgid "You Lost"
+msgstr "Vous perdez"
+
+#: kpoker.cpp:507
+msgid ""
+"Oops - you went bankrupt.\n"
+"A highscoretable will appear over here later..."
+msgstr ""
+"Oops - vous venez de subir la faillite.\n"
+"Une table des meilleurs résultats vas apparaitre..."
+
+#: kpoker.cpp:508
+msgid "New game"
+msgstr "Nouveau jeu"
+
+#: kpoker.cpp:574
+msgid "You won $"
+msgstr "Vous gagnez $"
+
+#: kpoker.cpp:578
+msgid "Game Over"
+msgstr "Fin"
+
+#: top.cpp:62
+msgid "&New game"
+msgstr "&Nouveau jeu"
+
+#: top.cpp:64
+msgid "&Quit"
+msgstr "&Quitter"
+
+#: top.cpp:68
+msgid "&Sound"
+msgstr "&Sons"
+
+#: top.cpp:79 top.cpp:88
+msgid "&Help"
+msgstr "&Aide"
+
+#: top.cpp:81
+msgid "&About..."
+msgstr "Au &sujet de..."
+
+#: top.cpp:84
+msgid "&File"
+msgstr "&Fichier"
+
+#: top.cpp:85
+msgid "&Options"
+msgstr "&Options"
