@@ -369,11 +369,11 @@ msgstr "KReversi: Ruhmeshalle"
 
 #: app.cpp:892
 msgid "Rank"
-msgstr ""
+msgstr "Rang"
 
 #: app.cpp:896
 msgid "Name"
-msgstr "&Name"
+msgstr "Name"
 
 #: app.cpp:900
 msgid "Color"
@@ -381,11 +381,11 @@ msgstr "Farbe"
 
 #: app.cpp:904
 msgid "Score"
-msgstr ""
+msgstr "Punkte"
 
 #: app.cpp:908
 msgid "Rating"
-msgstr ""
+msgstr "Maﬂstab"
 
 #: app.cpp:998
 msgid ""
