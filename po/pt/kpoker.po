@@ -1,12 +1,12 @@
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-01-25 13:24+0100\n"
-"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.ult.pt>\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.ult.pt>\n"
 
 #: kpoker.cpp:96
 msgid "Draw !"
