@@ -1,0 +1,48 @@
+KAsteroids
+----------
+
+You know this game.  Its in its very early stages (4 days work so far :-)
+so don't expect too much.  It is based on Warwick Allison's QwSpriteField
+widget.
+
+From the top level directory do:
+  ./configure
+  cd kasteroids/QwSpriteField
+  make
+  cd ..
+  make
+
+and run from the kasteroids directory.  It CANNOT be installed yet!!!
+
+If I could get these Makefile.in things working properly, you could just
+do ./configure; make, but I haven't had much luck.
+
+
+Keys
+----
+
+Keys are hard coded currently.
+
+Rotate Left       Left Arrow
+Rotate Right      Right Arrow
+Thrust            Up Arrow
+Fire              Space
+Launch Ship       Enter
+
+
+TODO
+----
+
+Sound
+Better graphics
+High Scores
+Better scoring
+Configurable key bindings
+
+
+This is a very incomplete list.
+
+
+Martin R. Jones
+mjones@kde.org
+

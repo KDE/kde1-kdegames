@@ -1,0 +1,32 @@
+POVRAY=x-povray  # Must be Povray 3.0
+LDLIBS=-lpng -lz -lm
+
+all: pngtoppmpgm
+
+clean:
+	rm -f *~ pngtoppmpgm
+
+FILES = `find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
+DESTDIR = @prefix@/share/apps/kasteroids/sprites
+INSTALL_DATA = @INSTALL@ -m 644
+mkinstalldirs = $(SHELL) @top_srcdir@/mkinstalldirs
+
+Makefile: Makefile.in
+	cd ../.. && CONFIG_FILES=kasteroids/sprites/$@ CONFIG_HEADERS= $(SHELL) ./config.status
+
+install:
+	@$(mkinstalldirs) $(DESTDIR)/rock1 ;\
+	$(mkinstalldirs) $(DESTDIR)/rock2 ;\
+	$(mkinstalldirs) $(DESTDIR)/rock3 ;\
+	$(mkinstalldirs) $(DESTDIR)/ship ;\
+	$(mkinstalldirs) $(DESTDIR)/bits ;\
+	$(mkinstalldirs) $(DESTDIR)/missile ;\
+	for file in $(FILES); do \
+	 echo "install $$file in "$(DESTDIR)/$$file ;\
+	 $(INSTALL_DATA) $$file $(DESTDIR)/$$file ;\
+	done 
+
+uninstall:
+	for file in $(FILES); do \
+	 rm -f $(DESTDIR)/$$file ;\
+	done
