@@ -172,18 +172,16 @@ msgid "Rank"
 msgstr "Resultat"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Nytt spill"
+msgstr "Navn"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Tid"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "&Størrelse"
+msgstr "Størrelse"
 
 #: app.cpp:650
 msgid "Score"

@@ -283,29 +283,8 @@ msgstr "&Taster"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "av"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Vis meny"
-
-#~ msgid "Close dialog"
-#~ msgstr "Lukk dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Dialog ok"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Kanseller dialog"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "av Nicolas Hadacek"

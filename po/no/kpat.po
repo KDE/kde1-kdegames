@@ -49,7 +49,7 @@ msgstr "Lett 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normal"
 
 #: computation.cpp:97
 msgid "Hard 1"

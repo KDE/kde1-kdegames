@@ -26,9 +26,8 @@ msgid "Ships"
 msgstr "Skip"
 
 #: toplevel.cpp:186
-#, fuzzy
 msgid "Asteroids"
-msgstr "KAsteriods"
+msgstr "Asteriods"
 
 #: toplevel.cpp:188
 msgid ""
@@ -36,6 +35,9 @@ msgid ""
 "\n"
 "by Martin R. Jones"
 msgstr ""
+"\n"
+"\n"
+"av Martin R. Jones"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."
