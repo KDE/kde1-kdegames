@@ -5,6 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
