@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-04-17 00:02+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-02-16 HO:MI+ZONE\n"
 "Last-Translator: Damien Cola <alliax@mindless.com>\n"
 "Language-Team: FRENCH <FR@li.org>\n"
@@ -117,7 +117,7 @@ msgstr "Ce jeu a une solution"
 msgid "This game is NOT solveable"
 msgstr "Ce jeu n'a PAS de solution"
 
-#: app.cpp:389 app.cpp:419
+#: app.cpp:389 app.cpp:421
 msgid "End of game"
 msgstr "Fin du jeu"
 
@@ -125,17 +125,17 @@ msgstr "Fin du jeu"
 msgid "No more moves possible!"
 msgstr "Il n'y a plus de mouvements possibles!"
 
-#: app.cpp:414
+#: app.cpp:416
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Felicitations! Tu l'as fait en %02d:%02d:%02d"
 
-#: app.cpp:431
+#: app.cpp:433
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Ton temps: %02d:%02d:%02d"
 
-#: app.cpp:442
+#: app.cpp:444
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -146,27 +146,27 @@ msgstr ""
 "Tapez votre nom de facon a ce que votre bon score soit pour toujours\n"
 "memorise."
 
-#: app.cpp:445
+#: app.cpp:447
 msgid "Your name:"
 msgstr "Votre nom:"
 
-#: app.cpp:606 app.cpp:611
+#: app.cpp:608 app.cpp:613
 msgid "Hall Of Fame"
 msgstr "Hall de la gloire"
 
-#: app.cpp:607
+#: app.cpp:609
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "Shisen-Sho: Hall de la gloire"
 
-#: app.cpp:632
+#: app.cpp:634
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:640
+#: app.cpp:642
 msgid "Time"
 msgstr "Temps"
 
-#: app.cpp:648
+#: app.cpp:650
 msgid "Score"
 msgstr ""
 

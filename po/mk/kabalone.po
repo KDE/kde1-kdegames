@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-02-19 22:49+0100\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-05-22 10:10+0000\n"
 "Last-Translator: Sasha Konecni <sasha@msi-uk.com>\n"
 "Language-Team: Macedonian\n"
@@ -12,29 +12,25 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-5\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: AbTop.cpp:240 AbTop.cpp:399
+#: AbTop.cpp:241 AbTop.cpp:398
 msgid "Move"
 msgstr "Povlechi"
 
-#: AbTop.cpp:243 AbTop.cpp:403
+#: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
 msgstr "Pritisnete F2 za nova igra"
 
-#: AbTop.cpp:261 AbTop.cpp:301
+#: AbTop.cpp:262 AbTop.cpp:301
 msgid "Stop Search"
 msgstr "Sopri so Baranje"
 
-#: AbTop.cpp:266 AbTop.cpp:305
+#: AbTop.cpp:267 AbTop.cpp:305
 msgid "Take back"
 msgstr "Zemi nazad"
 
-#: AbTop.cpp:271 AbTop.cpp:307
+#: AbTop.cpp:272 AbTop.cpp:307
 msgid "Hint"
 msgstr "Ideja"
-
-#: AbTop.cpp:276 AbTop.cpp:352
-msgid "Rules"
-msgstr "Pravila"
 
 #: AbTop.cpp:296
 msgid "Save Position"
@@ -56,11 +52,11 @@ msgstr "Teshko"
 msgid "Challange"
 msgstr "Predizvik"
 
-#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:327 AbTop.cpp:406 AbTop.cpp:410
 msgid "Red"
 msgstr "Crveno"
 
-#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:329 AbTop.cpp:406 AbTop.cpp:410
 msgid "Yellow"
 msgstr "Zholto"
 
@@ -84,15 +80,15 @@ msgstr "Povlechi poleka"
 msgid "Spy"
 msgstr "Shpioniraj"
 
-#: AbTop.cpp:408
+#: AbTop.cpp:407
 msgid "won"
 msgstr "Pobeda"
 
-#: AbTop.cpp:412
+#: AbTop.cpp:411
 msgid "I am thinking..."
 msgstr "Razmisluvam..."
 
-#: AbTop.cpp:413
+#: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "Ti si na red !"
 
@@ -139,3 +135,6 @@ msgstr "Najdobar potez do sega:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Shpion"
+
+#~ msgid "Rules"
+#~ msgstr "Pravila"

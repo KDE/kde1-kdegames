@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-04-17 00:02+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-05-14 18:20 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
@@ -117,7 +117,7 @@ msgstr "Tato hra je øe¹itelná"
 msgid "This game is NOT solveable"
 msgstr "Tato hra NENÍ øe¹itelná"
 
-#: app.cpp:389 app.cpp:419
+#: app.cpp:389 app.cpp:421
 msgid "End of game"
 msgstr "Konec hry"
 
@@ -125,17 +125,17 @@ msgstr "Konec hry"
 msgid "No more moves possible!"
 msgstr "Dal¹í tahy jsou ji¾ nemo¾né!"
 
-#: app.cpp:414
+#: app.cpp:416
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Gratuluji! Zvládli jste to za %02d:%02d:%02d"
 
-#: app.cpp:431
+#: app.cpp:433
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Vá¹ èas je: %02d:%02d:%02d"
 
-#: app.cpp:442
+#: app.cpp:444
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -144,27 +144,27 @@ msgstr ""
 "Dostal jste se do \"Haly Slávy\". Vlo¾ své jméno aby si \n"
 "lidstvo stále pøipomínalo Va¹e skvìlé hodnocení"
 
-#: app.cpp:445
+#: app.cpp:447
 msgid "Your name:"
 msgstr "Va¹e jméno:"
 
-#: app.cpp:606 app.cpp:611
+#: app.cpp:608 app.cpp:613
 msgid "Hall Of Fame"
 msgstr "Hala slávy"
 
-#: app.cpp:607
+#: app.cpp:609
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "©isen-©o: Hala Slávy"
 
-#: app.cpp:632
+#: app.cpp:634
 msgid "Rank"
 msgstr "Poøadí"
 
-#: app.cpp:640
+#: app.cpp:642
 msgid "Time"
 msgstr "Èas"
 
-#: app.cpp:648
+#: app.cpp:650
 msgid "Score"
 msgstr "Skóre"
 

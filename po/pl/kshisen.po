@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen \n"
-"POT-Creation-Date: 1998-04-17 00:02+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-01-09 00:34+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -110,7 +110,7 @@ msgstr "Tê grê mo¿na ukoñczyæ"
 msgid "This game is NOT solveable"
 msgstr "Tê grê NIE mo¿na ukoñczyæ"
 
-#: app.cpp:389 app.cpp:419
+#: app.cpp:389 app.cpp:421
 msgid "End of game"
 msgstr "Koniec gry"
 
@@ -118,17 +118,17 @@ msgstr "Koniec gry"
 msgid "No more moves possible!"
 msgstr "Brak mo¿liwych ruchów!"
 
-#: app.cpp:414
+#: app.cpp:416
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Gratulacje! Skoñczy³e¶ w %02d:%02d:%02d"
 
-#: app.cpp:431
+#: app.cpp:433
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Twój czas: %02d:%02d:%02d"
 
-#: app.cpp:442
+#: app.cpp:444
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -137,27 +137,27 @@ msgstr ""
 "Dosta³e¶ siê na listê zwyciêzców. Wpisz swoje imiê,\n"
 "aby inni pamiêtali o Twoich niesamowitych wynikach."
 
-#: app.cpp:445
+#: app.cpp:447
 msgid "Your name:"
 msgstr "Twoje imiê:"
 
-#: app.cpp:606 app.cpp:611
+#: app.cpp:608 app.cpp:613
 msgid "Hall Of Fame"
 msgstr "Lista zwyciêzców"
 
-#: app.cpp:607
+#: app.cpp:609
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "Shisen-Sho: Lista zwyciêzców"
 
-#: app.cpp:632
+#: app.cpp:634
 msgid "Rank"
 msgstr "Poziom"
 
-#: app.cpp:640
+#: app.cpp:642
 msgid "Time"
 msgstr "Czas"
 
-#: app.cpp:648
+#: app.cpp:650
 msgid "Score"
 msgstr ""
 

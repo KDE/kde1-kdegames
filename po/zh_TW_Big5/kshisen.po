@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-04-17 00:02+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: 1998-04-21 04:04+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
@@ -117,7 +117,7 @@ msgstr "這遊戲有解"
 msgid "This game is NOT solveable"
 msgstr "這遊戲*無解*"
 
-#: app.cpp:389 app.cpp:419
+#: app.cpp:389 app.cpp:421
 msgid "End of game"
 msgstr "遊戲結束"
 
@@ -125,17 +125,17 @@ msgstr "遊戲結束"
 msgid "No more moves possible!"
 msgstr "沒有可移動的可能!"
 
-#: app.cpp:414
+#: app.cpp:416
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "恭喜! 您花了 %02d:%02d:%02d 成功\!"
 
-#: app.cpp:431
+#: app.cpp:433
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "您的時間 %02d:%02d:%02d"
 
-#: app.cpp:442
+#: app.cpp:444
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -145,27 +145,27 @@ msgstr ""
 "輸入您的名字讓以後的人\n"
 "都能記得您的成績."
 
-#: app.cpp:445
+#: app.cpp:447
 msgid "Your name:"
 msgstr "您的名字"
 
-#: app.cpp:606 app.cpp:611
+#: app.cpp:608 app.cpp:613
 msgid "Hall Of Fame"
 msgstr "名人堂"
 
-#: app.cpp:607
+#: app.cpp:609
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "四川省: 名人堂"
 
-#: app.cpp:632
+#: app.cpp:634
 msgid "Rank"
 msgstr "排名"
 
-#: app.cpp:640
+#: app.cpp:642
 msgid "Time"
 msgstr "時間"
 
-#: app.cpp:648
+#: app.cpp:650
 msgid "Score"
 msgstr ""
 
