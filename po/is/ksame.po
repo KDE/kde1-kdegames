@@ -2,39 +2,27 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
+"Language-Team: is\n"
 
 #: KSameWidget.cpp:50
 msgid "&New"
-msgstr ""
+msgstr "&Nýr"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "&Opna"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Birta metalista"
+msgstr "Sýna &methafa"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Borð af handahófi"
+msgstr "Bo&rð af handahófi"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
@@ -141,6 +129,3 @@ msgstr "Sláðu &inn nafnið þitt:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Nafnlaus"
-
-#~ msgid "Game"
-#~ msgstr "Leikur"

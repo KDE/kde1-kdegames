@@ -2,21 +2,11 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
+"Language-Team: is\n"
 
 #: board.cpp:65 dialogs.cpp:137
 msgid "Anonymous"
@@ -293,26 +283,3 @@ msgstr "eftir"
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Sýna valmyndarönd"
-
-# 
-#~ msgid "Cancel dialog"
-#~ msgstr "Hætta við"
-
-#
-#~ msgid "Close dialog"
-#~ msgstr "Loka"
-
-# 
-#~ msgid "Ok dialog"
-#~ msgstr "Í lagi"
-
-# 
-# 
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "eftir Nicolas Hadacek"

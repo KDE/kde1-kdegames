@@ -5,14 +5,8 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
+"Language-Team: is\n"
 
 #: kbbgame.cpp:72
 msgid ""
@@ -26,16 +20,15 @@ msgstr ""
 
 #: kbbgame.cpp:81
 msgid "&New"
-msgstr "&Nýtt"
+msgstr "&Nýr"
 
 #: kbbgame.cpp:82
 msgid "&Give up"
 msgstr "&Gefast upp"
 
 #: kbbgame.cpp:83
-#, fuzzy
 msgid "&Done"
-msgstr "Búið"
+msgstr "&Ljúka"
 
 #: kbbgame.cpp:85
 msgid "&Resize"
@@ -54,18 +47,16 @@ msgid "&Tutorial"
 msgstr "K&ennsla"
 
 #: kbbgame.cpp:170
-#, fuzzy
 msgid "New"
-msgstr "&Nýtt"
+msgstr "Nýr"
 
 #: kbbgame.cpp:172
-#, fuzzy
 msgid "Give up"
-msgstr "&Gefast upp"
+msgstr "Gefast upp"
 
 #: kbbgame.cpp:174
 msgid "Done"
-msgstr "Búið"
+msgstr "Ljúka"
 
 #: kbbgame.cpp:423 kbbgame.cpp:542 kbbgame.cpp:598 kbbgame.cpp:625
 msgid "Warning!"
@@ -111,21 +102,19 @@ msgstr "Í lagi"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
-msgstr ""
+msgstr "Ræsa"
 
 #: kbbgame.cpp:569
-#, fuzzy
 msgid "Size"
-msgstr "&Stærð"
+msgstr "Stærð"
 
 #: kbbgame.cpp:572
 msgid "Placed"
-msgstr ""
+msgstr "Merkt"
 
 #: kbbgame.cpp:585
-#, fuzzy
 msgid "Score"
-msgstr " Stig: %4d"
+msgstr "Stig"
 
 #: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
@@ -138,48 +127,3 @@ msgstr "Gleymd'essu..."
 #: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
 msgstr "Æ, nei!"
-
-#~ msgid "&About KBlackBox"
-#~ msgstr "&Um KBlackBox"
-
-#~ msgid "About &Qt"
-#~ msgstr "Um &Qt"
-
-#~ msgid "Qt information"
-#~ msgstr "Qt upplýsingar"
-
-#~ msgid "&Help"
-#~ msgstr "&Hjálp"
-
-#~ msgid "&Quit"
-#~ msgstr "&Hætta"
-
-#~ msgid "&File"
-#~ msgstr "&Sýsl"
-
-#~ msgid "&Game"
-#~ msgstr "&Leikur"
-
-#~ msgid "&Options"
-#~ msgstr "&Stillingar"
-
-#~ msgid "Click here when you think you placed all the balls."
-#~ msgstr "Smelltu hér þegar þú telur þig hafa staðsett allar kúlurnar."
-
-#~ msgid "This is your score."
-#~ msgstr "Þetta eru stigin þín."
-
-#~ msgid "These are some game statistics."
-#~ msgstr "Þetta er tölfræði um leikinn."
-
-#~ msgid "About"
-#~ msgstr "Um"
-
-#~ msgid " Running: %s, Size: %3d x%3d, Balls: %3d /%3d"
-#~ msgstr " Keyrði: %s, Stærð: %3d x%3d, Kúlur: %3d /%3d"
-
-#~ msgid "Yes"
-#~ msgstr "Já"
-
-#~ msgid " No"
-#~ msgstr " Nei"
