@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-03-05 01:33+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,51 +14,51 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kmahjongg.cpp:101
+#: kmahjongg.cpp:99
 msgid "Classic"
 msgstr ""
 
-#: kmahjongg.cpp:102
+#: kmahjongg.cpp:100
 msgid "Tower"
 msgstr ""
 
-#: kmahjongg.cpp:103
+#: kmahjongg.cpp:101
 msgid "Triangle"
 msgstr ""
 
-#: kmahjongg.cpp:104
+#: kmahjongg.cpp:102
 msgid "Pyramide"
 msgstr ""
 
-#: kmahjongg.cpp:211
+#: kmahjongg.cpp:209
 msgid "&Start new game"
 msgstr ""
 
-#: kmahjongg.cpp:213
+#: kmahjongg.cpp:211
 msgid "&Help me"
 msgstr ""
 
-#: kmahjongg.cpp:214
+#: kmahjongg.cpp:212
 msgid "&Undo last move"
 msgstr ""
 
-#: kmahjongg.cpp:215
+#: kmahjongg.cpp:213
 msgid "&Demo mode"
 msgstr ""
 
-#: kmahjongg.cpp:216
+#: kmahjongg.cpp:214
 msgid "Show &matching tiles"
 msgstr ""
 
-#: kmahjongg.cpp:222
+#: kmahjongg.cpp:220
 msgid "&Load Background image..."
 msgstr ""
 
-#: kmahjongg.cpp:224
+#: kmahjongg.cpp:222
 msgid "&Statusbar"
 msgstr ""
 
-#: kmahjongg.cpp:227
+#: kmahjongg.cpp:225
 #, c-format
 msgid ""
 "Mahjongg %s\n"
@@ -66,62 +66,62 @@ msgid ""
 "by Mathias Mueller (in5y158@public.uni-hamburg.de)"
 msgstr ""
 
-#: kmahjongg.cpp:386 kmahjongg.cpp:400
+#: kmahjongg.cpp:384 kmahjongg.cpp:398
 msgid "Unable to open bitmap file !"
 msgstr ""
 
-#: kmahjongg.cpp:454
+#: kmahjongg.cpp:452
 msgid "Undo operation done successfully."
 msgstr ""
 
-#: kmahjongg.cpp:457
+#: kmahjongg.cpp:455
 msgid "What do you want to undo? You have done nothing!"
 msgstr ""
 
-#: kmahjongg.cpp:472 kmahjongg.cpp:1436
+#: kmahjongg.cpp:470 kmahjongg.cpp:1434
 msgid "Sorry, you have lost the game."
 msgstr ""
 
-#: kmahjongg.cpp:503
+#: kmahjongg.cpp:501
 msgid "Demo mode. Click mousebutton to stop."
 msgstr ""
 
-#: kmahjongg.cpp:511
+#: kmahjongg.cpp:509
 msgid "Now it's you again."
 msgstr ""
 
-#: kmahjongg.cpp:531
+#: kmahjongg.cpp:529
 msgid "Your computer has lost the game."
 msgstr ""
 
-#: kmahjongg.cpp:617
+#: kmahjongg.cpp:615
 msgid "Congratulations. You have won!"
 msgstr ""
 
-#: kmahjongg.cpp:643
+#: kmahjongg.cpp:641
 msgid "Calculating new game..."
 msgstr ""
 
-#: kmahjongg.cpp:649
+#: kmahjongg.cpp:647
 msgid "Error converting board information!"
 msgstr ""
 
-#: kmahjongg.cpp:661
+#: kmahjongg.cpp:659
 msgid "Ready. Now it's your turn."
 msgstr ""
 
-#: kmahjongg.cpp:667
+#: kmahjongg.cpp:665
 msgid "Error generating new game!"
 msgstr ""
 
-#: kmahjongg.cpp:1665
+#: kmahjongg.cpp:1663
 #, c-format
 msgid ""
 "Failed to load image:\n"
 "%s"
 msgstr ""
 
-#: kmahjongg.cpp:1676
+#: kmahjongg.cpp:1674
 #, c-format
 msgid ""
 "Sorry, this image uses %d colors.\n"

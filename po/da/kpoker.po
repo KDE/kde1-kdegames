@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kpoker\n"
-"POT-Creation-Date: 1999-01-05 01:44+0100\n"
+"POT-Creation-Date: 1999-03-05 01:33+0100\n"
 "PO-Revision-Date: 1999-02-16 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
 "Language-Team: da <LL@li.org>\n"
@@ -13,111 +13,111 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kpoker.cpp:82 kpoker.cpp:538
+#: kpoker.cpp:80 kpoker.cpp:536
 msgid "New game"
 msgstr "Nyt spil"
 
-#: kpoker.cpp:95
+#: kpoker.cpp:93
 msgid "Draw !"
 msgstr "Træk !"
 
-#: kpoker.cpp:122
+#: kpoker.cpp:120
 msgid "Click a card to hold it"
 msgstr "Klik på et kort for at holde på det"
 
-#: kpoker.cpp:143
+#: kpoker.cpp:141
 msgid "Held"
 msgstr "Holdt"
 
-#: kpoker.cpp:182
+#: kpoker.cpp:180
 msgid "draw new cards"
 msgstr "træk nye kort"
 
-#: kpoker.cpp:183 kpoker.cpp:184
+#: kpoker.cpp:181 kpoker.cpp:182
 msgid "your last hand"
 msgstr "din sidste hånd"
 
-#: kpoker.cpp:185 kpoker.cpp:186
+#: kpoker.cpp:183 kpoker.cpp:184
 msgid "money left"
 msgstr "penge tilbage"
 
-#: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "intet"
 
-#: kpoker.cpp:372
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "Kontanter"
 
-#: kpoker.cpp:408
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "Sidste hånd"
 
-#: kpoker.cpp:519
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "Et par"
 
-#: kpoker.cpp:520
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "To par"
 
-#: kpoker.cpp:521
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr "3 af een slags"
 
-#: kpoker.cpp:522
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr "Fuldt hus"
 
-#: kpoker.cpp:523
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr "4 af en slags"
 
-#: kpoker.cpp:524
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr "Straight"
 
-#: kpoker.cpp:525
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:526
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr "Straight flush"
 
-#: kpoker.cpp:527
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr "Royal flush"
 
-#: kpoker.cpp:536
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "Du tabte"
 
-#: kpoker.cpp:537
+#: kpoker.cpp:535
 msgid "Oops - you went bankrupt.\n"
 msgstr "Hov - du gik bankerot.\n"
 
-#: kpoker.cpp:619
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "Du vandt $"
 
-#: kpoker.cpp:622
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "Spil forbi"
 
-#: top.cpp:63
+#: top.cpp:61
 msgid "&New game"
 msgstr "&Nyt spil"
 
-#: top.cpp:69
+#: top.cpp:67
 msgid "&Sound"
 msgstr "&Lyd"
 
-#: top.cpp:72
+#: top.cpp:70
 msgid "Poker"
 msgstr "Poker"
 
-#: top.cpp:74
+#: top.cpp:72
 msgid ""
 "\n"
 "\n"
@@ -127,7 +127,7 @@ msgstr ""
 "\n"
 "af Jochen Tuchbreiter"
 
-#: top.cpp:76
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -137,7 +137,7 @@ msgstr ""
 "\n"
 "For en liste of credits see hjælpefilen"
 
-#: top.cpp:77
+#: top.cpp:75
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

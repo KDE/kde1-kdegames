@@ -1,55 +1,55 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1999-01-10 01:34+0100\n"
+"POT-Creation-Date: 1999-03-05 01:33+0100\n"
 "PO-Revision-Date: 1998-03-23 00:00+0100\n"
 "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
 
-#: kmahjongg.cpp:101
+#: kmahjongg.cpp:99
 msgid "Classic"
 msgstr "Clássica"
 
-#: kmahjongg.cpp:102
+#: kmahjongg.cpp:100
 msgid "Tower"
 msgstr "Torre"
 
-#: kmahjongg.cpp:103
+#: kmahjongg.cpp:101
 msgid "Triangle"
 msgstr "Triângulo"
 
-#: kmahjongg.cpp:104
+#: kmahjongg.cpp:102
 msgid "Pyramide"
 msgstr "Pirâmide"
 
-#: kmahjongg.cpp:211
+#: kmahjongg.cpp:209
 msgid "&Start new game"
 msgstr "&Começar novo jogo"
 
-#: kmahjongg.cpp:213
+#: kmahjongg.cpp:211
 msgid "&Help me"
 msgstr "&Ajude-me"
 
-#: kmahjongg.cpp:214
+#: kmahjongg.cpp:212
 msgid "&Undo last move"
 msgstr "&Desfazer última jogada"
 
-#: kmahjongg.cpp:215
+#: kmahjongg.cpp:213
 msgid "&Demo mode"
 msgstr "&Modo de demonstração"
 
-#: kmahjongg.cpp:216
+#: kmahjongg.cpp:214
 msgid "Show &matching tiles"
 msgstr "&Mostrar peças iguais"
 
-#: kmahjongg.cpp:222
+#: kmahjongg.cpp:220
 msgid "&Load Background image..."
 msgstr "&Carregar imagem de fundo..."
 
-#: kmahjongg.cpp:224
+#: kmahjongg.cpp:222
 msgid "&Statusbar"
 msgstr "Barra de &status"
 
-#: kmahjongg.cpp:227
+#: kmahjongg.cpp:225
 #, c-format
 msgid ""
 "Mahjongg %s\n"
@@ -60,55 +60,55 @@ msgstr ""
 "\n"
 "por Mathias Mueller (in5y158@public.uni-hamburg.de)"
 
-#: kmahjongg.cpp:386 kmahjongg.cpp:400
+#: kmahjongg.cpp:384 kmahjongg.cpp:398
 msgid "Unable to open bitmap file !"
 msgstr "Impossível abrir arquivo de imagem !"
 
-#: kmahjongg.cpp:454
+#: kmahjongg.cpp:452
 msgid "Undo operation done successfully."
 msgstr "Operação de desfazer concluída."
 
-#: kmahjongg.cpp:457
+#: kmahjongg.cpp:455
 msgid "What do you want to undo? You have done nothing!"
 msgstr "Não há nada para desfazer."
 
-#: kmahjongg.cpp:472 kmahjongg.cpp:1436
+#: kmahjongg.cpp:470 kmahjongg.cpp:1434
 msgid "Sorry, you have lost the game."
 msgstr "Desculpe, mas você perdeu o jogo."
 
-#: kmahjongg.cpp:503
+#: kmahjongg.cpp:501
 msgid "Demo mode. Click mousebutton to stop."
 msgstr "Modo de demonstração. Clique para parar."
 
-#: kmahjongg.cpp:511
+#: kmahjongg.cpp:509
 msgid "Now it's you again."
 msgstr "Você novamente."
 
-#: kmahjongg.cpp:531
+#: kmahjongg.cpp:529
 msgid "Your computer has lost the game."
 msgstr "O seu computador perdeu o jogo."
 
-#: kmahjongg.cpp:617
+#: kmahjongg.cpp:615
 msgid "Congratulations. You have won!"
 msgstr "Parabéns! Ganhou!"
 
-#: kmahjongg.cpp:643
+#: kmahjongg.cpp:641
 msgid "Calculating new game..."
 msgstr "Calculando novo jogo..."
 
-#: kmahjongg.cpp:649
+#: kmahjongg.cpp:647
 msgid "Error converting board information!"
 msgstr "Erro ao converter informação do tabuleiro!"
 
-#: kmahjongg.cpp:661
+#: kmahjongg.cpp:659
 msgid "Ready. Now it's your turn."
 msgstr "Pronto. Agora é a sua vez."
 
-#: kmahjongg.cpp:667
+#: kmahjongg.cpp:665
 msgid "Error generating new game!"
 msgstr "Erro ao gerar novo jogo!"
 
-#: kmahjongg.cpp:1665
+#: kmahjongg.cpp:1663
 #, c-format
 msgid ""
 "Failed to load image:\n"
@@ -117,7 +117,7 @@ msgstr ""
 "Erro ao carregar imagem:\n"
 "%s"
 
-#: kmahjongg.cpp:1676
+#: kmahjongg.cpp:1674
 #, c-format
 msgid ""
 "Sorry, this image uses %d colors.\n"

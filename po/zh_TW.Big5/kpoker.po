@@ -6,132 +6,132 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1999-01-05 01:44+0100\n"
+"POT-Creation-Date: 1999-03-05 01:33+0100\n"
 "PO-Revision-Date: 1998-04-21 03:55+0800\n"
 "Last-Translator: Chou Yeh-Jyi <ycchou@ccca.nctu.edu.tw>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: kpoker.cpp:82 kpoker.cpp:538
+#: kpoker.cpp:80 kpoker.cpp:536
 msgid "New game"
 msgstr "新遊戲"
 
-#: kpoker.cpp:95
+#: kpoker.cpp:93
 msgid "Draw !"
 msgstr "洗牌 !"
 
-#: kpoker.cpp:122
+#: kpoker.cpp:120
 msgid "Click a card to hold it"
 msgstr "選擇想保留的卡片"
 
-#: kpoker.cpp:143
+#: kpoker.cpp:141
 msgid "Held"
 msgstr "保留"
 
-#: kpoker.cpp:182
+#: kpoker.cpp:180
 msgid "draw new cards"
 msgstr "洗新的牌"
 
-#: kpoker.cpp:183 kpoker.cpp:184
+#: kpoker.cpp:181 kpoker.cpp:182
 msgid "your last hand"
 msgstr "您的最後一手"
 
-#: kpoker.cpp:185 kpoker.cpp:186
+#: kpoker.cpp:183 kpoker.cpp:184
 msgid "money left"
 msgstr "剩下的錢"
 
-#: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "沒有"
 
-#: kpoker.cpp:372
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "現金"
 
-#: kpoker.cpp:408
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "最後一手"
 
-#: kpoker.cpp:519
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "一對"
 
-#: kpoker.cpp:520
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "兩對"
 
-#: kpoker.cpp:521
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr ""
 
-#: kpoker.cpp:522
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr ""
 
-#: kpoker.cpp:523
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr ""
 
-#: kpoker.cpp:524
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr ""
 
-#: kpoker.cpp:525
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr ""
 
-#: kpoker.cpp:526
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr ""
 
-#: kpoker.cpp:527
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr ""
 
-#: kpoker.cpp:536
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "您輸了"
 
-#: kpoker.cpp:537
+#: kpoker.cpp:535
 msgid "Oops - you went bankrupt.\n"
 msgstr ""
 
-#: kpoker.cpp:619
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "您嬴了 $"
 
-#: kpoker.cpp:622
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "遊戲結束"
 
-#: top.cpp:63
+#: top.cpp:61
 msgid "&New game"
 msgstr "新遊戲[&N]"
 
-#: top.cpp:69
+#: top.cpp:67
 msgid "&Sound"
 msgstr "音效[&S]"
 
-#: top.cpp:72
+#: top.cpp:70
 msgid "Poker"
 msgstr ""
 
-#: top.cpp:74
+#: top.cpp:72
 msgid ""
 "\n"
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
 
-#: top.cpp:76
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
 
-#: top.cpp:77
+#: top.cpp:75
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

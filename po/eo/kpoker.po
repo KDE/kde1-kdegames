@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker 1.0\n"
-"POT-Creation-Date: 1999-01-05 01:44+0100\n"
+"POT-Creation-Date: 1999-03-05 01:33+0100\n"
 "PO-Revision-Date: 1998-12-17 20:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -14,111 +14,111 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-3\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: kpoker.cpp:82 kpoker.cpp:538
+#: kpoker.cpp:80 kpoker.cpp:536
 msgid "New game"
 msgstr "Nova ludo"
 
-#: kpoker.cpp:95
+#: kpoker.cpp:93
 msgid "Draw !"
 msgstr "Tiru!"
 
-#: kpoker.cpp:122
+#: kpoker.cpp:120
 msgid "Click a card to hold it"
 msgstr "Alkliku karton por preni øin"
 
-#: kpoker.cpp:143
+#: kpoker.cpp:141
 msgid "Held"
 msgstr "Prenita"
 
-#: kpoker.cpp:182
+#: kpoker.cpp:180
 msgid "draw new cards"
 msgstr "Prenu novajn kartojn"
 
-#: kpoker.cpp:183 kpoker.cpp:184
+#: kpoker.cpp:181 kpoker.cpp:182
 msgid "your last hand"
 msgstr "via lasta mano"
 
-#: kpoker.cpp:185 kpoker.cpp:186
+#: kpoker.cpp:183 kpoker.cpp:184
 msgid "money left"
 msgstr "restinta mono"
 
-#: kpoker.cpp:214 kpoker.cpp:517 kpoker.cpp:529
+#: kpoker.cpp:212 kpoker.cpp:515 kpoker.cpp:527
 msgid "nothing"
 msgstr "nenio"
 
-#: kpoker.cpp:372
+#: kpoker.cpp:370
 msgid "Cash"
 msgstr "kontante"
 
-#: kpoker.cpp:408
+#: kpoker.cpp:406
 msgid "Last Hand"
 msgstr "Lasta mano"
 
-#: kpoker.cpp:519
+#: kpoker.cpp:517
 msgid "One Pair"
 msgstr "Unu paro"
 
-#: kpoker.cpp:520
+#: kpoker.cpp:518
 msgid "Two Pairs"
 msgstr "Du paroj"
 
-#: kpoker.cpp:521
+#: kpoker.cpp:519
 msgid "3 of a kind"
 msgstr "Tri de unu speco"
 
-#: kpoker.cpp:522
+#: kpoker.cpp:520
 msgid "Full House"
 msgstr "Plena Domo"
 
-#: kpoker.cpp:523
+#: kpoker.cpp:521
 msgid "4 of a kind"
 msgstr "Kvar de unu speco"
 
-#: kpoker.cpp:524
+#: kpoker.cpp:522
 msgid "Straight"
 msgstr "Strato"
 
-#: kpoker.cpp:525
+#: kpoker.cpp:523
 msgid "Flush"
 msgstr "Kvino"
 
-#: kpoker.cpp:526
+#: kpoker.cpp:524
 msgid "Straight Flush"
 msgstr "Strata Kvino"
 
-#: kpoker.cpp:527
+#: kpoker.cpp:525
 msgid "Royal Flush"
 msgstr "Reøa Kvino"
 
-#: kpoker.cpp:536
+#: kpoker.cpp:534
 msgid "You Lost"
 msgstr "Vi malvenkis"
 
-#: kpoker.cpp:537
+#: kpoker.cpp:535
 msgid "Oops - you went bankrupt.\n"
 msgstr "Ho ve - vi bankrotas.\n"
 
-#: kpoker.cpp:619
+#: kpoker.cpp:617
 msgid "You won $"
 msgstr "Vi gajnis $"
 
-#: kpoker.cpp:622
+#: kpoker.cpp:620
 msgid "Game Over"
 msgstr "Ludo finita"
 
-#: top.cpp:63
+#: top.cpp:61
 msgid "&New game"
 msgstr "&Nova ludo"
 
-#: top.cpp:69
+#: top.cpp:67
 msgid "&Sound"
 msgstr "&Sonoroj"
 
-#: top.cpp:72
+#: top.cpp:70
 msgid "Poker"
 msgstr "Pokero"
 
-#: top.cpp:74
+#: top.cpp:72
 msgid ""
 "\n"
 "\n"
@@ -128,7 +128,7 @@ msgstr ""
 "\n"
 "de Jochen Tuchbreiter"
 
-#: top.cpp:76
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -138,7 +138,7 @@ msgstr ""
 "\n"
 "Dankolisto troviøas en la helpdosiero"
 
-#: top.cpp:77
+#: top.cpp:75
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
