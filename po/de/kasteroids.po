@@ -1,0 +1,47 @@
+#: toplevel.cpp:89
+msgid "&New Game"
+msgstr "&Neues Spiel"
+
+#: toplevel.cpp:92
+msgid "&Quit"
+msgstr "&Beenden"
+
+#: toplevel.cpp:97
+msgid "&About"
+msgstr "Ü&ber"
+
+#: toplevel.cpp:100
+msgid "&File"
+msgstr "&Datei"
+
+#: toplevel.cpp:102
+msgid "&Help"
+msgstr "&Hilfe"
+
+#: toplevel.cpp:115 toplevel.cpp:190 toplevel.cpp:257
+msgid "Score"
+msgstr "Punkte"
+
+#: toplevel.cpp:117 toplevel.cpp:193 toplevel.cpp:272
+msgid "Level"
+msgstr "Stufe"
+
+#: toplevel.cpp:119 toplevel.cpp:196 toplevel.cpp:222
+msgid "Ships"
+msgstr "Schiffe"
+
+#: toplevel.cpp:201
+msgid "Press Enter to launch."
+msgstr "Zum Starten Enter drücken!"
+
+#: toplevel.cpp:214 toplevel.cpp:234
+msgid "KAsteriods"
+msgstr ""
+
+#: toplevel.cpp:227
+msgid "Ship Destroyed.  Press Enter to launch."
+msgstr "Schiff zerstört. Zum Starten Enter drücken!"
+
+#: toplevel.cpp:235
+msgid "Game Over!"
+msgstr "Das Spiel ist aus!"

@@ -111,9 +111,13 @@ void KAstTopLevel::createToolBar()
 void KAstTopLevel::createStatusBar()
 {
     statusbar = new KStatusBar( this );
-    statusbar->insertItem( "Score:         ", SB_SCORE );
-    statusbar->insertItem( "Level:         ", SB_LEVEL );
-    statusbar->insertItem( "Ships:       ", SB_SHIPS );
+    QString text;
+    text.sprintf("%s:         ", klocale->translate("Score")); 
+    statusbar->insertItem( text, SB_SCORE );
+    text.sprintf("%s:         ", klocale->translate("Level")); 
+    statusbar->insertItem( text, SB_LEVEL );
+    text.sprintf("%s:       ", klocale->translate("Ships")); 
+    statusbar->insertItem( text, SB_SHIPS );
 }
 
 void KAstTopLevel::keyPressEvent( QKeyEvent *event )
@@ -181,12 +185,16 @@ void KAstTopLevel::keyReleaseEvent( QKeyEvent *event )
 
 void KAstTopLevel::slotNewGame()
 {
+    QString text;
     score = 0;
-    statusbar->changeItem( "Score:      0", SB_SCORE );
+    text.sprintf("%s:      0", klocale->translate("Score"));
+    statusbar->changeItem( text, SB_SCORE );
     level = 0;
-    statusbar->changeItem( "Level:    1", SB_SCORE );
+    text.sprintf("%s:      1", klocale->translate("Level")); 
+    statusbar->changeItem(text , SB_SCORE );
     shipsRemain = 5;
-    statusbar->changeItem( "Ships:    5", SB_SHIPS );
+    text.sprintf("%s:    5", klocale->translate("Ships"));
+    statusbar->changeItem( text, SB_SHIPS );
     view->newGame();
     view->setRockSpeed( levels[0].rockSpeed );
     view->addRocks( levels[0].nrocks );
@@ -211,7 +219,7 @@ void KAstTopLevel::slotShipKilled()
 {
     shipsRemain--;
     char buffer[80];
-    sprintf( buffer, "Ships: %5d", shipsRemain );
+    sprintf( buffer, "%s: %5d", klocale->translate("Ships"), shipsRemain );
     statusbar->changeItem( buffer, SB_SHIPS );
 
     if ( shipsRemain )
@@ -246,7 +254,7 @@ void KAstTopLevel::slotRockHit( int size )
     }
 
     char buffer[80];
-    sprintf( buffer, "Score: %6d", score );
+    sprintf( buffer, "%s: %6d", klocale->translate("Score"), score );
     statusbar->changeItem( buffer, SB_SCORE );
 }
 
@@ -261,7 +269,7 @@ void KAstTopLevel::slotRocksRemoved()
     view->addRocks( levels[level-1].nrocks );
 
     char buffer[80];
-    sprintf( buffer, "Level: %5d", level );
+    sprintf( buffer, "%s: %5d", klocale->translate("Level"), level );
     statusbar->changeItem( buffer, SB_LEVEL );
 }
 
