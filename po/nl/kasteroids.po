@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,34 +14,33 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:77
+#: toplevel.cpp:98
 msgid "Score"
 msgstr "Score"
 
-#: toplevel.cpp:91
+#: toplevel.cpp:112
 msgid "Level"
 msgstr "Level"
 
-#: toplevel.cpp:105
+#: toplevel.cpp:126
 msgid "Ships"
 msgstr "Schepen"
 
-#: toplevel.cpp:165
-msgid "&About..."
-msgstr "&Info..."
-
-#: toplevel.cpp:262
+#: toplevel.cpp:317
 msgid "Press Enter to launch."
 msgstr "Druk op Enter om te beginnen"
 
-#: toplevel.cpp:280 toplevel.cpp:299
-msgid "KAsteriods"
-msgstr ""
-
-#: toplevel.cpp:292
+#: toplevel.cpp:336
 msgid "Ship Destroyed.  Press Enter to launch."
 msgstr "Schip vernietigd. Druk op Enter om te beginnen."
 
-#: toplevel.cpp:300
+#: toplevel.cpp:340
+msgid "KAsteriods"
+msgstr ""
+
+#: toplevel.cpp:341
 msgid "Game Over!"
 msgstr "Spel over!"
+
+#~ msgid "&About..."
+#~ msgstr "&Info..."

@@ -5,13 +5,13 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-03-05 12:11+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
-"Content-Transfer-Encoding: 8bit\n"           
+"Content-Transfer-Encoding: 8bit\n"
 
 #: cardmaps.cpp:62
 msgid "please wait, loading cards..."
@@ -103,139 +103,88 @@ msgstr ""
 msgid "No more cards"
 msgstr "®iadne ïal¹ie karty nie sú k dispozícii"
 
-#: pwidget.cpp:98
+#: pwidget.cpp:95
 msgid "&Restart game"
 msgstr "&Re¹tartuj hru"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:99
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:103 pwidget.cpp:287
+#: pwidget.cpp:100 pwidget.cpp:275
 msgid "MicroSolitaire"
 msgstr "Mikrosolitaire"
 
-#: pwidget.cpp:104 pwidget.cpp:291
+#: pwidget.cpp:101 pwidget.cpp:279
 msgid "Calculation"
 msgstr "Výpoèet"
 
-#: pwidget.cpp:105
+#: pwidget.cpp:102
 msgid "Napoleon's Tomb"
 msgstr "Napoleonova hrobka"
 
-#: pwidget.cpp:106 pwidget.cpp:295
+#: pwidget.cpp:103 pwidget.cpp:283
 msgid "The Idiot"
 msgstr "Idiot"
 
-#: pwidget.cpp:107 pwidget.cpp:279
+#: pwidget.cpp:104 pwidget.cpp:267
 msgid "Grandfather"
 msgstr "Dedko"
 
-#: pwidget.cpp:108 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:255
 msgid "Ten"
 msgstr "Desiatka"
 
-#: pwidget.cpp:109 pwidget.cpp:271
+#: pwidget.cpp:106 pwidget.cpp:259
 msgid "Mod3"
 msgstr "Mód3"
 
-#: pwidget.cpp:110 pwidget.cpp:275
+#: pwidget.cpp:107 pwidget.cpp:263
 msgid "Freecell"
 msgstr "Freecell"
 
-#: pwidget.cpp:112
+#: pwidget.cpp:109
 msgid "Choose new game"
 msgstr "Zvoµ novú hru"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:115
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:116
 msgid "Classic blue"
 msgstr "Klasické modré"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:117
 msgid "Classic red"
 msgstr "Klasické èervené"
 
-#: pwidget.cpp:121
+#: pwidget.cpp:118
 msgid "Technical"
 msgstr "Technické"
 
-#: pwidget.cpp:122
+#: pwidget.cpp:119
 msgid "Card backside"
 msgstr "Zadná strana kariet"
 
-#: pwidget.cpp:123
+#: pwidget.cpp:120
 msgid "Animation on startup"
 msgstr "Animácia pri ¹tarte"
 
-#: pwidget.cpp:129
-msgid "Help on &rules..."
-msgstr "Nápoveda k &pravidlám..."
-
-#: pwidget.cpp:131
-msgid "About &Qt..."
-msgstr "Informácie o &Qt"
-
-#: pwidget.cpp:254
-#, c-format
-msgid "COMMAND %d not implemented!\n"
-msgstr "Príkaz %d nie je implementovaný!\n"
-
-#: pwidget.cpp:283
+#: pwidget.cpp:271
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:287
 msgid "Napoleons Tomb"
 msgstr "Napoleonova hrobka"
 
-#: pwidget.cpp:304
+#: pwidget.cpp:292
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: neimplementovaný typ hry %d\n"
 
-#: pwidget.cpp:336
-msgid ""
-"KPat\n"
-"\n"
-"Version "
-msgstr ""
-"KPat\n"
-"\n"
-"Verzia "
-
-#: pwidget.cpp:338
-msgid ""
-"\n"
-"Copyright (C) 1997  Paul Olav Tvete\n"
-"\n"
-"Additional work done by:\n"
-"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"This program is part of the K Desktop Environment.\n"
-"Use help for license information."
-msgstr ""
-"\n"
-"Copyright (C) 1995  Paul Olav Tvete\n"
-"\n"
-"S prispením:\t\n"
-"\tRodolfa Borgese\t\t<barrett@labma.ufrj.br>\t \n"
-"\tMatthiase Ettricha\t<ettrich@kde.org>\n"
-"\tMaria Weilguniho\t<mweilguni@sime.com>\n"
-"\n"
-"Tento program je súèas»ou KDE.\n"
-"Pre informácie k licenèným podmienkam pou¾i pomocníka."
-
-#: pwidget.cpp:347
-msgid "About kpat"
-msgstr "Informácie o kpate"
-
-#: pwidget.cpp:385
+#: pwidget.cpp:342
 msgid "Could not load background image!"
 msgstr "Nemô¾em nahra» obrázok zadnej strany!"
 
@@ -243,3 +192,46 @@ msgstr "Nemô¾em nahra» obrázok zadnej strany!"
 msgid "Full Auto"
 msgstr "Plne automatické"
 
+#~ msgid "Help on &rules..."
+#~ msgstr "Nápoveda k &pravidlám..."
+
+#~ msgid "About &Qt..."
+#~ msgstr "Informácie o &Qt"
+
+#~ msgid "COMMAND %d not implemented!\n"
+#~ msgstr "Príkaz %d nie je implementovaný!\n"
+
+#~ msgid ""
+#~ "KPat\n"
+#~ "\n"
+#~ "Version "
+#~ msgstr ""
+#~ "KPat\n"
+#~ "\n"
+#~ "Verzia "
+
+#~ msgid ""
+#~ "\n"
+#~ "Copyright (C) 1997  Paul Olav Tvete\n"
+#~ "\n"
+#~ "Additional work done by:\n"
+#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
+#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
+#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
+#~ "\n"
+#~ "This program is part of the K Desktop Environment.\n"
+#~ "Use help for license information."
+#~ msgstr ""
+#~ "\n"
+#~ "Copyright (C) 1995  Paul Olav Tvete\n"
+#~ "\n"
+#~ "S prispením:\t\n"
+#~ "\tRodolfa Borgese\t\t<barrett@labma.ufrj.br>\t \n"
+#~ "\tMatthiase Ettricha\t<ettrich@kde.org>\n"
+#~ "\tMaria Weilguniho\t<mweilguni@sime.com>\n"
+#~ "\n"
+#~ "Tento program je súèas»ou KDE.\n"
+#~ "Pre informácie k licenèným podmienkam pou¾i pomocníka."
+
+#~ msgid "About kpat"
+#~ msgstr "Informácie o kpate"

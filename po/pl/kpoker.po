@@ -1,88 +1,88 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker \n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-01-17 21:35+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.com.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
-#: kpoker.cpp:96
+#: kpoker.cpp:98
 msgid "Draw !"
 msgstr "Rozdanie !"
 
-#: kpoker.cpp:123
+#: kpoker.cpp:125
 msgid "Click a card to hold it"
 msgstr "Kliknij w kartê by j± zatrzymaæ"
 
-#: kpoker.cpp:144
+#: kpoker.cpp:146
 msgid "Held"
 msgstr "Zatrzymane"
 
-#: kpoker.cpp:178
+#: kpoker.cpp:185
 msgid "draw new cards"
 msgstr "Rozdaj nowe karty"
 
-#: kpoker.cpp:179 kpoker.cpp:180
+#: kpoker.cpp:186 kpoker.cpp:187
 msgid "your last hand"
 msgstr "ostatnie rozdanie"
 
-#: kpoker.cpp:181 kpoker.cpp:182
+#: kpoker.cpp:188 kpoker.cpp:189
 msgid "money left"
 msgstr "pozosta³o pieniêdzy"
 
-#: kpoker.cpp:205 kpoker.cpp:485 kpoker.cpp:497
+#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
 msgid "nothing"
 msgstr "nic"
 
-#: kpoker.cpp:360
+#: kpoker.cpp:366
 msgid "Cash"
 msgstr "Kasa"
 
-#: kpoker.cpp:374
+#: kpoker.cpp:402
 msgid "Last Hand"
 msgstr "Masz"
 
-#: kpoker.cpp:487
+#: kpoker.cpp:513
 msgid "One Pair"
 msgstr "Para"
 
-#: kpoker.cpp:488
+#: kpoker.cpp:514
 msgid "Two Pairs"
 msgstr "Dwie Pary"
 
-#: kpoker.cpp:489
+#: kpoker.cpp:515
 msgid "3 of a kind"
 msgstr "Trójka"
 
-#: kpoker.cpp:490
+#: kpoker.cpp:516
 msgid "Full House"
 msgstr "Pe³na Kareta"
 
-#: kpoker.cpp:491
+#: kpoker.cpp:517
 msgid "4 of a kind"
 msgstr "Kareta"
 
-#: kpoker.cpp:492
+#: kpoker.cpp:518
 msgid "Straight"
 msgstr "Strit"
 
-#: kpoker.cpp:493
+#: kpoker.cpp:519
 msgid "Flush"
 msgstr "Kolor"
 
-#: kpoker.cpp:494
+#: kpoker.cpp:520
 msgid "Straight Flush"
 msgstr "Poker"
 
-#: kpoker.cpp:495
+#: kpoker.cpp:521
 msgid "Royal Flush"
 msgstr "Poker"
 
-#: kpoker.cpp:503
+#: kpoker.cpp:530
 msgid "You Lost"
 msgstr "Przegra³e¶"
 
-#: kpoker.cpp:504
+#: kpoker.cpp:531
 msgid ""
 "Oops - you went bankrupt.\n"
 "A highscoretable will appear over here later..."
@@ -90,30 +90,28 @@ msgstr ""
 "Ojej - zbankrutowa³e¶.\n"
 "Za chwilê zobaczysz listê wyników..."
 
-#: kpoker.cpp:505
+#: kpoker.cpp:532
 msgid "New game"
 msgstr "Nowa gra"
 
-#: kpoker.cpp:571
+#: kpoker.cpp:613
 msgid "You won $"
 msgstr "Wygra³e¶ $"
 
-#: kpoker.cpp:575
+#: kpoker.cpp:616
 msgid "Game Over"
 msgstr "Koniec gry"
 
-#: top.cpp:62
+#: top.cpp:64
 msgid "&New game"
 msgstr "&Nowa gra"
 
-#: top.cpp:68
+#: top.cpp:70
 msgid "&Sound"
 msgstr "&D¼wiêk"
 
-#: top.cpp:81
-msgid "&About..."
-msgstr "&Informacje"
+#~ msgid "&About..."
+#~ msgstr "&Informacje"
 
-#: top.cpp:82
-msgid "About &Qt..."
-msgstr "Informacje o &Qt"
+#~ msgid "About &Qt..."
+#~ msgstr "Informacje o &Qt"

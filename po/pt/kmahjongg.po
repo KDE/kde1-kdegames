@@ -1,8 +1,7 @@
-
 msgid ""
 msgstr ""
 "Project-Id-Version: kmahjongg\n"
-"POT-Creation-Date: 1998-02-26 15:02+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-03-10 00:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 

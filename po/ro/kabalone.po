@@ -1,32 +1,28 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
 
-#: AbTop.cpp:240 AbTop.cpp:399
+#: AbTop.cpp:241 AbTop.cpp:398
 msgid "Move"
 msgstr "Miºcare"
 
-#: AbTop.cpp:243 AbTop.cpp:403
+#: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
 msgstr "F2 pentru un joc nou"
 
-#: AbTop.cpp:261 AbTop.cpp:301
+#: AbTop.cpp:262 AbTop.cpp:301
 msgid "Stop Search"
 msgstr "întrerupe cãutarea"
 
-#: AbTop.cpp:266 AbTop.cpp:305
+#: AbTop.cpp:267 AbTop.cpp:305
 msgid "Take back"
 msgstr "Ia înapoi"
 
-#: AbTop.cpp:271 AbTop.cpp:307
+#: AbTop.cpp:272 AbTop.cpp:307
 msgid "Hint"
 msgstr "Ofertã"
-
-#: AbTop.cpp:276 AbTop.cpp:352
-msgid "Rules"
-msgstr "Reguli de joc"
 
 #: AbTop.cpp:296
 msgid "Save Position"
@@ -48,11 +44,11 @@ msgstr "Greu"
 msgid "Challange"
 msgstr "Provocare"
 
-#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:327 AbTop.cpp:406 AbTop.cpp:410
 msgid "Red"
 msgstr "Roºu"
 
-#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:329 AbTop.cpp:406 AbTop.cpp:410
 msgid "Yellow"
 msgstr "Galben"
 
@@ -76,15 +72,15 @@ msgstr "Miºcã incet"
 msgid "Spy"
 msgstr "Spion"
 
-#: AbTop.cpp:408
+#: AbTop.cpp:407
 msgid "won"
 msgstr "a cîºtigat"
 
-#: AbTop.cpp:412
+#: AbTop.cpp:411
 msgid "I am thinking..."
 msgstr "Gîndesc..."
 
-#: AbTop.cpp:413
+#: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "Tu eºti la rînd !"
 
@@ -131,3 +127,6 @@ msgstr "Cea mai buna miºcare pîna acum:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "Spion"
+
+#~ msgid "Rules"
+#~ msgstr "Reguli de joc"

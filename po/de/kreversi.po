@@ -1,19 +1,20 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1997-10-25 18:54 MET DST\n"
 "Last-Translator: Mario Weilguni <mweilguni@sime.com>\n"
 
-#: about.cpp:51
-msgid "About KReversi"
+#: about.cpp:52
+#, fuzzy
+msgid "About kreversi"
 msgstr "Über KReversi"
 
-#: about.cpp:64
+#: about.cpp:65
 msgid "Version "
 msgstr "Version "
 
-#: about.cpp:66
+#: about.cpp:67
 msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
@@ -52,7 +53,7 @@ msgstr ""
 "\tArne Klaassen\n"
 "\tfür die Bilder der Spielsteine"
 
-#: app.cpp:218 app.cpp:548
+#: app.cpp:218 app.cpp:553
 msgid ""
 "A problem with the sound server occured!\n"
 "Cannot enable sound support."
@@ -74,7 +75,8 @@ msgid "&Save game"
 msgstr "Spiel &speichern"
 
 #: app.cpp:252
-msgid "Get &hint)"
+#, fuzzy
+msgid "Get &hint"
 msgstr "Zug &vorschlagen"
 
 #: app.cpp:254
@@ -219,91 +221,74 @@ msgstr "Animationsgeschwindigkeit"
 msgid "S&ound"
 msgstr "S&ound"
 
-#: app.cpp:330
-msgid "&Rules"
-msgstr "&Regeln"
-
-#: app.cpp:331
-msgid "&Strategy hints"
-msgstr "&Strategiehinweise"
-
-# app.cpp:317
-#: app.cpp:333
-msgid "About &Qt..."
-msgstr "Über &Qt..."
-
-#: app.cpp:334
-msgid "&About..."
-msgstr "Ü&ber..."
-
-#: app.cpp:375
+#: app.cpp:369
 msgid "Stop thinking"
 msgstr "Zugberechnung stoppen"
 
-#: app.cpp:376
+#: app.cpp:370
 msgid "Undo move"
 msgstr "Zug zurücknehmen"
 
-#: app.cpp:377
+#: app.cpp:371
 msgid "Shrink board"
 msgstr "Spielfeld verkleinern"
 
-#: app.cpp:378
+#: app.cpp:372
 msgid "Enlarge board"
 msgstr "Spielfeld vergrößern"
 
-#: app.cpp:379
+#: app.cpp:373
 msgid "Get hint"
 msgstr "Zug vorschlagen"
 
-#: app.cpp:380
+#: app.cpp:374
 msgid "Get help"
 msgstr "Hilfe"
 
-#: app.cpp:387
+#: app.cpp:381
 msgid "XXXXX's turn"
 msgstr "XXXXX's Zug"
 
-#: app.cpp:388
+#: app.cpp:382
 msgid "You (XXXXX): 88"
 msgstr "Sie (XXXXX) : 88"
 
-#: app.cpp:389
+#: app.cpp:383
 msgid "Computer (XXXXX): 88"
 msgstr "Computer (XXXXX): 88"
 
 # app.cpp:416
-#: app.cpp:424
+#: app.cpp:429
 msgid "Game saved"
 msgstr "Spiel gespeichert"
 
-#: app.cpp:602
+#: app.cpp:591
 msgid "not yet implemented"
 msgstr "nicht verfügbares Feature"
 
-#: app.cpp:615 app.cpp:620
+#: app.cpp:604 app.cpp:609
 #, c-format
 msgid "You (%s): %d"
 msgstr "Sie (%s): %d"
 
-#: app.cpp:616 app.cpp:623 app.cpp:923
+#: app.cpp:605 app.cpp:612 app.cpp:912
 msgid "blue"
 msgstr "blau"
 
-#: app.cpp:617 app.cpp:622
+#: app.cpp:606 app.cpp:611
 #, c-format
 msgid "Computer (%s): %d"
 msgstr "Computer (%s): %d"
 
-#: app.cpp:618 app.cpp:621 app.cpp:925
+#: app.cpp:607 app.cpp:610 app.cpp:914
 msgid "red"
 msgstr "rot"
 
-#: app.cpp:667
+#: app.cpp:656
 msgid "End of game"
 msgstr "Spielende"
 
-#: app.cpp:677
+#: app.cpp:666
 #, c-format
 msgid ""
 "Game is drawn!\n"
@@ -316,11 +301,11 @@ msgstr ""
 "Sie     : %d\n"
 "Computer: %d"
 
-#: app.cpp:678 app.cpp:690 app.cpp:710
+#: app.cpp:667 app.cpp:679 app.cpp:699
 msgid "Game ended"
 msgstr "Spielende"
 
-#: app.cpp:688
+#: app.cpp:677
 msgid ""
 "Congratulations, you have won!\n"
 "\n"
@@ -334,7 +319,7 @@ msgstr ""
 "Computer: %d\n"
 "Ihre Wertung %4.1f%%"
 
-#: app.cpp:708
+#: app.cpp:697
 #, c-format
 msgid ""
 "You have lost the game!\n"
@@ -347,47 +332,47 @@ msgstr ""
 "Sie     : %d\n"
 "Computer: %d"
 
-#: app.cpp:719
+#: app.cpp:708
 msgid "Red's"
 msgstr "Rot am"
 
-#: app.cpp:719 app.cpp:721
+#: app.cpp:708 app.cpp:710
 msgid "turn"
 msgstr "Zug"
 
-#: app.cpp:721
+#: app.cpp:710
 msgid "Blue's"
 msgstr "Blau am"
 
-#: app.cpp:866
+#: app.cpp:855
 msgid "Hall of Fame"
 msgstr "Ruhmeshalle"
 
-#: app.cpp:867 app.cpp:871
+#: app.cpp:856 app.cpp:860
 msgid "KReversi: Hall Of Fame"
 msgstr "KReversi: Ruhmeshalle"
 
-#: app.cpp:892
+#: app.cpp:881
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:896
+#: app.cpp:885
 msgid "Name"
 msgstr "Name"
 
-#: app.cpp:900
+#: app.cpp:889
 msgid "Color"
 msgstr "Farbe"
 
-#: app.cpp:904
+#: app.cpp:893
 msgid "Score"
 msgstr "Punkte"
 
-#: app.cpp:908
+#: app.cpp:897
 msgid "Rating"
 msgstr "Maßstab"
 
-#: app.cpp:998
+#: app.cpp:987
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -397,6 +382,19 @@ msgstr ""
 "Geben Sie Ihren Namen ein, damit die Menschheit sich\n"
 "an Ihre Wertung erinnern möge."
 
-#: app.cpp:1001
+#: app.cpp:990
 msgid "Your name:"
 msgstr "Ihr Name:"
+
+#~ msgid "&Rules"
+#~ msgstr "&Regeln"
+
+#~ msgid "&Strategy hints"
+#~ msgstr "&Strategiehinweise"
+
+# app.cpp:317
+#~ msgid "About &Qt..."
+#~ msgstr "Über &Qt..."
+
+#~ msgid "&About..."
+#~ msgstr "Ü&ber..."

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,15 +14,16 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: about.cpp:51
-msgid "About KReversi"
+#: about.cpp:52
+#, fuzzy
+msgid "About kreversi"
 msgstr "Tietoja KReversistä"
 
-#: about.cpp:64
+#: about.cpp:65
 msgid "Version "
 msgstr "Versio "
 
-#: about.cpp:66
+#: about.cpp:67
 msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
@@ -60,7 +61,7 @@ msgstr ""
 "\tArne Klaassen\n"
 "\t varjostetuista napeista"
 
-#: app.cpp:218 app.cpp:548
+#: app.cpp:218 app.cpp:553
 msgid ""
 "A problem with the sound server occured!\n"
 "Cannot enable sound support."
@@ -81,7 +82,8 @@ msgid "&Save game"
 msgstr "&Tallenna peli"
 
 #: app.cpp:252
-msgid "Get &hint)"
+#, fuzzy
+msgid "Get &hint"
 msgstr "&Vinkki"
 
 #: app.cpp:254
@@ -226,89 +228,73 @@ msgstr "Animaationopeus"
 msgid "S&ound"
 msgstr "&Ääni"
 
-#: app.cpp:330
-msgid "&Rules"
-msgstr "&Säännöt"
-
-#: app.cpp:331
-msgid "&Strategy hints"
-msgstr "&Strategiavihjeet"
-
-#: app.cpp:333
-msgid "About &Qt..."
-msgstr "Tietoja &Qt:ta..."
-
-#: app.cpp:334
-msgid "&About..."
-msgstr "&Tietoja..."
-
-#: app.cpp:375
+#: app.cpp:369
 msgid "Stop thinking"
 msgstr "Lopeta ajattelu"
 
-#: app.cpp:376
+#: app.cpp:370
 msgid "Undo move"
 msgstr "Peru siirto"
 
-#: app.cpp:377
+#: app.cpp:371
 msgid "Shrink board"
 msgstr "Pienennä lautaa"
 
-#: app.cpp:378
+#: app.cpp:372
 msgid "Enlarge board"
 msgstr "Suurenna lautaa"
 
-#: app.cpp:379
+#: app.cpp:373
 msgid "Get hint"
 msgstr "Vinkki"
 
-#: app.cpp:380
+#: app.cpp:374
 msgid "Get help"
 msgstr "Ohje"
 
-#: app.cpp:387
+#: app.cpp:381
 msgid "XXXXX's turn"
 msgstr "XXXXX:n vuoro"
 
-#: app.cpp:388
+#: app.cpp:382
 msgid "You (XXXXX): 88"
 msgstr "Sinä (XXXXX): 88"
 
-#: app.cpp:389
+#: app.cpp:383
 msgid "Computer (XXXXX): 88"
 msgstr "Tietokone (XXXXX): 88"
 
-#: app.cpp:424
+#: app.cpp:429
 msgid "Game saved"
 msgstr "Peli talletettu"
 
-#: app.cpp:602
+#: app.cpp:591
 msgid "not yet implemented"
 msgstr "ei toteutettu"
 
-#: app.cpp:615 app.cpp:620
+#: app.cpp:604 app.cpp:609
 #, c-format
 msgid "You (%s): %d"
 msgstr "Sinä (%s): %d"
 
-#: app.cpp:616 app.cpp:623 app.cpp:923
+#: app.cpp:605 app.cpp:612 app.cpp:912
 msgid "blue"
 msgstr "sin."
 
-#: app.cpp:617 app.cpp:622
+#: app.cpp:606 app.cpp:611
 #, c-format
 msgid "Computer (%s): %d"
 msgstr "Tietokone (%s): %d"
 
-#: app.cpp:618 app.cpp:621 app.cpp:925
+#: app.cpp:607 app.cpp:610 app.cpp:914
 msgid "red"
 msgstr "pun."
 
-#: app.cpp:667
+#: app.cpp:656
 msgid "End of game"
 msgstr "Pelin loppu"
 
-#: app.cpp:677
+#: app.cpp:666
 #, c-format
 msgid ""
 "Game is drawn!\n"
@@ -321,11 +307,11 @@ msgstr ""
 "Sinä     : %d\n"
 "Tietokone: %d"
 
-#: app.cpp:678 app.cpp:690 app.cpp:710
+#: app.cpp:667 app.cpp:679 app.cpp:699
 msgid "Game ended"
 msgstr "Peli loppunut"
 
-#: app.cpp:688
+#: app.cpp:677
 msgid ""
 "Congratulations, you have won!\n"
 "\n"
@@ -339,7 +325,7 @@ msgstr ""
 "Tietokone: %d\n"
 "Tasosi %4.1f%%"
 
-#: app.cpp:708
+#: app.cpp:697
 #, c-format
 msgid ""
 "You have lost the game!\n"
@@ -352,47 +338,47 @@ msgstr ""
 "Sinä     : %d\n"
 "Tietokone: %d"
 
-#: app.cpp:719
+#: app.cpp:708
 msgid "Red's"
 msgstr "Punaisen"
 
-#: app.cpp:719 app.cpp:721
+#: app.cpp:708 app.cpp:710
 msgid "turn"
 msgstr "vuoro"
 
-#: app.cpp:721
+#: app.cpp:710
 msgid "Blue's"
 msgstr "Sinisen"
 
-#: app.cpp:866
+#: app.cpp:855
 msgid "Hall of Fame"
 msgstr "Ennätyslista"
 
-#: app.cpp:867 app.cpp:871
+#: app.cpp:856 app.cpp:860
 msgid "KReversi: Hall Of Fame"
 msgstr "KReversi: Ennätyslista"
 
-#: app.cpp:892
+#: app.cpp:881
 msgid "Rank"
 msgstr "Sijoitus"
 
-#: app.cpp:896
+#: app.cpp:885
 msgid "Name"
 msgstr "Nimi"
 
-#: app.cpp:900
+#: app.cpp:889
 msgid "Color"
 msgstr "Väri"
 
-#: app.cpp:904
+#: app.cpp:893
 msgid "Score"
 msgstr "Pisteet"
 
-#: app.cpp:908
+#: app.cpp:897
 msgid "Rating"
 msgstr "Tasosi"
 
-#: app.cpp:998
+#: app.cpp:987
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -401,6 +387,18 @@ msgstr ""
 "Pääsit \"Ennätyslistalle\".Anna\n"
 "nimesi että pääset listalle."
 
-#: app.cpp:1001
+#: app.cpp:990
 msgid "Your name:"
 msgstr "Nimesi:"
+
+#~ msgid "&Rules"
+#~ msgstr "&Säännöt"
+
+#~ msgid "&Strategy hints"
+#~ msgstr "&Strategiavihjeet"
+
+#~ msgid "About &Qt..."
+#~ msgstr "Tietoja &Qt:ta..."
+
+#~ msgid "&About..."
+#~ msgstr "&Tietoja..."

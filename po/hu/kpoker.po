@@ -14,90 +14,90 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
 
-#: kpoker.cpp:96
+#: kpoker.cpp:98
 msgid "Draw !"
 msgstr "Ossz!"
 
-#: kpoker.cpp:123
+#: kpoker.cpp:125
 msgid "Click a card to hold it"
 msgstr "Válaszd ki a megtartandó kártyákat"
 
-#: kpoker.cpp:144
+#: kpoker.cpp:146
 msgid "Held"
 msgstr "Megtartva"
 
-#: kpoker.cpp:178
+#: kpoker.cpp:185
 msgid "draw new cards"
 msgstr "új kártyák osztása"
 
-#: kpoker.cpp:179 kpoker.cpp:180
+#: kpoker.cpp:186 kpoker.cpp:187
 msgid "your last hand"
 msgstr "az utolsó eredményed"
 
-#: kpoker.cpp:181 kpoker.cpp:182
+#: kpoker.cpp:188 kpoker.cpp:189
 msgid "money left"
 msgstr "-nyi pénzed van még"
 
-#: kpoker.cpp:205 kpoker.cpp:485 kpoker.cpp:497
+#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
 msgid "nothing"
 msgstr "semmi"
 
-#: kpoker.cpp:360
+#: kpoker.cpp:366
 msgid "Cash"
 msgstr "Készpénz"
 
-#: kpoker.cpp:374
+#: kpoker.cpp:402
 msgid "Last Hand"
 msgstr "Utolsó eredményed"
 
-#: kpoker.cpp:487
+#: kpoker.cpp:513
 msgid "One Pair"
 msgstr "Egy pár"
 
-#: kpoker.cpp:488
+#: kpoker.cpp:514
 msgid "Two Pairs"
 msgstr "Két pár"
 
-#: kpoker.cpp:489
+#: kpoker.cpp:515
 msgid "3 of a kind"
 msgstr "Terc"
 
-#: kpoker.cpp:490
+#: kpoker.cpp:516
 msgid "Full House"
 msgstr "Full"
 
-#: kpoker.cpp:491
+#: kpoker.cpp:517
 msgid "4 of a kind"
 msgstr "Póker"
 
-#: kpoker.cpp:492
+#: kpoker.cpp:518
 msgid "Straight"
 msgstr "Sor"
 
-#: kpoker.cpp:493
+#: kpoker.cpp:519
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:494
+#: kpoker.cpp:520
 msgid "Straight Flush"
 msgstr "Sor flush"
 
-#: kpoker.cpp:495
+#: kpoker.cpp:521
 msgid "Royal Flush"
 msgstr "Royal Flush"
 
-#: kpoker.cpp:503
+#: kpoker.cpp:530
 msgid "You Lost"
 msgstr "Vesztettél"
 
-#: kpoker.cpp:504
+#: kpoker.cpp:531
 msgid ""
 "Oops - you went bankrupt.\n"
 "A highscoretable will appear over here later..."
@@ -105,31 +105,29 @@ msgstr ""
 "Hoppá - csõdbe mentél.\n"
 "Itt valamikor lesz egy dicsõségtábla..."
 
-#: kpoker.cpp:505
+#: kpoker.cpp:532
 msgid "New game"
 msgstr "Új játék"
 
-#: kpoker.cpp:571
+#: kpoker.cpp:613
 msgid "You won $"
 msgstr "Nyertél $"
 
-#: kpoker.cpp:575
+#: kpoker.cpp:616
 msgid "Game Over"
 msgstr "Vége a játéknak"
 
-#: top.cpp:62
+#: top.cpp:64
 msgid "&New game"
 msgstr "&Új játék"
 
-#: top.cpp:68
+#: top.cpp:70
 msgid "&Sound"
 msgstr "&Zene"
 
-#: top.cpp:81
-msgid "&About..."
-msgstr "&Programról..."
+#~ msgid "&About..."
+#~ msgstr "&Programról..."
 
-#: top.cpp:82
 #, fuzzy
-msgid "About &Qt..."
-msgstr "&Programról..."
+#~ msgid "About &Qt..."
+#~ msgstr "&Programról..."

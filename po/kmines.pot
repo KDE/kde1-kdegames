@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,31 +14,31 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: main.cpp:22 main.cpp:34 main.cpp:53
+#: main.cpp:24 main.cpp:35 main.cpp:53
 msgid "New game"
 msgstr ""
 
-#: main.cpp:23 main.cpp:35 main.cpp:54
+#: main.cpp:25 main.cpp:36 main.cpp:54
 msgid "Pause game"
 msgstr ""
 
-#: main.cpp:26 main.cpp:38 main.cpp:56
+#: main.cpp:27 main.cpp:38 main.cpp:56
 msgid "High scores"
 msgstr ""
 
-#: main.cpp:27
+#: main.cpp:28
 msgid "Close dialog"
 msgstr ""
 
-#: main.cpp:28
+#: main.cpp:29
 msgid "Ok dialog"
 msgstr ""
 
-#: main.cpp:29
+#: main.cpp:30
 msgid "Cancel dialog"
 msgstr ""
 
-#: main.cpp:51 main.cpp:162
+#: main.cpp:51 main.cpp:159
 msgid "Hide menu bar"
 msgstr ""
 
@@ -62,28 +62,11 @@ msgstr ""
 msgid "Custom"
 msgstr ""
 
-#: main.cpp:75
-msgid "About..."
-msgstr ""
-
-#: main.cpp:80
+#: main.cpp:82
 msgid "Level"
 msgstr ""
 
-#: main.cpp:100
-#, c-format
-msgid ""
-"%s (%s) \n"
-"\n"
-"by Nicolas HADACEK  (hadacek@kde.org)\n"
-" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-msgstr ""
-
-#: main.cpp:102
-msgid "kmines : About"
-msgstr ""
-
-#: main.cpp:159
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr ""
 
@@ -111,11 +94,11 @@ msgstr ""
 msgid "kmines : Error"
 msgstr ""
 
-#: field.cpp:87 field.cpp:94
+#: field.cpp:86 field.cpp:93
 msgid "Game paused"
 msgstr ""
 
-#: field.cpp:90 field.cpp:96
+#: field.cpp:89 field.cpp:95
 msgid "Press to resume"
 msgstr ""
 

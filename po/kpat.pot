@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -102,126 +102,88 @@ msgstr ""
 msgid "No more cards"
 msgstr ""
 
-#: pwidget.cpp:98
+#: pwidget.cpp:95
 msgid "&Restart game"
 msgstr ""
 
-#: pwidget.cpp:102
+#: pwidget.cpp:99
 msgid "&Klondike"
 msgstr ""
 
-#: pwidget.cpp:103 pwidget.cpp:287
+#: pwidget.cpp:100 pwidget.cpp:275
 msgid "MicroSolitaire"
 msgstr ""
 
-#: pwidget.cpp:104 pwidget.cpp:291
+#: pwidget.cpp:101 pwidget.cpp:279
 msgid "Calculation"
 msgstr ""
 
-#: pwidget.cpp:105
+#: pwidget.cpp:102
 msgid "Napoleon's Tomb"
 msgstr ""
 
-#: pwidget.cpp:106 pwidget.cpp:295
+#: pwidget.cpp:103 pwidget.cpp:283
 msgid "The Idiot"
 msgstr ""
 
-#: pwidget.cpp:107 pwidget.cpp:279
+#: pwidget.cpp:104 pwidget.cpp:267
 msgid "Grandfather"
 msgstr ""
 
-#: pwidget.cpp:108 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:255
 msgid "Ten"
 msgstr ""
 
-#: pwidget.cpp:109 pwidget.cpp:271
+#: pwidget.cpp:106 pwidget.cpp:259
 msgid "Mod3"
 msgstr ""
 
-#: pwidget.cpp:110 pwidget.cpp:275
+#: pwidget.cpp:107 pwidget.cpp:263
 msgid "Freecell"
 msgstr ""
 
-#: pwidget.cpp:112
+#: pwidget.cpp:109
 msgid "Choose new game"
 msgstr ""
 
-#: pwidget.cpp:118
+#: pwidget.cpp:115
 msgid "KDE"
 msgstr ""
 
-#: pwidget.cpp:119
+#: pwidget.cpp:116
 msgid "Classic blue"
 msgstr ""
 
-#: pwidget.cpp:120
+#: pwidget.cpp:117
 msgid "Classic red"
 msgstr ""
 
-#: pwidget.cpp:121
+#: pwidget.cpp:118
 msgid "Technical"
 msgstr ""
 
-#: pwidget.cpp:122
+#: pwidget.cpp:119
 msgid "Card backside"
 msgstr ""
 
-#: pwidget.cpp:123
+#: pwidget.cpp:120
 msgid "Animation on startup"
 msgstr ""
 
-#: pwidget.cpp:129
-msgid "Help on &rules..."
-msgstr ""
-
-#: pwidget.cpp:131
-msgid "About &Qt..."
-msgstr ""
-
-#: pwidget.cpp:254
-#, c-format
-msgid "COMMAND %d not implemented!\n"
-msgstr ""
-
-#: pwidget.cpp:283
+#: pwidget.cpp:271
 msgid "Klondike"
 msgstr ""
 
-#: pwidget.cpp:299
+#: pwidget.cpp:287
 msgid "Napoleons Tomb"
 msgstr ""
 
-#: pwidget.cpp:304
+#: pwidget.cpp:292
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr ""
 
-#: pwidget.cpp:336
-msgid ""
-"KPat\n"
-"\n"
-"Version "
-msgstr ""
-
-#: pwidget.cpp:338
-msgid ""
-"\n"
-"Copyright (C) 1997  Paul Olav Tvete\n"
-"\n"
-"Additional work done by:\n"
-"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"This program is part of the K Desktop Environment.\n"
-"Use help for license information."
-msgstr ""
-
-#: pwidget.cpp:347
-msgid "About kpat"
-msgstr ""
-
-#: pwidget.cpp:385
+#: pwidget.cpp:342
 msgid "Could not load background image!"
 msgstr ""
 

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kabalone 1.02\n"
-"POT-Creation-Date: 1998-03-05 12:11+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -13,29 +13,25 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: AbTop.cpp:240 AbTop.cpp:399
+#: AbTop.cpp:241 AbTop.cpp:398
 msgid "Move"
 msgstr "«ah"
 
-#: AbTop.cpp:243 AbTop.cpp:403
+#: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
 msgstr "Stlaè F2 pre novú hru"
 
-#: AbTop.cpp:261 AbTop.cpp:301
+#: AbTop.cpp:262 AbTop.cpp:301
 msgid "Stop Search"
 msgstr "Zastav hµadanie"
 
-#: AbTop.cpp:266 AbTop.cpp:305
+#: AbTop.cpp:267 AbTop.cpp:305
 msgid "Take back"
 msgstr "Vezmi spä»"
 
-#: AbTop.cpp:271 AbTop.cpp:307
+#: AbTop.cpp:272 AbTop.cpp:307
 msgid "Hint"
 msgstr "Rada"
-
-#: AbTop.cpp:276 AbTop.cpp:352
-msgid "Rules"
-msgstr "Pravidlá"
 
 #: AbTop.cpp:296
 msgid "Save Position"
@@ -57,11 +53,11 @@ msgstr "«a¾ká"
 msgid "Challange"
 msgstr "Zlo¾itá"
 
-#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:327 AbTop.cpp:406 AbTop.cpp:410
 msgid "Red"
 msgstr "Èervený"
 
-#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:329 AbTop.cpp:406 AbTop.cpp:410
 msgid "Yellow"
 msgstr "®ltý"
 
@@ -85,15 +81,15 @@ msgstr "Presúvaj pomaly"
 msgid "Spy"
 msgstr "©pión"
 
-#: AbTop.cpp:408
+#: AbTop.cpp:407
 msgid "won"
 msgstr "vyhral"
 
-#: AbTop.cpp:412
+#: AbTop.cpp:411
 msgid "I am thinking..."
 msgstr "Rozmý¹µam"
 
-#: AbTop.cpp:413
+#: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "Si na »ahu!"
 
@@ -140,3 +136,6 @@ msgstr "Doteraz najlep¹í »ah:"
 #: Spy.cpp:75
 msgid "Spion"
 msgstr "©pión"
+
+#~ msgid "Rules"
+#~ msgstr "Pravidlá"

@@ -1,35 +1,31 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
-#: AbTop.cpp:240 AbTop.cpp:399
+#: AbTop.cpp:241 AbTop.cpp:398
 msgid "Move"
 msgstr "Шаг"
 
-#: AbTop.cpp:243 AbTop.cpp:403
+#: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
 msgstr "Нажмите F2 чтобы начать новую игру"
 
-#: AbTop.cpp:261 AbTop.cpp:301
+#: AbTop.cpp:262 AbTop.cpp:301
 msgid "Stop Search"
 msgstr "Остановить поиск"
 
-#: AbTop.cpp:266 AbTop.cpp:305
+#: AbTop.cpp:267 AbTop.cpp:305
 msgid "Take back"
 msgstr "Взять обратно"
 
-#: AbTop.cpp:271 AbTop.cpp:307
+#: AbTop.cpp:272 AbTop.cpp:307
 msgid "Hint"
 msgstr "Намек"
-
-#: AbTop.cpp:276 AbTop.cpp:352
-msgid "Rules"
-msgstr "Правила"
 
 #: AbTop.cpp:296
 msgid "Save Position"
@@ -51,11 +47,11 @@ msgstr "Сложный"
 msgid "Challange"
 msgstr "Продвинутый"
 
-#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:327 AbTop.cpp:406 AbTop.cpp:410
 msgid "Red"
 msgstr "Красный"
 
-#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+#: AbTop.cpp:329 AbTop.cpp:406 AbTop.cpp:410
 msgid "Yellow"
 msgstr "Желтый"
 
@@ -79,15 +75,15 @@ msgstr "Ходить медленно"
 msgid "Spy"
 msgstr ""
 
-#: AbTop.cpp:408
+#: AbTop.cpp:407
 msgid "won"
 msgstr "выиграл"
 
-#: AbTop.cpp:412
+#: AbTop.cpp:411
 msgid "I am thinking..."
 msgstr "Я думаю..."
 
-#: AbTop.cpp:413
+#: AbTop.cpp:412
 msgid "It's your turn !"
 msgstr "Ваш ход !"
 
@@ -135,6 +131,9 @@ msgstr ""
 #, fuzzy
 msgid "Spion"
 msgstr "Опции"
+
+#~ msgid "Rules"
+#~ msgstr "Правила"
 
 #~ msgid "New Game"
 #~ msgstr "Новая игра"

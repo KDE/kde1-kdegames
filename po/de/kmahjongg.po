@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Mahjongg\n"
-"POT-Creation-Date: 1998-02-26 15:02+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1997-10-25 18:54 MET DST\n"
 "Last-Translator: Mathias Mueller <in5y158@public.uni-hamburg.de>\n"
 
@@ -59,7 +59,9 @@ msgid ""
 "\n"
 "by Mathias Mueller"
 msgstr ""
-"\n\nvon Matthias Mueller"
+"\n"
+"\n"
+"von Matthias Mueller"
 
 #: kmahjongg.cpp:387 kmahjongg.cpp:401
 msgid "Unable to open bitmap file !"
@@ -128,4 +130,3 @@ msgid ""
 msgstr ""
 "Sorry, dieses Bild benutzt %d Farben.\n"
 "Erlaubtes Maximum ist %d"
-

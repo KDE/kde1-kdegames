@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1997-10-DA HO:MI+ZONE\n"
 "Last-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -105,147 +105,140 @@ msgstr ""
 msgid "No more cards"
 msgstr "Intente mover una carta:"
 
-#: pwidget.cpp:98
+#: pwidget.cpp:95
 msgid "&Restart game"
 msgstr "&Reiniciar juego"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:99
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:103 pwidget.cpp:287
+#: pwidget.cpp:100 pwidget.cpp:275
 msgid "MicroSolitaire"
 msgstr "Mircosolitario"
 
-#: pwidget.cpp:104 pwidget.cpp:291
+#: pwidget.cpp:101 pwidget.cpp:279
 msgid "Calculation"
 msgstr "Calculation"
 
-#: pwidget.cpp:105
+#: pwidget.cpp:102
 msgid "Napoleon's Tomb"
 msgstr "Napoleon's Tomb"
 
-#: pwidget.cpp:106 pwidget.cpp:295
+#: pwidget.cpp:103 pwidget.cpp:283
 msgid "The Idiot"
 msgstr "El idiota"
 
-#: pwidget.cpp:107 pwidget.cpp:279
+#: pwidget.cpp:104 pwidget.cpp:267
 msgid "Grandfather"
 msgstr "El Abuelo"
 
-#: pwidget.cpp:108 pwidget.cpp:267
+#: pwidget.cpp:105 pwidget.cpp:255
 msgid "Ten"
 msgstr "Diez"
 
-#: pwidget.cpp:109 pwidget.cpp:271
+#: pwidget.cpp:106 pwidget.cpp:259
 msgid "Mod3"
 msgstr ""
 
-#: pwidget.cpp:110 pwidget.cpp:275
+#: pwidget.cpp:107 pwidget.cpp:263
 msgid "Freecell"
 msgstr ""
 
-#: pwidget.cpp:112
+#: pwidget.cpp:109
 msgid "Choose new game"
 msgstr "Escoger nuevo juego"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:115
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:116
 msgid "Classic blue"
 msgstr "Classic blue"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:117
 msgid "Classic red"
 msgstr "Classic red"
 
-#: pwidget.cpp:121
+#: pwidget.cpp:118
 msgid "Technical"
 msgstr "Técnico"
 
-#: pwidget.cpp:122
+#: pwidget.cpp:119
 msgid "Card backside"
 msgstr "Reversod de cartas"
 
-#: pwidget.cpp:123
+#: pwidget.cpp:120
 msgid "Animation on startup"
 msgstr "Animación al empezar"
 
-#: pwidget.cpp:129
-#, fuzzy
-msgid "Help on &rules..."
-msgstr "Ayuda acerca de las reglas"
-
-#: pwidget.cpp:131
-#, fuzzy
-msgid "About &Qt..."
-msgstr "Acerca de ..."
-
-#: pwidget.cpp:254
-#, c-format
-msgid "COMMAND %d not implemented!\n"
-msgstr "Comando %d no implementado!\n"
-
-#: pwidget.cpp:283
+#: pwidget.cpp:271
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:287
 msgid "Napoleons Tomb"
 msgstr "Napoleons Tomb"
 
-#: pwidget.cpp:304
+#: pwidget.cpp:292
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: juego aún no implementado %d\n"
 
-#: pwidget.cpp:336
-msgid ""
-"KPat\n"
-"\n"
-"Version "
-msgstr ""
-"KPat\n"
-"\n"
-"Versión "
-
-#: pwidget.cpp:338
-#, fuzzy
-msgid ""
-"\n"
-"Copyright (C) 1997  Paul Olav Tvete\n"
-"\n"
-"Additional work done by:\n"
-"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"This program is part of the K Desktop Environment.\n"
-"Use help for license information."
-msgstr ""
-"\n"
-"Copyright (C) 1995  Paul Olav Tvete\n"
-"\n"
-"Trabajo complementario realizado por \t\t \n"
-"\tMatthias Ettrich\t<ettrich@kde.org>\n"
-"\tMario Weilguni\t<mweilguni@sime.com>\n"
-"\n"
-"Este programa forma parte del 'K Desktop Environment'.\n"
-"Ver la ayuda para más información sobre la licencia."
-
-#: pwidget.cpp:347
-msgid "About kpat"
-msgstr "Acerca de kpat"
-
-#: pwidget.cpp:385
+#: pwidget.cpp:342
 msgid "Could not load background image!"
 msgstr "Imposible leer la imagen de fondo"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Automático"
+
+#, fuzzy
+#~ msgid "Help on &rules..."
+#~ msgstr "Ayuda acerca de las reglas"
+
+#, fuzzy
+#~ msgid "About &Qt..."
+#~ msgstr "Acerca de ..."
+
+#~ msgid "COMMAND %d not implemented!\n"
+#~ msgstr "Comando %d no implementado!\n"
+
+#~ msgid ""
+#~ "KPat\n"
+#~ "\n"
+#~ "Version "
+#~ msgstr ""
+#~ "KPat\n"
+#~ "\n"
+#~ "Versión "
+
+#, fuzzy
+#~ msgid ""
+#~ "\n"
+#~ "Copyright (C) 1997  Paul Olav Tvete\n"
+#~ "\n"
+#~ "Additional work done by:\n"
+#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
+#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
+#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
+#~ "\n"
+#~ "This program is part of the K Desktop Environment.\n"
+#~ "Use help for license information."
+#~ msgstr ""
+#~ "\n"
+#~ "Copyright (C) 1995  Paul Olav Tvete\n"
+#~ "\n"
+#~ "Trabajo complementario realizado por \t\t \n"
+#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
+#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
+#~ "\n"
+#~ "Este programa forma parte del 'K Desktop Environment'.\n"
+#~ "Ver la ayuda para más información sobre la licencia."
+
+#~ msgid "About kpat"
+#~ msgstr "Acerca de kpat"
 
 #, fuzzy
 #~ msgid "&Help..."

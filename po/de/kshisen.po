@@ -1,11 +1,11 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-01-02 14:34+MET\n"
 "Last-Translator: Stephan Kulow <coolo@kde.org>\n"
 
-#: app.cpp:88 board.cpp:175
+#: app.cpp:88 board.cpp:218
 msgid "Shisen-Sho"
 msgstr "Shisen-Sho"
 
@@ -77,84 +77,57 @@ msgstr "Einfach"
 msgid "Hard"
 msgstr "Schwer"
 
-#: app.cpp:137
-msgid "About &Qt..."
-msgstr "Über &Qt..."
-
-#: app.cpp:142
+#: app.cpp:141
 msgid "Si&ze"
 msgstr "&Größe"
 
-#: app.cpp:143
+#: app.cpp:142
 msgid "S&peed"
 msgstr "Ge&schwindigkeit"
 
-#: app.cpp:144
+#: app.cpp:143
 msgid "&Level"
 msgstr "S&tufe"
 
-#: app.cpp:145
+#: app.cpp:144
 msgid "Disallow unsolvable games"
 msgstr "Verhindere unlösbare Spiele"
 
-#: app.cpp:166
+#: app.cpp:165
 msgid "Your time: XX:XX:XX"
 msgstr "Ihre Zeit: XX:XX:XX"
 
-#: app.cpp:167 app.cpp:256 app.cpp:281
+#: app.cpp:166 app.cpp:258 app.cpp:283
 msgid "Cheat mode"
 msgstr "Betrüger-Modus"
 
-#: app.cpp:247
+#: app.cpp:249
 msgid "This game is solveable"
 msgstr "Dieses Spiel ist lösbar!"
 
-#: app.cpp:250
+#: app.cpp:252
 msgid "This game is NOT solveable"
 msgstr "Dieses Spiel ist NICHT lösbar!"
 
-#: app.cpp:348
-msgid "About Shisen-Sho"
-msgstr "*ber Shisen-Sho"
-
-#: app.cpp:349
-msgid ""
-"Shisen-Sho\n"
-"\n"
-"version 0.2\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software published \n"
-"under the GNU General Public License GPL.\n"
-"More about this in the help."
-msgstr ""
-"Shisen-Sho\n"
-"\n"
-"Version 0.2\n"
-"(C) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"Dieses Programm ist freie Software veröffentlicht\n"
-"unter der GNU General Public License GPL.\n"
-"Mehr dazu in der Hilfe."
-
-#: app.cpp:381 app.cpp:404
+#: app.cpp:368 app.cpp:391
 msgid "End of game"
 msgstr "Ende des Spiels"
 
-#: app.cpp:382
+#: app.cpp:369
 msgid "No more moves possible!"
 msgstr "Keine weiteren Züge möglich"
 
-#: app.cpp:399
+#: app.cpp:386
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Glückwunsch! Sie haben es in %02d:%02d:%02d geschafft"
 
-#: app.cpp:416
+#: app.cpp:403
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Ihre Zeit: %02d:%02d:%02d"
 
-#: app.cpp:427
+#: app.cpp:414
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -164,30 +137,54 @@ msgstr ""
 "Geben Sie Ihren Namen ein, so daß die Menschheit\n"
 "für immer ihre Punkte bewundern kann!"
 
-#: app.cpp:430
+#: app.cpp:417
 msgid "Your name:"
 msgstr "Ihr Name:"
 
-#: app.cpp:571 app.cpp:576
+#: app.cpp:558 app.cpp:563
 msgid "Hall Of Fame"
 msgstr "Bestenliste"
 
-#: app.cpp:572
+#: app.cpp:559
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "Shisen-Sho: Bestenliste"
 
-#: app.cpp:597
+#: app.cpp:584
 msgid "Rank"
 msgstr "Rang"
 
-#: app.cpp:601
+#: app.cpp:588
 msgid "Name"
 msgstr "Name"
 
-#: app.cpp:605
+#: app.cpp:592
 msgid "Time"
 msgstr "Zeit"
 
-#: board.cpp:176
+#: board.cpp:219
 msgid "Cannot load pixmaps!"
 msgstr "Konnte Pixmap nicht laden!"
+
+#~ msgid "About &Qt..."
+#~ msgstr "Über &Qt..."
+
+#~ msgid "About Shisen-Sho"
+#~ msgstr "*ber Shisen-Sho"
+
+#~ msgid ""
+#~ "Shisen-Sho\n"
+#~ "\n"
+#~ "version 0.2\n"
+#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+#~ "\n"
+#~ "This program is free software published \n"
+#~ "under the GNU General Public License GPL.\n"
+#~ "More about this in the help."
+#~ msgstr ""
+#~ "Shisen-Sho\n"
+#~ "\n"
+#~ "Version 0.2\n"
+#~ "(C) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+#~ "Dieses Programm ist freie Software veröffentlicht\n"
+#~ "unter der GNU General Public License GPL.\n"
+#~ "Mehr dazu in der Hilfe."

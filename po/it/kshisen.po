@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,7 +14,7 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:88 board.cpp:175
+#: app.cpp:88 board.cpp:218
 msgid "Shisen-Sho"
 msgstr ""
 
@@ -86,77 +86,57 @@ msgstr "Facile"
 msgid "Hard"
 msgstr "Difficile"
 
-#: app.cpp:137
-msgid "About &Qt..."
-msgstr "Info sulle &Qt..."
-
-#: app.cpp:142
+#: app.cpp:141
 msgid "Si&ze"
 msgstr "Dimensione"
 
-#: app.cpp:143
+#: app.cpp:142
 msgid "S&peed"
 msgstr "Velocita`"
 
-#: app.cpp:144
+#: app.cpp:143
 msgid "&Level"
 msgstr "&Livello"
 
-#: app.cpp:145
+#: app.cpp:144
 msgid "Disallow unsolvable games"
 msgstr "Disabilita giochi irrisolvibili"
 
-#: app.cpp:166
+#: app.cpp:165
 msgid "Your time: XX:XX:XX"
 msgstr "Il vostro tempo: XX:XX:XX"
 
-#: app.cpp:167 app.cpp:256 app.cpp:281
+#: app.cpp:166 app.cpp:258 app.cpp:283
 msgid "Cheat mode"
 msgstr "Modalita` truffa"
 
-#: app.cpp:247
+#: app.cpp:249
 msgid "This game is solveable"
 msgstr "Questo gioco e` risolvibile"
 
-#: app.cpp:250
+#: app.cpp:252
 msgid "This game is NOT solveable"
 msgstr "Questo gioco NON e` risolvibile"
 
-#: app.cpp:348
-msgid "About Shisen-Sho"
-msgstr "Info su Shisen-Sho"
-
-#: app.cpp:349
-msgid ""
-"Shisen-Sho\n"
-"\n"
-"version 0.2\n"
-"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-"\n"
-"This program is free software published \n"
-"under the GNU General Public License GPL.\n"
-"More about this in the help."
-msgstr ""
-
-#: app.cpp:381 app.cpp:404
+#: app.cpp:368 app.cpp:391
 msgid "End of game"
 msgstr "Fine gioco"
 
-#: app.cpp:382
+#: app.cpp:369
 msgid "No more moves possible!"
 msgstr "Non e` possibile nessuna mossa!"
 
-#: app.cpp:399
+#: app.cpp:386
 #, c-format
 msgid "Congratulations! You made it in %02d:%02d:%02d"
 msgstr "Congratulazioni! Avete risolto in %02d:%02d:%02d"
 
-#: app.cpp:416
+#: app.cpp:403
 #, c-format
 msgid "Your time: %02d:%02d:%02d"
 msgstr "Il vostro tempo: %02d:%02d:%02d"
 
-#: app.cpp:427
+#: app.cpp:414
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -166,30 +146,36 @@ msgstr ""
 "il vostro nome affinche` le future generazioni abbiano\n"
 "a ricordare la vostra impresa."
 
-#: app.cpp:430
+#: app.cpp:417
 msgid "Your name:"
 msgstr "Il vostro nome:"
 
-#: app.cpp:571 app.cpp:576
+#: app.cpp:558 app.cpp:563
 msgid "Hall Of Fame"
 msgstr "Sala degli eroi"
 
-#: app.cpp:572
+#: app.cpp:559
 msgid "Shisen-Sho: Hall Of Fame"
 msgstr "Shisen-Sho: Sala degli eroi"
 
-#: app.cpp:597
+#: app.cpp:584
 msgid "Rank"
 msgstr "Posizione"
 
-#: app.cpp:601
+#: app.cpp:588
 msgid "Name"
 msgstr "Nome"
 
-#: app.cpp:605
+#: app.cpp:592
 msgid "Time"
 msgstr "Tempo"
 
-#: board.cpp:176
+#: board.cpp:219
 msgid "Cannot load pixmaps!"
 msgstr "Impossibile aprire le pixmaps"
+
+#~ msgid "About &Qt..."
+#~ msgstr "Info sulle &Qt..."
+
+#~ msgid "About Shisen-Sho"
+#~ msgstr "Info su Shisen-Sho"

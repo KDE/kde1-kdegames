@@ -11,7 +11,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,15 +19,16 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: about.cpp:51
-msgid "About KReversi"
+#: about.cpp:52
+#, fuzzy
+msgid "About kreversi"
 msgstr "Info KReversi"
 
-#: about.cpp:64
+#: about.cpp:65
 msgid "Version "
 msgstr "Versione"
 
-#: about.cpp:66
+#: about.cpp:67
 #, fuzzy
 msgid ""
 "\n"
@@ -62,7 +63,7 @@ msgstr ""
 "\tArne Klaassen <klaassen@informatik.uni-rostock.de> per la graphica delle "
 "pedine"
 
-#: app.cpp:218 app.cpp:548
+#: app.cpp:218 app.cpp:553
 msgid ""
 "A problem with the sound server occured!\n"
 "Cannot enable sound support."
@@ -85,7 +86,8 @@ msgid "&Save game"
 msgstr "&Nuovo gioco"
 
 #: app.cpp:252
-msgid "Get &hint)"
+#, fuzzy
+msgid "Get &hint"
 msgstr "chiedi consiglio)"
 
 #: app.cpp:254
@@ -230,91 +232,74 @@ msgstr "Velocitá delle animazioni"
 msgid "S&ound"
 msgstr "Su&ono"
 
-#: app.cpp:330
-msgid "&Rules"
-msgstr "&Regole"
-
-#: app.cpp:331
-msgid "&Strategy hints"
-msgstr "Consigli &Strategia"
-
-#: app.cpp:333
-#, fuzzy
-msgid "About &Qt..."
-msgstr "&Info..."
-
-#: app.cpp:334
-msgid "&About..."
-msgstr "&Info..."
-
-#: app.cpp:375
+#: app.cpp:369
 msgid "Stop thinking"
 msgstr "Smetti di Pensare"
 
-#: app.cpp:376
+#: app.cpp:370
 msgid "Undo move"
 msgstr "Rigioca l'ultima mossa"
 
-#: app.cpp:377
+#: app.cpp:371
 msgid "Shrink board"
 msgstr "Riduci lo schermo"
 
-#: app.cpp:378
+#: app.cpp:372
 msgid "Enlarge board"
 msgstr "Ingrandisci lo schermo"
 
-#: app.cpp:379
+#: app.cpp:373
 msgid "Get hint"
 msgstr "Chiedi Consiglio"
 
-#: app.cpp:380
+#: app.cpp:374
 msgid "Get help"
 msgstr "Chiedi Aiuto"
 
-#: app.cpp:387
+#: app.cpp:381
 msgid "XXXXX's turn"
 msgstr "tocca a XXXXX"
 
-#: app.cpp:388
+#: app.cpp:382
 msgid "You (XXXXX): 88"
 msgstr "Tu (XXXXX): 88"
 
-#: app.cpp:389
+#: app.cpp:383
 msgid "Computer (XXXXX): 88"
 msgstr "Computer (XXXXX): 88"
 
-#: app.cpp:424
+#: app.cpp:429
 #, fuzzy
 msgid "Game saved"
 msgstr "Partita finita"
 
-#: app.cpp:602
+#: app.cpp:591
 msgid "not yet implemented"
 msgstr "non ancora programmato"
 
-#: app.cpp:615 app.cpp:620
+#: app.cpp:604 app.cpp:609
 #, c-format
 msgid "You (%s): %d"
 msgstr "Tu (%s): %d"
 
-#: app.cpp:616 app.cpp:623 app.cpp:923
+#: app.cpp:605 app.cpp:612 app.cpp:912
 msgid "blue"
 msgstr "blu"
 
-#: app.cpp:617 app.cpp:622
+#: app.cpp:606 app.cpp:611
 #, c-format
 msgid "Computer (%s): %d"
 msgstr "Computer (%s): %d"
 
-#: app.cpp:618 app.cpp:621 app.cpp:925
+#: app.cpp:607 app.cpp:610 app.cpp:914
 msgid "red"
 msgstr "rosso"
 
-#: app.cpp:667
+#: app.cpp:656
 msgid "End of game"
 msgstr "Fine della partita"
 
-#: app.cpp:677
+#: app.cpp:666
 #, c-format
 msgid ""
 "Game is drawn!\n"
@@ -327,11 +312,11 @@ msgstr ""
 "Tu     : %d\n"
 "Computer: %d"
 
-#: app.cpp:678 app.cpp:690 app.cpp:710
+#: app.cpp:667 app.cpp:679 app.cpp:699
 msgid "Game ended"
 msgstr "Partita finita"
 
-#: app.cpp:688
+#: app.cpp:677
 msgid ""
 "Congratulations, you have won!\n"
 "\n"
@@ -345,7 +330,7 @@ msgstr ""
 "Computer: %d\n"
 "Il vostro scor %4.1f%%"
 
-#: app.cpp:708
+#: app.cpp:697
 #, c-format
 msgid ""
 "You have lost the game!\n"
@@ -358,49 +343,49 @@ msgstr ""
 "Tu     : %d\n"
 "Computer: %d"
 
-#: app.cpp:719
+#: app.cpp:708
 msgid "Red's"
 msgstr "Turno dei Rossi"
 
-#: app.cpp:719 app.cpp:721
+#: app.cpp:708 app.cpp:710
 msgid "turn"
 msgstr ""
 
-#: app.cpp:721
+#: app.cpp:710
 msgid "Blue's"
 msgstr "Turno dei Blu"
 
-#: app.cpp:866
+#: app.cpp:855
 msgid "Hall of Fame"
 msgstr "Sala Della Celebritá"
 
-#: app.cpp:867 app.cpp:871
+#: app.cpp:856 app.cpp:860
 msgid "KReversi: Hall Of Fame"
 msgstr "KReversi: Sala Delle Celebritá"
 
-#: app.cpp:892
+#: app.cpp:881
 msgid "Rank"
 msgstr ""
 
-#: app.cpp:896
+#: app.cpp:885
 #, fuzzy
 msgid "Name"
 msgstr "&Gioco"
 
-#: app.cpp:900
+#: app.cpp:889
 #, fuzzy
 msgid "Color"
 msgstr "Chiudi"
 
-#: app.cpp:904
+#: app.cpp:893
 msgid "Score"
 msgstr ""
 
-#: app.cpp:908
+#: app.cpp:897
 msgid "Rating"
 msgstr ""
 
-#: app.cpp:998
+#: app.cpp:987
 #, fuzzy
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
@@ -410,9 +395,22 @@ msgstr ""
 "Siete entrati nella \"Sala delle Celebritá\". Scrivi il tuo nome in modo che "
 "l'umanitasi ricordi del tuo punteggio"
 
-#: app.cpp:1001
+#: app.cpp:990
 msgid "Your name:"
 msgstr "Il tuo nome:"
+
+#~ msgid "&Rules"
+#~ msgstr "&Regole"
+
+#~ msgid "&Strategy hints"
+#~ msgstr "Consigli &Strategia"
+
+#, fuzzy
+#~ msgid "About &Qt..."
+#~ msgstr "&Info..."
+
+#~ msgid "&About..."
+#~ msgstr "&Info..."
 
 #~ msgid "Information"
 #~ msgstr "Informazione"

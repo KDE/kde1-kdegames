@@ -5,91 +5,91 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-03-05 12:11+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
-"Content-Transfer-Encoding: 8bit\n"           
+"Content-Transfer-Encoding: 8bit\n"
 
-#: kpoker.cpp:96
+#: kpoker.cpp:98
 msgid "Draw !"
 msgstr "Rozdaj !"
 
-#: kpoker.cpp:123
+#: kpoker.cpp:125
 msgid "Click a card to hold it"
 msgstr "Klikni na karty, ktoré si chce¹ ponecha»"
 
-#: kpoker.cpp:144
+#: kpoker.cpp:146
 msgid "Held"
 msgstr "Podr¾a»"
 
-#: kpoker.cpp:178
+#: kpoker.cpp:185
 msgid "draw new cards"
 msgstr "Rozdaj nové karty"
 
-#: kpoker.cpp:179 kpoker.cpp:180
+#: kpoker.cpp:186 kpoker.cpp:187
 msgid "your last hand"
 msgstr "va¹a posledná ruka"
 
-#: kpoker.cpp:181 kpoker.cpp:182
+#: kpoker.cpp:188 kpoker.cpp:189
 msgid "money left"
 msgstr "zvy¹né peniaze"
 
-#: kpoker.cpp:205 kpoker.cpp:485 kpoker.cpp:497
+#: kpoker.cpp:212 kpoker.cpp:511 kpoker.cpp:523
 msgid "nothing"
 msgstr "niè"
 
-#: kpoker.cpp:360
+#: kpoker.cpp:366
 msgid "Cash"
 msgstr "Peniaze"
 
-#: kpoker.cpp:374
+#: kpoker.cpp:402
 msgid "Last Hand"
 msgstr "V poslednej ruke"
 
-#: kpoker.cpp:487
+#: kpoker.cpp:513
 msgid "One Pair"
 msgstr "Jeden pár"
 
-#: kpoker.cpp:488
+#: kpoker.cpp:514
 msgid "Two Pairs"
 msgstr "Dva páry"
 
-#: kpoker.cpp:489
+#: kpoker.cpp:515
 msgid "3 of a kind"
 msgstr "3 jedného druhu"
 
-#: kpoker.cpp:490
+#: kpoker.cpp:516
 msgid "Full House"
 msgstr "Full House"
 
-#: kpoker.cpp:491
+#: kpoker.cpp:517
 msgid "4 of a kind"
 msgstr "4 jedného druhu"
 
-#: kpoker.cpp:492
+#: kpoker.cpp:518
 msgid "Straight"
 msgstr "Straight"
 
-#: kpoker.cpp:493
+#: kpoker.cpp:519
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:494
+#: kpoker.cpp:520
 msgid "Straight Flush"
 msgstr "Straight Flush"
 
-#: kpoker.cpp:495
+#: kpoker.cpp:521
 msgid "Royal Flush"
 msgstr "Royal Flush"
 
-#: kpoker.cpp:503
+#: kpoker.cpp:530
 msgid "You Lost"
 msgstr "Prehrali ste"
 
-#: kpoker.cpp:504
+#: kpoker.cpp:531
 msgid ""
 "Oops - you went bankrupt.\n"
 "A highscoretable will appear over here later..."
@@ -97,30 +97,28 @@ msgstr ""
 "Smola - zbankrotovali ste.\n"
 "Neskôr sa tu objaví tabuµka nalep¹ích výkonov..."
 
-#: kpoker.cpp:505
+#: kpoker.cpp:532
 msgid "New game"
 msgstr "Nová hra"
 
-#: kpoker.cpp:571
+#: kpoker.cpp:613
 msgid "You won $"
 msgstr "Vyhrali ste $"
 
-#: kpoker.cpp:575
+#: kpoker.cpp:616
 msgid "Game Over"
 msgstr "Hra skonèená"
 
-#: top.cpp:62
+#: top.cpp:64
 msgid "&New game"
 msgstr "&Nová hra"
 
-#: top.cpp:68
+#: top.cpp:70
 msgid "&Sound"
 msgstr "&Zvuk"
 
-#: top.cpp:81
-msgid "&About..."
-msgstr "&Informácie..."
+#~ msgid "&About..."
+#~ msgstr "&Informácie..."
 
-#: top.cpp:82
-msgid "About &Qt..."
-msgstr "Informácie o &Qt ..."
+#~ msgid "About &Qt..."
+#~ msgstr "Informácie o &Qt ..."

@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kmines VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Székely Krisztián <szekelyk@edasz.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -13,31 +13,31 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: main.cpp:22 main.cpp:34 main.cpp:53
+#: main.cpp:24 main.cpp:35 main.cpp:53
 msgid "New game"
 msgstr "Új játék"
 
-#: main.cpp:23 main.cpp:35 main.cpp:54
+#: main.cpp:25 main.cpp:36 main.cpp:54
 msgid "Pause game"
 msgstr "Szünet"
 
-#: main.cpp:26 main.cpp:38 main.cpp:56
+#: main.cpp:27 main.cpp:38 main.cpp:56
 msgid "High scores"
 msgstr "Rekord pontok"
 
-#: main.cpp:27
+#: main.cpp:28
 msgid "Close dialog"
 msgstr "Bezárás"
 
-#: main.cpp:28
+#: main.cpp:29
 msgid "Ok dialog"
 msgstr "Rendben"
 
-#: main.cpp:29
+#: main.cpp:30
 msgid "Cancel dialog"
 msgstr "Mégsem"
 
-#: main.cpp:51 main.cpp:162
+#: main.cpp:51 main.cpp:159
 msgid "Hide menu bar"
 msgstr "Menüsor elrejtése"
 
@@ -61,32 +61,11 @@ msgstr "Szakértõ"
 msgid "Custom"
 msgstr "Egyéni"
 
-#: main.cpp:75
-msgid "About..."
-msgstr "Névjegy..."
-
-#: main.cpp:80
+#: main.cpp:82
 msgid "Level"
 msgstr "Szint"
 
-#: main.cpp:100
-#, c-format
-msgid ""
-"%s (%s) \n"
-"\n"
-"by Nicolas HADACEK  (hadacek@kde.org)\n"
-" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-msgstr ""
-"%s (%s) \n"
-"\n"
-"Készítette: Nicolas HADACEK (hadacek@kde.org)\n"
-" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-
-#: main.cpp:102
-msgid "kmines : About"
-msgstr "kmines : Névjegy"
-
-#: main.cpp:159
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr "Menüsor megjelenítése"
 
@@ -114,11 +93,11 @@ msgstr "A rekord pontokat tartalmazó fájl nem írható !"
 msgid "kmines : Error"
 msgstr "kmines : Hiba"
 
-#: field.cpp:87 field.cpp:94
+#: field.cpp:86 field.cpp:93
 msgid "Game paused"
 msgstr "A játék szünetel"
 
-#: field.cpp:90 field.cpp:96
+#: field.cpp:89 field.cpp:95
 msgid "Press to resume"
 msgstr "Nyomd meg a folytatáshoz"
 
@@ -165,3 +144,20 @@ msgstr "Bizonytalan (?) jel"
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "Próbáld újra"
+
+#~ msgid "About..."
+#~ msgstr "Névjegy..."
+
+#~ msgid ""
+#~ "%s (%s) \n"
+#~ "\n"
+#~ "by Nicolas HADACEK  (hadacek@kde.org)\n"
+#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+#~ msgstr ""
+#~ "%s (%s) \n"
+#~ "\n"
+#~ "Készítette: Nicolas HADACEK (hadacek@kde.org)\n"
+#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+
+#~ msgid "kmines : About"
+#~ msgstr "kmines : Névjegy"

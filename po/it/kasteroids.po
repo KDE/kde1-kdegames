@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,38 +14,37 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:77
+#: toplevel.cpp:98
 msgid "Score"
 msgstr "Punteggio"
 
-#: toplevel.cpp:91
+#: toplevel.cpp:112
 msgid "Level"
 msgstr "Livello"
 
-#: toplevel.cpp:105
+#: toplevel.cpp:126
 msgid "Ships"
 msgstr "Navi"
 
-#: toplevel.cpp:165
-#, fuzzy
-msgid "&About..."
-msgstr "&Info su..."
-
-#: toplevel.cpp:262
+#: toplevel.cpp:317
 msgid "Press Enter to launch."
 msgstr "Premi Invio per un nuovo lancio."
 
-#: toplevel.cpp:280 toplevel.cpp:299
-msgid "KAsteriods"
-msgstr "KAsteroids"
-
-#: toplevel.cpp:292
+#: toplevel.cpp:336
 msgid "Ship Destroyed.  Press Enter to launch."
 msgstr "Nave sitrutta. Premi Invio per un nuovo lancio"
 
-#: toplevel.cpp:300
+#: toplevel.cpp:340
+msgid "KAsteriods"
+msgstr "KAsteroids"
+
+#: toplevel.cpp:341
 msgid "Game Over!"
 msgstr "Game Over!"
+
+#, fuzzy
+#~ msgid "&About..."
+#~ msgstr "&Info su..."
 
 # KDE Translation project
 # Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
