@@ -6,6 +6,8 @@ ksame_SOURCES= main.cpp StoneWidget.cpp KSameWidget.cpp HighScore.cpp
 BUILTSOURCES = StoneWidget.moc KSameWidget.moc HighScore.moc
 DISTCLEANFILES = $(BUILTSOURCES)
 
+noinst_HEADERS = StoneWidget.h KSameWidget.h HighScore.h version.h
+
 docsdir = $(kde_htmldir)/en/ksame/
 appsdir = $(kde_appsdir)/Games
 picsdir = $(kde_datadir)/ksame/pics
@@ -25,6 +27,8 @@ HighScore.moc: HighScore.h
 pics_DATA = stones.gif stones_mask.gif
 docs_DATA = index.html index-1.html index-2.html index-3.html index-4.html logotp3.gif
 apps_DATA = ksame.kdelnk
+
+EXTRA_DIST = $(pics_DATA) $(docs_DATA) $(apps_DATA) ksame.xpm mini-ksame.xpm
 
 install-data-local: 
 	$(mkinstalldirs) $(kde_icondir)

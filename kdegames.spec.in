@@ -4,12 +4,12 @@ Name: %{name}
 Summary: K Desktop Environment - Games
 Version: %{version}
 Release: 1
-Source: ftp.kde.org:/pub/stable/Beta4/distribution/tgz/source/%{name}-%{version}-1.src.tar.gz
+Source: ftp.kde.org:/pub/stable/1.0pre/distribution/tgz/source/%{name}-%{version}-1.src.tar.gz
 Group: X11/KDE/Games
 BuildRoot: /tmp/realhot_%{name}
 Copyright: GPL
 Requires: qt >= 1.33
-Packager: Preston Brown <pbrown@kde.org>
+Packager: Kalle Dalheimer <kalle@kde.org>
 Distribution: KDE
 Vendor: The KDE Team
 
@@ -34,7 +34,7 @@ ktetris: the well-known tetris game
 %prep
 rm -rf $RPM_BUILD_ROOT
 
-%setup -n kdegames
+%setup -n kdegames-%{version}
 
 %build
 export KDEDIR=/opt/kde

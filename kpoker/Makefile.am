@@ -14,11 +14,14 @@ icon_DATA = kpoker.xpm
 bin_PROGRAMS = kpoker
 kpoker_SOURCES = kpoker.cpp kpaint.cpp top.cpp main.cpp
 
+noinst_HEADERS = defines.h global.h kpaint.h kpoker.h top.h version.h
+
 SRCMETA =	kpoker.moc kpaint.moc top.moc
 DISTCLEANFILES = $(SRCMETA)
 
 SUBDIRS = docs sounds bitmaps
 
+EXTRA_DIST = $(apps_DATA) $(icon_DATA) kpoker.xpm mini-kpoker.xpm
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)

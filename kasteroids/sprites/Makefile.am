@@ -1,26 +1,23 @@
+SUBDIRS = bits missile rock1 rock2 rock3 ship
 
 SHELL = /bin/sh
 POVRAY=x-povray  # Must be Povray 3.0
 LDLIBS=-lpng -lz -lm
 
-all: pngtoppmpgm
+#all: pngtoppmpgm
 
-clean:
-	rm -f *~ pngtoppmpgm
+#clean:
+#	rm -f *~ pngtoppmpgm
 
-distclean: clean
-	rm -f Makefile
+#distclean: clean
+#	rm -f Makefile
 
 FILES = `find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
 prefix = @prefix@
 kde_datadir = @kde_datadir@
 install_root = @install_root@
 DESTDIR = $(kde_datadir)/kasteroids/sprites
-INSTALL_DATA = @INSTALL@ -m 644
 mkinstalldirs = $(SHELL) @top_srcdir@/mkinstalldirs
-
-Makefile: Makefile.in
-	cd ../.. && CONFIG_FILES=kasteroids/sprites/$@ CONFIG_HEADERS= $(SHELL) ./config.status
 
 install:
 	@$(mkinstalldirs) $(DESTDIR)/rock1 ;\

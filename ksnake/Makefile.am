@@ -7,7 +7,8 @@ LDADD =  -lkdeui -lkdecore -lqt -lXext -lX11 -lm
 noinst_HEADERS = game.h trys.h rattler.h board.h\
 		level.h ball.h snake.h\
 		basket.h startroom.h lcdrange.h score.h\
-		pixServer.h progress.h levels.h view.o keys.h 
+		pixServer.h progress.h levels.h view.h keys.h version.h \
+		bitmaps.h
 
 ksnake_SOURCES = game.cpp trys.cpp rattler.cpp board.cpp\
 		level.cpp ball.cpp snake.cpp\
@@ -30,6 +31,8 @@ appsdir = $(kde_appsdir)/Games
 
 icon_DATA = ksnake.xpm
 icondir = $(kde_icondir)
+
+EXTRA_DIST = $(apps_DATA) $(icon_DATA) mini-ksnake.xpm
 
 SUBDIRS = doc data 
 

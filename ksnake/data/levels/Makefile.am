@@ -5,3 +5,5 @@ room_DATA = room01 room02 room03 room04 room05 room06 room07 \
 	room24 room25
 
 roomdir = $(kde_datadir)/ksnake/levels
+
+EXTRA_DIST = $(room_DATA)

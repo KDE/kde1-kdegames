@@ -8,3 +8,5 @@ pics_DATA = 1.bmp 10.bmp 11.bmp 12.bmp 13.bmp 14.bmp 15.bmp 16.bmp \
 	deck2.bmp deck3.bmp deck4.bmp
 
 picsdir = $(kde_datadir)/kpoker/pics
+
+EXTRA_DIST = $(pics_DATA)

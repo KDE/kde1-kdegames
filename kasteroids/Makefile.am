@@ -8,9 +8,13 @@ kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp
 BUILTSOURCES = view.moc toplevel.moc kfixedtopwidget.moc
 DISTCLEANFILES = $(BUILTSOURCES)
 
+noinst_HEADERS = kfixedtopwidget.h sprites.h toplevel.h version.h view.h
+
+EXTRA_DIST = mini-kasteroids.xpm kasteroids.xpm  kasteroids.kdelnk bg.ppm
+
 bin_PROGRAMS = kasteroids
 
-SUBDIRS = html
+SUBDIRS = html sprites
 
 picsdir = $(kde_datadir)/kasteroids/sprites
 pics_DATA = bg.ppm

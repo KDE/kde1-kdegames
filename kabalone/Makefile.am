@@ -12,6 +12,9 @@ kabalone_SOURCES = Board.cpp Move.cpp BoardWidget.cpp AbTop.cpp \
 SRCMETA =	Board.moc AbTop.moc BoardWidget.moc Spy.moc
 DISTCLEANFILES = $(SRCMETA)
 
+noinst_HEADERS = AbTop.h Board.h BoardWidget.h Spy.h Move.h version.h
+EXTRA_DIST = kabalone.xpm mini-kabalone.xpm kabalone.kdelnk
+
 bin_PROGRAMS = kabalone
 
 tar: clean
@@ -20,7 +23,7 @@ tar: clean
 icondir = $(kde_icondir)
 icon_DATA = kabalone.xpm
 
-SUBDIRS = html toolbar
+SUBDIRS = html toolbar bitmaps
 
 appsdir = $(kde_appsdir)/Games
 apps_DATA = kabalone.kdelnk
