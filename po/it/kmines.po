@@ -52,7 +52,7 @@ msgstr "minuti"
 
 #: dialogs.cpp:342
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #: dialogs.cpp:354
 msgid "seconds."
