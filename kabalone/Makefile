@@ -1,5 +1,5 @@
 # Generated automatically from Makefile.in by configure.
-# This is a sample Makefile.in 
+VERSION=1.02
 
 # -g -Wall     : is set to -g -Wall (when debuging) or -O2 -Wall (when not)
 # -I/usr/local/KDE/include -I/usr/local/qt/include -I/usr/X11R6/include : is set to all needed include paths for QT, KDE and X11
@@ -10,8 +10,8 @@ CXXFLAGS= -g -Wall -I/usr/local/KDE/include -I/usr/local/qt/include -I/usr/X11R6
 #     : is set to -s (when not debuging) for stripping
 # @all_libra.@ : is set to all needed libraries paths for QT, KDE and X11
 # you need also , if you link with -lkfm
-LDFLAGS	=  -s -L/usr/local/KDE/lib -L/usr/local/qt/lib -L/usr/X11R6/lib -lkdecore -lkdeui -lqt -lX11  \
-	-lXext
+LDFLAGS	=  -L/usr/local/KDE/lib -L/usr/local/qt/lib -L/usr/X11R6/lib -lkdecore -lkdeui -lqt -lX11 \
+	-lXext 
 
 # both are clear, I think
 CXX     = c++
@@ -28,9 +28,12 @@ INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 prefix = /usr/local/KDE
 KDEINC = $(prefix)/include
 BINDIR = $(prefix)/bin
-LIBDIR = $(prefix)/lib
-DOCDIR = $(prefix)/share/doc/HTML
+ICONDIR = $(prefix)/share/icons
+MINIDIR = $(prefix)/share/icons/mini
+ENDOCDIR = $(prefix)/share/doc/HTML/en/$(TARGET)
+DEDOCDIR = $(prefix)/share/doc/HTML/de/$(TARGET)
 KDELNKDIR= $(prefix)/share/applnk/Games
+TBDIR  = $(prefix)/share/apps/$(TARGET)/toolbar
 
 ########### File Formats ###########
 
@@ -44,9 +47,8 @@ KDELNKDIR= $(prefix)/share/applnk/Games
 
 ########## Files #####################
 
-OBJECTS =       Board.o Move.o BoardWidget.o AbTop.o kabalone.o
-SRCMETA =	Board.moc AbTop.moc BoardWidget.moc
-DOCS    =       html/kabalone.html
+OBJECTS =       Board.o Move.o BoardWidget.o AbTop.o kabalone.o Spy.o
+SRCMETA =	Board.moc AbTop.moc BoardWidget.moc Spy.moc
 TARGET	=	kabalone
 
 ######### build rules ################
@@ -66,13 +68,24 @@ clean:
 distclean: clean
 	rm -f Makefile
 
+tar: clean
+	(rm -f Makefile; cd ..; tar czvf kabalone-$(VERSION).tgz kabalone)
+
 install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
-	$(INSTALL_DIR) $(DOCDIR)
-	$(INSTALL_DATA) $(DOCS) $(DOCDIR)
+	$(INSTALL_DIR) $(ICONDIR)
+	$(INSTALL_DATA) icon/kabalone.xpm $(ICONDIR)
+	$(INSTALL_DIR) $(MINIDIR)
+	$(INSTALL_DATA) icon/mini/kabalone.xpm $(MINIDIR)
+	$(INSTALL_DIR) $(ENDOCDIR)
+	$(INSTALL_DATA) html/index.html $(ENDOCDIR)
+	$(INSTALL_DIR) $(DEDOCDIR)
+	$(INSTALL_DATA) html/de/index.html $(DEDOCDIR)
 	$(INSTALL_DIR) $(KDELNKDIR)
 	$(INSTALL_DATA) kabalone.kdelnk $(KDELNKDIR)
+	$(INSTALL_DIR) $(TBDIR)
+	$(INSTALL_DATA) toolbar/*.xpm $(TBDIR)
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
@@ -84,9 +97,21 @@ dep:
 $(TARGET).po:
 	xgettext --default-domain=$(TARGET) --keyword=translate *.cpp
 
+createpo: $(TARGET).po
+	mv $(TARGET).po po
+	
+updatepo: $(TARGET).po
+	tupdate $(TARGET).po po/de/$(TARGET).po >de.po
+	mv $(TARGET).po po
+	mv de.po po/de/$(TARGET).po
+	msgfmt po/de/$(TARGET).po
+	mv messages po/de/$(TARGET).mo
+
+	
+
 
 # DO NOT DELETE
-AbTop.o: AbTop.h Board.h Move.h BoardWidget.h AbTop.moc
+AbTop.o: AbTop.h Board.h Move.h BoardWidget.h Spy.h AbTop.moc
 Board.o: Board.h Move.h Board.moc
 BoardWidget.o: Board.h Move.h BoardWidget.h bitmaps/Arrow1 bitmaps/Arrow1Mask
 BoardWidget.o: bitmaps/Arrow2 bitmaps/Arrow2Mask bitmaps/Arrow3
@@ -94,4 +119,5 @@ BoardWidget.o: bitmaps/Arrow3Mask bitmaps/Arrow4 bitmaps/Arrow4Mask
 BoardWidget.o: bitmaps/Arrow5 bitmaps/Arrow5Mask bitmaps/Arrow6
 BoardWidget.o: bitmaps/Arrow6Mask BoardWidget.moc
 Move.o: Move.h
-kabalone.o: AbTop.h Board.h Move.h BoardWidget.h
+Spy.o: Spy.h Board.h Move.h BoardWidget.h Spy.moc
+kabalone.o: AbTop.h Board.h Move.h BoardWidget.h Spy.h
