@@ -1,7 +1,7 @@
 
-INCLUDES = $(all_includes) -IQwSpriteField
+INCLUDES = -IQwSpriteField $(all_includes) 
 
-LDFLAGS = $(all_libraries) 
+LDFLAGS = $(all_libraries) $(KDE_RPATH)
 LDADD = -lkdeui -lkdecore QwSpriteField/libSpriteField.a -lqt -lXext -lX11 $(LIBSOCKET)
 
 kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp kastmsg.cpp
