@@ -20,13 +20,15 @@ private:
 	KMenuBar        *menu;
 	
 	QPopupMenu      *optionsPopup;
-	QPopupMenu      *helpPopup;
+/*	QPopupMenu      *helpPopup;*/
 	QPopupMenu      *filePopup;
 
 	kpok            *_kpok;
 	
 protected slots:
 	int toggleSound();
+        void saveProperties(KConfig*);
+        void readProperties(KConfig*);
 
 	
 public:

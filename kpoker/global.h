@@ -6,8 +6,9 @@
 #define __GLOBAL__H__
 
 #include <klocale.h>
+#include <kconfig.h>
 
 extern KLocale *locale;
-
+extern KConfig *conf;
 #endif
 

@@ -1,10 +1,15 @@
+Vesion 0.4
+
+- deleted version.h because it is of no use
+- put in that nice "wave" effect
+- added sm-support
+- some internal stuff (as usual :)
+
+------------------------------------------------------------------------------
 Version 0.3.1
 
 - [Robert Williams]  added getHelpMenu()
 - [Robert Williams]  added version.h
-
-Version 0.??
-
 - changed minor look&feel stuff
 
 ------------------------------------------------------------------------------

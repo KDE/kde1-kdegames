@@ -13,8 +13,8 @@
 
 class KAudio;
 
-const char PVERSION[] = "0.3";
-const char PDATE[] = "09/30/97";
+const char PVERSION[] = "0.4";
+const char PDATE[] = "02/21/97";
 
 typedef enum _cardtype { // I don't use this anymore. But it helps to understand the numbers :)
 	        DECK=0,
@@ -51,9 +51,14 @@ class kpok : public QWidget
 public:
 	kpok(QWidget *parent=0, const char *name=0);
 	void drawCards(int skip[5]);
-protected:
 	void setCash(int newCash);
 	int  getCash();
+   int  getStatus();
+   void setStatus(int);
+   int  getCard(int);
+   void setCard(int, int);
+
+protected:
 	void setHand(const char *newHand);
 	
 	int  testHand();
@@ -66,11 +71,11 @@ protected:
 	int  testStraight();
 	int  findCardTypes(int cardT[5], int card);
 	void playSound(const char *filename);
-	
+   void paintEvent( QPaintEvent * );	
 
 public slots:
 	int initSound();	
-	void toggleSound();	
+	void setSound(int);	
 protected slots:
 	void initPoker();
 	
@@ -78,7 +83,17 @@ protected slots:
 	void frameClick(CardWidget *);
 	void bTimerEvent();
 	void drawCardsEvent();
+       void waveTimerEvent();
+   
 	void displayWin(const char *hand, int cashWon);
+	void showAboutBox();
+	void showQtAboutBox();
+/*	void help();*/
+
+   void startWave();
+   void stopWave();
+
+	
 private:
 	QFrame      *CardFrames[5];
 	QPushButton *drawButton;
@@ -90,8 +105,12 @@ private:
 	QFrame       *LHFrame;
 	QTimer       *blinkTimer;
 	QTimer       *drawTimer;
-	QLabel       *clickToHold; 
-        QLabel       *heldLabels[5];
+	QTimer       *waveTimer;
+   
+   QLabel       *clickToHold; 
+   QLabel       *heldLabels[5];
+
+   QPicture     *wavePic;
 	
 	int cash;
 	CardWidget    *cardW[5];
@@ -104,9 +123,12 @@ private:
 	int           blinkingCards[5]; // cards that should blink in the blinking timerevent
 	int           blinkStat; // status of blinking
 	int           drawStat; // status of drawing (which card already was drawn etc.
-        bool          sound;
-        KAudio       *KAS;						      
-        KLocale      *locale;						      
+   bool          sound;
+   KAudio       *KAS;						      
+   KLocale      *locale;						      
+   
+   int          waveActive;
+   int          fCount;
 };
 
 

@@ -37,7 +37,6 @@
 #include<kmsgbox.h>
 
 #include "kpoker.h"
-#include "version.h"
 
 #include "top.moc"
 #include "global.h"
@@ -47,6 +46,8 @@ int soId;
 
 PokerWindow::PokerWindow() :   KTopLevelWidget()
 {
+        int i;
+
 	locale = kapp->getLocale();
 	
 	_kpok = new kpok(this,0);
@@ -69,38 +70,89 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	soId = optionsPopup->insertItem(locale->translate("&Sound"), this, SLOT(toggleSound()));
 	optionsPopup->setCheckable(TRUE);
 
-       	if (_kpok->initSound() == 1) {
-	  optionsPopup->setItemChecked(soId, TRUE);
-	}
-	else {
-	  optionsPopup->setItemEnabled(soId, FALSE);
-	}
-
-   	QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Poker"))
-                                         + " " + KPOKER_VERSION
+	QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Poker"))
+					 + " " + PVERSION + " released " + PDATE
                                          + i18n("\n\nby Jochen Tuchbreiter")
-                                         + "(whynot@mabi.de)");
-                                                                  	
+                                         + " (whynot@mabi.de)"
+					 + i18n("\n\nFor a list of credits see helpfile")
+					 + i18n("\nSuggestions, bug reports etc. are welcome")
+					     );
+
 	menu->insertItem(locale->translate("&File"), filePopup);
 	menu->insertItem(locale->translate("&Options"), optionsPopup);
 	
 	menu->insertSeparator();
 	menu->insertItem(locale->translate("&Help"), help);
-	
+
+	if (_kpok->initSound() == 1) {
+	  optionsPopup->setItemChecked(soId, TRUE);
+	}
+	else {
+	  optionsPopup->setItemEnabled(soId, FALSE);
+	}
+	conf = kapp->getConfig();
+
+	if (conf !=0) {
+	  if ((i = conf->readNumEntry("Sound", -1)) != -1) {
+	    if (i==0) {
+	      optionsPopup->setItemChecked(soId, FALSE);
+	      _kpok->setSound(0);
+	    }
+	    if (i==1) {
+	      optionsPopup->setItemChecked(soId, TRUE);
+	      _kpok->setSound(1);
+            	    }
+	  }
+	}
 }
 
 PokerWindow::~PokerWindow()
 {
+        if (optionsPopup->isItemChecked(soId)) 
+	  conf->writeEntry("Sound",1);
+	else
+	  conf->writeEntry("Sound",0);
 	delete menu;
+}
+
+
+void PokerWindow::saveProperties(KConfig* conf)
+{
+  conf->writeEntry("cash", _kpok->getCash());
+  if (optionsPopup->isItemChecked(soId)) 
+    conf->writeEntry("Sound",1);
+  else
+    conf->writeEntry("Sound",0);
+}
+
+void PokerWindow::readProperties(KConfig* conf)
+{
+  int i;
+  if ((i = conf->readNumEntry("cash", -1)) != -1) {
+    _kpok->setCash(i);
+  }
+  if ((i = conf->readNumEntry("Sound", -1)) != -1) {
+    if (i==0) {
+      optionsPopup->setItemChecked(soId, FALSE);
+      _kpok->setSound(0);
+    }
+    if (i==1) {
+      optionsPopup->setItemChecked(soId, TRUE);
+      _kpok->setSound(1);
+    }
+  }
 }
 
 int PokerWindow::toggleSound()
 {
-  if (optionsPopup->isItemChecked(soId) == TRUE)
+  if (optionsPopup->isItemChecked(soId) == TRUE) {
+      _kpok->setSound(0);
     optionsPopup->setItemChecked(soId, FALSE);
-  else
+  }
+  else {
     optionsPopup->setItemChecked(soId, TRUE);
-  _kpok->toggleSound();
+    _kpok->setSound(1);
+  }
   return 1;
 }
 

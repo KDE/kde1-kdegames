@@ -28,6 +28,7 @@
 #include "top.h"
 
 KLocale *locale;
+KConfig *conf;
 
 int main( int argc, char *argv[] )
 {
