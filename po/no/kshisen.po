@@ -107,7 +107,7 @@ msgstr "Din tid: XX:XX:XX"
 
 #: app.cpp:176 app.cpp:273 app.cpp:298
 msgid "Cheat mode"
-msgstr "Fuske modus"
+msgstr "Fuskemodus"
 
 #: app.cpp:264
 msgid "This game is solveable"
