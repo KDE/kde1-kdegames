@@ -1,107 +1,143 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
 msgstr ""
-"Date: 1997-09-24 10:59:56+0200\n"
-"From: root <root@joe>\n"
-"Content-Type: text/plain; charset=\n"
-"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
-"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
-#: AbTop.cpp:29 AbTop.cpp:143
+#: AbTop.cpp:240 AbTop.cpp:399
 msgid "Move"
 msgstr ""
 
-#: AbTop.cpp:32 AbTop.cpp:147
+#: AbTop.cpp:243 AbTop.cpp:403
 msgid "Press F2 for a new game"
 msgstr ""
 
-#: AbTop.cpp:73
-msgid "New Game"
-msgstr ""
-
-#: AbTop.cpp:75
+#: AbTop.cpp:261 AbTop.cpp:301
 msgid "Stop Search"
 msgstr ""
 
-#: AbTop.cpp:80
+#: AbTop.cpp:266 AbTop.cpp:305
 msgid "Take back"
 msgstr ""
 
-#: AbTop.cpp:82
+#: AbTop.cpp:271 AbTop.cpp:307
 msgid "Hint"
 msgstr ""
 
-#: AbTop.cpp:85
-msgid "Quit"
-msgstr ""
-
-#: AbTop.cpp:89
-msgid "Easy"
-msgstr ""
-
-#: AbTop.cpp:91
-msgid "Normal"
-msgstr ""
-
-#: AbTop.cpp:93
-msgid "Hard"
-msgstr ""
-
-#: AbTop.cpp:95
-msgid "Challange"
-msgstr ""
-
-#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
-msgid "Red"
-msgstr ""
-
-#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
-msgid "Yellow"
-msgstr ""
-
-#: AbTop.cpp:105
-msgid "Both"
-msgstr ""
-
-#: AbTop.cpp:111
-msgid "Level"
-msgstr ""
-
-#: AbTop.cpp:112
-msgid "Computer plays"
-msgstr ""
-
-#: AbTop.cpp:114
-msgid "Move slow"
-msgstr ""
-
-#: AbTop.cpp:122 AbTop.cpp:405
-msgid "About"
-msgstr ""
-
-#: AbTop.cpp:123
+#: AbTop.cpp:276 AbTop.cpp:352
 msgid "Rules"
 msgstr ""
 
-#: AbTop.cpp:127
-msgid "File"
+#: AbTop.cpp:296
+msgid "Save Position"
 msgstr ""
 
-#: AbTop.cpp:128
-msgid "Options"
+#: AbTop.cpp:298
+msgid "Restore Position"
 msgstr ""
 
-#: AbTop.cpp:130
-msgid "Help"
+#: AbTop.cpp:315
+msgid "Easy"
 msgstr ""
 
-#: AbTop.cpp:152
+#: AbTop.cpp:319
+msgid "Hard"
+msgstr ""
+
+#: AbTop.cpp:321
+msgid "Challange"
+msgstr ""
+
+#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+msgid "Red"
+msgstr ""
+
+#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+msgid "Yellow"
+msgstr ""
+
+#: AbTop.cpp:331
+msgid "Both"
+msgstr ""
+
+#: AbTop.cpp:337
+msgid "Level"
+msgstr ""
+
+#: AbTop.cpp:338
+msgid "Computer plays"
+msgstr ""
+
+#: AbTop.cpp:340
+msgid "Move slow"
+msgstr ""
+
+#: AbTop.cpp:342
+msgid "Spy"
+msgstr ""
+
+#: AbTop.cpp:408
 msgid "won"
 msgstr ""
 
-#: AbTop.cpp:156
+#: AbTop.cpp:412
 msgid "I am thinking..."
 msgstr ""
 
-#: AbTop.cpp:157
+#: AbTop.cpp:413
 msgid "It's your turn !"
+msgstr ""
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr ""
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr ""
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr ""
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr ""
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr ""
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr ""
+
+#: Move.cpp:49
+msgid "Out"
+msgstr ""
+
+#: Move.cpp:50
+msgid "Push"
+msgstr ""
+
+#: Spy.cpp:21
+msgid "Actual examined position:"
+msgstr ""
+
+#: Spy.cpp:46
+msgid "Best move so far:"
+msgstr ""
+
+#: Spy.cpp:75
+msgid "Spion"
 msgstr ""

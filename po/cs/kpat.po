@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1997-09-11 12:52+0200\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "PO-Revision-Date: 1997-10-18 17:21 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <LL@li.org>\n"
@@ -13,20 +13,20 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: cardmaps.cpp:60
+#: cardmaps.cpp:62
 msgid "please wait, loading cards..."
 msgstr "Prosím èekejte, nahrávám karty..."
 
-#: cardmaps.cpp:64
+#: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
 msgstr "KPat - solitérová hra"
 
-#: cardmaps.cpp:102
+#: cardmaps.cpp:104
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
 msgstr "kpat: POPLACH, nemohu nahrát herní kartu \"%s\"\n"
 
-#: cardmaps.cpp:202
+#: cardmaps.cpp:204
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: pøístup k neplatné kartì %d, %d\n"
@@ -46,10 +46,6 @@ msgstr "Snadná 2"
 #: computation.cpp:95
 msgid "Easy 1"
 msgstr "Snadná 1"
-
-#: computation.cpp:96
-msgid "Normal"
-msgstr "Normální"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -75,23 +71,15 @@ msgstr "Tì¾ká 5"
 msgid "Try to move card:"
 msgstr "Skus pøesunout kartu:"
 
-#: grandf.cpp:45
-msgid "Ok"
-msgstr "Ok"
-
-#: grandf.cpp:111
+#: grandf.cpp:113
 msgid "Redeal"
 msgstr "Znovu rozdej"
 
-#: grandf.cpp:145
+#: grandf.cpp:147
 msgid "Hint"
 msgstr "Rada"
 
-#: grandf.cpp:171
-msgid "Information"
-msgstr "Informace"
-
-#: grandf.cpp:172
+#: grandf.cpp:174
 msgid "Only 3 deals allowed"
 msgstr "Povoleny pouze 3 rozdání"
 
@@ -103,10 +91,6 @@ msgstr "Jednoduchá pravidla"
 msgid "Hard rules"
 msgstr "Tì¾ká pravidla"
 
-#: klondike.cpp:93
-msgid "Warning"
-msgstr "Varovaní"
-
 #: klondike.cpp:94
 msgid ""
 "This will end the current game\n"
@@ -115,129 +99,97 @@ msgstr ""
 "Toto ukonèí souèsnou hru\n"
 "Jste si jisti, ¾e si to pøejete?"
 
-#: pwidget.cpp:73
-msgid "&Quit"
-msgstr "&Ukonèit"
-
-#: pwidget.cpp:75
-msgid "&File"
-msgstr "&Soubor"
-
-#: pwidget.cpp:78
-msgid "&Game"
-msgstr "&Hra"
-
-#: pwidget.cpp:80
-msgid "&Undo"
-msgstr "&Zpìt"
-
-#: pwidget.cpp:81
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "&Restartuj hru"
 
-#: pwidget.cpp:85
+#: pwidget.cpp:100
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:86 pwidget.cpp:250
+#: pwidget.cpp:101 pwidget.cpp:271
 msgid "MicroSolitaire"
 msgstr "Mikrosolitare"
 
-#: pwidget.cpp:87 pwidget.cpp:254
+#: pwidget.cpp:102 pwidget.cpp:275
 msgid "Calculation"
 msgstr "Výpoèet"
 
-#: pwidget.cpp:88
+#: pwidget.cpp:103
 msgid "Napoleon's Tomb"
 msgstr "Napoleonova hrobka"
 
-#: pwidget.cpp:89 pwidget.cpp:258
+#: pwidget.cpp:104 pwidget.cpp:279
 msgid "The Idiot"
 msgstr "Idiot"
 
-#: pwidget.cpp:90 pwidget.cpp:242
+#: pwidget.cpp:105 pwidget.cpp:263
 msgid "Grandfather"
 msgstr "Dìdeèek"
 
-#: pwidget.cpp:91 pwidget.cpp:238
+#: pwidget.cpp:106 pwidget.cpp:259
 msgid "Ten"
 msgstr "Desítka"
 
-#: pwidget.cpp:93
+#: pwidget.cpp:108
 msgid "Choose new game"
 msgstr "Zvol novou hru"
 
-#: pwidget.cpp:99
+#: pwidget.cpp:114
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:100
+#: pwidget.cpp:115
 msgid "Classic blue"
 msgstr "Klasické modré"
 
-#: pwidget.cpp:101
+#: pwidget.cpp:116
 msgid "Classic red"
 msgstr "Klasické èervené"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:117
 msgid "Technical"
 msgstr "Technické"
 
-#: pwidget.cpp:103
+#: pwidget.cpp:118
 msgid "Card backside"
 msgstr "Zadní strana karet"
 
-#: pwidget.cpp:104
+#: pwidget.cpp:119
 msgid "Animation on startup"
 msgstr "Animace pøi startu"
 
-#: pwidget.cpp:105
-msgid "&Options"
-msgstr "&Mo¾nosti"
-
-#: pwidget.cpp:109
+#: pwidget.cpp:124
 msgid "&Help..."
 msgstr "&Nápovìda..."
 
-#: pwidget.cpp:110
+#: pwidget.cpp:125
 msgid "Help on &rules..."
 msgstr "Nápovìda k &pravidlùm..."
 
-#: pwidget.cpp:111
+#: pwidget.cpp:127
 msgid "About &Qt..."
 msgstr "Informace o &Qt"
 
-#: pwidget.cpp:112
-msgid "A&bout..."
-msgstr "&Informace..."
-
-#: pwidget.cpp:113 pwidget.cpp:125
-msgid "Help"
-msgstr "Nápovìda"
-
-#: pwidget.cpp:124
-msgid "Quit"
-msgstr "Ukonèit"
-
-#: pwidget.cpp:225
+#: pwidget.cpp:246
 #, c-format
 msgid "COMMAND %d not implemented!\n"
 msgstr "Pøíkaz %d není implementován!\n"
 
-#: pwidget.cpp:246
+#: pwidget.cpp:267
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:262
+#: pwidget.cpp:283
 msgid "Napoleons Tomb"
 msgstr "Napoleonova hrobka"
 
-#: pwidget.cpp:267
+#: pwidget.cpp:288
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: neimplementovaný typ hry %d\n"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:320
 msgid ""
 "KPat\n"
 "\n"
@@ -247,7 +199,7 @@ msgstr ""
 "\n"
 "Verze "
 
-#: pwidget.cpp:301
+#: pwidget.cpp:322
 msgid ""
 "\n"
 "Copyright (C) 1995  Paul Olav Tvete\n"
@@ -269,18 +221,53 @@ msgstr ""
 "Tento program souèástí KDE.\n"
 "Pro informaci k licenèním podmínkám  pou¾ij nápovìdu."
 
-#: pwidget.cpp:309
+#: pwidget.cpp:330
 msgid "About kpat"
 msgstr "Informace o kpatu"
 
-#: pwidget.cpp:346
-msgid "Error"
-msgstr "Chyba"
-
-#: pwidget.cpp:347
+#: pwidget.cpp:368
 msgid "Could not load background image!"
 msgstr "Nemoho nahrát obrázek zadní strany!"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Plnì automatické"
+
+#~ msgid "A&bout..."
+#~ msgstr "&Informace..."
+
+#~ msgid "Normal"
+#~ msgstr "Normální"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"
+
+#~ msgid "Information"
+#~ msgstr "Informace"
+
+#~ msgid "Warning"
+#~ msgstr "Varovaní"
+
+#~ msgid "&Quit"
+#~ msgstr "&Ukonèit"
+
+#~ msgid "&File"
+#~ msgstr "&Soubor"
+
+#~ msgid "&Game"
+#~ msgstr "&Hra"
+
+#~ msgid "&Undo"
+#~ msgstr "&Zpìt"
+
+#~ msgid "&Options"
+#~ msgstr "&Mo¾nosti"
+
+#~ msgid "Help"
+#~ msgstr "Nápovìda"
+
+#~ msgid "Quit"
+#~ msgstr "Ukonèit"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"

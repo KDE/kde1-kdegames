@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Reversi\n"
-"POT-Creation-Date: 1997-09-10 17:26+0200\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "PO-Revision-Date: 1997-10-18 17:17 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <LL@li.org>\n"
@@ -13,363 +13,15 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-2\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: app.cpp:207 app.cpp:505
-msgid "Error"
-msgstr "Chyba"
-
-#: app.cpp:208 app.cpp:506
-msgid ""
-"A problem with the sound server occured!\n"
-"Cannot enable sound support."
-msgstr ""
-"Vyskytl se problém se svukovým serverem!\n"
-"Nemohu zpøístupnít podporu zvuku."
-
-#: app.cpp:232
-msgid "&Quit"
-msgstr "&Ukonèit"
-
-#: app.cpp:235
-msgid "Get &hint)"
-msgstr "Obdr¾ &radu"
-
-#: app.cpp:237
-msgid "&Stop thinking"
-msgstr "&Skonèi pøemý¹lení"
-
-#: app.cpp:238
-msgid "&Continue"
-msgstr "&Pokraèuj"
-
-#: app.cpp:240
-msgid "&New game"
-msgstr "&Nová hra"
-
-#: app.cpp:241
-msgid "&Load game"
-msgstr "Nahrát &hru"
-
-#: app.cpp:242
-msgid "&Save game"
-msgstr "U&lo¾it hru"
-
-#: app.cpp:242
-msgid "&Undo move"
-msgstr "&Vra» tah"
-
-#: app.cpp:243
-msgid "Switch si&des"
-msgstr "Prohoï s&trany"
-
-#: app.cpp:245
-msgid "Hall Of &Fame..."
-msgstr "Hala &Slávy..."
-
-#: app.cpp:251
-msgid "Level 1 (Wimp)"
-msgstr "Úroveò 1"
-
-#: app.cpp:252
-msgid "Level 2 (Beginner)"
-msgstr "Úroveò 2"
-
-#: app.cpp:253
-msgid "Level 3 (Novice)"
-msgstr "Úroveò 3"
-
-#: app.cpp:254
-msgid "Level 4 (Average)"
-msgstr "Úroveò 4"
-
-#: app.cpp:255
-msgid "Level 5 (Good)"
-msgstr "Úroveò 5"
-
-#: app.cpp:256
-msgid "Level 6 (Expert)"
-msgstr "Úroveò 6"
-
-#: app.cpp:257
-msgid "Level 7 (Master)"
-msgstr "Úroveò 7"
-
-#: app.cpp:258
-msgid "Skill"
-msgstr "Dovednost"
-
-#: app.cpp:260
-msgid "&Shrink board"
-msgstr "&Zmen¹it desku"
-
-#: app.cpp:261
-msgid "&Enlarge board"
-msgstr "Z&vìt¹it desku"
-
-#: app.cpp:265
-msgid "&Half size"
-msgstr "&Polovièní velikost"
-
-#: app.cpp:266
-#, c-format
-msgid "60%"
-msgstr ""
-
-#: app.cpp:267
-#, c-format
-msgid "80%"
-msgstr ""
-
-#: app.cpp:268
-msgid "D&efault size"
-msgstr "&Implicitní velikost"
-
-#: app.cpp:269
-#, c-format
-msgid "120%"
-msgstr ""
-
-#: app.cpp:270
-#, c-format
-msgid "140%"
-msgstr ""
-
-#: app.cpp:271
-#, c-format
-msgid "160%"
-msgstr ""
-
-#: app.cpp:272
-#, c-format
-msgid "180%"
-msgstr ""
-
-#: app.cpp:273
-msgid "&Double size"
-msgstr "&Dvojnásobná velikost"
-
-#: app.cpp:274
-msgid "Set size"
-msgstr "Nastav velikost"
-
-#: app.cpp:277
-msgid "Select &background color..."
-msgstr "Vyber barvu &pozadí..."
-
-#: app.cpp:283
-msgid "none"
-msgstr "¾ádný"
-
-#: app.cpp:293
-msgid "Select background image"
-msgstr "Vyber obrázek na pozadí"
-
-#: app.cpp:294
-msgid "&Grayscale"
-msgstr "©e&dé"
-
-#: app.cpp:296
-msgid "&Animations"
-msgstr "&Animace"
-
-#: app.cpp:300
-msgid "1 (fastest)"
-msgstr "1 (nejrychlej¹í)"
-
-#: app.cpp:306
-msgid "10 (slowest)"
-msgstr "10 (nejpomalej¹í)"
-
-#: app.cpp:307
-msgid "Animation speed"
-msgstr "Rychlost animace"
-
-#: app.cpp:310
-msgid "S&ound"
-msgstr "&Zvuk"
-
-#: app.cpp:314 app.cpp:324
-msgid "&Help"
-msgstr "&Nápovìda"
-
-#: app.cpp:315
-msgid "&Rules"
-msgstr "P&ravidla"
-
-#: app.cpp:316
-msgid "&Strategy hints"
-msgstr "&Strategické rady"
-
-msgid "About &Qt..."
-msgstr "Informace o &Qt"
-
-#: app.cpp:318
-msgid "&About..."
-msgstr "&Informace..."
-
-#: app.cpp:320
-msgid "&File"
-msgstr "&Soubor"
-
-#: app.cpp:321
-msgid "&Game"
-msgstr "&Hra"
-
-#: app.cpp:322
-msgid "&Options"
-msgstr "&Mo¾nosti"
-
-#: app.cpp:357
-msgid "Stop thinking"
-msgstr "Ukonèi pøemý¹lení"
-
-#: app.cpp:358
-msgid "Undo move"
-msgstr "Vra» tah"
-
-#: app.cpp:359
-msgid "Shrink board"
-msgstr "Zmen¹i desku"
-
-#: app.cpp:360
-msgid "Enlarge board"
-msgstr "Zvìt¹i desku"
-
-#: app.cpp:361
-msgid "Get hint"
-msgstr "Obdr¾ radu"
-
-#: app.cpp:362
-msgid "Get help"
-msgstr "Obdr¾ nápovìdu"
-
-#: app.cpp:369
-msgid "XXXXX's turn"
-msgstr "XXXXX je na tahu"
-
-#: app.cpp:370
-msgid "You (XXXXX): 88"
-msgstr "Vy (XXXXX): 88"
-
-#: app.cpp:371
-msgid "Computer (XXXXX): 88"
-msgstr "Poèítaè (XXXXX): 88"
-
-msgid "Game saved"
-msgstr "Hra ulo¾ena"
-
-#: app.cpp:556
-msgid "Information"
-msgstr "Informace"
-
-#: app.cpp:556
-msgid "not yet implemented"
-msgstr "není implementováno"
-
-#: app.cpp:570 app.cpp:574 app.cpp:841
-msgid "blue"
-msgstr "modrý"
-
-#: app.cpp:571 app.cpp:573 app.cpp:843
-msgid "red"
-msgstr "èervený"
-
-#: app.cpp:618
-msgid "End of game"
-msgstr "Konec hry"
-
-#: app.cpp:628
-#, c-format
-msgid ""
-"Game is drawn!\n"
-"\n"
-"You     : %d\n"
-"Computer: %d"
-msgstr ""
-"Nerozhodná hra!\n"
-"\n"
-"Vy      : %d\n"
-"Poèítaè : %d"
-
-#: app.cpp:629 app.cpp:641 app.cpp:661
-msgid "Game ended"
-msgstr "Hra ukonèena"
-
-#: app.cpp:639
-msgid ""
-"Congratulations, you have won!\n"
-"\n"
-"You     : %d\n"
-"Computer: %d\n"
-"Your rating %4.1f%%"
-msgstr ""
-"Gratuluji, vyhrál jste!\n"
-"\n"
-"Vy      : %d\n"
-"Poèítaè : %dVa¹e hodnocení %4.1f%%"
-
-#: app.cpp:659
-#, c-format
-msgid ""
-"You have lost the game!\n"
-"\n"
-"You     : %d\n"
-"Computer: %d"
-msgstr ""
-"Prohrál jste hru!\n"
-"\n"
-"Vy      : %d\n"
-"Poèítaè : %d"
-
-#: app.cpp:670
-msgid "Red's"
-msgstr "Èerveného"
-
-#: app.cpp:670 app.cpp:672
-msgid "turn"
-msgstr "tah"
-
-#: app.cpp:672
-msgid "Blue's"
-msgstr "Modrého"
-
-#: app.cpp:811
-msgid "Hall of Fame"
-msgstr "Hala slávy"
-
-#: app.cpp:812
-msgid "Close"
-msgstr "Uzavøi"
-
-#: app.cpp:814 app.cpp:816
-msgid "KReversi: Hall Of Fame"
-msgstr "KReversi: Hala Slávy"
-
-#: app.cpp:866
-msgid ""
-"You've made in into the \"Hall Of Fame\".Type in\n"
-"your name so mankind will always remember\n"
-"your cool rating."
-msgstr ""
-"Dostal jste se do \"Haly Slávy\". Vlo¾ své jméno aby si \n"
-"lidstvo stále pøipomínalo Va¹e skvìlé hodnocení"
-
-#: app.cpp:871
-msgid "Your name:"
-msgstr "Va¹e jméno:"
-
-#: about.cpp:83 app.cpp:880
-msgid "Ok"
-msgstr "Ok"
-
-#: about.cpp:52
+#: about.cpp:51
 msgid "About KReversi"
 msgstr "Informace o KReversi"
 
-#: about.cpp:67
+#: about.cpp:64
 msgid "Version "
 msgstr "Verze "
 
-#: about.cpp:69
+#: about.cpp:66
 msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
@@ -404,12 +56,369 @@ msgstr ""
 "\tArne Klaassena <klaassen@informatik.uni-rostock.de> za raytraceované hrací "
 "kameny"
 
-#: app.cpp:569 app.cpp:574
+#: app.cpp:218 app.cpp:548
+msgid ""
+"A problem with the sound server occured!\n"
+"Cannot enable sound support."
+msgstr ""
+"Vyskytl se problém se svukovým serverem!\n"
+"Nemohu zpøístupnít podporu zvuku."
+
+#: app.cpp:245
+msgid "&New game"
+msgstr "&Nová hra"
+
+#: app.cpp:246
+msgid "&Load game"
+msgstr "Nahrát &hru"
+
+#: app.cpp:247
+msgid "&Save game"
+msgstr "U&lo¾it hru"
+
+#: app.cpp:252
+msgid "Get &hint)"
+msgstr "Obdr¾ &radu"
+
+#: app.cpp:254
+msgid "&Stop thinking"
+msgstr "&Skonèi pøemý¹lení"
+
+#: app.cpp:255
+msgid "&Continue"
+msgstr "&Pokraèuj"
+
+#: app.cpp:257
+msgid "&Undo move"
+msgstr "&Vra» tah"
+
+#: app.cpp:258
+msgid "Switch si&des"
+msgstr "Prohoï s&trany"
+
+#: app.cpp:260
+msgid "Hall Of &Fame..."
+msgstr "Hala &Slávy..."
+
+#: app.cpp:266
+msgid "Level 1 (Wimp)"
+msgstr "Úroveò 1"
+
+#: app.cpp:267
+msgid "Level 2 (Beginner)"
+msgstr "Úroveò 2"
+
+#: app.cpp:268
+msgid "Level 3 (Novice)"
+msgstr "Úroveò 3"
+
+#: app.cpp:269
+msgid "Level 4 (Average)"
+msgstr "Úroveò 4"
+
+#: app.cpp:270
+msgid "Level 5 (Good)"
+msgstr "Úroveò 5"
+
+#: app.cpp:271
+msgid "Level 6 (Expert)"
+msgstr "Úroveò 6"
+
+#: app.cpp:272
+msgid "Level 7 (Master)"
+msgstr "Úroveò 7"
+
+#: app.cpp:273
+msgid "Skill"
+msgstr "Dovednost"
+
+#: app.cpp:275
+msgid "&Shrink board"
+msgstr "&Zmen¹it desku"
+
+#: app.cpp:276
+msgid "&Enlarge board"
+msgstr "Z&vìt¹it desku"
+
+#: app.cpp:280
+msgid "&Half size"
+msgstr "&Polovièní velikost"
+
+#: app.cpp:281
+#, c-format
+msgid "60%"
+msgstr ""
+
+#: app.cpp:282
+#, c-format
+msgid "80%"
+msgstr ""
+
+#: app.cpp:283
+msgid "D&efault size"
+msgstr "&Implicitní velikost"
+
+#: app.cpp:284
+#, c-format
+msgid "120%"
+msgstr ""
+
+#: app.cpp:285
+#, c-format
+msgid "140%"
+msgstr ""
+
+#: app.cpp:286
+#, c-format
+msgid "160%"
+msgstr ""
+
+#: app.cpp:287
+#, c-format
+msgid "180%"
+msgstr ""
+
+#: app.cpp:288
+msgid "&Double size"
+msgstr "&Dvojnásobná velikost"
+
+#: app.cpp:289
+msgid "Set size"
+msgstr "Nastav velikost"
+
+#: app.cpp:292
+msgid "Select &background color..."
+msgstr "Vyber barvu &pozadí..."
+
+#: app.cpp:298
+msgid "none"
+msgstr "¾ádný"
+
+#: app.cpp:308
+msgid "Select background image"
+msgstr "Vyber obrázek na pozadí"
+
+#: app.cpp:309
+msgid "&Grayscale"
+msgstr "©e&dé"
+
+#: app.cpp:311
+msgid "&Animations"
+msgstr "&Animace"
+
+#: app.cpp:315
+msgid "1 (fastest)"
+msgstr "1 (nejrychlej¹í)"
+
+#: app.cpp:321
+msgid "10 (slowest)"
+msgstr "10 (nejpomalej¹í)"
+
+#: app.cpp:322
+msgid "Animation speed"
+msgstr "Rychlost animace"
+
+#: app.cpp:325
+msgid "S&ound"
+msgstr "&Zvuk"
+
+#: app.cpp:330
+msgid "&Rules"
+msgstr "P&ravidla"
+
+#: app.cpp:331
+msgid "&Strategy hints"
+msgstr "&Strategické rady"
+
+#: app.cpp:333
+msgid "About &Qt..."
+msgstr "Informace o &Qt"
+
+#: app.cpp:334
+msgid "&About..."
+msgstr "&Informace..."
+
+#: app.cpp:375
+msgid "Stop thinking"
+msgstr "Ukonèi pøemý¹lení"
+
+#: app.cpp:376
+msgid "Undo move"
+msgstr "Vra» tah"
+
+#: app.cpp:377
+msgid "Shrink board"
+msgstr "Zmen¹i desku"
+
+#: app.cpp:378
+msgid "Enlarge board"
+msgstr "Zvìt¹i desku"
+
+#: app.cpp:379
+msgid "Get hint"
+msgstr "Obdr¾ radu"
+
+#: app.cpp:380
+msgid "Get help"
+msgstr "Obdr¾ nápovìdu"
+
+#: app.cpp:387
+msgid "XXXXX's turn"
+msgstr "XXXXX je na tahu"
+
+#: app.cpp:388
+msgid "You (XXXXX): 88"
+msgstr "Vy (XXXXX): 88"
+
+#: app.cpp:389
+msgid "Computer (XXXXX): 88"
+msgstr "Poèítaè (XXXXX): 88"
+
+#: app.cpp:424
+msgid "Game saved"
+msgstr "Hra ulo¾ena"
+
+#: app.cpp:602
+msgid "not yet implemented"
+msgstr "není implementováno"
+
+#: app.cpp:615 app.cpp:620
 #, c-format
 msgid "You (%s): %d"
 msgstr "Vy (%s): %d"
 
-#: app.cpp:571 app.cpp:576
+#: app.cpp:616 app.cpp:623 app.cpp:923
+msgid "blue"
+msgstr "modrý"
+
+#: app.cpp:617 app.cpp:622
 #, c-format
 msgid "Computer (%s): %d"
 msgstr "Poèítaè (%s): %d"
+
+#: app.cpp:618 app.cpp:621 app.cpp:925
+msgid "red"
+msgstr "èervený"
+
+#: app.cpp:667
+msgid "End of game"
+msgstr "Konec hry"
+
+#: app.cpp:677
+#, c-format
+msgid ""
+"Game is drawn!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"Nerozhodná hra!\n"
+"\n"
+"Vy      : %d\n"
+"Poèítaè : %d"
+
+#: app.cpp:678 app.cpp:690 app.cpp:710
+msgid "Game ended"
+msgstr "Hra ukonèena"
+
+#: app.cpp:688
+msgid ""
+"Congratulations, you have won!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d\n"
+"Your rating %4.1f%%"
+msgstr ""
+"Gratuluji, vyhrál jste!\n"
+"\n"
+"Vy      : %d\n"
+"Poèítaè : %dVa¹e hodnocení %4.1f%%"
+
+#: app.cpp:708
+#, c-format
+msgid ""
+"You have lost the game!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"Prohrál jste hru!\n"
+"\n"
+"Vy      : %d\n"
+"Poèítaè : %d"
+
+#: app.cpp:719
+msgid "Red's"
+msgstr "Èerveného"
+
+#: app.cpp:719 app.cpp:721
+msgid "turn"
+msgstr "tah"
+
+#: app.cpp:721
+msgid "Blue's"
+msgstr "Modrého"
+
+#: app.cpp:866
+msgid "Hall of Fame"
+msgstr "Hala slávy"
+
+#: app.cpp:867 app.cpp:871
+msgid "KReversi: Hall Of Fame"
+msgstr "KReversi: Hala Slávy"
+
+#: app.cpp:892
+msgid "Rank"
+msgstr ""
+
+#: app.cpp:896
+#, fuzzy
+msgid "Name"
+msgstr "&Hra"
+
+#: app.cpp:900
+#, fuzzy
+msgid "Color"
+msgstr "Uzavøi"
+
+#: app.cpp:904
+msgid "Score"
+msgstr ""
+
+#: app.cpp:908
+msgid "Rating"
+msgstr ""
+
+#: app.cpp:998
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr ""
+"Dostal jste se do \"Haly Slávy\". Vlo¾ své jméno aby si \n"
+"lidstvo stále pøipomínalo Va¹e skvìlé hodnocení"
+
+#: app.cpp:1001
+msgid "Your name:"
+msgstr "Va¹e jméno:"
+
+#~ msgid "Information"
+#~ msgstr "Informace"
+
+#~ msgid "Error"
+#~ msgstr "Chyba"
+
+#~ msgid "&Quit"
+#~ msgstr "&Ukonèit"
+
+#~ msgid "&Help"
+#~ msgstr "&Nápovìda"
+
+#~ msgid "&File"
+#~ msgstr "&Soubor"
+
+#~ msgid "&Options"
+#~ msgstr "&Mo¾nosti"
+
+#~ msgid "Ok"
+#~ msgstr "Ok"

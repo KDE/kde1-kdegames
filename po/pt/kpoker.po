@@ -1,12 +1,13 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
 
-#: kpoker.cpp:97
+#: kpoker.cpp:96
 msgid "Draw !"
 msgstr "Biscar !"
 
@@ -30,59 +31,59 @@ msgstr "a sua ultima mão"
 msgid "money left"
 msgstr "dinheiro restante"
 
-#: kpoker.cpp:207 kpoker.cpp:488 kpoker.cpp:500
+#: kpoker.cpp:207 kpoker.cpp:487 kpoker.cpp:499
 msgid "nothing"
 msgstr "nada"
 
-#: kpoker.cpp:364
+#: kpoker.cpp:363
 msgid "Cash"
 msgstr "Dinheiro"
 
-#: kpoker.cpp:378
+#: kpoker.cpp:377
 msgid "Last Hand"
 msgstr "Mão Anterior"
 
-#: kpoker.cpp:490
+#: kpoker.cpp:489
 msgid "One Pair"
 msgstr "Um Par"
 
-#: kpoker.cpp:491
+#: kpoker.cpp:490
 msgid "Two Pairs"
 msgstr "Dois Pares"
 
-#: kpoker.cpp:492
+#: kpoker.cpp:491
 msgid "3 of a kind"
 msgstr "3 do mesmo tipo"
 
-#: kpoker.cpp:493
+#: kpoker.cpp:492
 msgid "Full House"
 msgstr "Full House"
 
-#: kpoker.cpp:494
+#: kpoker.cpp:493
 msgid "4 of a kind"
 msgstr "4 do mesmo tipo"
 
-#: kpoker.cpp:495
+#: kpoker.cpp:494
 msgid "Straight"
 msgstr "Straight"
 
-#: kpoker.cpp:496
+#: kpoker.cpp:495
 msgid "Flush"
 msgstr "Flush"
 
-#: kpoker.cpp:497
+#: kpoker.cpp:496
 msgid "Straight Flush"
 msgstr "Straight Flush"
 
-#: kpoker.cpp:498
+#: kpoker.cpp:497
 msgid "Royal Flush"
 msgstr "Royal Flush"
 
-#: kpoker.cpp:506
+#: kpoker.cpp:505
 msgid "You Lost"
 msgstr "Perdeu"
 
-#: kpoker.cpp:507
+#: kpoker.cpp:506
 msgid ""
 "Oops - you went bankrupt.\n"
 "A highscoretable will appear over here later..."
@@ -90,15 +91,15 @@ msgstr ""
 "Oops - abriu bancarrota.\n"
 "Um quadro de honra irá aparecer aqui mais tarde..."
 
-#: kpoker.cpp:508
+#: kpoker.cpp:507
 msgid "New game"
 msgstr "Novo jogo"
 
-#: kpoker.cpp:574
+#: kpoker.cpp:573
 msgid "You won $"
 msgstr "Ganhou $"
 
-#: kpoker.cpp:578
+#: kpoker.cpp:577
 msgid "Game Over"
 msgstr "Jogo Terminado"
 
@@ -106,26 +107,27 @@ msgstr "Jogo Terminado"
 msgid "&New game"
 msgstr "&Novo jogo"
 
-#: top.cpp:64
-msgid "&Quit"
-msgstr "&Sair"
-
 #: top.cpp:68
 msgid "&Sound"
 msgstr "&Som"
-
-#: top.cpp:79 top.cpp:88
-msgid "&Help"
-msgstr "&Ajuda"
 
 #: top.cpp:81
 msgid "&About..."
 msgstr "&Acerca..."
 
-#: top.cpp:84
-msgid "&File"
-msgstr "&Ficheiro"
+#: top.cpp:82
+#, fuzzy
+msgid "About &Qt..."
+msgstr "&Acerca..."
 
-#: top.cpp:85
-msgid "&Options"
-msgstr "&Opções"
+#~ msgid "&Quit"
+#~ msgstr "&Sair"
+
+#~ msgid "&Help"
+#~ msgstr "&Ajuda"
+
+#~ msgid "&File"
+#~ msgstr "&Ficheiro"
+
+#~ msgid "&Options"
+#~ msgstr "&Opções"

@@ -1,107 +1,155 @@
 msgid ""
 msgstr ""
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
-#: AbTop.cpp:29 AbTop.cpp:143
+#: AbTop.cpp:240 AbTop.cpp:399
 msgid "Move"
 msgstr "Шаг"
 
-#: AbTop.cpp:32 AbTop.cpp:147
+#: AbTop.cpp:243 AbTop.cpp:403
 msgid "Press F2 for a new game"
 msgstr "Нажмите F2 чтобы начать новую игру"
 
-#: AbTop.cpp:73
-msgid "New Game"
-msgstr "Новая игра"
-
-#: AbTop.cpp:75
+#: AbTop.cpp:261 AbTop.cpp:301
 msgid "Stop Search"
 msgstr "Остановить поиск"
 
-#: AbTop.cpp:80
+#: AbTop.cpp:266 AbTop.cpp:305
 msgid "Take back"
 msgstr "Взять обратно"
 
-#: AbTop.cpp:82
+#: AbTop.cpp:271 AbTop.cpp:307
 msgid "Hint"
 msgstr "Намек"
 
-#: AbTop.cpp:85
-msgid "Quit"
-msgstr "Выход"
-
-#: AbTop.cpp:89
-msgid "Easy"
-msgstr "Простой"
-
-#: AbTop.cpp:91
-msgid "Normal"
-msgstr "Нормальный"
-
-#: AbTop.cpp:93
-msgid "Hard"
-msgstr "Сложный"
-
-#: AbTop.cpp:95
-msgid "Challange"
-msgstr "Продвинутый"
-
-#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
-msgid "Red"
-msgstr "Красный"
-
-#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
-msgid "Yellow"
-msgstr "Желтый"
-
-#: AbTop.cpp:105
-msgid "Both"
-msgstr "Оба"
-
-#: AbTop.cpp:111
-msgid "Level"
-msgstr "Уровень"
-
-#: AbTop.cpp:112
-msgid "Computer plays"
-msgstr "Компьютер играет"
-
-#: AbTop.cpp:114
-msgid "Move slow"
-msgstr "Ходить медленно"
-
-#: AbTop.cpp:122 AbTop.cpp:405
-msgid "About"
-msgstr "О программе"
-
-#: AbTop.cpp:123
+#: AbTop.cpp:276 AbTop.cpp:352
 msgid "Rules"
 msgstr "Правила"
 
-#: AbTop.cpp:127
-msgid "File"
-msgstr "Файл"
+#: AbTop.cpp:296
+msgid "Save Position"
+msgstr ""
 
-#: AbTop.cpp:128
-msgid "Options"
-msgstr "Опции"
+#: AbTop.cpp:298
+msgid "Restore Position"
+msgstr ""
 
-#: AbTop.cpp:130
-msgid "Help"
-msgstr "Помощь"
+#: AbTop.cpp:315
+msgid "Easy"
+msgstr "Простой"
 
-#: AbTop.cpp:152
+#: AbTop.cpp:319
+msgid "Hard"
+msgstr "Сложный"
+
+#: AbTop.cpp:321
+msgid "Challange"
+msgstr "Продвинутый"
+
+#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+msgid "Red"
+msgstr "Красный"
+
+#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+msgid "Yellow"
+msgstr "Желтый"
+
+#: AbTop.cpp:331
+msgid "Both"
+msgstr "Оба"
+
+#: AbTop.cpp:337
+msgid "Level"
+msgstr "Уровень"
+
+#: AbTop.cpp:338
+msgid "Computer plays"
+msgstr "Компьютер играет"
+
+#: AbTop.cpp:340
+msgid "Move slow"
+msgstr "Ходить медленно"
+
+#: AbTop.cpp:342
+msgid "Spy"
+msgstr ""
+
+#: AbTop.cpp:408
 msgid "won"
 msgstr "выиграл"
 
-#: AbTop.cpp:156
+#: AbTop.cpp:412
 msgid "I am thinking..."
 msgstr "Я думаю..."
 
-#: AbTop.cpp:157
+#: AbTop.cpp:413
 msgid "It's your turn !"
 msgstr "Ваш ход !"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr ""
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr ""
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr ""
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr ""
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr ""
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr ""
+
+#: Move.cpp:49
+msgid "Out"
+msgstr ""
+
+#: Move.cpp:50
+msgid "Push"
+msgstr ""
+
+#: Spy.cpp:21
+msgid "Actual examined position:"
+msgstr ""
+
+#: Spy.cpp:46
+msgid "Best move so far:"
+msgstr ""
+
+#: Spy.cpp:75
+#, fuzzy
+msgid "Spion"
+msgstr "Опции"
+
+#~ msgid "New Game"
+#~ msgstr "Новая игра"
+
+#~ msgid "Quit"
+#~ msgstr "Выход"
+
+#~ msgid "Normal"
+#~ msgstr "Нормальный"
+
+#~ msgid "About"
+#~ msgstr "О программе"
+
+#~ msgid "File"
+#~ msgstr "Файл"
+
+#~ msgid "Help"
+#~ msgstr "Помощь"

@@ -1,58 +1,52 @@
-#: toplevel.cpp:89
-msgid "&New Game"
-msgstr "&Uj játék"
-
-#: toplevel.cpp:92
-msgid "&Quit"
-msgstr "&Kilépés"
-
-#: toplevel.cpp:97
-msgid "&About"
-msgstr "&A programról"
-
-#: toplevel.cpp:100
-msgid "&File"
+msgid ""
 msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"PO-Revision-Date: 1997-11-13 12:20+0100\n"
+"Last-Translator: John Zero <johnzero@telnet.hu>\n"
+"Language-Team: Hungarian <hu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:102
-msgid "&Help"
-msgstr "&Segítség"
-
-#: toplevel.cpp:115 toplevel.cpp:190 toplevel.cpp:257
+#: toplevel.cpp:77
 msgid "Score"
 msgstr "Pont"
 
-#: toplevel.cpp:117 toplevel.cpp:193 toplevel.cpp:272
+#: toplevel.cpp:91
 msgid "Level"
 msgstr "Szint"
 
-#: toplevel.cpp:119 toplevel.cpp:196 toplevel.cpp:222
+#: toplevel.cpp:105
 msgid "Ships"
 msgstr "Hajók"
 
-#: toplevel.cpp:201
+#: toplevel.cpp:165
+#, fuzzy
+msgid "&About..."
+msgstr "&A programról"
+
+#: toplevel.cpp:262
 msgid "Press Enter to launch."
 msgstr "Enter-el indul"
 
-#: toplevel.cpp:214 toplevel.cpp:234
+#: toplevel.cpp:280 toplevel.cpp:299
 msgid "KAsteriods"
 msgstr ""
 
-#: toplevel.cpp:227
+#: toplevel.cpp:292
 msgid "Ship Destroyed.  Press Enter to launch."
 msgstr "A hajó megsemmisült, üss Entert az újhoz."
 
-#: toplevel.cpp:235
+#: toplevel.cpp:300
 msgid "Game Over!"
 msgstr ""
 
-#~ msgid ""
-#~ msgstr ""
-#~ "Project-Id-Version: PACKAGE VERSION\n"
-#~ "POT-Creation-Date: 1997-08-27 15:03+0200\n"
-#~ "PO-Revision-Date: 1997-11-13 12:20+0100\n"
-#~ "Last-Translator: John Zero <johnzero@telnet.hu>\n"
-#~ "Language-Team: Hungarian <hu@li.org>\n"
-#~ "MIME-Version: 1.0\n"
-#~ "Content-Type: text/plain; charset=iso-8859-2\n"
-#~ "Content-Transfer-Encoding: ENCODING\n"
+#~ msgid "&New Game"
+#~ msgstr "&Uj játék"
+
+#~ msgid "&Quit"
+#~ msgstr "&Kilépés"
+
+#~ msgid "&Help"
+#~ msgstr "&Segítség"

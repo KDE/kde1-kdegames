@@ -94,4 +94,7 @@ uninstall:
 	(cd docs && $(MAKE) uninstall)
 	(cd sounds && $(MAKE) uninstall)	
 
+messages:
+	@XGETTEXT@ -C -ktranslate -x ../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/kpoker.pot 
+
 # DO NOT DELETE THIS LINE -- make depend depends on it.

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-09-11 12:52+0200\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "PO-Revision-Date: 1997-10-DA HO:MI+ZONE\n"
 "Last-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,20 +14,20 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-#: cardmaps.cpp:60
+#: cardmaps.cpp:62
 msgid "please wait, loading cards..."
 msgstr "Por favor espere, cargando cartas"
 
-#: cardmaps.cpp:64
+#: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
 msgstr "KPat- un juego de solitarios"
 
-#: cardmaps.cpp:102
+#: cardmaps.cpp:104
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
 msgstr "kpat: PANIC, imposible leer pixmap de cartas \"%s\"\n"
 
-#: cardmaps.cpp:202
+#: cardmaps.cpp:204
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: acceso a carta inválida %d, %d\n"
@@ -47,10 +47,6 @@ msgstr "Fácil 2"
 #: computation.cpp:95
 msgid "Easy 1"
 msgstr "Fácil 1"
-
-#: computation.cpp:96
-msgid "Normal"
-msgstr "Normal"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -76,23 +72,15 @@ msgstr "Difícil 5"
 msgid "Try to move card:"
 msgstr "Intente mover una carta:"
 
-#: grandf.cpp:45
-msgid "Ok"
-msgstr "Continuar"
-
-#: grandf.cpp:111
+#: grandf.cpp:113
 msgid "Redeal"
 msgstr "Barajar"
 
-#: grandf.cpp:145
+#: grandf.cpp:147
 msgid "Hint"
 msgstr "Trampa"
 
-#: grandf.cpp:171
-msgid "Information"
-msgstr "Información"
-
-#: grandf.cpp:172
+#: grandf.cpp:174
 msgid "Only 3 deals allowed"
 msgstr "Sólo permitidas tres manos"
 
@@ -104,10 +92,6 @@ msgstr "Reglas fáciles"
 msgid "Hard rules"
 msgstr "Reglas difíciles"
 
-#: klondike.cpp:93
-msgid "Warning"
-msgstr "Aviso"
-
 #: klondike.cpp:94
 msgid ""
 "This will end the current game\n"
@@ -116,134 +100,100 @@ msgstr ""
 "El juego actual se finalizará\n"
 "¿Está seguro de que así lo desea?"
 
-#: pwidget.cpp:73
-msgid "&Quit"
-msgstr "&Salir"
-
-#: pwidget.cpp:75
-msgid "&File"
-msgstr "&Fichero"
-
-#: pwidget.cpp:78
-msgid "&Game"
-msgstr "&Juego"
-
-#: pwidget.cpp:80
-msgid "&Undo"
-msgstr "&Desacer"
-
-#: pwidget.cpp:81
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "&Reiniciar juego"
 
-#: pwidget.cpp:85
+#: pwidget.cpp:100
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:86 pwidget.cpp:250
+#: pwidget.cpp:101 pwidget.cpp:271
 msgid "MicroSolitaire"
 msgstr "Mircosolitario"
 
-#: pwidget.cpp:87 pwidget.cpp:254
+#: pwidget.cpp:102 pwidget.cpp:275
 msgid "Calculation"
 msgstr "Calculation"
 
-#: pwidget.cpp:88
+#: pwidget.cpp:103
 msgid "Napoleon's Tomb"
 msgstr "Napoleon's Tomb"
 
-#: pwidget.cpp:89 pwidget.cpp:258
+#: pwidget.cpp:104 pwidget.cpp:279
 msgid "The Idiot"
 msgstr "El idiota"
 
-#: pwidget.cpp:90 pwidget.cpp:242
+#: pwidget.cpp:105 pwidget.cpp:263
 msgid "Grandfather"
 msgstr "El Abuelo"
 
-#: pwidget.cpp:91 pwidget.cpp:238
+#: pwidget.cpp:106 pwidget.cpp:259
 msgid "Ten"
 msgstr "Diez"
 
-#: pwidget.cpp:93
+#: pwidget.cpp:108
 msgid "Choose new game"
 msgstr "Escoger nuevo juego"
 
-#: pwidget.cpp:99
+#: pwidget.cpp:114
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:100
+#: pwidget.cpp:115
 msgid "Classic blue"
 msgstr "Classic blue"
 
-#: pwidget.cpp:101
+#: pwidget.cpp:116
 msgid "Classic red"
 msgstr "Classic red"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:117
 msgid "Technical"
 msgstr "Técnico"
 
-#: pwidget.cpp:103
+#: pwidget.cpp:118
 msgid "Card backside"
 msgstr "Reversod de cartas"
 
-#: pwidget.cpp:104
+#: pwidget.cpp:119
 msgid "Animation on startup"
 msgstr "Animación al empezar"
 
-#: pwidget.cpp:105
-msgid "&Options"
-msgstr "&opciones"
-
-#: pwidget.cpp:109
+#: pwidget.cpp:124
 #, fuzzy
 msgid "&Help..."
 msgstr "Ayuda..."
 
-#: pwidget.cpp:110
+#: pwidget.cpp:125
 #, fuzzy
 msgid "Help on &rules..."
 msgstr "Ayuda acerca de las reglas"
 
-#: pwidget.cpp:111
+#: pwidget.cpp:127
 #, fuzzy
 msgid "About &Qt..."
 msgstr "Acerca de ..."
 
-#: pwidget.cpp:112
-#, fuzzy
-msgid "A&bout..."
-msgstr "Acerca de ..."
-
-#: pwidget.cpp:113 pwidget.cpp:125
-#, fuzzy
-msgid "Help"
-msgstr "A&yuda"
-
-#: pwidget.cpp:124
-msgid "Quit"
-msgstr "Salir"
-
-#: pwidget.cpp:225
+#: pwidget.cpp:246
 #, c-format
 msgid "COMMAND %d not implemented!\n"
 msgstr "Comando %d no implementado!\n"
 
-#: pwidget.cpp:246
+#: pwidget.cpp:267
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:262
+#: pwidget.cpp:283
 msgid "Napoleons Tomb"
 msgstr "Napoleons Tomb"
 
-#: pwidget.cpp:267
+#: pwidget.cpp:288
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: juego aún no implementado %d\n"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:320
 msgid ""
 "KPat\n"
 "\n"
@@ -253,7 +203,7 @@ msgstr ""
 "\n"
 "Versión "
 
-#: pwidget.cpp:301
+#: pwidget.cpp:322
 msgid ""
 "\n"
 "Copyright (C) 1995  Paul Olav Tvete\n"
@@ -275,18 +225,55 @@ msgstr ""
 "Este programa forma parte del 'K Desktop Environment'.\n"
 "Ver la ayuda para más información sobre la licencia."
 
-#: pwidget.cpp:309
+#: pwidget.cpp:330
 msgid "About kpat"
 msgstr "Acerca de kpat"
 
-#: pwidget.cpp:346
-msgid "Error"
-msgstr "Error"
-
-#: pwidget.cpp:347
+#: pwidget.cpp:368
 msgid "Could not load background image!"
 msgstr "Imposible leer la imagen de fondo"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Automático"
+
+#, fuzzy
+#~ msgid "A&bout..."
+#~ msgstr "Acerca de ..."
+
+#~ msgid "Normal"
+#~ msgstr "Normal"
+
+#~ msgid "Ok"
+#~ msgstr "Continuar"
+
+#~ msgid "Information"
+#~ msgstr "Información"
+
+#~ msgid "Warning"
+#~ msgstr "Aviso"
+
+#~ msgid "&Quit"
+#~ msgstr "&Salir"
+
+#~ msgid "&File"
+#~ msgstr "&Fichero"
+
+#~ msgid "&Game"
+#~ msgstr "&Juego"
+
+#~ msgid "&Undo"
+#~ msgstr "&Desacer"
+
+#~ msgid "&Options"
+#~ msgstr "&opciones"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "A&yuda"
+
+#~ msgid "Quit"
+#~ msgstr "Salir"
+
+#~ msgid "Error"
+#~ msgstr "Error"

@@ -105,7 +105,7 @@ $(TARGET).po:
 
 createpo: $(TARGET).po
 	mv $(TARGET).po po
-	
+
 updatepo: $(TARGET).po
 	tupdate $(TARGET).po po/de/$(TARGET).po >de.po
 	mv $(TARGET).po po
@@ -113,8 +113,9 @@ updatepo: $(TARGET).po
 	msgfmt po/de/$(TARGET).po
 	mv messages po/de/$(TARGET).mo
 
-	
-
+# this is needed for kdegames wide messages
+messages:
+	@XGETTEXT@  --keyword=translate -C -x../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/kabalone.pot
 
 # DO NOT DELETE
 AbTop.o: AbTop.h Board.h Move.h BoardWidget.h Spy.h AbTop.moc

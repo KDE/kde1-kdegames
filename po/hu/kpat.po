@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1997-09-11 12:52+0200\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "PO-Revision-Date: 1997-11-13 12:20+0100\n"
 "Last-Translator: John Zero <johnzero@telnet.hu>\n"
 "Language-Team: Hungarian <hu@li.org>\n"
@@ -14,20 +14,20 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO-8859-2\n"
 "Content-Transfer-Encoding: 8-bit\n"
 
-#: cardmaps.cpp:60
+#: cardmaps.cpp:62
 msgid "please wait, loading cards..."
 msgstr "Kérem várjon, keresem a kártyáimat... (Hova is tettem õket?)"
 
-#: cardmaps.cpp:64
+#: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
 msgstr "KPat - egy Solitaire játék"
 
-#: cardmaps.cpp:102
+#: cardmaps.cpp:104
 #, c-format
 msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
 msgstr "kpat: HÛHA, nem tudom betölteni a %s képet\n"
 
-#: cardmaps.cpp:202
+#: cardmaps.cpp:204
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
 msgstr "KPAT: hozzáférés egy hibás kártyához %d, %d\n"
@@ -47,10 +47,6 @@ msgstr "Elég könnyû"
 #: computation.cpp:95
 msgid "Easy 1"
 msgstr "Könnyû"
-
-#: computation.cpp:96
-msgid "Normal"
-msgstr "Közepes"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -76,23 +72,15 @@ msgstr "Durvanehéz"
 msgid "Try to move card:"
 msgstr "Próbáld ezt a kártyát:"
 
-#: grandf.cpp:45
-msgid "Ok"
-msgstr ""
-
-#: grandf.cpp:111
+#: grandf.cpp:113
 msgid "Redeal"
 msgstr "Új leosztás"
 
-#: grandf.cpp:145
+#: grandf.cpp:147
 msgid "Hint"
 msgstr "Tipp"
 
-#: grandf.cpp:171
-msgid "Information"
-msgstr "Információ"
-
-#: grandf.cpp:172
+#: grandf.cpp:174
 msgid "Only 3 deals allowed"
 msgstr "Csak 3 új leosztás engedélyezett"
 
@@ -104,10 +92,6 @@ msgstr "Könnyû szabályok"
 msgid "Hard rules"
 msgstr "Nehéz szabályok"
 
-#: klondike.cpp:93
-msgid "Warning"
-msgstr "Figyelem"
-
 #: klondike.cpp:94
 msgid ""
 "This will end the current game\n"
@@ -116,141 +100,107 @@ msgstr ""
 "Azt hiszem, hogy rossz gombot nyomott meg,\n"
 "mert ha most igent mond, akkor vége lesz a játéknak."
 
-#: pwidget.cpp:73
-msgid "&Quit"
-msgstr "&Kilépés"
-
-#: pwidget.cpp:75
-msgid "&File"
-msgstr "&File"
-
-#: pwidget.cpp:78
-msgid "&Game"
-msgstr "&Játék"
-
-#: pwidget.cpp:80
-msgid "&Undo"
-msgstr "&Visszavon"
-
-#: pwidget.cpp:81
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "&Ujrakezd"
 
-#: pwidget.cpp:85
+#: pwidget.cpp:100
 msgid "&Klondike"
 msgstr ""
 
-#: pwidget.cpp:86 pwidget.cpp:250
+#: pwidget.cpp:101 pwidget.cpp:271
 msgid "MicroSolitaire"
 msgstr ""
 
-#: pwidget.cpp:87 pwidget.cpp:254
+#: pwidget.cpp:102 pwidget.cpp:275
 msgid "Calculation"
 msgstr "Kalkuláció"
 
-#: pwidget.cpp:88
+#: pwidget.cpp:103
 msgid "Napoleon's Tomb"
 msgstr "Napóleon sírja"
 
-#: pwidget.cpp:89 pwidget.cpp:258
+#: pwidget.cpp:104 pwidget.cpp:279
 msgid "The Idiot"
 msgstr "Az idióta"
 
-#: pwidget.cpp:90 pwidget.cpp:242
+#: pwidget.cpp:105 pwidget.cpp:263
 msgid "Grandfather"
 msgstr "Nagypapi"
 
-#: pwidget.cpp:91 pwidget.cpp:238
+#: pwidget.cpp:106 pwidget.cpp:259
 msgid "Ten"
 msgstr "Tíz"
 
-#: pwidget.cpp:93
+#: pwidget.cpp:108
 msgid "Choose new game"
 msgstr "Válassz új játékot"
 
-#: pwidget.cpp:99
+#: pwidget.cpp:114
 msgid "KDE"
 msgstr ""
 
-#: pwidget.cpp:100
+#: pwidget.cpp:115
 msgid "Classic blue"
 msgstr "Klasszikus kék"
 
-#: pwidget.cpp:101
+#: pwidget.cpp:116
 msgid "Classic red"
 msgstr "Klasszikus piros"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:117
 msgid "Technical"
 msgstr "Technikus"
 
-#: pwidget.cpp:103
+#: pwidget.cpp:118
 msgid "Card backside"
 msgstr "Kártya hátoldala"
 
-#: pwidget.cpp:104
+#: pwidget.cpp:119
 msgid "Animation on startup"
 msgstr "Animáció indulásnál"
 
-#: pwidget.cpp:105
-msgid "&Options"
-msgstr "&Beállítások"
-
-#: pwidget.cpp:109
+#: pwidget.cpp:124
 #, fuzzy
 msgid "&Help..."
 msgstr "Segítség..."
 
-#: pwidget.cpp:110
+#: pwidget.cpp:125
 #, fuzzy
 msgid "Help on &rules..."
 msgstr "Szabályok..."
 
-#: pwidget.cpp:111
+#: pwidget.cpp:127
 #, fuzzy
 msgid "About &Qt..."
 msgstr "A programról..."
 
-#: pwidget.cpp:112
-#, fuzzy
-msgid "A&bout..."
-msgstr "A programról..."
-
-#: pwidget.cpp:113 pwidget.cpp:125
-#, fuzzy
-msgid "Help"
-msgstr "&Segítség"
-
-#: pwidget.cpp:124
-msgid "Quit"
-msgstr "Kilépés"
-
-#: pwidget.cpp:225
+#: pwidget.cpp:246
 #, c-format
 msgid "COMMAND %d not implemented!\n"
 msgstr "A %d parancs nincs implementálva!\n"
 
-#: pwidget.cpp:246
+#: pwidget.cpp:267
 msgid "Klondike"
 msgstr ""
 
-#: pwidget.cpp:262
+#: pwidget.cpp:283
 msgid "Napoleons Tomb"
 msgstr "Napóleon sírja"
 
-#: pwidget.cpp:267
+#: pwidget.cpp:288
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: nem implement játéktípus: %d\n"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:320
 msgid ""
 "KPat\n"
 "\n"
 "Version "
 msgstr ""
 
-#: pwidget.cpp:301
+#: pwidget.cpp:322
 msgid ""
 "\n"
 "Copyright (C) 1995  Paul Olav Tvete\n"
@@ -263,18 +213,52 @@ msgid ""
 "Use help for license information."
 msgstr ""
 
-#: pwidget.cpp:309
+#: pwidget.cpp:330
 msgid "About kpat"
 msgstr "A kpat-ról"
 
-#: pwidget.cpp:346
-msgid "Error"
-msgstr "Hiba"
-
-#: pwidget.cpp:347
+#: pwidget.cpp:368
 msgid "Could not load background image!"
 msgstr "Nem tudom betölteni a háttér-képet"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Teljesen auto."
+
+#, fuzzy
+#~ msgid "A&bout..."
+#~ msgstr "A programról..."
+
+#~ msgid "Normal"
+#~ msgstr "Közepes"
+
+#~ msgid "Information"
+#~ msgstr "Információ"
+
+#~ msgid "Warning"
+#~ msgstr "Figyelem"
+
+#~ msgid "&Quit"
+#~ msgstr "&Kilépés"
+
+#~ msgid "&File"
+#~ msgstr "&File"
+
+#~ msgid "&Game"
+#~ msgstr "&Játék"
+
+#~ msgid "&Undo"
+#~ msgstr "&Visszavon"
+
+#~ msgid "&Options"
+#~ msgstr "&Beállítások"
+
+#, fuzzy
+#~ msgid "Help"
+#~ msgstr "&Segítség"
+
+#~ msgid "Quit"
+#~ msgstr "Kilépés"
+
+#~ msgid "Error"
+#~ msgstr "Hiba"

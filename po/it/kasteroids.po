@@ -1,49 +1,62 @@
-# KDE Translation project
-# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
-#: toplevel.cpp:89
-msgid "&New Game"
-msgstr "&Nuova Partita"
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
 
-#: toplevel.cpp:92
-msgid "&Quit"
-msgstr "&Esci"
-
-#: toplevel.cpp:97
-msgid "&About"
-msgstr "&Info su..."
-
-#: toplevel.cpp:100
-msgid "&File"
-msgstr "&File"
-
-#: toplevel.cpp:102
-msgid "&Help"
-msgstr "&?"
-
-#: toplevel.cpp:115 toplevel.cpp:190 toplevel.cpp:257
+#: toplevel.cpp:77
 msgid "Score"
 msgstr "Punteggio"
 
-#: toplevel.cpp:117 toplevel.cpp:193 toplevel.cpp:272
+#: toplevel.cpp:91
 msgid "Level"
 msgstr "Livello"
 
-#: toplevel.cpp:119 toplevel.cpp:196 toplevel.cpp:222
+#: toplevel.cpp:105
 msgid "Ships"
 msgstr "Navi"
 
-#: toplevel.cpp:201
+#: toplevel.cpp:165
+#, fuzzy
+msgid "&About..."
+msgstr "&Info su..."
+
+#: toplevel.cpp:262
 msgid "Press Enter to launch."
 msgstr "Premi Invio per un nuovo lancio."
 
-#: toplevel.cpp:214 toplevel.cpp:234
+#: toplevel.cpp:280 toplevel.cpp:299
 msgid "KAsteriods"
 msgstr "KAsteroids"
 
-#: toplevel.cpp:227
+#: toplevel.cpp:292
 msgid "Ship Destroyed.  Press Enter to launch."
 msgstr "Nave sitrutta. Premi Invio per un nuovo lancio"
 
-#: toplevel.cpp:235
+#: toplevel.cpp:300
 msgid "Game Over!"
 msgstr "Game Over!"
+
+# KDE Translation project
+# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
+#~ msgid "&New Game"
+#~ msgstr "&Nuova Partita"
+
+#~ msgid "&Quit"
+#~ msgstr "&Esci"
+
+#~ msgid "&File"
+#~ msgstr "&File"
+
+#~ msgid "&Help"
+#~ msgstr "&?"
