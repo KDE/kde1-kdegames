@@ -30,21 +30,21 @@ struct SLevel
 
 SLevel levels[MAX_LEVELS] =
 {
+    { 1, 0.6 },
     { 1, 0.8 },
-    { 1, 1.0 },
+    { 2, 0.7 },
     { 2, 0.8 },
-    { 2, 1.0 },
-    { 2, 1.1 },
+    { 2, 0.9 },
+    { 3, 0.7 },
+    { 3, 0.8 },
     { 3, 0.9 },
-    { 3, 1.1 },
-    { 3, 1.2 },
-    { 4, 1.0 },
-    { 4, 1.1 },
-    { 4, 1.2 },
-    { 5, 1.0 },
-    { 5, 1.1 },
-    { 5, 1.3 },
-    { 5, 1.5 }
+    { 4, 0.7 },
+    { 4, 0.8 },
+    { 4, 0.9 },
+    { 5, 0.7 },
+    { 5, 0.8 },
+    { 5, 0.9 },
+    { 5, 1.0 }
 };
 
 
@@ -230,7 +230,8 @@ void KAstTopLevel::slotQuit()
 void KAstTopLevel::slotAbout()
 {
     QMessageBox::message( klocale->translate("KAsteriods"),
-	"KAsteroids Version 0.0.1\n\nCopyright (c) Martin R. Jones 1997" );
+	"KAsteroids Version 0.0.3\n\nCopyright (c) Martin R. Jones 1997\n\n"
+	"With thanks to Warwick Allison\nfor QwSpriteField and POVRAY hints" );
 }
 
 void KAstTopLevel::slotShipKilled()

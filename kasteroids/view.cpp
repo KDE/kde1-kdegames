@@ -37,10 +37,12 @@
 #define BITS_MASK      "sprites/bits/bits%d.pbm"
 #define BITS_FRAMES    8
 
-#define REFRESH_DELAY  25
+#define REFRESH_DELAY  33
 #define SHIP_SPEED     0.2
 #define MISSILE_SPEED  10.0
 #define SHIP_STEPS     64
+
+#define MAX_ROCK_SPEED 2.5
 
 #define PI_X_2         6.283185307
 
@@ -195,13 +197,29 @@ void KAsteroidsView::resizeEvent(QResizeEvent* event)
 
 void KAsteroidsView::timerEvent( QTimerEvent * )
 {
+    killTimers();
+    startTimer(REFRESH_DELAY);
+
     QwRealMobileSprite *rock;
 
     // move rocks forward
     for ( rock = rocks.first(); rock; rock = rocks.next() )
     {
 	rock->forward( rockSpeed );
-	rock->frame( ( rock->frame()+1 ) % ROCK1_FRAMES );
+	switch ( rock->rtti() )
+	{
+	    case LARGE_ROCK:
+		rock->frame( ( rock->frame()+1 ) % ROCK1_FRAMES );
+		break;
+
+	    case MEDIUM_ROCK:
+		rock->frame( ( rock->frame()+1 ) % ROCK2_FRAMES );
+		break;
+
+	    case SMALL_ROCK:
+		rock->frame( ( rock->frame()+1 ) % ROCK3_FRAMES );
+		break;
+	}
     }
 
     // move missiles and check for collision with rocks.
@@ -228,9 +246,6 @@ void KAsteroidsView::timerEvent( QTimerEvent * )
     processShip();
 
     field.update();
-
-    killTimers();
-    startTimer(REFRESH_DELAY);
 }
 
 void KAsteroidsView::processMissiles()
@@ -282,6 +297,15 @@ void KAsteroidsView::processMissiles()
 
 		QwRealMobileSprite *rHit = (QwRealMobileSprite *) hit;
 		rHit->getVelocity( dx, dy );
+
+		if ( dx > MAX_ROCK_SPEED )
+		    dx = MAX_ROCK_SPEED;
+		else if ( dx < -MAX_ROCK_SPEED )
+		    dx = -MAX_ROCK_SPEED;
+		if ( dy > MAX_ROCK_SPEED )
+		    dy = MAX_ROCK_SPEED;
+		else if ( dy < -MAX_ROCK_SPEED )
+		    dy = -MAX_ROCK_SPEED;
 
 		QwRealMobileSprite *nrock;
 
