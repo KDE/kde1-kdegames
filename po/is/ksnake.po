@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
@@ -174,3 +174,19 @@ msgstr "Breyta stefnuhnöppum"
 #: keys.cpp:96
 msgid "Undefined key"
 msgstr "Óskilgreindur hnappur"
+
+#: keys.cpp:153
+msgid "Up"
+msgstr ""
+
+#: keys.cpp:154
+msgid "Down"
+msgstr ""
+
+#: keys.cpp:155
+msgid "Left"
+msgstr ""
+
+#: keys.cpp:156
+msgid "Right"
+msgstr ""
