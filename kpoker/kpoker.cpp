@@ -86,7 +86,6 @@ kpok::kpok(QWidget *parent, const char *name)
 	kKeys->registerWidget("kpoker", this);
 	kKeys->connectFunction("kpoker", "Quit", qApp, SLOT(quit()));
 	kKeys->connectFunction("kpoker", "New game", this, SLOT(initPoker()));
-	kKeys->connectFunction("kpoker", "Help", this, SLOT(help()));
 	
 	
 	QFont myFixedFont("Helvetica",12);
@@ -579,21 +578,3 @@ void kpok::displayWin(const char *hand, int cashWon)
 	wonLabel->show();
 }
 
-
-void kpok::showAboutBox()
-{
-	char aboutText[250];
-	sprintf(aboutText,"%s v%s (%s)\n\ncopyright 1997 by Jochen Tuchbreiter\n<whynot@mabi.de>\n\nFor a list of credits see helpfile.\n\nSuggestions, bug reports etc. are welcome", kapp->getCaption(),PVERSION, PDATE);
-	QMessageBox::information( this, kapp->getCaption(),aboutText);
-}
-
-void kpok::showQtAboutBox()
-{
-	QMessageBox::aboutQt(this);
-}
-
-
-void kpok::help()
-{
-	KApplication::getKApplication()->invokeHTMLHelp("", "");
-}

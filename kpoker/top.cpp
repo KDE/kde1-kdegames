@@ -37,6 +37,7 @@
 #include<kmsgbox.h>
 
 #include "kpoker.h"
+#include "version.h"
 
 #include "top.moc"
 #include "global.h"
@@ -74,18 +75,17 @@ PokerWindow::PokerWindow() :   KTopLevelWidget()
 	else {
 	  optionsPopup->setItemEnabled(soId, FALSE);
 	}
-	
-	helpPopup = new QPopupMenu(0,"helpp");
-	helpPopup->insertItem(locale->translate("&Help"), _kpok, SLOT(help()));
-	helpPopup->insertSeparator();
-	helpPopup->insertItem(locale->translate("&About..."), _kpok, SLOT(showAboutBox()));
-	helpPopup->insertItem(locale->translate("About &Qt..."), _kpok, SLOT(showQtAboutBox()));
-	
+
+   	QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Poker"))
+                                         + " " + KPOKER_VERSION
+                                         + i18n("\n\nby Jochen Tuchbreiter")
+                                         + "(whynot@mabi.de)");
+                                                                  	
 	menu->insertItem(locale->translate("&File"), filePopup);
 	menu->insertItem(locale->translate("&Options"), optionsPopup);
 	
 	menu->insertSeparator();
-	menu->insertItem(locale->translate("&Help"), helpPopup);
+	menu->insertItem(locale->translate("&Help"), help);
 	
 }
 

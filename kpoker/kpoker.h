@@ -79,10 +79,6 @@ protected slots:
 	void bTimerEvent();
 	void drawCardsEvent();
 	void displayWin(const char *hand, int cashWon);
-	void showAboutBox();
-	void showQtAboutBox();
-	void help();
-	
 private:
 	QFrame      *CardFrames[5];
 	QPushButton *drawButton;
