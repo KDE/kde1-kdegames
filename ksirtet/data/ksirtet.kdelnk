@@ -6,6 +6,7 @@ Exec=ksirtet -caption "%c" %i %m
 Type=Application
 DocPath=ksirtet/index.html
 Comment=One more Tetris clone
+Comment[ca]=Un altre clònic Tetris
 Comment[cs]=Dal¹í hra podobná tetrisu
 Comment[da]=Endnu en tetrisklon
 Comment[fr]=Un clone de Tetris de plus
