@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: kpat\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1999-01-13 16:20+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>"
-"Translator: Mario Weilguni <mweilguni@sime.com>\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>Translator: Mario Weilguni "
+"<mweilguni@sime.com>\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."

@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: ksmiletris\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1999-01-13 16:25+MET\n"
-"Last-Translator: Thomas Diehl <th_diehl@csi.com>"
-"Translator: Stephan Kulow <coolo@kde.org>\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>Translator: Stephan Kulow "
+"<coolo@kde.org>\n"
 
 #: gamewindow.cpp:49
 msgid "Smiletris"
