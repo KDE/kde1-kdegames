@@ -10,11 +10,11 @@ msgstr ""
 
 #: MainWindow.C:42
 msgid "&Next level"
-msgstr "&Næts borð"
+msgstr "&Næsta borð"
 
 #: MainWindow.C:43
 msgid "&Previous level"
-msgstr "&Síðasta borð"
+msgstr "&Fyrra borð"
 
 #: MainWindow.C:44
 msgid "Re&start level"
@@ -70,7 +70,7 @@ msgstr "&Setja bókamerki"
 
 #: MainWindow.C:132
 msgid "&Go to bookmark"
-msgstr "&Fara í bókamerki"
+msgstr "&Fara að bókamerki"
 
 #: MainWindow.C:133
 msgid "&Bookmarks"

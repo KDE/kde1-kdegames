@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-13 01:34+0100\n"
+"POT-Creation-Date: 1998-12-16 01:33+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is <kde-isl@mmedia.is>\n"
 
@@ -140,36 +140,36 @@ msgstr "Mæla vegalengd"
 msgid "Show Standings"
 msgstr "Sýna stöðu"
 
-#: newgamedlg.cc:31
+#: newgamedlg.cc:28
 msgid "Preview Map"
 msgstr "Kort í boði"
 
-#: newgamedlg.cc:35
+#: newgamedlg.cc:31
 msgid "&Reject Map"
 msgstr "Hafna &korti"
 
-#: newgamedlg.cc:41
+#: newgamedlg.cc:38
 msgid "&Player List"
 msgstr "&Listi leikmanna"
 
-#: newgamedlg.cc:48
+#: newgamedlg.cc:44
 msgid "&Add"
 msgstr "&Bæta við"
 
-#: newgamedlg.cc:54
+#: newgamedlg.cc:50
 msgid "&Clear"
 msgstr "&Hreinsa"
 
-#: newgamedlg.cc:70
+#: newgamedlg.cc:67
 msgid "&Start Game"
 msgstr "&Hefja leik"
 
-#: newgamedlg.cc:162
+#: newgamedlg.cc:166
 #, c-format
 msgid "Number of Neutral Planets: %2d"
 msgstr "Fjöldi hlutlausra pláneta: %2d"
 
-#: newgamedlg.cc:174
+#: newgamedlg.cc:178
 #, c-format
 msgid "Number of turns: %2d"
 msgstr "Fjöldi umferða: %2d"
