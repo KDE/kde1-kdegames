@@ -166,36 +166,9 @@ msgstr "Èas"
 
 #: app.cpp:648
 msgid "Score"
-msgstr ""
+msgstr "Body"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Nie je mo¾né naèíta» obrázky!"
 
-#~ msgid "Name"
-#~ msgstr "Meno"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Informácie o &Qt ..."
-
-#~ msgid "About Shisen-Sho"
-#~ msgstr "Informácie o ©insen-©o"
-
-#~ msgid ""
-#~ "Shisen-Sho\n"
-#~ "\n"
-#~ "version 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is free software published \n"
-#~ "under the GNU General Public License GPL.\n"
-#~ "More about this in the help."
-#~ msgstr ""
-#~ "©isen-©o\n"
-#~ "\n"
-#~ "verzia 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Tento program je volný softvér publikovaný\n"
-#~ "pod GNU General Public License GPL.\n"
-#~ "Viac informácii nájdete v pomocníkovi."

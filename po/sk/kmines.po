@@ -144,20 +144,3 @@ msgstr "Pou¾íva» znaèku neistoty (?)"
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "Skús znova"
-
-#~ msgid "About..."
-#~ msgstr "Informácie..."
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "napísal Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-
-#~ msgid "kmines : About"
-#~ msgstr "kmines: Informácie"
