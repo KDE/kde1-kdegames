@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -34,11 +34,15 @@ msgstr "Mines"
 msgid "Hall of Fame"
 msgstr "명예의 전당"
 
-#: dialogs.cpp:288 main.cpp:57
+#: dialogs.cpp:288 main.cpp:64
 msgid "Easy"
 msgstr "초보자"
 
-#: dialogs.cpp:290 main.cpp:59
+#: dialogs.cpp:289 main.cpp:65
+msgid "Normal"
+msgstr ""
+
+#: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
 msgstr "전문가"
 
@@ -82,46 +86,61 @@ msgstr "성공 !"
 msgid "Bad luck !"
 msgstr "운이 없습니다 !"
 
-#: main.cpp:21 main.cpp:28 main.cpp:44
+#: main.cpp:22
 msgid "New game"
 msgstr "새 게임"
 
-#: main.cpp:22 main.cpp:29 main.cpp:45
+#: main.cpp:23
 msgid "Pause game"
 msgstr "게임 중지"
 
-#: main.cpp:23 main.cpp:30 main.cpp:47
+#: main.cpp:24
 msgid "High scores"
 msgstr "하이 스코어"
 
-#: main.cpp:41 main.cpp:146
+#: main.cpp:43 main.cpp:159
 msgid "Hide menu bar"
 msgstr "메뉴바 숨기기"
 
-#: main.cpp:53
+#: main.cpp:46
+#, fuzzy
+msgid "&New game"
+msgstr "새 게임"
+
+#: main.cpp:49
+#, fuzzy
+msgid "&Pause game"
+msgstr "게임 중지"
+
+#: main.cpp:52
+#, fuzzy
+msgid "&High scores"
+msgstr "하이 스코어"
+
+#: main.cpp:60
 msgid "? mark"
 msgstr "? 표시"
 
-#: main.cpp:54
+#: main.cpp:61
 msgid "Keys"
 msgstr "글쇠"
 
-#: main.cpp:61
+#: main.cpp:68
 msgid "Custom"
 msgstr "주문형"
 
-#: main.cpp:64
-msgid "Minesweeper"
-msgstr "제뢰 제거반"
-
-#: main.cpp:67
+#: main.cpp:74
 msgid "by"
 msgstr " "
 
-#: main.cpp:72
-msgid "Level"
+#: main.cpp:79
+#, fuzzy
+msgid "&Level"
 msgstr "레벨"
 
-#: main.cpp:143
+#: main.cpp:156
 msgid "Show menu bar"
 msgstr "메뉴바 보이기"
+
+#~ msgid "Minesweeper"
+#~ msgstr "제뢰 제거반"

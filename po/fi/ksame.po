@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KSAME\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,22 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+#, fuzzy
+msgid "&New"
 msgstr "Uusi"
 
+#: KSameWidget.cpp:52
+msgid "&Open"
+msgstr ""
+
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "Näytä ennätykset"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "Peli"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "Satunnainen lauta"
 
 #: KSameWidget.cpp:82
@@ -135,3 +138,6 @@ msgstr "Anna &nimesi:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Tuntematon"
+
+#~ msgid "Game"
+#~ msgstr "Peli"

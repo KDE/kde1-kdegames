@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,9 +14,13 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8BIT\n"
 
-#: app.cpp:94 board.cpp:222
+#: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
 msgstr "마작"
+
+#: board.cpp:223
+msgid "Cannot load pixmaps!"
+msgstr "픽스맵을 불러올 수 없습니다!"
 
 #: app.cpp:108
 msgid "Get &hint"
@@ -66,6 +70,10 @@ msgstr "매우 빠름"
 msgid "Fast"
 msgstr "빠름"
 
+#: app.cpp:135 app.cpp:140
+msgid "Medium"
+msgstr ""
+
 #: app.cpp:136
 msgid "Slow"
 msgstr "느림"
@@ -82,6 +90,13 @@ msgstr "쉬움"
 msgid "Hard"
 msgstr "어려움"
 
+#: app.cpp:145
+msgid ""
+"\n"
+"\n"
+"by Mario Weilguni"
+msgstr ""
+
 #: app.cpp:151
 msgid "Si&ze"
 msgstr "크기(&z)"
@@ -96,7 +111,7 @@ msgstr "레벨(&L)"
 
 #: app.cpp:154
 msgid "Disallow unsolvable games"
-msgstr "풀리지 않은 게임은 허용하지 않음" 
+msgstr "풀리지 않은 게임은 허용하지 않음"
 
 #: app.cpp:175
 msgid "Your time: XX:XX:XX"
@@ -141,7 +156,6 @@ msgstr ""
 "귀하는 \"명예의 전당\"에 들어섰습니다. 귀하의\n"
 "이름을 입력하시면 만인은 귀하의 이름을 항상 기억할 것입니다\n"
 "시원한 경기였습니다."
-                                                                               
 
 #: app.cpp:447
 msgid "Your name:"
@@ -159,14 +173,20 @@ msgstr "마작: 명예의 전당"
 msgid "Rank"
 msgstr "순위"
 
+#: app.cpp:638
+#, fuzzy
+msgid "Name"
+msgstr "새 게임(&N)"
+
 #: app.cpp:642
 msgid "Time"
 msgstr "시간"
 
+#: app.cpp:646
+#, fuzzy
+msgid "Size"
+msgstr "크기(&z)"
+
 #: app.cpp:650
 msgid "Score"
 msgstr "점수"
-
-#: board.cpp:223
-msgid "Cannot load pixmaps!"
-msgstr "픽스맵을 불러올 수 없습니다!"

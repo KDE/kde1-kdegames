@@ -5,25 +5,27 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-06-14 20:34+0200\n"
 "Last-Translator: Wang Jian <lark@linux.ustc.edu.cn>\n"
 "Language-Team: zh_CN ( gb2312 )\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+msgid "&New"
+msgstr ""
+
+#: KSameWidget.cpp:52
+msgid "&Open"
 msgstr ""
 
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "显示高分榜"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "游戏"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "随机棋局"
 
 #: KSameWidget.cpp:82
@@ -132,6 +134,9 @@ msgstr "请输入你的名字[&E]:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "无名氏"
+
+#~ msgid "Game"
+#~ msgstr "游戏"
 
 #~ msgid "Highscore"
 #~ msgstr "高分"

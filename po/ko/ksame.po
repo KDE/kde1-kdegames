@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,28 +14,22 @@ msgstr ""
 "Content-Type: text/plain; charset=iso-8859-1\n"
 "Content-Transfer-Encoding: 8BIT\n"
 
-#: HighScore.cpp:104 KSameWidget.cpp:141
-msgid "Board"
-msgstr "보드"
+#: KSameWidget.cpp:50
+msgid "&New"
+msgstr ""
 
-#: HighScore.cpp:109
-msgid "Please &enter your name:"
-msgstr "이름을 입력하십시오:(&e)"
-
-#: HighScore.cpp:148
-msgid "Anonymous"
-msgstr "이름없음"
+#: KSameWidget.cpp:52
+msgid "&Open"
+msgstr ""
 
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "점수판 보기"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "게임"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "무작위 보드"
 
 #: KSameWidget.cpp:82
@@ -75,6 +69,10 @@ msgstr "SameGame: 새 게임"
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
 msgstr "그만 두시겠습니까?"
+
+#: HighScore.cpp:104 KSameWidget.cpp:141
+msgid "Board"
+msgstr "보드"
 
 #: KSameWidget.cpp:144
 msgid "Hello"
@@ -127,3 +125,16 @@ msgstr "표시: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "점수: %06i"
+
+#: HighScore.cpp:107
+#, fuzzy
+msgid "Name"
+msgstr "게임"
+
+#: HighScore.cpp:109
+msgid "Please &enter your name:"
+msgstr "이름을 입력하십시오:(&e)"
+
+#: HighScore.cpp:148
+msgid "Anonymous"
+msgstr "이름없음"

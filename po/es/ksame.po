@@ -1,24 +1,27 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-10-18 19:43+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alonso Lara <jlaram@nexo.es>\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+#, fuzzy
+msgid "&New"
 msgstr "Nuevo"
 
+#: KSameWidget.cpp:52
+msgid "&Open"
+msgstr ""
+
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "Mostrar Puntuaciones"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "Juego"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "Tablero Aleatorio"
 
 #: KSameWidget.cpp:82
@@ -126,3 +129,6 @@ msgstr "Por favor, introduzca su nombr&e:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anónimo"
+
+#~ msgid "Game"
+#~ msgstr "Juego"

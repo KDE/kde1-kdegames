@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/kmahjongg\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -100,7 +100,7 @@ msgstr "Planet &s har blitt mistet til %s"
 msgid "Planet Conquered"
 msgstr "Planet beseiret"
 
-#: gameboard.cc:579 mainwin.cc:81
+#: gameboard.cc:579 mainwin.cc:82
 msgid "End Game"
 msgstr "Slutt spill"
 
@@ -116,7 +116,7 @@ msgstr "Ikke nok skip sendt."
 msgid "GNU-Lactic Conquest"
 msgstr "GNU-tisk Overvinner"
 
-#: mainwin.cc:46
+#: mainwin.cc:47
 #, c-format
 msgid ""
 "Version %d\n"
@@ -133,11 +133,11 @@ msgstr ""
 "KDE-versjon av Russ Steffen <rsteffen@ia.net>\n"
 "Se http://www.ia.net/~rsteffen/konquest.html for mer info"
 
-#: mainwin.cc:87
+#: mainwin.cc:88
 msgid "Measure Distance"
 msgstr "Måle distanser"
 
-#: mainwin.cc:91
+#: mainwin.cc:92
 msgid "Show Standings"
 msgstr "Vise rangering"
 
@@ -174,3 +174,49 @@ msgstr "Antall nøytrale planeter: %2d"
 #, c-format
 msgid "Number of turns: %2d"
 msgstr "Antall slag: %2d"
+
+#: planet_info.cc:81 planet_info.cc:116 planet_info.cc:131
+msgid "Planet Name : "
+msgstr ""
+
+#: planet_info.cc:84 planet_info.cc:134
+msgid "Owner : "
+msgstr ""
+
+#: planet_info.cc:87
+msgid "Ships : "
+msgstr ""
+
+#: planet_info.cc:90
+msgid "Production : "
+msgstr ""
+
+#: planet_info.cc:93
+msgid "Kill Percent : "
+msgstr ""
+
+#: planet_info.cc:137
+#, c-format
+msgid "Ships : %d"
+msgstr ""
+
+#: planet_info.cc:140
+#, c-format
+msgid "Production : %d"
+msgstr ""
+
+#: planet_info.cc:143
+#, c-format
+msgid "Kill Percent : %.3f"
+msgstr ""
+
+#: gameenddlg.cc:14
+msgid ""
+"This is the last turn.\n"
+"Do you wish to add more turns?"
+msgstr ""
+
+#: gameenddlg.cc:64
+#, c-format
+msgid "Add %d turns"
+msgstr ""

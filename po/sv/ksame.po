@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksame revision 1.4\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-08-22 21:50+SET\n"
 "Last-Translator: Christer Gustavsson <f93-cgn@sm.luth.se>\n"
 "Language-Team: SWEDISH <LL@li.org>\n"
@@ -12,19 +12,21 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+msgid "&New"
+msgstr ""
+
+#: KSameWidget.cpp:52
+msgid "&Open"
 msgstr ""
 
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "Visa poängtoppen"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "Spel"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "Slumpmässigt bräde"
 
 #: KSameWidget.cpp:82
@@ -133,3 +135,6 @@ msgstr "Skriv in ditt namn:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonym"
+
+#~ msgid "Game"
+#~ msgstr "Spel"

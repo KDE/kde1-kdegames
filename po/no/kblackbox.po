@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -13,55 +13,7 @@ msgstr ""
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: kbbgame.cpp:76
-msgid "&About KBlackBox"
-msgstr "&Om KBlackBox"
-
-#: kbbgame.cpp:78
-msgid "About &Qt"
-msgstr "Om &Qt"
-
-#: kbbgame.cpp:84
-msgid "&New"
-msgstr "&Ny"
-
-#: kbbgame.cpp:85
-msgid "&Give up"
-msgstr "&Gi opp"
-
-#: kbbgame.cpp:86
-msgid "&Done"
-msgstr "&Fullført"
-
-#: kbbgame.cpp:88
-msgid "&Resize"
-msgstr "&Endre størrelse"
-
-#: kbbgame.cpp:100
-msgid "&Size"
-msgstr "&Størrelse"
-
-#: kbbgame.cpp:101
-msgid "&Balls"
-msgstr "&Baller"
-
-#: kbbgame.cpp:102
-msgid "&Tutorial"
-msgstr "&Læremester"
-
-#: kbbgame.cpp:174
-msgid "New"
-msgstr "Ny"
-
-#: kbbgame.cpp:176
-msgid "Give up"
-msgstr "Gi opp"
-
-#: kbbgame.cpp:178
-msgid "Done"
-msgstr "Fullført"
-
-#: kbbgame.cpp:434
+#: kbbgame.cpp:72
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -71,40 +23,76 @@ msgstr ""
 "forfatter: Robert Cimrman\n"
 "epost: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:439
-msgid "Qt information"
-msgstr "Qt-informasojn"
+#: kbbgame.cpp:81
+msgid "&New"
+msgstr "&Ny"
 
-#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+#: kbbgame.cpp:82
+msgid "&Give up"
+msgstr "&Gi opp"
+
+#: kbbgame.cpp:83
+msgid "&Done"
+msgstr "&Fullført"
+
+#: kbbgame.cpp:85
+msgid "&Resize"
+msgstr "&Endre størrelse"
+
+#: kbbgame.cpp:97
+msgid "&Size"
+msgstr "&Størrelse"
+
+#: kbbgame.cpp:98
+msgid "&Balls"
+msgstr "&Baller"
+
+#: kbbgame.cpp:99
+msgid "&Tutorial"
+msgstr "&Læremester"
+
+#: kbbgame.cpp:170
+msgid "New"
+msgstr "Ny"
+
+#: kbbgame.cpp:172
+msgid "Give up"
+msgstr "Gi opp"
+
+#: kbbgame.cpp:174
+msgid "Done"
+msgstr "Fullført"
+
+#: kbbgame.cpp:423 kbbgame.cpp:542 kbbgame.cpp:598 kbbgame.cpp:625
 msgid "Warning!"
 msgstr "Varsel!"
 
-#: kbbgame.cpp:460 kbbgame.cpp:579
+#: kbbgame.cpp:425 kbbgame.cpp:544
 msgid "Do you really want to give up this game?"
 msgstr "Ønsker du virkelig å gi opp dette spillet?"
 
-#: kbbgame.cpp:461 kbbgame.cpp:580
+#: kbbgame.cpp:426 kbbgame.cpp:545
 msgid "Yes, I'm burnt out."
 msgstr "Ja, jeg er utbrent"
 
-#: kbbgame.cpp:462 kbbgame.cpp:581
+#: kbbgame.cpp:427 kbbgame.cpp:546
 msgid "No, not yet..."
 msgstr "Nei, ikke ennå..."
 
-#: kbbgame.cpp:513
+#: kbbgame.cpp:478
 #, c-format
 msgid "Your final score is: %d."
 msgstr "Din endelige poengsum er: %d."
 
-#: kbbgame.cpp:515
+#: kbbgame.cpp:480
 msgid "Wow!"
 msgstr "Åj!"
 
-#: kbbgame.cpp:517
+#: kbbgame.cpp:482
 msgid "Damned!"
 msgstr "Faen!"
 
-#: kbbgame.cpp:520
+#: kbbgame.cpp:485
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -113,37 +101,46 @@ msgstr ""
 "Du skal plassere %d baller!\n"
 "Du har plassert %d."
 
-#: kbbgame.cpp:522
+#: kbbgame.cpp:487
 msgid "D'accord"
 msgstr "Samsvaret"
 
-#: kbbgame.cpp:597 kbbgame.cpp:600
+#: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
 msgstr "Kjør"
 
-#: kbbgame.cpp:604
+#: kbbgame.cpp:569
 msgid "Size"
 msgstr "Størrelse"
 
-#: kbbgame.cpp:607
+#: kbbgame.cpp:572
 msgid "Placed"
 msgstr "Plassert"
 
-#: kbbgame.cpp:620
+#: kbbgame.cpp:585
 msgid "Score"
 msgstr " Poengsum"
 
-#: kbbgame.cpp:635 kbbgame.cpp:662
+#: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
 msgstr "Dette vil være slutten av gjeldende spill!"
 
-#: kbbgame.cpp:636 kbbgame.cpp:663
+#: kbbgame.cpp:601 kbbgame.cpp:628
 msgid "Never mind..."
 msgstr "Glem det..."
 
-#: kbbgame.cpp:637 kbbgame.cpp:664
+#: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
 msgstr "Åh, nei!"
+
+#~ msgid "&About KBlackBox"
+#~ msgstr "&Om KBlackBox"
+
+#~ msgid "About &Qt"
+#~ msgstr "Om &Qt"
+
+#~ msgid "Qt information"
+#~ msgstr "Qt-informasojn"
 
 #~ msgid "&Help"
 #~ msgstr "&Hjelp"

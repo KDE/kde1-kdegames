@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:30+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-04-23 00:00+0000\n"
 "Last-Translator: Pieter Eendebak <pte@ddsw.nl>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,71 +14,8 @@ msgstr ""
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
 
-# kbbgame.cpp:75
-#: kbbgame.cpp:76
-msgid "&About KBlackBox"
-msgstr "&Over KBlackBox"
-
-# kbbgame.cpp:79
-#: kbbgame.cpp:78
-msgid "About &Qt"
-msgstr "Over &Qt"
-
-# kbbgame.cpp:84
-#: kbbgame.cpp:84
-msgid "&New"
-msgstr "&Nieuw"
-
-# kbbgame.cpp:85
-#: kbbgame.cpp:85
-msgid "&Give up"
-msgstr "Op&geven"
-
-# kbbgame.cpp:148
-#: kbbgame.cpp:86
-#, fuzzy
-msgid "&Done"
-msgstr "Klaar"
-
-# kbbgame.cpp:87
-#: kbbgame.cpp:88
-msgid "&Resize"
-msgstr "Grootte veranderen"
-
-# kbbgame.cpp:99
-#: kbbgame.cpp:100
-msgid "&Size"
-msgstr "&Grootte"
-
-# kbbgame.cpp:100
-#: kbbgame.cpp:101
-msgid "&Balls"
-msgstr "&Ballen"
-
-# kbbgame.cpp:101
-#: kbbgame.cpp:102
-msgid "&Tutorial"
-msgstr "&Tutorial"
-
-# kbbgame.cpp:84
-#: kbbgame.cpp:174
-#, fuzzy
-msgid "New"
-msgstr "&Nieuw"
-
-# kbbgame.cpp:85
-#: kbbgame.cpp:176
-#, fuzzy
-msgid "Give up"
-msgstr "Op&geven"
-
-# kbbgame.cpp:148
-#: kbbgame.cpp:178
-msgid "Done"
-msgstr "Klaar"
-
 # kbbgame.cpp:363
-#: kbbgame.cpp:434
+#: kbbgame.cpp:72
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
@@ -88,49 +25,97 @@ msgstr ""
 "schrijver: Robert Cimrman\n"
 "e-mail: cimrman3@students.zcu.cz"
 
-# kbbgame.cpp:368
-#: kbbgame.cpp:439
-msgid "Qt information"
-msgstr "Informatie over Qt"
+# kbbgame.cpp:84
+#: kbbgame.cpp:81
+msgid "&New"
+msgstr "&Nieuw"
+
+# kbbgame.cpp:85
+#: kbbgame.cpp:82
+msgid "&Give up"
+msgstr "Op&geven"
+
+# kbbgame.cpp:148
+#: kbbgame.cpp:83
+#, fuzzy
+msgid "&Done"
+msgstr "Klaar"
+
+# kbbgame.cpp:87
+#: kbbgame.cpp:85
+msgid "&Resize"
+msgstr "Grootte veranderen"
+
+# kbbgame.cpp:99
+#: kbbgame.cpp:97
+msgid "&Size"
+msgstr "&Grootte"
+
+# kbbgame.cpp:100
+#: kbbgame.cpp:98
+msgid "&Balls"
+msgstr "&Ballen"
+
+# kbbgame.cpp:101
+#: kbbgame.cpp:99
+msgid "&Tutorial"
+msgstr "&Tutorial"
+
+# kbbgame.cpp:84
+#: kbbgame.cpp:170
+#, fuzzy
+msgid "New"
+msgstr "&Nieuw"
+
+# kbbgame.cpp:85
+#: kbbgame.cpp:172
+#, fuzzy
+msgid "Give up"
+msgstr "Op&geven"
+
+# kbbgame.cpp:148
+#: kbbgame.cpp:174
+msgid "Done"
+msgstr "Klaar"
 
 # kbbgame.cpp:493 kbbgame.cpp:546 kbbgame.cpp:572
-#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+#: kbbgame.cpp:423 kbbgame.cpp:542 kbbgame.cpp:598 kbbgame.cpp:625
 msgid "Warning!"
 msgstr "Waarschuwing!"
 
 # kbbgame.cpp:495
-#: kbbgame.cpp:460 kbbgame.cpp:579
+#: kbbgame.cpp:425 kbbgame.cpp:544
 msgid "Do you really want to give up this game?"
 msgstr "Weet je zeker dat je het spel wilt opgeven?"
 
 # kbbgame.cpp:496
-#: kbbgame.cpp:461 kbbgame.cpp:580
+#: kbbgame.cpp:426 kbbgame.cpp:545
 msgid "Yes, I'm burnt out."
 msgstr "Ja, ik heb er genoeg van."
 
 # kbbgame.cpp:497
-#: kbbgame.cpp:462 kbbgame.cpp:581
+#: kbbgame.cpp:427 kbbgame.cpp:546
 msgid "No, not yet..."
 msgstr "Nee, wacht nog even..."
 
 # kbbgame.cpp:429
-#: kbbgame.cpp:513
+#: kbbgame.cpp:478
 #, c-format
 msgid "Your final score is: %d."
 msgstr "Je uiteindelijke score is: %d"
 
 # kbbgame.cpp:431
-#: kbbgame.cpp:515
+#: kbbgame.cpp:480
 msgid "Wow!"
 msgstr "Wow!"
 
 # kbbgame.cpp:433
-#: kbbgame.cpp:517
+#: kbbgame.cpp:482
 msgid "Damned!"
 msgstr "Damned!"
 
 # kbbgame.cpp:436
-#: kbbgame.cpp:520
+#: kbbgame.cpp:485
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -140,44 +125,56 @@ msgstr ""
 "Je hebt er %d geplaatst."
 
 # kbbgame.cpp:438
-#: kbbgame.cpp:522
+#: kbbgame.cpp:487
 msgid "D'accord"
 msgstr "Ok"
 
-#: kbbgame.cpp:597 kbbgame.cpp:600
+#: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
 msgstr ""
 
 # kbbgame.cpp:99
-#: kbbgame.cpp:604
+#: kbbgame.cpp:569
 #, fuzzy
 msgid "Size"
 msgstr "&Grootte"
 
-#: kbbgame.cpp:607
+#: kbbgame.cpp:572
 msgid "Placed"
 msgstr ""
 
 # kbbgame.cpp:533
-#: kbbgame.cpp:620
+#: kbbgame.cpp:585
 #, fuzzy
 msgid "Score"
 msgstr "Score %4d"
 
 # kbbgame.cpp:548 kbbgame.cpp:574
-#: kbbgame.cpp:635 kbbgame.cpp:662
+#: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
 msgstr "Dat is het einde van je huidige spel!"
 
 # kbbgame.cpp:550 kbbgame.cpp:576
-#: kbbgame.cpp:636 kbbgame.cpp:663
+#: kbbgame.cpp:601 kbbgame.cpp:628
 msgid "Never mind..."
 msgstr "Laat maar zitten..."
 
 # kbbgame.cpp:549 kbbgame.cpp:575
-#: kbbgame.cpp:637 kbbgame.cpp:664
+#: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
 msgstr "Oh, nee!"
+
+# kbbgame.cpp:75
+#~ msgid "&About KBlackBox"
+#~ msgstr "&Over KBlackBox"
+
+# kbbgame.cpp:79
+#~ msgid "About &Qt"
+#~ msgstr "Over &Qt"
+
+# kbbgame.cpp:368
+#~ msgid "Qt information"
+#~ msgstr "Informatie over Qt"
 
 # kbbgame.cpp:72 kbbgame.cpp:109
 #~ msgid "&Help"

@@ -10,7 +10,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -19,19 +19,21 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+msgid "&New"
+msgstr ""
+
+#: KSameWidget.cpp:52
+msgid "&Open"
 msgstr ""
 
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "Birta metalista"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "Leikur"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "Borð af handahófi"
 
 #: KSameWidget.cpp:82
@@ -139,3 +141,6 @@ msgstr "Sláðu &inn nafnið þitt:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Nafnlaus"
+
+#~ msgid "Game"
+#~ msgstr "Leikur"

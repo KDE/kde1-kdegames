@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,19 +14,22 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+#, fuzzy
+msgid "&New"
 msgstr "Nová"
 
+#: KSameWidget.cpp:52
+msgid "&Open"
+msgstr ""
+
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "Ukáza» najlep¹ie skóre"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "Hra"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "Náhodná doska"
 
 #: KSameWidget.cpp:82
@@ -134,3 +137,6 @@ msgstr "Prosím zadajt&e svoje meno:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonymný"
+
+#~ msgid "Game"
+#~ msgstr "Hra"

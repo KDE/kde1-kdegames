@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,19 +15,19 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+msgid "&New"
+msgstr ""
+
+#: KSameWidget.cpp:52
+msgid "&Open"
 msgstr ""
 
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
-msgstr ""
-
-#: KSameWidget.cpp:63
-msgid "Game"
+msgid "S&how Highscore"
 msgstr ""
 
 #: KSameWidget.cpp:76
-msgid "Random Board"
+msgid "&Random Board"
 msgstr ""
 
 #: KSameWidget.cpp:82

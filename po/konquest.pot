@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -99,7 +99,7 @@ msgstr ""
 msgid "Planet Conquered"
 msgstr ""
 
-#: gameboard.cc:579 mainwin.cc:81
+#: gameboard.cc:579 mainwin.cc:82
 msgid "End Game"
 msgstr ""
 
@@ -115,7 +115,7 @@ msgstr ""
 msgid "GNU-Lactic Conquest"
 msgstr ""
 
-#: mainwin.cc:46
+#: mainwin.cc:47
 #, c-format
 msgid ""
 "Version %d\n"
@@ -126,11 +126,11 @@ msgid ""
 "See http://www.ia.net/~rsteffen/konquest.html for more info"
 msgstr ""
 
-#: mainwin.cc:87
+#: mainwin.cc:88
 msgid "Measure Distance"
 msgstr ""
 
-#: mainwin.cc:91
+#: mainwin.cc:92
 msgid "Show Standings"
 msgstr ""
 
@@ -166,4 +166,50 @@ msgstr ""
 #: newgamedlg.cc:178
 #, c-format
 msgid "Number of turns: %2d"
+msgstr ""
+
+#: planet_info.cc:81 planet_info.cc:116 planet_info.cc:131
+msgid "Planet Name : "
+msgstr ""
+
+#: planet_info.cc:84 planet_info.cc:134
+msgid "Owner : "
+msgstr ""
+
+#: planet_info.cc:87
+msgid "Ships : "
+msgstr ""
+
+#: planet_info.cc:90
+msgid "Production : "
+msgstr ""
+
+#: planet_info.cc:93
+msgid "Kill Percent : "
+msgstr ""
+
+#: planet_info.cc:137
+#, c-format
+msgid "Ships : %d"
+msgstr ""
+
+#: planet_info.cc:140
+#, c-format
+msgid "Production : %d"
+msgstr ""
+
+#: planet_info.cc:143
+#, c-format
+msgid "Kill Percent : %.3f"
+msgstr ""
+
+#: gameenddlg.cc:14
+msgid ""
+"This is the last turn.\n"
+"Do you wish to add more turns?"
+msgstr ""
+
+#: gameenddlg.cc:64
+#, c-format
+msgid "Add %d turns"
 msgstr ""

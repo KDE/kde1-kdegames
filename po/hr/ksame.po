@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-09-17 13:38+MST\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -12,19 +12,22 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: KSameWidget.cpp:50
-msgid "New"
+#, fuzzy
+msgid "&New"
 msgstr "Nova"
 
+#: KSameWidget.cpp:52
+msgid "&Open"
+msgstr ""
+
 #: KSameWidget.cpp:57
-msgid "Show Highscore"
+#, fuzzy
+msgid "S&how Highscore"
 msgstr "Prika¾i najvi¹e rezultate"
 
-#: KSameWidget.cpp:63
-msgid "Game"
-msgstr "Igra"
-
 #: KSameWidget.cpp:76
-msgid "Random Board"
+#, fuzzy
+msgid "&Random Board"
 msgstr "Nasumièna ploèa"
 
 #: KSameWidget.cpp:82
@@ -132,3 +135,6 @@ msgstr "Molim &unesite svoje ime:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonimac"
+
+#~ msgid "Game"
+#~ msgstr "Igra"
