@@ -50,6 +50,7 @@ msgid "&Sounds"
 msgstr "So&ns"
 
 #: gamewindow.cpp:73
+#, c-format
 msgid ""
 "KSmiletris %s\n"
 "\n"
