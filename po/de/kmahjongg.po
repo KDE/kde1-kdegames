@@ -3,12 +3,12 @@ msgstr ""
 "Project-Id-Version: Mahjongg\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
 "PO-Revision-Date: 1999-01-23 19:35+MET\n"
-"Translator: Mathias Mueller <in5y158@public.uni-hamburg.de>\n"
 "Last-Translator: Thomas Diehl <th_diehl@csi.com>\n"
 "Language-Team: de <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
+"Translator: Mathias Mueller <in5y158@public.uni-hamburg.de>\n"
 
 #: kmahjongg.cpp:101
 msgid "Classic"

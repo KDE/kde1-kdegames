@@ -63,7 +63,6 @@ msgstr ""
 "\n"
 "wdtir Mathias Mueller (in5y158@public.uni-hamburg.de)"
 
-
 #: kmahjongg.cpp:386 kmahjongg.cpp:400
 msgid "Unable to open bitmap file !"
 msgstr "Gat ekki opnað bitamyndaskrá !"
@@ -129,4 +128,3 @@ msgid ""
 msgstr ""
 "Því miður, þessi mynd notar %d liti.\n"
 "Hámarkið er %d"
-

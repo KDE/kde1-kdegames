@@ -5,6 +5,7 @@ msgstr ""
 "POT-Creation-Date: 1999-01-18 01:39+0100\n"
 "Last-Translator: Logi Ragnarsson <logir@hi.is>\n"
 
+#: gamewindow.cpp:49
 msgid "Smiletris"
 msgstr "Brostris"
 
