@@ -23,6 +23,7 @@
  * bad parts just send me a patch including your "elegant" code ;)
  *  
  */
+#include <stdlib.h>
 
 #include <qpushbt.h>
 #include <qlabel.h>

@@ -1,22 +1,29 @@
-0.2
-===
+------------------------------------------------------------------------------
+Version ????
+
+- kpoker should now run on DEC Alphas (thanks Uwe Thiem :)
+
+------------------------------------------------------------------------------
+Version 0.2
+
 - reduced number of colors needed by the images for the backsides of cards
 - KPoker documentation is now written in .sgml format
 - lots of changes in makefiles
 - fixed that "#include <top.h>" bug.
-- sound support (experimental - *please* report problems :)
+- sound support (experimental - *please* report problems)
 
+------------------------------------------------------------------------------
+Version 0.1.2
 
-0.1.2
-=====
 - made kpoker use KTopLevelWidget + the new menubars
 - fixed silly problem with cardImage
 - finished the helpfile
 - built in new icon
 - built in new backsides of cards (1000 thanks to our "icon/graphics Man")
 
-0.1.1
-======
+------------------------------------------------------------------------------
+Version 0.1.1
+
 - made kpoker more "KDE conform" (like inserted separator between
   help/help and help/about)
 - fixed a few silly bugs/problems
