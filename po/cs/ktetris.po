@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktetris\n"
 "POT-Creation-Date: 1998-04-17 00:02+0200\n"
-"PO-Revision-Date: 1998-03-12 12:57 MET\n"
+"PO-Revision-Date: 1998-04-17 15:45 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -295,7 +295,7 @@ msgstr "&Klávesy"
 
 #: main.cpp:30
 msgid "Tetris"
-msgstr ""
+msgstr "Tetris"
 
 #: main.cpp:32
 msgid ""
@@ -303,29 +303,10 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
+"\n"
+"\n"
+"napsal Nicolas Hadacek"
 
 #: main.cpp:64
 msgid "Show menu"
 msgstr "Zobrazit menu"
-
-#~ msgid "&Contents"
-#~ msgstr "&Obsah"
-
-#~ msgid "About &Qt"
-#~ msgstr "Informace o &Qt"
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK(hadacek@kde.org)\n"
-#~ "tetris kernel by Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "napsal Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ "jádro tetrisu napsal Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-
-#~ msgid "ktetris : about"
-#~ msgstr "ktetris: Informace"
