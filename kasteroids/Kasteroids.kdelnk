@@ -1,7 +1,9 @@
 # KDE Config File 
 [KDE Desktop Entry]
 Name=Asteroids
+Name[pl]=Asteroidy
 Exec=kasteroids
 Type=Application
 Comment=A little arcade game
 Comment[de]=Ein bekanntes Ballerspiel
+Comment[pl]=Znana gra zrêczno¶ciowa.

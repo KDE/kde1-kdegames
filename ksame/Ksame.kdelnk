@@ -2,8 +2,10 @@
 [KDE Desktop Entry]
 Name=SameGame
 Name[de]=Probiere
+Name[pl]=ToSamo
 Exec=ksame
 Type=Application
 DocPath=ksame/ksame.html
 Comment=A little board game
 Comment[de]=Ein Spiel mit bunten Kugeln
+Comment[pl]=Niewielka gra w kulki.

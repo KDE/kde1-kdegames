@@ -6,5 +6,6 @@ Icon=kpoker.xpm
 DocPath=kpoker.html
 Comment=A simple video poker clone
 Comment[de]=Ein einfaches Videopoker-Spiel
+Comment[pl]=Prosta odmiana pokera.
 Terminal=0
 Type=Application
