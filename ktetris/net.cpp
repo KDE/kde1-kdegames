@@ -5,6 +5,7 @@
 
 #include <sys/types.h>
 #include <sys/socket.h>
+#include <sys/utsname.h>
 #include <unistd.h>
 #include <netinet/in.h>
 #include <netdb.h>
@@ -41,7 +42,15 @@ NetObject::NetObject( QString& tmp_address, QString& tmp_name,
 					 QString& tmp_port )
 {
 	if ( tmp_address.isEmpty() )
-		t_address = getenv("HOSTNAME");
+	{	// Lookup things via uname
+		struct utsname thishost;
+		if ( uname(&thishost) == 0)
+			// Success: uname tells me the host name
+			t_address = thishost.nodename;
+		else
+			// Last resort: Read Environment name
+			t_address = getenv("HOSTNAME");
+	}
 	else
 		t_address = (const char *)tmp_address;
 	if ( tmp_name.isEmpty() )
