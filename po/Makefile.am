@@ -4,7 +4,7 @@ SUBDIRS = cs de es fi fr hr hu it no pl pt ro ru sk nl el \
 
 # this is a general list for merging!
 APPS = kabalone kasteroids kmahjongg kmines kpat kpoker kreversi ksame \
-	kshisen ksnake ktetris kblackbox
+	kshisen ksnake ktetris kblackbox ksokoban
 
 merge:
 	@apps='$(APPS)'; \
