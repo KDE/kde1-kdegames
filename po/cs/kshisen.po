@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
 "POT-Creation-Date: 1998-04-17 00:02+0200\n"
-"PO-Revision-Date: 1998-04-17 15:44 MET DST\n"
+"PO-Revision-Date: 1998-05-14 18:20 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -154,7 +154,7 @@ msgstr "Hala slávy"
 
 #: app.cpp:607
 msgid "Shisen-Sho: Hall Of Fame"
-msgstr "©insen-©o: Hala Slávy"
+msgstr "©isen-©o: Hala Slávy"
 
 #: app.cpp:632
 msgid "Rank"
@@ -166,7 +166,7 @@ msgstr "Èas"
 
 #: app.cpp:648
 msgid "Score"
-msgstr ""
+msgstr "Skóre"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
