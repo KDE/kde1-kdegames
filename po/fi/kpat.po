@@ -1,0 +1,245 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: KPAT\n"
+"POT-Creation-Date: 1998-01-06 14:08+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: cardmaps.cpp:62
+msgid "please wait, loading cards..."
+msgstr "odota hetki, lataan kortteja..."
+
+#: cardmaps.cpp:66
+msgid "KPat - a Solitaire game"
+msgstr "KPat - pasianssi"
+
+#: cardmaps.cpp:104
+#, c-format
+msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
+msgstr "kpat: PANIIKKI, en saa ladattua kortin kuvaa \"%s\"\n"
+
+#: cardmaps.cpp:204
+#, c-format
+msgid "KPAT: access to invalid card %d, %d\n"
+msgstr "KPAT: viittaus virheelliseen korttiin %d, %d\n"
+
+#: computation.cpp:92
+msgid "Easy 4"
+msgstr "Helppo 4"
+
+#: computation.cpp:93
+msgid "Easy 3"
+msgstr "Helppo 3"
+
+#: computation.cpp:94
+msgid "Easy 2"
+msgstr "Helppo 2"
+
+#: computation.cpp:95
+msgid "Easy 1"
+msgstr "Helppo 1"
+
+#: computation.cpp:97
+msgid "Hard 1"
+msgstr "Vaikea 1"
+
+#: computation.cpp:98
+msgid "Hard 2"
+msgstr "Vaikea 2"
+
+#: computation.cpp:99
+msgid "Hard 3"
+msgstr "Vaikea 3"
+
+#: computation.cpp:100
+msgid "Hard 4"
+msgstr "Vaikea 4"
+
+#: computation.cpp:101
+msgid "Hard 5"
+msgstr "Vaikea 5"
+
+#: grandf.cpp:34
+msgid "Try to move card:"
+msgstr "Yritä siirtää korttia:"
+
+#: grandf.cpp:113 mod3.cpp:56
+msgid "Redeal"
+msgstr "Uudelleenjaa"
+
+#: grandf.cpp:147
+msgid "Hint"
+msgstr "Vihje"
+
+#: grandf.cpp:174
+msgid "Only 3 deals allowed"
+msgstr "Vain 3 jakoa sallittu"
+
+#: klondike.cpp:67
+msgid "Easy rules"
+msgstr "Helpot säännöt"
+
+#: klondike.cpp:68
+msgid "Hard rules"
+msgstr "Vaikeat säännöt"
+
+#: klondike.cpp:94
+msgid ""
+"This will end the current game\n"
+"Are you sure you want to do this?"
+msgstr ""
+"Tämä lopettaa nykyisen pelin\n"
+"Oletko varma että haluat lopettaa?"
+
+#: mod3.cpp:136
+msgid "No more cards"
+msgstr "Ei enää kortteja"
+
+#: pwidget.cpp:98
+msgid "&Restart game"
+msgstr "&Aloita alusta"
+
+#: pwidget.cpp:102
+msgid "&Klondike"
+msgstr "&Klondyke"
+
+#: pwidget.cpp:103 pwidget.cpp:287
+msgid "MicroSolitaire"
+msgstr "MicroPasianssi"
+
+#: pwidget.cpp:104 pwidget.cpp:291
+msgid "Calculation"
+msgstr "Laskenta"
+
+#: pwidget.cpp:105
+msgid "Napoleon's Tomb"
+msgstr "Napoleonin hauta"
+
+#: pwidget.cpp:106 pwidget.cpp:295
+msgid "The Idiot"
+msgstr "Idiootti"
+
+#: pwidget.cpp:107 pwidget.cpp:279
+msgid "Grandfather"
+msgstr "Isoisä"
+
+#: pwidget.cpp:108 pwidget.cpp:267
+msgid "Ten"
+msgstr "Kymmenen"
+
+#: pwidget.cpp:109 pwidget.cpp:271
+msgid "Mod3"
+msgstr "Mod3"
+
+#: pwidget.cpp:110 pwidget.cpp:275
+msgid "Freecell"
+msgstr "Vapaa paikka"
+
+#: pwidget.cpp:112
+msgid "Choose new game"
+msgstr "Valitse uusi peli"
+
+#: pwidget.cpp:118
+msgid "KDE"
+msgstr "KDE"
+
+#: pwidget.cpp:119
+msgid "Classic blue"
+msgstr "Klassinen sininen"
+
+#: pwidget.cpp:120
+msgid "Classic red"
+msgstr "Klassinen punainen"
+
+#: pwidget.cpp:121
+msgid "Technical"
+msgstr "Tekninen"
+
+#: pwidget.cpp:122
+msgid "Card backside"
+msgstr "Kortin takapuoli"
+
+#: pwidget.cpp:123
+msgid "Animation on startup"
+msgstr "Animaatio alussa"
+
+#: pwidget.cpp:129
+msgid "Help on &rules..."
+msgstr "Auta &säännöissä"
+
+#: pwidget.cpp:131
+msgid "About &Qt..."
+msgstr "Tietoja &Qt:ta..."
+
+#: pwidget.cpp:254
+#, c-format
+msgid "COMMAND %d not implemented!\n"
+msgstr "KOMENTOA %d ei ole toteutettu!\n"
+
+#: pwidget.cpp:283
+msgid "Klondike"
+msgstr "Klondyke"
+
+#: pwidget.cpp:299
+msgid "Napoleons Tomb"
+msgstr "Napoleonin hauta"
+
+#: pwidget.cpp:304
+#, c-format
+msgid "kpat: unimplemented game type %d\n"
+msgstr "kpat: toteuttamaton pelin tyyppi %d\n"
+
+#: pwidget.cpp:336
+msgid ""
+"KPat\n"
+"\n"
+"Version "
+msgstr ""
+"KPat\n"
+"\n"
+"Versio "
+
+#: pwidget.cpp:338
+msgid ""
+"\n"
+"Copyright (C) 1997  Paul Olav Tvete\n"
+"\n"
+"Additional work done by:\n"
+"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
+"\tMatthias Ettrich\t<ettrich@kde.org>\n"
+"\tMario Weilguni\t<mweilguni@sime.com>\n"
+"\n"
+"This program is part of the K Desktop Environment.\n"
+"Use help for license information."
+msgstr ""
+"\n"
+"Copyright (C) 1997  Paul Olav Tvete\n"
+"\n"
+"Ylimääräistä työtä tehnyt myls:\n"
+"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
+"\tMatthias Ettrich\t<ettrich@kde.org>\n"
+"\tMario Weilguni\t<mweilguni@sime.com>\n"
+"\n"
+"Tämä ohjelma on osa K Desktop Ympäristöä.\n"
+"Käytä Ohjetta lisenssin lukemiseen."
+
+#: pwidget.cpp:347
+msgid "About kpat"
+msgstr "Tietoja kpat:ta"
+
+#: pwidget.cpp:385
+msgid "Could not load background image!"
+msgstr "En voinut ladata taustakuvaa!"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Täysin automaattinen"

@@ -1,0 +1,47 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: toplevel.cpp:77
+msgid "Score"
+msgstr "Pisteet"
+
+#: toplevel.cpp:91
+msgid "Level"
+msgstr "Taso"
+
+#: toplevel.cpp:105
+msgid "Ships"
+msgstr "Aluksia"
+
+#: toplevel.cpp:165
+msgid "&About..."
+msgstr "&Tietoja"
+
+#: toplevel.cpp:262
+msgid "Press Enter to launch."
+msgstr "Paina Enter laukaistaksesi."
+
+#: toplevel.cpp:280 toplevel.cpp:299
+msgid "KAsteriods"
+msgstr ""
+
+#: toplevel.cpp:292
+msgid "Ship Destroyed.  Press Enter to launch."
+msgstr "Alus tuhottu. Paina Enter laukaistaksesi."
+
+#: toplevel.cpp:300
+msgid "Game Over!"
+msgstr "Peli Loppu!"

@@ -1,0 +1,406 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: about.cpp:51
+msgid "About KReversi"
+msgstr "Tietoja KReversist‰"
+
+#: about.cpp:64
+msgid "Version "
+msgstr "Versio "
+
+#: about.cpp:66
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"T‰m‰ ohjelma on vapaa ohjelmisto joka on\n"
+"julkaistu  GNU General\n"
+"Public License:n alla\n"
+"(katso ohjeista lis‰tietoja)\n"
+"\n"
+"Kiitokset:\n"
+"\tMats Luthman peliytimest‰\n"
+"\t(portattu h‰nen javaversiostaan)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tkommenteista ja virhekorjauksista\n"
+"\n"
+"\tArne Klaassen\n"
+"\t varjostetuista napeista"
+
+#: app.cpp:218 app.cpp:548
+msgid ""
+"A problem with the sound server occured!\n"
+"Cannot enable sound support."
+msgstr ""
+"Ongelma ‰‰nipalvelimen kanssa!\n"
+"En voi k‰ytt‰‰ ‰‰nitukea."
+
+#: app.cpp:245
+msgid "&New game"
+msgstr "&Uusi peli"
+
+#: app.cpp:246
+msgid "&Load game"
+msgstr "&Lataa peli"
+
+#: app.cpp:247
+msgid "&Save game"
+msgstr "&Tallenna peli"
+
+#: app.cpp:252
+msgid "Get &hint)"
+msgstr "&Vinkki"
+
+#: app.cpp:254
+msgid "&Stop thinking"
+msgstr "&Lopeta ajattelu"
+
+#: app.cpp:255
+msgid "&Continue"
+msgstr "&Jatka"
+
+#: app.cpp:257
+msgid "&Undo move"
+msgstr "&Peru siirto"
+
+#: app.cpp:258
+msgid "Switch si&des"
+msgstr "V&aihda puolia"
+
+#: app.cpp:260
+msgid "Hall Of &Fame..."
+msgstr "&Enn‰tykset..."
+
+#: app.cpp:266
+msgid "Level 1 (Wimp)"
+msgstr "Taso 1 (Nynny)"
+
+#: app.cpp:267
+msgid "Level 2 (Beginner)"
+msgstr "Taso 2 (Aloittelija)"
+
+#: app.cpp:268
+msgid "Level 3 (Novice)"
+msgstr "Taso 3 (Noviisi)"
+
+#: app.cpp:269
+msgid "Level 4 (Average)"
+msgstr "Taso 4 (Keskinkertainen)"
+
+#: app.cpp:270
+msgid "Level 5 (Good)"
+msgstr "Taso 5 (Hyv‰)"
+
+#: app.cpp:271
+msgid "Level 6 (Expert)"
+msgstr "Taso 6 (Ammattilainen)"
+
+#: app.cpp:272
+msgid "Level 7 (Master)"
+msgstr "Taso 7 (Mestari)"
+
+#: app.cpp:273
+msgid "Skill"
+msgstr "Taito"
+
+#: app.cpp:275
+msgid "&Shrink board"
+msgstr "&Pienenn‰ lautaa"
+
+#: app.cpp:276
+msgid "&Enlarge board"
+msgstr "&Suurenna lautaa"
+
+#: app.cpp:280
+msgid "&Half size"
+msgstr "&Puolikas koko"
+
+#: app.cpp:281
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: app.cpp:282
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: app.cpp:283
+msgid "D&efault size"
+msgstr "&Oletuskoko"
+
+#: app.cpp:284
+#, c-format
+msgid "120%"
+msgstr "120%"
+
+#: app.cpp:285
+#, c-format
+msgid "140%"
+msgstr "140%"
+
+#: app.cpp:286
+#, c-format
+msgid "160%"
+msgstr "160%"
+
+#: app.cpp:287
+#, c-format
+msgid "180%"
+msgstr "180%"
+
+#: app.cpp:288
+msgid "&Double size"
+msgstr "&Tuplakoko"
+
+#: app.cpp:289
+msgid "Set size"
+msgstr "Aseta koko"
+
+#: app.cpp:292
+msgid "Select &background color..."
+msgstr "Valitse taustav‰ri..."
+
+#: app.cpp:298
+msgid "none"
+msgstr "ei mik‰‰n"
+
+#: app.cpp:308
+msgid "Select background image"
+msgstr "Valitse taustakuva"
+
+#: app.cpp:309
+msgid "&Grayscale"
+msgstr "&Harmaas‰vy"
+
+#: app.cpp:311
+msgid "&Animations"
+msgstr "&Animaatiot"
+
+#: app.cpp:315
+msgid "1 (fastest)"
+msgstr "1 (nopein)"
+
+#: app.cpp:321
+msgid "10 (slowest)"
+msgstr "10 (hitain)"
+
+#: app.cpp:322
+msgid "Animation speed"
+msgstr "Animaationopeus"
+
+#: app.cpp:325
+msgid "S&ound"
+msgstr "&ƒ‰ni"
+
+#: app.cpp:330
+msgid "&Rules"
+msgstr "&S‰‰nnˆt"
+
+#: app.cpp:331
+msgid "&Strategy hints"
+msgstr "&Strategiavihjeet"
+
+#: app.cpp:333
+msgid "About &Qt..."
+msgstr "Tietoja &Qt:ta..."
+
+#: app.cpp:334
+msgid "&About..."
+msgstr "&Tietoja..."
+
+#: app.cpp:375
+msgid "Stop thinking"
+msgstr "Lopeta ajattelu"
+
+#: app.cpp:376
+msgid "Undo move"
+msgstr "Peru siirto"
+
+#: app.cpp:377
+msgid "Shrink board"
+msgstr "Pienenn‰ lautaa"
+
+#: app.cpp:378
+msgid "Enlarge board"
+msgstr "Suurenna lautaa"
+
+#: app.cpp:379
+msgid "Get hint"
+msgstr "Vinkki"
+
+#: app.cpp:380
+msgid "Get help"
+msgstr "Ohje"
+
+#: app.cpp:387
+msgid "XXXXX's turn"
+msgstr "XXXXX:n vuoro"
+
+#: app.cpp:388
+msgid "You (XXXXX): 88"
+msgstr "Sin‰ (XXXXX): 88"
+
+#: app.cpp:389
+msgid "Computer (XXXXX): 88"
+msgstr "Tietokone (XXXXX): 88"
+
+#: app.cpp:424
+msgid "Game saved"
+msgstr "Peli talletettu"
+
+#: app.cpp:602
+msgid "not yet implemented"
+msgstr "ei toteutettu"
+
+#: app.cpp:615 app.cpp:620
+#, c-format
+msgid "You (%s): %d"
+msgstr "Sin‰ (%s): %d"
+
+#: app.cpp:616 app.cpp:623 app.cpp:923
+msgid "blue"
+msgstr "sin."
+
+#: app.cpp:617 app.cpp:622
+#, c-format
+msgid "Computer (%s): %d"
+msgstr "Tietokone (%s): %d"
+
+#: app.cpp:618 app.cpp:621 app.cpp:925
+msgid "red"
+msgstr "pun."
+
+#: app.cpp:667
+msgid "End of game"
+msgstr "Pelin loppu"
+
+#: app.cpp:677
+#, c-format
+msgid ""
+"Game is drawn!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"Peli on loppu!\n"
+"\n"
+"Sin‰     : %d\n"
+"Tietokone: %d"
+
+#: app.cpp:678 app.cpp:690 app.cpp:710
+msgid "Game ended"
+msgstr "Peli loppunut"
+
+#: app.cpp:688
+msgid ""
+"Congratulations, you have won!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d\n"
+"Your rating %4.1f%%"
+msgstr ""
+"Onnea, voitit!\n"
+"\n"
+"Sin‰     : %d\n"
+"Tietokone: %d\n"
+"Tasosi %4.1f%%"
+
+#: app.cpp:708
+#, c-format
+msgid ""
+"You have lost the game!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"H‰visit pelin!\n"
+"\n"
+"Sin‰     : %d\n"
+"Tietokone: %d"
+
+#: app.cpp:719
+msgid "Red's"
+msgstr "Punaisen"
+
+#: app.cpp:719 app.cpp:721
+msgid "turn"
+msgstr "vuoro"
+
+#: app.cpp:721
+msgid "Blue's"
+msgstr "Sinisen"
+
+#: app.cpp:866
+msgid "Hall of Fame"
+msgstr "Enn‰tyslista"
+
+#: app.cpp:867 app.cpp:871
+msgid "KReversi: Hall Of Fame"
+msgstr "KReversi: Enn‰tyslista"
+
+#: app.cpp:892
+msgid "Rank"
+msgstr "Sijoitus"
+
+#: app.cpp:896
+msgid "Name"
+msgstr "Nimi"
+
+#: app.cpp:900
+msgid "Color"
+msgstr "V‰ri"
+
+#: app.cpp:904
+msgid "Score"
+msgstr "Pisteet"
+
+#: app.cpp:908
+msgid "Rating"
+msgstr "Tasosi"
+
+#: app.cpp:998
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr ""
+"P‰‰sit \"Enn‰tyslistalle\".Anna\n"
+"nimesi ett‰ p‰‰set listalle."
+
+#: app.cpp:1001
+msgid "Your name:"
+msgstr "Nimesi:"

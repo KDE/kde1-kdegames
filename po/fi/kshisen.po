@@ -1,0 +1,202 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# Kim Enkovaara <kim.enkovaara@iki.fi>, 1998.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: app.cpp:88 board.cpp:175
+msgid "Shisen-Sho"
+msgstr "Shisen-Sho"
+
+#: app.cpp:102
+msgid "Get &hint"
+msgstr "&Vinkki"
+
+#: app.cpp:104
+msgid "&New game"
+msgstr "&Uusi peli"
+
+#: app.cpp:105
+msgid "Res&tart game"
+msgstr "&Aloita alusta"
+
+#: app.cpp:107
+msgid "Is game solvable?"
+msgstr "Onko peli ratkaistava?"
+
+#: app.cpp:109
+msgid "&Hall of Fame"
+msgstr "&Tulokset"
+
+#: app.cpp:115
+msgid "14x6"
+msgstr "14x6"
+
+#: app.cpp:116
+msgid "18x8"
+msgstr "18x8"
+
+#: app.cpp:117
+msgid "24x12"
+msgstr "24x12"
+
+#: app.cpp:118
+msgid "28x16"
+msgstr "28x16"
+
+#: app.cpp:119
+msgid "32x20"
+msgstr "32x20"
+
+#: app.cpp:123
+msgid "Very fast"
+msgstr "Eritt‰in nopea"
+
+#: app.cpp:124
+msgid "Fast"
+msgstr "Nopea"
+
+#: app.cpp:125 app.cpp:130
+msgid "Medium"
+msgstr "Keskiverto"
+
+#: app.cpp:126
+msgid "Slow"
+msgstr "Hidas"
+
+#: app.cpp:127
+msgid "Very slow"
+msgstr "Eritt‰in hidas"
+
+#: app.cpp:129
+msgid "Easy"
+msgstr "Helppo"
+
+#: app.cpp:131
+msgid "Hard"
+msgstr "Vaikea"
+
+#: app.cpp:137
+msgid "About &Qt..."
+msgstr "Tietoja &Qt:ta..."
+
+#: app.cpp:142
+msgid "Si&ze"
+msgstr "K&oko"
+
+#: app.cpp:143
+msgid "S&peed"
+msgstr "&Nopeus"
+
+#: app.cpp:144
+msgid "&Level"
+msgstr "&Taso"
+
+#: app.cpp:145
+msgid "Disallow unsolvable games"
+msgstr "Kiell‰ ratkaisemattomat pelit"
+
+#: app.cpp:166
+msgid "Your time: XX:XX:XX"
+msgstr "Aikasi: XX:XX:XX"
+
+#: app.cpp:167 app.cpp:256 app.cpp:281
+msgid "Cheat mode"
+msgstr "Huijaustila"
+
+#: app.cpp:247
+msgid "This game is solveable"
+msgstr "Peli on ratkaisukelpoinen"
+
+#: app.cpp:250
+msgid "This game is NOT solveable"
+msgstr "Peli‰ ei voi ratkaista"
+
+#: app.cpp:348
+msgid "About Shisen-Sho"
+msgstr "Tietoha Shisen-Sho:ta"
+
+#: app.cpp:349
+msgid ""
+"Shisen-Sho\n"
+"\n"
+"version 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software published \n"
+"under the GNU General Public License GPL.\n"
+"More about this in the help."
+msgstr ""
+"Shisen-Sho\n"
+"\n"
+"versio 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"T‰m‰ ohjelma on vapaa ohjelmisto joka on \n"
+"julkaistu GNU General Public License GPL:n alla.\n"
+"T‰st‰ enemm‰n tietoa ohjeessa."
+
+#: app.cpp:381 app.cpp:404
+msgid "End of game"
+msgstr "Pelin loppu"
+
+#: app.cpp:382
+msgid "No more moves possible!"
+msgstr "Ei en‰‰ mahdollisia siirtoja!"
+
+#: app.cpp:399
+#, c-format
+msgid "Congratulations! You made it in %02d:%02d:%02d"
+msgstr "Onnea! Teit sen ajassa %02d:%02d:%02d"
+
+#: app.cpp:416
+#, c-format
+msgid "Your time: %02d:%02d:%02d"
+msgstr "Aikasi: %02d:%02d:%02d"
+
+#: app.cpp:427
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr ""
+"P‰‰sit \"Enn‰tyslistalle\".Anna nimesi\n"
+"jotta tuloksesi n‰kyy listalla."
+
+#: app.cpp:430
+msgid "Your name:"
+msgstr "Nimesi:"
+
+#: app.cpp:571 app.cpp:576
+msgid "Hall Of Fame"
+msgstr "Enn‰tyslista"
+
+#: app.cpp:572
+msgid "Shisen-Sho: Hall Of Fame"
+msgstr "Shisen-Sho: Enn‰tyslista"
+
+#: app.cpp:597
+msgid "Rank"
+msgstr "J‰rjestys"
+
+#: app.cpp:601
+msgid "Name"
+msgstr "Nimi"
+
+#: app.cpp:605
+msgid "Time"
+msgstr "Aika"
+
+#: board.cpp:176
+msgid "Cannot load pixmaps!"
+msgstr "En saa ladattua kuvia!"

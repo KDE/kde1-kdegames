@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kabalone\n"
 "POT-Creation-Date: 1998-01-02 15:01+0100\n"
-"Last-Translator: Juha Tuomala  <Juha.Tuomala@iki.fi>\n"
+"Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 
 #: AbTop.cpp:240 AbTop.cpp:399
 msgid "Move"
@@ -10,7 +10,7 @@ msgstr "Siirrä"
 
 #: AbTop.cpp:243 AbTop.cpp:403
 msgid "Press F2 for a new game"
-msgstr "Paina F2 aloittaaksesi uuden pelin"
+msgstr "F2 aloittaa uuden pelin"
 
 #: AbTop.cpp:261 AbTop.cpp:301
 msgid "Stop Search"
@@ -30,11 +30,11 @@ msgstr "&Säännöt"
 
 #: AbTop.cpp:296
 msgid "Save Position"
-msgstr ""
+msgstr "Tallenna tilanne"
 
 #: AbTop.cpp:298
 msgid "Restore Position"
-msgstr ""
+msgstr "Palauta tilanne"
 
 #: AbTop.cpp:315
 msgid "Easy"
@@ -74,7 +74,7 @@ msgstr "Siirrä hitaasti"
 
 #: AbTop.cpp:342
 msgid "Spy"
-msgstr ""
+msgstr "Vakoile"
 
 #: AbTop.cpp:408
 msgid "won"
@@ -90,63 +90,45 @@ msgstr "Sinun vuorosi!"
 
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
-msgstr ""
+msgstr "Laudan arvo"
 
 #: Move.cpp:18
 msgid "RightDown"
-msgstr ""
+msgstr "Oikealle-Alas"
 
 #: Move.cpp:19
 msgid "LeftDown"
-msgstr ""
+msgstr "Vasemmalle-Alas"
 
 #: Move.cpp:21
 msgid "LeftUp"
-msgstr ""
+msgstr "Vasemmalle-Ylös"
 
 #: Move.cpp:22
 msgid "RightUp"
-msgstr ""
+msgstr "Oikealle-Ylös"
 
 #: Move.cpp:35 Move.cpp:42
 msgid "Side"
-msgstr ""
+msgstr "Sivu"
 
 #: Move.cpp:49
 msgid "Out"
-msgstr ""
+msgstr "Ulos"
 
 #: Move.cpp:50
 msgid "Push"
-msgstr ""
+msgstr "Paina"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
-msgstr ""
+msgstr "Todellinen tutkittu tilanne:"
 
 #: Spy.cpp:46
 msgid "Best move so far:"
-msgstr ""
+msgstr "Paras siirto tähänasti:"
 
 #: Spy.cpp:75
-#, fuzzy
 msgid "Spion"
-msgstr "&Asetukset"
+msgstr "Vakoilija"
 
-#~ msgid "New Game"
-#~ msgstr "Uusi peli"
-
-#~ msgid "Quit"
-#~ msgstr "Lopeta"
-
-#~ msgid "Normal"
-#~ msgstr "Normaali"
-
-#~ msgid "About"
-#~ msgstr "&Tietoja"
-
-#~ msgid "File"
-#~ msgstr "&Tiedosto"
-
-#~ msgid "Help"
-#~ msgstr "&Ohje"

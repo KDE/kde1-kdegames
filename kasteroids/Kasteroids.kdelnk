@@ -1,18 +1,20 @@
 # KDE Config File
 [KDE Desktop Entry]
-Comment[C]=A little arcade game
 BinaryPattern=kasteroids;
-Name[pl]=Asteroidy
 Name=Asteroids
 Name[C]=Asteroids
+Name[pl]=Asteroidy
+Name[fi]=Asteroidit
 MimeType=
-Comment=A little arcade game
 Exec=kasteroids
+Comment=A little arcade game
+Comment[C]=A little arcade game
 Comment[pl]=Znana gra zrêczno¶ciowa.
+Comment[de]=Ein bekanntes Ballerspiel
+Comment[fi]=Pieni pelihallipeli
 Icon=kasteroids.xpm
 TerminalOptions=
 Path=
 DocPath=kasteroids/index.html
 Type=Application
-Comment[de]=Ein bekanntes Ballerspiel
 Terminal=0
