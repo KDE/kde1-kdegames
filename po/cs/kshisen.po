@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
-"PO-Revision-Date: 1998-10-28 19:18 CET\n"
+"PO-Revision-Date: 1998-11-03 14:43+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -71,7 +71,7 @@ msgstr "Rychlá"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr ""
+msgstr "Støední"
 
 #: app.cpp:136
 msgid "Slow"
@@ -175,18 +175,16 @@ msgid "Rank"
 msgstr "Poøadí"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Nová hra"
+msgstr "Jméno"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Èas"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "&Velikost"
+msgstr "Velikost"
 
 #: app.cpp:650
 msgid "Score"

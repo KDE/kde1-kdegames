@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kmines\n"
 "POT-Creation-Date: 1998-10-30 12:21+0100\n"
-"PO-Revision-Date: 1998-10-28 19:24 CET\n"
+"PO-Revision-Date: 1998-11-03 14:45+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -39,7 +39,7 @@ msgstr "Snadná"
 
 #: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
-msgstr ""
+msgstr "Normální"
 
 #: dialogs.cpp:290 main.cpp:66
 msgid "Expert"

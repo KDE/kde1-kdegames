@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kabalone 1.02\n"
 "POT-Creation-Date: 1998-10-13 13:30+0200\n"
-"PO-Revision-Date: 1998-10-28 19:33 CET\n"
+"PO-Revision-Date: 1998-11-03 14:47+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
-msgstr "Vpravo nahoru"
+msgstr "Vpravo"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -27,9 +26,8 @@ msgid "LeftDown"
 msgstr "Vlevo dolù"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "Vlevo nahoru"
+msgstr "Vlevo"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -56,9 +54,8 @@ msgid "Board value"
 msgstr "Ohodnocení desky"
 
 #: AbTop.cpp:241 AbTop.cpp:398
-#, fuzzy
 msgid "Move"
-msgstr "Pøesunuj pomalu"
+msgstr "Tah"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -90,7 +87,7 @@ msgstr "Snadná"
 
 #: AbTop.cpp:317
 msgid "Normal"
-msgstr ""
+msgstr "Normální"
 
 #: AbTop.cpp:319
 msgid "Hard"

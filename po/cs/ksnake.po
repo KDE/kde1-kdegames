@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksnake\n"
 "POT-Creation-Date: 1998-10-13 13:31+0200\n"
-"PO-Revision-Date: 1998-06-20 18:33 CEST\n"
+"PO-Revision-Date: 1998-11-03 14:42+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Chyba KConfigu ??\n"
 
 #: game.cpp:79
 msgid "New"
-msgstr ""
+msgstr "Nová"
 
 #: game.cpp:80
 msgid "Pause"

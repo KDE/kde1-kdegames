@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
-"PO-Revision-Date: 1998-06-18 09:41 MET DST\n"
+"PO-Revision-Date: 1998-11-03 14:44+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "Snadná 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normální"
 
 #: computation.cpp:97
 msgid "Hard 1"
