@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -15,7 +15,7 @@ msgstr ""
 
 #: cardmaps.cpp:62
 msgid "please wait, loading cards..."
-msgstr "Salèekajte molim, uèitavam karte..."
+msgstr "Saèekajte molim, uèitavam karte..."
 
 #: cardmaps.cpp:66
 msgid "KPat - a Solitaire game"
@@ -100,9 +100,8 @@ msgstr ""
 "Sigurni ste da to ¾elite?"
 
 #: mod3.cpp:136
-#, fuzzy
 msgid "No more cards"
-msgstr "Poku¹aj micanja karte:"
+msgstr "Nema vi¹e karata"
 
 #: pwidget.cpp:95
 msgid "&Restart game"
@@ -138,11 +137,11 @@ msgstr "Ten"
 
 #: pwidget.cpp:106 pwidget.cpp:259
 msgid "Mod3"
-msgstr ""
+msgstr "Mod3"
 
 #: pwidget.cpp:107 pwidget.cpp:263
 msgid "Freecell"
-msgstr ""
+msgstr "Freecell"
 
 #: pwidget.cpp:109
 msgid "Choose new game"
@@ -192,84 +191,3 @@ msgstr "Ne mogu uèitati pozadinsku sliku!"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Potpuno automatski"
-
-#~ msgid "Normal"
-#~ msgstr "Normalan"
-
-#~ msgid "Ok"
-#~ msgstr "U redu"
-
-#~ msgid "Information"
-#~ msgstr "Informacija"
-
-#~ msgid "Warning"
-#~ msgstr "Upozorenje"
-
-#~ msgid "&Quit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Game"
-#~ msgstr "&Igra"
-
-#~ msgid "&Undo"
-#~ msgstr "&Vrati"
-
-#~ msgid "&Options"
-#~ msgstr "P&ode¹avanja"
-
-#~ msgid "Help..."
-#~ msgstr "Pomoæ..."
-
-#~ msgid "Help on rules..."
-#~ msgstr "Pomoæ o pravilima..."
-
-#~ msgid "About..."
-#~ msgstr "O programu..."
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "Quit"
-#~ msgstr "Zavr¹i"
-
-#~ msgid "COMMAND %d not implemented!\n"
-#~ msgstr "NAREDBA %d nije ugraðena!\n"
-
-#~ msgid ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Version "
-#~ msgstr ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Verzija "
-
-#~ msgid ""
-#~ "\n"
-#~ "Copyright (C) 1995 Paul Olav Tvete\n"
-#~ "\n"
-#~ "Additional work done by:\t\t \n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is part of the K Desktop Environment.\n"
-#~ "Use help for license information."
-#~ msgstr ""
-#~ "\n"
-#~ "Copyright (C) 1995 Paul Olav Tvete\n"
-#~ "\n"
-#~ "Dodatci:\t\t \n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Ovaj program dio je K Desktop Enviroment.\n"
-#~ "Pogledajte pomoæ za informacije o licenci."
-
-#~ msgid "About kpat"
-#~ msgstr "O programu kpat"
-
-#~ msgid "Error"
-#~ msgstr "Gre¹ka"

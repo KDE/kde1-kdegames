@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -14,17 +14,15 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: about.cpp:52
-#, fuzzy
 msgid "About kreversi"
-msgstr "O programu KReversi"
+msgstr "O KReversi"
 
 #: about.cpp:65
 msgid "Version "
-msgstr "Verzija"
+msgstr "Inaèica "
 
 #: about.cpp:67
 #, fuzzy
-msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
@@ -70,17 +68,14 @@ msgid "&New game"
 msgstr "&Nova igra"
 
 #: app.cpp:246
-#, fuzzy
 msgid "&Load game"
-msgstr "&Nova igra"
+msgstr "&Uèitaj igru"
 
 #: app.cpp:247
-#, fuzzy
 msgid "&Save game"
-msgstr "&Nova igra"
+msgstr "&Spremi igru"
 
 #: app.cpp:252
-#, fuzzy
 msgid "Get &hint"
 msgstr "&Trik"
 
@@ -263,9 +258,8 @@ msgid "Computer (XXXXX): 88"
 msgstr "Raèunalo (XXXXX): 88"
 
 #: app.cpp:429
-#, fuzzy
 msgid "Game saved"
-msgstr "Igra privedena kraju"
+msgstr "Igra pospremljena"
 
 #: app.cpp:591
 msgid "not yet implemented"
@@ -359,65 +353,34 @@ msgstr "Kreversi: Najbolji igraèi"
 
 #: app.cpp:881
 msgid "Rank"
-msgstr ""
+msgstr "Rang"
+
+#: app.cpp:885
+msgid "Name"
+msgstr "Ime"
 
 #: app.cpp:889
-#, fuzzy
 msgid "Color"
-msgstr "Zatvori"
+msgstr "Boja"
 
 #: app.cpp:893
 msgid "Score"
-msgstr ""
+msgstr "Rezultat"
 
 #: app.cpp:897
 msgid "Rating"
-msgstr ""
+msgstr "Uspjeh"
 
 #: app.cpp:987
-#, fuzzy
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
 "your cool rating."
 msgstr ""
-"U¹li ste u popis najboljih! Upi¹ite svoje ime kako bi èovjeèanstvo zauvijek "
-"zapamtilo va¹ uspjeh."
+"U¹li ste u popis najboljih! Upi¹ite svoje\n"
+"ime kako bi èovjeèanstvo zauvijek zapamtilo n"
+"va¹ uspjeh."
 
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Va¹e ime:"
-
-#, fuzzy
-#~ msgid "Name"
-#~ msgstr "&Igra"
-
-#~ msgid "Error"
-#~ msgstr "Gre¹ka"
-
-#~ msgid "&Quit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "&Rules"
-#~ msgstr "P&ravila"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "&Strategija i trikovi"
-
-#~ msgid "&About..."
-#~ msgstr "&O programu..."
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Options"
-#~ msgstr "P&ode¹avanja"
-
-#~ msgid "Information"
-#~ msgstr "Informacija"
-
-#~ msgid "Ok"
-#~ msgstr "U redu"

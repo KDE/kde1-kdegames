@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-04-17 00:01+0200\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-30 20:08:33+0200\n"
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
@@ -21,7 +21,7 @@ msgstr "Dr¾i"
 
 #: kpoker.cpp:185
 msgid "draw new cards"
-msgstr "Vuci nove karte"
+msgstr "vuci nove karte"
 
 #: kpoker.cpp:186 kpoker.cpp:187
 msgid "your last hand"
@@ -110,18 +110,3 @@ msgstr "&Nova igra"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Zvuk"
-
-#~ msgid "&Quit"
-#~ msgstr "&Zavr¹i"
-
-#~ msgid "&Help"
-#~ msgstr "&Pomoæ"
-
-#~ msgid "&About..."
-#~ msgstr "&O programu..."
-
-#~ msgid "&File"
-#~ msgstr "&Datoteka"
-
-#~ msgid "&Options"
-#~ msgstr "&Izbor"

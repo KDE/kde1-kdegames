@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-04-17 00:02+0200\n"
+"POT-Creation-Date: 1998-03-19 22:22+0100\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
@@ -29,11 +29,11 @@ msgstr "Trik"
 
 #: AbTop.cpp:296
 msgid "Save Position"
-msgstr ""
+msgstr "Spremi polo¾aj"
 
 #: AbTop.cpp:298
 msgid "Restore Position"
-msgstr ""
+msgstr "Povrat polo¾aja"
 
 #: AbTop.cpp:315
 msgid "Easy"
@@ -73,7 +73,7 @@ msgstr "Spori potezi"
 
 #: AbTop.cpp:342
 msgid "Spy"
-msgstr ""
+msgstr "©pijuniraj"
 
 #: AbTop.cpp:407
 msgid "won"
@@ -93,62 +93,40 @@ msgstr ""
 
 #: Move.cpp:18
 msgid "RightDown"
-msgstr ""
+msgstr "DesnoDolje"
 
 #: Move.cpp:19
 msgid "LeftDown"
-msgstr ""
+msgstr "LijevoDolje"
 
 #: Move.cpp:21
 msgid "LeftUp"
-msgstr ""
+msgstr "LijevoGore"
 
 #: Move.cpp:22
 msgid "RightUp"
-msgstr ""
+msgstr "DesnoGore"
 
 #: Move.cpp:35 Move.cpp:42
 msgid "Side"
-msgstr ""
+msgstr "Strana"
 
 #: Move.cpp:49
 msgid "Out"
-msgstr ""
+msgstr "Van"
 
 #: Move.cpp:50
 msgid "Push"
-msgstr ""
+msgstr "Guraj"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
-msgstr ""
+msgstr "Trenutni polo¾aj koji se ispituje:"
 
 #: Spy.cpp:46
 msgid "Best move so far:"
-msgstr ""
+msgstr "Najbolji potez do sada:"
 
 #: Spy.cpp:75
-#, fuzzy
 msgid "Spion"
-msgstr "Opcije"
-
-#~ msgid "New Game"
-#~ msgstr "Nova igra"
-
-#~ msgid "Quit"
-#~ msgstr "Zavr¹i"
-
-#~ msgid "Normal"
-#~ msgstr "Normalno"
-
-#~ msgid "About"
-#~ msgstr "O programu"
-
-#~ msgid "Rules"
-#~ msgstr "Pravila"
-
-#~ msgid "File"
-#~ msgstr "Datoteka"
-
-#~ msgid "Help"
-#~ msgstr "Pomoæ"
+msgstr ""
