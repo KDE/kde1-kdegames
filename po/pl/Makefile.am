@@ -1,6 +1,6 @@
 
 # This has to be set. The rest should be reusable
-GMFILES = Reversi.gmo kasteroids.gmo kabalone.gmo kpat.gmo \
+GMFILES = kreversi.gmo kasteroids.gmo kabalone.gmo kpat.gmo \
 	kshisen.gmo kpoker.gmo kmines.gmo
 POFILES = $(GMFILES:.gmo=.po)
 
