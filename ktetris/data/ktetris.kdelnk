@@ -9,6 +9,7 @@ Name[cs]=Tetris
 Name[hr]=Tetris
 Name[pt]=Tetris
 Name[pt_BR]=Tetris
+Name[ro]=Tetris
 Icon=ktetris.xpm
 Exec=ktetris -caption "%c" %i %m
 Type=Application
@@ -25,4 +26,4 @@ Comment[pt_BR]=Outro jogo de Tetris
 Comment[sk]=Ïal¹ia tetrisová hra
 Comment[cs]=Dal¹í tetrisová hra
 Comment[hr]=Jo¹ jedna igra tetrisa
-
+Comment[ro]=Joc de Tetris
