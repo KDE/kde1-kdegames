@@ -1,5 +1,5 @@
 
-SUBDIRS = de fr cs it pl pt es fi hu ru hr
+SUBDIRS = cs de es fi fr hr hu it pl pt ru
 
 # this is a general list for merging!
 APPS = Reversi kabalone kasteroids kpat kpoker kshisen
