@@ -174,7 +174,7 @@ msgstr "Animaatio alussa"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Pasianssi"
 
 #: pwidget.cpp:128
 msgid ""
@@ -183,6 +183,10 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"tehnyt Paul Olav Tvetei\n"
+"\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

@@ -16,59 +16,51 @@ msgstr ""
 
 #: dialogs.cpp:94
 msgid "kmines : Customize Game"
-msgstr ""
+msgstr "kmiina : Kustomoi peliä"
 
 #: dialogs.cpp:122
-#, fuzzy
 msgid "Width"
-msgstr "Leveys :"
+msgstr "Leveys"
 
 #: dialogs.cpp:147
-#, fuzzy
 msgid "Height"
-msgstr "Korkeus :"
+msgstr "Korkeus"
 
 #: dialogs.cpp:172
-#, fuzzy
 msgid "Mines"
-msgstr "Miinoja :"
+msgstr "Miinoja"
 
 #: dialogs.cpp:257
-#, fuzzy
 msgid "kmines : High Scores"
-msgstr "Ennätykset"
+msgstr "kmines : Ennätykset"
 
 #: dialogs.cpp:287
-#, fuzzy
 msgid "Easy :"
-msgstr "Helppo"
+msgstr "Helppo :"
 
 #: dialogs.cpp:288
 msgid "Normal :"
-msgstr ""
+msgstr "Normaali :"
 
 #: dialogs.cpp:289
-#, fuzzy
 msgid "Expert :"
-msgstr "Ammattilainen"
+msgstr "Ammattilainen :"
 
 #: dialogs.cpp:315
 msgid "in"
 msgstr " "
 
 #: dialogs.cpp:330
-#, fuzzy
 msgid "minutes."
-msgstr "minuuttia ja "
+msgstr "minuuttia."
 
 #: dialogs.cpp:331
-#, fuzzy
 msgid "minutes"
-msgstr "minuuttia ja "
+msgstr "minuuttia"
 
 #: dialogs.cpp:340
 msgid "and"
-msgstr ""
+msgstr "ja"
 
 #: dialogs.cpp:352
 msgid "seconds."
@@ -156,7 +148,7 @@ msgstr "Oma"
 
 #: main.cpp:70
 msgid "Minesweeper"
-msgstr ""
+msgstr "Miinaharava"
 
 #: main.cpp:73
 msgid ""
@@ -164,6 +156,9 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
+"\n"
+"\n"
+"kirjoittanut Nicolas Hadacek"
 
 #: main.cpp:79
 msgid "Level"
