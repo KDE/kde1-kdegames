@@ -1,0 +1,147 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-10-13 13:30+0200\n"
+"PO-Revision-Date: 1998-10-26 11:43+0100\n"
+"Last-Translator: Karl Backström <backstrom@kde.org>\n"
+"Language-Team: Sv <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: kbbgame.cpp:76
+msgid "&About KBlackBox"
+msgstr "&Om KBlackbox"
+
+#: kbbgame.cpp:78
+msgid "About &Qt"
+msgstr "Om &Qt"
+
+#: kbbgame.cpp:84
+msgid "&New"
+msgstr "&Ny"
+
+#: kbbgame.cpp:85
+msgid "&Give up"
+msgstr "&Ge upp"
+
+#: kbbgame.cpp:86
+msgid "&Done"
+msgstr "&Klar"
+
+#: kbbgame.cpp:88
+msgid "&Resize"
+msgstr "&Ändra storlek"
+
+#: kbbgame.cpp:100
+msgid "&Size"
+msgstr "&Storlek"
+
+#: kbbgame.cpp:101
+msgid "&Balls"
+msgstr "&Kulor"
+
+#: kbbgame.cpp:102
+msgid "&Tutorial"
+msgstr "&Övning"
+
+#: kbbgame.cpp:174
+msgid "New"
+msgstr "Ny"
+
+#: kbbgame.cpp:176
+msgid "Give up"
+msgstr "Ge upp"
+
+#: kbbgame.cpp:178
+msgid "Done"
+msgstr "Klar"
+
+#: kbbgame.cpp:434
+msgid ""
+"KBlackBox logical game\n"
+"author: Robert Cimrman\n"
+"e-mail: cimrman3@students.zcu.cz"
+msgstr ""
+"KBlackBox logik spel\n"
+"Författare: Robert Cimrman\n"
+"E-post: cimrman3@students.zcu.cz"
+
+#: kbbgame.cpp:439
+msgid "Qt information"
+msgstr "Qt information"
+
+#: kbbgame.cpp:458 kbbgame.cpp:577 kbbgame.cpp:633 kbbgame.cpp:660
+msgid "Warning!"
+msgstr "Varning!"
+
+#: kbbgame.cpp:460 kbbgame.cpp:579
+msgid "Do you really want to give up this game?"
+msgstr "Vill du verkligen ge upp?"
+
+#: kbbgame.cpp:461 kbbgame.cpp:580
+msgid "Yes, I'm burnt out."
+msgstr "Ja, jag är helt slut."
+
+#: kbbgame.cpp:462 kbbgame.cpp:581
+msgid "No, not yet..."
+msgstr "Nej, inte än..."
+
+#: kbbgame.cpp:513
+#, c-format
+msgid "Your final score is: %d."
+msgstr "Din slutliga poäng blev: %d."
+
+#: kbbgame.cpp:515
+msgid "Wow!"
+msgstr "Wow!"
+
+#: kbbgame.cpp:517
+msgid "Damned!"
+msgstr "Jäklar!"
+
+#: kbbgame.cpp:520
+#, c-format
+msgid ""
+"You should place %d balls!\n"
+"You have placed %d."
+msgstr ""
+"Du borde ha placerat ut %d kulor!\n"
+"Du placerade ut %d."
+
+#: kbbgame.cpp:522
+msgid "D'accord"
+msgstr ""
+
+#: kbbgame.cpp:597 kbbgame.cpp:600
+msgid "Run"
+msgstr "Kör"
+
+#: kbbgame.cpp:604
+msgid "Size"
+msgstr "Storlek"
+
+#: kbbgame.cpp:607
+msgid "Placed"
+msgstr "Placerad"
+
+#: kbbgame.cpp:620
+msgid "Score"
+msgstr "Poäng"
+
+#: kbbgame.cpp:635 kbbgame.cpp:662
+msgid "This will be the end of the current game!"
+msgstr "Det här kommer att avsluta ditt nuvarande spel!"
+
+#: kbbgame.cpp:636 kbbgame.cpp:663
+msgid "Never mind..."
+msgstr "Glöm det..."
+
+#: kbbgame.cpp:637 kbbgame.cpp:664
+msgid "Oh, no!"
+msgstr "Åh, nej!"
