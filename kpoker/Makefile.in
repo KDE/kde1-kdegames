@@ -67,6 +67,9 @@ clean:
 	rm -f $(SRCMETA) $(TARGET)
 
 distclean: clean
+	(cd docs && $(MAKE) distclean)
+	(cd sounds && $(MAKE) distclean)
+	(cd bitmaps && $(MAKE) distclean)
 	rm -f Makefile
 
 install: all

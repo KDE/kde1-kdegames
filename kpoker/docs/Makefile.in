@@ -16,6 +16,9 @@ Makefile: Makefile.in
 
 clean:
 
+distclean:
+	rm -f Makefile
+
 install:
 	$(INSTALL_DIR) $(destdir)
 	@for i in $(DOCS); do \

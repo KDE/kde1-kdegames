@@ -110,7 +110,7 @@ private:
 	int           drawStat; // status of drawing (which card already was drawn etc.
         bool          sound;
         KAudio       *KAS;						      
-	KLocale *locale;						      
+        KLocale      *locale;						      
 };
 
 
