@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -114,11 +116,11 @@ msgstr "&Ujrakezd"
 
 #: pwidget.cpp:100
 msgid "&Klondike"
-msgstr ""
+msgstr "&Klondike"
 
 #: pwidget.cpp:101 pwidget.cpp:277
 msgid "MicroSolitaire"
-msgstr ""
+msgstr "MicroSolitaire"
 
 #: pwidget.cpp:102 pwidget.cpp:281
 msgid "Calculation"
@@ -142,11 +144,11 @@ msgstr "Tíz"
 
 #: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
-msgstr ""
+msgstr "Mod3"
 
 #: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
-msgstr ""
+msgstr "Admirális"
 
 #: pwidget.cpp:110
 msgid "Choose new game"
@@ -154,7 +156,7 @@ msgstr "Válassz új játékot"
 
 #: pwidget.cpp:116
 msgid "KDE"
-msgstr ""
+msgstr "KDE"
 
 #: pwidget.cpp:117
 msgid "Classic blue"
@@ -178,7 +180,7 @@ msgstr "Animáció indulásnál"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Türelem"
 
 #: pwidget.cpp:128
 msgid ""
@@ -187,14 +189,18 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"szerzõ: Paul Olav Tvetei\n"
+""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr ""
+msgstr "Besegítettek még:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
-msgstr ""
+msgstr "Klondike"
 
 #: pwidget.cpp:289
 msgid "Napoleons Tomb"
@@ -210,9 +216,9 @@ msgid "Could not load background image!"
 msgstr "Nem tudom betölteni a háttér-képet"
 
 #: mod3.cpp:137
-#, fuzzy
+#
 msgid "No more cards"
-msgstr "Próbáld ezt a kártyát:"
+msgstr "Nincs több kártya"
 
 #, fuzzy
 #~ msgid "Help on &rules..."

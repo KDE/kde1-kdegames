@@ -1,3 +1,5 @@
+# KTranslator Generated File
+
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -51,11 +53,11 @@ msgstr "24x12"
 
 #: app.cpp:128
 msgid "26x14"
-msgstr ""
+msgstr "26x14"
 
 #: app.cpp:129
 msgid "30x16"
-msgstr ""
+msgstr "30x16"
 
 #: app.cpp:133
 msgid "Very fast"
@@ -67,7 +69,7 @@ msgstr "Gyors"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr ""
+msgstr "Közepes"
 
 #: app.cpp:136
 msgid "Slow"
@@ -91,6 +93,9 @@ msgid ""
 "\n"
 "by Mario Weilguni"
 msgstr ""
+"\n"
+"\n"
+"szerzõ: Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -169,22 +174,22 @@ msgid "Rank"
 msgstr "Helyezés"
 
 #: app.cpp:638
-#, fuzzy
+#
 msgid "Name"
-msgstr "Ú&j játék"
+msgstr "Név"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Idõ"
 
 #: app.cpp:646
-#, fuzzy
+#
 msgid "Size"
-msgstr "&Méret"
+msgstr "Méret"
 
 #: app.cpp:650
 msgid "Score"
-msgstr ""
+msgstr "Pontszám"
 
 #~ msgid "28x16"
 #~ msgstr "28x16"

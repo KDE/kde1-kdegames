@@ -1,3 +1,5 @@
+# KTranslator Generated File
+
 # Hungarian messages fo kmines.
 # Copyright (C) 1998 Free Software Foundation, Inc.
 # Székely Krisztián <szekelyk@edasz.hu>, 1998.
@@ -14,24 +16,24 @@ msgstr ""
 "Content-Transfer-Encoding: 8-bit\n"
 
 #: dialogs.cpp:95
-#, fuzzy
+#
 msgid "Customize Game"
 msgstr "Egyéni szint"
 
 #: dialogs.cpp:124
-#, fuzzy
+#
 msgid "Width"
-msgstr "Szélesség :"
+msgstr "Szélesség "
 
 #: dialogs.cpp:149
-#, fuzzy
+#
 msgid "Height"
-msgstr "Magasság :"
+msgstr "Magasság "
 
 #: dialogs.cpp:174
-#, fuzzy
+#
 msgid "Mines"
-msgstr "Aknák :"
+msgstr "Aknák "
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
@@ -43,7 +45,7 @@ msgstr "Könnyû"
 
 #: dialogs.cpp:289 main.cpp:69
 msgid "Normal"
-msgstr ""
+msgstr "Normál"
 
 #: dialogs.cpp:290 main.cpp:70
 msgid "Expert"
@@ -54,17 +56,17 @@ msgid "in"
 msgstr ""
 
 #: dialogs.cpp:332
-#, fuzzy
+#
 msgid "minutes"
-msgstr "perc és"
+msgstr "perc"
 
 #: dialogs.cpp:342
 msgid "and"
-msgstr ""
+msgstr "és"
 
 #: dialogs.cpp:354
 msgid "seconds."
-msgstr "másodperc"
+msgstr "másodperc."
 
 #: dialogs.cpp:384 status.cpp:98
 msgid "Anonymous"
@@ -107,23 +109,23 @@ msgid "Hide menu bar"
 msgstr "Menüsor elrejtése"
 
 #: main.cpp:48
-#, fuzzy
+#
 msgid "&New game"
-msgstr "Új játék"
+msgstr "&Új játék"
 
 #: main.cpp:51
-#, fuzzy
+#
 msgid "&Pause game"
-msgstr "Szünet"
+msgstr "&Szünet"
 
 #: main.cpp:54
-#, fuzzy
+#
 msgid "&High scores"
-msgstr "Rekord pontok"
+msgstr "&Rekord pontok"
 
 #: main.cpp:56
 msgid "&Print"
-msgstr ""
+msgstr "&Nyomtatás"
 
 #: main.cpp:64
 msgid "? mark"
@@ -139,12 +141,12 @@ msgstr "Egyéni"
 
 #: main.cpp:78
 msgid "by"
-msgstr ""
+msgstr "által"
 
 #: main.cpp:83
-#, fuzzy
+#
 msgid "&Level"
-msgstr "Szint"
+msgstr "S&zint"
 
 #: main.cpp:160
 msgid "Show menu bar"

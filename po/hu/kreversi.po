@@ -1,8 +1,10 @@
+# KTranslator Generated File
+
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # Csaba Major <major@terrasoft.hu>, 1998.
 #
-#, fuzzy
+#
 msgid ""
 msgstr ""
 "Project-Id-Version: KReversi 0.6.5\n"
@@ -30,19 +32,19 @@ msgstr "Ú&j játék"
 
 # app.cpp:240
 #: app.cpp:246
-#, fuzzy
+#
 msgid "&Load game"
-msgstr "Ú&j játék"
+msgstr "Játék betö&ltés"
 
 # app.cpp:240
 #: app.cpp:247
-#, fuzzy
+#
 msgid "&Save game"
-msgstr "Ú&j játék"
+msgstr "Játék menté&s"
 
 # app.cpp:235
 #: app.cpp:252
-#, fuzzy
+#
 msgid "Get &hint"
 msgstr "&Tipp a következõ lépéshez"
 
@@ -269,9 +271,9 @@ msgstr "Gép (XXXXX): 88"
 
 # app.cpp:629 app.cpp:641 app.cpp:661
 #: app.cpp:429
-#, fuzzy
+#
 msgid "Game saved"
-msgstr "Vége a játéknak"
+msgstr "Játék elmentve"
 
 # app.cpp:556
 #: app.cpp:591
@@ -379,31 +381,31 @@ msgstr "KReversi: Top Lista"
 
 #: app.cpp:881
 msgid "Rank"
-msgstr ""
+msgstr "Helyezés"
 
 # app.cpp:321
 #: app.cpp:885
-#, fuzzy
+#
 msgid "Name"
-msgstr "&Játék"
+msgstr "Név"
 
 # app.cpp:812
 #: app.cpp:889
-#, fuzzy
+#
 msgid "Color"
-msgstr "Bezár"
+msgstr "Szín"
 
 #: app.cpp:893
 msgid "Score"
-msgstr ""
+msgstr "Pontszám"
 
 #: app.cpp:897
 msgid "Rating"
-msgstr ""
+msgstr "Osztályozás"
 
 # app.cpp:866
 #: app.cpp:987
-#, fuzzy
+#
 msgid ""
 "You've made in into the \"Hall Of Fame\".Type in\n"
 "your name so mankind will always remember\n"
@@ -419,7 +421,7 @@ msgstr "Neved:"
 
 # about.cpp:52
 #: about.cpp:52
-#, fuzzy
+#
 msgid "About kreversi"
 msgstr "KReversi névjegye"
 
@@ -430,7 +432,7 @@ msgstr "Verzió "
 
 # about.cpp:69
 #: about.cpp:67
-#, fuzzy
+#
 msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
@@ -449,19 +451,22 @@ msgid ""
 "\n"
 "\tArne Klaassen\n"
 "\t for the raytraced chips"
-msgstr ""
-"\n"
+msgstr "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"This program is free software published under the GNU General Public License "
-"(take a look into help for details)\n"
+"Ez a program szabad szoftver, és a\n"
+"GNU General Public License alá tartozik.\n"
+"(nézd meg a segítséget a részletekért)\n"
 "\n"
-"Thanks to:\n"
-"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
+"Köszönet:\n"
+"\tMats Luthmannak a játék kódjáért\n"
+"\t(Az õ JAVA appletjébõl szedtem)\n"
 "\n"
-"\tStephan Kulow <coolo@kde.org> for comments and bugfixes\n"
+"\tStephan Kulownak\n"
+"\taz építõ megjegyzéseiért és javításaiért\n"
 "\n"
-"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
+"\tArne Klaassennek\n"
+"\t a raytracelt chipekért"
 
 # app.cpp:207 app.cpp:505
 #~ msgid "Error"

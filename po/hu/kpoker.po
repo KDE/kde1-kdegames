@@ -1,3 +1,5 @@
+# KTranslator Generated File
+
 #
 # KPoker Hungarian messages, version 0.9
 #
@@ -103,7 +105,7 @@ msgstr "Vesztettél"
 
 #: kpoker.cpp:535
 msgid "Oops - you went bankrupt.\n"
-msgstr ""
+msgstr "Hopp - elvesztetted az ingedet is.\n"
 
 #: kpoker.cpp:617
 msgid "You won $"
@@ -123,7 +125,7 @@ msgstr "&Zene"
 
 #: top.cpp:70
 msgid "Poker"
-msgstr ""
+msgstr "Póker"
 
 #: top.cpp:72
 msgid ""
@@ -131,6 +133,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"szerzõ: Jochen Tuchbreiter"
 
 #: top.cpp:74
 msgid ""
@@ -138,12 +143,17 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"A további elismeréseket látsd a segítségben."
 
 #: top.cpp:75
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Javaslatokat, hibajelentéseket szívesen látok"
 
 #~ msgid ""
 #~ "Oops - you went bankrupt.\n"
