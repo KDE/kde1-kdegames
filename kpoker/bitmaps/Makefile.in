@@ -5,7 +5,7 @@ INSTALL_DIR = $(SHELL) $(top_srcdir)/mkinstalldirs
 
 PICS = `find . -type f -name "*.bmp" -print`
 prefix = @prefix@
-destdir = $(prefix)/lib/pics/kpoker
+destdir = $(prefix)/share/apps/kpoker/pics
 
 all:
 
