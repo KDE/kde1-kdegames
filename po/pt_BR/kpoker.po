@@ -11,7 +11,7 @@ msgstr "Novo jogo"
 
 #: kpoker.cpp:95
 msgid "Draw !"
-msgstr "Desenhar !"
+msgstr "Dar as cartas !"
 
 #: kpoker.cpp:122
 msgid "Click a card to hold it"
