@@ -349,7 +349,7 @@ msgstr "Om kreversi"
 
 #: about.cpp:65
 msgid "Version "
-msgstr "Versjon"
+msgstr "Versjon "
 
 #: about.cpp:67
 msgid ""
@@ -381,7 +381,7 @@ msgstr ""
 "\n"
 "Takk til:\n"
 "\tMats Luthman for spillemaskinen\n"
-"\t(Jeg har protet det fra hans JAVA-program)\n"
+"\t(Jeg har portet det fra hans JAVA-program)\n"
 "\n"
 "\tStephan Kulow\n"
 "\tfor kommentarer og feilretting\n"
