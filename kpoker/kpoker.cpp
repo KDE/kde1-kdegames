@@ -60,7 +60,7 @@ kpok::kpok(QWidget *parent, const char *name)
 	setCaption( version );
 	
 	
-	QString bitmapdir = KPoker->kdedir() + QString("/share/apps/kpoker/pics");
+	QString bitmapdir = KPoker->kdedir() + QString("/share/apps/kpoker/pics/");
 	
 	
 	/* KKeyCode initialization */

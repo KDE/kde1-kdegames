@@ -1,7 +1,10 @@
+# KDE Config File
 [KDE Desktop Entry]
+Name=Poker
 Exec=kpoker -caption %c
 Icon=kpoker.xpm
 DocPath=kpoker.html
 Info=A simple video poker clone
+Info[de]=Ein einfaches Videopoker-Spiel
 Terminal=0
 Type=Game

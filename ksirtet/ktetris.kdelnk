@@ -1,4 +1,7 @@
+# KDE Config File 
 [KDE Desktop Entry]
+Name=Tetris
 Exec=ktetris -caption "%c"
 DocPath=ktetris.html
 Info=One more Tetris game
+Info[de]=Ein weiteres Tetris-Spiel
