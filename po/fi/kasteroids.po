@@ -36,7 +36,7 @@ msgstr "Paina Enter laukaistaksesi."
 
 #: toplevel.cpp:280 toplevel.cpp:299
 msgid "KAsteriods"
-msgstr ""
+msgstr "KAsteroidit"
 
 #: toplevel.cpp:292
 msgid "Ship Destroyed.  Press Enter to launch."
