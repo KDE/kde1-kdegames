@@ -1,0 +1,109 @@
+
+msgid ""
+msgstr ""
+"Date: 1997-09-24 10:59:56+0200\n"
+"From: root <root@joe>\n"
+"Content-Type: text/plain; charset=\n"
+"Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
+"Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+
+#: AbTop.cpp:29 AbTop.cpp:143
+msgid "Move"
+msgstr "Mover"
+
+#: AbTop.cpp:32 AbTop.cpp:147
+msgid "Press F2 for a new game"
+msgstr "Presionar F2 para un nuevo juego"
+
+#: AbTop.cpp:73
+msgid "New Game"
+msgstr "Juego nuevo"
+
+#: AbTop.cpp:75
+msgid "Stop Search"
+msgstr "Parar la búsqueda"
+
+#: AbTop.cpp:80
+msgid "Take back"
+msgstr "Hacia atrás"
+
+#: AbTop.cpp:82
+msgid "Hint"
+msgstr "Consejo"
+
+#: AbTop.cpp:85
+msgid "Quit"
+msgstr "Salir"
+
+#: AbTop.cpp:89
+msgid "Easy"
+msgstr "Fácil"
+
+#: AbTop.cpp:91
+msgid "Normal"
+msgstr "Normal"
+
+#: AbTop.cpp:93
+msgid "Hard"
+msgstr "Difícil"
+
+#: AbTop.cpp:95
+msgid "Challange"
+msgstr "Reto"
+
+#: AbTop.cpp:101 AbTop.cpp:151 AbTop.cpp:155
+msgid "Red"
+msgstr "Rojo"
+
+#: AbTop.cpp:103 AbTop.cpp:151 AbTop.cpp:155
+msgid "Yellow"
+msgstr "Amarillo"
+
+#: AbTop.cpp:105
+msgid "Both"
+msgstr "Ambos"
+
+#: AbTop.cpp:111
+msgid "Level"
+msgstr "Nivel"
+
+#: AbTop.cpp:112
+msgid "Computer plays"
+msgstr "El ordenador juega"
+
+#: AbTop.cpp:114
+msgid "Move slow"
+msgstr "Moueve lento"
+
+#: AbTop.cpp:122 AbTop.cpp:405
+msgid "About"
+msgstr "Acerca de"
+
+#: AbTop.cpp:123
+msgid "Rules"
+msgstr "Reglas"
+
+#: AbTop.cpp:127
+msgid "File"
+msgstr "Fichero"
+
+#: AbTop.cpp:128
+msgid "Options"
+msgstr "Opciones"
+
+#: AbTop.cpp:130
+msgid "Help"
+msgstr "Ayuda"
+
+#: AbTop.cpp:152
+msgid "won"
+msgstr "ganó"
+
+#: AbTop.cpp:156
+msgid "I am thinking..."
+msgstr "Estoy pensando..."
+
+#: AbTop.cpp:157
+msgid "It's your turn !"
+msgstr "¡Tú juegas!"
+
