@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-03-22 01:46+0100\n"
 "PO-Revision-Date: 1998-10-28 18:02+02:00\n"
 "Last-Translator: dr.Fuckoff <drfo@usa.net>\n"
 "Language-Team: Russian\n"
@@ -127,7 +127,7 @@ msgstr "Шагов:"
 msgid "Level:"
 msgstr "Уровень:"
 
-#: MainWindow.C:248
+#: MainWindow.C:249
 msgid "(invalid)"
 msgstr ""
 

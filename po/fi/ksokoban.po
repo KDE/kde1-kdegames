@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KSOKOBAN\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-03-22 01:46+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -128,7 +128,7 @@ msgstr "Siirtoja:"
 msgid "Level:"
 msgstr "Taso:"
 
-#: MainWindow.C:248
+#: MainWindow.C:249
 msgid "(invalid)"
 msgstr "(virheellinen)"
 

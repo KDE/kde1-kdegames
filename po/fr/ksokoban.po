@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-03-22 01:46+0100\n"
 "PO-Revision-Date: 1999-02-25 13:00+0200\n"
 "Last-Translator: Francois-Xavier Duranceau "
 "<Francois-Xavier.Duranceau@loria.fr>\n"
@@ -128,7 +128,7 @@ msgstr "Déplacements :"
 msgid "Level:"
 msgstr "Niveau :"
 
-#: MainWindow.C:248
+#: MainWindow.C:249
 msgid "(invalid)"
 msgstr "(invalide)"
 

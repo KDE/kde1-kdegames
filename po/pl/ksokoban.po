@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban \n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-03-22 01:46+0100\n"
 "PO-Revision-Date: 1999-01-15 00:26+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -122,7 +122,7 @@ msgstr "Przeniesienia:"
 msgid "Level:"
 msgstr "Poziom:"
 
-#: MainWindow.C:248
+#: MainWindow.C:249
 msgid "(invalid)"
 msgstr "(niepoprawny)"
 
