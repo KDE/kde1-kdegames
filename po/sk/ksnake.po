@@ -1,0 +1,209 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: ksnake\n"
+"POT-Creation-Date: 1998-06-14 22:23+0200\n"
+"PO-Revision-Date: 1998-06-23 21:00+0001\n"
+"Last-Translator: Juraj Bednar <bednar@isternet.sk>\n"
+"Language-Team: Slovak <sk@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=iso-8859-2\n"
+"Content-Transfer-Encoding: plain\n"
+
+#: game.cpp:41 game.cpp:144 rattler.cpp:349
+msgid "Snake Race"
+msgstr "Závod hadov"
+
+#: game.cpp:45
+msgid "KConfig error ??\n"
+msgstr "KConfig chyba ??\n"
+
+#: game.cpp:79
+msgid "New"
+msgstr "Nová"
+
+#: game.cpp:80
+msgid "Pause"
+msgstr "Pauza"
+
+#: game.cpp:81
+msgid "High Scores..."
+msgstr "Najlep¹ie výsledky..."
+
+#: game.cpp:83
+msgid "&Quit"
+msgstr "&Koniec"
+
+#: game.cpp:88 game.cpp:97
+msgid "0"
+msgstr "0"
+
+#: game.cpp:89 game.cpp:98
+msgid "1"
+msgstr "1"
+
+#: game.cpp:90 game.cpp:99
+msgid "2"
+msgstr "2"
+
+#: game.cpp:91 game.cpp:100
+msgid "3"
+msgstr "3"
+
+#: game.cpp:111
+msgid "none"
+msgstr "¾iadne"
+
+#: game.cpp:126
+msgid "Beginner"
+msgstr "Zaèiatoèník"
+
+#: game.cpp:127
+msgid "Intermediate"
+msgstr "Mierne pokroèilý"
+
+#: game.cpp:128
+msgid "Advanced"
+msgstr "Pokroèilý"
+
+#: game.cpp:129
+msgid "Expert"
+msgstr "Expert"
+
+#: game.cpp:131
+msgid "Balls"
+msgstr "Gulièky"
+
+#: game.cpp:132
+msgid "Computer Snakes"
+msgstr "Poèítaèové hady"
+
+#: game.cpp:134
+msgid "Select background color..."
+msgstr "Zvoµte farbu pozadia..."
+
+#: game.cpp:135
+msgid "Select background pixmap"
+msgstr "Zvoµte pixmapu pozadia"
+
+#: game.cpp:137
+msgid "Change keys..."
+msgstr "Zmeni» klávesy..."
+
+#: game.cpp:139
+msgid "Starting Room..."
+msgstr "©tartujem miestnos»..."
+
+#: game.cpp:146
+msgid ""
+"\n"
+"\n"
+"by Michel Filippi (mfilippi@sade.rhein-main.de)"
+msgstr ""
+"\n"
+"\n"
+"napísal Michel Filippi (mfilippi@sade.rhein-main.de)"
+
+#: game.cpp:150
+msgid "&Game"
+msgstr "&Hra"
+
+#: game.cpp:151
+msgid "&Options"
+msgstr "M&o¾nosti"
+
+#: game.cpp:153
+msgid "&Help"
+msgstr "&Pomocník"
+
+#: keys.cpp:18 score.cpp:57 score.cpp:91 startroom.cpp:28
+msgid "Ok"
+msgstr "Ok"
+
+#: keys.cpp:24
+msgid "Defaults"
+msgstr "©tandard."
+
+#: keys.cpp:30 startroom.cpp:34
+msgid "Cancel"
+msgstr "Zru¹i»"
+
+#: keys.cpp:83
+msgid "Change Direction Keys"
+msgstr "Zmeni» klávesy smeru"
+
+#: keys.cpp:96
+msgid "Undefined key"
+msgstr "Nedef. kláves"
+
+#: lcdrange.cpp:61
+#, c-format
+msgid ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRange must be 0..99\n"
+"\tand minVal must not be greater than maxVal"
+msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tRozsah musí by» 0..99\n"
+"\ta minVal nesmie by» väè¹ia ako maxVal"
+
+#: pixServer.cpp:182
+#, c-format
+msgid "error loading %s, aborting\n"
+msgstr "chyba pri nahrávaní %s, vzdávam to\n"
+
+#: rattler.cpp:277
+msgid ""
+"Game Paused\n"
+" Press F3 to resume\n"
+msgstr ""
+"Hra pozastavená\n"
+" Stlaète F3 na pokraèovanie\n"
+
+#: rattler.cpp:350
+msgid ""
+"A game is already started\n"
+"Start a new one ?\n"
+msgstr ""
+"Hra u¾ zaèala.\n"
+"Spusti» novú ?\n"
+
+#: rattler.cpp:352
+msgid "&Yes"
+msgstr "Án&o"
+
+#: rattler.cpp:352
+msgid "&No"
+msgstr "&Nie"
+
+#: score.cpp:46 score.cpp:77
+msgid "Snake Race High Scores"
+msgstr "Najlep¹ie výsledky závodu hadov"
+
+#: score.cpp:50
+msgid "Hall of Fame"
+msgstr "Sieò slávy"
+
+#: score.cpp:54
+msgid "Today's High Scores"
+msgstr "Dne¹né najlep¹ie skóre"
+
+#: score.cpp:78
+msgid ""
+"you have achieved a high score!\n"
+" please enter your name"
+msgstr ""
+"Dosiahli ste výborný výsledok!\n"
+" Prosím zadajte va¹e meno"
+
+#: startroom.cpp:23
+msgid "Snake Race Starting Room"
+msgstr "Spú¹»acia miestnos» závodu hadov"
+
+#: startroom.cpp:41
+msgid "Starting Room"
+msgstr "Spú¹»acia miestnos»"
