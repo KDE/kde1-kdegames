@@ -6,23 +6,20 @@ msgstr ""
 "Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 
 #: KSameWidget.cpp:50
-#, fuzzy
 msgid "&New"
-msgstr "Novo"
+msgstr "&Novo"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "&Abrir"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Mostrar Pontuações"
+msgstr "&Mostrar Pontuações"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Campo Aleatório"
+msgstr "Cam&po Aleatório"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"

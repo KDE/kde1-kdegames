@@ -2,13 +2,12 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-11-17 10:39+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
@@ -20,11 +19,11 @@ msgstr ""
 
 #: gameboard.cc:203
 msgid ": Select source planet..."
-msgstr ""
+msgstr ": Selecione planeta de origem..."
 
 #: gameboard.cc:221
 msgid ": Select destination planet..."
-msgstr ""
+msgstr ": Selecione planeta de destino..."
 
 #: gameboard.cc:243
 msgid ": How many ships?"
@@ -43,7 +42,7 @@ msgstr ""
 
 #: gameboard.cc:291
 msgid "Distance"
-msgstr ""
+msgstr "Distância"
 
 #: gameboard.cc:296
 msgid "Ruler: Select ending planet."
@@ -61,21 +60,21 @@ msgstr ""
 
 #: gameboard.cc:428
 msgid "An Empire has fallen..."
-msgstr ""
+msgstr "Um Império caiu..."
 
 #: gameboard.cc:438
 #, c-format
 msgid "The fallen empire of %s has staggered back to life."
-msgstr ""
+msgstr "O império caído de %s voltou à vida."
 
 #: gameboard.cc:440
 msgid "Up from the ashes..."
-msgstr ""
+msgstr "Das cinzas..."
 
 #: gameboard.cc:460
 #, c-format
 msgid "Reinforcements have arrived for planet %s"
-msgstr ""
+msgstr "Reforços chegaram do planeta %s"
 
 #: gameboard.cc:462
 msgid "Fleet Arrival"
@@ -97,15 +96,15 @@ msgstr ""
 
 #: gameboard.cc:517
 msgid "Planet Conquered"
-msgstr ""
+msgstr "Planea Conquistado"
 
 #: gameboard.cc:579 mainwin.cc:82
 msgid "End Game"
-msgstr ""
+msgstr "Finalizar jogo"
 
 #: gameboard.cc:580
 msgid "Do you wish to retire this game?"
-msgstr ""
+msgstr "Você quer sair deste jogo ?"
 
 #: gameboard.cc:586
 msgid "Final Standings"
@@ -117,7 +116,7 @@ msgstr ""
 
 #: mainwin.cc:23
 msgid "GNU-Lactic Conquest"
-msgstr ""
+msgstr "Conquista  GNU-láctica"
 
 #: mainwin.cc:47
 #, c-format
@@ -129,10 +128,16 @@ msgid ""
 "KDE version by Russ Steffen <rsteffen@ia.net>\n"
 "See http://www.ia.net/~rsteffen/konquest.html for more info"
 msgstr ""
+"Versão %d\n"
+"Copyright (c) 1998 by\n"
+"Projeto Conquista Gnu-láctica\n"
+"\n"
+"Versão KDE por Russ Steffen <rsteffen@ia.net>\n"
+"Veja mais em http://www.ia.net/~rsteffen/konquest.html"
 
 #: mainwin.cc:88
 msgid "Measure Distance"
-msgstr ""
+msgstr "Medir Distância"
 
 #: mainwin.cc:92
 msgid "Show Standings"
@@ -140,32 +145,32 @@ msgstr ""
 
 #: newgamedlg.cc:28
 msgid "Preview Map"
-msgstr ""
+msgstr "Mapa de previsão"
 
 #: newgamedlg.cc:31
 msgid "&Reject Map"
-msgstr ""
+msgstr "&Rejeitar Mapa"
 
 #: newgamedlg.cc:38
 msgid "&Player List"
-msgstr ""
+msgstr "&Lista de Jogadores"
 
 #: newgamedlg.cc:44
 msgid "&Add"
-msgstr ""
+msgstr "&Adicionar"
 
 #: newgamedlg.cc:50
 msgid "&Clear"
-msgstr ""
+msgstr "Lim&par"
 
 #: newgamedlg.cc:67
 msgid "&Start Game"
-msgstr ""
+msgstr "&Iniciar Jogo"
 
 #: newgamedlg.cc:166
 #, c-format
 msgid "Number of Neutral Planets: %2d"
-msgstr ""
+msgstr "Número de Planetas Neutros: %2d"
 
 #: newgamedlg.cc:178
 #, c-format
@@ -174,11 +179,11 @@ msgstr ""
 
 #: planet_info.cc:81 planet_info.cc:116 planet_info.cc:131
 msgid "Planet Name : "
-msgstr ""
+msgstr "Nome do Planeta: "
 
 #: planet_info.cc:84 planet_info.cc:134
 msgid "Owner : "
-msgstr ""
+msgstr "Dono: "
 
 #: planet_info.cc:87
 msgid "Ships : "
@@ -220,7 +225,7 @@ msgstr ""
 
 #: scoredlg.cc:18
 msgid "Player"
-msgstr ""
+msgstr "Jogador"
 
 #: scoredlg.cc:19
 msgid "Ships Built"
@@ -228,7 +233,7 @@ msgstr ""
 
 #: scoredlg.cc:20
 msgid "Planets Conquered"
-msgstr ""
+msgstr "Planetas Conquistados"
 
 #: scoredlg.cc:21
 msgid "Fleets Launched"

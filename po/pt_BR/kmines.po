@@ -94,19 +94,16 @@ msgid "Hide menu bar"
 msgstr "Esconder barra de menu"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Novo jogo"
+msgstr "&Novo jogo"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Pausar jogo"
+msgstr "&Pausar jogo"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Quadro de honra"
+msgstr "&Quadro de honra"
 
 #: main.cpp:60
 msgid "? mark"
@@ -125,13 +122,9 @@ msgid "by"
 msgstr "por"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Nível"
+msgstr "Ní&vel"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "Mostrar barra de menu"
-
-#~ msgid "Minesweeper"
-#~ msgstr "Caça-Minas"
