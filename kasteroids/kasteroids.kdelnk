@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 BinaryPattern=kasteroids;
 Name=Asteroids
+Name[sv]=Asteroider
 Name[is_IS]=Loftsteinar
 Name[es]=Asteroides
 Name[fr]=Astéroïdes
@@ -19,6 +20,7 @@ Name[ro]=Asteroizi
 MimeType=
 Exec=kasteroids -caption "%c"
 Comment=A little arcade game
+Comment[sv]=Ett litet arkadspel
 Comment[is_IS]=kasteroids:  Eyddu loftsteinunum!
 Comment[es]=Un pequeño juego arcade
 Comment[fr]=Un petit jeu d'arcade

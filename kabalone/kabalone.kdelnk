@@ -15,6 +15,7 @@ Type=Application
 Exec=kabalone -caption "%c"
 DocPath=kabalone/index.html
 Comment=Play Abalone against computer
+Comment[sv]=Spela Abalone mot datorn
 Comment[is_IS]=kabalone:  Keppa við tölvuna í abalone
 Comment[es]=Juege al Abalone contra la computadora
 Comment[fr]=Disputez une partie d'Abalone contre l'ordinateur.
