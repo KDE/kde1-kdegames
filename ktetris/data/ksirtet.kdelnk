@@ -7,6 +7,7 @@ Type=Application
 DocPath=ksirtet/index.html
 Comment=One more Tetris clone
 Comment[da]=Endnu en tetrisklon
+Comment[no]=Enda en Tetris-klone
 Comment[pt_BR]=Outro jogo de Tetris
 Comment[ru]=Еще один тетрис
 Comment[sv]=En till Tetris-klon
