@@ -16,7 +16,7 @@ $(BUILDDIR)/build-stamp:
 	cd $(BUILDDIR) ;\
 	CXXFLAGS="-g -O2 -Wall" \
 	  ../configure --with-install-root=`pwd`/../debian/tmp --prefix=/usr \
-	  --enable-debug --disable-rpath --bindir=$${kde_bindir} 
+	  --disable-rpath --bindir=$${kde_bindir} --with-qt-dir=/usr/lib/qt1g
 	
 	make -C $(BUILDDIR)
  
