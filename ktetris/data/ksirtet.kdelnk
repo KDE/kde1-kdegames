@@ -6,3 +6,4 @@ Exec=ksirtet -caption "%c" %i %m
 Type=Application
 DocPath=ksirtet/index.html
 Comment=One more Tetris clone
+Comment[sv]=En till Tetris-klon
