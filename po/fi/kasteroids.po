@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KASTEROIDS\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -27,9 +27,8 @@ msgid "Ships"
 msgstr "Aluksia"
 
 #: toplevel.cpp:186
-#, fuzzy
 msgid "Asteroids"
-msgstr "KAsteroidit"
+msgstr "Asteroidit"
 
 #: toplevel.cpp:188
 msgid ""

@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KSHISEN\n"
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -169,18 +169,16 @@ msgid "Rank"
 msgstr "Järjestys"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Uusi peli"
+msgstr "Nimi"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Aika"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "K&oko"
+msgstr "Koko"
 
 #: app.cpp:650
 msgid "Score"

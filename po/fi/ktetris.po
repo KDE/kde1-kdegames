@@ -290,23 +290,3 @@ msgstr ""
 msgid "Show menu"
 msgstr "Näytä valikko"
 
-#~ msgid "Close dialog"
-#~ msgstr "Sulje"
-
-#~ msgid "Ok dialog"
-#~ msgstr "OK"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Peruuta"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "Nicolas Hadacek"

@@ -50,7 +50,7 @@ msgstr "Helppo 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 #: computation.cpp:97
 msgid "Hard 1"

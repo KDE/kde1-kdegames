@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KREVERSI\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -315,9 +315,8 @@ msgid "Rank"
 msgstr "Sijoitus"
 
 #: app.cpp:885
-#, fuzzy
 msgid "Name"
-msgstr "&Uusi peli"
+msgstr "Nimi"
 
 #: app.cpp:889
 msgid "Color"

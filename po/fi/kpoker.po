@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KPOKER\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -96,7 +96,7 @@ msgstr "Hävisit"
 
 #: kpoker.cpp:537
 msgid "Oops - you went bankrupt.\n"
-msgstr ""
+msgstr "Hups - menit konkurssiin.\n"
 
 #: kpoker.cpp:619
 msgid "You won $"
@@ -116,7 +116,7 @@ msgstr "&Ääni"
 
 #: top.cpp:73
 msgid "Poker"
-msgstr ""
+msgstr "Pokeri"
 
 #: top.cpp:75
 msgid ""
@@ -124,6 +124,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"tehnyt Jochen Tuchbreiter"
 
 #: top.cpp:77
 msgid ""
@@ -131,9 +134,14 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"Katso ohje-tiedostosta tarkempi tekijälista "
 
 #: top.cpp:78
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Ehdotukset, virheraportit jne. ovat tervetulleita"

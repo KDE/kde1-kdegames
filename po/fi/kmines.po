@@ -5,7 +5,7 @@
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: KMINES\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
@@ -40,7 +40,7 @@ msgstr "Helppo"
 
 #: dialogs.cpp:289 main.cpp:60
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 #: dialogs.cpp:290 main.cpp:61
 msgid "Expert"

@@ -5,9 +5,8 @@ msgstr ""
 "Last-Translator: Kim Enkovaara <kim.enkovaara@iki.fi>\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
-msgstr "Oikealle-Ylös"
+msgstr "Oikealle"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -18,9 +17,8 @@ msgid "LeftDown"
 msgstr "Vasemmalle-Alas"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "Vasemmalle-Ylös"
+msgstr "Vasemmalle"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -76,7 +74,7 @@ msgstr "Helppo"
 
 #: AbTop.cpp:317
 msgid "Normal"
-msgstr ""
+msgstr "Normaali"
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -116,7 +114,7 @@ msgstr "Vakoile"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Abalone"
 
 #: AbTop.cpp:351
 msgid ""
@@ -124,6 +122,9 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
+"\n"
+"\n"
+"tekijä Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"

@@ -121,9 +121,8 @@ msgid "Score: %06i"
 msgstr "Pisteet: %06i"
 
 #: HighScore.cpp:107
-#, fuzzy
 msgid "Name"
-msgstr "Peli"
+msgstr "Nimi"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"
