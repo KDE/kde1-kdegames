@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"Project-Id-Version: kdenonbeta\n"
+"Project-Id-Version: kdegames\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-06-17 21:37+0200\n"
 "Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
@@ -24,9 +24,8 @@ msgid "&Give up"
 msgstr "&Abandonar"
 
 #: kbbgame.cpp:83
-#, fuzzy
 msgid "&Done"
-msgstr "Hecho"
+msgstr "&Hecho"
 
 #: kbbgame.cpp:85
 msgid "&Resize"
@@ -45,14 +44,12 @@ msgid "&Tutorial"
 msgstr "&Tutorial"
 
 #: kbbgame.cpp:170
-#, fuzzy
 msgid "New"
-msgstr "&Nuevo"
+msgstr "Nuevo"
 
 #: kbbgame.cpp:172
-#, fuzzy
 msgid "Give up"
-msgstr "&Abandonar"
+msgstr "Abandonar"
 
 #: kbbgame.cpp:174
 msgid "Done"
@@ -102,21 +99,19 @@ msgstr "De acuerdo"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
-msgstr ""
+msgstr "Lanzar"
 
 #: kbbgame.cpp:569
-#, fuzzy
 msgid "Size"
-msgstr "&Tamaño"
+msgstr "Tamaño"
 
 #: kbbgame.cpp:572
 msgid "Placed"
-msgstr ""
+msgstr "Colocado"
 
 #: kbbgame.cpp:585
-#, fuzzy
 msgid "Score"
-msgstr "Puntuación %4d"
+msgstr "Puntuación"
 
 #: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"

@@ -3,8 +3,6 @@ msgstr ""
 "POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-10-18 16:07+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
-"First-Translator: Jorge Valencia <jorgev@est.unileon.es>\n"
-"First-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: dialogs.cpp:95
 msgid "Customize Game"
@@ -95,23 +93,20 @@ msgid "Hide menu bar"
 msgstr "Ocultar barra de menus"
 
 #: main.cpp:46
-#, fuzzy
 msgid "&New game"
-msgstr "Nuevo juego"
+msgstr "&Nuevo juego"
 
 #: main.cpp:49
-#, fuzzy
 msgid "&Pause game"
-msgstr "Pausa"
+msgstr "&Pausar juego"
 
 #: main.cpp:52
-#, fuzzy
 msgid "&High scores"
-msgstr "Mejores tiempos"
+msgstr "&Mejores puntos"
 
 #: main.cpp:60
 msgid "? mark"
-msgstr "marcas (?)"
+msgstr "? marcas"
 
 #: main.cpp:61
 msgid "Keys"
@@ -126,9 +121,8 @@ msgid "by"
 msgstr "por"
 
 #: main.cpp:79
-#, fuzzy
 msgid "&Level"
-msgstr "Nivel"
+msgstr "Nive&l"
 
 #: main.cpp:156
 msgid "Show menu bar"
