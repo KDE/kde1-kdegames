@@ -168,5 +168,3 @@ msgstr "Body"
 msgid "Cannot load pixmaps!"
 msgstr "Nie je mo¾né naèíta» obrázky!"
 
-#~ msgid "Medium"
-#~ msgstr "Stredná"

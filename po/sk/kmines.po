@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "kmines : Prispôsobi» hru"
+msgstr "Prispôsobi» hru"
 
 #: dialogs.cpp:124
 msgid "Width"
@@ -116,7 +115,7 @@ msgstr "Míny"
 
 #: main.cpp:67
 msgid "by"
-msgstr ""
+msgstr "od"
 
 #: main.cpp:72
 msgid "Level"
@@ -126,50 +125,3 @@ msgstr "Úroveò"
 msgid "Show menu bar"
 msgstr "Zobrazi» menu"
 
-#~ msgid "kmines : High Scores"
-#~ msgstr "kmines : Najlep¹ie výsledky"
-
-#~ msgid "Easy :"
-#~ msgstr "¥ahká:"
-
-#~ msgid "Normal :"
-#~ msgstr "Normálna:"
-
-#~ msgid "Expert :"
-#~ msgstr "Pre expertov:"
-
-#~ msgid "minutes."
-#~ msgstr "minút."
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Nemô¾em zapísa» do súboru s najlep¹ími výsledkami!"
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines: Chyba"
-
-#~ msgid "Close dialog"
-#~ msgstr "Zavrie» dialóg"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dialóg"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Zru¹i» dialóg"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-
-#~ msgid "Custom Level"
-#~ msgstr "Vlastná úroveò"
-
-#~ msgid "Uncertain (?) mark"
-#~ msgstr "Pou¾íva» znaèku neistoty (?)"
-
-#~ msgid "Try again"
-#~ msgstr "Skús znova"

@@ -133,8 +133,3 @@ msgstr "Doteraz najlep¹í »ah:"
 msgid "Spion"
 msgstr "©pión"
 
-#~ msgid "Move"
-#~ msgstr "«ah"
-
-#~ msgid "Rules"
-#~ msgstr "Pravidlá"

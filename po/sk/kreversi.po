@@ -380,5 +380,3 @@ msgstr ""
 msgid "Your name:"
 msgstr "Va¹e meno:"
 
-#~ msgid "Name"
-#~ msgstr "Meno"
