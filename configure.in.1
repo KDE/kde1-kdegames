@@ -39,8 +39,10 @@ AC_CHECK_LIB(crypt, main, [LIBCRYPT="-lcrypt"]) dnl for BSD
 AC_SUBST(LIBCRYPT)
 LIBKHTMLW="-lkhtmlw -ljscript" dnl this is somewhat historical, since jscript is ways needed
 AC_SUBST(LIBKHTMLW)
-AC_CHECK_LIB(z, compress, [LIBZ="-lz"]) dnl zlib for ksokoban
-AC_SUBST(LIBZ)
+AC_FIND_ZLIB  dnl zlib for ksokoban
+if [ test -z $LIBZ ]; then
+  DO_NOT_COMPILE="$DO_NOT_COMPILE ksokoban"
+fi
 
 AC_FIND_JPEG
 
