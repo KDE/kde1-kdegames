@@ -274,7 +274,7 @@ void Rattler::pause()
 
 	label = new QLabel(this);
 	label->setFont( QFont( "Times", 16, QFont::Bold ) );
-	label->setText("Game Paused\n Press F3 to resume\n");
+	label->setText(klocale->translate("Game Paused\n Press F3 to resume\n"));
 	label->setAlignment( AlignCenter );
 	label->setFrameStyle( QFrame::Panel | QFrame::Raised );
 	label->setGeometry(182, 206, 198, 80);
@@ -346,10 +346,10 @@ void Rattler::restart()
 
     if (gameState.testBit(Paused) || gameState.testBit(Playing)) {
 
-	switch( QMessageBox::information( this, "Snake Race",
-					  "A game is already started\n"
-					  "Start a new one ?\n",
-					  "&Yes", "&No",
+	switch( QMessageBox::information( this, klocale->translate("Snake Race"),
+					  klocale->translate("A game is already started\n"
+					  "Start a new one ?\n"),
+					  klocale->translate("&Yes"), klocale->translate("&No"),
 					  0, 1 ) ) {
 	case 0:
 	    if ( gameState.testBit(Paused))

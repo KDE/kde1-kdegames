@@ -43,18 +43,18 @@ QString Score::formatDate(int d, int m, int y)
 void Score::display(int newHall = -1, int newToday = -1)
 {
     QDialog *dlg = new QDialog(0, "Hall Of Fame", TRUE);
-    dlg->setCaption("Snake Race High Scores");
+    dlg->setCaption(klocale->translate("Snake Race High Scores"));
 
     ScoreBox *sb1 = new ScoreBox(dlg, 0, newHall);
     sb1->setGeometry(10, 10, 400, 225);
-    sb1->setTitle("Hall of Fame");
+    sb1->setTitle(klocale->translate("Hall of Fame"));
 
     ScoreBox *sb2 = new ScoreBox(dlg, 0, newToday);
     sb2->setGeometry(10, 240, 400, 225);
-    sb2->setTitle("Today's High Scores");
+    sb2->setTitle(klocale->translate("Today's High Scores"));
 
     QPushButton *b = new QPushButton( dlg);
-    b->setText("Ok");
+    b->setText(klocale->translate("Ok"));
     b->setAutoDefault(TRUE);
     b->setFocus();
     b->move(300, 480);
@@ -74,8 +74,8 @@ void Score::display(int newHall = -1, int newToday = -1)
 QString Score::getPlayerName() {
     QDialog *dlg = new QDialog(0, "Hall Of Fame", TRUE);
     dlg->resize(300, 175);
-    dlg->setCaption("Snake Race High Scores");
-    QLabel *label  = new QLabel("you have achieved a high score!\n please enter your name",
+    dlg->setCaption(klocale->translate("Snake Race High Scores"));
+    QLabel *label  = new QLabel(klocale->translate("you have achieved a high score!\n please enter your name"),
 				dlg);
     label->setAlignment(AlignCenter);
     label->setFont( QFont( "Times", 16, QFont::Bold ) );
@@ -88,7 +88,7 @@ QString Score::getPlayerName() {
     QFrame *sep = new QFrame( dlg);
     sep->setFrameStyle( QFrame::HLine | QFrame::Sunken );
 
-    QPushButton *b = new QPushButton("Ok", dlg);
+    QPushButton *b = new QPushButton(klocale->translate("Ok"), dlg);
     b->setDefault(TRUE);
     b->setAutoDefault(TRUE);
     connect(b, SIGNAL(released()), dlg, SLOT(accept()));

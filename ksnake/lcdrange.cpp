@@ -9,6 +9,7 @@
 #include <qscrbar.h>
 #include <qlcdnum.h>
 #include <qlabel.h>
+#include <kapp.h>
 
 LCDRange::LCDRange( QWidget *parent, const char *name )
         : QWidget( parent, name )
@@ -57,9 +58,9 @@ void LCDRange::setValue( int value )
 void LCDRange::setRange( int minVal, int maxVal )
 {
     if ( minVal < 0 || maxVal > 99 || minVal > maxVal ) {
-	warning( "LCDRange::setRange(%d,%d)\n"
+	warning( klocale->translate("LCDRange::setRange(%d,%d)\n"
 		 "\tRange must be 0..99\n"
-		 "\tand minVal must not be greater than maxVal",
+		 "\tand minVal must not be greater than maxVal"),
 		 minVal, maxVal );
 	return;
     }

@@ -20,25 +20,25 @@ StartRoom::StartRoom( int init, int *newRoom, QWidget *parent, const char *name)
     : QDialog( parent, name, TRUE )
 {
 
-    setCaption("Snake Race Starting Room");
+    setCaption(klocale->translate("Snake Race Starting Room"));
 
     nr = newRoom;
 
     QPushButton *okButton  = new QPushButton(this);
-    okButton->setText("Ok");
+    okButton->setText(klocale->translate("Ok"));
     okButton->setFixedSize(okButton->size());
     okButton->setGeometry(60,170, 100, 100);
     connect( okButton, SIGNAL(clicked()), SLOT(ok()) );
 
     QPushButton *cancelButton  = new QPushButton(this);
-    cancelButton->setText("Cancel");
+    cancelButton->setText(klocale->translate("Cancel"));
     connect( cancelButton, SIGNAL(clicked()), SLOT(accept()) );
     cancelButton->setFixedSize(cancelButton->size());
     cancelButton->setGeometry(180,170, 100, 100);
 
     roomRange = new LCDRange(this);
     roomRange->setRange(1, leV->max());
-    roomRange->setText("Starting Room");
+    roomRange->setText(klocale->translate("Starting Room"));
     roomRange->setFixedSize(100, 100);
     roomRange->setGeometry(60,30, 115, 125);
 

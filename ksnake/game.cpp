@@ -38,11 +38,11 @@ Game::Game() :  KTopLevelWidget()
 {
     setCaption( kapp->getCaption() );
 
-    setIcon("Snake Race");
+    setIcon(klocale->translate("Snake Race"));
 
     conf = kapp->getConfig();
     if(conf == NULL) {
-	printf("KConfig error ??\n");
+	printf(klocale->translate("KConfig error ??\n"));
 	kapp->quit();
     }
 
@@ -76,28 +76,28 @@ void Game::menu()
 
     game = new QPopupMenu();
     CHECK_PTR( game );
-    game->insertItem( "New", this, SLOT(newGame()),Key_F2);
-    pauseID = game->insertItem( "Pause", this , SLOT(pauseGame()), Key_F3);
-    game->insertItem( "High Scores...", this, SLOT(showHighScores()));
+    game->insertItem( klocale->translate("New"), this, SLOT(newGame()),Key_F2);
+    pauseID = game->insertItem( klocale->translate("Pause"), this , SLOT(pauseGame()), Key_F3);
+    game->insertItem( klocale->translate("High Scores..."), this, SLOT(showHighScores()));
     game->insertSeparator();
-    game->insertItem( "&Quit",  this, SLOT(quitGame()), CTRL+Key_Q );
+    game->insertItem( klocale->translate("&Quit"),  this, SLOT(quitGame()), CTRL+Key_Q );
     game->setCheckable( TRUE );
 
     balls = new QPopupMenu;
     CHECK_PTR( balls );
-    ballsID[0] = balls->insertItem( "0");
-    ballsID[1] = balls->insertItem( "1");
-    ballsID[2] = balls->insertItem( "2");
-    ballsID[3] = balls->insertItem( "3");
+    ballsID[0] = balls->insertItem( klocale->translate("0"));
+    ballsID[1] = balls->insertItem( klocale->translate("1"));
+    ballsID[2] = balls->insertItem( klocale->translate("2"));
+    ballsID[3] = balls->insertItem( klocale->translate("3"));
     balls->setCheckable( TRUE );
     connect(balls, SIGNAL(activated(int)), this, SLOT ( ballsChecked(int) ));
 
     snakes = new QPopupMenu;
     CHECK_PTR( snakes );
-    snakesID[0] = snakes->insertItem( "0");
-    snakesID[1] = snakes->insertItem( "1");
-    snakesID[2] = snakes->insertItem( "2");
-    snakesID[3] = snakes->insertItem( "3");
+    snakesID[0] = snakes->insertItem( klocale->translate("0"));
+    snakesID[1] = snakes->insertItem( klocale->translate("1"));
+    snakesID[2] = snakes->insertItem( klocale->translate("2"));
+    snakesID[3] = snakes->insertItem( klocale->translate("3"));
     snakes->setCheckable( TRUE );
     connect(snakes, SIGNAL(activated(int)), this,
 	    SLOT ( snakesChecked(int) ));
@@ -108,7 +108,7 @@ void Game::menu()
     pixID.resize(backgroundPixmaps.count());
 
     if(backgroundPixmaps.count() == 0)
-	pix->insertItem("none");
+	pix->insertItem(klocale->translate("none"));
     else
 	for(unsigned i = 0; i < backgroundPixmaps.count(); i++) {
 	    // since the filename may contain underscore, they
@@ -123,34 +123,34 @@ void Game::menu()
 
     options = new QPopupMenu();
     CHECK_PTR( options );
-    skillID[0] = options->insertItem( "Beginner");
-    skillID[1] = options->insertItem( "Intermediate");
-    skillID[2] = options->insertItem( "Advanced");
-    skillID[3] = options->insertItem( "Expert");
+    skillID[0] = options->insertItem( klocale->translate("Beginner"));
+    skillID[1] = options->insertItem( klocale->translate("Intermediate"));
+    skillID[2] = options->insertItem( klocale->translate("Advanced"));
+    skillID[3] = options->insertItem( klocale->translate("Expert"));
     options->insertSeparator();
-    options->insertItem("Balls", balls);
-    options->insertItem("Computer Snakes", snakes);
+    options->insertItem(klocale->translate("Balls"), balls);
+    options->insertItem(klocale->translate("Computer Snakes"), snakes);
     options->insertSeparator();
-    options->insertItem("Select background color...", this, SLOT(backgroundColor()));
-    options->insertItem("Select background pixmap", pix);
+    options->insertItem(klocale->translate("Select background color..."), this, SLOT(backgroundColor()));
+    options->insertItem(klocale->translate("Select background pixmap"), pix);
     options->insertSeparator();
-    options->insertItem("Change keys...",this, SLOT(confKeys()));
+    options->insertItem(klocale->translate("Change keys..."),this, SLOT(confKeys()));
     options->insertSeparator();
-    options->insertItem("Starting Room...", this, SLOT(startingRoom()));
+    options->insertItem(klocale->translate("Starting Room..."), this, SLOT(startingRoom()));
 
     options->setCheckable( TRUE );
     connect(options, SIGNAL(activated(int)), this, SLOT ( skillChecked(int) ));
 
-    QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Snake Race"))
+    QPopupMenu *help = kapp->getHelpMenu(true, QString(klocale->translate("Snake Race"))
                                          + " " + KSNAKE_VERSION
-                                         + i18n("\n\nby Michel Filippi")
-                                         + " (mfilippi@sade.rhein-main.de)"); 
+                                         + klocale->translate("\n\nby Michel Filippi"
+                                         " (mfilippi@sade.rhein-main.de)")); 
     menubar = new KMenuBar( this );
     CHECK_PTR( menu );
-    menubar->insertItem( "&Game", game );
-    menubar->insertItem( "&Options", options );
+    menubar->insertItem( klocale->translate("&Game"), game );
+    menubar->insertItem( klocale->translate("&Options"), options );
     menubar->insertSeparator();
-    menubar->insertItem( "&Help", help);
+    menubar->insertItem( klocale->translate("&Help"), help);
 }
 
 void Game::ballsChecked(int id)

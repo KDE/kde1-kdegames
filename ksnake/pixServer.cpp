@@ -179,7 +179,7 @@ void PixServer::initBrickPixmap()
 
     PIXMAP.load((const char *)(pixDir + "brick.xpm"));
     if (PIXMAP.isNull()) {
-	printf("error loading %s, aborting\n", (const char *)(pixDir + "brick.xpm"));
+	printf(klocale->translate("error loading %s, aborting\n"), (const char *)(pixDir + "brick.xpm"));
 	kapp->quit();
     }
     int pw = PIXMAP.width();

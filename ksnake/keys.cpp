@@ -15,19 +15,19 @@ Keys::Keys( QWidget *parent, const char *name)
 {
 
     QPushButton *okButton  = new QPushButton(this);
-    okButton->setText("Ok");
+    okButton->setText(klocale->translate("Ok"));
     okButton->setFixedSize(okButton->size());
     connect( okButton, SIGNAL(clicked()),this, SLOT(ok()) );
     okButton->move(20,210);
 
     QPushButton *defaultButton  = new QPushButton(this);
-    defaultButton->setText("Defaults");
+    defaultButton->setText(klocale->translate("Defaults"));
     defaultButton->setFixedSize(defaultButton->size());
     connect( defaultButton, SIGNAL(clicked()),this, SLOT(defaults()) );
     defaultButton->move(140,210);
 
     QPushButton *cancelButton  = new QPushButton(this);
-    cancelButton->setText("Cancel");
+    cancelButton->setText(klocale->translate("Cancel"));
     cancelButton->setFixedSize(cancelButton->size());
     connect( cancelButton, SIGNAL(clicked()),this, SLOT(reject()) );
     cancelButton->move(260,210);
@@ -80,7 +80,7 @@ Keys::Keys( QWidget *parent, const char *name)
     right->move(220, 90);
 
 
-    setCaption("Change Direction Keys");
+    setCaption(klocale->translate("Change Direction Keys"));
     setFixedSize(380, 260);
     lab = 0;
     init();
@@ -93,7 +93,7 @@ void Keys::keyPressEvent( QKeyEvent *e )
 
 	if (lab != 0) {
 	    if ( string.isNull() )
-		lab->setText("Undefined key");
+		lab->setText(klocale->translate("Undefined key"));
 	    else lab->setText(string);
 	}
 	else if ( lab == 0 && e->key() == Key_Escape)
