@@ -114,7 +114,7 @@ msgstr "&Klondyke"
 
 #: pwidget.cpp:100 pwidget.cpp:275
 msgid "MicroSolitaire"
-msgstr "MicroPasianssi"
+msgstr "MikroPasianssi"
 
 #: pwidget.cpp:101 pwidget.cpp:279
 msgid "Calculation"

@@ -36,7 +36,7 @@ msgstr "Paina Return pelataksesi uudestaan"
 
 #: board.cpp:113
 msgid "Press to start game"
-msgstr "Paina aloittaakseni"
+msgstr "Paina aloittaaksesi"
 
 #: board.cpp:154 field.cpp:31 field.cpp:48
 msgid "Move left"
@@ -272,7 +272,7 @@ msgstr "Taso"
 
 #: field.cpp:67
 msgid "Next tile"
-msgstr "Seuraava pala"
+msgstr "Seuraava"
 
 #: field.cpp:173
 msgid "&Restart game"

@@ -44,7 +44,7 @@ msgstr "Piilota valikkorivi"
 
 #: main.cpp:61
 msgid "? mark"
-msgstr "? merkki"
+msgstr "?-merkki"
 
 #: main.cpp:62
 msgid "Keys"
@@ -140,8 +140,9 @@ msgstr "Ennätyslista"
 
 #: dialogs.cpp:365 dialogs.cpp:379
 msgid "Uncertain (?) mark"
-msgstr "Epävarma (?) merkki"
+msgstr "Epävarma (?)-merkki"
 
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "Yritä uudelleen"
+
