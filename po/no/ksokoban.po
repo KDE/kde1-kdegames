@@ -4,8 +4,8 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: KDE BASE/kwm\n"
-"POT-Creation-Date: 1998-10-15 20:31+0200\n"
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-11-01 13:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -127,11 +127,15 @@ msgstr "Trekk:"
 msgid "Level:"
 msgstr "Nivå:"
 
-#: PlayField.C:258
+#: MainWindow.C:248
+msgid "(invalid)"
+msgstr ""
+
+#: PlayField.C:262
 msgid "Level completed"
 msgstr "Nivå fullført"
 
-#: PlayField.C:487
+#: PlayField.C:491
 msgid ""
 "This is the last level in\n"
 "the current collection."
@@ -139,7 +143,7 @@ msgstr ""
 "Dette er det siste nivået i\n"
 "gjeldende samling."
 
-#: PlayField.C:493
+#: PlayField.C:497
 msgid ""
 "You have not completed\n"
 "this level yet."
@@ -147,7 +151,7 @@ msgstr ""
 "Du har ikke fullført\n"
 "dette nivået ennå."
 
-#: PlayField.C:507
+#: PlayField.C:511
 msgid ""
 "This is the first level in\n"
 "the current collection."

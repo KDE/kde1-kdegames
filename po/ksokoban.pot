@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-15 20:31+0200\n"
+"POT-Creation-Date: 1998-11-01 13:51+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -113,23 +113,27 @@ msgstr ""
 msgid "Level:"
 msgstr ""
 
-#: PlayField.C:258
+#: MainWindow.C:248
+msgid "(invalid)"
+msgstr ""
+
+#: PlayField.C:262
 msgid "Level completed"
 msgstr ""
 
-#: PlayField.C:487
+#: PlayField.C:491
 msgid ""
 "This is the last level in\n"
 "the current collection."
 msgstr ""
 
-#: PlayField.C:493
+#: PlayField.C:497
 msgid ""
 "You have not completed\n"
 "this level yet."
 msgstr ""
 
-#: PlayField.C:507
+#: PlayField.C:511
 msgid ""
 "This is the first level in\n"
 "the current collection."

@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-15 20:31+0200\n"
+"POT-Creation-Date: 1998-11-01 13:51+0100\n"
 "PO-Revision-Date: 1998-10-18 22:16+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "First-Translator: Alonso Lara <jlaram@nexo.es>\n"
@@ -119,11 +119,15 @@ msgstr "Movimientos:"
 msgid "Level:"
 msgstr "Nivel:"
 
-#: PlayField.C:258
+#: MainWindow.C:248
+msgid "(invalid)"
+msgstr ""
+
+#: PlayField.C:262
 msgid "Level completed"
 msgstr "Nivel completado"
 
-#: PlayField.C:487
+#: PlayField.C:491
 msgid ""
 "This is the last level in\n"
 "the current collection."
@@ -131,7 +135,7 @@ msgstr ""
 "Este es el último nivel en\n"
 "la colección actual."
 
-#: PlayField.C:493
+#: PlayField.C:497
 msgid ""
 "You have not completed\n"
 "this level yet."
@@ -139,7 +143,7 @@ msgstr ""
 "No ha completado\n"
 "este nivel aún."
 
-#: PlayField.C:507
+#: PlayField.C:511
 msgid ""
 "This is the first level in\n"
 "the current collection."
