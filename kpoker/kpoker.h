@@ -13,7 +13,7 @@
 
 class KAudio;
 
-const char PVERSION[] = "0.4";
+const char PVERSION[] = "0.4.1";
 const char PDATE[] = "02/21/97";
 
 typedef enum _cardtype { // I don't use this anymore. But it helps to understand the numbers :)

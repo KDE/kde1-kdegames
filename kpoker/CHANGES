@@ -1,4 +1,11 @@
-Vesion 0.4
+Version 0.4.1
+
+Silly me deleted some important lines that were initializing a timer while
+merging my version of 0.4 with the one in the CVS. This caused 0.4 to
+segfault when you press "Draw Cards" :-(
+
+------------------------------------------------------------------------------
+Version 0.4
 
 - deleted version.h because it is of no use
 - put in that nice "wave" effect

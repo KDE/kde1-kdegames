@@ -171,10 +171,15 @@ kpok::kpok(QWidget *parent, const char *name)
 	blinkTimer = new QTimer(this);
 	connect( blinkTimer, SIGNAL(timeout()), SLOT(bTimerEvent()) );
 	blinkStat=0;
+
+	waveTimer = new QTimer(this);
+	connect( waveTimer, SIGNAL(timeout()), SLOT(waveTimerEvent()) );
 	
 	drawTimer = new QTimer(this);
 	connect (drawTimer, SIGNAL(timeout()), SLOT(drawCardsEvent()) );
 	
+	
+
 	srandom(time(NULL));
 	
 	QToolTip::add( drawButton,locale->translate("draw new cards"));
