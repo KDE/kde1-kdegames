@@ -27,7 +27,7 @@ msgstr "&Nyt spil"
 
 #: app.cpp:246
 msgid "&Load game"
-msgstr "&Ind&læs spil"
+msgstr "&Indlæs spil"
 
 #: app.cpp:247
 msgid "&Save game"
@@ -47,7 +47,7 @@ msgstr "&Fortsæt"
 
 #: app.cpp:257
 msgid "&Undo move"
-msgstr "&Fortryd det sidste træk"
+msgstr "Fortr&yd det sidste træk"
 
 #: app.cpp:258
 msgid "Switch si&des"

@@ -19,7 +19,7 @@ msgstr "&Nyt"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr "&Åbn"
+msgstr "Å&bn"
 
 #: KSameWidget.cpp:57
 msgid "S&how Highscore"
@@ -27,7 +27,7 @@ msgstr "&Vis topresultater"
 
 #: KSameWidget.cpp:76
 msgid "&Random Board"
-msgstr "&Tilfældigt b&ræt"
+msgstr "&Tilfældigt bræt"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"

@@ -27,7 +27,7 @@ msgstr "Gen&start niveau"
 
 #: MainWindow.C:55
 msgid "&Level collection"
-msgstr "&Niveau samling"
+msgstr "Ni&veau samling"
 
 #: MainWindow.C:66
 msgid "&Small"
@@ -43,11 +43,11 @@ msgstr "&Stor"
 
 #: MainWindow.C:71
 msgid "G&raphics"
-msgstr "G&rafik"
+msgstr "&Grafik"
 
 #: MainWindow.C:77
 msgid "&Slow"
-msgstr "L&angsom"
+msgstr "&Langsom"
 
 #: MainWindow.C:79
 msgid "&Fast"
