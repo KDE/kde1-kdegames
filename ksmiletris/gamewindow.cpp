@@ -70,7 +70,7 @@ GameWindow::GameWindow(QWidget *, const char *name)
 
 	QString about;
 	about.sprintf(i18n(
-			 "KSmiletris %d\n\n"
+			 "KSmiletris %s\n\n"
 			 "by Sandro Sigala <ssigala@globalnet.it>\n\n"
 			 "Feedbacks are welcome!\n"), VERSION);
 	help_popup = kapp->getHelpMenu(TRUE, about);
