@@ -53,7 +53,7 @@ msgstr "Bræt: XXXXXX"
 
 #: KSameWidget.cpp:93
 msgid "Marked: XXXXXX"
-msgstr "Marjeret: XXXXXX"
+msgstr "Markeret: XXXXXX"
 
 #: KSameWidget.cpp:94
 msgid "Score: XXXXXX"
@@ -65,7 +65,7 @@ msgstr "SameGame: Nyt spil"
 
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
-msgstr "Vii du holde op?"
+msgstr "Vil du holde op?"
 
 #: HighScore.cpp:104 KSameWidget.cpp:141
 msgid "Board"

@@ -193,7 +193,7 @@ msgstr ""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr "Endvider er arbejde udført af:\n"
+msgstr "Endvidere er arbejde udført af:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
@@ -206,7 +206,7 @@ msgstr "Napoleons grav"
 #: pwidget.cpp:294
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
-msgstr "kpat: et ikke implementeet spil af type %d\n"
+msgstr "kpat: et ikke implementeret spil af type %d\n"
 
 #: pwidget.cpp:344
 msgid "Could not load background image!"

@@ -55,7 +55,7 @@ msgstr "Skift si&der"
 
 #: app.cpp:260
 msgid "Hall Of &Fame..."
-msgstr "Topresultaterne"
+msgstr "&Topresultaterne"
 
 #: app.cpp:266
 msgid "Level 1 (Wimp)"
@@ -153,7 +153,7 @@ msgstr "ingen"
 
 #: app.cpp:308
 msgid "Select background image"
-msgstr "&Vælg baggrundsbillede"
+msgstr "Vælg baggrundsbillede"
 
 #: app.cpp:309
 msgid "&Grayscale"
@@ -161,7 +161,7 @@ msgstr "&Gråskala"
 
 #: app.cpp:311
 msgid "&Animations"
-msgstr "&Animationer"
+msgstr "&Animeringer"
 
 #: app.cpp:315
 msgid "1 (fastest)"
@@ -173,7 +173,7 @@ msgstr "10 (langsomst)"
 
 #: app.cpp:322
 msgid "Animation speed"
-msgstr "Animaerings hastighed"
+msgstr "Animerings hastighed"
 
 #: app.cpp:325
 msgid "S&ound"
@@ -185,7 +185,7 @@ msgstr "Hold op med at tænke"
 
 #: app.cpp:370
 msgid "Undo move"
-msgstr "&Fortry det sidste træk"
+msgstr "&Fortryd det sidste træk"
 
 #: app.cpp:371
 msgid "Shrink board"

@@ -58,16 +58,16 @@ msgstr "Omgang #: %2d of %2d"
 #: gameboard.cc:426
 #, c-format
 msgid "The once mighty empire of %s has fallen in ruins."
-msgstr "Det tidliger mægtige imperium %s ligger i ruiner"
+msgstr "Det tidligere mægtige imperium %s ligger i ruiner"
 
 #: gameboard.cc:428
 msgid "An Empire has fallen..."
-msgstr "Et emperium er faldet"
+msgstr "Et imperium er faldet"
 
 #: gameboard.cc:438
 #, c-format
 msgid "The fallen empire of %s has staggered back to life."
-msgstr "Det fladne emperium %s er kravlet tilbage til livet"
+msgstr "Det faldne imperium %s er kravlet tilbage til livet"
 
 #: gameboard.cc:440
 msgid "Up from the ashes..."
@@ -200,7 +200,7 @@ msgid "Kill Percent : "
 msgstr "Dødsprocent"
 
 #: planet_info.cc:137
-#, fuzzy, c-format
+#,  c-format
 msgid "Ships : %d"
 msgstr "Skibe : %d"
 
@@ -212,7 +212,7 @@ msgstr "Produktion : %d"
 #: planet_info.cc:143
 #, c-format
 msgid "Kill Percent : %.3f"
-msgstr "Dødsprocent :%.3f""
+msgstr "Dødsprocent :%.3f"
 
 #: gameenddlg.cc:14
 msgid ""
@@ -225,7 +225,7 @@ msgstr ""
 #: gameenddlg.cc:64
 #, c-format
 msgid "Add %d turns"
-msgstr "iTilføj %d omgange"
+msgstr "Tilføj %d omgange"
 
 #: scoredlg.cc:18
 msgid "Player"

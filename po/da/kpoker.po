@@ -67,7 +67,7 @@ msgstr "3 af een slags"
 
 #: kpoker.cpp:522
 msgid "Full House"
-msgstr "Fuld hus"
+msgstr "Fuldt hus"
 
 #: kpoker.cpp:523
 msgid "4 of a kind"

@@ -39,7 +39,7 @@ msgstr "&Hjælp"
 
 #: kmahjongg.cpp:214
 msgid "&Undo last move"
-msgstr "&Fortry det sidste træk"
+msgstr "&Fortryd det sidste træk"
 
 #: kmahjongg.cpp:215
 msgid "&Demo mode"
@@ -90,7 +90,7 @@ msgstr "Demo modus. Klik på museknappen for at stoppe"
 
 #: kmahjongg.cpp:511
 msgid "Now it's you again."
-msgstr "Nu er det dig gien"
+msgstr "Nu er det dig igen"
 
 #: kmahjongg.cpp:531
 msgid "Your computer has lost the game."

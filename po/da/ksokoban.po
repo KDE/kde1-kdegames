@@ -59,7 +59,7 @@ msgstr "&Fra"
 
 #: MainWindow.C:83
 msgid "&Animation"
-msgstr "i&Animering"
+msgstr "&Animering"
 
 #: MainWindow.C:87 MainWindow.C:89 MainWindow.C:91 MainWindow.C:93
 #: MainWindow.C:95 MainWindow.C:97 MainWindow.C:99 MainWindow.C:101
@@ -71,7 +71,7 @@ msgstr "(ubrugt)"
 
 #: MainWindow.C:108
 msgid "&Set bookmark"
-msgstr "i&Sæt bogmærke"
+msgstr "&Sæt bogmærke"
 
 #: MainWindow.C:132
 msgid "&Go to bookmark"
@@ -133,7 +133,7 @@ msgstr "(ikke gyldig)"
 
 #: PlayField.C:264
 msgid "Level completed"
-msgstr "Niveauet overstået)"
+msgstr "Niveauet overstået"
 
 #: PlayField.C:493
 msgid ""

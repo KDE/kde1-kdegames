@@ -123,7 +123,7 @@ msgstr "Resultat"
 
 #: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
-msgstr "Dette vil slutte set nuværende spil"
+msgstr "Dette vil slutte det nuværende spil"
 
 #: kbbgame.cpp:601 kbbgame.cpp:628
 msgid "Never mind..."

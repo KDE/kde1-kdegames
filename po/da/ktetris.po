@@ -139,7 +139,7 @@ msgstr "Slutbudskab fra klient"
 
 #: net.cpp:550
 msgid "Cannot send to client"
-msgstr "Kan ikke sende tio klient"
+msgstr "Kan ikke sende til klient"
 
 #: dialogs.cpp:61
 msgid "High Scores"
@@ -171,7 +171,7 @@ msgstr "Spillernavn"
 
 #: dialogs.cpp:185
 msgid "Server address :"
-msgstr "iServeraddresse"
+msgstr "Serveraddresse"
 
 #: dialogs.cpp:187
 msgid "Port :"
