@@ -118,6 +118,3 @@ msgstr "Marcadas: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Pontuação: %06i"
-
-#~ msgid "Highscore"
-#~ msgstr "Pontuações"

@@ -170,24 +170,3 @@ msgstr "Sala Inicial da Corrida de Cobras"
 #: startroom.cpp:41
 msgid "Starting Room"
 msgstr "Sala Inicial"
-
-#~ msgid "New"
-#~ msgstr "Novo"
-
-#~ msgid "&Quit"
-#~ msgstr "&Sair"
-
-#~ msgid "&Game"
-#~ msgstr "&Jogo"
-
-#~ msgid "&Options"
-#~ msgstr "&Opções"
-
-#~ msgid "&Help"
-#~ msgstr "&Ajuda"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Cancel"
-#~ msgstr "Cancelar"
