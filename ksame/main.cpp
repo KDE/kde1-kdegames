@@ -20,6 +20,8 @@
 
 #include <kapp.h>
 #include <qwidget.h>
+#include <qtabbar.h>
+#include <qsize.h>
 #include "KSameWidget.h"
 #include "ScoreWidget.h"
 #include "HighScore.h"
@@ -52,23 +54,47 @@ int main( int argc, char **argv )
   w.show();
   
   
-  QWidget score;
+  QWidget highscore;
+  QSize size(5,5);
+  
+  QLabel *label=new QLabel("---   Highscore   ---",&highscore);
+  label->font().setPointSize(20);
+  //  label->setFrameStyle( QFrame::WinPanel | QFrame::Raised );
+  label->setAlignment( AlignCenter );
+  label->resize(10,label->sizeHint().height()+20);
+  label->move(0,size.height());
+  //  size.rwidth()+=label->width();
+  size.rheight()+=label->height();
+  label->show();
+  
+  QTabBar *tabbar=new QTabBar(&highscore);
+  QTab c1,c2,c3;
+  c1.label="&two colors";c1.enabled=true;
+  c2.label="th&ree colors";c2.enabled=true;
+  c3.label="&four colors";c3.enabled=true;
+  
+  tabbar->addTab(&c1);
+  tabbar->addTab(&c2);
+  tabbar->addTab(&c3);
+  tabbar->move(0,size.height());
+  tabbar->resize(tabbar->sizeHint());
+  //  size.rwidth()=tabbar->width();
+  size.rheight()+=tabbar->height();
+  tabbar->show();
 
+  ScoreWidget *score=new ScoreWidget(&highscore);
+  score->move(0,size.height());
+  size.rwidth()=score->width();
+  size.rheight()+=score->height();
+  score->show();
 
+  label->resize(size.width(),label->height());
+  tabbar->resize(size.width(),tabbar->height());
+  connect(tabbar,SIGNAL(selected(int)),score,SLOT(select(int)));
+  
+  highscore.resize(size);
 
-  QTabDialog *s=new QTabDialog(&score);
-
-  connect(s,SIGNAL(defaultButtonPressed()),score,SLOT(close()));
-
-  s->addTab(new ScoreWidget(s),"&Two Colors");
-  s->addTab(new ScoreWidget(s),"Th&ree Colors");
-  s->addTab(new ScoreWidget(s),"&Four Colors");
-
-  s->move(0,0);
-  s->show();
-  score.resize(s->width(),s->height());
-  score.show();
-
+  highscore.show();
   
   return a.exec();
 }

@@ -97,7 +97,7 @@ KSameWidget::KSameWidget() {
   optionsmenu->setItemChecked(multispin_item, stone->getMultiSpin());
   colorsmenu->setItemChecked(stone->getColors(), true);
   setView(stone);
-
+  stone->show();
   stone->newGame();
   /* 
  

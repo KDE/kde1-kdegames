@@ -3,62 +3,96 @@
 #include <qwidget.h>
 #include <qlabel.h>
 #include <qlined.h> 
+#include <qpainter.h> 
 #include "ScoreWidget.h"
 #include "ScoreWidget.moc"
 
- ScoreWidget::ScoreWidget( QWidget *parent ) : QWidget(parent) {
+ ScoreWidget::ScoreWidget( QWidget *parent ) : QTableView(parent) {
  
-   int w=400,h=500;
-   
-   QLabel *label=new QLabel("---   Highscore   ---",this);
-   label->setFont( QFont( "Times", 20, QFont::Bold ) );
-   label->setFrameStyle( QFrame::WinPanel | QFrame::Raised );
-   label->setAlignment( AlignCenter );
-   label->show();
-   label->adjustSize();  
-   label->resize(300,label->height());
-   label->move(5,5);
-   w=label->width()+10;
-   h=label->height()+10;
+   int w=400,h=100;
+
+   setNumCols(3);
+   setNumRows(10);
+   //   setCellWidth(30);
+
+   h=fontMetrics().height();
+
+   setCellHeight(h);
+   h*=10;
+  colsize[0]=fontMetrics().maxWidth()*3;
+  colsize[1]=fontMetrics().maxWidth()*20;
+  colsize[2]=fontMetrics().maxWidth()*5;
+  w=colsize[0]+colsize[1]+colsize[2];
+  resize(w,h);
+ 
+  return;
    
    QLineEdit *edit;
-   //   QLabel *label;
+    QLabel *label;
    
+    int hx=10;
    for (int i=0;i<10;i++) {
      
      if (i==5) {
        edit=new QLineEdit(this);
-       edit->setFont( QFont( "Times", 20, QFont::Bold ) );
+       //       edit->setFont( QFont( "Times", 20, QFont::Bold ) );
+       hx=edit->sizeHint().height();
        edit->move(5,h);
-       edit->resize(w/2-10,edit->height());
+       edit->resize(w/2-10,hx);
        edit->setText("edit");
      } else {
-       label=new QLabel(this);
-       label->setFont( QFont( "Times", 20, QFont::Bold ) );
-       label->setFrameStyle( QFrame::WinPanel | QFrame::Sunken );
-       label->setAlignment( AlignCenter );
+       label=new QLabel("Label",this);
+       //  label->setFont( QFont( "Times", 20, QFont::Bold ) );
+       //  label->setFrameStyle( QFrame::WinPanel | QFrame::Sunken );
+       label->setAlignment( AlignLeft );
+       hx=label->height();
        label->move(5,h);
-       label->resize(w/2-10,label->height());
-       label->setText("Label");
+       label->resize(w/2-10,hx);
      }
-     label=new QLabel(this);
-     label->setFont( QFont( "Times", 20, QFont::Bold ) );
-     label->setFrameStyle( QFrame::WinPanel | QFrame::Sunken );
-     label->setAlignment( AlignCenter );
+     label=new QLabel("123456",this);
+     //     label->setFont( QFont( "Times", 20, QFont::Bold ) );
+     //     label->setFrameStyle( QFrame::WinPanel | QFrame::Sunken );
+     label->setAlignment( AlignLeft );
+     hx=label->height();
      label->move(w/2+5,h);
-     label->resize(w/2-10,label->height());
-     label->setText("1231254");
-     h+=label->height();
+     label->resize(w/2-10,hx);
+     h+=hx;
    }
    
   h+=10; 
-   
   
-  setGeometry(0,0,w,h); 
   resize(w,h);
-  setFixedSize(w,h);
 }
 
+void ScoreWidget::fontChange ( const QFont & oldFont ) {
+    int h;
+    int w=400;
+    h=fontMetrics().height();
+    setCellHeight(h);
+    h*=10;
+    colsize[0]=fontMetrics().maxWidth()*3;
+    colsize[1]=fontMetrics().maxWidth()*20;
+    colsize[2]=fontMetrics().maxWidth()*5;
+    w=colsize[0]+colsize[1]+colsize[2];
+    updateTableSize();
+    resize(w,h);    
+    update();
+    return;
+}
+
+int ScoreWidget::cellWidth (int col) {
+    switch(col) {
+    case 0: return(colsize[0]);
+    case 1: return(colsize[1]);
+    case 2: return(colsize[2]);
+    default: return(100);
+    }
+}
+
+void ScoreWidget::paintCell ( QPainter * p, int row, int col ) {
+ p->drawText(0,0,"123");
+return;
+}
 
 void ScoreWidget::hide() {
   QWidget::hide();

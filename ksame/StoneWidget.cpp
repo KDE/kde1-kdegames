@@ -52,10 +52,10 @@ StoneWidget::StoneWidget( QWidget *parent, int x, int y )
 	boardno=0;
 	
 	if ( stonemap.isNull() )
-	    stonemap = kapp->getIconLoader()->loadIcon("stones2000.gif");
+	    stonemap = kapp->getIconLoader()->loadIcon("stones2000.bmp");
 	
 	if (  maskmap.isNull() ) {  // NO MASK !!!
-	    maskmap = kapp->getIconLoader()->loadIcon("stones2000_mask.gif");
+	    maskmap = kapp->getIconLoader()->loadIcon("stones2000_mask.bmp");
 	    stonemap.setMask(maskmap);
 	}
 	if (!backmap) {
