@@ -1,7 +1,7 @@
 
 # This has to be set. The rest should be reusable
 GMOFILES = kreversi.gmo kpat.gmo kasteroids.gmo kabalone.gmo \
-	kpoker.gmo kshisen.gmo kmines.gmo ktetris.gmo \
+	kpoker.gmo kshisen.gmo kmines.gmo ksirtet.gmo \
 	kmahjongg.gmo ksame.gmo ksnake.gmo kblackbox.gmo ksokoban.gmo \
 	ksmiletris.gmo konquest.gmo
 

@@ -1,7 +1,7 @@
 
 # This has to be set. The rest should be reusable
 GMOFILES = kasteroids.gmo kabalone.gmo kmines.gmo kpat.gmo \
-	kreversi.gmo kpoker.gmo ktetris.gmo
+	kreversi.gmo kpoker.gmo ksirtet.gmo
 
 POFILES = $(GMOFILES:.gmo=.po)
 
