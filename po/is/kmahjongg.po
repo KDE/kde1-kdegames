@@ -54,7 +54,7 @@ msgstr "&Stöðurönd"
 
 #: kmahjongg.cpp:226
 msgid "Mahjongg"
-msgstr ""
+msgstr "Mahjongg"
 
 #: kmahjongg.cpp:228
 msgid ""

@@ -99,12 +99,12 @@ msgstr "&Helminga stærðina"
 #: app.cpp:281
 #, c-format
 msgid "60%"
-msgstr ""
+msgstr "60%"
 
 #: app.cpp:282
 #, c-format
 msgid "80%"
-msgstr ""
+msgstr "80%"
 
 #: app.cpp:283
 msgid "D&efault size"
@@ -113,22 +113,22 @@ msgstr "S&jálfgefin stærð"
 #: app.cpp:284
 #, c-format
 msgid "120%"
-msgstr ""
+msgstr "120%"
 
 #: app.cpp:285
 #, c-format
 msgid "140%"
-msgstr ""
+msgstr "140%"
 
 #: app.cpp:286
 #, c-format
 msgid "160%"
-msgstr ""
+msgstr "160%"
 
 #: app.cpp:287
 #, c-format
 msgid "180%"
-msgstr ""
+msgstr "180%"
 
 #: app.cpp:288
 msgid "&Double size"

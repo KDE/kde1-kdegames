@@ -30,19 +30,19 @@ msgstr "Methafar"
 
 #: game.cpp:88 game.cpp:97
 msgid "0"
-msgstr ""
+msgstr "0"
 
 #: game.cpp:89 game.cpp:98
 msgid "1"
-msgstr ""
+msgstr "1"
 
 #: game.cpp:90 game.cpp:99
 msgid "2"
-msgstr ""
+msgstr "2"
 
 #: game.cpp:91 game.cpp:100
 msgid "3"
-msgstr ""
+msgstr "3"
 
 #: game.cpp:111
 msgid "none"

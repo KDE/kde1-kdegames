@@ -4,13 +4,13 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1999-01-04 01:41+0100\n"
+"POT-Creation-Date: 1998-10-13 13:31+0200\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
 #: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
-msgstr ""
+msgstr "Shisen-Sho"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
@@ -38,23 +38,23 @@ msgstr "&Methafar"
 
 #: app.cpp:125
 msgid "14x6"
-msgstr ""
+msgstr "14x6"
 
 #: app.cpp:126
 msgid "18x8"
-msgstr ""
+msgstr "18x8"
 
 #: app.cpp:127
 msgid "24x12"
-msgstr ""
+msgstr "24x12"
 
 #: app.cpp:128
-msgid "26x14"
-msgstr ""
+msgid "28x16"
+msgstr "28x16"
 
 #: app.cpp:129
-msgid "30x16"
-msgstr ""
+msgid "32x20"
+msgstr "32x20"
 
 #: app.cpp:133
 msgid "Very fast"

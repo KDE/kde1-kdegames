@@ -122,7 +122,7 @@ msgstr "Njósna"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Kínaskák"
 
 #: AbTop.cpp:351
 msgid ""

@@ -113,7 +113,7 @@ msgstr "Þú hefur ekki nóg geimför!"
 
 #: mainwin.cc:23
 msgid "GNU-Lactic Conquest"
-msgstr ""
+msgstr "GNU Alheimsyfirráð"
 
 #: mainwin.cc:47
 #, c-format
