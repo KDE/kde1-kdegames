@@ -1,0 +1,401 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
+"Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
+"Language-Team: no <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: about.cpp:51
+msgid "About KReversi"
+msgstr "Om KReversi"
+
+#: about.cpp:64
+msgid "Version "
+msgstr "Versjon"
+
+#: about.cpp:66
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software\n"
+"published under the GNU General\n"
+"Public License (take a look\n"
+"into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+msgstr "\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Dette program er fri software\n"
+"publisert under GNU General\n"
+"Public License (ta en titt\n"
+"i hjelp for detaljer)\n"
+"\n"
+"Takk til:\n"
+"\tMats Luthman for the game engine\n"
+"\t(I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow\n"
+"\tfor comments and bugfixes\n"
+"\n"
+"\tArne Klaassen\n"
+"\t for the raytraced chips"
+
+#: app.cpp:218 app.cpp:548
+msgid ""
+"A problem with the sound server occured!\n"
+"Cannot enable sound support."
+msgstr "Det oppsto et problem med lyd tjeneren!\n"
+"Kan ikke starte lyd støtte."
+
+#: app.cpp:245
+msgid "&New game"
+msgstr "&Nytt spill"
+
+#: app.cpp:246
+msgid "&Load game"
+msgstr "&Last inn spill"
+
+#: app.cpp:247
+msgid "&Save game"
+msgstr "&Lagre spill"
+
+#: app.cpp:252
+msgid "Get &hint)"
+msgstr "Få &hint"
+
+#: app.cpp:254
+msgid "&Stop thinking"
+msgstr "&Stopp tenking"
+
+#: app.cpp:255
+msgid "&Continue"
+msgstr "&Fortsett"
+
+#: app.cpp:257
+msgid "&Undo move"
+msgstr "&Gjør om trekk"
+
+#: app.cpp:258
+msgid "Switch si&des"
+msgstr "Bytt si&de"
+
+#: app.cpp:260
+msgid "Hall Of &Fame..."
+msgstr "På toppen av seiers&pallen..."
+
+#: app.cpp:266
+msgid "Level 1 (Wimp)"
+msgstr "Nivå 1 (Wimp)"
+
+#: app.cpp:267
+msgid "Level 2 (Beginner)"
+msgstr "Nivå 2 (Begynner)"
+
+#: app.cpp:268
+msgid "Level 3 (Novice)"
+msgstr "Nivå 3 (Novise)"
+
+#: app.cpp:269
+msgid "Level 4 (Average)"
+msgstr "Nivå 4 (Gjennomsitt)"
+
+#: app.cpp:270
+msgid "Level 5 (Good)"
+msgstr "Nivå 5 (God)"
+
+#: app.cpp:271
+msgid "Level 6 (Expert)"
+msgstr "Nivå 6 (Ekspert)"
+
+#: app.cpp:272
+msgid "Level 7 (Master)"
+msgstr "Nivå 7 (Mester)"
+
+#: app.cpp:273
+msgid "Skill"
+msgstr "Dyktighet"
+
+#: app.cpp:275
+msgid "&Shrink board"
+msgstr "&Krymp brett"
+
+#: app.cpp:276
+msgid "&Enlarge board"
+msgstr "&Forstørr brett"
+
+#: app.cpp:280
+msgid "&Half size"
+msgstr "&Halv størrelse"
+
+#: app.cpp:281
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: app.cpp:282
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: app.cpp:283
+msgid "D&efault size"
+msgstr "&Standard størrelse"
+
+#: app.cpp:284
+#, c-format
+msgid "120%"
+msgstr "120%"
+
+#: app.cpp:285
+#, c-format
+msgid "140%"
+msgstr "140%"
+
+#: app.cpp:286
+#, c-format
+msgid "160%"
+msgstr "160%"
+
+#: app.cpp:287
+#, c-format
+msgid "180%"
+msgstr "180%"
+
+#: app.cpp:288
+msgid "&Double size"
+msgstr "&Dobbel størrelse"
+
+#: app.cpp:289
+msgid "Set size"
+msgstr "Sett størrelse"
+
+#: app.cpp:292
+msgid "Select &background color..."
+msgstr "Velg &bakgrunns farge..."
+
+#: app.cpp:298
+msgid "none"
+msgstr "ingen"
+
+#: app.cpp:308
+msgid "Select background image"
+msgstr "Velg bakgrunns bilde"
+
+#: app.cpp:309
+msgid "&Grayscale"
+msgstr "&Gråskala"
+
+#: app.cpp:311
+msgid "&Animations"
+msgstr "&Animasjon"
+
+#: app.cpp:315
+msgid "1 (fastest)"
+msgstr "2 (hurtigst)"
+
+#: app.cpp:321
+msgid "10 (slowest)"
+msgstr "10 (senest)"
+
+#: app.cpp:322
+msgid "Animation speed"
+msgstr "Animasjons hastighet"
+
+#: app.cpp:325
+msgid "S&ound"
+msgstr "S&ound"
+
+#: app.cpp:330
+msgid "&Rules"
+msgstr "&Regler"
+
+#: app.cpp:331
+msgid "&Strategy hints"
+msgstr "&Strategi hint"
+
+#: app.cpp:333
+msgid "About &Qt..."
+msgstr "Om &Qt..."
+
+#: app.cpp:334
+msgid "&About..."
+msgstr "&Om..."
+
+#: app.cpp:375
+msgid "Stop thinking"
+msgstr "Stopp tenking"
+
+#: app.cpp:376
+msgid "Undo move"
+msgstr "Angre trekk"
+
+#: app.cpp:377
+msgid "Shrink board"
+msgstr "Krymp brettet"
+
+#: app.cpp:378
+msgid "Enlarge board"
+msgstr "Forstørr brettet"
+
+#: app.cpp:379
+msgid "Get hint"
+msgstr "Få hint"
+
+#: app.cpp:380
+msgid "Get help"
+msgstr "Få hjelp"
+
+#: app.cpp:387
+msgid "XXXXX's turn"
+msgstr "XXXXX's tur"
+
+#: app.cpp:388
+msgid "You (XXXXX): 88"
+msgstr "Din (XXXXX): 88"
+
+#: app.cpp:389
+msgid "Computer (XXXXX): 88"
+msgstr "PC (XXXXX): 88"
+
+#: app.cpp:424
+msgid "Game saved"
+msgstr "Spillet er lagret"
+
+#: app.cpp:602
+msgid "not yet implemented"
+msgstr "ikke ennå implementert"
+
+#: app.cpp:615 app.cpp:620
+#, c-format
+msgid "You (%s): %d"
+msgstr "Din (%s): %d"
+
+#: app.cpp:616 app.cpp:623 app.cpp:923
+msgid "blue"
+msgstr "blå"
+
+#: app.cpp:617 app.cpp:622
+#, c-format
+msgid "Computer (%s): %d"
+msgstr "PC (%s): %d"
+
+#: app.cpp:618 app.cpp:621 app.cpp:925
+msgid "red"
+msgstr "rød"
+
+#: app.cpp:667
+msgid "End of game"
+msgstr "Slutt på spillet"
+
+#: app.cpp:677
+#, c-format
+msgid ""
+"Game is drawn!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr "Spillet er trukket!\n"
+"\n"
+"Du  : %d\n"
+"PC  : %d"
+
+#: app.cpp:678 app.cpp:690 app.cpp:710
+msgid "Game ended"
+msgstr "Spillet er slutt"
+
+#: app.cpp:688
+msgid ""
+"Congratulations, you have won!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d\n"
+"Your rating %4.1f%%"
+msgstr "Gratulerer, du har vunnet!\n"
+"\n"
+"Du   : %d\n"
+"PC   : %d\n"
+"Din rating %4.1f%%"
+
+#: app.cpp:708
+#, c-format
+msgid ""
+"You have lost the game!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr "Du har tapt spillet!\n"
+"\n"
+"Du   : %d\n"
+"PC   : %d"
+
+#: app.cpp:719
+msgid "Red's"
+msgstr "Rød's"
+
+#: app.cpp:719 app.cpp:721
+msgid "turn"
+msgstr "tur"
+
+#: app.cpp:721
+msgid "Blue's"
+msgstr "Blå's"
+
+#: app.cpp:866
+msgid "Hall of Fame"
+msgstr "På toppen av seierspallen"
+
+#: app.cpp:867 app.cpp:871
+msgid "KReversi: Hall Of Fame"
+msgstr "KReversi: På toppen av seierspallen"
+
+#: app.cpp:892
+msgid "Rank"
+msgstr "Rang"
+
+#: app.cpp:896
+msgid "Name"
+msgstr "Navn"
+
+#: app.cpp:900
+msgid "Color"
+msgstr "Farge"
+
+#: app.cpp:904
+msgid "Score"
+msgstr "Poengsum"
+
+#: app.cpp:908
+msgid "Rating"
+msgstr "Resultat"
+
+#: app.cpp:998
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr "Du har greide å komme på \"Toppen av seierspallen\". Skriv inn\n"
+"ditt navn så menneskeheten alltid vil huske\n"
+"ditt kule resultat"
+
+#: app.cpp:1001
+msgid "Your name:"
+msgstr "Ditt navn:"

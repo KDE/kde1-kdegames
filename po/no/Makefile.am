@@ -1,9 +1,11 @@
 
 # This has to be set. The rest should be reusable
-GMFILES = kabalone.gmo kpat.gmo
+GMFILES = kabalone.gmo kpat.gmo kasteroids.gmo kmahjongg.gmo \
+	kpoker.gmo kreversi.gmo ktetris.gmo
+
 POFILES = $(GMFILES:.gmo=.po)
 
-LANG = hu
+LANG = no
 
 localedir = $(kde_locale)
 

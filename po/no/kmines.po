@@ -1,0 +1,168 @@
+
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-03-20 HO:MI+ZONE\n"
+"Last-Translator: Svein Olav Aasen <svein.aasen@caa.no / soaasen@online.no>\n"
+"Language-Team: no<LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: main.cpp:22 main.cpp:34 main.cpp:53
+msgid "New game"
+msgstr "Nytt spill"
+
+#: main.cpp:23 main.cpp:35 main.cpp:54
+msgid "Pause game"
+msgstr "Pause i spillet"
+
+#: main.cpp:26 main.cpp:38 main.cpp:56
+msgid "High scores"
+msgstr "Høy poengsum"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Lukk dialog"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Dialog ok"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Slette dialog"
+
+#: main.cpp:51 main.cpp:162
+msgid "Hide menu bar"
+msgstr "Skjul menylinje"
+
+#: main.cpp:61
+msgid "? mark"
+msgstr "? merke"
+
+#: main.cpp:62
+msgid "Keys"
+msgstr "Taster"
+
+#: main.cpp:65
+msgid "Easy"
+msgstr "Lett"
+
+#: main.cpp:67
+msgid "Expert"
+msgstr "Ekspert"
+
+#: main.cpp:69
+msgid "Custom"
+msgstr "Tilpasset"
+
+#: main.cpp:75
+msgid "About..."
+msgstr "Om..."
+
+#: main.cpp:80
+msgid "Level"
+msgstr "Nivå"
+
+#: main.cpp:100
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK  (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+msgstr "%s (%s) \n"
+"\n"
+"av Nicolas HADACEK (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+
+#: main.cpp:102
+msgid "kmines : About"
+msgstr "KMines : About"
+
+#: main.cpp:159
+msgid "Show menu bar"
+msgstr "Vis menylinje"
+
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "Anonym"
+
+#: status.cpp:251
+msgid "You did it ... but not in time."
+msgstr "Du klarte det ... men ikke i tide"
+
+#: status.cpp:252
+msgid "Yeeessss !"
+msgstr "Jaaaaaaa !"
+
+#: status.cpp:255
+msgid "Bad luck !"
+msgstr "Dårlig hell !"
+
+#: status.cpp:301
+msgid "Highscore file is not writable !"
+msgstr "Kan ikke skrive til fil for høy poengsum !"
+
+#: status.cpp:316
+msgid "kmines : Error"
+msgstr "KMines : feil"
+
+#: field.cpp:87 field.cpp:94
+msgid "Game paused"
+msgstr "Pause i spillet"
+
+#: field.cpp:90 field.cpp:96
+msgid "Press to resume"
+msgstr "Trykk for å fortsette"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "Eget tilpasset nivå"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "Bredde :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "Høyde :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "Mines :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "Høy poengsum"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr "i"
+
+#: dialogs.cpp:233 dialogs.cpp:306
+msgid "minutes and "
+msgstr "minutter og "
+
+#: dialogs.cpp:234 dialogs.cpp:319
+msgid "seconds."
+msgstr "sekunder."
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "På toppen av seierspallen"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "Usikkerhets (?) merke"
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "Forsøk igjen"
