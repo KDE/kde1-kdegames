@@ -40,7 +40,9 @@
 #define REFRESH_DELAY  25
 #define SHIP_SPEED     0.2
 #define MISSILE_SPEED  10.0
+#define SHIP_STEPS     64
 
+#define PI_X_2         6.283185307
 
 KAsteroidsView::KAsteroidsView( QWidget *parent, const char *name )
     : QWidget( parent, name ), field(SPRITES_PREFIX + IMG_BACKGROUND,WIDTH,HEIGHT),
@@ -67,11 +69,15 @@ void KAsteroidsView::reset()
     rotateR    = false;
     thrustShip = false;
     shootShip  = false;
+    shootDelay = 0;
 
+    shipAngle = 0;
     shipDx = 0.0;
     shipDy = 0.0;
 
     rockSpeed = 1.0;
+
+    rotateSlow = 0;
 }
 
 void KAsteroidsView::newGame()
@@ -91,10 +97,12 @@ void KAsteroidsView::newShip()
     ship->setVelocity( 0.0, 0.0 );
     shipDx = 0;
     shipDy = 0;
+    shipAngle = 0;
     rotateL = false;
     rotateR = false;
     thrustShip = false;
     shootShip = false;
+    shootDelay = 0;
 
     ship->show();
 }
@@ -102,38 +110,31 @@ void KAsteroidsView::newShip()
 void KAsteroidsView::readSprites()
 {
     largeRockImg = new QwSpritePixmapSequence(
-	SPRITES_PREFIX + ROCK1_IMAGE, 
-	SPRITES_PREFIX + ROCK1_MASK, 
-	ROCK1_FRAMES );
+	SPRITES_PREFIX + ROCK1_IMAGE,
+	SPRITES_PREFIX + ROCK1_MASK, ROCK1_FRAMES );
 
     mediumRockImg = new QwSpritePixmapSequence(
-	SPRITES_PREFIX + ROCK2_IMAGE, 
-	SPRITES_PREFIX + ROCK2_MASK, 
-	ROCK2_FRAMES );
+	SPRITES_PREFIX + ROCK2_IMAGE,
+	SPRITES_PREFIX + ROCK2_MASK, ROCK2_FRAMES );
 
     smallRockImg = new QwSpritePixmapSequence(
-	SPRITES_PREFIX + ROCK3_IMAGE, 
-	SPRITES_PREFIX + ROCK3_MASK, 
-	ROCK3_FRAMES );
+	SPRITES_PREFIX + ROCK3_IMAGE,
+	SPRITES_PREFIX + ROCK3_MASK, ROCK3_FRAMES );
 
     bitImg = new QwSpritePixmapSequence(
-	SPRITES_PREFIX + BITS_IMAGE, 
-	SPRITES_PREFIX + BITS_MASK, 
-	BITS_FRAMES );
+	SPRITES_PREFIX + BITS_IMAGE,
+	SPRITES_PREFIX + BITS_MASK, BITS_FRAMES );
 
     QwSpritePixmapSequence *images = new QwSpritePixmapSequence(
-	SPRITES_PREFIX + SHIP_IMAGE, 
-	SPRITES_PREFIX + SHIP_MASK, 
-	SHIP_FRAMES );
+	SPRITES_PREFIX + SHIP_IMAGE,
+	SPRITES_PREFIX + SHIP_MASK, SHIP_FRAMES );
 
     ship = new QwRealMobileSprite( *images );
     ship->setBoundsAction( QwRealMobileSprite::Wrap );
     ship->hide();
 
-    missileImg = new QwSpritePixmapSequence( 
-	SPRITES_PREFIX + MISSILE_IMAGE,
-	SPRITES_PREFIX + MISSILE_MASK, 
-	MISSILE_FRAMES );
+    missileImg = new QwSpritePixmapSequence( SPRITES_PREFIX + MISSILE_IMAGE,
+	SPRITES_PREFIX + MISSILE_MASK, MISSILE_FRAMES );
 }
 
 void KAsteroidsView::addRocks( int num )
@@ -353,20 +354,23 @@ void KAsteroidsView::processShip()
 	    hit = ship->at( sp );
 	}
 
-	int frame = ship->frame();
+	if ( rotateSlow )
+	    rotateSlow--;
 
 	if ( rotateL )
 	{
-	    if ( --frame < 0 )
-		frame = SHIP_FRAMES-1;
+	    shipAngle -= rotateSlow ? 1 : 2;
+	    if ( shipAngle < 0 )
+		shipAngle += SHIP_STEPS;
 	}
 	if ( rotateR )
 	{
-	    if ( ++frame == SHIP_FRAMES )
-		frame = 0;
+	    shipAngle += rotateSlow ? 1 : 2;
+	    if ( shipAngle >= SHIP_STEPS )
+		shipAngle -= SHIP_STEPS;
 	}
 
-	double angle = frame * 2 * M_PI / 32.0;
+	double angle = shipAngle * PI_X_2 / SHIP_STEPS;
 	double cosangle = cos( angle );
 	double sinangle = sin( angle );
 
@@ -377,12 +381,13 @@ void KAsteroidsView::processShip()
 	    ship->setVelocity( shipDx, shipDy );
 	}
 
+	int frame = shipAngle >> 1;
 	ship->frame( frame );
 	ship->forward( SHIP_SPEED );
 
 	if ( shootShip )
 	{
-	    if ( missiles.count() < 5 )
+	    if ( !shootDelay && missiles.count() < 5 )
 	    {
 		KMissile *missile = new KMissile( *missileImg );
 		missile->setBoundsAction( QwRealMobileSprite::Wrap );
@@ -390,8 +395,12 @@ void KAsteroidsView::processShip()
 				ship->exact_y()+sinangle*24, 0 );
 		missile->setVelocity( cosangle, sinangle );
 		missiles.append( missile );
+
+		shootDelay = 5;
 	    }
-	    shootShip = false;
+
+	    if ( shootDelay )
+		shootDelay--;
 	}
     }
 }

@@ -13,6 +13,7 @@
 
 #include "toplevel.moc"
 
+#include <X11/Xlib.h>
 
 #define SB_SCORE	1
 #define SB_LEVEL	2
@@ -30,21 +31,23 @@ struct SLevel
 SLevel levels[MAX_LEVELS] =
 {
     { 1, 0.8 },
-    { 1, 1.2 },
+    { 1, 1.0 },
+    { 2, 0.8 },
     { 2, 1.0 },
-    { 2, 1.2 },
-    { 2, 1.8 },
-    { 3, 1.0 },
+    { 2, 1.1 },
+    { 3, 0.9 },
+    { 3, 1.1 },
     { 3, 1.2 },
-    { 3, 1.8 },
     { 4, 1.0 },
+    { 4, 1.1 },
     { 4, 1.2 },
-    { 4, 1.8 },
     { 5, 1.0 },
-    { 5, 1.5 },
-    { 5, 2.0 },
-    { 5, 2.5 }
+    { 5, 1.1 },
+    { 5, 1.3 },
+    { 5, 1.5 }
 };
+
+
 
 KAstTopLevel::KAstTopLevel() : KFixedTopWidget()
 {
@@ -112,11 +115,11 @@ void KAstTopLevel::createStatusBar()
 {
     statusbar = new KStatusBar( this );
     QString text;
-    text.sprintf("%s:         ", klocale->translate("Score")); 
+    text.sprintf("%s:         ", klocale->translate("Score"));
     statusbar->insertItem( text, SB_SCORE );
-    text.sprintf("%s:         ", klocale->translate("Level")); 
+    text.sprintf("%s:         ", klocale->translate("Level"));
     statusbar->insertItem( text, SB_LEVEL );
-    text.sprintf("%s:       ", klocale->translate("Ships")); 
+    text.sprintf("%s:       ", klocale->translate("Ships"));
     statusbar->insertItem( text, SB_SHIPS );
 }
 
@@ -140,7 +143,7 @@ void KAstTopLevel::keyPressEvent( QKeyEvent *event )
 	    break;
 
 	case Key_Space:
-	    view->shoot();
+	    view->shoot( true );
 	    event->accept();
 	    break;
 
@@ -178,9 +181,24 @@ void KAstTopLevel::keyReleaseEvent( QKeyEvent *event )
 	    }
 	    break;
 
+	case Key_Space:
+	    view->shoot( false );
+	    event->accept();
+	    break;
+
 	default:
 	    event->ignore();
     }
+}
+
+void KAstTopLevel::focusInEvent( QFocusEvent * )
+{
+    XAutoRepeatOff( qt_xdisplay() );
+}
+
+void KAstTopLevel::focusOutEvent( QFocusEvent * )
+{
+    XAutoRepeatOn( qt_xdisplay() );
 }
 
 void KAstTopLevel::slotNewGame()
@@ -190,7 +208,7 @@ void KAstTopLevel::slotNewGame()
     text.sprintf("%s:      0", klocale->translate("Score"));
     statusbar->changeItem( text, SB_SCORE );
     level = 0;
-    text.sprintf("%s:      1", klocale->translate("Level")); 
+    text.sprintf("%s:      1", klocale->translate("Level"));
     statusbar->changeItem(text , SB_SCORE );
     shipsRemain = 5;
     text.sprintf("%s:    5", klocale->translate("Ships"));
@@ -220,6 +238,7 @@ void KAstTopLevel::slotShipKilled()
     shipsRemain--;
     char buffer[80];
     sprintf( buffer, "%s: %5d", klocale->translate("Ships"), shipsRemain );
+    sprintf( buffer, "Ships: %5d", shipsRemain );
     statusbar->changeItem( buffer, SB_SHIPS );
 
     if ( shipsRemain )

@@ -21,10 +21,10 @@ public:
     void endGame();
     void newShip();
 
-    void rotateLeft( bool r ) { rotateL = r; }
-    void rotateRight( bool r ) { rotateR = r; }
+    void rotateLeft( bool r ) { rotateL = r; rotateSlow = 5; }
+    void rotateRight( bool r ) { rotateR = r; rotateSlow = 5; }
     void thrust( bool t ) { thrustShip = t; }
-    void shoot() { shootShip = true; }
+    void shoot( bool s ) { shootShip = s; shootDelay = 0; }
 
 
 signals:
@@ -57,6 +57,10 @@ private:
     bool rotateR;
     bool thrustShip;
     bool shootShip;
+    int  shootDelay;
+
+    int  shipAngle;
+    int  rotateSlow;
 
     double shipDx;
     double shipDy;
