@@ -1,13 +1,11 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# Copyright (C) 1998 Free Software Foundation, Inc.
+# Karl Backström <backstrom@kde.org>, 1998.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-11-08 01:50+0100\n"
-"PO-Revision-Date: 1998-10-26 11:43+0100\n"
+"PO-Revision-Date: 1998-12-29 22:20+0100\n"
 "Last-Translator: Karl Backström <backstrom@kde.org>\n"
 "Language-Team: Sv <LL@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -104,7 +102,7 @@ msgstr ""
 
 #: kbbgame.cpp:487
 msgid "D'accord"
-msgstr ""
+msgstr "D'accord"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
