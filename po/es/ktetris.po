@@ -1,20 +1,10 @@
-# Transale pot for Ktetris Spanish
-# todo : Server has vanished (#: net.cpp:204 msgid "at" msgstr "at") Client has vanished
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# Nicolas HADACEK(hadacek@kde.org), 1998.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-05-30 17:50+0200\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Santiago Fernández and Jorge "
-"Valencia<jorgev@est.unileon.es>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"PO-Revision-Date: 1998-06-17 21:27+0200\n"
+"Last-Translator: Santiago Fernández and\n"
+"Last-Translator: Jorge Valencia<jorgev@est.unileon.es>\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: board.cpp:66 dialogs.cpp:137
 msgid "Anonymous"
@@ -66,7 +56,7 @@ msgstr "Rotar a la derecha"
 
 #: board.cpp:372
 msgid "Highscores file not writable !"
-msgstr "¡ El archivo de puntuaciones no es modificable !"
+msgstr "¡El archivo de puntuaciones no es modificable!"
 
 #: net.cpp:129
 msgid "Illegal port"
@@ -194,7 +184,7 @@ msgstr "Cliente"
 
 #: dialogs.cpp:183
 msgid "Player name :"
-msgstr "Nombre de jugador :"
+msgstr "Nombre del jugador :"
 
 #: dialogs.cpp:185
 msgid "Server address :"
@@ -298,7 +288,7 @@ msgstr "&Teclas"
 
 #: main.cpp:30
 msgid "Tetris"
-msgstr ""
+msgstr "Tetris"
 
 #: main.cpp:32
 msgid ""
@@ -306,32 +296,10 @@ msgid ""
 "\n"
 "by Nicolas Hadacek"
 msgstr ""
+"\n"
+"\n"
+"por Nicolas Hadacek"
 
 #: main.cpp:64
 msgid "Show menu"
-msgstr "Mostrar menu"
-
-#~ msgid "You suck !"
-#~ msgstr "¡ La mangaste !"
-
-#~ msgid "&Contents"
-#~ msgstr "&Contenidos"
-
-#~ msgid "About &Qt"
-#~ msgstr "Acerca de &Qt"
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK(hadacek@kde.org)\n"
-#~ "tetris kernel by Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "por Nicolas HADACEK(hadacek@kde.org)\n"
-#~ "Núcleo del tetris por Eirik ENG.\n"
-#~ "http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"
-
-#~ msgid "ktetris : about"
-#~ msgstr "ktetris : Acerca de"
+msgstr "Mostrar menú"

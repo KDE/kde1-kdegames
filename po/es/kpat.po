@@ -1,18 +1,9 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "PO-Revision-Date: 1997-10-DA HO:MI+ZONE\n"
-"Last-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=CHARSET\n"
-"Content-Transfer-Encoding: ENCODING\n"
+"First-Translator: Alejandro Sualdea <asualdea@pika.net>\n"
+"Last-Translator: Boris Wesslowski <bwess@gmx.net>\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
@@ -20,7 +11,7 @@ msgstr "Por favor espere, cargando cartas"
 
 #: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
-msgstr "KPat- un juego de solitarios"
+msgstr "KPat - un juego de solitarios"
 
 #: cardmaps.cpp:105
 #, c-format
@@ -101,9 +92,8 @@ msgstr ""
 "¿Está seguro de que así lo desea?"
 
 #: mod3.cpp:137
-#, fuzzy
 msgid "No more cards"
-msgstr "Intente mover una carta:"
+msgstr "No hay mas cartas"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -139,7 +129,7 @@ msgstr "Diez"
 
 #: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
-msgstr ""
+msgstr "Mod3"
 
 #: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
@@ -184,6 +174,10 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
+"\n"
+"\n"
+"por Paul Olav Tvetei\n"
+"\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
@@ -205,94 +199,3 @@ msgstr "Imposible leer la imagen de fondo"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Automático"
-
-#, fuzzy
-#~ msgid "Help on &rules..."
-#~ msgstr "Ayuda acerca de las reglas"
-
-#, fuzzy
-#~ msgid "About &Qt..."
-#~ msgstr "Acerca de ..."
-
-#~ msgid "COMMAND %d not implemented!\n"
-#~ msgstr "Comando %d no implementado!\n"
-
-#~ msgid ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Version "
-#~ msgstr ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Versión "
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Additional work done by:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is part of the K Desktop Environment.\n"
-#~ "Use help for license information."
-#~ msgstr ""
-#~ "\n"
-#~ "Copyright (C) 1995  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Trabajo complementario realizado por \t\t \n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Este programa forma parte del 'K Desktop Environment'.\n"
-#~ "Ver la ayuda para más información sobre la licencia."
-
-#~ msgid "About kpat"
-#~ msgstr "Acerca de kpat"
-
-#, fuzzy
-#~ msgid "&Help..."
-#~ msgstr "Ayuda..."
-
-#, fuzzy
-#~ msgid "A&bout..."
-#~ msgstr "Acerca de ..."
-
-#~ msgid "Normal"
-#~ msgstr "Normal"
-
-#~ msgid "Ok"
-#~ msgstr "Continuar"
-
-#~ msgid "Information"
-#~ msgstr "Información"
-
-#~ msgid "Warning"
-#~ msgstr "Aviso"
-
-#~ msgid "&Quit"
-#~ msgstr "&Salir"
-
-#~ msgid "&File"
-#~ msgstr "&Fichero"
-
-#~ msgid "&Game"
-#~ msgstr "&Juego"
-
-#~ msgid "&Undo"
-#~ msgstr "&Desacer"
-
-#~ msgid "&Options"
-#~ msgstr "&opciones"
-
-#, fuzzy
-#~ msgid "Help"
-#~ msgstr "A&yuda"
-
-#~ msgid "Quit"
-#~ msgstr "Salir"
-
-#~ msgid "Error"
-#~ msgstr "Error"
