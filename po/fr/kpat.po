@@ -260,7 +260,7 @@ msgstr ""
 "\tMatthias Ettrich\t<ettrich@kde.org>\n"
 "\tMario Weilguni\t<mweilguni@sime.com>\n"
 "\n"
-"Ce programme fais partie du K Desktop Environment.\n"
+"Ce programme fais partie du K Desktop Environment."
 
 #: pwidget.cpp:309
 msgid "About kpat"
