@@ -1,8 +1,3 @@
-// -*- C++ -*-
-
-#ifndef GAMEWINDOW_H
-#define GAMEWINDOW_H
-
 /****************************************************************
 Copyright (c) 1998 Sandro Sigala <ssigala@globalnet.it>.
 All rights reserved.
@@ -26,6 +21,9 @@ arising out of or in connection with the use or performance of
 this software.
 ****************************************************************/
 
+#ifndef GAMEWINDOW_H
+#define GAMEWINDOW_H
+
 #include <ktopwidget.h>
 
 #include "ksmiletris.h"
@@ -45,22 +43,25 @@ private:
 	enum menuPosition { Top, Bottom, Floating };	// hack
 	KMenuBar *menu;
 	QPopupMenu *file_popup, *pieces_popup, *options_popup, *help_popup;
-	int pauseID, smilesID, symbolsID, iconsID;
+	int pauseID, smilesID, symbolsID, iconsID, soundsID;
 	KStatusBar *status;
 	GameWidget *game;
 
 public slots:
 	void menu_newGame();
 	void menu_pause();
+	void menu_endGame();
+	void menu_highScores();
 	void menu_smiles();
 	void menu_symbols();
 	void menu_icons();
+	void menu_sounds();
 	void menu_help();
 	void menu_about();
 	void menu_aboutKDE();
 
 	void updateStats(int level, int points);
-	void noStats();
+	void gameOver();
 	void movedMenu(menuPosition);
 };
 

@@ -1,8 +1,3 @@
-// -*- C++ -*-
-
-#ifndef MIRRORWIDGET_H
-#define MIRRORWIDGET_H
-
 /****************************************************************
 Copyright (c) 1998 Sandro Sigala <ssigala@globalnet.it>.
 All rights reserved.
@@ -26,13 +21,14 @@ arising out of or in connection with the use or performance of
 this software.
 ****************************************************************/
 
+#ifndef MIRRORWIDGET_H
+#define MIRRORWIDGET_H
+
 #include <qframe.h>
 
 #include "ksmiletris.h"
 
 class MirrorWidget : public QFrame {
-	Q_OBJECT
-
 public:
 	MirrorWidget(QPixmap *s, bool *game, bool *pause,
 		     QWidget *parent=0, const char *name=0);

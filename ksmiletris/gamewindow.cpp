@@ -26,17 +26,19 @@ this software.
 #include <kapp.h>
 #include <kmenubar.h>
 #include <kmsgbox.h>
-#include <qpushbt.h>
+#include <kstatusbar.h>
+#include <ktopwidget.h>
 #include <qaccel.h>
 #include <qfile.h>
 #include <qpopmenu.h>
+#include <qpushbt.h>
 #include <qtstream.h>
-#include <ktopwidget.h>
-#include <kstatusbar.h>
 
 #include "ksmiletris.h"
 #include "gamewindow.h"
 #include "gamewidget.h"
+#include "scoredialog.h"
+#include "newscoredialog.h"
 
 const int default_width = 362;
 const int default_height = 460;
@@ -49,6 +51,9 @@ GameWindow::GameWindow(QWidget *, const char *name)
 	file_popup = new QPopupMenu();
 	file_popup->insertItem("&New Game", this, SLOT(menu_newGame()), CTRL+Key_N);
         pauseID = file_popup->insertItem("&Pause", this, SLOT(menu_pause()), Key_F2);
+        file_popup->insertItem("&End Game", this, SLOT(menu_endGame()), CTRL+Key_E);
+	file_popup->insertSeparator();
+        file_popup->insertItem("&High Scores...", this, SLOT(menu_highScores()));
 	file_popup->insertSeparator();
 	file_popup->insertItem("&Quit", qApp, SLOT(quit()), CTRL+Key_Q);
 
@@ -60,6 +65,8 @@ GameWindow::GameWindow(QWidget *, const char *name)
 
 	options_popup = new QPopupMenu();
 	options_popup->insertItem("&Pieces", pieces_popup);
+	options_popup->insertSeparator();
+	soundsID = options_popup->insertItem("&Sounds", this, SLOT(menu_sounds()));
 
 	help_popup = new QPopupMenu();
 	help_popup->insertItem("&Contents", this, SLOT(menu_help()), Key_F1);
@@ -77,7 +84,7 @@ GameWindow::GameWindow(QWidget *, const char *name)
 
 	status = new KStatusBar(this);
 	status->insertItem("Level: 99", 1);
-	status->insertItem("Points: 999999", 2);
+	status->insertItem("Score: 999999", 2);
 	setStatusBar(status);
 	status->changeItem("", 1);
 	status->changeItem("", 2);
@@ -86,7 +93,7 @@ GameWindow::GameWindow(QWidget *, const char *name)
 	setView(game);
 	connect(game, SIGNAL(changedStats(int, int)),
 		this, SLOT(updateStats(int, int)));
-	connect(game, SIGNAL(noStats()), this, SLOT(noStats()));
+	connect(game, SIGNAL(gameOver()), this, SLOT(gameOver()));
 
 	resize(default_width, default_height + menu->height() + status->height());
 	setMaximumSize(width(), height());
@@ -107,6 +114,9 @@ GameWindow::GameWindow(QWidget *, const char *name)
 	case Pieces_Icons:
 		pieces_popup->setItemChecked(iconsID, true);
 	}
+
+	game->do_sounds = config->readBoolEntry("Sounds", true);
+	options_popup->setItemChecked(soundsID, game->do_sounds);
 }
 
 void GameWindow::menu_newGame()
@@ -122,6 +132,22 @@ void GameWindow::menu_pause()
 		file_popup->setItemChecked(pauseID, game->in_pause);
 		game->repaintChilds();
 	}
+}
+
+void GameWindow::menu_endGame()
+{
+	if (game->in_game) {
+		game->in_game = false;
+		game->repaintChilds();
+		file_popup->setItemChecked(pauseID, false);
+		gameOver();
+	}
+}
+
+void GameWindow::menu_highScores()
+{
+	ScoreDialog d(this);
+	d.exec();
 }
 
 void GameWindow::menu_smiles()
@@ -157,9 +183,18 @@ void GameWindow::menu_icons()
 	game->setPieces(Pieces_Icons);
 }
 
+void GameWindow::menu_sounds()
+{
+	game->do_sounds = !game->do_sounds;
+	options_popup->setItemChecked(soundsID, game->do_sounds);
+	KConfig *config = kapp->getConfig();
+	config->setGroup("Options");
+	config->writeEntry("Sounds", game->do_sounds);
+}
+
 void GameWindow::menu_help()
 {
-	KApplication::getKApplication()->invokeHTMLHelp("","");
+	kapp->invokeHTMLHelp("", "");
 }
 
 void GameWindow::menu_about()
@@ -181,13 +216,60 @@ void GameWindow::updateStats(int level, int points)
 	l.setNum(level);
 	p.setNum(points);
 	status->changeItem(QString("Level: ") + l, 1);
-	status->changeItem(QString("Points: ") + p, 2);
+	status->changeItem(QString("Score: ") + p, 2);
 }
 
-void GameWindow::noStats()
+void GameWindow::gameOver()
 {
 	status->changeItem("", 1);
 	status->changeItem("", 2);
+
+	KConfig *config = kapp->getConfig();
+	config->setGroup("High Score");
+	QString s, num, level, score, name;
+	int i;
+	for (i = 1; i <= 10; ++i) {
+		num.setNum(i);
+		s = "Pos" + num + "Score";
+		score = config->readEntry(s, 0);
+		if (game->num_points > score.toInt())
+			break;
+	}
+	if (i <= 10) {
+		NewScoreDialog d(this);
+		if (d.exec()) {
+			for (int j = 10; j > i; --j) {
+				num.setNum(j - 1);
+				s = "Pos" + num + "Level";
+				level = config->readEntry(s, "0");
+				s = "Pos" + num + "Score";
+				score = config->readEntry(s, "0");
+				s = "Pos" + num + "Name";
+				name = config->readEntry(s, "Noname");
+
+				num.setNum(j);
+				s = "Pos" + num + "Level";
+				config->writeEntry(s, level);
+				s = "Pos" + num + "Score";
+				config->writeEntry(s, score);
+				s = "Pos" + num + "Name";
+				config->writeEntry(s, name);
+			}
+
+			num.setNum(i);
+			s = "Pos" + num + "Level";
+			level.setNum(game->num_level);
+			config->writeEntry(s, level);
+			s = "Pos" + num + "Score";
+			score.setNum(game->num_points);
+			config->writeEntry(s, score);
+			s = "Pos" + num + "Name";
+			config->writeEntry(s, d.name());
+
+			ScoreDialog h(this);
+			h.exec();
+		}
+	}
 }
 
 void GameWindow::movedMenu(menuPosition pos)

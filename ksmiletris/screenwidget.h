@@ -1,8 +1,3 @@
-// -*- C++ -*-
-
-#ifndef SCREENWIDGET_H
-#define SCREENWIDGET_H
-
 /****************************************************************
 Copyright (c) 1998 Sandro Sigala <ssigala@globalnet.it>.
 All rights reserved.
@@ -26,13 +21,14 @@ arising out of or in connection with the use or performance of
 this software.
 ****************************************************************/
 
+#ifndef SCREENWIDGET_H
+#define SCREENWIDGET_H
+
 #include <qframe.h>
 
 #include "ksmiletris.h"
 
 class ScreenWidget : public QFrame {
-	Q_OBJECT
-
 public:
 	ScreenWidget(QPixmap *s, bool *game, bool *pause,
 		     QWidget *parent=0, const char *name=0);

@@ -21,6 +21,8 @@ arising out of or in connection with the use or performance of
 this software.
 ****************************************************************/
 
+#include "config.h"
+
 #include <qframe.h>
 #include <qpainter.h>
 #include <qpixmap.h>

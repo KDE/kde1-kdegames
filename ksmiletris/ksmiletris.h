@@ -1,8 +1,3 @@
-// -*- C++ -*-
-
-#ifndef KSMILETRIS_H
-#define KSMILETRIS_H
-
 /****************************************************************
 Copyright (c) 1998 Sandro Sigala <ssigala@globalnet.it>.
 All rights reserved.
@@ -25,6 +20,9 @@ in an action of contract, negligence or other tortious action,
 arising out of or in connection with the use or performance of
 this software.
 ****************************************************************/
+
+#ifndef KSMILETRIS_H
+#define KSMILETRIS_H
 
 const int sprite_width = 32;
 const int sprite_height = 32;
@@ -78,6 +76,11 @@ enum PiecesType {
 	Pieces_Smiles,
 	Pieces_Symbols,
 	Pieces_Icons
+};
+
+enum Sound {
+	Sound_Break,
+	Sound_Clear
 };
 
 #endif // !KSMILETRIS_H

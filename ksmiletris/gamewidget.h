@@ -1,8 +1,3 @@
-// -*- C++ -*-
-
-#ifndef GAMEWIDGET_H
-#define GAMEWIDGET_H
-
 /****************************************************************
 Copyright (c) 1998 Sandro Sigala <ssigala@globalnet.it>.
 All rights reserved.
@@ -26,6 +21,9 @@ arising out of or in connection with the use or performance of
 this software.
 ****************************************************************/
 
+#ifndef GAMEWIDGET_H
+#define GAMEWIDGET_H
+
 #include <qwidget.h>
 
 #include "ksmiletris.h"
@@ -34,17 +32,20 @@ class ScreenWidget;
 class MirrorWidget;
 class NextPieceWidget;
 class QTimer;
+class KAudio;
 
-class GameWidget : public QWidget
-{
+class GameWidget : public QWidget {
 	Q_OBJECT
 
 signals:
 	void changedStats(int, int);
-	void noStats();
+	void gameOver();
 
 public:
 	bool in_game, in_pause;
+	bool do_sounds;
+	int num_level;
+	int num_points;
 
 	GameWidget(QWidget *parent=0, const char *name=0);
 	~GameWidget();
@@ -64,6 +65,7 @@ public:
 	void repaintChilds();
 
 private:
+	KAudio *audio;
 	QPixmap *sprites;
 	ScreenWidget *screen;
 	MirrorWidget *mirror;
@@ -78,10 +80,9 @@ private:
 	bool fast_mode;
 	QTimer *timer;
 
-	int num_level;
 	int num_pieces_level;
-	int num_points;
 
+	void playSound(Sound s);
 	void loadSprites();
 	void loadSprite(Sprite spr, const char *path);
 	void loadMaskedSprite(Sprite spr, char *path1, const char *path2);

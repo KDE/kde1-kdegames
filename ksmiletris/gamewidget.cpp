@@ -23,6 +23,8 @@ this software.
 
 #include "config.h"
 
+#include <mediatool.h>
+#include <kaudio.h>
 #include <kapp.h>
 #include <kmsgbox.h>
 #include <qaccel.h>
@@ -46,6 +48,7 @@ this software.
 GameWidget::GameWidget(QWidget *parent, const char *name)
         : QWidget(parent, name)
 {
+	audio = new KAudio();
 	in_game = false;
 	in_pause = false;
 
@@ -75,15 +78,36 @@ GameWidget::GameWidget(QWidget *parent, const char *name)
 	next->setNextPieceSprites(next_piece);
 
 	timer = new QTimer(this);
-	connect(timer, SIGNAL(timeout()),
-		this, SLOT(timeout()));
+	connect(timer, SIGNAL(timeout()), this, SLOT(timeout()));
 }
 
 GameWidget::~GameWidget()
 {
+	delete audio;
 	delete [] sprites;
 	delete [] map;
 	delete [] mirror_sprites;
+}
+
+void GameWidget::playSound(Sound s)
+{
+	if (!do_sounds || audio->serverStatus() != 0)
+		return;
+
+	QString name;
+	switch (s) {
+	case Sound_Break:
+		name = "break.wav";
+		break;
+	case Sound_Clear:
+		name = "clear.wav";
+		break;
+	}
+
+	QString fname = kapp->kde_datadir() + "/ksmiletris/wav/" + name;
+//	audio->stop();
+	audio->play(fname);
+//	audio->sync();
 }
 
 void GameWidget::setPieces(PiecesType type)
@@ -248,7 +272,7 @@ void GameWidget::nextPiece()
 		in_game = false;
 		repaintChilds();
 		KMsgBox::message(this, "KSmileTris", "Game Over");
-		emit noStats();
+		emit gameOver();
 	}
 
 	putPiece();
@@ -355,10 +379,12 @@ void GameWidget::broke(int x, int y, bool *xmap)
 	xmap[y*scr_width + x] = true;
 	if (ref(x, y) >= Sprite_Broken1) {
 		// Clear the piece
+		playSound(Sound_Clear);
 		ref(x, y) = Sprite_Cleared;
 		num_points += 20;
 	} else {
-		// Broke the piece
+		// Break the piece
+		playSound(Sound_Break);
 		ref(x, y) = (Sprite)(Sprite_Broken1 + ref(x, y) - Sprite_Block1);
 		num_points += 10;
 	}
