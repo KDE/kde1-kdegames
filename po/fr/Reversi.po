@@ -1,0 +1,396 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 1997-09-10 17:26+0200\n"
+"PO-Revision-Date: 1997-09-15 21:56+2000\n"
+"Last-Translator: Jim Valentin <valenti@laas.fr>\n"
+"Language-Team: French <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: ENCODING\n"
+
+#: app.cpp:207 app.cpp:505
+msgid "Error"
+msgstr "Erreur"
+
+#: app.cpp:208 app.cpp:506
+msgid ""
+"A problem with the sound server occured!\n"
+"Cannot enable sound support."
+msgstr ""
+"Un problème avec le serveur audio s'est produit!\n"
+"Ne peut activer le support audio"
+
+#: app.cpp:232
+msgid "&Quit"
+msgstr "&Quitter"
+
+#: app.cpp:235
+msgid "Get &hint)"
+msgstr "Obtenir &suggestions"
+
+#: app.cpp:237
+msgid "&Stop thinking"
+msgstr "&Arrêter la réflexion"
+
+#: app.cpp:238
+msgid "&Continue"
+msgstr "&Continuer"
+
+#: app.cpp:240
+msgid "&New game"
+msgstr "&Nouvelle partie"
+
+#: app.cpp:242
+msgid "&Undo move"
+msgstr "&Défaire mouvement"
+
+#: app.cpp:243
+msgid "Switch si&des"
+msgstr "&Permuter les cotés"
+
+#: app.cpp:245
+msgid "Hall Of &Fame..."
+msgstr "&Panthéon"
+
+#: app.cpp:251
+msgid "Level 1 (Wimp)"
+msgstr "Niveau 1 (Poule mouillée)"
+
+#: app.cpp:252
+msgid "Level 2 (Beginner)"
+msgstr "Niveau 2 (Débutant)"
+
+#: app.cpp:253
+msgid "Level 3 (Novice)"
+msgstr "Niveau 3 (Novice)"
+
+#: app.cpp:254
+msgid "Level 4 (Average)"
+msgstr "Niveau 4 (Moyen)"
+
+#: app.cpp:255
+msgid "Level 5 (Good)"
+msgstr "Niveau 5 (Bon)"
+
+#: app.cpp:256
+msgid "Level 6 (Expert)"
+msgstr "Niveau 6 (Expert)"
+
+#: app.cpp:257
+msgid "Level 7 (Master)"
+msgstr "Niveau 7 (Maître)"
+
+#: app.cpp:258
+msgid "Skill"
+msgstr "Habilité"
+
+#: app.cpp:260
+msgid "&Shrink board"
+msgstr "&Réduire le jeu"
+
+#: app.cpp:261
+msgid "&Enlarge board"
+msgstr "&Agrandir le jeu"
+
+#: app.cpp:265
+msgid "&Half size"
+msgstr "Taille de &moitié"
+
+#: app.cpp:266
+#, c-format
+msgid "60%"
+msgstr "60%"
+
+#: app.cpp:267
+#, c-format
+msgid "80%"
+msgstr "80%"
+
+#: app.cpp:268
+msgid "D&efault size"
+msgstr "Taille par dé&faut"
+
+#: app.cpp:269
+#, c-format
+msgid "120%"
+msgstr "120%"
+
+#: app.cpp:270
+#, c-format
+msgid "140%"
+msgstr "140%"
+
+#: app.cpp:271
+#, c-format
+msgid "160%"
+msgstr "160%"
+
+#: app.cpp:272
+#, c-format
+msgid "180%"
+msgstr "180%"
+
+#: app.cpp:273
+msgid "&Double size"
+msgstr "Taille &double"
+
+#: app.cpp:274
+msgid "Set size"
+msgstr "Taille"
+
+#: app.cpp:277
+msgid "Select &background color..."
+msgstr "Sélectionner &couleur de fond"
+
+#: app.cpp:283
+msgid "none"
+msgstr "aucune"
+
+#: app.cpp:293
+msgid "Select background image"
+msgstr "Sélectionner image de fond"
+
+#: app.cpp:294
+msgid "&Grayscale"
+msgstr "&Niveaux de gris"
+
+#: app.cpp:296
+msgid "&Animations"
+msgstr "&Animations"
+
+#: app.cpp:300
+msgid "1 (fastest)"
+msgstr "1 (rapide)"
+
+#: app.cpp:306
+msgid "10 (slowest)"
+msgstr "10 (lent)"
+
+#: app.cpp:307
+msgid "Animation speed"
+msgstr "Vitesse d'animation"
+
+#: app.cpp:310
+msgid "S&ound"
+msgstr "S&on"
+
+#: app.cpp:314 app.cpp:324
+msgid "&Help"
+msgstr "&Aide"
+
+#: app.cpp:315
+msgid "&Rules"
+msgstr "&Règles"
+
+#: app.cpp:316
+msgid "&Strategy hints"
+msgstr "&Suggestions de stratégie"
+
+#: app.cpp:318
+msgid "&About..."
+msgstr "&A propos..."
+
+#: app.cpp:320
+msgid "&File"
+msgstr "&Fichier"
+
+#: app.cpp:321
+msgid "&Game"
+msgstr "&Jeu"
+
+#: app.cpp:322
+msgid "&Options"
+msgstr "&Options"
+
+#: app.cpp:357
+msgid "Stop thinking"
+msgstr "Arrêter la réflexion"
+
+#: app.cpp:358
+msgid "Undo move"
+msgstr "Défaire mouvement"
+
+#: app.cpp:359
+msgid "Shrink board"
+msgstr "Réduire le jeu"
+
+#: app.cpp:360
+msgid "Enlarge board"
+msgstr "Agrandir le jeu"
+
+#: app.cpp:361
+msgid "Get hint"
+msgstr "Obtenir suggestion"
+
+#: app.cpp:362
+msgid "Get help"
+msgstr "Obtenir l'aide"
+
+#: app.cpp:369
+msgid "XXXXX's turn"
+msgstr "tour de XXXX"
+
+#: app.cpp:370
+msgid "You (XXXXX): 88"
+msgstr "Vous (XXXX) : 88"
+
+#: app.cpp:371
+msgid "Computer (XXXXX): 88"
+msgstr "Ordinateur (XXXX) : 88"
+
+#: app.cpp:556
+msgid "Information"
+msgstr "Information"
+
+#: app.cpp:556
+msgid "not yet implemented"
+msgstr "pas encore implementé"
+
+#: app.cpp:570 app.cpp:574 app.cpp:841
+msgid "blue"
+msgstr "bleu"
+
+#: app.cpp:571 app.cpp:573 app.cpp:843
+msgid "red"
+msgstr "rouge"
+
+#: app.cpp:618
+msgid "End of game"
+msgstr "Fin du jeu"
+
+#: app.cpp:628
+#, c-format
+msgid ""
+"Game is drawn!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"Match nul!\n"
+"\n"
+"Vous      : %d\n"
+"Ordinateur: %d"
+
+#: app.cpp:629 app.cpp:641 app.cpp:661
+msgid "Game ended"
+msgstr "Le jeu est fini"
+
+#: app.cpp:639
+msgid ""
+"Congratulations, you have won!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d\n"
+"Your rating %4.1f%%"
+msgstr ""
+"Félicitations, vous avez gagné!\n"
+"\n"
+"Vous      : %d\n"
+"Ordinateur: %d"
+"Votre score %4.1f%%"
+
+
+#: app.cpp:659
+#, c-format
+msgid ""
+"You have lost the game!\n"
+"\n"
+"You     : %d\n"
+"Computer: %d"
+msgstr ""
+"Vous avez perdu la partie!\n"
+"\n"
+"Vous      : %d\n"
+"Ordinateur: %d"
+
+#: app.cpp:670
+msgid "Red's"
+msgstr "Les Rouges"
+
+#: app.cpp:670 app.cpp:672
+msgid "turn"
+msgstr " jouent"
+
+#: app.cpp:672
+msgid "Blue's"
+msgstr "Les Bleus"
+
+#: app.cpp:811
+msgid "Hall of Fame"
+msgstr "Panthéon"
+
+#: app.cpp:812
+msgid "Close"
+msgstr "Fermer"
+
+#: app.cpp:814 app.cpp:816
+msgid "KReversi: Hall Of Fame"
+msgstr "KReversi: Panthéon"
+
+#: app.cpp:866
+msgid ""
+"You've made in into the \"Hall Of Fame\". Type in your name so mankind will "
+"always remember your cool rating."
+msgstr "Vous rentrez dans le \"Panthéon\". Tapez votre nom pour que l'humanité "
+"puisse se souvenir de votre score."
+
+#: app.cpp:871
+msgid "Your name:"
+msgstr "Votre nom:"
+
+#: about.cpp:83 app.cpp:880
+msgid "Ok"
+msgstr "Ok"
+
+#: about.cpp:52
+msgid "About KReversi"
+msgstr "A propos de KReversi"
+
+#: about.cpp:67
+msgid "Version "
+msgstr "Version"
+
+#: about.cpp:69
+msgid ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software published under the GNU General Public License "
+"(take a look into help for details)\n"
+"\n"
+"Thanks to:\n"
+"\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
+"\n"
+"\tStephan Kulow <coolo@itm.mu-luebeck.de> for comments and bugfixes\n"
+"\n"
+"\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
+msgstr ""
+"\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Ce programme est un logiciel gratuit distribué sous la GNU General Public License "
+"(Jetez un oeil dans l'aide pour plus de détails)\n
+"\n"
+"Remerciements:\n"
+"\tMats Luthman pour le moteur du jeu (Je l'ai porté à partir de son applet JAVA)\n"
+"\n"
+"\tStephan Kulow <coolo@itm.mu-luebeck.de> pour ses commentaires et ses corrections de bugs\n"
+"\n"
+"\tArne Klaassen <klaassen@informatik.uni-rostock.de> pour ses jetons ray-tracés"
+
+
+#: app.cpp:569 app.cpp:574
+#, c-format
+msgid "You (%s): %d"
+msgstr "Vous (%s): %d"
+
+#: app.cpp:571 app.cpp:576
+#, c-format
+msgid "Computer (%s): %d"
+msgstr "Ordinateur (%s): %d"
