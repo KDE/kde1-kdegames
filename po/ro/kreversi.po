@@ -75,7 +75,7 @@ msgstr "Salveazã jocul&"
 
 #: app.cpp:252
 msgid "Get &hint)"
-msgstr "Propune &miºcarea
+msgstr "Propune &miºcarea"
 
 #: app.cpp:254
 msgid "&Stop thinking"
