@@ -1,10 +1,11 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Snake Race
+Name[br]=Redadeg an naer
 Name[ca]=Cursa de serps
 Name[cs]=Závod hadù
 Name[da]=Slangeløb
-Name[de]=Schlangen-Rennen
+Name[de]=Schlangenrennen
 Name[es]=Serpiente
 Name[fi]=Käärmeralli
 Name[fr]=Le serpent
@@ -24,6 +25,7 @@ Icon=ksnake.xpm
 Exec=ksnake -caption "%c"
 DocPath=ksnake/index.html
 Comment=Eat all items before the computer
+Comment[br]=Debrit kement tra kent an urzhiataer
 Comment[ca]=Menja-t'ho tot abans que l'ordinador
 Comment[cs]=Snìz v¹echny pøedmìty døív ne¾ poèítaè
 Comment[da]=Spis det hele før maskinen
@@ -34,7 +36,6 @@ Comment[fr]=Mangez tout avant l'ordinateur !
 Comment[hr]=Pojedi sve predmete prije raèunala
 Comment[hu]=Egyél meg mindent a gép elol
 Comment[is]=ksnake:  Át í kapp við tölvuna
-Comment[it]=Mangia tutti gli oggetti prima del computer
 Comment[no]=Spis alt før datamaskinen
 Comment[pl]=Zjedz wszystkie owoce, zanim to zrobi komputer.
 Comment[pt]=Coma tudo antes que o computador o faça
