@@ -68,7 +68,7 @@ msgstr "&Carregar jogo"
 
 #: app.cpp:247
 msgid "&Save game"
-msgstr "&Gravar jogo"
+msgstr "&Salvar jogo"
 
 #: app.cpp:252
 msgid "Get &hint"
