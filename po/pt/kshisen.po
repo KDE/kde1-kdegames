@@ -51,11 +51,11 @@ msgstr "24x12"
 
 #: app.cpp:128
 msgid "26x14"
-msgstr ""
+msgstr "26x14"
 
 #: app.cpp:129
 msgid "30x16"
-msgstr ""
+msgstr "30x16"
 
 #: app.cpp:133
 msgid "Very fast"
@@ -186,9 +186,3 @@ msgstr "Tamanho"
 #: app.cpp:650
 msgid "Score"
 msgstr "Pontuação"
-
-#~ msgid "28x16"
-#~ msgstr "28x16"
-
-#~ msgid "32x20"
-#~ msgstr "32x20"

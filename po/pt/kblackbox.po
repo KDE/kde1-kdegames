@@ -11,19 +11,19 @@ msgstr ""
 
 #: kbbgame.cpp:75 kbbgame.cpp:116
 msgid "&Help"
-msgstr ""
+msgstr "&Ajuda"
 
 #: kbbgame.cpp:78
 msgid "&About KBlackBox"
-msgstr ""
+msgstr "&Acerca do KBlackBox"
 
 #: kbbgame.cpp:80
 msgid "About &Qt"
-msgstr ""
+msgstr "Acerca do &Qt"
 
 #: kbbgame.cpp:83
 msgid "&Quit"
-msgstr ""
+msgstr "&Sair"
 
 #: kbbgame.cpp:86
 msgid "&New"
@@ -55,19 +55,19 @@ msgstr "&Guia"
 
 #: kbbgame.cpp:112
 msgid "&File"
-msgstr ""
+msgstr "&Ficheiro"
 
 #: kbbgame.cpp:113
 msgid "&Game"
-msgstr ""
+msgstr "&Jogo"
 
 #: kbbgame.cpp:114
 msgid "&Options"
-msgstr ""
+msgstr "&Opções"
 
 #: kbbgame.cpp:172
 msgid "Quit"
-msgstr ""
+msgstr "Sair"
 
 #: kbbgame.cpp:174
 msgid "New"
@@ -83,11 +83,11 @@ msgstr "Feito"
 
 #: kbbgame.cpp:181
 msgid "Help"
-msgstr ""
+msgstr "Ajuda"
 
 #: kbbgame.cpp:408
 msgid "About"
-msgstr ""
+msgstr "Acerca"
 
 #: kbbgame.cpp:410
 msgid ""
@@ -101,7 +101,7 @@ msgstr ""
 
 #: kbbgame.cpp:415
 msgid "Qt information"
-msgstr ""
+msgstr "Informação do Qt"
 
 #: kbbgame.cpp:434 kbbgame.cpp:553 kbbgame.cpp:609 kbbgame.cpp:638
 msgid "Warning!"
@@ -151,11 +151,11 @@ msgstr "Jogar"
 
 #: kbbgame.cpp:574
 msgid "Yes"
-msgstr ""
+msgstr "Sim"
 
 #: kbbgame.cpp:577
 msgid "No"
-msgstr ""
+msgstr "Não"
 
 #: kbbgame.cpp:580
 msgid "Size"

@@ -129,7 +129,7 @@ msgstr "O Idiota"
 
 #: pwidget.cpp:105 pwidget.cpp:269
 msgid "Grandfather"
-msgstr "Padrinho"
+msgstr "Avôzinho"
 
 #: pwidget.cpp:106 pwidget.cpp:257
 msgid "Ten"
@@ -188,7 +188,7 @@ msgstr ""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr ""
+msgstr "Trabalho adicional por:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

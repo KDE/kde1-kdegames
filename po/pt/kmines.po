@@ -107,11 +107,11 @@ msgstr "&Pausar jogo"
 
 #: main.cpp:54
 msgid "&High scores"
-msgstr "/Quadro de honra"
+msgstr "&Quadro de honra"
 
 #: main.cpp:56
 msgid "&Print"
-msgstr ""
+msgstr "&Imprimir"
 
 #: main.cpp:64
 msgid "? mark"

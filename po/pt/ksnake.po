@@ -181,16 +181,16 @@ msgstr "Tecla indefinida"
 
 #: keys.cpp:153
 msgid "Up"
-msgstr ""
+msgstr "Cima"
 
 #: keys.cpp:154
 msgid "Down"
-msgstr ""
+msgstr "Baixo"
 
 #: keys.cpp:155
 msgid "Left"
-msgstr ""
+msgstr "Esquerda"
 
 #: keys.cpp:156
 msgid "Right"
-msgstr ""
+msgstr "Direita"

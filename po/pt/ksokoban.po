@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban\n"
-"POT-Creation-Date: 1999-03-22 01:46+0100\n"
+"POT-Creation-Date: 1998-11-07 01:51+0100\n"
 "PO-Revision-Date: 1998-11-20 00:00+0000\n"
 "Last-Translator: Pedro Morais <morais@kde.org>\n"
 "Language-Team: pt\n"
@@ -123,7 +123,7 @@ msgstr "Movimentos:"
 msgid "Level:"
 msgstr "Nível:"
 
-#: MainWindow.C:249
+#: MainWindow.C:248
 msgid "(invalid)"
 msgstr "(inválido)"
 
