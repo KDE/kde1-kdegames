@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Tetris
 Name[hu]=Tetrisz
+Name[ru]=Ù≈‘“…”
 Icon=ktetris.xpm
 Exec=ktetris -caption "%c" %i %m
 Type=Application
@@ -20,5 +21,6 @@ Comment[pl]=Jeszcze jedna wersja Tetrisa
 Comment[pt]=Outro jogo de Tetris
 Comment[pt_BR]=Outro jogo de Tetris
 Comment[ro]=Joc de Tetris
+Comment[ru]=Â›≈ œƒ…Œ ‘≈‘“…”
 Comment[sk]=œalπia tetrisov· hra
 Comment[sv]=Ett till Tetris-spel
