@@ -53,7 +53,7 @@ msgstr ""
 "\tMats Luthman za game engine (igra je naèinjena na osnovu njegovog JAVA "
 "appleta)\n"
 "\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> za komentare i uklanjanje gre¹aka\n"
+"\tStephan Kulow <coolo@kde.org> za komentare i uklanjanje gre¹aka\n"
 "\n"
 "\tArne Klaassen <klaassen@informatik.uni-rostock.de> za animirane ¾etone"
 

@@ -56,7 +56,7 @@ msgstr ""
 "Thanks to:\n"
 "\tMats Luthman for the game engine (I've ported it from his JAVA applet)\n"
 "\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> for comments and bugfixes\n"
+"\tStephan Kulow <coolo@kde.org> for comments and bugfixes\n"
 "\n"
 "\tArne Klaassen <klaassen@informatik.uni-rostock.de> for the raytraced chips"
 

@@ -42,7 +42,7 @@ msgstr ""
 "Gracias a:\n"
 "\tMats Luthman por el motor del juego (Lo he portado de su applet de JAVA)\n"
 "\n"
-"\tStephan Kulow <coolo@itm.mu-luebeck.de> por los comentarios y correciones\n"
+"\tStephan Kulow <coolo@kde.org> por los comentarios y correciones\n"
 "\n"
 "\tArne Klaassen <klaassen@informatik.uni-rostock.de> por los raytraced chips"
 
