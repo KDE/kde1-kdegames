@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: ksokoban-1.1\n"
-"POT-Creation-Date: 1998-11-07 01:51+0100\n"
+"POT-Creation-Date: 1999-03-22 01:46+0100\n"
 "PO-Revision-Date: 1999-03-20 07:32+0200\n"
 "Last-Translator: Romuald Texier <texierr@worldnet.fr>\n"
 "Language-Team: Brezhoneg <Suav.Icb@wanadoo.fr>\n"
@@ -103,7 +103,8 @@ msgstr ""
 "C'hoari Sokoban evit KDE\n"
 "\n"
 "Gwirioù eilañ ksokoban (c) 1998 gant Anders Widell <d95-awi@nada.kth.se>\n"
-"Sellit ouzh http://hem.passagen.se/awl/ksokoban/ evit titouroù a-zivout ksokoban\n"
+"Sellit ouzh http://hem.passagen.se/awl/ksokoban/ evit titouroù a-zivout "
+"ksokoban\n"
 "\n"
 "Gwirioù al liveoù gant o aozerien :\n"
 "\n"
@@ -128,7 +129,7 @@ msgstr "Fiñvoù :"
 msgid "Level:"
 msgstr "Live :"
 
-#: MainWindow.C:248
+#: MainWindow.C:249
 msgid "(invalid)"
 msgstr "(siek)"
 
