@@ -6,9 +6,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KDE Games/kblackbox\n"
 "POT-Creation-Date: 1999-03-05 01:33+0100\n"
-"PO-Revision-Date: 1999-02-16 11:52-0500\n"
+"PO-Revision-Date: 1999-05-28 11:52-0500\n"
 "Last-Translator: Erik Kjær Pedersen <erik@binghamton.edu>\n"
-"Language-Team: da <LL@li.org>\n"
+"Language-Team: da <da@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO_8859-1\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -67,7 +67,7 @@ msgstr "&Spil"
 
 #: kbbgame.cpp:114
 msgid "&Options"
-msgstr "&Muligheder"
+msgstr "&Indstillinger"
 
 #: kbbgame.cpp:172
 msgid "Quit"
@@ -134,7 +134,7 @@ msgstr "Flot!"
 
 #: kbbgame.cpp:493
 msgid "Damned!"
-msgstr "Øøøv!"
+msgstr "Øv!"
 
 #: kbbgame.cpp:496
 #, c-format
@@ -147,7 +147,7 @@ msgstr ""
 
 #: kbbgame.cpp:498
 msgid "D'accord"
-msgstr "OK"
+msgstr "I orden"
 
 #: kbbgame.cpp:573 kbbgame.cpp:576
 msgid "Run"
