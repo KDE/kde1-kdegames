@@ -39,7 +39,7 @@ msgstr "Spiel starten"
 
 #: board.cpp:371
 msgid "Highscores file not writable !"
-msgstr "Highscore-Datei schreibgeschützt !"
+msgstr "Highscore-Datei schreibgeschützt!"
 
 #: net.cpp:129
 msgid "Illegal port"
@@ -151,7 +151,7 @@ msgstr "Ruhmeshalle"
 
 #: dialogs.cpp:156
 msgid "No option yet !"
-msgstr "Bisher keine Option !"
+msgstr "Bisher keine Option!"
 
 #: dialogs.cpp:175 dialogs.cpp:232
 msgid "Network Dialog"
@@ -171,11 +171,11 @@ msgstr "Spielername :"
 
 #: dialogs.cpp:185
 msgid "Server address :"
-msgstr "Server-Adresse :"
+msgstr "Server-Adresse:"
 
 #: dialogs.cpp:187
 msgid "Port :"
-msgstr "Port :"
+msgstr "Port:"
 
 #: dialogs.cpp:199
 msgid "Connect"
@@ -183,11 +183,11 @@ msgstr "Verbinden"
 
 #: dialogs.cpp:202
 msgid "Connecting ..."
-msgstr "Verbinde ..."
+msgstr "Verbinde..."
 
 #: dialogs.cpp:205
 msgid "Play !"
-msgstr "Spielen !"
+msgstr "Spielen!"
 
 #: dialogs.cpp:252
 msgid "Network game"
@@ -203,7 +203,7 @@ msgstr "Client-Modus"
 
 #: dialogs.cpp:336
 msgid "Waiting for other player(s) ..."
-msgstr "Warte auf andere Spieler ..."
+msgstr "Warte auf andere Spieler..."
 
 #: field.cpp:27
 msgid "New game"
@@ -288,24 +288,3 @@ msgstr "von"
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Menü zeigen"
-
-#~ msgid "Close dialog"
-#~ msgstr "Schließen"
-
-#~ msgid "Ok dialog"
-#~ msgstr "OK"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Abbruch"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "von Nicolas Hadacek"

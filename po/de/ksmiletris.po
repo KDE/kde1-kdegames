@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksmiletris\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: 1998-12-12 19:01+0100\n"
-"Last-Translator: Stephan Kulow <coolo@kde.org>\n"
+"PO-Revision-Date: 1999-01-13 16:25+MET\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>"
+"Translator: Stephan Kulow <coolo@kde.org>\n"
 
 #: gamewindow.cpp:49
 msgid "Smiletris"
@@ -42,7 +43,7 @@ msgid "&Sounds"
 msgstr "&Geräusche"
 
 #: gamewindow.cpp:73
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "KSmiletris %s\n"
 "\n"
@@ -50,7 +51,7 @@ msgid ""
 "\n"
 "Feedbacks are welcome!\n"
 msgstr ""
-"KSmiletris %d\n"
+"KSmiletris %s\n"
 "\n"
 "von Sandro Sigala <ssigala@globalnet.it>\n"
 "\n"

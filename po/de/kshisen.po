@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
 "POT-Creation-Date: 1999-01-04 01:41+0100\n"
-"PO-Revision-Date: 1998-05-11 14:16+0100\n"
-"Last-Translator: Tobias Burnus <burnus@berlin1.netsurf.de>\n"
+"PO-Revision-Date: 1999-01-13 16:25+MET\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>"
 "Language-Team: German <de@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=ISO-8859-1\n"
@@ -52,11 +52,11 @@ msgstr "24x12"
 
 #: app.cpp:128
 msgid "26x14"
-msgstr ""
+msgstr "26x14"
 
 #: app.cpp:129
 msgid "30x16"
-msgstr ""
+msgstr "30x16"
 
 #: app.cpp:133
 msgid "Very fast"
@@ -187,9 +187,3 @@ msgstr "Größe"
 #: app.cpp:650
 msgid "Score"
 msgstr "Score"
-
-#~ msgid "28x16"
-#~ msgstr "28x16"
-
-#~ msgid "32x20"
-#~ msgstr "32x20"

@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: Mario Weilguni <mweilguni@sime.com>\n"
+"PO-Revision-Date: 1999-01-13 16:20+MET\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>"
+"Translator: Mario Weilguni <mweilguni@sime.com>\n"
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
@@ -21,7 +22,7 @@ msgstr "KPat: schwerer Fehler, kann Kartenbild \"%s\" nicht laden\n"
 #: cardmaps.cpp:205
 #, c-format
 msgid "KPAT: access to invalid card %d, %d\n"
-msgstr "KPAT: schwerer Fehler, Zugriff auf nicht vorhandene Karte %d, %d\n"
+msgstr "KPAT: schwerer Fehler. Zugriff auf nicht vorhandene Karte %d, %d\n"
 
 #: computation.cpp:92
 msgid "Easy 4"
@@ -69,7 +70,7 @@ msgstr "Einfache Regeln"
 
 #: klondike.cpp:68
 msgid "Hard rules"
-msgstr "Schwere Regeln"
+msgstr "Strenge Regeln"
 
 #: klondike.cpp:94
 msgid ""
@@ -185,7 +186,7 @@ msgstr ""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr ""
+msgstr "Zusätzliche Arbeit von:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"
@@ -207,46 +208,3 @@ msgstr "Kann Hintergrundbild nicht laden!"
 #: mod3.cpp:137
 msgid "No more cards"
 msgstr "Keine Karten mehr"
-
-#~ msgid "Help on &rules..."
-#~ msgstr "Hilfe zu den &Regeln.."
-
-#~ msgid "About &Qt..."
-#~ msgstr "Über &Qt..."
-
-#~ msgid "COMMAND %d not implemented!\n"
-#~ msgstr "Kommando %d nicht verfügbar!\n"
-
-#~ msgid ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Version "
-#~ msgstr ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Version "
-
-#~ msgid ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Additional work done by:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is part of the K Desktop Environment.\n"
-#~ "Use help for license information."
-#~ msgstr ""
-#~ "\n"
-#~ "Copyright (C) 1997 Paul Olav Tvete\n"
-#~ "\n"
-#~ "Erweitert von:\t\t \n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Dieses Programm ist Teil des \"K Desktop Environment\".\n"
-#~ "Näheres zu den Lizenzbedingungen in der Hilfe."
-
-#~ msgid "About kpat"
-#~ msgstr "Über kpat"

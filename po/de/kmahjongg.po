@@ -2,8 +2,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Mahjongg\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: 1997-10-25 18:54 MET DST\n"
-"Last-Translator: Mathias Mueller <in5y158@public.uni-hamburg.de>\n"
+"PO-Revision-Date: 1999-01-13 16:15+MET\n"
+"Last-Translator: Thomas Diehl <th_diehl@csi.com>"
+"Translator: Mathias Mueller <in5y158@public.uni-hamburg.de>\n"
 
 #: kmahjongg.cpp:101
 msgid "Classic"
@@ -56,9 +57,12 @@ msgid ""
 "\n"
 "by Mathias Mueller (in5y158@public.uni-hamburg.de)"
 msgstr ""
+"Mahjongg %s\n"
+"\n"
+"von Mathias Mueller (in5y158@public.uni-hamburg.de)"
 
 #: kmahjongg.cpp:386 kmahjongg.cpp:400
-msgid "Unable to open bitmap file !"
+msgid "Unable to open bitmap file!"
 msgstr "Fehler beim Öffnen einer Bitmap-Datei!"
 
 #: kmahjongg.cpp:454
@@ -68,12 +72,12 @@ msgstr "Letzter Zug wurde rückgängig gemacht."
 #: kmahjongg.cpp:457
 msgid "What do you want to undo? You have done nothing!"
 msgstr ""
-"Was möchten Sie rückgängig machen? Sie haben doch noch garnichts gemacht!"
+"Was möchten Sie rückgängig machen? Sie haben doch noch gar nichts getan!"
 
 # kmahjongg..cpp:452,1410
 #: kmahjongg.cpp:472 kmahjongg.cpp:1436
 msgid "Sorry, you have lost the game."
-msgstr "Schade, Sie haben das Spiel verloren."
+msgstr "Sorry: Sie haben das Spiel verloren."
 
 #: kmahjongg.cpp:503
 msgid "Demo mode. Click mousebutton to stop."
@@ -97,7 +101,7 @@ msgstr "Neues Spiel wird berechnet..."
 
 #: kmahjongg.cpp:649
 msgid "Error converting board information!"
-msgstr "Fehler beim konvertieren der Spielinformationen !"
+msgstr "Fehler beim Konvertieren der Spielinformationen !"
 
 #: kmahjongg.cpp:661
 msgid "Ready. Now it's your turn."
@@ -105,7 +109,7 @@ msgstr "Fertig. Jetzt sind Sie an der Reihe."
 
 #: kmahjongg.cpp:667
 msgid "Error generating new game!"
-msgstr "Fehler beim erstellen des Spiels!"
+msgstr "Fehler beim Erstellen des Spiels!"
 
 #: kmahjongg.cpp:1665
 #, c-format
@@ -113,7 +117,7 @@ msgid ""
 "Failed to load image:\n"
 "%s"
 msgstr ""
-"Fehler beim Laben des Bildes:\n"
+"Fehler beim Laden des Bildes:\n"
 "%s"
 
 #: kmahjongg.cpp:1676
@@ -124,15 +128,3 @@ msgid ""
 msgstr ""
 "Sorry, dieses Bild benutzt %d Farben.\n"
 "Erlaubtes Maximum ist %d"
-
-#~ msgid "Mahjongg"
-#~ msgstr "Majongg"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Mathias Mueller"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "von Matthias Mueller"
