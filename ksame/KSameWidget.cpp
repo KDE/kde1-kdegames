@@ -79,9 +79,9 @@ KSameWidget::KSameWidget() {
   menu->insertSeparator();
 
 
-  QPopupMenu *help = kapp->getHelpMenu(true, klocale->translate("SameGame"
-				       " " KSAME_VERSION
-				       "\n\nby Marcus Kreutzberger"
+  QPopupMenu *help = kapp->getHelpMenu(true, QString(klocale->translate("SameGame")) +
+				       " " KSAME_VERSION +
+				       klocale->translate("\n\nby Marcus Kreutzberger"
 				       " (kreutzbe@informatik.mu-luebeck.de)"));
   menu->insertItem(klocale->translate("Help"),help);
 
