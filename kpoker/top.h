@@ -15,7 +15,7 @@ class kpok;
 
 class PokerWindow : public KTopLevelWidget
 {
-	Q_OBJECT;
+	Q_OBJECT
 private:
 	KMenuBar        *menu;
 	
