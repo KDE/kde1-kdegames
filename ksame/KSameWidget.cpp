@@ -47,51 +47,51 @@ KSameWidget::KSameWidget() {
 
   QPopupMenu *gamemenu=new QPopupMenu;
   gamemenu->setAccel(CTRL+Key_N,
-		     gamemenu->insertItem("New",this, SLOT(m_new())));
+		     gamemenu->insertItem(klocale->translate("New"),this, SLOT(m_new())));
   gamemenu->setAccel(CTRL+Key_L,
-		     gamemenu->insertItem("Load",this, SLOT(m_load())));
+		     gamemenu->insertItem(klocale->translate("Load"),this, SLOT(m_load())));
   gamemenu->setAccel(CTRL+Key_S,
-		     gamemenu->insertItem("Save",this, SLOT(m_save())));
+		     gamemenu->insertItem(klocale->translate("Save"),this, SLOT(m_save())));
   gamemenu->insertSeparator();
   gamemenu->setAccel(CTRL+Key_H,
-		     gamemenu->insertItem("Show Highscore",this, SLOT(m_showhs())));
+		     gamemenu->insertItem(klocale->translate("Show Highscore"),this, SLOT(m_showhs())));
   gamemenu->insertSeparator();
   gamemenu->setAccel(CTRL+Key_Q,
-		     gamemenu->insertItem("Quit",this, SLOT(m_quit())));
+		     gamemenu->insertItem(klocale->translate("Quit"),this, SLOT(m_quit())));
 
 
-  menu->insertItem("Game",gamemenu);
+  menu->insertItem(klocale->translate("Game"),gamemenu);
   menu->insertSeparator();
   optionsmenu = new QPopupMenu;
   optionsmenu->setCheckable(true);
 
   colorsmenu = new QPopupMenu;
   colorsmenu->setCheckable(true);
-  colorsmenu->insertItem("2", two_item );
-  colorsmenu->insertItem("3", three_item );
-  colorsmenu->insertItem("4", four_item ); 
+  colorsmenu->insertItem(klocale->translate("2"), two_item );
+  colorsmenu->insertItem(klocale->translate("3"), three_item );
+  colorsmenu->insertItem(klocale->translate("4"), four_item ); 
   connect (colorsmenu, SIGNAL (activated (int)), SLOT (m_colors(int)));
-  //  optionsmenu->insertItem("Colors",colorsmenu);
+  //  optionsmenu->insertItem(klocale->translate("Colors"),colorsmenu);
 
-  random_item = optionsmenu->insertItem("Random Board",this, SLOT(m_tglboard()));
+  random_item = optionsmenu->insertItem(klocale->translate("Random Board"),this, SLOT(m_tglboard()));
   optionsmenu->setAccel(CTRL+Key_R,random_item);
-  menu->insertItem("Options",optionsmenu);
+  menu->insertItem(klocale->translate("Options"),optionsmenu);
   menu->insertSeparator();
 
 
-  QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("SameGame"))
-				       + " " + KSAME_VERSION
-				       + "\n\nby Marcus Kreutzberger"
-				       + " (kreutzbe@informatik.mu-luebeck.de)");
-  menu->insertItem("Help",help);
+  QPopupMenu *help = kapp->getHelpMenu(true, klocale->translate("SameGame"
+				       " " KSAME_VERSION
+				       "\n\nby Marcus Kreutzberger"
+				       " (kreutzbe@informatik.mu-luebeck.de)"));
+  menu->insertItem(klocale->translate("Help"),help);
 
   setMenu(menu);
   
   status=new KStatusBar(this);
-  status->insertItem("Colors: XX",1);
-  status->insertItem("Board: XXXXXX",2);
-  status->insertItem("Marked: XXXXXX",3);
-  status->insertItem("Score: XXXXXX",4);
+  status->insertItem(klocale->translate("Colors: XX"),1);
+  status->insertItem(klocale->translate("Board: XXXXXX"),2);
+  status->insertItem(klocale->translate("Marked: XXXXXX"),3);
+  status->insertItem(klocale->translate("Score: XXXXXX"),4);
   status->setAlignment(4,AlignRight);
   setStatusBar(status);
   
@@ -131,19 +131,19 @@ KSameWidget::~KSameWidget() {
 void KSameWidget::m_new() {
      if (israndom) {
 	  if (stone->gameover()||
-	      (KMsgBox::yesNo(this, "ksame - New", 
-			      "Do you want to resign?", KMsgBox::STOP)==1)) {
+	      (KMsgBox::yesNo(this, klocale->translate("ksame - New"), 
+			      klocale->translate("Do you want to resign?"), KMsgBox::STOP)==1)) {
 	       srand(time(0));
 	       set_board(rand());
 	       stone->newgame(board);
 	  }
      } else {
-	  QDialog dlg(0,"Board",1);
+	  QDialog dlg(0,klocale->translate("Board"),1);
 	  int w=10,h=10;
 	  
-	  KIntegerLine bno(&dlg,"Hallo");
+	  KIntegerLine bno(&dlg,klocale->translate("Hallo"));
 	  bno.setFocus();
-	  QLabel l(&bno,"Please &enter the board number:",&dlg);
+	  QLabel l(&bno,klocale->translate("Please &enter the board number:"),&dlg);
 	  
 	  l.move(10,h);
 	  l.resize(l.sizeHint());
@@ -153,9 +153,9 @@ void KSameWidget::m_new() {
 	  w=MAX(bno.width()+20,w);
 	  h+=bno.height()+10;
      
-	  QPushButton ok("Ok", &dlg);
+	  QPushButton ok(klocale->translate("Ok"), &dlg);
 	  ok.setDefault(true);
-	  QPushButton cancel("Cancel", &dlg);
+	  QPushButton cancel(klocale->translate("Cancel"), &dlg);
 	  
 	  w=MAX(ok.width()+cancel.width()+40,w);
 	  
@@ -178,10 +178,10 @@ void KSameWidget::m_new() {
 	  
 }
 void KSameWidget::m_load() {
-     debug("menu load not supported"); 
+     debug(klocale->translate("menu load not supported")); 
 }
 void KSameWidget::m_save() {
-     debug("menu save not supported");
+     debug(klocale->translate("menu save not supported"));
 }
 void KSameWidget::m_showhs() {
      if (highscore->isVisible())
@@ -189,18 +189,18 @@ void KSameWidget::m_showhs() {
      else highscore->show();
 }
 void KSameWidget::m_quit() {
-     if (KMsgBox::yesNo(this, "ksame - Quit", 
-			"Do you want really quit?", KMsgBox::STOP)==1) {
+     if (KMsgBox::yesNo(this, klocale->translate("ksame - Quit"), 
+			klocale->translate("Do you want really quit?"), KMsgBox::STOP)==1) {
 	  kapp->quit();
      }
 }
 
 void KSameWidget::m_colors( int id) {
-     debug("menu colors not supported");
+     debug(klocale->translate("menu colors not supported"));
      int colors=id;
      char p[30];
      colors=stone->colors();
-     sprintf(p,"Colors: %01i",colors);
+     sprintf(p,klocale->translate("Colors: %01i"),colors);
      status->changeItem(p,1);
 }
 
@@ -213,21 +213,21 @@ void KSameWidget::set_board(int no) {
      char p[30];
      if (no<0) no*=-1;
      board=no%1000000;
-     sprintf(p,"Board: %06i",board);
+     sprintf(p,klocale->translate("Board: %06i"),board);
      status->changeItem(p,2);        
 }
 void KSameWidget::gameover() {
-     debug("GameOver");
+     debug(klocale->translate("GameOver"));
      highscore->add(stone->board(),stone->score(),stone->colors());
 }
 void KSameWidget::set_marked(int m) {
     char p[30];
-    sprintf(p,"Marked: %06i",m);
+    sprintf(p,klocale->translate("Marked: %06i"),m);
     status->changeItem(p,3);   
 }
 void KSameWidget::set_score(int score) {
     char p[30];
-    sprintf(p,"Score: %06i",score);
+    sprintf(p,klocale->translate("Score: %06i"),score);
     status->changeItem(p,4);   
 }
 void KSameWidget::history_add(int x,int y) {
@@ -240,7 +240,7 @@ void KSameWidget::history_clear() {
 void KSameWidget::readProperties(KConfig *conf) {
      history.clear();
      
-     if (!conf->hasKey("Board")||!conf->hasKey("Stones")) {
+     if (!conf->hasKey(klocale->translate("Board"))||!conf->hasKey(klocale->translate("Stones"))) {
 	  set_board(time(0));
 	  return;
      }

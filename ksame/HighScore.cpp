@@ -32,7 +32,7 @@
 
 HighScore::HighScore( QWidget *parent ) : QWindow(parent,"Highscore") {
 
-     ok=new QPushButton("Close",this);
+     ok=new QPushButton(klocale->translate("Close"),this);
      ok->setDefault(true);
      ok->setFocus();
      connect(ok, SIGNAL(clicked()),this, SLOT(hide()) );
@@ -59,7 +59,7 @@ HighScore::paintEvent ( QPaintEvent * ) {
      int w=0,h=0;
      int c,tw;
      
-     char *title="HiGh sCorE";
+     const char *title=klocale->translate("HiGh sCorE");
      QString value;
      QFont tf(p.font());
      tf.setPointSize(tf.pointSize()+5);
@@ -101,12 +101,12 @@ HighScore::add(int board, int score,int colors) {
      if (hiscore_used&&hiscore_used==HS_MAXENTRY&&score<=hiscore[hiscore_used-1].score) 
 	  return;
      // Nach dem Namen fragen
-     QDialog dlg(0,"Board",1);
+     QDialog dlg(0,klocale->translate("Board"),1);
      int w=10,h=10;
      
-     QLineEdit name(&dlg,"Name");
+     QLineEdit name(&dlg,klocale->translate("Name"));
      name.setFocus();
-     QLabel l(&name,"Please &enter your name:",&dlg);
+     QLabel l(&name,klocale->translate("Please &enter your name:"),&dlg);
      
      l.move(10,h);
      l.resize(l.sizeHint());
@@ -116,7 +116,7 @@ HighScore::add(int board, int score,int colors) {
      w=MAX(name.width()+20,w);
      h+=name.height()+10;
      
-     QPushButton ok("Ok", &dlg);
+     QPushButton ok(klocale->translate("Ok"), &dlg);
      ok.setDefault(true);
      
      w=MAX(ok.width()+20,w);
@@ -145,7 +145,7 @@ HighScore::add(int board, int score,int colors,char *name) {
 	  while (*name==' ') name++;
 	  if (*name) strncpy(playername,name,16);
      }
-     if (!*playername) strncpy(playername,"Anonymous",16);
+     if (!*playername) strncpy(playername,klocale->translate("Anonymous"),16);
      playername[16]=0;
      for (i=hiscore_used;i>0;i--) {
 	  if (score<=hiscore[i-1].score) break;
