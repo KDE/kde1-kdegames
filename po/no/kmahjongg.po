@@ -77,7 +77,7 @@ msgstr "Ikke i stand til å åpne bitmap fil!"
 
 #: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
-msgstr "Angre operasjon lyktes"
+msgstr "Angre operasjon lyktes."
 
 #: kmahjongg.cpp:458
 msgid "What do you want to undo? You have done nothing!"
@@ -89,7 +89,7 @@ msgstr "Beklager, du tapte spillet."
 
 #: kmahjongg.cpp:504
 msgid "Demo mode. Click mousebutton to stop."
-msgstr "Demo. Klikk på musa for å stoppe."
+msgstr "Demo. Klikk på musen for å stoppe."
 
 #: kmahjongg.cpp:512
 msgid "Now it's you again."
