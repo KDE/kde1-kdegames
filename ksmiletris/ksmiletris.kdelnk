@@ -10,6 +10,7 @@ Comment[pl]=Kolejna tetrisopodobna gra
 Comment[pt_BR]=Outro jogo no estilo Tetris
 Comment[sk]=Ïal¹ia hra podobná Tetrisu
 Comment[no]=Enda et Tetris-lignende spill
+Comment[fi]=Tetriksen tyylinen peli
 Exec=ksmiletris -caption "%c" %i %m
 Icon=ksmiletris.xpm
 TerminalOptions=
