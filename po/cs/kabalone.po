@@ -139,33 +139,5 @@ msgid "Best move so far:"
 msgstr "Dposud nejlep¹í tah:"
 
 #: Spy.cpp:75
-#, fuzzy
 msgid "Spion"
-msgstr "Mo¾nosti"
-
-#~ msgid "New Game"
-#~ msgstr "Nová hra"
-
-#~ msgid "Quit"
-#~ msgstr "Ukonèit"
-
-#~ msgid "Normal"
-#~ msgstr "Normální"
-
-#~ msgid "About"
-#~ msgstr "Informace"
-
-#~ msgid "File"
-#~ msgstr "Soubor"
-
-#~ msgid "Help"
-#~ msgstr "Nápovìda"
-
-#~ msgid "Save"
-#~ msgstr "Ulo¾it"
-
-#~ msgid "Right"
-#~ msgstr "Vpravo"
-
-#~ msgid "Left"
-#~ msgstr "Vlevo"
+msgstr ""

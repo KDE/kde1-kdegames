@@ -26,9 +26,8 @@ msgid "Ships"
 msgstr "Lodì"
 
 #: toplevel.cpp:165
-#, fuzzy
 msgid "&About..."
-msgstr "&Informace"
+msgstr "&Informace ..."
 
 #: toplevel.cpp:262
 msgid "Press Enter to launch."
@@ -45,15 +44,3 @@ msgstr "Loï znièena. Stiskni Enter ke spu¹tìní."
 #: toplevel.cpp:300
 msgid "Game Over!"
 msgstr "Hra skonèena!"
-
-#~ msgid "&New Game"
-#~ msgstr "&Nová hra"
-
-#~ msgid "&Quit"
-#~ msgstr "&Ukonèit"
-
-#~ msgid "&File"
-#~ msgstr "&Soubor"
-
-#~ msgid "&Help"
-#~ msgstr "&Nápovìda"

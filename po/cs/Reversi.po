@@ -369,25 +369,23 @@ msgstr "KReversi: Hala Slávy"
 
 #: app.cpp:892
 msgid "Rank"
-msgstr ""
+msgstr "Poøadí"
 
 #: app.cpp:896
-#, fuzzy
 msgid "Name"
-msgstr "&Hra"
+msgstr "Jméno"
 
 #: app.cpp:900
-#, fuzzy
 msgid "Color"
-msgstr "Uzavøi"
+msgstr "Barva"
 
 #: app.cpp:904
 msgid "Score"
-msgstr ""
+msgstr "Skóre"
 
 #: app.cpp:908
 msgid "Rating"
-msgstr ""
+msgstr "Hodnocení"
 
 #: app.cpp:998
 msgid ""
@@ -401,24 +399,3 @@ msgstr ""
 #: app.cpp:1001
 msgid "Your name:"
 msgstr "Va¹e jméno:"
-
-#~ msgid "Information"
-#~ msgstr "Informace"
-
-#~ msgid "Error"
-#~ msgstr "Chyba"
-
-#~ msgid "&Quit"
-#~ msgstr "&Ukonèit"
-
-#~ msgid "&Help"
-#~ msgstr "&Nápovìda"
-
-#~ msgid "&File"
-#~ msgstr "&Soubor"
-
-#~ msgid "&Options"
-#~ msgstr "&Mo¾nosti"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"

@@ -122,18 +122,5 @@ msgid "&About..."
 msgstr "&Informace..."
 
 #: top.cpp:82
-#, fuzzy
 msgid "About &Qt..."
-msgstr "&Informace..."
-
-#~ msgid "&Quit"
-#~ msgstr "&Ukonèit"
-
-#~ msgid "&Help"
-#~ msgstr "&Nápovìda"
-
-#~ msgid "&File"
-#~ msgstr "&Soubor"
-
-#~ msgid "&Options"
-#~ msgstr "&Mo¾nosti"
+msgstr "Informace o &Qt ..."

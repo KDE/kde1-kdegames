@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
-"POT-Creation-Date: 1998-01-06 14:08+0100\n"
+"POT-Creation-Date: 1998-01-02 15:01+0100\n"
 "PO-Revision-Date: 1997-10-18 17:21 MET DST\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <LL@li.org>\n"
@@ -71,7 +71,7 @@ msgstr "Tì¾ká 5"
 msgid "Try to move card:"
 msgstr "Skus pøesunout kartu:"
 
-#: grandf.cpp:113 mod3.cpp:56
+#: grandf.cpp:113
 msgid "Redeal"
 msgstr "Znovu rozdej"
 
@@ -99,106 +99,97 @@ msgstr ""
 "Toto ukonèí souèsnou hru\n"
 "Jste si jisti, ¾e si to pøejete?"
 
-#: mod3.cpp:136
-#, fuzzy
-msgid "No more cards"
-msgstr "Skus pøesunout kartu:"
-
-#: pwidget.cpp:98
+#: pwidget.cpp:96
 msgid "&Restart game"
 msgstr "&Restartuj hru"
 
-#: pwidget.cpp:102
+#: pwidget.cpp:100
 msgid "&Klondike"
 msgstr "&Klondike"
 
-#: pwidget.cpp:103 pwidget.cpp:287
+#: pwidget.cpp:101 pwidget.cpp:271
 msgid "MicroSolitaire"
 msgstr "Mikrosolitare"
 
-#: pwidget.cpp:104 pwidget.cpp:291
+#: pwidget.cpp:102 pwidget.cpp:275
 msgid "Calculation"
 msgstr "Výpoèet"
 
-#: pwidget.cpp:105
+#: pwidget.cpp:103
 msgid "Napoleon's Tomb"
 msgstr "Napoleonova hrobka"
 
-#: pwidget.cpp:106 pwidget.cpp:295
+#: pwidget.cpp:104 pwidget.cpp:279
 msgid "The Idiot"
 msgstr "Idiot"
 
-#: pwidget.cpp:107 pwidget.cpp:279
+#: pwidget.cpp:105 pwidget.cpp:263
 msgid "Grandfather"
 msgstr "Dìdeèek"
 
-#: pwidget.cpp:108 pwidget.cpp:267
+#: pwidget.cpp:106 pwidget.cpp:259
 msgid "Ten"
 msgstr "Desítka"
 
-#: pwidget.cpp:109 pwidget.cpp:271
-msgid "Mod3"
-msgstr ""
-
-#: pwidget.cpp:110 pwidget.cpp:275
-msgid "Freecell"
-msgstr ""
-
-#: pwidget.cpp:112
+#: pwidget.cpp:108
 msgid "Choose new game"
 msgstr "Zvol novou hru"
 
-#: pwidget.cpp:118
+#: pwidget.cpp:114
 msgid "KDE"
 msgstr "KDE"
 
-#: pwidget.cpp:119
+#: pwidget.cpp:115
 msgid "Classic blue"
 msgstr "Klasické modré"
 
-#: pwidget.cpp:120
+#: pwidget.cpp:116
 msgid "Classic red"
 msgstr "Klasické èervené"
 
-#: pwidget.cpp:121
+#: pwidget.cpp:117
 msgid "Technical"
 msgstr "Technické"
 
-#: pwidget.cpp:122
+#: pwidget.cpp:118
 msgid "Card backside"
 msgstr "Zadní strana karet"
 
-#: pwidget.cpp:123
+#: pwidget.cpp:119
 msgid "Animation on startup"
 msgstr "Animace pøi startu"
 
-#: pwidget.cpp:129
+#: pwidget.cpp:124
+msgid "&Help..."
+msgstr "&Nápovìda..."
+
+#: pwidget.cpp:125
 msgid "Help on &rules..."
 msgstr "Nápovìda k &pravidlùm..."
 
-#: pwidget.cpp:131
+#: pwidget.cpp:127
 msgid "About &Qt..."
 msgstr "Informace o &Qt"
 
-#: pwidget.cpp:254
+#: pwidget.cpp:246
 #, c-format
 msgid "COMMAND %d not implemented!\n"
 msgstr "Pøíkaz %d není implementován!\n"
 
-#: pwidget.cpp:283
+#: pwidget.cpp:267
 msgid "Klondike"
 msgstr "Klondike"
 
-#: pwidget.cpp:299
+#: pwidget.cpp:283
 msgid "Napoleons Tomb"
 msgstr "Napoleonova hrobka"
 
-#: pwidget.cpp:304
+#: pwidget.cpp:288
 #, c-format
 msgid "kpat: unimplemented game type %d\n"
 msgstr "kpat: neimplementovaný typ hry %d\n"
 
-#: pwidget.cpp:336
+#: pwidget.cpp:320
 msgid ""
 "KPat\n"
 "\n"
@@ -208,14 +199,12 @@ msgstr ""
 "\n"
 "Verze "
 
-#: pwidget.cpp:338
-#, fuzzy
+#: pwidget.cpp:322
 msgid ""
 "\n"
-"Copyright (C) 1997  Paul Olav Tvete\n"
+"Copyright (C) 1995  Paul Olav Tvete\n"
 "\n"
-"Additional work done by:\n"
-"\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
+"Additional work done by:\t\t \n"
 "\tMatthias Ettrich\t<ettrich@kde.org>\n"
 "\tMario Weilguni\t<mweilguni@sime.com>\n"
 "\n"
@@ -232,56 +221,14 @@ msgstr ""
 "Tento program souèástí KDE.\n"
 "Pro informaci k licenèním podmínkám  pou¾ij nápovìdu."
 
-#: pwidget.cpp:347
+#: pwidget.cpp:330
 msgid "About kpat"
 msgstr "Informace o kpatu"
 
-#: pwidget.cpp:385
+#: pwidget.cpp:368
 msgid "Could not load background image!"
 msgstr "Nemoho nahrát obrázek zadní strany!"
 
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Plnì automatické"
-
-#~ msgid "&Help..."
-#~ msgstr "&Nápovìda..."
-
-#~ msgid "A&bout..."
-#~ msgstr "&Informace..."
-
-#~ msgid "Normal"
-#~ msgstr "Normální"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Information"
-#~ msgstr "Informace"
-
-#~ msgid "Warning"
-#~ msgstr "Varovaní"
-
-#~ msgid "&Quit"
-#~ msgstr "&Ukonèit"
-
-#~ msgid "&File"
-#~ msgstr "&Soubor"
-
-#~ msgid "&Game"
-#~ msgstr "&Hra"
-
-#~ msgid "&Undo"
-#~ msgstr "&Zpìt"
-
-#~ msgid "&Options"
-#~ msgstr "&Mo¾nosti"
-
-#~ msgid "Help"
-#~ msgstr "Nápovìda"
-
-#~ msgid "Quit"
-#~ msgstr "Ukonèit"
-
-#~ msgid "Error"
-#~ msgstr "Chyba"
