@@ -18,8 +18,6 @@ ksnake_SOURCES = game.cpp trys.cpp rattler.cpp board.cpp\
 
 ksnake_METASOURCES = USE_AUTOMOC
 
-DISTCLEANFILES = $(ksnake_METASOURCES)
-
 bin_PROGRAMS = 	ksnake
 
 ######### build rules ################
@@ -27,16 +25,15 @@ bin_PROGRAMS = 	ksnake
 apps_DATA = ksnake.kdelnk
 appsdir = $(kde_appsdir)/Games
 
-icon_DATA = ksnake.xpm
-icondir = $(kde_icondir)
+kde_icon_DATA = ksnake.xpm
 
-EXTRA_DIST = $(apps_DATA) $(icon_DATA) mini-ksnake.xpm
+EXTRA_DIST = $(apps_DATA) $(kde_icon_DATA) mini-ksnake.xpm
 
 SUBDIRS = doc data 
 
-install-data-local: all
+install-data-local: 
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-ksnake.xpm $(kde_minidir)/ksnake.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-ksnake.xpm $(kde_minidir)/ksnake.xpm
 
 uninstall-local:
 	-rm -f $(kde_minidir)/ksnake.xpm

@@ -149,7 +149,7 @@ void Spion::updateBest(int depth, int value, Move& m, bool cutoff)
   }
 }
 
-#include "Spion.moc"
+#include "Spy.moc"
 
 #endif
 

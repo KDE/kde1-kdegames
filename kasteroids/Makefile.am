@@ -5,8 +5,7 @@ LDFLAGS = $(all_libraries) $(KDE_RPATH)
 LDADD =   -lQwSpriteField -lmediatool     $(LIB_KDEUI) $(LIBCOMPAT)
 
 kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp
-BUILTSOURCES = view.moc toplevel.moc kfixedtopwidget.moc
-DISTCLEANFILES = $(BUILTSOURCES)
+METASOURCES = view.moc toplevel.moc kfixedtopwidget.moc
 
 noinst_HEADERS = kfixedtopwidget.h sprites.h toplevel.h version.h view.h
 
@@ -22,29 +21,15 @@ pics_DATA = bg.ppm
 appsdir = $(kde_appsdir)/Games
 apps_DATA = kasteroids.kdelnk
 
-icondir = $(kde_icondir)
-icon_DATA = kasteroids.xpm
+kde_icon_DATA = kasteroids.xpm
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-kasteroids.xpm $(kde_minidir)/kasteroids.xpm
- 
+	$(INSTALL_DATA) $(srcdir)/mini-kasteroids.xpm $(kde_minidir)/kasteroids.xpm
+
 uninstall-local:
 	-rm -f $(kde_minidir)/kasteroids.xpm
 
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kasteroids_SOURCES) && mv messages.po ../po/kasteroids.pot
-
-# Dependencies
-view.cpp:view.moc
-view.moc: view.h
-	$(MOC) view.h -o view.moc
-
-toplevel.cpp:toplevel.moc
-toplevel.moc: toplevel.h
-	$(MOC) toplevel.h -o toplevel.moc
-
-kfixedtopwidget.cpp:kfixedtopwidget.moc
-kfixedtopwidget.moc: kfixedtopwidget.h
-	$(MOC) kfixedtopwidget.h -o kfixedtopwidget.moc
 

@@ -9,8 +9,7 @@ KDELNKDIR= $(kde_appsdir)/Games
 
 kabalone_SOURCES = Board.cpp Move.cpp BoardWidget.cpp AbTop.cpp \
 	 kabalone.cpp Spy.cpp
-SRCMETA =	Board.moc AbTop.moc BoardWidget.moc Spy.moc
-DISTCLEANFILES = $(SRCMETA)
+METASOURCES =	Board.moc AbTop.moc BoardWidget.moc Spy.moc
 
 noinst_HEADERS = AbTop.h Board.h BoardWidget.h Spy.h Move.h version.h
 EXTRA_DIST = kabalone.xpm mini-kabalone.xpm kabalone.kdelnk
@@ -30,7 +29,7 @@ apps_DATA = kabalone.kdelnk
 
 install-data-local:
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-kabalone.xpm $(kde_minidir)/kabalone.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-kabalone.xpm $(kde_minidir)/kabalone.xpm
 
 uninstall-local:
 	-rm -f $(kde_minidir)/kabalone.xpm
@@ -38,33 +37,16 @@ uninstall-local:
 messages:
 	$(XGETTEXT) -C -ktranslate -ki18n -x $(includedir)/kde.pot $(kabalone_SOURCES) && mv messages.po ../po/kabalone.pot
 
-AbTop.cpp:AbTop.moc
-AbTop.moc: AbTop.h
-	$(MOC) AbTop.h -o AbTop.moc
-
-Spy.cpp:Spy.moc
-Spy.moc: Spy.h
-	$(MOC) Spy.h -o Spy.moc
-
-BoardWidget.cpp:BoardWidget.moc
-BoardWidget.moc: BoardWidget.h
-	$(MOC) BoardWidget.h -o BoardWidget.moc
-
-Board.cpp:Board.moc
-Board.moc: Board.h
-	$(MOC) Board.h -o Board.moc
-
-
 # DO NOT DELETE
-AbTop.cpp: AbTop.h Board.h Move.h BoardWidget.h Spy.h AbTop.moc
-Board.cpp: Board.h Move.h Board.moc
+AbTop.cpp: AbTop.h Board.h Move.h BoardWidget.h Spy.h 
+Board.cpp: Board.h Move.h 
 BoardWidget.cpp: Board.h Move.h BoardWidget.h bitmaps/Arrow1 bitmaps/Arrow1Mask
 BoardWidget.cpp: bitmaps/Arrow2 bitmaps/Arrow2Mask bitmaps/Arrow3
 BoardWidget.cpp: bitmaps/Arrow3Mask bitmaps/Arrow4 bitmaps/Arrow4Mask
 BoardWidget.cpp: bitmaps/Arrow5 bitmaps/Arrow5Mask bitmaps/Arrow6
-BoardWidget.cpp: bitmaps/Arrow6Mask BoardWidget.moc
+BoardWidget.cpp: bitmaps/Arrow6Mask 
 Move.cpp: Move.h
-Spy.cpp: Spy.h Board.h Move.h BoardWidget.h Spy.moc
+Spy.cpp: Spy.h Board.h Move.h BoardWidget.h 
 kabalone.cpp: AbTop.h Board.h Move.h BoardWidget.h Spy.h
 
 

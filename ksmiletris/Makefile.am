@@ -19,22 +19,20 @@ noinst_HEADERS = ksmiletris.h gamewindow.h gamewidget.h \
 		 screenwidget.h mirrorwidget.h npiecewidget.h \
 		 scoredialog.h newscoredialog.h
 
-DISTCLEANFILES = $(ksmiletris_METASOURCES)
-
 EXTRA_DIST = ksmiletris.xpm mini-ksmiletris.xpm ksmiletris.kdelnk
 
 messages:
 	$(XGETTEXT) -C -ki18n -x $(includedir)/kde.pot $(ksmiletris_SOURCES) && mv messages.po ../po/ksmiletris.pot
 
+kde_icon_DATA = ksmiletris.xpm
+
 install-data-local: 
 	$(mkinstalldirs) $(APPSDIR)
-	$(INSTALL_DATA) ksmiletris.kdelnk $(APPSDIR)
-	$(mkinstalldirs) $(kde_icondir)
-	$(INSTALL_DATA) ksmiletris.xpm $(kde_icondir)
+	$(INSTALL_DATA) $(srcdir)/ksmiletris.kdelnk $(APPSDIR)
 	$(mkinstalldirs) $(kde_minidir)
-	$(INSTALL_DATA) mini-ksmiletris.xpm $(kde_minidir)/ksmiletris.xpm
+	$(INSTALL_DATA) $(srcdir)/mini-ksmiletris.xpm $(kde_minidir)/ksmiletris.xpm
 
 uninstall-local:
 	-rm -f $(APPSDIR)/ksmiletris.kdelnk
-	-rm -f $(kde_icondir)/ksmiletris.xpm
 	-rm -f $(kde_minidir)/ksmiletris.xpm
+
