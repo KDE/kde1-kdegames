@@ -23,7 +23,7 @@ msgstr "&Recomeçar nível"
 
 #: MainWindow.C:55
 msgid "&Level collection"
-msgstr "Coleção de &Níveis"
+msgstr "Colecção de &Níveis"
 
 #: MainWindow.C:66
 msgid "&Small"
@@ -31,7 +31,7 @@ msgstr "&Pequenos"
 
 #: MainWindow.C:67 MainWindow.C:78
 msgid "&Medium"
-msgstr "&Médios"
+msgstr "&Normais"
 
 #: MainWindow.C:68
 msgid "&Large"
@@ -43,19 +43,19 @@ msgstr "G&ráficos"
 
 #: MainWindow.C:77
 msgid "&Slow"
-msgstr "&Lenta"
+msgstr "&Lentas"
 
 #: MainWindow.C:79
 msgid "&Fast"
-msgstr "&Rápida"
+msgstr "&Rápidas"
 
 #: MainWindow.C:80
 msgid "&Off"
-msgstr "&Desligada"
+msgstr "&Desligadas"
 
 #: MainWindow.C:83
 msgid "&Animation"
-msgstr "&Animação"
+msgstr "&Animações"
 
 #: MainWindow.C:87 MainWindow.C:89 MainWindow.C:91 MainWindow.C:93
 #: MainWindow.C:95 MainWindow.C:97 MainWindow.C:99 MainWindow.C:101
@@ -137,7 +137,7 @@ msgid ""
 "the current collection."
 msgstr ""
 "Este é o último nível\n"
-"da coleção actual."
+"da colecção actual."
 
 #: PlayField.C:499
 msgid ""
@@ -153,4 +153,4 @@ msgid ""
 "the current collection."
 msgstr ""
 "Este é o primeiro nível\n"
-"da coleção actual."
+"da colecção actual."

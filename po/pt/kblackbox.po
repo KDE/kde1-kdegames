@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kblackbox\n"
-"POT-Creation-Date: 1999-01-21 01:39+0100\n"
+"POT-Creation-Date: 1998-11-08 01:50+0100\n"
 "PO-Revision-Date: 1998-02-13 00:00+0000\n"
 "Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
 "Language-Team: pt\n"
@@ -9,130 +9,86 @@ msgstr ""
 "Content-Type:\n"
 "Content-Transfer-Encoding:\n"
 
-#: kbbgame.cpp:73 kbbgame.cpp:114
-msgid "&Help"
-msgstr ""
-
-#: kbbgame.cpp:76
-msgid "&About KBlackBox"
-msgstr ""
-
-#: kbbgame.cpp:78
-msgid "About &Qt"
-msgstr ""
-
-#: kbbgame.cpp:81
-msgid "&Quit"
-msgstr ""
-
-#: kbbgame.cpp:84
-msgid "&New"
-msgstr "&Novo"
-
-#: kbbgame.cpp:85
-msgid "&Give up"
-msgstr "&Desistir"
-
-#: kbbgame.cpp:86
-msgid "&Done"
-msgstr "&Feito"
-
-#: kbbgame.cpp:88
-msgid "&Resize"
-msgstr "&Mudar tamanho"
-
-#: kbbgame.cpp:100
-msgid "&Size"
-msgstr "&Tamanho"
-
-#: kbbgame.cpp:101
-msgid "&Balls"
-msgstr "&Bolas"
-
-#: kbbgame.cpp:102
-msgid "&Tutorial"
-msgstr "&Guia"
-
-#: kbbgame.cpp:110
-msgid "&File"
-msgstr ""
-
-#: kbbgame.cpp:111
-msgid "&Game"
-msgstr ""
-
-#: kbbgame.cpp:112
-msgid "&Options"
-msgstr ""
-
-#: kbbgame.cpp:170
-msgid "Quit"
-msgstr ""
-
-#: kbbgame.cpp:172
-msgid "New"
-msgstr "Novo"
-
-#: kbbgame.cpp:174
-msgid "Give up"
-msgstr "Desistir"
-
-#: kbbgame.cpp:176
-msgid "Done"
-msgstr "Feito"
-
-#: kbbgame.cpp:179
-msgid "Help"
-msgstr ""
-
-#: kbbgame.cpp:406
-msgid "About"
-msgstr ""
-
-#: kbbgame.cpp:408
+#: kbbgame.cpp:72
 msgid ""
 "KBlackBox logical game\n"
 "author: Robert Cimrman\n"
 "e-mail: cimrman3@students.zcu.cz"
 msgstr ""
-"Jogo lógico KBlackbox\n"
+"Caixa Preta\n"
 "Autor: Robert Cimrman\n"
 "e-mail: cimrman3@students.zcu.cz"
 
-#: kbbgame.cpp:413
-msgid "Qt information"
-msgstr ""
+#: kbbgame.cpp:81
+msgid "&New"
+msgstr "&Novo"
 
-#: kbbgame.cpp:432 kbbgame.cpp:551 kbbgame.cpp:607 kbbgame.cpp:636
+#: kbbgame.cpp:82
+msgid "&Give up"
+msgstr "&Desistir"
+
+#: kbbgame.cpp:83
+msgid "&Done"
+msgstr "&Concluído"
+
+#: kbbgame.cpp:85
+msgid "&Resize"
+msgstr "&Mudar tamanho"
+
+#: kbbgame.cpp:97
+msgid "&Size"
+msgstr "&Tamanho"
+
+#: kbbgame.cpp:98
+msgid "&Balls"
+msgstr "&Bolas"
+
+#: kbbgame.cpp:99
+msgid "&Tutorial"
+msgstr "&Guia"
+
+#: kbbgame.cpp:170
+msgid "New"
+msgstr "Novo"
+
+#: kbbgame.cpp:172
+msgid "Give up"
+msgstr "Desistir"
+
+#: kbbgame.cpp:174
+msgid "Done"
+msgstr "Feito"
+
+#: kbbgame.cpp:423 kbbgame.cpp:542 kbbgame.cpp:598 kbbgame.cpp:625
 msgid "Warning!"
 msgstr "Aviso!"
 
-#: kbbgame.cpp:434 kbbgame.cpp:553
+#: kbbgame.cpp:425 kbbgame.cpp:544
 msgid "Do you really want to give up this game?"
 msgstr "Quer mesmo desistir deste jogo?"
 
-#: kbbgame.cpp:435 kbbgame.cpp:554
+#: kbbgame.cpp:426 kbbgame.cpp:545
 msgid "Yes, I'm burnt out."
 msgstr "Sim, estou exausto."
 
-#: kbbgame.cpp:436 kbbgame.cpp:555
+#: kbbgame.cpp:427 kbbgame.cpp:546
 msgid "No, not yet..."
 msgstr "Não, ainda não..."
 
-#: kbbgame.cpp:487
+#: kbbgame.cpp:478
 #, c-format
 msgid "Your final score is: %d."
 msgstr "A sua pontuação é: %d."
 
-#: kbbgame.cpp:489
+#: kbbgame.cpp:480
 msgid "Wow!"
 msgstr "Fixe!"
 
-#: kbbgame.cpp:491
+#: kbbgame.cpp:482
 msgid "Damned!"
-msgstr "Danado!"
+msgstr "Raios!"
 
-#: kbbgame.cpp:494
+#: kbbgame.cpp:485
 #, c-format
 msgid ""
 "You should place %d balls!\n"
@@ -141,42 +97,34 @@ msgstr ""
 "Deve colocar %d bolas!\n"
 "Colocou %d."
 
-#: kbbgame.cpp:496
+#: kbbgame.cpp:487
 msgid "D'accord"
 msgstr "D'accord"
 
-#: kbbgame.cpp:571 kbbgame.cpp:574
+#: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
-msgstr "Correr"
+msgstr "Jogar"
+
+#: kbbgame.cpp:569
+msgid "Size"
+msgstr "Tam."
 
 #: kbbgame.cpp:572
-msgid "Yes"
-msgstr ""
-
-#: kbbgame.cpp:575
-msgid "No"
-msgstr ""
-
-#: kbbgame.cpp:578
-msgid "Size"
-msgstr "Tamanho"
-
-#: kbbgame.cpp:581
 msgid "Placed"
-msgstr "Colocado"
+msgstr "Bolas"
 
-#: kbbgame.cpp:594
+#: kbbgame.cpp:585
 msgid "Score"
-msgstr "Pontuação"
+msgstr "Pontos"
 
-#: kbbgame.cpp:609 kbbgame.cpp:638
+#: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
 msgstr "Isto vai terminar o jogo actual!"
 
-#: kbbgame.cpp:610 kbbgame.cpp:639
+#: kbbgame.cpp:601 kbbgame.cpp:628
 msgid "Never mind..."
 msgstr "Que se lixe..."
 
-#: kbbgame.cpp:611 kbbgame.cpp:640
+#: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
 msgstr "Não!"
