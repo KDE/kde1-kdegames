@@ -19,3 +19,14 @@ private:
 };
 
 #endif
+
+/*
+define MAXENTRY 10
+    struct {
+	QString name;
+	long score;
+    } Table[MAXENTRY];
+    
+    int Position;
+    
+    */

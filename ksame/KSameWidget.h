@@ -1,44 +1,3 @@
-#ifndef _KSAMEWIDGET
-#define _KSAMEWIDGET
-#include <qlined.h> 
-#include <qwidget.h>
-#include <kbutton.h>
-#include <qpushbt.h>
-#include <qlcdnum.h>
-#include "StoneWidget.h"
-#include "ScoreWidget.h"
-
-
-class KSameWidget: public QWidget {
- Q_OBJECT
-public:
-  KSameWidget(); 
- ~KSameWidget();
- 
-private:
-  StoneWidget *stone;
-  ScoreWidget *hiscore;
-  QLCDNumber *score;
-  KButton *quitbt;
-  KButton *newbt;
-
-  QLineEdit *line;
-
- 
-public slots:
-
-  void quitbt_clicked();
-  void newbt_clicked();
-  void aboutbt_clicked();
-  
-  void gameover(long);
-
-  void returnpressed();
-  
-
-};
-
-
 /*
  *   ksame 0.2 - simple Game
  *   Copyright (C) 1997  Marcus Kreutzberger
@@ -58,4 +17,56 @@ public slots:
  *   Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139, USA.
  *
  */
+
+#ifndef _KSAMEWIDGET
+#define _KSAMEWIDGET
+#include <qlined.h> 
+#include <qwidget.h>
+#include <kbutton.h>
+#include <qpushbt.h>
+#include <qlcdnum.h>
+#include "StoneWidget.h"
+#include "ScoreWidget.h"
+#include <ktopwidget.h> 
+#include <kmenubar.h>
+
+class KSameWidget: public KTopLevelWidget {
+ Q_OBJECT
+public:
+    KSameWidget(); 
+    ~KSameWidget();
+ 
+private:
+    StoneWidget *stone;
+    ScoreWidget *hiscore;
+    KStatusBar *status;
+
+public slots: 
+  /* File Menu */
+    void m_new();
+    void m_load();
+    void m_save();
+    void m_quit();
+    
+    /* Options Menu */
+    void m_colors3();
+    void m_colors4();
+    void m_colors5();
+    void m_colors6();
+    void m_tglboard();
+    void m_tglmultispin();
+  /* Help Menu */
+    void m_help();
+    void m_about(); 
+    
+    void gameover(int);
+    void updatescore(int);
+    void updateboard(int);
+    void updatecolors(int);
+  
+
+};
+
+
+
 #endif
