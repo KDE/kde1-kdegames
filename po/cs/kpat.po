@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpat\n"
 "POT-Creation-Date: 1999-01-10 01:34+0100\n"
-"PO-Revision-Date: 1998-11-03 14:44+01:00\n"
+"PO-Revision-Date: 1999-01-16 10:39+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -193,7 +193,7 @@ msgstr ""
 
 #: pwidget.cpp:129
 msgid "Additional work done by:\n"
-msgstr ""
+msgstr "Dal¹í práci provádìli:\n"
 
 #: pwidget.cpp:273
 msgid "Klondike"

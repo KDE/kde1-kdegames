@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ksame\n"
 "POT-Creation-Date: 1999-01-12 14:06+0100\n"
-"PO-Revision-Date: 1998-11-09 08:46+01:00\n"
+"PO-Revision-Date: 1999-01-16 10:37+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -92,7 +92,6 @@ msgid "SameGame - Quit"
 msgstr "Hra Same - Ukonèení"
 
 #: KSameWidget.cpp:193
-#, fuzzy
 msgid "Do you really want to quit?"
 msgstr "Opravdu si pøejete skonèit?"
 

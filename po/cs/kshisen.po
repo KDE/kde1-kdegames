@@ -6,7 +6,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen\n"
 "POT-Creation-Date: 1999-01-04 01:41+0100\n"
-"PO-Revision-Date: 1998-11-03 14:43+01:00\n"
+"PO-Revision-Date: 1999-01-16 10:36+01:00\n"
 "Last-Translator: Miroslav Flídr <flidr@kky.zcu.cz>\n"
 "Language-Team: Czech <cs@li.org>\n"
 "MIME-Version: 1.0\n"
@@ -55,11 +55,11 @@ msgstr "24x12"
 
 #: app.cpp:128
 msgid "26x14"
-msgstr ""
+msgstr "26x14"
 
 #: app.cpp:129
 msgid "30x16"
-msgstr ""
+msgstr "30x16"
 
 #: app.cpp:133
 msgid "Very fast"
@@ -189,9 +189,3 @@ msgstr "Velikost"
 #: app.cpp:650
 msgid "Score"
 msgstr "Skóre"
-
-#~ msgid "28x16"
-#~ msgstr "28x16"
-
-#~ msgid "32x20"
-#~ msgstr "32x20"
