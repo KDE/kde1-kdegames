@@ -6,6 +6,7 @@
 #include <kkeyconf.h>
 #include "defines.h"
 #include "field.h"
+#include "version.h"
 
 #include "main.moc"
 
@@ -26,11 +27,10 @@ KTetris::KTetris()
 	QPopupMenu *options = new QPopupMenu;
 	options->insertItem(klocale->translate("&Keys"), this, SLOT(configKeys()) );
 	
-	QPopupMenu *help = new QPopupMenu;
-	help->insertItem(klocale->translate("&Contents"), this, SLOT(help()) );
-	help->insertSeparator();
-	help->insertItem(klocale->translate("&About"), this, SLOT(about()) );
-	help->insertItem(klocale->translate("About &Qt"), this, SLOT(aboutqt()) );
+ 	QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Tetris"))
+                                         + " " + KTETRIS_VERSION
+                                         + i18n("\n\nby Nicolas Hadacek")
+                                         + " (hadacek@kde.org)");  
 	
 	menu = new KMenuBar(this);
 	menu->enableMoving(TRUE);
@@ -71,26 +71,6 @@ void KTetris::toggleMenu()
 	updateRects();
 }
 
-void KTetris::about()
-{
-	QString str;
-	str.sprintf(klocale->translate("%s (%s) \n\nby Nicolas HADACEK\
-(hadacek@kde.org)\ntetris kernel by Eirik ENG.\n\
-http://www.via.ecp.fr/~hadacek/KDE/ktetris.html"), SNAME, SDATE);
-	KMsgBox::message(0, klocale->translate("ktetris : about"),
-					 (const char *)str, KMsgBox::INFORMATION, klocale->translate("Close"));
-}
-
-void KTetris::aboutqt()
-{
-	QMessageBox::aboutQt(this);
-}
-
-void KTetris::help()
-{
-	kapp->invokeHTMLHelp("", "");
-}
-
 void KTetris::configKeys()
 {
 	kKeys->configureKeys(this);
@@ -99,10 +79,10 @@ void KTetris::configKeys()
 /* MAIN */
 int main( int argc, char **argv )
 {
-	KApplication a(argc, argv, NAME);
+	KApplication a(argc, argv, "ktetris");
 	KTetris *te = new KTetris();
 	a.setMainWidget(te);
-	te->setCaption(SNAME);
+	te->setCaption( kapp->getCaption() );
 	te->show();
 	return a.exec();
 }

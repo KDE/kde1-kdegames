@@ -42,7 +42,6 @@ Field::Field(QWidget *parent, const char *name)
 	kKeys->connectFunction(K_MAIN, klocale->translate("Quit"), parent, SLOT(quit()));
 	kKeys->connectFunction(K_MAIN, klocale->translate("New game"), board, SLOT(start()));
 	kKeys->connectFunction(K_MAIN, klocale->translate("Pause game"), board, SLOT(pause()));
-	kKeys->connectFunction(K_MAIN, klocale->translate("Help"), parent, SLOT(help()));
 	kKeys->connectFunction(K_MAIN, klocale->translate("High scores"), board, SLOT(showHighScores()));
 	/* the following connections are disactivated */
 	kKeys->connectFunction(K_MAIN, klocale->translate("Move left"), board, SLOT(pMoveLeft()), FALSE);

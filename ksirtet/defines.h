@@ -4,11 +4,6 @@
 #include "kapp.h"
 #include "klocale.h"
 
-/* Version name and date */
-#define SNAME "ktetris 0.2.10 alpha"
-#define SDATE "21/01/98"
-#define NAME "ktetris"
-
 /* some defines */
 #define K_MAIN "main"
 #define NET_DEFAULT_NAME "Player" 

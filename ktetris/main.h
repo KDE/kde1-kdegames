@@ -17,9 +17,6 @@ class KTetris : public KTopLevelWidget
 	bool menu_visible;
 	
  private slots:
-	void about();
-	void aboutqt();
-	void help();
 	void configKeys();
 	void toggleMenu();
 	void quit();

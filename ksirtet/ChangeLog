@@ -1,0 +1,4 @@
+Version 0.2.11
+  * [Robert Williams]  Added version.h and ChangeLog
+  * [Robert Williams]  Added getCaption()
+
