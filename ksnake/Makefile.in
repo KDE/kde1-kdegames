@@ -1,0 +1,123 @@
+# This is a sample Makefile.in
+
+# @CXXFLAGS@     : is set to -g -Wall (when debuging) or -O2 -Wall (when not)
+# @all_includes@ : is set to all needed include paths for QT, KDE and X11
+# -I.. 	         : needed for config.h
+CXXFLAGS= @CXXFLAGS@ @all_includes@ -DHAVE_CONFIG_H -I..
+
+# @LDFLAGS@    : is set to -s (when not debuging) for stripping
+# @all_libra.@ : is set to all needed libraries paths for QT, KDE and X11
+# you need also @LIBSOCKET@, if you link with -lkfm
+LDFLAGS	= @LDFLAGS@ @all_libraries@ -lkdecore -lkdeui -lqt -lXext -lX11
+
+# both are clear, I think
+CXX     = @CXX@
+MOC   	= @MOC@
+
+############# INSTALL #################
+
+install = @INSTALL@
+INSTALL = $(install) -m 0755
+INSTALL_DATA = $(install) -m 0644
+INSTALL_DIR = $(install) -d -m 0755
+INSTALL_DIR_PRIVATE = $(install) -d -m 0700
+
+prefix = @prefix@
+KDEINC = $(prefix)/include
+BINDIR = $(prefix)/bin
+LIBDIR = $(prefix)/lib
+PICSDIR = $(LIBDIR)/pics
+
+########### File Formats ###########
+
+.SUFFIXES: .cpp
+
+.cpp.o:
+	$(CXX) -c $(CXXFLAGS) $<
+
+%.moc: %.h
+	$(MOC) $< -o $@
+
+########## Files #####################
+
+HEADERS =	game.h trys.h rattler.h board.h\
+		level.h ball.h snake.h\
+		basket.h startroom.h lcdrange.h score.h\
+		pixServer.h progress.h levels.h
+
+SOURCES = 	game.cpp trys.cpp rattler.cpp board.cpp\
+		level.cpp ball.cpp snake.cpp\
+		basket.cpp main.cpp startroom.cpp lcdrange.cpp\
+		score.cpp pixServer.cpp progress.cpp levels.cpp
+
+
+OBJECTS = 	game.o trys.o rattler.o board.o\
+		level.o ball.o snake.o\
+		basket.o main.o  startroom.o lcdrange.o score.o\
+		pixServer.o progress.o levels.o
+
+
+SRCMETA = 	mgame.cpp mrattler.cpp msnake.cpp  mtrys.cpp\
+		mbasket.cpp mstartroom.cpp mlcdrange.cpp mscore.cpp\
+	        mprogress.cpp
+
+OBJMETA = 	mgame.o mrattler.o msnake.o  mtrys.o\
+		mbasket.o mstartroom.o mlcdrange.o mscore.o\
+		mprogress.o
+
+TARGET	= 	ksnake
+
+######### build rules ################
+
+all: $(TARGET)
+
+$(TARGET):  $(OBJECTS) $(OBJMETA)
+	$(CXX) $(OBJECTS) $(OBJMETA) -o $(TARGET) $(LDFLAGS) -lm
+
+clean:
+	rm -f *.o *.bak *~ *% #*
+	rm -f $(SRCMETA) $(TARGET)
+
+distclean: clean
+	rm -f Makefile
+
+install: all
+	$(INSTALL_DIR) $(BINDIR)
+	$(INSTALL) $(TARGET) $(BINDIR)
+
+uninstall:
+	rm -f $(BINDIR)/$(TARGET)
+
+####### Meta classes
+
+mrattler.cpp: rattler.h
+	$(MOC) -o $@ $<
+
+msnake.cpp: snake.h
+	$(MOC) -o $@ $<
+
+mgame.cpp: game.h
+	$(MOC) -o $@ $<
+
+mtrys.cpp: trys.h
+	$(MOC) -o $@ $<
+
+mbasket.cpp: basket.h
+	$(MOC) -o $@ $<
+
+mstartroom.cpp: startroom.h
+	$(MOC) -o $@ $<
+
+mlcdrange.cpp: lcdrange.h
+	$(MOC) -o $@ $<
+
+mscore.cpp: score.h
+	$(MOC) -o $@ $<
+
+mbox.cpp: box.h
+	$(MOC) -o $@ $<
+
+mprogress.cpp: progress.h
+	$(MOC) -o $@ $<
+
+# DO NOT DELETE THIS LINE -- make depend depends on it.

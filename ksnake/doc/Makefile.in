@@ -1,0 +1,19 @@
+HELPFILES = ksnake.html snakeRace.gif
+
+DOCSDIR = @prefix@/doc/HTML/ksnake
+INSTALL_DIR = @INSTALL@ -d -m 0755
+INSTALL_DATA = @INSTALL@ -m 644
+
+all:
+
+install:
+	$(INSTALL_DIR) $(DOCSDIR)
+	@for i in $(HELPFILES); do \
+	 echo "$(INSTALL_DATA) $$i $(DOCSDIR)"; \
+	 $(INSTALL_DATA) "$$i" $(DOCSDIR); \
+	done
+
+uninstall:
+	for i in $(HELPFILES); do \
+	 rm -f $(DOCSDIR)/"$$i"; \
+	done
