@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-06-14 20:51+0200\n"
+"POT-Creation-Date: 1998-06-14 21:03+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -87,7 +87,14 @@ msgid "Options"
 msgstr ""
 
 #: KSameWidget.cpp:82
-msgid "SameGame "
+msgid "SameGame"
+msgstr ""
+
+#: KSameWidget.cpp:84
+msgid ""
+"\n"
+"\n"
+"by Marcus Kreutzberger (kreutzbe@informatik.mu-luebeck.de)"
 msgstr ""
 
 #: KSameWidget.cpp:86
