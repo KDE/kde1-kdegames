@@ -1,0 +1,4 @@
+1998-12-05  Alex Zepeda  <garbanzo@hooked.net>
+
+	* autmoc: Moved to admin/
+	* Makefile.cvs: Copied over from kdenetwork verbatim.
