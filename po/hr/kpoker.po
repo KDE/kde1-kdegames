@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-05 01:44+0100\n"
 "PO-Revision-Date: 1998-08-08 20:00-0500\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -107,19 +107,19 @@ msgstr "Dobio si $"
 msgid "Game Over"
 msgstr "Igra je gotova"
 
-#: top.cpp:64
+#: top.cpp:63
 msgid "&New game"
 msgstr "&Nova igra"
 
-#: top.cpp:70
+#: top.cpp:69
 msgid "&Sound"
 msgstr "&Zvuk"
 
-#: top.cpp:73
+#: top.cpp:72
 msgid "Poker"
 msgstr "Poker"
 
-#: top.cpp:75
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -129,7 +129,7 @@ msgstr ""
 "\n"
 "Jochen Tuchbreiter"
 
-#: top.cpp:77
+#: top.cpp:76
 msgid ""
 "\n"
 "\n"
@@ -139,7 +139,7 @@ msgstr ""
 "\n"
 "Zahvale se nalaze u datoteci pomoæi"
 
-#: top.cpp:78
+#: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-05 01:44+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -106,33 +106,33 @@ msgstr "귀하가 번 돈: $"
 msgid "Game Over"
 msgstr "게임 끝"
 
-#: top.cpp:64
+#: top.cpp:63
 msgid "&New game"
 msgstr "새 게임(&N)"
 
-#: top.cpp:70
+#: top.cpp:69
 msgid "&Sound"
 msgstr "효과음(&S)"
 
-#: top.cpp:73
+#: top.cpp:72
 msgid "Poker"
 msgstr ""
 
-#: top.cpp:75
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
 
-#: top.cpp:77
+#: top.cpp:76
 msgid ""
 "\n"
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
 
-#: top.cpp:78
+#: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

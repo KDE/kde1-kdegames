@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-05 01:44+0100\n"
 "PO-Revision-Date: 1998-03-20 12:20 MET\n"
 "Last-Translator: Juraj Bednár <bednar@isternet.sk>\n"
 "Language-Team: Slovak <bednar@isternet.sk>\n"
@@ -105,19 +105,19 @@ msgstr "Vyhrali ste $"
 msgid "Game Over"
 msgstr "Hra skonèená"
 
-#: top.cpp:64
+#: top.cpp:63
 msgid "&New game"
 msgstr "&Nová hra"
 
-#: top.cpp:70
+#: top.cpp:69
 msgid "&Sound"
 msgstr "&Zvuk"
 
-#: top.cpp:73
+#: top.cpp:72
 msgid "Poker"
 msgstr "Poker"
 
-#: top.cpp:75
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -127,7 +127,7 @@ msgstr ""
 "\n"
 "napísal Jochen Tuchbreiter"
 
-#: top.cpp:77
+#: top.cpp:76
 msgid ""
 "\n"
 "\n"
@@ -137,7 +137,7 @@ msgstr ""
 "\n"
 "Pre zoznam kreditov si preèítajte pomocníka"
 
-#: top.cpp:78
+#: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

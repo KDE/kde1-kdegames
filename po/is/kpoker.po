@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-05 01:44+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
@@ -100,19 +100,19 @@ msgstr "Þú vanst $"
 msgid "Game Over"
 msgstr "Leikslok"
 
-#: top.cpp:64
+#: top.cpp:63
 msgid "&New game"
 msgstr "&Nýr leikur"
 
-#: top.cpp:70
+#: top.cpp:69
 msgid "&Sound"
 msgstr "&Hljóð"
 
-#: top.cpp:73
+#: top.cpp:72
 msgid "Poker"
 msgstr "Póker"
 
-#: top.cpp:75
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -122,7 +122,7 @@ msgstr ""
 "\n"
 "eftir Jochen Tuchbreiter"
 
-#: top.cpp:77
+#: top.cpp:76
 msgid ""
 "\n"
 "\n"
@@ -132,7 +132,7 @@ msgstr ""
 "\n"
 "Athugaðu leiðbeingarnar til að finna höfundaskrá"
 
-#: top.cpp:78
+#: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

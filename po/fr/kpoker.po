@@ -1,6 +1,6 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-05 01:44+0100\n"
 "Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
 "Language-Team: Français\n"
 "Content-Type: text/plain; charset=\n"
@@ -101,19 +101,19 @@ msgstr "Vous gagnez $"
 msgid "Game Over"
 msgstr "Fin de la partie"
 
-#: top.cpp:64
+#: top.cpp:63
 msgid "&New game"
 msgstr "&Nouveau jeu"
 
-#: top.cpp:70
+#: top.cpp:69
 msgid "&Sound"
 msgstr "&Sons"
 
-#: top.cpp:73
+#: top.cpp:72
 msgid "Poker"
 msgstr "Poker"
 
-#: top.cpp:75
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -123,14 +123,14 @@ msgstr ""
 "\n"
 "par Jochen Tuchbreiter"
 
-#: top.cpp:77
+#: top.cpp:76
 msgid ""
 "\n"
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
 
-#: top.cpp:78
+#: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

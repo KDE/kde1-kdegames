@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-05 01:44+0100\n"
 "PO-Revision-Date: 1998-06-23 09:00-0300\n"
 "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 
@@ -97,19 +97,19 @@ msgstr "Ganhou $"
 msgid "Game Over"
 msgstr "Jogo Terminado"
 
-#: top.cpp:64
+#: top.cpp:63
 msgid "&New game"
 msgstr "&Novo jogo"
 
-#: top.cpp:70
+#: top.cpp:69
 msgid "&Sound"
 msgstr "&Som"
 
-#: top.cpp:73
+#: top.cpp:72
 msgid "Poker"
 msgstr "Poker"
 
-#: top.cpp:75
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -119,7 +119,7 @@ msgstr ""
 "\n"
 "por Jochen Tuchbreiter"
 
-#: top.cpp:77
+#: top.cpp:76
 msgid ""
 "\n"
 "\n"
@@ -129,7 +129,7 @@ msgstr ""
 "\n"
 "Para uma lista de créditos, veja o arquivo de Ajuda"
 
-#: top.cpp:78
+#: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"

@@ -4,7 +4,7 @@
 #
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-10-13 13:31+0200\n"
+"POT-Creation-Date: 1999-01-04 01:41+0100\n"
 "Last-Translator: Bjarni R. Einarsson <bre@mmedia.is>\n"
 "Language-Team: is\n"
 
@@ -49,12 +49,12 @@ msgid "24x12"
 msgstr "24x12"
 
 #: app.cpp:128
-msgid "28x16"
-msgstr "28x16"
+msgid "26x14"
+msgstr ""
 
 #: app.cpp:129
-msgid "32x20"
-msgstr "32x20"
+msgid "30x16"
+msgstr ""
 
 #: app.cpp:133
 msgid "Very fast"
@@ -184,3 +184,9 @@ msgstr "Stærð"
 #: app.cpp:650
 msgid "Score"
 msgstr "Stig"
+
+#~ msgid "28x16"
+#~ msgstr "28x16"
+
+#~ msgid "32x20"
+#~ msgstr "32x20"

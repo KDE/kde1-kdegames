@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kpoker\n"
-"POT-Creation-Date: 1998-10-01 13:21+0200\n"
+"POT-Creation-Date: 1999-01-05 01:44+0100\n"
 "Last-Translator: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 
 #: kpoker.cpp:82 kpoker.cpp:538
@@ -96,19 +96,19 @@ msgstr "Gewinn $"
 msgid "Game Over"
 msgstr "Spielende"
 
-#: top.cpp:64
+#: top.cpp:63
 msgid "&New game"
 msgstr "&Neues Spiel"
 
-#: top.cpp:70
+#: top.cpp:69
 msgid "&Sound"
 msgstr "&Sound"
 
-#: top.cpp:73
+#: top.cpp:72
 msgid "Poker"
 msgstr "Poker"
 
-#: top.cpp:75
+#: top.cpp:74
 msgid ""
 "\n"
 "\n"
@@ -118,7 +118,7 @@ msgstr ""
 "\n"
 "von Jochen Tuchbreiter"
 
-#: top.cpp:77
+#: top.cpp:76
 msgid ""
 "\n"
 "\n"
@@ -129,7 +129,7 @@ msgstr ""
 "Eine Liste von Danksagungen\n"
 "finden Sie in den Hilfe-Dateien"
 
-#: top.cpp:78
+#: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
