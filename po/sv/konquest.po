@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-17 10:39+0100\n"
+"POT-Creation-Date: 1998-12-16 01:33+0100\n"
 "PO-Revision-Date: 1998-12-13 17:01+0100\n"
 "Last-Translator: Karl Backström <backstrom@kde.org>\n"
 "Language-Team: Sv <LL@li.org>\n"
@@ -122,9 +122,9 @@ msgid "GNU-Lactic Conquest"
 msgstr "GNU-Lactic Conquest"
 
 #: mainwin.cc:47
-#, c-format
+#, fuzzy, c-format
 msgid ""
-"Version %d\n"
+"Version %s\n"
 "Copyright (c) 1998 by\n"
 "The Gnu-Lactic Conquest Project\n"
 "\n"
