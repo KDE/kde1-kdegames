@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: ENCODING\n"
 
 #: HighScore.cpp:62
-#, fuzzy
 msgid "Highscore"
-msgstr "Vis poengtavle"
+msgstr "Liste over de beste"
 
 #: HighScore.cpp:104 KSameWidget.cpp:141
 msgid "Board"
@@ -43,9 +42,8 @@ msgid "Random Board"
 msgstr "Tilfeldig brett"
 
 #: KSameWidget.cpp:82
-#, fuzzy
 msgid "About SameGame"
-msgstr "SameGame"
+msgstr "Om SameGame"
 
 #: KSameWidget.cpp:84
 msgid ""
@@ -75,14 +73,13 @@ msgstr "Poeng: XXXXXX"
 
 #: KSameWidget.cpp:134
 msgid "SameGame: New Game"
-msgstr ""
+msgstr "SameGame: Nytt spill"
 
 #: KSameWidget.cpp:135
 msgid "Do you want to resign?"
 msgstr "Ønsker du å trekke deg?"
 
 #: KSameWidget.cpp:144
-#, fuzzy
 msgid "Hello"
 msgstr "Hallo"
 
@@ -99,9 +96,8 @@ msgid "menu save not supported"
 msgstr "menyen lagre er ikke støttet"
 
 #: KSameWidget.cpp:192
-#, fuzzy
 msgid "SameGame - Quit"
-msgstr "ksame - Avslutt"
+msgstr "SameGame - Avslutt"
 
 #: KSameWidget.cpp:193
 msgid "Do you want really quit?"
@@ -134,60 +130,3 @@ msgstr "Merket: %06i"
 #, c-format
 msgid "Score: %06i"
 msgstr "Poeng: %06i"
-
-#~ msgid "Load"
-#~ msgstr "Last"
-
-#~ msgid "ksame - New"
-#~ msgstr "ksame - Ny"
-
-#~ msgid "Stones"
-#~ msgstr "Stener"
-
-#~ msgid "Debug: %s\n"
-#~ msgstr "Avlusning: %s\n"
-
-#~ msgid "Warning: %s\n"
-#~ msgstr "Varsel: %s\n"
-
-#~ msgid "Fatal: %s\n"
-#~ msgstr "Fatal: %s\n"
-
-#~ msgid "2"
-#~ msgstr "2"
-
-#~ msgid "3"
-#~ msgstr "3"
-
-#~ msgid "4"
-#~ msgstr "4"
-
-#~ msgid "Close"
-#~ msgstr "Lukk"
-
-#~ msgid "Name"
-#~ msgstr "Navn"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "New"
-#~ msgstr "Ny"
-
-#~ msgid "Save"
-#~ msgstr "Lagre"
-
-#~ msgid "Quit"
-#~ msgstr "Avslutt"
-
-#~ msgid "Options"
-#~ msgstr "Valgmuligheter"
-
-#~ msgid "Help"
-#~ msgstr "Hjelp"
-
-#~ msgid "Cancel"
-#~ msgstr "Avbryt"
-
-#~ msgid "HiGh sCorE"
-#~ msgstr "Poengtavle"

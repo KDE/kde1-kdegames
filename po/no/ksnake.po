@@ -146,6 +146,9 @@ msgid ""
 "\tRange must be 0..99\n"
 "\tand minVal must not be greater than maxVal"
 msgstr ""
+"LCDRange::setRange(%d,%d)\n"
+"\tTallområdet må værebe 0..99\n"
+"\tog minVal må ikk være større enn maxVal"
 
 #: pixServer.cpp:182
 #, c-format
