@@ -143,8 +143,8 @@ class GenericTetris
 	
 	TetrisPiece currentPiece;
 	TetrisPiece nextPiece;
-	int const   Width=10;
-	int const   Height=22;
+	static int const   Width=10;
+	static int const   Height=22;
 	int         board[Width][Height];
 	int         nClearLines;
 	int         currentLine;
