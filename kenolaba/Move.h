@@ -19,7 +19,7 @@ class Move
 	enum { out2 = 0, out1with3, out1with2, push2,
 		  push1with3, push1with2, move3, left3, right3,
 		  left2, right2, move2, move1, none };
-	const int typeCount = none;
+	static const int typeCount = none;
 
 	bool isOutMove() const
 	  { return type <= out1with2; }
@@ -55,7 +55,7 @@ class MoveList
  public:
 	MoveList();
 	
-	const int MaxMoves = 84;
+	static const int MaxMoves = 84;
 
 	/* for isElement: search for moves starting with 1/2/3 fields */
 	enum { all , start1, start2, start3 };

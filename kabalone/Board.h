@@ -18,7 +18,7 @@ public:
 	MainCombination() 
 	  { clear(1); }		   
 
-	const int maxDepth = 10;
+	static const int maxDepth = 10;
 
 	bool hasMove(int d) 
 	  {  return (d>actMaxDepth) ? 
@@ -52,9 +52,9 @@ class Board : public QObject
 		out = 10, free = 0, 
 		color1, color2, color1bright, color2bright
 	};
-	const int AllFields = 121; /* visible + ring of unvisible around */
-	const int RealFields = 61; /* number of visible fields */
-	const int MvsStored = 100;
+	static const int AllFields = 121; /* visible + ring of unvisible around */
+	static const int RealFields = 61; /* number of visible fields */
+	static const int MvsStored = 100;
 
 	int debug;	
 
