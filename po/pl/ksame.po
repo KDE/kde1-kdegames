@@ -2,27 +2,25 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1999-01-12 14:06+0100\n"
-"PO-Revision-Date: 1998-08-08 00:53+0200\n"
+"PO-Revision-Date: 1999-01-28 00:23+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
 #: KSameWidget.cpp:50
 msgid "&New"
-msgstr ""
+msgstr "&Nowy"
 
 #: KSameWidget.cpp:52
 msgid "&Open"
-msgstr ""
+msgstr "&Otwórz"
 
 #: KSameWidget.cpp:57
-#, fuzzy
 msgid "S&how Highscore"
-msgstr "Lista wyników"
+msgstr "&Poka¿ listê wyników"
 
 #: KSameWidget.cpp:76
-#, fuzzy
 msgid "&Random Board"
-msgstr "Losuj planszê"
+msgstr "&Losuj planszê"
 
 #: KSameWidget.cpp:82
 msgid "About SameGame"
@@ -87,7 +85,6 @@ msgid "SameGame - Quit"
 msgstr "Zakoñcz"
 
 #: KSameWidget.cpp:193
-#, fuzzy
 msgid "Do you really want to quit?"
 msgstr "Czy na pewno chcesz skoñczyæ?"
 
@@ -120,9 +117,8 @@ msgid "Score: %06i"
 msgstr "Wynik: %06i"
 
 #: HighScore.cpp:107
-#, fuzzy
 msgid "Name"
-msgstr "Gra"
+msgstr "Imiê"
 
 #: HighScore.cpp:109
 msgid "Please &enter your name:"
@@ -131,6 +127,3 @@ msgstr "&Wprowad¼ swoje imiê:"
 #: HighScore.cpp:148
 msgid "Anonymous"
 msgstr "Anonim"
-
-#~ msgid "Game"
-#~ msgstr "Gra"

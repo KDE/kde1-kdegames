@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kshisen \n"
 "POT-Creation-Date: 1999-01-04 01:41+0100\n"
-"PO-Revision-Date: 1998-08-08 01:04+0200\n"
+"PO-Revision-Date: 1999-01-15 00:26+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -48,11 +48,11 @@ msgstr "24x12"
 
 #: app.cpp:128
 msgid "26x14"
-msgstr ""
+msgstr "26x14"
 
 #: app.cpp:129
 msgid "30x16"
-msgstr ""
+msgstr "30x16"
 
 #: app.cpp:133
 msgid "Very fast"
@@ -64,7 +64,7 @@ msgstr "Szybko"
 
 #: app.cpp:135 app.cpp:140
 msgid "Medium"
-msgstr ""
+msgstr "¦rednio"
 
 #: app.cpp:136
 msgid "Slow"
@@ -88,6 +88,9 @@ msgid ""
 "\n"
 "by Mario Weilguni"
 msgstr ""
+"\n"
+"\n"
+"autor: Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -165,25 +168,17 @@ msgid "Rank"
 msgstr "Poziom"
 
 #: app.cpp:638
-#, fuzzy
 msgid "Name"
-msgstr "&Nowa gra"
+msgstr "Imiê"
 
 #: app.cpp:642
 msgid "Time"
 msgstr "Czas"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
-msgstr "Ro&zmiar"
+msgstr "Rozmiar"
 
 #: app.cpp:650
 msgid "Score"
 msgstr "Wynik"
-
-#~ msgid "28x16"
-#~ msgstr "28x16"
-
-#~ msgid "32x20"
-#~ msgstr "32x20"

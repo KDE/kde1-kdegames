@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: kpoker \n"
 "POT-Creation-Date: 1999-01-05 01:44+0100\n"
-"PO-Revision-Date: 1998-08-08 00:47+0200\n"
+"PO-Revision-Date: 1999-01-15 00:26+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -108,7 +108,7 @@ msgstr "&D¼wiêk"
 
 #: top.cpp:72
 msgid "Poker"
-msgstr ""
+msgstr "Poker"
 
 #: top.cpp:74
 msgid ""
@@ -116,6 +116,9 @@ msgid ""
 "\n"
 "by Jochen Tuchbreiter"
 msgstr ""
+"\n"
+"\n"
+"autor: Jochen Tuchbreiter"
 
 #: top.cpp:76
 msgid ""
@@ -123,9 +126,14 @@ msgid ""
 "\n"
 "For a list of credits see helpfile"
 msgstr ""
+"\n"
+"\n"
+"Szczegó³owe informacje o autorach w dokumentacji"
 
 #: top.cpp:77
 msgid ""
 "\n"
 "Suggestions, bug reports etc. are welcome"
 msgstr ""
+"\n"
+"Uwagi, zg³aszane b³êdy, itp. bêd± mile widziane"

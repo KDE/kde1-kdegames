@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: ktetris \n"
 "POT-Creation-Date: 1998-10-01 13:29+0200\n"
-"PO-Revision-Date: 1998-08-08 01:01+0200\n"
+"PO-Revision-Date: 1999-01-15 00:26+0100\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
 
@@ -276,29 +276,8 @@ msgstr "&Klawisze"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "przez"
 
 #: main.cpp:71
 msgid "Show menu"
 msgstr "Poka¿ menu"
-
-#~ msgid "Close dialog"
-#~ msgstr "Zamknij dialog"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Ok dialog"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Anuluj dialog"
-
-#~ msgid "Tetris"
-#~ msgstr "Tetris"
-
-#~ msgid ""
-#~ "\n"
-#~ "\n"
-#~ "by Nicolas Hadacek"
-#~ msgstr ""
-#~ "\n"
-#~ "\n"
-#~ "Nicolas Hadacek"
