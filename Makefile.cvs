@@ -10,7 +10,7 @@ all:
 	   exit 1 ;\
 	fi
 	@echo "*** Concatenating configure tests into acinclude.m4"
-	@cat admin/acinclude.m4.in admin/libtool.m4.in acincktalk.m4 > acinclude.m4
+	@cat admin/acinclude.m4.in admin/libtool.m4.in > acinclude.m4
 	@echo "*** Creating first part of configure.in from configure.in.1"
 	@cp configure.in.1 configure.in
 	@echo "*** Retreiving configure tests needed by configure.in"
@@ -48,7 +48,7 @@ all:
 
 dist:
 	@cp configure.in.1 configure.in; \
-	cat admin/acinclude.m4.in admin/libtool.m4.in acincktalk.m4 > acinclude.m4; \
+	cat admin/acinclude.m4.in admin/libtool.m4.in > acinclude.m4; \
 	aclocal; \
 	autoheader; \
 	cat configure.in.1 > configure.in; \
@@ -74,3 +74,4 @@ dist:
 	 msgfmt -o $$file2 $$i || touch $$file2; \
 	done; \
 	rm -f configure.in.1 configure.in.2 Makefile.cvs
+
