@@ -1,13 +1,3 @@
-# File : kpat.po -- kde internationalization, italian translation.
-# Authors : Andrea Rizzi <bilibao@ouverture.it>,
-#           Lucien Nocera <lnocera@limpet.cis.upenn.edu> and
-#           Marco Spolaore <gemini@sctrade.it>.
-# v 0.1 -- 15/10/97 
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -21,7 +11,7 @@ msgstr ""
 
 #: cardmaps.cpp:63
 msgid "please wait, loading cards..."
-msgstr "Aspettare, caricamento carte in corso..."
+msgstr "Attendere prego, caricamento carte in corso..."
 
 #: cardmaps.cpp:67
 msgid "KPat - a Solitaire game"
@@ -106,9 +96,9 @@ msgstr ""
 "Sei sicuro di volerlo fare?"
 
 #: mod3.cpp:137
-#, fuzzy
+#
 msgid "No more cards"
-msgstr "Prova a muovere la carta:"
+msgstr "Nessuna nuova carta"
 
 #: pwidget.cpp:96
 msgid "&Restart game"
@@ -210,94 +200,3 @@ msgstr "Impossibile caricare immagine di sfondo!"
 #: ten.cpp:40
 msgid "Full Auto"
 msgstr "Tutto Automatico"
-
-#, fuzzy
-#~ msgid "Help on &rules..."
-#~ msgstr "Aiuto sulle regole..."
-
-#, fuzzy
-#~ msgid "About &Qt..."
-#~ msgstr "Info..."
-
-#~ msgid "COMMAND %d not implemented!\n"
-#~ msgstr "COMANDO %d non ancora programmato!\n"
-
-#~ msgid ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Version "
-#~ msgstr ""
-#~ "KPat\n"
-#~ "\n"
-#~ "Versione "
-
-#, fuzzy
-#~ msgid ""
-#~ "\n"
-#~ "Copyright (C) 1997  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Additional work done by:\n"
-#~ "\tRodolfo Borges\t<barrett@labma.ufrj.br>\n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is part of the K Desktop Environment.\n"
-#~ "Use help for license information."
-#~ msgstr ""
-#~ "\n"
-#~ "Copyright (C) 1995  Paul Olav Tvete\n"
-#~ "\n"
-#~ "Lavoro Addizionale fatto da:\t\t \n"
-#~ "\tMatthias Ettrich\t<ettrich@kde.org>\n"
-#~ "\tMario Weilguni\t<mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Questo programma fa parte dell'ambiente K Desktop.\n"
-#~ "Utilizza la guida per ottenere informazioni sulla licenza."
-
-#~ msgid "About kpat"
-#~ msgstr "Info su kpat"
-
-#, fuzzy
-#~ msgid "&Help..."
-#~ msgstr "Aiuto..."
-
-#, fuzzy
-#~ msgid "A&bout..."
-#~ msgstr "Info..."
-
-#~ msgid "Normal"
-#~ msgstr "Normale"
-
-#~ msgid "Ok"
-#~ msgstr "Ok"
-
-#~ msgid "Information"
-#~ msgstr "Informazione"
-
-#~ msgid "Warning"
-#~ msgstr "Attenzione"
-
-#~ msgid "&Quit"
-#~ msgstr "&Esci"
-
-#~ msgid "&File"
-#~ msgstr "&File"
-
-#~ msgid "&Game"
-#~ msgstr "&Gioco"
-
-#~ msgid "&Undo"
-#~ msgstr "Annulla"
-
-#~ msgid "&Options"
-#~ msgstr "&Opzioni"
-
-#, fuzzy
-#~ msgid "Help"
-#~ msgstr "&Aiuto"
-
-#~ msgid "Quit"
-#~ msgstr "Esci"
-
-#~ msgid "Error"
-#~ msgstr "Errore"

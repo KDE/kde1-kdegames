@@ -1,8 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -36,31 +31,31 @@ msgstr "Inizia nuovo gioco"
 
 #: kmahjongg.cpp:213
 msgid "&Help me"
-msgstr "Aiutami.."
+msgstr "&Aiutami.."
 
 #: kmahjongg.cpp:214
 msgid "&Undo last move"
-msgstr "Annulla ultima mossa"
+msgstr "&Annulla ultima mossa"
 
 #: kmahjongg.cpp:215
 msgid "&Demo mode"
-msgstr "Demo"
+msgstr "&Demo"
 
 #: kmahjongg.cpp:216
 msgid "Show &matching tiles"
-msgstr "Mostra piastre corrispondenti"
+msgstr "Mostra piastre &corrispondenti"
 
 #: kmahjongg.cpp:222
 msgid "&Load Background image..."
-msgstr "Carica immagine di background"
+msgstr "&Carica immagine di background"
 
 #: kmahjongg.cpp:224
 msgid "&Statusbar"
-msgstr "Barra di stato"
+msgstr "&Barra di stato"
 
 #: kmahjongg.cpp:226
 msgid "Mahjongg"
-msgstr ""
+msgstr "MAhjongg"
 
 #: kmahjongg.cpp:228
 msgid ""
@@ -68,10 +63,13 @@ msgid ""
 "\n"
 "by Mathias Mueller"
 msgstr ""
+"\n"
+"\n"
+"by Mathias Mueller"
 
 #: kmahjongg.cpp:387 kmahjongg.cpp:401
 msgid "Unable to open bitmap file !"
-msgstr ""
+msgstr "Impossibile aprire il file bitmap !"
 
 #: kmahjongg.cpp:455
 msgid "Undo operation done successfully."
@@ -124,6 +122,8 @@ msgid ""
 "Failed to load image:\n"
 "%s"
 msgstr ""
+"Errore caricando l'immagine:\n"
+"%s"
 
 #: kmahjongg.cpp:1677
 #, c-format
@@ -131,6 +131,8 @@ msgid ""
 "Sorry, this image uses %d colors.\n"
 "Maximum allowed is %d"
 msgstr ""
+"Spiacente, questa immagine usa %d colori.\n"
+"Il massimo consentito è %d"
 
 #~ msgid "&Quit"
 #~ msgstr "Esci"

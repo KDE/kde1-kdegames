@@ -1,11 +1,9 @@
-# KDE Translation project
-# Italian Translation by Andrea Rizzzi <Bilibao@ouverture.it>
 msgid ""
 msgstr ""
 "POT-Creation-Date: 1998-06-16 14:30+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
-"From: root <root@joe>\n"
+"From: Francesco Lotti <Goo@hey.to>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
@@ -27,11 +25,11 @@ msgstr "Suggerimento"
 
 #: AbTop.cpp:296
 msgid "Save Position"
-msgstr ""
+msgstr "Salva Posizione"
 
 #: AbTop.cpp:298
 msgid "Restore Position"
-msgstr ""
+msgstr "Riprendi Posizione"
 
 #: AbTop.cpp:315
 msgid "Easy"
@@ -71,7 +69,7 @@ msgstr "Muovi piano"
 
 #: AbTop.cpp:342
 msgid "Spy"
-msgstr ""
+msgstr "Spia"
 
 #: AbTop.cpp:407
 msgid "won"
@@ -87,66 +85,45 @@ msgstr "E' il tuo turno !"
 
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
-msgstr ""
+msgstr "Valore a tabellone"
 
 #: Move.cpp:18
 msgid "RightDown"
-msgstr ""
+msgstr "In basso a destra"
 
 #: Move.cpp:19
 msgid "LeftDown"
-msgstr ""
+msgstr "In basso a sinistra"
 
 #: Move.cpp:21
 msgid "LeftUp"
-msgstr ""
+msgstr "In alto a sinistra"
 
 #: Move.cpp:22
 msgid "RightUp"
-msgstr ""
+msgstr "In alto a destra"
 
 #: Move.cpp:35 Move.cpp:42
 msgid "Side"
-msgstr ""
+msgstr "Parte"
 
 #: Move.cpp:49
 msgid "Out"
-msgstr ""
+msgstr "Fuori"
 
 #: Move.cpp:50
 msgid "Push"
-msgstr ""
+msgstr "Premi"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
-msgstr ""
+msgstr "Posizione attualmente esaminata:"
 
 #: Spy.cpp:46
 msgid "Best move so far:"
-msgstr ""
+msgstr "Migliore ultima mossa:"
 
 #: Spy.cpp:75
 #, fuzzy
 msgid "Spion"
-msgstr "Opzioni"
-
-#~ msgid "Move"
-#~ msgstr "Muovi"
-
-#~ msgid "Rules"
-#~ msgstr "Regole"
-
-#~ msgid "New Game"
-#~ msgstr "Nuova partita"
-
-#~ msgid "Quit"
-#~ msgstr "Esci"
-
-#~ msgid "Normal"
-#~ msgstr "Normale"
-
-#~ msgid "About"
-#~ msgstr "Info su..."
-
-#~ msgid "Help"
-#~ msgstr "?"
+msgstr ""
