@@ -279,7 +279,7 @@ msgstr "&Tasti"
 
 #: main.cpp:35
 msgid "by"
-msgstr ""
+msgstr "da"
 
 #: main.cpp:71
 msgid "Show menu"

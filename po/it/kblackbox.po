@@ -1,8 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -20,6 +15,10 @@ msgid ""
 "author: Robert Cimrman\n"
 "e-mail: cimrman3@students.zcu.cz"
 msgstr ""
+"KBlackBox gioco di logica\n"
+"autore: Robert Cimrman\n"
+"e-mail: cimrman3@students.zcu.cz"
+
 
 #: kbbgame.cpp:81
 msgid "&New"
@@ -51,9 +50,9 @@ msgid "&Tutorial"
 msgstr "&Tutorial"
 
 #: kbbgame.cpp:170
-#, fuzzy
+#,
 msgid "New"
-msgstr "&Nuovo"
+msgstr "Nuovo"
 
 #: kbbgame.cpp:172
 #, fuzzy
@@ -61,7 +60,7 @@ msgid "Give up"
 msgstr "Riparti"
 
 #: kbbgame.cpp:174
-#, fuzzy
+#
 msgid "Done"
 msgstr "Fatto"
 
@@ -84,11 +83,11 @@ msgstr "No, non ancora..."
 #: kbbgame.cpp:478
 #, c-format
 msgid "Your final score is: %d."
-msgstr "Il tuo punteggio finale e': %d"
+msgstr "Il è tuo punteggio finale: %d"
 
 #: kbbgame.cpp:480
 msgid "Wow!"
-msgstr ""
+msgstr "Wow!"
 
 #: kbbgame.cpp:482
 msgid "Damned!"
@@ -109,21 +108,19 @@ msgstr "Va' bene!"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
-msgstr ""
+msgstr "Avvia"
 
 #: kbbgame.cpp:569
-#, fuzzy
 msgid "Size"
-msgstr "&Dimensione"
+msgstr "Dimensione"
 
 #: kbbgame.cpp:572
 msgid "Placed"
-msgstr ""
+msgstr "Piazzata"
 
 #: kbbgame.cpp:585
-#, fuzzy
 msgid "Score"
-msgstr " Punteggio %4d"
+msgstr "Punteggio"
 
 #: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
@@ -135,7 +132,7 @@ msgstr "Non ci avevo pensato...."
 
 #: kbbgame.cpp:602 kbbgame.cpp:629
 msgid "Oh, no!"
-msgstr ""
+msgstr "Oh no!"
 
 #~ msgid "&Help"
 #~ msgstr "&Aiuto"

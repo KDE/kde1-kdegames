@@ -45,7 +45,7 @@ msgstr "Facile 1"
 
 #: computation.cpp:96
 msgid "Normal"
-msgstr ""
+msgstr "Normale"
 
 #: computation.cpp:97
 msgid "Hard 1"
@@ -137,11 +137,11 @@ msgstr "Dieci"
 
 #: pwidget.cpp:107 pwidget.cpp:261
 msgid "Mod3"
-msgstr ""
+msgstr "Mod3"
 
 #: pwidget.cpp:108 pwidget.cpp:265
 msgid "Freecell"
-msgstr ""
+msgstr "Freecell"
 
 #: pwidget.cpp:110
 msgid "Choose new game"
@@ -173,7 +173,7 @@ msgstr "Animazione all' avvio"
 
 #: pwidget.cpp:126
 msgid "Patience"
-msgstr ""
+msgstr "Solitario"
 
 #: pwidget.cpp:128
 msgid ""
@@ -182,7 +182,10 @@ msgid ""
 "by Paul Olav Tvetei\n"
 "\n"
 msgstr ""
-
+"\n"
+"\n"
+"di Paul Olav Tvetei\n"
+"\n"
 #: pwidget.cpp:273
 msgid "Klondike"
 msgstr "Klondike"

@@ -293,7 +293,7 @@ msgstr "Turno dei Rossi"
 
 #: app.cpp:708 app.cpp:710
 msgid "turn"
-msgstr ""
+msgstr " "
 
 #: app.cpp:710
 msgid "Blue's"
@@ -309,12 +309,11 @@ msgstr "KReversi: Sala Delle Celebritá"
 
 #: app.cpp:881
 msgid "Rank"
-msgstr ""
+msgstr "Rank"
 
 #: app.cpp:885
-#, fuzzy
 msgid "Name"
-msgstr "&Nuovo gioco"
+msgstr "Nome"
 
 #: app.cpp:889
 msgid "Color"
@@ -322,11 +321,11 @@ msgstr "Chiudi"
 
 #: app.cpp:893
 msgid "Score"
-msgstr ""
+msgstr "Punteggio"
 
 #: app.cpp:897
 msgid "Rating"
-msgstr ""
+msgstr "Rating"
 
 #: app.cpp:987
 msgid ""

@@ -8,9 +8,9 @@ msgstr ""
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
 
 #: Move.cpp:17
-#, fuzzy
+
 msgid "Right"
-msgstr "In alto a destra"
+msgstr "Destra"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -21,9 +21,8 @@ msgid "LeftDown"
 msgstr "In basso a sinistra"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "In alto a sinistra"
+msgstr "Sinistra"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -50,9 +49,9 @@ msgid "Board value"
 msgstr "Valore a tabellone"
 
 #: AbTop.cpp:241 AbTop.cpp:398
-#, fuzzy
+#
 msgid "Move"
-msgstr "Muovi piano"
+msgstr "Muovi"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
@@ -84,7 +83,7 @@ msgstr "Facile"
 
 #: AbTop.cpp:317
 msgid "Normal"
-msgstr ""
+msgstr "Normale"
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -124,7 +123,7 @@ msgstr "Spia"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Abalone"
 
 #: AbTop.cpp:351
 msgid ""
@@ -132,6 +131,9 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
+"\n"
+"\n"
+"di Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"
@@ -155,4 +157,4 @@ msgstr "Migliore ultima mossa:"
 
 #: Spy.cpp:75
 msgid "Spion"
-msgstr ""
+msgstr "Spion"

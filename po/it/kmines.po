@@ -39,7 +39,7 @@ msgstr "Facile"
 
 #: dialogs.cpp:289 main.cpp:65
 msgid "Normal"
-msgstr ""
+msgstr "Normale"
 
 #: dialogs.cpp:290 main.cpp:66
 msgid "Expert"
@@ -103,19 +103,19 @@ msgid "Hide menu bar"
 msgstr "Nascondi barra Menu"
 
 #: main.cpp:46
-#, fuzzy
+#,
 msgid "&New game"
-msgstr "Nuova partita"
+msgstr "&Nuova partita"
 
 #: main.cpp:49
-#, fuzzy
+#, 
 msgid "&Pause game"
-msgstr "Pausa"
+msgstr "&Pausa"
 
 #: main.cpp:52
-#, fuzzy
+#,
 msgid "&High scores"
-msgstr "Punteggi"
+msgstr "&Punteggi massimi"
 
 #: main.cpp:60
 msgid "? mark"
@@ -134,13 +134,11 @@ msgid "by"
 msgstr "da"
 
 #: main.cpp:79
-#, fuzzy
+#,
 msgid "&Level"
-msgstr "Livello"
+msgstr "&Livello"
 
 #: main.cpp:156
 msgid "Show menu bar"
 msgstr "Mostra barra Menu"
 
-#~ msgid "Minesweeper"
-#~ msgstr "Artificiere"

@@ -1,8 +1,3 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR Free Software Foundation, Inc.
-# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
-#
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
@@ -16,7 +11,7 @@ msgstr ""
 
 #: app.cpp:94 app.cpp:143 board.cpp:222
 msgid "Shisen-Sho"
-msgstr ""
+msgstr "Shisen-Sho"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
@@ -96,6 +91,9 @@ msgid ""
 "\n"
 "by Mario Weilguni"
 msgstr ""
+"\n"
+"\n"
+"di Mario Weilguni"
 
 #: app.cpp:151
 msgid "Si&ze"
@@ -182,13 +180,12 @@ msgid "Time"
 msgstr "Tempo"
 
 #: app.cpp:646
-#, fuzzy
 msgid "Size"
 msgstr "Dimensione"
 
 #: app.cpp:650
 msgid "Score"
-msgstr ""
+msgstr "Punteggio"
 
 #~ msgid "About &Qt..."
 #~ msgstr "Info sulle &Qt..."
