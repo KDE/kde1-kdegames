@@ -1,0 +1,137 @@
+msgid ""
+msgstr "Project-Id-Version: kuser\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-03-23 00:00+0100\n"
+       "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+
+#: main.cpp:24 main.cpp:35 main.cpp:53
+msgid "New game"
+msgstr "Novo jogo"
+
+#: main.cpp:25 main.cpp:36 main.cpp:54
+msgid "Pause game"
+msgstr "Pausar jogo"
+
+#: main.cpp:27 main.cpp:38 main.cpp:56
+msgid "High scores"
+msgstr "Quadro de honra"
+
+#: main.cpp:28
+msgid "Close dialog"
+msgstr "Diálogo Fechar"
+
+#: main.cpp:29
+msgid "Ok dialog"
+msgstr "Diálogo OK"
+
+#: main.cpp:30
+msgid "Cancel dialog"
+msgstr "Diálogo de Cancelar"
+
+#: main.cpp:51 main.cpp:159
+msgid "Hide menu bar"
+msgstr "Esconder barra de menu"
+
+#: main.cpp:61
+msgid "? mark"
+msgstr "marca ?"
+
+#: main.cpp:62
+msgid "Keys"
+msgstr "Teclas"
+
+#: main.cpp:65
+msgid "Easy"
+msgstr "Fácil"
+
+#: main.cpp:67
+msgid "Expert"
+msgstr "Expert"
+
+#: main.cpp:69
+msgid "Custom"
+msgstr "Personalizado"
+
+#: main.cpp:82
+msgid "Level"
+msgstr "Nível"
+
+#: main.cpp:156
+msgid "Show menu bar"
+msgstr "Mostrar barra de menu"
+
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "Anônimo"
+
+#: status.cpp:251
+msgid "You did it ... but not in time."
+msgstr "Conseguiu ... mas não em tempo."
+
+#: status.cpp:252
+msgid "Yeeessss !"
+msgstr "Siiimmmm !"
+
+#: status.cpp:255
+msgid "Bad luck !"
+msgstr "Má sorte!"
+
+#: status.cpp:301
+msgid "Highscore file is not writable !"
+msgstr "Não consigo escrever no arquivo do quadro de honra"
+
+#: status.cpp:316
+msgid "kmines : Error"
+msgstr "kmines : Erro"
+
+#: field.cpp:86 field.cpp:93
+msgid "Game paused"
+msgstr "Jogo pausado"
+
+#: field.cpp:89 field.cpp:95
+msgid "Press to resume"
+msgstr "Carregue para continuar"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "Nível personalizado"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "Largura :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "Altura :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "Minas :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "Quadro de Honra"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr "em "
+
+#: dialogs.cpp:233 dialogs.cpp:306
+msgid "minutes and "
+msgstr "minutos e"
+
+#: dialogs.cpp:234 dialogs.cpp:319
+msgid "seconds."
+msgstr "segundos."
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "Pódio"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "Marca de incerteza (?)"
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "Tente outra vez"

@@ -1,0 +1,183 @@
+msgid ""
+msgstr "Project-Id-Version: kuser\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-03-23 00:00+0100\n"
+       "Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+
+#: cardmaps.cpp:62
+msgid "please wait, loading cards..."
+msgstr "por favor aguarde, lendo as cartas..."
+
+#: cardmaps.cpp:66
+msgid "KPat - a Solitaire game"
+msgstr "KPat - um jogo Solitário"
+
+#: cardmaps.cpp:104
+#, c-format
+msgid "kpat: PANIC, cannot load card pixmap \"%s\"\n"
+msgstr "kpat: PANICO, não foi possível ler o pixmap da carta \"%s\"\n"
+
+#: cardmaps.cpp:204
+#, c-format
+msgid "KPAT: access to invalid card %d, %d\n"
+msgstr "KPAT: acesso à uma carta inválida %d, %d\n"
+
+#: computation.cpp:92
+msgid "Easy 4"
+msgstr "Fácil 4"
+
+#: computation.cpp:93
+msgid "Easy 3"
+msgstr "Fácil 3"
+
+#: computation.cpp:94
+msgid "Easy 2"
+msgstr "Fácil 2"
+
+#: computation.cpp:95
+msgid "Easy 1"
+msgstr "Fácil 1"
+
+#: computation.cpp:97
+msgid "Hard 1"
+msgstr "Difícil 1"
+
+#: computation.cpp:98
+msgid "Hard 2"
+msgstr "Difícil 2"
+
+#: computation.cpp:99
+msgid "Hard 3"
+msgstr "Difícil 3"
+
+#: computation.cpp:100
+msgid "Hard 4"
+msgstr "Difícil 4"
+
+#: computation.cpp:101
+msgid "Hard 5"
+msgstr "Difícil 5"
+
+#: grandf.cpp:34
+msgid "Try to move card:"
+msgstr "Tente mover a carta:"
+
+#: grandf.cpp:113 mod3.cpp:56
+msgid "Redeal"
+msgstr "Dar novamente as Cartas"
+
+#: grandf.cpp:147
+msgid "Hint"
+msgstr "Dica"
+
+#: grandf.cpp:174
+msgid "Only 3 deals allowed"
+msgstr "Apenas 3 trocas são permitidos"
+
+#: klondike.cpp:67
+msgid "Easy rules"
+msgstr "Regras fáceis"
+
+#: klondike.cpp:68
+msgid "Hard rules"
+msgstr "Regras difíceis"
+
+#: klondike.cpp:94
+msgid ""
+"This will end the current game\n"
+"Are you sure you want to do this?"
+msgstr "Isto irá terminar o jogo atual\n"
+       "Deseja mesmo fazer isto?"
+
+#: mod3.cpp:136
+msgid "No more cards"
+msgstr "Não há mais cartas"
+
+#: pwidget.cpp:95
+msgid "&Restart game"
+msgstr "&Reiniciar jogo"
+
+#: pwidget.cpp:99
+msgid "&Klondike"
+msgstr "&Klondike"
+
+#: pwidget.cpp:100 pwidget.cpp:275
+msgid "MicroSolitaire"
+msgstr "MicroSolitário"
+
+#: pwidget.cpp:101 pwidget.cpp:279
+msgid "Calculation"
+msgstr "Cálculo"
+
+#: pwidget.cpp:102
+msgid "Napoleon's Tomb"
+msgstr "Tumba de Napoleão"
+
+#: pwidget.cpp:103 pwidget.cpp:283
+msgid "The Idiot"
+msgstr "O Idiota"
+
+#: pwidget.cpp:104 pwidget.cpp:267
+msgid "Grandfather"
+msgstr "Padrinho"
+
+#: pwidget.cpp:105 pwidget.cpp:255
+msgid "Ten"
+msgstr "Dez"
+
+#: pwidget.cpp:106 pwidget.cpp:259
+msgid "Mod3"
+msgstr "Mod3"
+
+#: pwidget.cpp:107 pwidget.cpp:263
+msgid "Freecell"
+msgstr "Célula Livre"
+
+#: pwidget.cpp:109
+msgid "Choose new game"
+msgstr "Escolher novo jogo"
+
+#: pwidget.cpp:115
+msgid "KDE"
+msgstr "KDE"
+
+#: pwidget.cpp:116
+msgid "Classic blue"
+msgstr "Azul clássico"
+
+#: pwidget.cpp:117
+msgid "Classic red"
+msgstr "Vermelho clássico"
+
+#: pwidget.cpp:118
+msgid "Technical"
+msgstr "Técnico"
+
+#: pwidget.cpp:119
+msgid "Card backside"
+msgstr "Verso da Carta"
+
+#: pwidget.cpp:120
+msgid "Animation on startup"
+msgstr "Animação na inicialização"
+
+#: pwidget.cpp:271
+msgid "Klondike"
+msgstr "Klondike"
+
+#: pwidget.cpp:287
+msgid "Napoleons Tomb"
+msgstr "Tumba de Napoleão"
+
+#: pwidget.cpp:292
+#, c-format
+msgid "kpat: unimplemented game type %d\n"
+msgstr "kpat: tipo de jogo não implementado %d\n"
+
+#: pwidget.cpp:342
+msgid "Could not load background image!"
+msgstr "Não foi possível carregar a imagem do fundo"
+
+#: ten.cpp:40
+msgid "Full Auto"
+msgstr "Automatismo Total"
