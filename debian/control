@@ -1,0 +1,11 @@
+Source: kdegames
+Section: contrib/games
+Priority: extra
+Maintainer: Stephan Kulow <coolo@kde.org>
+Standards-Version: 2.3.0.0
+
+Package: kdegames
+Architecture: any
+Depends: ${shlibs:Depends}, kdebase (>= ${Source-Version})
+Description: KDE games collection
+ This is a collection of several games written for kde.
