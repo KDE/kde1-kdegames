@@ -67,6 +67,7 @@ install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
 	(cd bitmaps && $(MAKE) install)
+	$(INSTALL_DIR) $(ICONDIR)
 	$(INSTALL_DATA) kpoker.xpm $(ICONDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) kpoker.kdelnk $(APPSDIR)
