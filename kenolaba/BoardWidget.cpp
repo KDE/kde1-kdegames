@@ -75,12 +75,12 @@ BoardWidget::~BoardWidget()
       delete arrow[i];
 }
 
-void BoardWidget::resizeEvent(QResizeEvent *e)
+void BoardWidget::resizeEvent(QResizeEvent * /*e*/ )
 {
   drawBoard();
 }
 
-void BoardWidget::paintEvent(QPaintEvent *e)
+void BoardWidget::paintEvent(QPaintEvent * /*e*/ )
 {
   bitBlt(this, 0, 0, &pm);
 }

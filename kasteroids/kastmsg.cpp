@@ -19,7 +19,7 @@ void KAstMsg::setMessage( const char *m )
     painter.end();
 }
 
-void KAstMsg::paintEvent( QPaintEvent *pe )
+void KAstMsg::paintEvent( QPaintEvent * /*pe*/ )
 {
     QPainter painter;
 
