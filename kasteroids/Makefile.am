@@ -2,7 +2,7 @@
 INCLUDES = $(all_includes)
 
 LDFLAGS = $(all_libraries) $(KDE_RPATH)
-LDADD = -lkdeui -lkdecore -lQwSpriteField -lmediatool -lqt -lXext -lX11 $(LIBSOCKET)
+LDADD = -lkdeui -lkdecore -lQwSpriteField -lmediatool -lqt -lXext -lX11 $(LIBSOCKET) $(LIBCOMPAT)
 
 kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp
 BUILTSOURCES = view.moc toplevel.moc kfixedtopwidget.moc
