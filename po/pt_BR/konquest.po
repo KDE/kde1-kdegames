@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-16 01:33+0100\n"
+"POT-Creation-Date: 1999-01-13 01:34+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: Elvis Pfützenreuter <epx@netville.com.br>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -145,36 +145,36 @@ msgstr "Medir Distância"
 msgid "Show Standings"
 msgstr "Mostrar Pontuação"
 
-#: newgamedlg.cc:28
+#: newgamedlg.cc:31
 msgid "Preview Map"
 msgstr "Mapa de previsão"
 
-#: newgamedlg.cc:31
+#: newgamedlg.cc:35
 msgid "&Reject Map"
 msgstr "&Rejeitar Mapa"
 
-#: newgamedlg.cc:38
+#: newgamedlg.cc:41
 msgid "&Player List"
 msgstr "&Lista de Jogadores"
 
-#: newgamedlg.cc:44
+#: newgamedlg.cc:48
 msgid "&Add"
 msgstr "&Adicionar"
 
-#: newgamedlg.cc:50
+#: newgamedlg.cc:54
 msgid "&Clear"
 msgstr "Lim&par"
 
-#: newgamedlg.cc:67
+#: newgamedlg.cc:70
 msgid "&Start Game"
 msgstr "&Iniciar Jogo"
 
-#: newgamedlg.cc:166
+#: newgamedlg.cc:162
 #, c-format
 msgid "Number of Neutral Planets: %2d"
 msgstr "Número de Planetas Neutros: %2d"
 
-#: newgamedlg.cc:178
+#: newgamedlg.cc:174
 #, c-format
 msgid "Number of turns: %2d"
 msgstr "Número de rodadas: %2d"

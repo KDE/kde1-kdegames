@@ -3,7 +3,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"POT-Creation-Date: 1999-01-12 14:06+0100\n"
 "PO-Revision-Date: 1998-09-17 13:38+MST\n"
 "Last-Translator: Vladimir Vuksan <vuksan@veus.hr>\n"
 "Language-Team: Croatian <hr@li.org>\n"
@@ -90,7 +90,8 @@ msgid "SameGame - Quit"
 msgstr "Isto - Zavr¹i"
 
 #: KSameWidget.cpp:193
-msgid "Do you want really quit?"
+#, fuzzy
+msgid "Do you really want to quit?"
 msgstr "®elite li zbilja zavr¹iti?"
 
 #: KSameWidget.cpp:199

@@ -4,7 +4,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: kdegames\n"
-"POT-Creation-Date: 1998-12-16 01:33+0100\n"
+"POT-Creation-Date: 1999-01-13 01:34+0100\n"
 "PO-Revision-Date: 1998-12-21 13:35+0200\n"
 "Last-Translator: Alonso Lara <jlaram@nexo.es>\n"
 "Language-Team: Spanish <kde-es@kyb.ml.org>\n"
@@ -144,36 +144,36 @@ msgstr "Distancia Medida"
 msgid "Show Standings"
 msgstr "Mostrar Posiciones"
 
-#: newgamedlg.cc:28
+#: newgamedlg.cc:31
 msgid "Preview Map"
 msgstr "Ojear Mapa"
 
-#: newgamedlg.cc:31
+#: newgamedlg.cc:35
 msgid "&Reject Map"
 msgstr "&Rechazar Mapa"
 
-#: newgamedlg.cc:38
+#: newgamedlg.cc:41
 msgid "&Player List"
 msgstr "Lista de &Jugadores"
 
-#: newgamedlg.cc:44
+#: newgamedlg.cc:48
 msgid "&Add"
 msgstr "&Añadir"
 
-#: newgamedlg.cc:50
+#: newgamedlg.cc:54
 msgid "&Clear"
 msgstr "&Limpiar"
 
-#: newgamedlg.cc:67
+#: newgamedlg.cc:70
 msgid "&Start Game"
 msgstr "&Comenzar Partida"
 
-#: newgamedlg.cc:166
+#: newgamedlg.cc:162
 #, c-format
 msgid "Number of Neutral Planets: %2d"
 msgstr "Número de Planetas Neutrales: %2d"
 
-#: newgamedlg.cc:178
+#: newgamedlg.cc:174
 #, c-format
 msgid "Number of turns: %2d"
 msgstr "Número de Turnos: %2d"

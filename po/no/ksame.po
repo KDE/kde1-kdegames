@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: KDE GAMES/ksame\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"POT-Creation-Date: 1999-01-12 14:06+0100\n"
 "PO-Revision-Date: 1998-06-14 20:34+0200\n"
 "Last-Translator: Hans Petter Bieker <zerium@webindex.no>\n"
 "Language-Team: no <LL@li.org>\n"
@@ -92,7 +92,8 @@ msgid "SameGame - Quit"
 msgstr "SameGame - Avslutt"
 
 #: KSameWidget.cpp:193
-msgid "Do you want really quit?"
+#, fuzzy
+msgid "Do you really want to quit?"
 msgstr "Ønsker du virkelig å avslutte?"
 
 #: KSameWidget.cpp:199

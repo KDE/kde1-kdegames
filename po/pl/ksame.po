@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"POT-Creation-Date: 1999-01-12 14:06+0100\n"
 "PO-Revision-Date: 1998-08-08 00:53+0200\n"
 "Last-Translator: Piotr Roszatycki <dexter@fnet.pl>\n"
 "Content-Type: text/plain; charset=iso-8859-2\n"
@@ -87,7 +87,8 @@ msgid "SameGame - Quit"
 msgstr "Zakoñcz"
 
 #: KSameWidget.cpp:193
-msgid "Do you want really quit?"
+#, fuzzy
+msgid "Do you really want to quit?"
 msgstr "Czy na pewno chcesz skoñczyæ?"
 
 #: KSameWidget.cpp:199

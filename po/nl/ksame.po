@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: 0.4\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"POT-Creation-Date: 1999-01-12 14:06+0100\n"
 "PO-Revision-Date: 1998-07-29 10:10+0100\n"
 "Last-Translator: Willem de Groot <wilm@stip.net>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,7 +95,8 @@ msgid "SameGame - Quit"
 msgstr "SameGame - Stoppen"
 
 #: KSameWidget.cpp:193
-msgid "Do you want really quit?"
+#, fuzzy
+msgid "Do you really want to quit?"
 msgstr "Wil je echt stoppen?"
 
 #: KSameWidget.cpp:199

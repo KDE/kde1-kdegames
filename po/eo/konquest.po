@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: konquest\n"
-"POT-Creation-Date: 1998-12-16 01:33+0100\n"
+"POT-Creation-Date: 1999-01-13 01:34+0100\n"
 "PO-Revision-Date: 1998-12-17 21:00+0100\n"
 "Last-Translator: Wolfram Diestel <diestel@rzaix340.rz-uni-leipzig.de>\n"
 "Language-Team: Esperanto <eo@li.org>\n"
@@ -146,36 +146,36 @@ msgstr "Mezuru distancon"
 msgid "Show Standings"
 msgstr "Montru rezulton"
 
-#: newgamedlg.cc:28
+#: newgamedlg.cc:31
 msgid "Preview Map"
 msgstr "Antaýrigardu mapon"
 
-#: newgamedlg.cc:31
+#: newgamedlg.cc:35
 msgid "&Reject Map"
 msgstr "&Remetu mapon"
 
-#: newgamedlg.cc:38
+#: newgamedlg.cc:41
 msgid "&Player List"
 msgstr "&Ludantolisto"
 
-#: newgamedlg.cc:44
+#: newgamedlg.cc:48
 msgid "&Add"
 msgstr "&Aldonu"
 
-#: newgamedlg.cc:50
+#: newgamedlg.cc:54
 msgid "&Clear"
 msgstr "&Viþu"
 
-#: newgamedlg.cc:67
+#: newgamedlg.cc:70
 msgid "&Start Game"
 msgstr "&Komencu ludon"
 
-#: newgamedlg.cc:166
+#: newgamedlg.cc:162
 #, c-format
 msgid "Number of Neutral Planets: %2d"
 msgstr "Nombro de neýtralaj planedoj: %2d"
 
-#: newgamedlg.cc:178
+#: newgamedlg.cc:174
 #, c-format
 msgid "Number of turns: %2d"
 msgstr "Nombro de rondoj: %2d"

@@ -6,7 +6,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-11-08 01:50+0100\n"
+"POT-Creation-Date: 1999-01-12 14:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: LinuxKorea Co. <kde@linuxkorea.co.kr>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -95,7 +95,8 @@ msgid "SameGame - Quit"
 msgstr "SameGame - 종료"
 
 #: KSameWidget.cpp:193
-msgid "Do you want really quit?"
+#, fuzzy
+msgid "Do you really want to quit?"
 msgstr "정말로 종료하시겠습니까?"
 
 #: KSameWidget.cpp:199

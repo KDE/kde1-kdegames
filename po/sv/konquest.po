@@ -5,7 +5,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
-"POT-Creation-Date: 1998-12-16 01:33+0100\n"
+"POT-Creation-Date: 1999-01-13 01:34+0100\n"
 "PO-Revision-Date: 1998-12-13 17:01+0100\n"
 "Last-Translator: Karl Backström <backstrom@kde.org>\n"
 "Language-Team: Sv <LL@li.org>\n"
@@ -145,36 +145,36 @@ msgstr "Mät avståndet"
 msgid "Show Standings"
 msgstr "Visa statistik"
 
-#: newgamedlg.cc:28
+#: newgamedlg.cc:31
 msgid "Preview Map"
 msgstr "Föregående karta"
 
-#: newgamedlg.cc:31
+#: newgamedlg.cc:35
 msgid "&Reject Map"
 msgstr "&Avvisa kartan"
 
-#: newgamedlg.cc:38
+#: newgamedlg.cc:41
 msgid "&Player List"
 msgstr "&Spelar lista"
 
-#: newgamedlg.cc:44
+#: newgamedlg.cc:48
 msgid "&Add"
 msgstr "&Lägg till"
 
-#: newgamedlg.cc:50
+#: newgamedlg.cc:54
 msgid "&Clear"
 msgstr "&Töm"
 
-#: newgamedlg.cc:67
+#: newgamedlg.cc:70
 msgid "&Start Game"
 msgstr "&Starta nytt spel"
 
-#: newgamedlg.cc:166
+#: newgamedlg.cc:162
 #, c-format
 msgid "Number of Neutral Planets: %2d"
 msgstr "Antal neutrala planeter: %2d"
 
-#: newgamedlg.cc:178
+#: newgamedlg.cc:174
 #, c-format
 msgid "Number of turns: %2d"
 msgstr "Antal omgångar: %2d"
