@@ -1,29 +1,29 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR Free Software Foundation, Inc.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
 msgid ""
-msgstr ""
-"Project-Id-Version: kuser\n"
-"POT-Creation-Date: 1998-06-18 22:45+0200\n"
-"PO-Revision-Date: 1998-03-23 00:00+0100\n"
-"Last-Translator: Sandro Henrique <sandro@conectiva.com.br>\n"
+msgstr "Project-Id-Version: kmines\n"
+       "POT-Creation-Date: 1998-03-21 18:32+0300\n"
+       "PO-Revision-Date: 1998-06-23 09:00-0300\n"
+       "Last-Translator: Elvis Pfützenreuter<epx@netville.com.br>\n"
 
 #: dialogs.cpp:95
-#, fuzzy
 msgid "Customize Game"
-msgstr "Nível personalizado"
+msgstr "Customizar Jogo"
 
 #: dialogs.cpp:124
-#, fuzzy
 msgid "Width"
-msgstr "Largura :"
+msgstr "Largura"
 
 #: dialogs.cpp:149
-#, fuzzy
 msgid "Height"
-msgstr "Altura :"
+msgstr "Altura"
 
 #: dialogs.cpp:174
-#, fuzzy
 msgid "Mines"
-msgstr "Minas :"
+msgstr "Minas"
 
 #: dialogs.cpp:258
 msgid "Hall of Fame"
@@ -42,13 +42,12 @@ msgid "in"
 msgstr "em "
 
 #: dialogs.cpp:332
-#, fuzzy
 msgid "minutes"
-msgstr "minutos e"
+msgstr "minutos"
 
 #: dialogs.cpp:342
 msgid "and"
-msgstr ""
+msgstr "e"
 
 #: dialogs.cpp:354
 msgid "seconds."
@@ -108,11 +107,11 @@ msgstr "Personalizado"
 
 #: main.cpp:64
 msgid "Minesweeper"
-msgstr ""
+msgstr "Caça-Minas"
 
 #: main.cpp:67
 msgid "by"
-msgstr ""
+msgstr "por"
 
 #: main.cpp:72
 msgid "Level"
@@ -121,27 +120,3 @@ msgstr "Nível"
 #: main.cpp:143
 msgid "Show menu bar"
 msgstr "Mostrar barra de menu"
-
-#~ msgid "Close dialog"
-#~ msgstr "Diálogo Fechar"
-
-#~ msgid "Ok dialog"
-#~ msgstr "Diálogo OK"
-
-#~ msgid "Cancel dialog"
-#~ msgstr "Diálogo de Cancelar"
-
-#~ msgid "Highscore file is not writable !"
-#~ msgstr "Não consigo escrever no arquivo do quadro de honra"
-
-#~ msgid "kmines : Error"
-#~ msgstr "kmines : Erro"
-
-#~ msgid "High Scores"
-#~ msgstr "Quadro de Honra"
-
-#~ msgid "Uncertain (?) mark"
-#~ msgstr "Marca de incerteza (?)"
-
-#~ msgid "Try again"
-#~ msgstr "Tente outra vez"
