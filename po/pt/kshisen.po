@@ -1,0 +1,194 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kshisen\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-01-22 00:00+0100\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+
+#: app.cpp:88 board.cpp:175
+msgid "Shisen-Sho"
+msgstr "Shisen-Sho"
+
+#: app.cpp:102
+msgid "Get &hint"
+msgstr "Obter uma &dica"
+
+#: app.cpp:104
+msgid "&New game"
+msgstr "&Novo jogo"
+
+#: app.cpp:105
+msgid "Res&tart game"
+msgstr "&Recomeçar jogo"
+
+#: app.cpp:107
+msgid "Is game solvable?"
+msgstr "O jogo é resolúvel?"
+
+#: app.cpp:109
+msgid "&Hall of Fame"
+msgstr "Quadro de &Honra"
+
+#: app.cpp:115
+msgid "14x6"
+msgstr "14x6"
+
+#: app.cpp:116
+msgid "18x8"
+msgstr "18x8"
+
+#: app.cpp:117
+msgid "24x12"
+msgstr "24x12"
+
+#: app.cpp:118
+msgid "28x16"
+msgstr "28x16"
+
+#: app.cpp:119
+msgid "32x20"
+msgstr "32x20"
+
+#: app.cpp:123
+msgid "Very fast"
+msgstr "Muito rápido"
+
+#: app.cpp:124
+msgid "Fast"
+msgstr "Rápido"
+
+#: app.cpp:125 app.cpp:130
+msgid "Medium"
+msgstr "Médio"
+
+#: app.cpp:126
+msgid "Slow"
+msgstr "Lento"
+
+#: app.cpp:127
+msgid "Very slow"
+msgstr "Muito lento"
+
+#: app.cpp:129
+msgid "Easy"
+msgstr "Fácil"
+
+#: app.cpp:131
+msgid "Hard"
+msgstr "Difícil"
+
+#: app.cpp:137
+msgid "About &Qt..."
+msgstr "Acerca do &Qt.."
+
+#: app.cpp:142
+msgid "Si&ze"
+msgstr "Tama&nho"
+
+#: app.cpp:143
+msgid "S&peed"
+msgstr "&Velocidade"
+
+#: app.cpp:144
+msgid "&Level"
+msgstr "&Nível"
+
+#: app.cpp:145
+msgid "Disallow unsolvable games"
+msgstr "Não permitir jogos não resolúveis"
+
+#: app.cpp:166
+msgid "Your time: XX:XX:XX"
+msgstr "Tempo: XX:XX:XX"
+
+#: app.cpp:167 app.cpp:256 app.cpp:281
+msgid "Cheat mode"
+msgstr "Modo batota"
+
+#: app.cpp:247
+msgid "This game is solveable"
+msgstr "Este jogo é resolúvel"
+
+#: app.cpp:250
+msgid "This game is NOT solveable"
+msgstr "Este jogo NÃO é resolúvel"
+
+#: app.cpp:348
+msgid "About Shisen-Sho"
+msgstr "Acerca do Shisen-Sho"
+
+#: app.cpp:349
+msgid ""
+"Shisen-Sho\n"
+"\n"
+"version 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"This program is free software published \n"
+"under the GNU General Public License GPL.\n"
+"More about this in the help."
+msgstr ""
+"Shisen-Sho\n"
+"\n"
+"versão 0.2\n"
+"(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
+"\n"
+"Este programa é software livre publicado \n"
+"sobre a Licença Geral Pública (GPL) GNU.\n"
+"Mais sobre isto na ajuda."
+
+#: app.cpp:381 app.cpp:404
+msgid "End of game"
+msgstr "Fim do jogo"
+
+#: app.cpp:382
+msgid "No more moves possible!"
+msgstr "Não há mais jogadas possíveis!"
+
+#: app.cpp:399
+#, c-format
+msgid "Congratulations! You made it in %02d:%02d:%02d"
+msgstr "Parabéns! Conseguiste em %02d:%02d:%02d"
+
+#: app.cpp:416
+#, c-format
+msgid "Your time: %02d:%02d:%02d"
+msgstr "O teu tempo: %02d:%02d:%02d"
+
+#: app.cpp:427
+msgid ""
+"You've made in into the \"Hall Of Fame\".Type in\n"
+"your name so mankind will always remember\n"
+"your cool rating."
+msgstr ""
+"Entraste para o \"Quadro de Honra\". Escreve o teu\n"
+"nome para que a humanidade sempre saiba que és mesmo\n"
+"bom nisto."
+
+#: app.cpp:430
+msgid "Your name:"
+msgstr "O teu nome:"
+
+#: app.cpp:571 app.cpp:576
+msgid "Hall Of Fame"
+msgstr "Quadro de Honra"
+
+#: app.cpp:572
+msgid "Shisen-Sho: Hall Of Fame"
+msgstr "Shisen-Sho: Quadro de Honra"
+
+#: app.cpp:597
+msgid "Rank"
+msgstr "Posição"
+
+#: app.cpp:601
+msgid "Name"
+msgstr "Nome"
+
+#: app.cpp:605
+msgid "Time"
+msgstr "Tempo"
+
+#: board.cpp:176
+msgid "Cannot load pixmaps!"
+msgstr "Não consigo carregar imagens!"

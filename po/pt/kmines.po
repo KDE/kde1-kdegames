@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kmines\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: 1998-01-22 00:00+0100\n"
+"Last-Translator: Pedro Morais <pmmm@camoes.rnl.ist.utl.pt>\n"
+
+#: main.cpp:22 main.cpp:34 main.cpp:53
+msgid "New game"
+msgstr "Novo jogo"
+
+#: main.cpp:23 main.cpp:35 main.cpp:54
+msgid "Pause game"
+msgstr "Pausar jogo"
+
+#: main.cpp:26 main.cpp:38 main.cpp:56
+msgid "High scores"
+msgstr "Quadro de honra"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Dialogo Fechar"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "Dialogo OK"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Dialogo Cancelar"
+
+#: main.cpp:51 main.cpp:162
+msgid "Hide menu bar"
+msgstr "Esconder barra de menu"
+
+#: main.cpp:61
+msgid "? mark"
+msgstr "marca ?"
+
+#: main.cpp:62
+msgid "Keys"
+msgstr "Teclas"
+
+#: main.cpp:65
+msgid "Easy"
+msgstr "Fácil"
+
+#: main.cpp:67
+msgid "Expert"
+msgstr "Perito"
+
+#: main.cpp:69
+msgid "Custom"
+msgstr "Personalizado"
+
+#: main.cpp:75
+msgid "About..."
+msgstr "Acerca..."
+
+#: main.cpp:80
+msgid "Level"
+msgstr "Nível"
+
+#: main.cpp:100
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK  (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+msgstr ""
+"%s (%s) \n"
+"\n"
+"por Nicolas HADACEK  (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+
+#: main.cpp:102
+msgid "kmines : About"
+msgstr "kmines : Acerca"
+
+#: main.cpp:159
+msgid "Show menu bar"
+msgstr "Mostrar barra de menu"
+
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "Anónimo"
+
+#: status.cpp:251
+msgid "You did it ... but not in time."
+msgstr "Conseguiste ... mas não foi a tempo."
+
+#: status.cpp:252
+msgid "Yeeessss !"
+msgstr "Siiimmmm !"
+
+#: status.cpp:255
+msgid "Bad luck !"
+msgstr "Ardeu !"
+
+#: status.cpp:301
+msgid "Highscore file is not writable !"
+msgstr "Não consigo escrever no ficheiro do quadro de honra"
+
+#: status.cpp:316
+msgid "kmines : Error"
+msgstr "kmines : Erro"
+
+#: field.cpp:87 field.cpp:94
+msgid "Game paused"
+msgstr "Jogo pausado"
+
+#: field.cpp:90 field.cpp:96
+msgid "Press to resume"
+msgstr "Carregue para continuar"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "Nivel personalizado"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "Largura :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "Altura :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "Minas :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "Quadro de Honra"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr "em "
+
+#: dialogs.cpp:233 dialogs.cpp:306
+msgid "minutes and "
+msgstr "minutos e"
+
+#: dialogs.cpp:234 dialogs.cpp:319
+msgid "seconds."
+msgstr "segundos."
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "Quadro de Honra"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "Marca de incerteza (?)"
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "Tenta outra vez"
