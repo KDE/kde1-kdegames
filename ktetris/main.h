@@ -11,6 +11,8 @@
 #include <qmenubar.h>
 #include <qpopmenu.h>
 
+#include <ktopwidget.h>
+#include <kmenubar.h>
 #include <kprogress.h>
 #include <kconfig.h>
 
@@ -38,7 +40,7 @@ class ShowNextPiece : public QFrame
 };
 
 
-class KTetris : public QWidget
+class KTetris : public KTopLevelWidget //QWidget
 {
  Q_OBJECT
 		
@@ -52,6 +54,7 @@ class KTetris : public QWidget
 	
  private slots:
 	void about();
+        void aboutqt();
 	void help();
 	void multiGame();
 	void showOpponents();
@@ -70,7 +73,7 @@ class KTetris : public QWidget
 
 	KConfig *kconf;
 	
-	QMenuBar *menu;
+	KMenuBar *menu;
 	QPopupMenu *popup;
 	int tog_id;
 	
