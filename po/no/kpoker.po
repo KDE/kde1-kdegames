@@ -116,9 +116,3 @@ msgstr "&Nytt spill"
 #: top.cpp:70
 msgid "&Sound"
 msgstr "&Lyd"
-
-#~ msgid "&About..."
-#~ msgstr "&Om..."
-
-#~ msgid "About &Qt..."
-#~ msgstr "Om &Qt..."

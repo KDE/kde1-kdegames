@@ -384,18 +384,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Ditt navn:"
-
-#~ msgid "Name"
-#~ msgstr "Navn"
-
-#~ msgid "&Rules"
-#~ msgstr "&Regler"
-
-#~ msgid "&Strategy hints"
-#~ msgstr "&Strategi hint"
-
-#~ msgid "About &Qt..."
-#~ msgstr "Om &Qt..."
-
-#~ msgid "&About..."
-#~ msgstr "&Om..."
