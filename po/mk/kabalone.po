@@ -18,7 +18,7 @@ msgstr "Povlechi"
 
 #: AbTop.cpp:243 AbTop.cpp:403
 msgid "Press F2 for a new game"
-msgstr "Pritisni F2 za nova igra"
+msgstr "Pritisnete F2 za nova igra"
 
 #: AbTop.cpp:261 AbTop.cpp:301
 msgid "Stop Search"
@@ -106,7 +106,7 @@ msgstr "DesnoDole"
 
 #: Move.cpp:19
 msgid "LeftDown"
-msgstr "levoDole"
+msgstr "LevoDole"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -126,7 +126,7 @@ msgstr "Nadvor"
 
 #: Move.cpp:50
 msgid "Push"
-msgstr "Pritisni"
+msgstr "Pritisnete"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
