@@ -14,6 +14,7 @@
 #include "AbTop.h"
 #include "Board.h"
 #include "BoardWidget.h"
+#include "version.h"
 
 AbTop::AbTop()
 {
@@ -273,7 +274,7 @@ void AbTop::setupToolBar()
 	pm = kapp->getIconLoader()->loadIcon( "help.xpm" );
 	toolbar->insertButton(pm, 4, SIGNAL( clicked() ),
 			      this, SLOT( help() ),
-			      TRUE, klocale->translate("Rules"));
+			      TRUE, klocale->translate("Help"));
 
 	toolbar->show();	
 	addToolBar(toolbar);	
@@ -283,7 +284,6 @@ void AbTop::setupToolBar()
 void AbTop::setupMenu()
 {
   KMenuBar* menu;
-  QPopupMenu *_help;
 
   /* is this wrong ? */
   stdAccel = new KStdAccel( kapp->getConfig() );
@@ -346,18 +346,17 @@ void AbTop::setupMenu()
 				  this, SLOT(writeConfig()) );	
   _options->setCheckable( TRUE );
 
-  _help = new QPopupMenu();
-  CHECK_PTR( _help );
-  _help->insertItem( klocale->translate("About"), this, SLOT(about()) );
-  _help->insertItem( klocale->translate("Rules"), 
-		     this, SLOT(help()), stdAccel->help() );
+  QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("Abalone"))
+                                         + " " + KABALONE_VERSION
+                                         + i18n("\n\nby Josef Weidendorfer")
+                                         + " (weidendo@informatik.tu-muenchen.de)"); 
 
   menu  = new KMenuBar(this);
   CHECK_PTR( menu );
   menu->insertItem( klocale->translate("File"), _file);
   menu->insertItem( klocale->translate("Options"), _options);
   menu->insertSeparator();
-  menu->insertItem( klocale->translate("Help"), _help);
+  menu->insertItem( klocale->translate("Help"), help);
   menu->show();
 
   setMenu(menu);
@@ -726,18 +725,6 @@ void AbTop::toggleSpy()
 void AbTop::help()
 {
   kapp->invokeHTMLHelp("kabalone/index.html", "");
-}
-
-void AbTop::about()
-{
-    QString tmp;
-
-    tmp.sprintf("KAbalone V 1.02 \n\n"
-		"(C) 1997 Josef Weidendorfer\n"
-		"<weidendo@informatik.tu-muenchen.de>");
-
-    KMsgBox::message(this, klocale->translate("About"),
-		     tmp,KMsgBox::INFORMATION, "OK");
 }
 
 

@@ -58,7 +58,6 @@ public slots:
   void changeShowMove();
   void toggleSpy();
   void help();
-  void about();
   void quit();
   void searchBreak();
   void moveChoosen(Move&);
