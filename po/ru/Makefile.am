@@ -1,6 +1,6 @@
 
 # This has to be set. The rest should be reusable
-GMOFILES = kasteroids.gmo kabalone.gmo
+GMOFILES = kasteroids.gmo kabalone.gmo ksokoban.gmo
 POFILES = $(GMOFILES:.gmo=.po)
 
 LANG = ru
