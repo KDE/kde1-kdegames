@@ -14,19 +14,15 @@ LDLIBS=-lpng -lz -lm
 #	rm -f Makefile
 
 FILES = `find . \( -name "*.ppm" -o -name "*.pbm" \) -print`
-prefix = @prefix@
-kde_datadir = @kde_datadir@
-install_root = @install_root@
 DESTDIR = $(kde_datadir)/kasteroids/sprites
-mkinstalldirs = $(SHELL) @top_srcdir@/mkinstalldirs
 
 install-data-local:
-	@$(mkinstalldirs) $(DESTDIR)/rock1 ;\
-	$(mkinstalldirs) $(DESTDIR)/rock2 ;\
-	$(mkinstalldirs) $(DESTDIR)/rock3 ;\
-	$(mkinstalldirs) $(DESTDIR)/ship ;\
-	$(mkinstalldirs) $(DESTDIR)/bits ;\
-	$(mkinstalldirs) $(DESTDIR)/missile ;\
+	$(mkinstalldirs) $(DESTDIR)/rock1 
+	$(mkinstalldirs) $(DESTDIR)/rock2 
+	$(mkinstalldirs) $(DESTDIR)/rock3 
+	$(mkinstalldirs) $(DESTDIR)/ship 
+	$(mkinstalldirs) $(DESTDIR)/bits 
+	$(mkinstalldirs) $(DESTDIR)/missile 
 	for file in $(FILES); do \
 	 echo "install $$file in "$(DESTDIR)/$$file ;\
 	 $(INSTALL_DATA) $$file $(DESTDIR)/$$file ;\
