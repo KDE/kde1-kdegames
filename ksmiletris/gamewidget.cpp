@@ -193,7 +193,7 @@ void GameWidget::newGame()
 	num_pieces_level = 2;
 	num_points = 0;
 
-	bg_sprite = (Sprite)(Sprite_Bg1 + rand() % num_bgs);
+	bg_sprite = (Sprite)(Sprite_Bg1 + random() % num_bgs);
 	screen->setBackgroundSprite(bg_sprite);
 	mirror->setBackgroundSprite(bg_sprite);
 	next->setBackgroundSprite(bg_sprite);
@@ -247,10 +247,10 @@ void GameWidget::newPiece()
 				  {1, 1, 1, 0},
 				  {1, 1, 0, 1},
 				  {0, 1, 1, 1}};
-	int p = rand() % 4;
+	int p = random() % 4;
 	for (int i = 0; i < 4; ++i)
 		if (pieces[p][i])
-			next_piece[i] = (Sprite)(Sprite_Block1 + rand()%num_pieces_level);
+			next_piece[i] = (Sprite)(Sprite_Block1 + random()%num_pieces_level);
 		else
 			next_piece[i] = bg_sprite;
 	next->repaint(false);

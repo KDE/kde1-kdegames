@@ -1,8 +1,3 @@
-/* 
- $Id$
-*/
-
-
 /* Some defines for the outlook etc. */
 #define highestCard 52
 

@@ -1,5 +1,6 @@
 #include "main.h"
 
+#include <config.h>
 #include <qdatetm.h>
 #include <qmsgbox.h>
 #include <kmsgbox.h>
@@ -15,7 +16,7 @@
 KTetris::KTetris() 
 {
 	QTime t = QTime::currentTime();
-	srand( t.hour()+t.minute()+t.second() );
+	srandom( t.hour()+t.minute()+t.second() );
 	
 	field = new Field(this);
 	setView(field);

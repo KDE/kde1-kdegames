@@ -1,6 +1,4 @@
 /*
- *  $Id$
- *
  *     This program is free software; you can redistribute it and/or modify
  *     it under the terms of the GNU General Public License as published by
  *     the Free Software Foundation; either version 2 of the License, or
@@ -23,6 +21,8 @@
  * bad parts just send me a patch including you "elegant" code ;)
  *
  */   
+
+#include <config.h>
 
 #include <stdio.h>
 #include <stdlib.h>

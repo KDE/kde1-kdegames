@@ -1,7 +1,3 @@
-/* 
- $Id$
-*/
-
 
 #include <ktopwidget.h>
 #include <qwidget.h>

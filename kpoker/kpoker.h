@@ -1,7 +1,3 @@
-/* 
- $Id$
-*/
-
 #ifndef KPOKER_H
 #define KPOKER_H
 

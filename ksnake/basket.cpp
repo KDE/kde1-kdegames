@@ -13,7 +13,7 @@ Kaffee::Kaffee(int pos)
 {
     p = pos;
     t = Red;
-    int r = rand() % 40000;
+    int r = random() % 40000;
     QTimer::singleShot( r, this, SLOT(golden()) );
     dirty = TRUE;
 }
@@ -22,7 +22,7 @@ void Kaffee::golden()
 {
     dirty = TRUE;
     t = (t == Red ? Golden : Red);
-    int r = rand() % 40000;
+    int r = random() % 40000;
     QTimer::singleShot( r, this, SLOT(golden()) );
 }
 
@@ -46,7 +46,7 @@ void Basket::newApples()
     int i = 0;
 
     while(i < 10) {
-	x =  rand() % board->size();
+	x =  random() % board->size();
 	if ((unsigned)x < board->size() && board->isEmpty(x) && x > BoardWidth+4) {
 	    Kaffee *g = new Kaffee(x);
 	    board->set(x, Apple);

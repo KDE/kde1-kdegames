@@ -263,11 +263,11 @@ bool CompuSnake::findEmpty(int i, int it)
 {
     bool found = FALSE;
     bool change = FALSE;
-    static int random =  rand() % BoardWidth/2;
+    static int s_random =  random() % BoardWidth/2;
     static int moves  = 0;
 
-    if (moves > random) {
-	random =  rand() % BoardWidth/2;
+    if (moves > s_random) {
+	s_random =  random() % BoardWidth/2;
 	moves  = 0;
 	change = TRUE;
     }

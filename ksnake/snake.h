@@ -1,6 +1,7 @@
 #ifndef SAMY_H
 #define SAMY_H
 
+#include <config.h>
 #include <qobject.h>
 #include <qwidget.h>
 

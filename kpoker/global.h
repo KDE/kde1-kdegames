@@ -1,7 +1,3 @@
-/* 
- $Id$
-*/
-
 #ifndef __GLOBAL__H__
 #define __GLOBAL__H__
 

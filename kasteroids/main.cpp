@@ -3,6 +3,8 @@
  *
  * Part of the KDE project
  */
+#include <config.h>
+
 #include <kapp.h>
 #include <klocale.h>
 #include <time.h>

@@ -112,11 +112,13 @@ void TetrisPiece::initialize(int ptype, int gameType)
 	else if ( gameType==PUYOPUYO_GAME )
 		for(int i=0; i<NB_CASES; i++) {
 			setCoords(i, TTYPES[type-1][i][0], TTYPES[type-1][i][1]);
-			setColor(i, (rand() % 5)+1);
+			setColor(i, (random() % 5)+1);
 		}
 }
 
 int TetrisPiece::randomValue(int maxPlusOne)
 {
-	return (int) ((double) maxPlusOne*rand()/(RAND_MAX+1.0));
+  //return (int) ((double) maxPlusOne*rand()/(RAND_MAX+1.0));
+  // modified by David Faure <faure@kde.org> : don't depend on rand and RAND_MAX
+  return random() % maxPlusOne;
 }

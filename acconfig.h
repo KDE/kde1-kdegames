@@ -20,6 +20,9 @@
 /* define if you have setenv */
 #undef HAVE_FUNC_SETENV
 
+/* define if you have random */
+#undef HAVE_RANDOM
+
 /* Define to 1 if NLS is requested.  */
 #undef ENABLE_NLS
 
@@ -45,5 +48,11 @@ const bool true = 1;
  */
 #ifdef _UNIXWARE
 #define HAVE_BOOLEAN
+#endif
+
+#ifndef HAVE_RANDOM
+#define HAVE_RANDOM
+long int random(void); // defined in fakes.cpp
+void srandom(unsigned int seed);
 #endif
 

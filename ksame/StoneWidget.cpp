@@ -18,6 +18,7 @@
  *
  */
 
+#include <config.h>
 #include <stdio.h>
 #include <stdlib.h>
 #include <kapp.h>
@@ -25,13 +26,7 @@
 #include <qpixmap.h> 
 #include <kiconloader.h>
 #include "StoneWidget.moc"
-/*
-unsigned int randseed;
 
-unsigned int random() {
-  return((randseed=(randseed*134775813)+1)>>16);
-}
-*/       
 StoneWidget::StoneWidget( QWidget *parent, int x, int y ) 
     : QWidget(parent) {
 
@@ -108,9 +103,9 @@ StoneWidget::reset() {
      slice=0;
      modified=1;
      marked=0;
-     srand(f_board);
+     srandom(f_board);
      for (int i=0;i<stones_size;i++)
-	  SETCOLOR(stones[i], (unsigned char)(rand()%f_colors)+1);
+	  SETCOLOR(stones[i], (unsigned char)(random()%f_colors)+1);
      emit s_score(f_score);
      emit s_mark(0);
 }

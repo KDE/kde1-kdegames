@@ -33,7 +33,7 @@ int main(int argc, char **argv)
 {
 	KApplication app(argc, argv);
 
-	srand(time(0));
+	srandom(time(0));
 
 	GameWindow w;
 	app.setMainWidget(&w);

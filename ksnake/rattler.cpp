@@ -60,7 +60,7 @@ Rattler::Rattler( QWidget *parent, const char *name )
     connect( basket, SIGNAL(openGate()), this, SLOT(openGate()));
 
     QTime midnight( 0, 0, 0 );
-    srand( midnight.secsTo(QTime::currentTime()) );
+    srandom( midnight.secsTo(QTime::currentTime()) );
 
     gameState.fill(FALSE);
     gameState.setBit(Demo);
@@ -304,7 +304,7 @@ void Rattler::restartDemo()
     if (!gameState.testBit(Demo))
 	return;
 
-    int r = 50000+ (rand() % 30000);
+    int r = 50000+ (random() % 30000);
     QTimer::singleShot( r, this, SLOT(restartDemo()) );
 
     stop();

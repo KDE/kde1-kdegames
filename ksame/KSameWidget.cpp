@@ -133,8 +133,8 @@ void KSameWidget::m_new() {
 	  if (stone->gameover()||
 	      (KMsgBox::yesNo(this, i18n("SameGame: New Game"), 
 			      i18n("Do you want to resign?"), KMsgBox::STOP)==1)) {
-	       srand(time(0));
-	       set_board(rand());
+	       srandom(time(0));
+	       set_board(random());
 	       stone->newgame(board);
 	  }
      } else {

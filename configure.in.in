@@ -66,6 +66,7 @@ AC_CHECK_BOOL
 dnl Checks for library functions. MISCOBJS is for kdecore
 AC_LANG_CPLUSPLUS
 AC_CHECK_SETENV
+AC_CHECK_RANDOM
 KDE_ADD_INCLUDES
 
 dnl output files

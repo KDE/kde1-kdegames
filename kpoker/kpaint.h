@@ -1,7 +1,3 @@
-/*
- $Id$
-*/
-
 #include <qpixmap.h>
 #include <qwindow.h>
 #include <qpushbt.h>
