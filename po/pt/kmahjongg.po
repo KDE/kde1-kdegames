@@ -47,7 +47,7 @@ msgstr "&Carregar imagem de fundo..."
 
 #: kmahjongg.cpp:224
 msgid "&Statusbar"
-msgstr "Barra de &status"
+msgstr "Barra de e&stado"
 
 #: kmahjongg.cpp:226
 msgid "Mahjongg"
