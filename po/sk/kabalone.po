@@ -14,9 +14,8 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 
 #: Move.cpp:17
-#, fuzzy
 msgid "Right"
-msgstr "Vpravo hore"
+msgstr "Vpravo"
 
 #: Move.cpp:18
 msgid "RightDown"
@@ -27,9 +26,8 @@ msgid "LeftDown"
 msgstr "Vµavo dole"
 
 #: Move.cpp:20
-#, fuzzy
 msgid "Left"
-msgstr "Vµavo hore"
+msgstr "Vµavo"
 
 #: Move.cpp:21
 msgid "LeftUp"
@@ -85,7 +83,7 @@ msgstr "¥ahká"
 
 #: AbTop.cpp:317
 msgid "Normal"
-msgstr ""
+msgstr "Normálna"
 
 #: AbTop.cpp:319
 msgid "Hard"
@@ -125,7 +123,7 @@ msgstr "©pión"
 
 #: AbTop.cpp:349
 msgid "Abalone"
-msgstr ""
+msgstr "Abalone"
 
 #: AbTop.cpp:351
 msgid ""
@@ -133,6 +131,9 @@ msgid ""
 "\n"
 "by Josef Weidendorfer"
 msgstr ""
+"\n"
+"\n"
+"napísal Josef Weidendorfer"
 
 #: AbTop.cpp:407
 msgid "won"
