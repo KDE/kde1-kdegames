@@ -6,6 +6,8 @@ LDADD = -lkdeui -lkdecore -lQwSpriteField -lmediatool -lqt -lXext -lX11 $(LIBSOC
 
 kasteroids_SOURCES = main.cpp view.cpp toplevel.cpp kfixedtopwidget.cpp
 BUILTSOURCES = view.moc toplevel.moc kfixedtopwidget.moc
+DISTCLEANFILES = $(BUILTSOURCES)
+
 bin_PROGRAMS = kasteroids
 
 SUBDIRS = html

@@ -1,0 +1,68 @@
+VERSION=1.02
+
+CXXFLAGS= $(all_includes)
+
+LDFLAGS	= $(all_libraries) $(KDE_RPATH)
+LDADD = -lkdeui -lkdecore -lqt -lXext -lX11 $(LIBSOCKET)
+
+KDELNKDIR= $(kde_appsdir)/Games
+
+kabalone_SOURCES = Board.cpp Move.cpp BoardWidget.cpp AbTop.cpp \
+	 kabalone.cpp Spy.cpp
+SRCMETA =	Board.moc AbTop.moc BoardWidget.moc Spy.moc
+DISTCLEANFILES = $(SRCMETA)
+
+bin_PROGRAMS = kabalone
+
+tar: clean
+	(rm -f Makefile; cd ..; tar czvf kabalone-$(VERSION).tgz kabalone)
+
+icondir = $(kde_icondir)
+icon_DATA = kabalone.xpm
+
+SUBDIRS = html toolbar
+
+appsdir = $(kde_appsdir)/Games
+apps_DATA = kabalone.kdelnk
+
+install-local-data:
+	$(mkinstalldirs) $(kde_minidir)
+	$(INSTALL_DATA) mini-kabalone.xpm $(kde_minidir)/kabalone.xpm
+
+uninstall-local:
+	-rm -f $(kde_minidir)/kabalone.xpm
+
+messages:
+	@XGETTEXT@  --keyword=translate -C -x../../kdelibs/po/kde.pot *.cpp && mv messages.po ../po/kabalone.pot
+
+AbTop.cpp:AbTop.moc
+AbTop.moc: AbTop.h
+	$(MOC) AbTop.h -o AbTop.moc
+
+Spy.cpp:Spy.moc
+Spy.moc: Spy.h
+	$(MOC) Spy.h -o Spy.moc
+
+BoardWidget.cpp:BoardWidget.moc
+BoardWidget.moc: BoardWidget.h
+	$(MOC) BoardWidget.h -o BoardWidget.moc
+
+Board.cpp:Board.moc
+Board.moc: Board.h
+	$(MOC) Board.h -o Board.moc
+
+
+# DO NOT DELETE
+AbTop.cpp: AbTop.h Board.h Move.h BoardWidget.h Spy.h AbTop.moc
+Board.cpp: Board.h Move.h Board.moc
+BoardWidget.cpp: Board.h Move.h BoardWidget.h bitmaps/Arrow1 bitmaps/Arrow1Mask
+BoardWidget.cpp: bitmaps/Arrow2 bitmaps/Arrow2Mask bitmaps/Arrow3
+BoardWidget.cpp: bitmaps/Arrow3Mask bitmaps/Arrow4 bitmaps/Arrow4Mask
+BoardWidget.cpp: bitmaps/Arrow5 bitmaps/Arrow5Mask bitmaps/Arrow6
+BoardWidget.cpp: bitmaps/Arrow6Mask BoardWidget.moc
+Move.cpp: Move.h
+Spy.cpp: Spy.h Board.h Move.h BoardWidget.h Spy.moc
+kabalone.cpp: AbTop.h Board.h Move.h BoardWidget.h Spy.h
+
+
+
