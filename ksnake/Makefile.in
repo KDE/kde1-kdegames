@@ -2,6 +2,7 @@
 
 kde_libraries 	= @kde_libraries@
 qt_libraries	= @qt_libraries@
+x_libraries     = @x_libraries@
 top_builddir 	= ..
 LIBTOOL 	= @LIBTOOL@
 KDE_RPATH 	= @KDE_RPATH@
