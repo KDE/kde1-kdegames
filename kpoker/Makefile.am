@@ -3,7 +3,7 @@
 INCLUDES = $(all_includes) 
 
 LDFLAGS	= $(all_libraries) $(KDE_RPATH)
-LDADD = -lmediatool -lkdeui -lkdecore  -lXext  $(LIB_QT) $(LIBCOMPAT)
+LDADD = -lmediatool       $(LIB_KDEUI) $(LIBCOMPAT)
 
 appsdir = $(kde_appsdir)/Games
 apps_DATA = kpoker.kdelnk

@@ -2,7 +2,7 @@
 INCLUDES = $(all_includes)
 
 LDFLAGS	= $(all_libraries) $(KDE_RPATH)
-LDADD =  -lkdeui -lkdecore  -lXext  -lm $(LIB_QT)
+LDADD =        -lm $(LIB_KDEUI)
 
 noinst_HEADERS = game.h trys.h rattler.h board.h\
 		level.h ball.h snake.h\

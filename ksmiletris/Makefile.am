@@ -13,7 +13,7 @@ ksmiletris_SOURCES = main.cpp gamewindow.cpp gamewidget.cpp \
 ksmiletris_METASOURCES = USE_AUTOMOC
 
 ksmiletris_LDFLAGS = $(all_libraries) $(KDE_RPATH)
-ksmiletris_LDADD   = -lkfm -lkdeui -lkdecore -lmediatool  -lXext  $(LIB_QT)
+ksmiletris_LDADD   = -lkfm   -lmediatool     $(LIB_KDEUI)
 
 noinst_HEADERS = ksmiletris.h gamewindow.h gamewidget.h \
 		 screenwidget.h mirrorwidget.h npiecewidget.h \

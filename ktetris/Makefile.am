@@ -8,7 +8,7 @@
 bin_PROGRAMS = ktetris
 INCLUDES = $(all_includes)
 ktetris_LDFLAGS = $(all_libraries) $(KDE_RPATH)
-ktetris_LDADD = -lkdeui -lkdecore  -lXext  $(LIB_QT)
+ktetris_LDADD =       $(LIB_KDEUI)
 
 ktetris_SOURCES= gtetris.cpp tpiece.cpp spiece.cpp gtboard.cpp board.cpp \
 				net.cpp dialogs.cpp field.cpp main.cpp dbutton.cpp

@@ -3,7 +3,7 @@ VERSION=1.02
 INCLUDES = $(all_includes)
 
 LDFLAGS	= $(all_libraries) $(KDE_RPATH)
-LDADD = -lkdeui -lkdecore  -lXext  $(LIB_QT)
+LDADD =       $(LIB_KDEUI)
 
 KDELNKDIR= $(kde_appsdir)/Games
 
