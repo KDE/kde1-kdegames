@@ -3,8 +3,8 @@ msgstr ""
 "Project-Id-Version: kasteroids\n"
 "POT-Creation-Date: 1998-10-01 13:21+0200\n"
 "PO-Revision-Date: 1999-03-29 11:37 MET\n"
-"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>" 
-"Translator: Stephan Kulow <coolo@kde.org>\n"
+"Last-Translator: Matthias Kiefer <matthias.kiefer@gmx.de>Translator: Stephan "
+"Kulow <coolo@kde.org>\n"
 
 #: toplevel.cpp:98
 msgid "Score"
