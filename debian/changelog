@@ -1,3 +1,10 @@
+kdegames (4:1.1.1-19990701-1) unstable; urgency=low     
+
+  * new upstream version from CVS
+  * This is pre-1.1.2 (frozen)
+
+ -- Ivan E. Moore II <rkrusty@debian.org>  Thu, 01 Jul 1999 23:45:55 -0400
+
 kdegames (4:1.1.1-19990624-1) unstable; urgency=low
 
   * new upstream version from CVS
