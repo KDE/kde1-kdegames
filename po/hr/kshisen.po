@@ -167,36 +167,8 @@ msgstr "Vrijeme"
 
 #: app.cpp:648
 msgid "Score"
-msgstr ""
+msgstr "Rezultat"
 
 #: board.cpp:223
 msgid "Cannot load pixmaps!"
 msgstr "Ne mogu uèitati pixmape!"
-
-#~ msgid "About &Qt..."
-#~ msgstr "O &Qt..."
-
-#~ msgid "About Shisen-Sho"
-#~ msgstr "O Shisen-Sho"
-
-#~ msgid ""
-#~ "Shisen-Sho\n"
-#~ "\n"
-#~ "version 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "This program is free software published \n"
-#~ "under the GNU General Public License GPL.\n"
-#~ "More about this in the help."
-#~ msgstr ""
-#~ "Shisen-Sho\n"
-#~ "\n"
-#~ "verzija 0.2\n"
-#~ "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
-#~ "\n"
-#~ "Ovaj program je besplatni softver izdan \n"
-#~ "pod GNU General Public License GPL-om.\n"
-#~ "Vi¹e o ovom u pomoæi."
-
-#~ msgid "Name"
-#~ msgstr "Ime"

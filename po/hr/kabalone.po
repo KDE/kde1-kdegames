@@ -89,7 +89,7 @@ msgstr " Na potezu si!"
 
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
-msgstr ""
+msgstr "Vrijednost ploèe"
 
 #: Move.cpp:18
 msgid "RightDown"

@@ -144,20 +144,3 @@ msgstr "Nesiguran (?) oznaka"
 #: dialogs.cpp:424
 msgid "Try again"
 msgstr "Poku¹aj ponovo"
-
-#~ msgid "About..."
-#~ msgstr "O programu..."
-
-#~ msgid ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "by Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-#~ msgstr ""
-#~ "%s (%s) \n"
-#~ "\n"
-#~ "Nicolas HADACEK  (hadacek@kde.org)\n"
-#~ " http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
-
-#~ msgid "kmines : About"
-#~ msgstr "kmines : O programu"

@@ -22,7 +22,6 @@ msgid "Version "
 msgstr "Inaèica "
 
 #: about.cpp:67
-#, fuzzy
 msgid ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
@@ -45,8 +44,10 @@ msgstr ""
 "\n"
 "(c) 1997 Mario Weilguni <mweilguni@sime.com>\n"
 "\n"
-"Ovaj program je besplatan i izdan pod GNU General Public License (za detalje "
+"Ovaj program je besplatan i izdan pod\n"
+"GNU General Public License (za detalje\n"
 "pogledajte pomoæ)\n"
+"\n"
 "\n"
 "Hvala:\n"
 "\tMats Luthman za game engine (igra je naèinjena na osnovu njegovog JAVA "
@@ -380,6 +381,3 @@ msgstr ""
 #: app.cpp:990
 msgid "Your name:"
 msgstr "Va¹e ime:"
-
-#~ msgid "Name"
-#~ msgstr "Ime"
