@@ -1,35 +1,41 @@
 msgid ""
 msgstr ""
-"POT-Creation-Date: 1998-06-16 14:30+0200\n"
+"POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "Content-Type: text/plain; charset=\n"
 "Date: 1997-09-24 10:59:56+0200\n"
 "From: root <root@joe>\n"
 "Xgettext-Options: --default-domain=kabalone --keyword=translate\n"
 "Files: AbTop.cpp Board.cpp BoardWidget.cpp Move.cpp kabalone.cpp\n"
+"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"Language-Team: Français\n"
+
+#: AbTop.cpp:241 AbTop.cpp:398
+msgid "Move"
+msgstr "Déplacer"
 
 #: AbTop.cpp:244 AbTop.cpp:402
 msgid "Press F2 for a new game"
-msgstr "Appuyez sur F2 pour une nouvelle partie"
+msgstr "Appuyez sur F2 pour une lancer une nouvelle partie"
 
 #: AbTop.cpp:262 AbTop.cpp:301
 msgid "Stop Search"
-msgstr "Arreter la recherche"
+msgstr "Arrêter la recherche"
 
 #: AbTop.cpp:267 AbTop.cpp:305
 msgid "Take back"
-msgstr "reprendre"
+msgstr "Reprendre"
 
 #: AbTop.cpp:272 AbTop.cpp:307
 msgid "Hint"
-msgstr "Tip"
+msgstr "Aide"
 
 #: AbTop.cpp:296
 msgid "Save Position"
-msgstr ""
+msgstr "Mémoriser la position"
 
 #: AbTop.cpp:298
 msgid "Restore Position"
-msgstr ""
+msgstr "Restaurer la position"
 
 #: AbTop.cpp:315
 msgid "Easy"
@@ -41,7 +47,7 @@ msgstr "Difficile"
 
 #: AbTop.cpp:321
 msgid "Challange"
-msgstr "Challange"
+msgstr "Challenge"
 
 #: AbTop.cpp:327 AbTop.cpp:406 AbTop.cpp:410
 msgid "Red"
@@ -61,15 +67,15 @@ msgstr "Niveau"
 
 #: AbTop.cpp:338
 msgid "Computer plays"
-msgstr "Ordinateur joue"
+msgstr "L'ordinateur joue"
 
 #: AbTop.cpp:340
 msgid "Move slow"
-msgstr "Deplacer lentement"
+msgstr "Déplacer lentement"
 
 #: AbTop.cpp:342
 msgid "Spy"
-msgstr ""
+msgstr "Espion"
 
 #: AbTop.cpp:407
 msgid "won"
@@ -85,51 +91,47 @@ msgstr "C'est votre tour !"
 
 #: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
 msgid "Board value"
-msgstr ""
+msgstr "Valeur"
 
 #: Move.cpp:18
 msgid "RightDown"
-msgstr ""
+msgstr "Bas à droite"
 
 #: Move.cpp:19
 msgid "LeftDown"
-msgstr ""
+msgstr "Bas à gauche"
 
 #: Move.cpp:21
 msgid "LeftUp"
-msgstr ""
+msgstr "Haut à gauche"
 
 #: Move.cpp:22
 msgid "RightUp"
-msgstr ""
+msgstr "Haut à droite"
 
 #: Move.cpp:35 Move.cpp:42
 msgid "Side"
-msgstr ""
+msgstr "Côté"
 
 #: Move.cpp:49
 msgid "Out"
-msgstr ""
+msgstr "Sorti"
 
 #: Move.cpp:50
 msgid "Push"
-msgstr ""
+msgstr "Pousser"
 
 #: Spy.cpp:21
 msgid "Actual examined position:"
-msgstr ""
+msgstr "Position examinée :"
 
 #: Spy.cpp:46
 msgid "Best move so far:"
-msgstr ""
+msgstr "Meilleur coup jusqu'à présent :"
 
 #: Spy.cpp:75
-#, fuzzy
 msgid "Spion"
-msgstr "Options"
-
-#~ msgid "Move"
-#~ msgstr "Deplacer"
+msgstr "Espion"
 
 #~ msgid "Rules"
 #~ msgstr "Règles"

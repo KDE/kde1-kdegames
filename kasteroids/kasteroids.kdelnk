@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 BinaryPattern=kasteroids;
 Name=Asteroids
+Name[fr]=Astéroïdes
 Name[C]=Asteroids
 Name[pl]=Asteroidy
 Name[no]=Asteroider
@@ -14,6 +15,7 @@ Name[hr]=Asteroidi
 MimeType=
 Exec=kasteroids -caption "%c"
 Comment=A little arcade game
+Comment[fr]=Un petit jeu d'arcade
 Comment[no]=Et lite videospill
 Comment[C]=A little arcade game
 Comment[pl]=Znana gra zrêczno¶ciowa.

@@ -1,6 +1,7 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Poker
+Name[fr]=Poker
 Name[fi]=Pokeri
 Name[no]=Poker
 Name[pt]=Poker
@@ -13,6 +14,7 @@ Icon=kpoker.xpm
 Miniicon=kpoker.xpm
 DocPath=kpoker/index.html
 Comment=A simple video poker clone
+Comment[fr]=Un simple clone d'un poker vidéo
 Comment[no]=En enkel videopokerklone
 Comment[de]=Ein einfaches Videopoker-Spiel
 Comment[pl]=Prosta odmiana pokera.

@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Snake Race
 Icon=ksnake.xpm
+Name[fr]=Le serpent
 Name[de]=Schlangen-Rennen
 Name[no]=Slangeløp
 Name[pl]=W±¿
@@ -14,6 +15,7 @@ Name[hr]=Utrka zmija
 Exec=ksnake -caption "%c"
 DocPath=ksnake/index.html
 Comment=Eat all items before the computer
+Comment[fr]=Mangez tout avant l'ordinateur !
 Comment[de]=Friss alles, bevor es der Rechner tut!
 Comment[no]=Spis alt før datamaskinen
 Comment[pl]=Zjedz wszystkie owoce, zanim to zrobi komputer.

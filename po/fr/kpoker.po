@@ -6,6 +6,8 @@ msgstr ""
 "From: Jochen Tuchbreiter,,, <whynot@schnecke>\n"
 "Xgettext-Options: -C -ktranslate\n"
 "Files: kpaint.cpp kpoker.cpp main.cpp top.cpp\n"
+"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"Language-Team: Français\n"
 
 #: kpoker.cpp:98
 msgid "Draw !"
@@ -13,7 +15,7 @@ msgstr "Donner !"
 
 #: kpoker.cpp:125
 msgid "Click a card to hold it"
-msgstr "Cliquer sur une carte pour la tenir"
+msgstr "Cliquez sur une carte pour la tenir"
 
 #: kpoker.cpp:146
 msgid "Held"
@@ -21,11 +23,11 @@ msgstr "Tenu"
 
 #: kpoker.cpp:185
 msgid "draw new cards"
-msgstr "donner de nouvelles cartes"
+msgstr "Donner de nouvelles cartes"
 
 #: kpoker.cpp:186 kpoker.cpp:187
 msgid "your last hand"
-msgstr "Votre dernière poignée"
+msgstr "Votre dernière main"
 
 #: kpoker.cpp:188 kpoker.cpp:189
 msgid "money left"
@@ -41,7 +43,7 @@ msgstr "Liquide"
 
 #: kpoker.cpp:402
 msgid "Last Hand"
-msgstr "Dernière poignée"
+msgstr "Dernière main"
 
 #: kpoker.cpp:513
 msgid "One Pair"
@@ -53,7 +55,7 @@ msgstr "Deux paires"
 
 #: kpoker.cpp:515
 msgid "3 of a kind"
-msgstr "3 d'un type"
+msgstr "Trois d'un même type"
 
 #: kpoker.cpp:516
 msgid "Full House"
@@ -61,7 +63,7 @@ msgstr "Full House"
 
 #: kpoker.cpp:517
 msgid "4 of a kind"
-msgstr "4 d'un type"
+msgstr "Quatre d'un même type"
 
 #: kpoker.cpp:518
 msgid "Straight"
@@ -81,15 +83,15 @@ msgstr "Flush Royal"
 
 #: kpoker.cpp:530
 msgid "You Lost"
-msgstr "Vous perdez"
+msgstr "Vous avez perdu !"
 
 #: kpoker.cpp:531
 msgid ""
 "Oops - you went bankrupt.\n"
 "A highscoretable will appear over here later..."
 msgstr ""
-"Oops - vous venez de subir la faillite.\n"
-"Une table des meilleurs résultats vas apparaitre..."
+"Oops - vous venez de faire faillite.\n"
+"La table des meilleurs résultats va apparaître..."
 
 #: kpoker.cpp:532
 msgid "New game"
@@ -101,7 +103,7 @@ msgstr "Vous gagnez $"
 
 #: kpoker.cpp:616
 msgid "Game Over"
-msgstr "Fin"
+msgstr "Fin de la partie"
 
 #: top.cpp:64
 msgid "&New game"
@@ -114,7 +116,6 @@ msgstr "&Sons"
 #~ msgid "&About..."
 #~ msgstr "Au &sujet de..."
 
-#, fuzzy
 #~ msgid "About &Qt..."
 #~ msgstr "Au &sujet de..."
 

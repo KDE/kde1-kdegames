@@ -2,17 +2,16 @@
 # Copyright (C) YEAR Free Software Foundation, Inc.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
-#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "POT-Creation-Date: 1998-05-30 17:49+0200\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=CHARSET\n"
 "Content-Transfer-Encoding: ENCODING\n"
+"Last-Translator: Serge \"sergio\" Tellène <tells@mygale.org>\n"
+"Language-Team: Français\n"
 
 #: toplevel.cpp:98
 msgid "Score"
@@ -28,11 +27,11 @@ msgstr "Vaisseaux"
 
 #: toplevel.cpp:317
 msgid "Press Enter to launch."
-msgstr "Appuyer sur ENTER pour lancement."
+msgstr "Appuyez sur Entrée pour commencer"
 
 #: toplevel.cpp:336
 msgid "Ship Destroyed.  Press Enter to launch."
-msgstr "Vaiseau détruit. Appuyer sur enter pour lancement."
+msgstr "Votre vaisseau a été détruit. Appuyez sur Entrée pour le relancer"
 
 #: toplevel.cpp:340
 msgid "KAsteriods"
@@ -40,9 +39,8 @@ msgstr "KAsteroids"
 
 #: toplevel.cpp:341
 msgid "Game Over!"
-msgstr "Fin!"
+msgstr "Fin de la partie !"
 
-#, fuzzy
 #~ msgid "&About..."
 #~ msgstr "Au &sujet de"
 

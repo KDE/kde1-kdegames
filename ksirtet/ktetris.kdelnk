@@ -1,6 +1,7 @@
 # KDE Config File 
 [KDE Desktop Entry]
 Name=Tetris
+Name[fr]=Tetris
 Name[hu]=Tetrisz
 Name[no]=Tetris
 Name[sk]=Tetris
@@ -11,6 +12,7 @@ Exec=ktetris -caption "%c" %i %m
 Type=Application
 DocPath=ktetris/index.html
 Comment=One more Tetris game
+Comment[fr]=Un Tetris de plus
 Comment[de]=Ein weiteres Tetris-Spiel
 Comment[no]=Enda et Tetris-spill
 Comment[pl]=Jeszcze jedna wersja Tetrisa.
