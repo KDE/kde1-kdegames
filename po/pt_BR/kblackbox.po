@@ -31,9 +31,8 @@ msgid "&Give up"
 msgstr "&Desistir"
 
 #: kbbgame.cpp:83
-#, fuzzy
 msgid "&Done"
-msgstr "Feito"
+msgstr "&Feito"
 
 #: kbbgame.cpp:85
 msgid "&Resize"
@@ -52,14 +51,12 @@ msgid "&Tutorial"
 msgstr "&Tutorial"
 
 #: kbbgame.cpp:170
-#, fuzzy
 msgid "New"
-msgstr "&Novo"
+msgstr "Novo"
 
 #: kbbgame.cpp:172
-#, fuzzy
 msgid "Give up"
-msgstr "&Desistir"
+msgstr "Desistir"
 
 #: kbbgame.cpp:174
 msgid "Done"
@@ -109,21 +106,19 @@ msgstr "D'accord"
 
 #: kbbgame.cpp:562 kbbgame.cpp:565
 msgid "Run"
-msgstr ""
+msgstr "Executar"
 
 #: kbbgame.cpp:569
-#, fuzzy
 msgid "Size"
-msgstr "&Tamanho"
+msgstr "Tamanho"
 
 #: kbbgame.cpp:572
 msgid "Placed"
-msgstr ""
+msgstr "Colocado"
 
 #: kbbgame.cpp:585
-#, fuzzy
 msgid "Score"
-msgstr " Escore %4d"
+msgstr "Escore"
 
 #: kbbgame.cpp:600 kbbgame.cpp:627
 msgid "This will be the end of the current game!"
