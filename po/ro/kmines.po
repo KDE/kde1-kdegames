@@ -1,0 +1,159 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kmines\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
+
+#: main.cpp:22 main.cpp:34 main.cpp:53
+msgid "New game"
+msgstr "Joc Nou"
+
+#: main.cpp:23 main.cpp:35 main.cpp:54
+msgid "Pause game"
+msgstr "Pausã in joc"
+
+#: main.cpp:26 main.cpp:38 main.cpp:56
+msgid "High scores"
+msgstr "Scorul"
+
+#: main.cpp:27
+msgid "Close dialog"
+msgstr "Îchide dialogul"
+
+#: main.cpp:28
+msgid "Ok dialog"
+msgstr "OK-Dialog"
+
+#: main.cpp:29
+msgid "Cancel dialog"
+msgstr "Întrerupe-Dialogul"
+
+#: main.cpp:51 main.cpp:162
+msgid "Hide menu bar"
+msgstr "Ascunde menu bar"
+
+#: main.cpp:61
+msgid "? mark"
+msgstr "?-Marcarea"
+
+#: main.cpp:62
+msgid "Keys"
+msgstr "Taste"
+
+#: main.cpp:65
+msgid "Easy"
+msgstr "Uºor"
+
+#: main.cpp:67
+msgid "Expert"
+msgstr "Expert"
+
+#: main.cpp:69
+msgid "Custom"
+msgstr "Proprii"
+
+#: main.cpp:75
+msgid "About..."
+msgstr "Despre..."
+
+#: main.cpp:80
+msgid "Level"
+msgstr "Level"
+
+#: main.cpp:100
+#, c-format
+msgid ""
+"%s (%s) \n"
+"\n"
+"by Nicolas HADACEK  (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+msgstr ""
+"%s (%s) \n"
+"\n"
+"von Nicolas HADACEK  (hadacek@kde.org)\n"
+" http://www.via.ecp.fr/~hadacek/KDE/kmines.html"
+
+#: main.cpp:102
+msgid "kmines : About"
+msgstr "kmines : Despre"
+
+#: main.cpp:159
+msgid "Show menu bar"
+msgstr "Arata menu bar"
+
+#: dialogs.cpp:342 status.cpp:117
+msgid "Anonymous"
+msgstr "Anonim"
+
+#: status.cpp:251
+msgid "You did it ... but not in time."
+msgstr "Ai reuºit ... dar nu la timp."
+
+#: status.cpp:252
+msgid "Yeeessss !"
+msgstr "Daaaaaaa!"
+
+#: status.cpp:255
+msgid "Bad luck !"
+msgstr "Ghinion!"
+
+#: status.cpp:301
+msgid "Highscore file is not writable !"
+msgstr "In fiºierul Highscore nu se poate scrie !"
+
+#: status.cpp:316
+msgid "kmines : Error"
+msgstr "kmines : Eroare"
+
+#: field.cpp:87 field.cpp:94
+msgid "Game paused"
+msgstr "Pausã in joc"
+
+#: field.cpp:90 field.cpp:96
+msgid "Press to resume"
+msgstr "Pentru continuare apasã o tastã"
+
+#: dialogs.cpp:97
+msgid "Custom Level"
+msgstr "Level propriu"
+
+#: dialogs.cpp:108 dialogs.cpp:124
+msgid "Width :"
+msgstr "Lãþime :"
+
+#: dialogs.cpp:109 dialogs.cpp:136
+msgid "Height :"
+msgstr "Înalþime :"
+
+#: dialogs.cpp:110 dialogs.cpp:148
+msgid "Mines :"
+msgstr "Mine :"
+
+#: dialogs.cpp:222
+msgid "High Scores"
+msgstr "Highscores"
+
+#: dialogs.cpp:232 dialogs.cpp:295
+msgid "in"
+msgstr "in"
+
+#: dialogs.cpp:233 dialogs.cpp:306
+msgid "minutes and "
+msgstr "Minute ºi "
+
+#: dialogs.cpp:234 dialogs.cpp:319
+msgid "seconds."
+msgstr "Secunde."
+
+#: dialogs.cpp:251 dialogs.cpp:261
+msgid "Hall of Fame"
+msgstr "Hall of Fame"
+
+#: dialogs.cpp:365 dialogs.cpp:379
+msgid "Uncertain (?) mark"
+msgstr "Marcare (?) nesigurã "
+
+#: dialogs.cpp:424
+msgid "Try again"
+msgstr "Probeazã încã o datã"

@@ -1,0 +1,133 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: kabalone\n"
+"POT-Creation-Date: 1998-01-25 13:24+0100\n"
+"Last-Translator: Vatafu Valerica <wally@chuck.tlnet.de>\n"
+
+#: AbTop.cpp:240 AbTop.cpp:399
+msgid "Move"
+msgstr "Miºcare"
+
+#: AbTop.cpp:243 AbTop.cpp:403
+msgid "Press F2 for a new game"
+msgstr "F2 pentru un joc nou"
+
+#: AbTop.cpp:261 AbTop.cpp:301
+msgid "Stop Search"
+msgstr "întrerupe cãutarea"
+
+#: AbTop.cpp:266 AbTop.cpp:305
+msgid "Take back"
+msgstr "Ia înapoi"
+
+#: AbTop.cpp:271 AbTop.cpp:307
+msgid "Hint"
+msgstr "Ofertã"
+
+#: AbTop.cpp:276 AbTop.cpp:352
+msgid "Rules"
+msgstr "Reguli de joc"
+
+#: AbTop.cpp:296
+msgid "Save Position"
+msgstr "Salveazã poziþia"
+
+#: AbTop.cpp:298
+msgid "Restore Position"
+msgstr "Restaureazã poziþia"
+
+#: AbTop.cpp:315
+msgid "Easy"
+msgstr "Uºor"
+
+#: AbTop.cpp:319
+msgid "Hard"
+msgstr "Greu"
+
+#: AbTop.cpp:321
+msgid "Challange"
+msgstr "Provocare"
+
+#: AbTop.cpp:327 AbTop.cpp:407 AbTop.cpp:411
+msgid "Red"
+msgstr "Roºu"
+
+#: AbTop.cpp:329 AbTop.cpp:407 AbTop.cpp:411
+msgid "Yellow"
+msgstr "Galben"
+
+#: AbTop.cpp:331
+msgid "Both"
+msgstr "Amundouã pãrþile"
+
+#: AbTop.cpp:337
+msgid "Level"
+msgstr "Level"
+
+#: AbTop.cpp:338
+msgid "Computer plays"
+msgstr "Computer-ul joacã"
+
+#: AbTop.cpp:340
+msgid "Move slow"
+msgstr "Miºcã incet"
+
+#: AbTop.cpp:342
+msgid "Spy"
+msgstr "Spion"
+
+#: AbTop.cpp:408
+msgid "won"
+msgstr "a cîºtigat"
+
+#: AbTop.cpp:412
+msgid "I am thinking..."
+msgstr "Gîndesc..."
+
+#: AbTop.cpp:413
+msgid "It's your turn !"
+msgstr "Tu eºti la rînd !"
+
+#: BoardWidget.cpp:512 BoardWidget.cpp:541 BoardWidget.cpp:576
+msgid "Board value"
+msgstr "Valorificare"
+
+#: Move.cpp:18
+msgid "RightDown"
+msgstr "DreaptaJos"
+
+#: Move.cpp:19
+msgid "LeftDown"
+msgstr "StîngaJos"
+
+#: Move.cpp:21
+msgid "LeftUp"
+msgstr "StîngaSus"
+
+#: Move.cpp:22
+msgid "RightUp"
+msgstr "DreaptaSus"
+
+#: Move.cpp:35 Move.cpp:42
+msgid "Side"
+msgstr "Pe o parte"
+
+#: Move.cpp:49
+msgid "Out"
+msgstr "Afarã"
+
+#: Move.cpp:50
+msgid "Push"
+msgstr "împinge"
+
+#: Spy.cpp:21
+msgid "Actual examined position:"
+msgstr "Examinarea poziþiei actuele:"
+
+#: Spy.cpp:46
+msgid "Best move so far:"
+msgstr "Cea mai buna miºcare pîna acum:"
+
+#: Spy.cpp:75
+msgid "Spion"
+msgstr "Spion"
