@@ -76,7 +76,7 @@ ScoreDialog::ScoreDialog(QWidget *parent, const char *name)
 	}
 
 	QPushButton *ok;
-	ok = new QPushButton("OK", this);
+	ok = new QPushButton(i18n("OK"), this);
 	ok->setGeometry(85, yd+20, 70, 30);
 	ok->setDefault(true);
 	connect(ok, SIGNAL(clicked()), SLOT(accept()));
