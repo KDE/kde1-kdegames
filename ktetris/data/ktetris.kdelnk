@@ -1,0 +1,25 @@
+# KDE Config File 
+[KDE Desktop Entry]
+Name=Tetris
+Name[fr]=Tetris
+Name[hu]=Tetrisz
+Name[no]=Tetris
+Name[sk]=Tetris
+Name[cs]=Tetris
+Name[hr]=Tetris
+Icon=ktetris.xpm
+Exec=ktetris -caption "%c" %i %m
+Type=Application
+DocPath=ktetris/index.html
+Comment=One more Tetris game
+Comment[fr]=Un Tetris de plus
+Comment[de]=Ein weiteres Tetris-Spiel
+Comment[no]=Enda et Tetris-spill
+Comment[pl]=Jeszcze jedna wersja Tetrisa.
+Comment[fi]=Yksi Tetrispeli lisää
+Comment[hu]=Mégegy Tetrisz játék
+Comment[pt]=Outro jogo de Tetris
+Comment[sk]=Ïal¹ia tetrisová hra
+Comment[cs]=Dal¹í tetrisová hra
+Comment[hr]=Jo¹ jedna igra tetrisa
+
