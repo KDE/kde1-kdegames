@@ -3,6 +3,7 @@
 BinaryPattern=kasteroids;
 Name=Asteroids
 Name[cs]=Asteroidy
+Name[da]=Asteroider
 Name[es]=Asteroides
 Name[fi]=Asteroidit
 Name[fr]=Astéroïdes
@@ -22,6 +23,7 @@ MimeType=
 Exec=kasteroids -caption "%c"
 Comment=A little arcade game
 Comment[cs]=Malá dobrodru¾ná hra
+Comment[da]=Et lille arkadespil
 Comment[de]=Ein bekanntes Ballerspiel
 Comment[es]=Un pequeño juego arcade
 Comment[fi]=Pieni pelihallipeli

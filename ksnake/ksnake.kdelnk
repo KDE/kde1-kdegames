@@ -2,6 +2,7 @@
 [KDE Desktop Entry]
 Name=Snake Race
 Name[cs]=Závod hadù
+Name[da]=Slangeløb
 Name[de]=Schlangen-Rennen
 Name[es]=Serpiente
 Name[fi]=Käärmeralli
@@ -22,6 +23,7 @@ Exec=ksnake -caption "%c"
 DocPath=ksnake/index.html
 Comment=Eat all items before the computer
 Comment[cs]=Snìz v¹echny pøedmìty døív ne¾ poèítaè
+Comment[da]=Spis det hele før maskinen
 Comment[de]=Friss alles, bevor es der Rechner tut!
 Comment[es]=Cómalo todo antes que la computadora
 Comment[fi]=Syö kaikki palikat ennen tietokonetta

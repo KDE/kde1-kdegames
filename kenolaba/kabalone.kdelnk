@@ -7,6 +7,7 @@ Exec=kabalone -caption "%c"
 DocPath=kabalone/index.html
 Comment=Play Abalone against computer
 Comment[cs]=Hraj Abalone proti poèítaèi
+Comment[da]=Spil abalone mod maskinen
 Comment[de]=Abalone gegen den Computer
 Comment[es]=Juege al Abalone contra la computadora
 Comment[fi]=Pelaa Abalonea tietokonetta vastaan

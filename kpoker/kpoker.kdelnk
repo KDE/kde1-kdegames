@@ -11,6 +11,7 @@ Miniicon=kpoker.xpm
 DocPath=kpoker/index.html
 Comment=A simple video poker clone
 Comment[cs]=Jednoduchý klon video-pokru
+Comment[da]=En simpel videopokerklon
 Comment[de]=Ein einfaches Videopoker-Spiel
 Comment[es]=Un simple clónico de video-poker
 Comment[fi]=Yksinkertainen videopokerin kopio
