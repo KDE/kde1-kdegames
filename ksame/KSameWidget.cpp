@@ -31,6 +31,9 @@
 #include <kiconloader.h>
 #include "StoneWidget.h"
 #include "ScoreWidget.h"
+
+#include "version.h"
+
 //#include "KSameWidget.h"
 #include "KSameWidget.moc"
 #include <qpopmenu.h> 
@@ -73,11 +76,12 @@ KSameWidget::KSameWidget() {
   menu->insertItem("Options",optionsmenu);
   menu->insertSeparator();
 
-  QPopupMenu *helpmenu=new QPopupMenu;
-  helpmenu->insertItem("Rules",this, SLOT(m_help()));
-  helpmenu->insertSeparator();
-  helpmenu->insertItem("About KSame",this, SLOT(m_about())); 
-  menu->insertItem("Help",helpmenu);
+
+  QPopupMenu *help = kapp->getHelpMenu(true, QString(i18n("SameGame"))
+                                         + " " + KSAME_VERSION
+                                         + i18n("\n\nby Marcus Kreutzberger")
+                                         + " (kreutzbe@informatik.mu-luebeck.de)");  
+  menu->insertItem("Help",help);
 
   setMenu(menu);
   
@@ -156,16 +160,6 @@ void KSameWidget::m_tglboard() {
 void KSameWidget::m_tglmultispin() {
     stone->setMultiSpin(!stone->getMultiSpin());
     optionsmenu->setItemChecked(multispin_item, stone->getMultiSpin());
-}
-void KSameWidget::m_help() {
-    //  debug("menu help not supported");
-  kapp->invokeHTMLHelp("ksame/index.html","");
-
-}
-void KSameWidget::m_about() {
-  KMsgBox::message(stone, "ksame - About", 
-		   "ksame\nby\nkreutzbe@informatik.mu-luebeck.de", 
-		   KMsgBox::INFORMATION);
 }
 
 void KSameWidget::gameover(int score) {

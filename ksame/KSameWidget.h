@@ -58,9 +58,6 @@ public slots:
     void m_colors(int);
     void m_tglboard();
     void m_tglmultispin();
-  /* Help Menu */
-    void m_help();
-    void m_about(); 
     
     void gameover(int);
     void updatescore(int);

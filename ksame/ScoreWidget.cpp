@@ -185,7 +185,8 @@ void StoneWidget::returnpressed() {
       conf->writeEntry(s.sprintf("Name%i",i),Table[i].name);
     }  
     conf->sync();
-    delete edit;
+    if (edit)
+        delete edit;
     edit=0;    
     score=0;
   }
