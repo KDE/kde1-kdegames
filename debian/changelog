@@ -1,0 +1,185 @@
+kdegames (2:980310-2) frozen; urgency=low
+
+  * new compile cycle with qt-1.33 and libstc++-2.8
+
+ -- Stephan Kulow <coolo@kde.org>  Tue, 24 Mar 1998 20:28:34 +0100
+
+kdegames (2:980310-1) experimental; urgency=low
+
+  * increased epoche
+
+ -- Stephan Kulow <coolo@kde.org>  Tue, 10 Mar 1998 20:37:20 +0100
+
+kdegames (980310-1) experimental; urgency=low
+
+  * changed README notice
+  * New upstream release
+
+ -- Stephan Kulow <coolo@kde.org>  Tue, 10 Mar 1998 20:29:22 +0100
+
+kdegames (980228-1) experimental; urgency=low
+
+  * made bindir to kde_bindir
+  * changed bindir to /usr/games
+  * changed section to contrib
+  * New upstream release
+
+ -- Stephan Kulow <coolo@kde.org>  Sat, 28 Feb 1998 22:36:27 +0100
+
+kdegames (980227-1) experimental; urgency=low
+
+  * fixed rules file
+  * changed maintainer field
+  * New upstream release
+
+ -- Stephan Kulow <coolo@kde.org>  Sat, 28 Feb 1998 02:03:54 +0100
+
+kdegames (1:Beta2-2.1) experimental; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@debian.org>  Fri,  5 Dec 1997 21:18:16 +0100
+
+kdegames (1:Beta2-2) unstable; urgency=low
+
+  * removed virtual package names.
+
+ -- Andreas Jellinghaus <aj@debian.org>  Sun, 30 Nov 1997 17:05:03 +0100
+
+kdegames (1:Beta2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@debian.org>  Sun, 23 Nov 1997 18:59:30 +0100
+
+kdegames (1:Beta1.2-2) unstable; urgency=low
+
+  * new compile cycle with bugfixes
+
+ -- Andreas Jellinghaus <aj@debian.org>  Sun,  9 Nov 1997 19:46:23 +0100
+
+kdegames (1:Beta1.2-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Mon, 27 Oct 1997 11:43:21 +0100
+
+kdegames (1:Beta1.1-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Mon, 20 Oct 1997 11:46:00 +0200
+
+kdegames (971019-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Sun, 19 Oct 1997 16:08:30 +0200
+
+kdegames (971013-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Mon, 13 Oct 1997 08:26:28 +0200
+
+kdegames (971009-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Thu,  9 Oct 1997 10:55:21 +0200
+
+kdegames (971008-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Wed,  8 Oct 1997 10:11:29 +0200
+
+kdegames (971006-2) unstable; urgency=low
+
+  * daily recompile of everything.
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Tue,  7 Oct 1997 12:09:00 +0200
+
+kdegames (971006-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Mon,  6 Oct 1997 09:27:43 +0200
+
+kdegames (971005-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Sun,  5 Oct 1997 17:35:44 +0200
+
+kdegames (971003-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Fri,  3 Oct 1997 08:28:31 +0200
+
+kdegames (971002-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Thu,  2 Oct 1997 08:55:37 +0200
+
+kdegames (970930-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Tue, 30 Sep 1997 11:42:58 +0200
+
+kdegames (970929-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Mon, 29 Sep 1997 09:43:07 +0200
+
+kdegames (970926-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Fri, 26 Sep 1997 08:11:13 +0200
+
+kdegames (970923-4) unstable; urgency=low
+
+  * daily recompile of everything.
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Thu, 25 Sep 1997 09:05:39 +0200
+
+kdegames (970923-3) unstable; urgency=low
+
+  * new use kderules.
+  * daily recompile of everything.
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Wed, 24 Sep 1997 11:07:21 +0200
+
+kdegames (970923-2) unstable; urgency=low
+
+  * daily recompile of everything.
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Wed, 24 Sep 1997 09:29:54 +0200
+
+kdegames (970923-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Tue, 23 Sep 1997 08:43:44 +0200
+
+kdegames (970921-1) unstable; urgency=low
+
+  * New upstream release
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Sun, 21 Sep 1997 13:53:35 +0200
+
+kdegames (970920-1) unstable; urgency=low
+
+  * Initial Release.
+
+ -- Andreas Jellinghaus <aj@dungeon.inka.de>  Sat, 20 Sep 1997 15:10:11 +0200
+
+Local variables:
+mode: debian-changelog
+add-log-mailing-address: "aj@dungeon.inka.de"
+End:
