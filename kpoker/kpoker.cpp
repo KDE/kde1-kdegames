@@ -593,5 +593,5 @@ void kpok::showAboutBox()
 
 void kpok::help()
 {
-	KApplication::getKApplication()->invokeHTMLHelp("kpoker/kpoker.html", "");
+	KApplication::getKApplication()->invokeHTMLHelp("", "");
 }
