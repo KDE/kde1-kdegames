@@ -91,7 +91,8 @@ HighScore::paintEvent ( QPaintEvent * ) {
      ok->move((w-ok->width())/2,h);
      h+=ok->height();
      h+=10;
-     resize(w,h);
+     // coolo: don't call resize
+     // resize(w,h);
 }
 
 void 
