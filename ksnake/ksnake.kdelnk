@@ -1,6 +1,7 @@
 # KDE Config File
 [KDE Desktop Entry]
 Name=Snake Race
+Icon=ksnake.xpm
 Name[de]=Schlangen-Rennen
 Name[pl]=W±¿
 Exec=ksnake

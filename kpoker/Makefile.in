@@ -32,6 +32,7 @@ INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 prefix = @prefix@
 BINDIR = $(prefix)/bin
 ICONDIR = $(prefix)/share/icons
+MINIDIR = $(prefix)/share/icons
 APPSDIR = $(prefix)/share/applnk/Games
 
 
@@ -72,7 +73,10 @@ install: all
 	$(INSTALL_DIR) $(BINDIR)
 	$(INSTALL) $(TARGET) $(BINDIR)
 	(cd bitmaps && $(MAKE) install)
+	$(INSTALL_DIR) $(ICONDIR)
 	$(INSTALL_DATA) kpoker.xpm $(ICONDIR)
+	$(INSTALL_DIR) $(MINIDIR)
+	$(INSTALL_DATA) mini-kpoker.xpm $(MINIDIR)/mini-kpoker.xpm
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) kpoker.kdelnk $(APPSDIR)
 	(cd docs && $(MAKE) install)
@@ -81,6 +85,8 @@ install: all
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	rm -f $(APPSDIR)/Games/kpoker.kdelnk
+	rm -f $(ICONDIR)/kpoker.xpm
+	rm -f $(MINIDIR)/kpoker.xpm
 	(cd bitmaps && $(MAKE) uninstall)
 	(cd docs && $(MAKE) uninstall)
 	(cd sounds && $(MAKE) uninstall)	

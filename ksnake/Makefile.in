@@ -30,6 +30,8 @@ INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 
 prefix = @prefix@
 BINDIR = $(prefix)/bin
+ICONDIR = $(prefix)/share/icons
+MINIDIR = $(prefix)/share/icons/mini
 APPSDIR = $(prefix)/share/applnk/Games
 
 ########### File Formats ###########
@@ -93,12 +95,18 @@ install: all
 	$(INSTALL) $(TARGET) $(BINDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) ksnake.kdelnk $(APPSDIR)
+	$(INSTALL_DIR) $(ICONDIR)
+	$(INSTALL_DATA) ksnake.xpm $(ICONDIR)
+	$(INSTALL_DIR) $(MINIDIR)
+	$(INSTALL_DATA) mini-ksnake.xpm $(MINIDIR)/ksnake.xpm
 	(cd doc && $(MAKE) install)
 	(cd data && $(MAKE) install)
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	rm -f $(APPSDIR)/ksnake.kdelnk
+	rm -f $(ICONDIR)/ksnake.xpm
+	rm -f $(MINIDIR)/ksnake.xpm
 	(cd doc && $(MAKE) uninstall)
 	(cd data && $(MAKE) uninstall)
 

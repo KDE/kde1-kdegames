@@ -30,6 +30,8 @@ INSTALL_DIR_PRIVATE = $(install) -d -m 0700
 
 prefix = @prefix@
 BINDIR = $(prefix)/bin
+ICONDIR = $(prefix)/share/icons
+MINIDIR = $(prefix)/share/icons/mini
 DOCDIR = $(prefix)/share/doc/HTML/en/ktetris
 APPSDIR = $(prefix)/share/applnk/Games
 
@@ -75,11 +77,17 @@ install: all
 	$(INSTALL_DATA) $(DOC) $(DOCDIR)
 	$(INSTALL_DIR) $(APPSDIR)
 	$(INSTALL_DATA) ktetris.kdelnk $(APPSDIR)
+	$(INSTALL_DIR) $(ICONDIR)
+	$(INSTALL_DATA) ktetris.xpm $(ICONDIR)
+	$(INSTALL_DIR) $(MINIDIR)
+	$(INSTALL_DATA) mini-ktetris.xpm $(MINIDIR)/ktetris.xpm
 
 uninstall:
 	rm -f $(BINDIR)/$(TARGET)
 	rm -f $(DOCSDIR)/$(DOC)
 	rm -f $(APPSDIR)/ktetris.kdelnk
+	rm -f $(ICONDIR)/ktetris.xpm
+	rm -f $(MINIDIR)/ktetris.xpm
 
 # DO NOT DELETE THIS LINE -- make depend depends on it.
 
