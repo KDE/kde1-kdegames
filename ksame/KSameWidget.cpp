@@ -47,20 +47,20 @@ KSameWidget::KSameWidget() {
 
   QPopupMenu *gamemenu=new QPopupMenu;
   gamemenu->setAccel(CTRL+Key_N,
-		     gamemenu->insertItem(i18n("New"),this, SLOT(m_new())));
+		     gamemenu->insertItem(i18n("&New"),this, SLOT(m_new())));
   gamemenu->setAccel(CTRL+Key_L,
-		     gamemenu->insertItem(i18n("Open"),this, SLOT(m_load())));
+		     gamemenu->insertItem(i18n("&Open"),this, SLOT(m_load())));
   gamemenu->setAccel(CTRL+Key_S,
-		     gamemenu->insertItem(i18n("Save"),this, SLOT(m_save())));
+		     gamemenu->insertItem(i18n("&Save"),this, SLOT(m_save())));
   gamemenu->insertSeparator();
   gamemenu->setAccel(CTRL+Key_H,
-		     gamemenu->insertItem(i18n("Show Highscore"),this, SLOT(m_showhs())));
+		     gamemenu->insertItem(i18n("S&how Highscore"),this, SLOT(m_showhs())));
   gamemenu->insertSeparator();
   gamemenu->setAccel(CTRL+Key_Q,
-		     gamemenu->insertItem(i18n("Quit"),this, SLOT(m_quit())));
+		     gamemenu->insertItem(i18n("&Quit"),this, SLOT(m_quit())));
 
 
-  menu->insertItem(i18n("Game"),gamemenu);
+  menu->insertItem(i18n("&Game"),gamemenu);
   menu->insertSeparator();
   optionsmenu = new QPopupMenu;
   optionsmenu->setCheckable(true);
@@ -73,9 +73,9 @@ KSameWidget::KSameWidget() {
   connect (colorsmenu, SIGNAL (activated (int)), SLOT (m_colors(int)));
   //  optionsmenu->insertItem(i18n("Colors"),colorsmenu);
 
-  random_item = optionsmenu->insertItem(i18n("Random Board"),this, SLOT(m_tglboard()));
+  random_item = optionsmenu->insertItem(i18n("&Random Board"),this, SLOT(m_tglboard()));
   optionsmenu->setAccel(CTRL+Key_R,random_item);
-  menu->insertItem(i18n("Options"),optionsmenu);
+  menu->insertItem(i18n("&Options"),optionsmenu);
   menu->insertSeparator();
 
 
@@ -83,7 +83,7 @@ KSameWidget::KSameWidget() {
 				       " " KSAME_VERSION +
 				       i18n("\n\nby Marcus Kreutzberger"
 				       " (kreutzbe@informatik.mu-luebeck.de)"));
-  menu->insertItem(i18n("Help"),help);
+  menu->insertItem(i18n("&Help"),help);
 
   setMenu(menu);
   
