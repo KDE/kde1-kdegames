@@ -1,45 +1,26 @@
 #include "colors.inc"
+#include "shapes.inc"
 #include "textures.inc"
-#include "finish.inc"
-
-global_settings {
-	assumed_gamma 2.0
-}
+// #include "stones.inc"
 
 camera {
-	orthographic
-	up z*2.5
-	right x*2.5
-	location <0,50,-100>
-	look_at <0,0,0>
+	location        <2,2,-6>
+	up              <0, 1, 0>
+//	right           <4/3, 0, 0>
+	look_at         <0,0,0>
 }
 
-#declare SideView =
-camera {
-	up y
-	right x
-	location <-2,1,-1>
-	look_at <0,0,0>
+object { light_source { <10, 5, -5>  color red 1.1 green 1.1 blue 1.0 } }
+
+#declare Rock =
+mesh {
+ #include "rock.inc"   /* collection of triangle or smooth_triangle data */
 }
 
-//camera { SideView }
-
-light_source {
-	<-100,250,100>
-	color White
-}
-
-// Generate all rotations
-union {
-	sphere {
-		<0,0,0>,1
-		pigment { White_Marble }
-		finish {
-			Dull
-			ambient 0.4
-		}
-	}
-
-	rotate <360*clock,360*clock,30>
+object {
+  Rock
+  texture {  pigment {White}  }
+  scale 1.9
+  rotate <60, 30, 360*clock>
 }
 
