@@ -22,12 +22,12 @@ ScoreWidget.cpp: ScoreWidget.moc
 ScoreWidget.moc: ScoreWidget.h
 	$(MOC) -o ScoreWidget.moc ScoreWidget.h
 
-install-local-data: 
+install-data-local: 
 	$(mkinstalldirs) $(DOCDIR)
 	$(INSTALL) index.html $(DOCDIR)
-	$(INSTALL_DIR) $(APPSDIR)
+	$(mkinstalldirs) $(APPSDIR)
 	$(INSTALL) ksame.kdelnk $(APPSDIR)
-	$(INSTALL_DIR) $(PICSDIR)
+	$(mkinstalldirs) $(PICSDIR)
 	$(INSTALL) stones.bmp $(PICSDIR)
 	$(INSTALL) stones_mask.bmp $(PICSDIR)
 
