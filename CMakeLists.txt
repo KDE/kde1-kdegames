@@ -6,7 +6,6 @@ set(CMAKE_INCLUDE_CURRENT_DIR ON)
 set(CMAKE_BUILD_WITH_INSTALL_RPATH ON)
 
 find_package(KDE1 REQUIRED)
-#find_package(uulib REQUIRED)
 
 add_definitions(-DHAVE_CONFIG_H)
 
@@ -22,6 +21,7 @@ if (CMAKE_COMPILER_IS_GNUCXX)
     set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,--no-undefined")
 endif()
 
+#add_subdirectory(bsd-port)
 #add_subdirectory(kabalone)
 #add_subdirectory(kreversi)
 #add_subdirectory(ksokoban)
@@ -39,3 +39,4 @@ add_subdirectory(ksmiletris)
 add_subdirectory(kmines)
 #add_subdirectory(konquest)
 
+add_subdirectory(po)
