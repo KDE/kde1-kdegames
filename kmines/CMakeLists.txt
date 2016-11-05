@@ -1,3 +1,5 @@
+add_subdirectory(data)
+
 include_directories(
     ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
@@ -22,4 +24,3 @@ target_link_libraries(kmines
 )
 
 install(TARGETS kmines RUNTIME DESTINATION ${KDE1_BINDIR})
-
