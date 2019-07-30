@@ -71,3 +71,5 @@ void StartRoom::loadPixmap(int i)
     pixmap = pixmap.xForm( m );
     picture->setPixmap(pixmap);
 }
+
+#include "startroom.moc"

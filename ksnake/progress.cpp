@@ -26,3 +26,5 @@ void Progress::rewind()
   setBarColor("green1");
   KProgress::setValue(300);
 }
+
+#include "progress.moc"

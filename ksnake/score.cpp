@@ -276,3 +276,5 @@ void ScoreBox::resizeEvent( QResizeEvent * )
 	p+= 30;
     }
 }
+
+#include "score.moc"

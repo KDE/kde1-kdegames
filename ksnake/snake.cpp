@@ -375,3 +375,5 @@ samyState SamySnake::nextMove(int direction)
 
     return ok;
 }
+
+#include "snake.moc"

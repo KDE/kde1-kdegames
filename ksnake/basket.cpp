@@ -91,3 +91,5 @@ Fruits Basket::eaten(int i)
 
     return f;
 }
+
+#include "basket.moc"

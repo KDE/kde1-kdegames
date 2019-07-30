@@ -35,6 +35,6 @@ add_subdirectory(kpat)
 #add_subdirectory(ksame)
 add_subdirectory(kshisen)
 #add_subdirectory(ksirtet)
-#add_subdirectory(ksnake)
+add_subdirectory(ksnake)
 
 add_subdirectory(po)

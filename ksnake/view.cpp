@@ -25,3 +25,5 @@ void View::resizeEvent( QResizeEvent * )
     pg->setGeometry(5, 52, 550, 12);
     rattler->setGeometry(0, 68, rattler->width(), rattler->height());
 }
+
+#include "view.moc"

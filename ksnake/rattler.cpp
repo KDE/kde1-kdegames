@@ -603,3 +603,5 @@ void Rattler::reloadRoomPixmap()
     pix->initRoomPixmap();
     demo();
 }
+
+#include "rattler.moc"

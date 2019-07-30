@@ -190,3 +190,5 @@ void Keys::ok()
 
     accept();
 }
+
+#include "keys.moc"

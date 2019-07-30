@@ -33,9 +33,9 @@ protected:
     PixMap pixmap;
 
     struct Samy {
-	int direction;
+	int direction{};
 	SnakePix pixmap;
-	int index;
+	int index{};
     };
 
     QList<Samy> list;

@@ -324,3 +324,5 @@ int main( int argc, char **argv )
   g.show();
   return a.exec();
 }
+
+#include "game.moc"

@@ -28,3 +28,5 @@ void Trys::set(int i)
   snakes = i;
   repaint();
 }
+
+#include "trys.moc"
