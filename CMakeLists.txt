@@ -23,7 +23,7 @@ endif()
 
 #add_subdirectory(bsd-port)
 add_subdirectory(kabalone)
-#add_subdirectory(kasteroids) # need kdesupport-1.1.2 for that (QwSpriteField.h)
+add_subdirectory(kasteroids) # need kdesupport-1.1.2 for that (QwSpriteField.h)
 add_subdirectory(kblackbox)
 #add_subdirectory(kenolaba) # Apparently this is the old name for kabalone
 add_subdirectory(kmahjongg)
