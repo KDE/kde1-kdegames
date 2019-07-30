@@ -35,8 +35,6 @@ target_link_libraries(ksnake
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
-    ${KDE1_MEDIATOOL}
-    QwSpriteField
 )
 
 install(TARGETS ksnake RUNTIME DESTINATION ${KDE1_BINDIR})
