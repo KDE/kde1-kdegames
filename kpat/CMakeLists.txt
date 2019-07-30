@@ -26,6 +26,10 @@ target_link_libraries(kpat
     ${KDE1_KDEUI}
 )
 
+# If you want to list 52 cards individually, go ahead
+file(GLOB CARDS pics/*.bmp)
+install(FILES ${CARDS} DESTINATION "${KDE1_DATADIR}/kpat/pics")
+
 install(TARGETS kpat RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES kpat.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(kpat.xpm)
