@@ -43,7 +43,7 @@ void myMessageOutput( QtMsgType type, const char *msg ) {
 
 int main( int argc, char **argv ) {
      qInstallMsgHandler( myMessageOutput );
-     KApplication::setColorSpec(QApplication::TrueColor+QApplication::CustomColor);
+     //KApplication::setColorSpec(QApplication::TrueColor+QApplication::CustomColor);
      KApplication a( argc, argv , "ksame");
      
      
