@@ -31,11 +31,12 @@ add_subdirectory(kmines)
 add_subdirectory(konquest)
 add_subdirectory(kpat)
 add_subdirectory(kpoker)
-#add_subdirectory(kreversi)
+add_subdirectory(kreversi)
 add_subdirectory(ksame)
 add_subdirectory(kshisen)
 add_subdirectory(ksirtet)
 add_subdirectory(ksnake)
 add_subdirectory(ksmiletris)
+# add_subdirectory(ksokoban) # build system hell with povray and bin2c and crap
 
 add_subdirectory(po)
