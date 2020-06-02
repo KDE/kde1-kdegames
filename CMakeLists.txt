@@ -9,8 +9,6 @@ find_package(KDE1 REQUIRED)
 
 add_definitions(-DHAVE_CONFIG_H)
 
-include_directories(common)
-
 include(CMakePackageConfigHelpers)
 include(Qt1Macros)
 include(KDE1Macros)
@@ -21,6 +19,9 @@ if (CMAKE_COMPILER_IS_GNUCXX)
     set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -fpermissive -std=c++98")
     set(CMAKE_SHARED_LINKER_FLAGS "${CMAKE_SHARED_LINKER_FLAGS} -Wl,--no-undefined")
 endif()
+
+configure_file(common/config.h.in ${CMAKE_CURRENT_BINARY_DIR}/config.h)
+include_directories(${CMAKE_CURRENT_BINARY_DIR})
 
 #add_subdirectory(bsd-port)
 add_subdirectory(kabalone)
