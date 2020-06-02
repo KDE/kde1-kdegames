@@ -1,5 +1,4 @@
 include_directories (
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
 )
 
@@ -18,4 +17,5 @@ set (QwSpriteField_MOC
 QT1_WRAP_MOC(MOC_FILES ${QwSpriteField_MOC})
 
 add_library(QwSpriteField STATIC ${QwSpriteField_SOURCES} ${MOC_FILES})
+target_link_libraries(QwSpriteField Qt::Qt1)
 

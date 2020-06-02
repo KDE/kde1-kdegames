@@ -1,7 +1,6 @@
 add_subdirectory(data)
 
 include_directories(
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
 )
 
@@ -17,7 +16,7 @@ QT1_WRAP_MOC(MOC_FILES ${KMINES_MOC})
 
 add_executable(kmines ${KMINES_SRCS} ${MOC_FILES})
 target_link_libraries(kmines
-    ${QT_LIBRARIES}
+    Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}

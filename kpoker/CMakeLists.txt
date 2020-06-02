@@ -1,7 +1,6 @@
 add_subdirectory(docs)
 
 include_directories (
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
 )
 
@@ -13,7 +12,7 @@ QT1_WRAP_MOC(MOC_FILES ${Kpoker_MOC})
 
 add_executable(kpoker ${Kpoker_SRCS} ${MOC_FILES} ${QwSpriteField_SOURCES})
 target_link_libraries(kpoker
-    ${QT_LIBRARIES}
+    Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}

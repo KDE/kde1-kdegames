@@ -1,5 +1,4 @@
 include_directories (
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
 )
 
@@ -16,7 +15,7 @@ QT1_WRAP_MOC(MOC_FILES ${Kreversi_MOC})
 
 add_executable(kreversi ${Kreversi_SRCS} ${MOC_FILES} ${QwSpriteField_SOURCES})
 target_link_libraries(kreversi
-    ${QT_LIBRARIES}
+    Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}

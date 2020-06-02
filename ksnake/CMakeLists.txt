@@ -1,7 +1,6 @@
 add_subdirectory(doc)
 
 include_directories (
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
 )
 
@@ -31,7 +30,7 @@ QT1_WRAP_MOC(MOC_FILES ${Ksnake_MOC})
 
 add_executable(ksnake ${Ksnake_SRCS} ${MOC_FILES} ${QwSpriteField_SOURCES})
 target_link_libraries(ksnake
-    ${QT_LIBRARIES}
+    Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}

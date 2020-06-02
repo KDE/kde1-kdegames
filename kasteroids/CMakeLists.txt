@@ -3,7 +3,6 @@ add_subdirectory(html)
 add_subdirectory(QwSpriteField)
 
 include_directories (
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
     QwSpriteField
 )
@@ -20,7 +19,7 @@ QT1_WRAP_MOC(MOC_FILES ${KASTEROIDS_MOC})
 
 add_executable(kasteroids ${KASTEROIDS_SRCS} ${MOC_FILES} ${QwSpriteField_SOURCES})
 target_link_libraries(kasteroids
-    ${QT_LIBRARIES}
+    Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}

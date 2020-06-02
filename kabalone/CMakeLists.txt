@@ -2,7 +2,6 @@ add_subdirectory(html)
 add_subdirectory(toolbar)
 
 include_directories (
-    ${QT_INCLUDE_DIR}
     ${KDE1_INCLUDE_DIR}
 )
 
@@ -14,7 +13,7 @@ QT1_WRAP_MOC(MOC_FILES ${KABALONE_MOC})
 
 add_executable(kabalone ${KABALONE_SRCS} ${MOC_FILES})
 target_link_libraries(kabalone
-    ${QT_LIBRARIES}
+    Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
