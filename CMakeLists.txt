@@ -39,6 +39,6 @@ add_subdirectory(kshisen)
 add_subdirectory(ksirtet)
 add_subdirectory(ksnake)
 add_subdirectory(ksmiletris)
-# add_subdirectory(ksokoban) # build system hell with povray and bin2c and crap
+add_subdirectory(ksokoban) # build system hell with povray and bin2c and crap
 
 add_subdirectory(po)

@@ -1,6 +1,8 @@
 #include <stdio.h>
 #include "HtmlPrinter.H"
 
+#include <cstdlib>
+
 void
 HtmlPrinter::wall (bool up, bool down, bool left, bool right)
 {

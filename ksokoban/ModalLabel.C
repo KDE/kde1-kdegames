@@ -1,4 +1,4 @@
-#include "ModalLabel.H"
+#include "ModalLabel.h"
 
 #include <qlabel.h>
 #include <qfont.h>

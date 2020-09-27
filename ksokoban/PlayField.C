@@ -27,8 +27,8 @@
 #include <kconfig.h>
 #include <kapp.h>
 
-#include "PlayField.H"
-#include "ModalLabel.H"
+#include "PlayField.h"
+#include "ModalLabel.h"
 #include "LowRes.H"
 #include "MedRes.H"
 #include "HiRes.H"

@@ -63,6 +63,5 @@ install(FILES ${SHIP_SPRITES} ${SHIP_MASKS}
     DESTINATION "${KDE1_DATADIR}/kasteroids/sprites/ship")
 install(FILES ${BITS_SPRITES} ${BITS_MASKS}
     DESTINATION "${KDE1_DATADIR}/kasteroids/sprites/bits")
-message("lol ${BITS_SPRITES}")
 
 install(FILES bg.ppm DESTINATION ${KDE1_DATADIR}/kasteroids/sprites)

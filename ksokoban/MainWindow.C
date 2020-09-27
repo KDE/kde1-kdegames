@@ -26,8 +26,8 @@
 #include <qlabel.h>
 #include <assert.h>
 
-#include "MainWindow.H"
-#include "PlayField.H"
+#include "MainWindow.h"
+#include "PlayField.h"
 
 #include "MainWindow.moc"
 
