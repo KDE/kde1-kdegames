@@ -97,6 +97,13 @@ set(ksokoban_MOC
     PlayField.H
 )
 
+set(ksokoban_HTML
+    data/index-1.html
+    data/index-2.html
+    data/index-3.html
+    data/index.html
+    )
+
 QT1_WRAP_MOC(MOC_FILES ${ksokoban_MOC})
 
 add_executable(ksokoban ${ksokoban_SRCS} ${MOC_FILES})
@@ -108,20 +115,6 @@ target_link_libraries(ksokoban
 )
 
 install(TARGETS ksokoban RUNTIME DESTINATION ${KDE1_BINDIR})
-install(FILES ksokoban.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
-install_icon(ksokoban.xpm)
-
-file(GLOB BACKGROUNDS data/backgrounds/*.xpm)
-install(FILES ${BACKGROUNDS}
-    DESTINATION "${KDE1_DATADIR}/ksokoban/backgrounds")
-
-file(GLOB PIXMAPS data/pixmaps/*.xpm)
-install(FILES ${PIXMAPS}
-    DESTINATION "${KDE1_DATADIR}/ksokoban/pics")
-
-install(FILES data/highScores
-    DESTINATION "${KDE1_DATADIR}/ksokoban/")
-
-file(GLOB LEVELS data/levels/room*)
-install(FILES ${LEVELS}
-    DESTINATION "${KDE1_DATADIR}/ksokoban/levels")
+install(FILES data/ksokoban.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
+install_icon(data/ksokoban.xpm)
+install(FILES ${ksokoban_HTML} DESTINATION ${KDE1_HTMLDIR}/en/ksokoban)
