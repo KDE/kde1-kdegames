@@ -24,7 +24,7 @@
 int
 main (int argc, char **argv)
 {
-  QApplication::setColorSpec (QApplication::ManyColor);
+  //QApplication::setColorSpec (QApplication::ManyColor);
   KApplication *app = new KApplication (argc, argv, "ksokoban");
   app->getConfig ()->setGroup ("settings");
 
