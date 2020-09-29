@@ -20,5 +20,5 @@ target_link_libraries(kblackbox
 )
 
 install(TARGETS kblackbox RUNTIME DESTINATION ${KDE1_BINDIR})
-install(FILES kblackbox.kdelnk DESTINATION ${KDE1_DATADIR}/kpanel/default)
+install(FILES kblackbox.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(kblackbox.xpm)

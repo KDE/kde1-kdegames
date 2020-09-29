@@ -27,7 +27,7 @@ target_link_libraries(ksmiletris
 )
 
 install(TARGETS ksmiletris RUNTIME DESTINATION ${KDE1_BINDIR})
-install(FILES ksmiletris.kdelnk DESTINATION ${KDE1_DATADIR}/ksmiletris)
+install(FILES ksmiletris.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 
 install_icon(ksmiletris.xpm "${KDE1_DATADIR}/ksmiletris")
 install(FILES mini-ksmiletris.xpm DESTINATION ${KDE1_MINIDIR} RENAME ksmiletris.xpm)
