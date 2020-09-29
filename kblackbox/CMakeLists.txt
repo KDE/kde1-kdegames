@@ -1,4 +1,4 @@
-#add_subdirectory(doc)
+add_subdirectory(doc)
 add_subdirectory(pics)
 
 include_directories (

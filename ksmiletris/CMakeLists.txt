@@ -32,3 +32,8 @@ install(FILES ksmiletris.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(ksmiletris.xpm "${KDE1_DATADIR}/ksmiletris")
 install(FILES mini-ksmiletris.xpm DESTINATION ${KDE1_MINIDIR} RENAME ksmiletris.xpm)
 install(FILES large-ksmiletris.xpm DESTINATION ${KDE1_ICONDIR}/large RENAME ksmiletris.xpm)
+
+install(FILES
+    doc/en/index.html
+    doc/en/ksmiletris.gif
+DESTINATION ${KDE1_HTMLDIR}/en/ksmiletris)
