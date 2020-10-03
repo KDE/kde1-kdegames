@@ -48,4 +48,4 @@ install(FILES
     html/index-3.html
     html/index-4.html
     html/logotp3.gif
-    DESTINATION ${KDE1_HTMLDIR}/en/ksirtet )
+    DESTINATION ${KDE1_HTMLDIR}/en/kreversi )
