@@ -8,15 +8,15 @@ set(Kshisen_MOC app.moc board.moc)
 
 QT1_WRAP_MOC(MOC_FILES ${Kshisen_MOC})
 
-add_executable(kshisen ${Kshisen_SRCS} ${MOC_FILES})
-target_link_libraries(kshisen
+add_executable(kshisen1 ${Kshisen_SRCS} ${MOC_FILES})
+target_link_libraries(kshisen1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
 )
 
-install(TARGETS kshisen RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kshisen1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES kshisen.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(kshisen-large.xpm)
 

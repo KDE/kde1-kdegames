@@ -8,15 +8,15 @@ set(KMAHJONGG_MOC kmahjongg.moc)
 
 QT1_WRAP_MOC(MOC_FILES ${KMAHJONGG_MOC})
 
-add_executable(kmahjongg ${KMAHJONGG_SRCS} ${MOC_FILES})
-target_link_libraries(kmahjongg
+add_executable(kmahjongg1 ${KMAHJONGG_SRCS} ${MOC_FILES})
+target_link_libraries(kmahjongg1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
 )
 
-install(TARGETS kmahjongg RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kmahjongg1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES kmahjongg.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(kmahjongg.xpm)
 install_icon(kmahjongg.bmp "${KDE1_DATADIR}/kmahjongg/pics")

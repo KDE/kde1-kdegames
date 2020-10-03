@@ -13,8 +13,8 @@ app.moc board.moc about.moc
 
 QT1_WRAP_MOC(MOC_FILES ${Kreversi_MOC})
 
-add_executable(kreversi ${Kreversi_SRCS} ${MOC_FILES} ${QwSpriteField_SOURCES})
-target_link_libraries(kreversi
+add_executable(kreversi1 ${Kreversi_SRCS} ${MOC_FILES} ${QwSpriteField_SOURCES})
+target_link_libraries(kreversi1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
@@ -24,7 +24,7 @@ target_link_libraries(kreversi
 
 add_definitions(-DHAVE_MEDIATOOL)
 
-install(TARGETS kreversi RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kreversi1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES kreversi.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(kreversi.xpm)
 

@@ -17,8 +17,8 @@ set(KPAT_MOC patience.moc computation.moc klondike.moc
 
 QT1_WRAP_MOC(MOC_FILES ${KPAT_MOC})
 
-add_executable(kpat ${KPAT_SRCS} ${MOC_FILES})
-target_link_libraries(kpat
+add_executable(kpat1 ${KPAT_SRCS} ${MOC_FILES})
+target_link_libraries(kpat1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
@@ -29,6 +29,6 @@ target_link_libraries(kpat
 file(GLOB CARDS pics/*.bmp)
 install(FILES ${CARDS} DESTINATION "${KDE1_DATADIR}/kpat/pics")
 
-install(TARGETS kpat RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS kpat1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES kpat.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(kpat.xpm)

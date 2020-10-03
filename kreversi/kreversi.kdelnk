@@ -1,6 +1,6 @@
 # KDE Config File
 [KDE Desktop Entry]
-Exec=kreversi -caption "%c"
+Exec=kreversi1 -caption "%c"
 Name=Reversi
 Name[fr]=Othello
 Name[is]=Viðsnúningur

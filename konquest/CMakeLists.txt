@@ -15,14 +15,14 @@ set(KONQUEST_MOC gameboard.moc gamecore.moc int_validator.moc mainwin.moc
 
 QT1_WRAP_MOC(MOC_FILES ${KONQUEST_MOC})
 
-add_executable(konquest ${KONQUEST_SRCS} ${MOC_FILES})
-target_link_libraries(konquest
+add_executable(konquest1 ${KONQUEST_SRCS} ${MOC_FILES})
+target_link_libraries(konquest1
     Qt::Qt1
     ${X11_LIBRARIES}
     ${KDE1_KDECORE}
     ${KDE1_KDEUI}
 )
 
-install(TARGETS konquest RUNTIME DESTINATION ${KDE1_BINDIR})
+install(TARGETS konquest1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES Konquest.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(konquest.xpm)

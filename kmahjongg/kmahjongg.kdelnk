@@ -2,7 +2,7 @@
 [KDE Desktop Entry]
 Name=Mahjongg
 Name[ja]=¾å³¤
-Exec=kmahjongg -caption "%c"
+Exec=kmahjongg1 -caption "%c"
 Type=Application
 DocPath=kmahjongg/index.html
 Comment=Smart mahjongg game

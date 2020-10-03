@@ -1,6 +1,6 @@
 # KDE Config File
 [KDE Desktop Entry]
-Exec=kshisen
+Exec=kshisen1
 Type=Application
 DocPath=kshisen/index.html
 Name=Shisen-Sho
