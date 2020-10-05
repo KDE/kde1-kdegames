@@ -21,8 +21,8 @@ install(FILES kshisen.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
 install_icon(kshisen.xpm)
 
 install(FILES
-    kshisen.xpm
-    kshisen_bgnd.xpm
+    pics/kshisen.xpm
+    pics/kshisen_bgnd.xpm
     DESTINATION "${KDE1_DATADIR}/kshisen/pics"
 )
 
