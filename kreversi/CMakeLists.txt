@@ -26,19 +26,38 @@ add_definitions(-DHAVE_MEDIATOOL)
 
 install(TARGETS kreversi1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES kreversi.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
-install_icon(kreversi.xpm)
+install_icon(icons/kreversi.xpm)
 
 
-file(GLOB PIXMAPS pics/*.xpm)
-install(FILES ${PIXMAPS}
+install(FILES
+    pics/hint.xpm
+    pics/help.xpm
+    pics/undo.xpm
+    pics/zoomout.xpm
+    pics/zoomin.xpm
+    pics/stop.xpm
+    pics/chips.xpm
+    pics/logo.xpm
+    pics/chips_mono.xpm
     DESTINATION "${KDE1_DATADIR}/kreversi/pics")
 
-file(GLOB BACKGROUNDS pics/background/*.xpm)
-install(FILES ${BACKGROUNDS}
-    DESTINATION "${KDE1_DATADIR}/kreversi/background")
+install(FILES
+    pics/background/Dark_Wood.xpm
+    pics/background/Earth.xpm
+    pics/background/Granite.xpm
+    pics/background/Hexagon.xpm
+    pics/background/Light_Wood.xpm
+    pics/background/Mystique.xpm
+    pics/background/Ocean.xpm
+    pics/background/Pipes.xpm
+    pics/background/Puzzle.xpm
+    pics/background/Stones.xpm
+    DESTINATION "${KDE1_DATADIR}/kreversi/pics/background")
 
-file(GLOB SOUNDS sounds/*.wav)
-install(FILES ${SOUNDS}
+install(FILES
+    sounds/click.wav
+    sounds/lost.wav
+    sounds/won.wav
     DESTINATION "${KDE1_DATADIR}/kreversi/sounds")
 
 install(FILES
