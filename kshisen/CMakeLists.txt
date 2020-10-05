@@ -18,12 +18,13 @@ target_link_libraries(kshisen1
 
 install(TARGETS kshisen1 RUNTIME DESTINATION ${KDE1_BINDIR})
 install(FILES kshisen.kdelnk DESTINATION ${KDE1_APPSDIR}/Games)
-install_icon(kshisen-large.xpm)
+install_icon(kshisen.xpm)
 
-install_icon(pics/kshisen.bmp "${KDE1_DATADIR}/kshisen/pics")
-install_icon(pics/kshisen_bgnd.bmp "${KDE1_DATADIR}/kshisen/pics")
-install_icon(pics/kshisen.xpm "${KDE1_DATADIR}/kshisen/pics")
-install_icon(pics/kshisen_bgnd.xpm "${KDE1_DATADIR}/kshisen/pics")
+install(FILES
+    kshisen.xpm
+    kshisen_bgnd.xpm
+    DESTINATION "${KDE1_DATADIR}/kshisen/pics"
+)
 
 install(FILES
     html/index.html html/index-1.html html/index-2.html html/logotp3.gif
